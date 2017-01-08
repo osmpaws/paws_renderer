@@ -1,0 +1,5 @@
+		<!--biking restrictions-->
+		<rule e="way" k="bike|bicycle" v="no">
+		        <line src="file:/patterns/access_no_bike.png" stroke-width="2.2" />
+			<lineSymbol src="file:/symbols/no_bicycle.png" />
+		</rule>

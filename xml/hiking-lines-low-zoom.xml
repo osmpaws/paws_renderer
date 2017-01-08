@@ -1,0 +1,17 @@
+		<!--KCT#hiking#lines#low#zoom-->
+		<rule e="way" k="kct_blue" v="*" zoom-min="12" zoom-max="13">
+			<line stroke="#FFFFFF" stroke-width="3.7" stroke-linecap="butt" />
+			<line stroke="#1579e0" stroke-width="3.0" stroke-linecap="butt" />
+		</rule>
+		<rule e="way" k="kct_yellow" v="*" zoom-min="12" zoom-max="13">
+			<line stroke="#CCCCCC" stroke-width="4.2" stroke-linecap="butt" />
+			<line stroke="#FFDD00" stroke-width="3.0" stroke-linecap="butt" />
+		</rule>
+		<rule e="way" k="kct_green" v="*" zoom-min="12" zoom-max="13">
+			<line stroke="#FFFFFF" stroke-width="3.7" stroke-linecap="butt" />
+			<line stroke="#00cd27" stroke-width="3.0" stroke-linecap="butt" />
+		</rule>		
+		<rule e="way" k="kct_red" v="*" zoom-min="12" zoom-max="13">
+			<line stroke="#FFFFFF" stroke-width="3.7" stroke-linecap="butt" />
+			<line stroke="#FF0000" stroke-width="3.0" stroke-linecap="butt" />
+		</rule>
