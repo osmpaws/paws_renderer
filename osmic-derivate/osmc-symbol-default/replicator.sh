@@ -9,60 +9,57 @@ osmcorangebg="osmc-symbol-orange.xml"
 osmcyellowbg="osmc-symbol-yellow.xml"
 scalingfactor="osmc-symbol-scale.cfg"
 
+declare -A colors
+colors["black"]="000000"
+colors["blue"]="1579e0"
+colors["brown"]="8b4513"
+colors["green"]="00cd27"
+colors["orange"]="f96f00"
+colors["purple"]="b878dd"
+colors["red"]="ff0000"
+colors["white"]="ffffff"
+colors["yellow"]="ffdd00"
+
 rm -r $target
 mkdir -p $target
 echo "#osmc-symbol" > $svgrules
 echo -n "" > $scalingfactor
 echo "<!--OSMC symbols-->" > $renderrules
-echo '<!--OSMC symbols white background-->
-	<rule e="way" k="osmc_background" v="white" zoom-min="15">' > $osmcwhitebg
-echo '<!--OSMC symbols orange background-->
-	<rule e="way" k="osmc_background" v="orange" zoom-min="15">' > $osmcorangebg
-echo '<!--OSMC symbols yellow background-->
-	<rule e="way" k="osmc_background" v="yellow" zoom-min="15">' > $osmcyellowbg
+#bgclist=("black" "blue" "brown" "green" "orange" "purple" "red" "white" "yellow")
+bgclist="black
+blue
+brown
+green
+orange
+purple
+red
+white
+yellow"
+
+for bgcolor in $bgclist ;
+do
+	echo '<!--OSMC symbols '$bgcolor' background-->
+	<rule e="way" k="osmc_background" v="'$bgcolor'" zoom-min="15">' > "osmc-symbol-$bgcolor.xml"
+done
 
 for file in $defaultname-*.svg;
 do
 	sign=`echo $file | cut -d- -f2- | rev | cut -d- -f2- | rev`
-	for bgcolor in "white" "yellow" "orange";
+	for bgcolor in $bgclist ;
 	do
-		if [ "$bgcolor" = "white" ]; then
-			bgchex="ffffff"
-		elif [ "$bgcolor" = "yellow" ]; then
-			bgchex="ffdd00"
-		elif [ "$bgcolor" = "orange" ]; then
-			bgchex="f96f00"
-		else
-			echo "Bgcolor error!"
-			exit 1
-		fi
+		bgchex=${colors[$bgcolor]}
 		echo "	<rule e=\"way\" k=\"osmc_background\" v=\"$bgcolor\" zoom-min=\"15\">" >> $renderrules
 		
 		for fgcolor in "red" "yellow" "blue" "green" "white" "black";
 		do			
-			if [ "$fgcolor" = "red" ]; then
-				fgchex="ff0000"
-			elif [ "$fgcolor" = "yellow" ]; then
-				fgchex="ffdd00"
-			elif [ "$fgcolor" = "blue" ]; then
-				fgchex="1579e0"
-			elif [ "$fgcolor" = "green" ]; then
-				fgchex="00cd27"
-			elif [ "$fgcolor" = "white" ]; then
-				fgchex="ffffff"
-			elif [ "$fgcolor" = "black" ]; then
-				fgchex="000000"
-			else
-				echo "Fgcolor error!"
-				exit 1
-			fi
-			
+			fgchex=${colors[$fgcolor]}
+						
 			if [ "$fgcolor" = "$bgcolor" ]; then
 				continue
 			fi
-			if [ "$sign" = "wheelchair" ] && [ "$bgcolor" != "white" ] && ([ "$fgcolor" != "black" ] || [ "$fgcolor" != "blue" ] || [ "$fgcolor" != "red" ]); then
+			'''if [ "$sign" = "wheelchair" ] && [ "$bgcolor" != "white" ] && ([ "$fgcolor" != "black" ] || [ "$fgcolor" != "blue" ] || [ "$fgcolor" != "red" ]); then
 				continue
-			fi
+			fi'''
 			newname=`echo $file | sed "s/$defaultname/$bgcolor-$fgcolor/"`
 			sed "s/id=\"$defaultname/id=\"$bgcolor-$fgcolor/" $file > $target/$newname
 			
@@ -92,8 +89,10 @@ do
 	done
 done
 
-echo '	</rule>' >> $osmcwhitebg
-echo '	</rule>' >> $osmcorangebg
-echo '	</rule>' >> $osmcyellowbg
+for bgcolor in $bgclist ;
+do
+	echo '	</rule>' >> "osmc-symbol-$bgcolor.xml"
+done
+
 echo "Icons replicated to $target. $svgrules contains new rules for export in colors. Copy the content to appropriate yaml for export."
 

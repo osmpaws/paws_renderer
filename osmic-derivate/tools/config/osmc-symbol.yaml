@@ -1,4 +1,270 @@
 #osmc-symbol
+black-red-arch:
+  fill: "#ff0000"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-yellow-arch:
+  fill: "#ffdd00"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-blue-arch:
+  fill: "#1579e0"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-green-arch:
+  fill: "#00cd27"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-white-arch:
+  fill: "#ffffff"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-red-arch:
+  fill: "#ff0000"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-yellow-arch:
+  fill: "#ffdd00"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-green-arch:
+  fill: "#00cd27"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-white-arch:
+  fill: "#ffffff"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-black-arch:
+  fill: "#000000"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-red-arch:
+  fill: "#ff0000"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-yellow-arch:
+  fill: "#ffdd00"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-blue-arch:
+  fill: "#1579e0"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-green-arch:
+  fill: "#00cd27"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-white-arch:
+  fill: "#ffffff"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-black-arch:
+  fill: "#000000"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-red-arch:
+  fill: "#ff0000"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-yellow-arch:
+  fill: "#ffdd00"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-blue-arch:
+  fill: "#1579e0"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-white-arch:
+  fill: "#ffffff"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-black-arch:
+  fill: "#000000"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-red-arch:
+  fill: "#ff0000"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-yellow-arch:
+  fill: "#ffdd00"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-blue-arch:
+  fill: "#1579e0"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-green-arch:
+  fill: "#00cd27"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-white-arch:
+  fill: "#ffffff"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-black-arch:
+  fill: "#000000"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-red-arch:
+  fill: "#ff0000"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-yellow-arch:
+  fill: "#ffdd00"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-blue-arch:
+  fill: "#1579e0"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-green-arch:
+  fill: "#00cd27"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-white-arch:
+  fill: "#ffffff"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-black-arch:
+  fill: "#000000"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-yellow-arch:
+  fill: "#ffdd00"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-blue-arch:
+  fill: "#1579e0"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-green-arch:
+  fill: "#00cd27"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-white-arch:
+  fill: "#ffffff"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-black-arch:
+  fill: "#000000"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
 white-red-arch:
   fill: "#ff0000"
   shield:
@@ -69,45 +335,269 @@ yellow-black-arch:
     stroke_fill: "#000000"
     stroke_width: 1    
     padding: 1
-orange-red-arch:
+black-red-backslash:
+  fill: "#ff0000"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-yellow-backslash:
+  fill: "#ffdd00"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-blue-backslash:
+  fill: "#1579e0"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-green-backslash:
+  fill: "#00cd27"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-white-backslash:
+  fill: "#ffffff"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-red-backslash:
+  fill: "#ff0000"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-yellow-backslash:
+  fill: "#ffdd00"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-green-backslash:
+  fill: "#00cd27"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-white-backslash:
+  fill: "#ffffff"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-black-backslash:
+  fill: "#000000"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-red-backslash:
+  fill: "#ff0000"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-yellow-backslash:
+  fill: "#ffdd00"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-blue-backslash:
+  fill: "#1579e0"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-green-backslash:
+  fill: "#00cd27"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-white-backslash:
+  fill: "#ffffff"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-black-backslash:
+  fill: "#000000"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-red-backslash:
+  fill: "#ff0000"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-yellow-backslash:
+  fill: "#ffdd00"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-blue-backslash:
+  fill: "#1579e0"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-white-backslash:
+  fill: "#ffffff"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-black-backslash:
+  fill: "#000000"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-red-backslash:
   fill: "#ff0000"
   shield:
     fill: "#f96f00"
     stroke_fill: "#000000"
     stroke_width: 1    
     padding: 1
-orange-yellow-arch:
+orange-yellow-backslash:
   fill: "#ffdd00"
   shield:
     fill: "#f96f00"
     stroke_fill: "#000000"
     stroke_width: 1    
     padding: 1
-orange-blue-arch:
+orange-blue-backslash:
   fill: "#1579e0"
   shield:
     fill: "#f96f00"
     stroke_fill: "#000000"
     stroke_width: 1    
     padding: 1
-orange-green-arch:
+orange-green-backslash:
   fill: "#00cd27"
   shield:
     fill: "#f96f00"
     stroke_fill: "#000000"
     stroke_width: 1    
     padding: 1
-orange-white-arch:
+orange-white-backslash:
   fill: "#ffffff"
   shield:
     fill: "#f96f00"
     stroke_fill: "#000000"
     stroke_width: 1    
     padding: 1
-orange-black-arch:
+orange-black-backslash:
   fill: "#000000"
   shield:
     fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-red-backslash:
+  fill: "#ff0000"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-yellow-backslash:
+  fill: "#ffdd00"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-blue-backslash:
+  fill: "#1579e0"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-green-backslash:
+  fill: "#00cd27"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-white-backslash:
+  fill: "#ffffff"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-black-backslash:
+  fill: "#000000"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-yellow-backslash:
+  fill: "#ffdd00"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-blue-backslash:
+  fill: "#1579e0"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-green-backslash:
+  fill: "#00cd27"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-white-backslash:
+  fill: "#ffffff"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-black-backslash:
+  fill: "#000000"
+  shield:
+    fill: "#ff0000"
     stroke_fill: "#000000"
     stroke_width: 1    
     padding: 1
@@ -181,45 +671,269 @@ yellow-black-backslash:
     stroke_fill: "#000000"
     stroke_width: 1    
     padding: 1
-orange-red-backslash:
+black-red-bar:
+  fill: "#ff0000"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-yellow-bar:
+  fill: "#ffdd00"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-blue-bar:
+  fill: "#1579e0"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-green-bar:
+  fill: "#00cd27"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-white-bar:
+  fill: "#ffffff"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-red-bar:
+  fill: "#ff0000"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-yellow-bar:
+  fill: "#ffdd00"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-green-bar:
+  fill: "#00cd27"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-white-bar:
+  fill: "#ffffff"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-black-bar:
+  fill: "#000000"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-red-bar:
+  fill: "#ff0000"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-yellow-bar:
+  fill: "#ffdd00"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-blue-bar:
+  fill: "#1579e0"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-green-bar:
+  fill: "#00cd27"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-white-bar:
+  fill: "#ffffff"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-black-bar:
+  fill: "#000000"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-red-bar:
+  fill: "#ff0000"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-yellow-bar:
+  fill: "#ffdd00"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-blue-bar:
+  fill: "#1579e0"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-white-bar:
+  fill: "#ffffff"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-black-bar:
+  fill: "#000000"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-red-bar:
   fill: "#ff0000"
   shield:
     fill: "#f96f00"
     stroke_fill: "#000000"
     stroke_width: 1    
     padding: 1
-orange-yellow-backslash:
+orange-yellow-bar:
   fill: "#ffdd00"
   shield:
     fill: "#f96f00"
     stroke_fill: "#000000"
     stroke_width: 1    
     padding: 1
-orange-blue-backslash:
+orange-blue-bar:
   fill: "#1579e0"
   shield:
     fill: "#f96f00"
     stroke_fill: "#000000"
     stroke_width: 1    
     padding: 1
-orange-green-backslash:
+orange-green-bar:
   fill: "#00cd27"
   shield:
     fill: "#f96f00"
     stroke_fill: "#000000"
     stroke_width: 1    
     padding: 1
-orange-white-backslash:
+orange-white-bar:
   fill: "#ffffff"
   shield:
     fill: "#f96f00"
     stroke_fill: "#000000"
     stroke_width: 1    
     padding: 1
-orange-black-backslash:
+orange-black-bar:
   fill: "#000000"
   shield:
     fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-red-bar:
+  fill: "#ff0000"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-yellow-bar:
+  fill: "#ffdd00"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-blue-bar:
+  fill: "#1579e0"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-green-bar:
+  fill: "#00cd27"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-white-bar:
+  fill: "#ffffff"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-black-bar:
+  fill: "#000000"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-yellow-bar:
+  fill: "#ffdd00"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-blue-bar:
+  fill: "#1579e0"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-green-bar:
+  fill: "#00cd27"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-white-bar:
+  fill: "#ffffff"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-black-bar:
+  fill: "#000000"
+  shield:
+    fill: "#ff0000"
     stroke_fill: "#000000"
     stroke_width: 1    
     padding: 1
@@ -293,45 +1007,269 @@ yellow-black-bar:
     stroke_fill: "#000000"
     stroke_width: 1    
     padding: 1
-orange-red-bar:
+black-red-bowl:
+  fill: "#ff0000"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-yellow-bowl:
+  fill: "#ffdd00"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-blue-bowl:
+  fill: "#1579e0"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-green-bowl:
+  fill: "#00cd27"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-white-bowl:
+  fill: "#ffffff"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-red-bowl:
+  fill: "#ff0000"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-yellow-bowl:
+  fill: "#ffdd00"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-green-bowl:
+  fill: "#00cd27"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-white-bowl:
+  fill: "#ffffff"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-black-bowl:
+  fill: "#000000"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-red-bowl:
+  fill: "#ff0000"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-yellow-bowl:
+  fill: "#ffdd00"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-blue-bowl:
+  fill: "#1579e0"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-green-bowl:
+  fill: "#00cd27"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-white-bowl:
+  fill: "#ffffff"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-black-bowl:
+  fill: "#000000"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-red-bowl:
+  fill: "#ff0000"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-yellow-bowl:
+  fill: "#ffdd00"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-blue-bowl:
+  fill: "#1579e0"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-white-bowl:
+  fill: "#ffffff"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-black-bowl:
+  fill: "#000000"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-red-bowl:
   fill: "#ff0000"
   shield:
     fill: "#f96f00"
     stroke_fill: "#000000"
     stroke_width: 1    
     padding: 1
-orange-yellow-bar:
+orange-yellow-bowl:
   fill: "#ffdd00"
   shield:
     fill: "#f96f00"
     stroke_fill: "#000000"
     stroke_width: 1    
     padding: 1
-orange-blue-bar:
+orange-blue-bowl:
   fill: "#1579e0"
   shield:
     fill: "#f96f00"
     stroke_fill: "#000000"
     stroke_width: 1    
     padding: 1
-orange-green-bar:
+orange-green-bowl:
   fill: "#00cd27"
   shield:
     fill: "#f96f00"
     stroke_fill: "#000000"
     stroke_width: 1    
     padding: 1
-orange-white-bar:
+orange-white-bowl:
   fill: "#ffffff"
   shield:
     fill: "#f96f00"
     stroke_fill: "#000000"
     stroke_width: 1    
     padding: 1
-orange-black-bar:
+orange-black-bowl:
   fill: "#000000"
   shield:
     fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-red-bowl:
+  fill: "#ff0000"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-yellow-bowl:
+  fill: "#ffdd00"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-blue-bowl:
+  fill: "#1579e0"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-green-bowl:
+  fill: "#00cd27"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-white-bowl:
+  fill: "#ffffff"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-black-bowl:
+  fill: "#000000"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-yellow-bowl:
+  fill: "#ffdd00"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-blue-bowl:
+  fill: "#1579e0"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-green-bowl:
+  fill: "#00cd27"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-white-bowl:
+  fill: "#ffffff"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-black-bowl:
+  fill: "#000000"
+  shield:
+    fill: "#ff0000"
     stroke_fill: "#000000"
     stroke_width: 1    
     padding: 1
@@ -405,45 +1343,605 @@ yellow-black-bowl:
     stroke_fill: "#000000"
     stroke_width: 1    
     padding: 1
-orange-red-bowl:
+black-red-circle:
+  fill: "#ff0000"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-yellow-circle:
+  fill: "#ffdd00"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-blue-circle:
+  fill: "#1579e0"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-green-circle:
+  fill: "#00cd27"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-white-circle:
+  fill: "#ffffff"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-red-circle:
+  fill: "#ff0000"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-yellow-circle:
+  fill: "#ffdd00"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-green-circle:
+  fill: "#00cd27"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-white-circle:
+  fill: "#ffffff"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-black-circle:
+  fill: "#000000"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-red-circle:
+  fill: "#ff0000"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-yellow-circle:
+  fill: "#ffdd00"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-blue-circle:
+  fill: "#1579e0"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-green-circle:
+  fill: "#00cd27"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-white-circle:
+  fill: "#ffffff"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-black-circle:
+  fill: "#000000"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-red-circle:
+  fill: "#ff0000"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-yellow-circle:
+  fill: "#ffdd00"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-blue-circle:
+  fill: "#1579e0"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-white-circle:
+  fill: "#ffffff"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-black-circle:
+  fill: "#000000"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-red-circle:
   fill: "#ff0000"
   shield:
     fill: "#f96f00"
     stroke_fill: "#000000"
     stroke_width: 1    
     padding: 1
-orange-yellow-bowl:
+orange-yellow-circle:
   fill: "#ffdd00"
   shield:
     fill: "#f96f00"
     stroke_fill: "#000000"
     stroke_width: 1    
     padding: 1
-orange-blue-bowl:
+orange-blue-circle:
   fill: "#1579e0"
   shield:
     fill: "#f96f00"
     stroke_fill: "#000000"
     stroke_width: 1    
     padding: 1
-orange-green-bowl:
+orange-green-circle:
   fill: "#00cd27"
   shield:
     fill: "#f96f00"
     stroke_fill: "#000000"
     stroke_width: 1    
     padding: 1
-orange-white-bowl:
+orange-white-circle:
   fill: "#ffffff"
   shield:
     fill: "#f96f00"
     stroke_fill: "#000000"
     stroke_width: 1    
     padding: 1
-orange-black-bowl:
+orange-black-circle:
   fill: "#000000"
   shield:
     fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-red-circle:
+  fill: "#ff0000"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-yellow-circle:
+  fill: "#ffdd00"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-blue-circle:
+  fill: "#1579e0"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-green-circle:
+  fill: "#00cd27"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-white-circle:
+  fill: "#ffffff"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-black-circle:
+  fill: "#000000"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-yellow-circle:
+  fill: "#ffdd00"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-blue-circle:
+  fill: "#1579e0"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-green-circle:
+  fill: "#00cd27"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-white-circle:
+  fill: "#ffffff"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-black-circle:
+  fill: "#000000"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+white-red-circle:
+  fill: "#ff0000"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+white-yellow-circle:
+  fill: "#ffdd00"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+white-blue-circle:
+  fill: "#1579e0"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+white-green-circle:
+  fill: "#00cd27"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+white-black-circle:
+  fill: "#000000"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+yellow-red-circle:
+  fill: "#ff0000"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+yellow-blue-circle:
+  fill: "#1579e0"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+yellow-green-circle:
+  fill: "#00cd27"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+yellow-white-circle:
+  fill: "#ffffff"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+yellow-black-circle:
+  fill: "#000000"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-red-corner:
+  fill: "#ff0000"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-yellow-corner:
+  fill: "#ffdd00"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-blue-corner:
+  fill: "#1579e0"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-green-corner:
+  fill: "#00cd27"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-white-corner:
+  fill: "#ffffff"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-red-corner:
+  fill: "#ff0000"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-yellow-corner:
+  fill: "#ffdd00"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-green-corner:
+  fill: "#00cd27"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-white-corner:
+  fill: "#ffffff"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-black-corner:
+  fill: "#000000"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-red-corner:
+  fill: "#ff0000"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-yellow-corner:
+  fill: "#ffdd00"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-blue-corner:
+  fill: "#1579e0"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-green-corner:
+  fill: "#00cd27"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-white-corner:
+  fill: "#ffffff"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-black-corner:
+  fill: "#000000"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-red-corner:
+  fill: "#ff0000"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-yellow-corner:
+  fill: "#ffdd00"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-blue-corner:
+  fill: "#1579e0"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-white-corner:
+  fill: "#ffffff"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-black-corner:
+  fill: "#000000"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-red-corner:
+  fill: "#ff0000"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-yellow-corner:
+  fill: "#ffdd00"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-blue-corner:
+  fill: "#1579e0"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-green-corner:
+  fill: "#00cd27"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-white-corner:
+  fill: "#ffffff"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-black-corner:
+  fill: "#000000"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-red-corner:
+  fill: "#ff0000"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-yellow-corner:
+  fill: "#ffdd00"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-blue-corner:
+  fill: "#1579e0"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-green-corner:
+  fill: "#00cd27"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-white-corner:
+  fill: "#ffffff"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-black-corner:
+  fill: "#000000"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-yellow-corner:
+  fill: "#ffdd00"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-blue-corner:
+  fill: "#1579e0"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-green-corner:
+  fill: "#00cd27"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-white-corner:
+  fill: "#ffffff"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-black-corner:
+  fill: "#000000"
+  shield:
+    fill: "#ff0000"
     stroke_fill: "#000000"
     stroke_width: 1    
     padding: 1
@@ -517,45 +2015,1277 @@ yellow-black-corner:
     stroke_fill: "#000000"
     stroke_width: 1    
     padding: 1
-orange-red-corner:
+black-red-cross:
+  fill: "#ff0000"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-yellow-cross:
+  fill: "#ffdd00"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-blue-cross:
+  fill: "#1579e0"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-green-cross:
+  fill: "#00cd27"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-white-cross:
+  fill: "#ffffff"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-red-cross:
+  fill: "#ff0000"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-yellow-cross:
+  fill: "#ffdd00"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-green-cross:
+  fill: "#00cd27"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-white-cross:
+  fill: "#ffffff"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-black-cross:
+  fill: "#000000"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-red-cross:
+  fill: "#ff0000"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-yellow-cross:
+  fill: "#ffdd00"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-blue-cross:
+  fill: "#1579e0"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-green-cross:
+  fill: "#00cd27"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-white-cross:
+  fill: "#ffffff"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-black-cross:
+  fill: "#000000"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-red-cross:
+  fill: "#ff0000"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-yellow-cross:
+  fill: "#ffdd00"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-blue-cross:
+  fill: "#1579e0"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-white-cross:
+  fill: "#ffffff"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-black-cross:
+  fill: "#000000"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-red-cross:
   fill: "#ff0000"
   shield:
     fill: "#f96f00"
     stroke_fill: "#000000"
     stroke_width: 1    
     padding: 1
-orange-yellow-corner:
+orange-yellow-cross:
   fill: "#ffdd00"
   shield:
     fill: "#f96f00"
     stroke_fill: "#000000"
     stroke_width: 1    
     padding: 1
-orange-blue-corner:
+orange-blue-cross:
   fill: "#1579e0"
   shield:
     fill: "#f96f00"
     stroke_fill: "#000000"
     stroke_width: 1    
     padding: 1
-orange-green-corner:
+orange-green-cross:
   fill: "#00cd27"
   shield:
     fill: "#f96f00"
     stroke_fill: "#000000"
     stroke_width: 1    
     padding: 1
-orange-white-corner:
+orange-white-cross:
   fill: "#ffffff"
   shield:
     fill: "#f96f00"
     stroke_fill: "#000000"
     stroke_width: 1    
     padding: 1
-orange-black-corner:
+orange-black-cross:
   fill: "#000000"
   shield:
     fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-red-cross:
+  fill: "#ff0000"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-yellow-cross:
+  fill: "#ffdd00"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-blue-cross:
+  fill: "#1579e0"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-green-cross:
+  fill: "#00cd27"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-white-cross:
+  fill: "#ffffff"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-black-cross:
+  fill: "#000000"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-yellow-cross:
+  fill: "#ffdd00"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-blue-cross:
+  fill: "#1579e0"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-green-cross:
+  fill: "#00cd27"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-white-cross:
+  fill: "#ffffff"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-black-cross:
+  fill: "#000000"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+white-red-cross:
+  fill: "#ff0000"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+white-yellow-cross:
+  fill: "#ffdd00"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+white-blue-cross:
+  fill: "#1579e0"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+white-green-cross:
+  fill: "#00cd27"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+white-black-cross:
+  fill: "#000000"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+yellow-red-cross:
+  fill: "#ff0000"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+yellow-blue-cross:
+  fill: "#1579e0"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+yellow-green-cross:
+  fill: "#00cd27"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+yellow-white-cross:
+  fill: "#ffffff"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+yellow-black-cross:
+  fill: "#000000"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-red-diamond-line:
+  fill: "#ff0000"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-yellow-diamond-line:
+  fill: "#ffdd00"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-blue-diamond-line:
+  fill: "#1579e0"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-green-diamond-line:
+  fill: "#00cd27"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-white-diamond-line:
+  fill: "#ffffff"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-red-diamond-line:
+  fill: "#ff0000"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-yellow-diamond-line:
+  fill: "#ffdd00"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-green-diamond-line:
+  fill: "#00cd27"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-white-diamond-line:
+  fill: "#ffffff"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-black-diamond-line:
+  fill: "#000000"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-red-diamond-line:
+  fill: "#ff0000"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-yellow-diamond-line:
+  fill: "#ffdd00"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-blue-diamond-line:
+  fill: "#1579e0"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-green-diamond-line:
+  fill: "#00cd27"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-white-diamond-line:
+  fill: "#ffffff"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-black-diamond-line:
+  fill: "#000000"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-red-diamond-line:
+  fill: "#ff0000"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-yellow-diamond-line:
+  fill: "#ffdd00"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-blue-diamond-line:
+  fill: "#1579e0"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-white-diamond-line:
+  fill: "#ffffff"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-black-diamond-line:
+  fill: "#000000"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-red-diamond-line:
+  fill: "#ff0000"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-yellow-diamond-line:
+  fill: "#ffdd00"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-blue-diamond-line:
+  fill: "#1579e0"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-green-diamond-line:
+  fill: "#00cd27"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-white-diamond-line:
+  fill: "#ffffff"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-black-diamond-line:
+  fill: "#000000"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-red-diamond-line:
+  fill: "#ff0000"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-yellow-diamond-line:
+  fill: "#ffdd00"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-blue-diamond-line:
+  fill: "#1579e0"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-green-diamond-line:
+  fill: "#00cd27"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-white-diamond-line:
+  fill: "#ffffff"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-black-diamond-line:
+  fill: "#000000"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-yellow-diamond-line:
+  fill: "#ffdd00"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-blue-diamond-line:
+  fill: "#1579e0"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-green-diamond-line:
+  fill: "#00cd27"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-white-diamond-line:
+  fill: "#ffffff"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-black-diamond-line:
+  fill: "#000000"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+white-red-diamond-line:
+  fill: "#ff0000"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+white-yellow-diamond-line:
+  fill: "#ffdd00"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+white-blue-diamond-line:
+  fill: "#1579e0"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+white-green-diamond-line:
+  fill: "#00cd27"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+white-black-diamond-line:
+  fill: "#000000"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+yellow-red-diamond-line:
+  fill: "#ff0000"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+yellow-blue-diamond-line:
+  fill: "#1579e0"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+yellow-green-diamond-line:
+  fill: "#00cd27"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+yellow-white-diamond-line:
+  fill: "#ffffff"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+yellow-black-diamond-line:
+  fill: "#000000"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-red-diamond:
+  fill: "#ff0000"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-yellow-diamond:
+  fill: "#ffdd00"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-blue-diamond:
+  fill: "#1579e0"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-green-diamond:
+  fill: "#00cd27"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-white-diamond:
+  fill: "#ffffff"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-red-diamond:
+  fill: "#ff0000"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-yellow-diamond:
+  fill: "#ffdd00"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-green-diamond:
+  fill: "#00cd27"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-white-diamond:
+  fill: "#ffffff"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-black-diamond:
+  fill: "#000000"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-red-diamond:
+  fill: "#ff0000"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-yellow-diamond:
+  fill: "#ffdd00"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-blue-diamond:
+  fill: "#1579e0"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-green-diamond:
+  fill: "#00cd27"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-white-diamond:
+  fill: "#ffffff"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-black-diamond:
+  fill: "#000000"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-red-diamond:
+  fill: "#ff0000"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-yellow-diamond:
+  fill: "#ffdd00"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-blue-diamond:
+  fill: "#1579e0"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-white-diamond:
+  fill: "#ffffff"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-black-diamond:
+  fill: "#000000"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-red-diamond:
+  fill: "#ff0000"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-yellow-diamond:
+  fill: "#ffdd00"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-blue-diamond:
+  fill: "#1579e0"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-green-diamond:
+  fill: "#00cd27"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-white-diamond:
+  fill: "#ffffff"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-black-diamond:
+  fill: "#000000"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-red-diamond:
+  fill: "#ff0000"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-yellow-diamond:
+  fill: "#ffdd00"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-blue-diamond:
+  fill: "#1579e0"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-green-diamond:
+  fill: "#00cd27"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-white-diamond:
+  fill: "#ffffff"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-black-diamond:
+  fill: "#000000"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-yellow-diamond:
+  fill: "#ffdd00"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-blue-diamond:
+  fill: "#1579e0"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-green-diamond:
+  fill: "#00cd27"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-white-diamond:
+  fill: "#ffffff"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-black-diamond:
+  fill: "#000000"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+white-red-diamond:
+  fill: "#ff0000"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+white-yellow-diamond:
+  fill: "#ffdd00"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+white-blue-diamond:
+  fill: "#1579e0"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+white-green-diamond:
+  fill: "#00cd27"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+white-black-diamond:
+  fill: "#000000"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+yellow-red-diamond:
+  fill: "#ff0000"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+yellow-blue-diamond:
+  fill: "#1579e0"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+yellow-green-diamond:
+  fill: "#00cd27"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+yellow-white-diamond:
+  fill: "#ffffff"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+yellow-black-diamond:
+  fill: "#000000"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-red-dot:
+  fill: "#ff0000"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-yellow-dot:
+  fill: "#ffdd00"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-blue-dot:
+  fill: "#1579e0"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-green-dot:
+  fill: "#00cd27"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-white-dot:
+  fill: "#ffffff"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-red-dot:
+  fill: "#ff0000"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-yellow-dot:
+  fill: "#ffdd00"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-green-dot:
+  fill: "#00cd27"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-white-dot:
+  fill: "#ffffff"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-black-dot:
+  fill: "#000000"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-red-dot:
+  fill: "#ff0000"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-yellow-dot:
+  fill: "#ffdd00"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-blue-dot:
+  fill: "#1579e0"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-green-dot:
+  fill: "#00cd27"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-white-dot:
+  fill: "#ffffff"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-black-dot:
+  fill: "#000000"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-red-dot:
+  fill: "#ff0000"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-yellow-dot:
+  fill: "#ffdd00"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-blue-dot:
+  fill: "#1579e0"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-white-dot:
+  fill: "#ffffff"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-black-dot:
+  fill: "#000000"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-red-dot:
+  fill: "#ff0000"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-yellow-dot:
+  fill: "#ffdd00"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-blue-dot:
+  fill: "#1579e0"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-green-dot:
+  fill: "#00cd27"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-white-dot:
+  fill: "#ffffff"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-black-dot:
+  fill: "#000000"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-red-dot:
+  fill: "#ff0000"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-yellow-dot:
+  fill: "#ffdd00"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-blue-dot:
+  fill: "#1579e0"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-green-dot:
+  fill: "#00cd27"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-white-dot:
+  fill: "#ffffff"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-black-dot:
+  fill: "#000000"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-yellow-dot:
+  fill: "#ffdd00"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-blue-dot:
+  fill: "#1579e0"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-green-dot:
+  fill: "#00cd27"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-white-dot:
+  fill: "#ffffff"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-black-dot:
+  fill: "#000000"
+  shield:
+    fill: "#ff0000"
     stroke_fill: "#000000"
     stroke_width: 1    
     padding: 1
@@ -629,45 +3359,941 @@ yellow-black-dot:
     stroke_fill: "#000000"
     stroke_width: 1    
     padding: 1
-orange-red-dot:
+black-red-fork:
+  fill: "#ff0000"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-yellow-fork:
+  fill: "#ffdd00"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-blue-fork:
+  fill: "#1579e0"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-green-fork:
+  fill: "#00cd27"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-white-fork:
+  fill: "#ffffff"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-red-fork:
+  fill: "#ff0000"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-yellow-fork:
+  fill: "#ffdd00"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-green-fork:
+  fill: "#00cd27"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-white-fork:
+  fill: "#ffffff"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-black-fork:
+  fill: "#000000"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-red-fork:
+  fill: "#ff0000"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-yellow-fork:
+  fill: "#ffdd00"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-blue-fork:
+  fill: "#1579e0"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-green-fork:
+  fill: "#00cd27"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-white-fork:
+  fill: "#ffffff"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-black-fork:
+  fill: "#000000"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-red-fork:
+  fill: "#ff0000"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-yellow-fork:
+  fill: "#ffdd00"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-blue-fork:
+  fill: "#1579e0"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-white-fork:
+  fill: "#ffffff"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-black-fork:
+  fill: "#000000"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-red-fork:
   fill: "#ff0000"
   shield:
     fill: "#f96f00"
     stroke_fill: "#000000"
     stroke_width: 1    
     padding: 1
-orange-yellow-dot:
+orange-yellow-fork:
   fill: "#ffdd00"
   shield:
     fill: "#f96f00"
     stroke_fill: "#000000"
     stroke_width: 1    
     padding: 1
-orange-blue-dot:
+orange-blue-fork:
   fill: "#1579e0"
   shield:
     fill: "#f96f00"
     stroke_fill: "#000000"
     stroke_width: 1    
     padding: 1
-orange-green-dot:
+orange-green-fork:
   fill: "#00cd27"
   shield:
     fill: "#f96f00"
     stroke_fill: "#000000"
     stroke_width: 1    
     padding: 1
-orange-white-dot:
+orange-white-fork:
   fill: "#ffffff"
   shield:
     fill: "#f96f00"
     stroke_fill: "#000000"
     stroke_width: 1    
     padding: 1
-orange-black-dot:
+orange-black-fork:
   fill: "#000000"
   shield:
     fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-red-fork:
+  fill: "#ff0000"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-yellow-fork:
+  fill: "#ffdd00"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-blue-fork:
+  fill: "#1579e0"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-green-fork:
+  fill: "#00cd27"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-white-fork:
+  fill: "#ffffff"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-black-fork:
+  fill: "#000000"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-yellow-fork:
+  fill: "#ffdd00"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-blue-fork:
+  fill: "#1579e0"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-green-fork:
+  fill: "#00cd27"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-white-fork:
+  fill: "#ffffff"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-black-fork:
+  fill: "#000000"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+white-red-fork:
+  fill: "#ff0000"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+white-yellow-fork:
+  fill: "#ffdd00"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+white-blue-fork:
+  fill: "#1579e0"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+white-green-fork:
+  fill: "#00cd27"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+white-black-fork:
+  fill: "#000000"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+yellow-red-fork:
+  fill: "#ff0000"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+yellow-blue-fork:
+  fill: "#1579e0"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+yellow-green-fork:
+  fill: "#00cd27"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+yellow-white-fork:
+  fill: "#ffffff"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+yellow-black-fork:
+  fill: "#000000"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-red-lower:
+  fill: "#ff0000"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-yellow-lower:
+  fill: "#ffdd00"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-blue-lower:
+  fill: "#1579e0"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-green-lower:
+  fill: "#00cd27"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-white-lower:
+  fill: "#ffffff"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-red-lower:
+  fill: "#ff0000"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-yellow-lower:
+  fill: "#ffdd00"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-green-lower:
+  fill: "#00cd27"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-white-lower:
+  fill: "#ffffff"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-black-lower:
+  fill: "#000000"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-red-lower:
+  fill: "#ff0000"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-yellow-lower:
+  fill: "#ffdd00"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-blue-lower:
+  fill: "#1579e0"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-green-lower:
+  fill: "#00cd27"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-white-lower:
+  fill: "#ffffff"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-black-lower:
+  fill: "#000000"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-red-lower:
+  fill: "#ff0000"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-yellow-lower:
+  fill: "#ffdd00"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-blue-lower:
+  fill: "#1579e0"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-white-lower:
+  fill: "#ffffff"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-black-lower:
+  fill: "#000000"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-red-lower:
+  fill: "#ff0000"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-yellow-lower:
+  fill: "#ffdd00"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-blue-lower:
+  fill: "#1579e0"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-green-lower:
+  fill: "#00cd27"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-white-lower:
+  fill: "#ffffff"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-black-lower:
+  fill: "#000000"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-red-lower:
+  fill: "#ff0000"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-yellow-lower:
+  fill: "#ffdd00"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-blue-lower:
+  fill: "#1579e0"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-green-lower:
+  fill: "#00cd27"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-white-lower:
+  fill: "#ffffff"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-black-lower:
+  fill: "#000000"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-yellow-lower:
+  fill: "#ffdd00"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-blue-lower:
+  fill: "#1579e0"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-green-lower:
+  fill: "#00cd27"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-white-lower:
+  fill: "#ffffff"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-black-lower:
+  fill: "#000000"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+white-red-lower:
+  fill: "#ff0000"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+white-yellow-lower:
+  fill: "#ffdd00"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+white-blue-lower:
+  fill: "#1579e0"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+white-green-lower:
+  fill: "#00cd27"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+white-black-lower:
+  fill: "#000000"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+yellow-red-lower:
+  fill: "#ff0000"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+yellow-blue-lower:
+  fill: "#1579e0"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+yellow-green-lower:
+  fill: "#00cd27"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+yellow-white-lower:
+  fill: "#ffffff"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+yellow-black-lower:
+  fill: "#000000"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-red-l:
+  fill: "#ff0000"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-yellow-l:
+  fill: "#ffdd00"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-blue-l:
+  fill: "#1579e0"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-green-l:
+  fill: "#00cd27"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-white-l:
+  fill: "#ffffff"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-red-l:
+  fill: "#ff0000"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-yellow-l:
+  fill: "#ffdd00"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-green-l:
+  fill: "#00cd27"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-white-l:
+  fill: "#ffffff"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-black-l:
+  fill: "#000000"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-red-l:
+  fill: "#ff0000"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-yellow-l:
+  fill: "#ffdd00"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-blue-l:
+  fill: "#1579e0"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-green-l:
+  fill: "#00cd27"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-white-l:
+  fill: "#ffffff"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-black-l:
+  fill: "#000000"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-red-l:
+  fill: "#ff0000"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-yellow-l:
+  fill: "#ffdd00"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-blue-l:
+  fill: "#1579e0"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-white-l:
+  fill: "#ffffff"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-black-l:
+  fill: "#000000"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-red-l:
+  fill: "#ff0000"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-yellow-l:
+  fill: "#ffdd00"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-blue-l:
+  fill: "#1579e0"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-green-l:
+  fill: "#00cd27"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-white-l:
+  fill: "#ffffff"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-black-l:
+  fill: "#000000"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-red-l:
+  fill: "#ff0000"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-yellow-l:
+  fill: "#ffdd00"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-blue-l:
+  fill: "#1579e0"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-green-l:
+  fill: "#00cd27"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-white-l:
+  fill: "#ffffff"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-black-l:
+  fill: "#000000"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-yellow-l:
+  fill: "#ffdd00"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-blue-l:
+  fill: "#1579e0"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-green-l:
+  fill: "#00cd27"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-white-l:
+  fill: "#ffffff"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-black-l:
+  fill: "#000000"
+  shield:
+    fill: "#ff0000"
     stroke_fill: "#000000"
     stroke_width: 1    
     padding: 1
@@ -741,45 +4367,2621 @@ yellow-black-l:
     stroke_fill: "#000000"
     stroke_width: 1    
     padding: 1
-orange-red-l:
+black-red-pointer:
+  fill: "#ff0000"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-yellow-pointer:
+  fill: "#ffdd00"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-blue-pointer:
+  fill: "#1579e0"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-green-pointer:
+  fill: "#00cd27"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-white-pointer:
+  fill: "#ffffff"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-red-pointer:
+  fill: "#ff0000"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-yellow-pointer:
+  fill: "#ffdd00"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-green-pointer:
+  fill: "#00cd27"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-white-pointer:
+  fill: "#ffffff"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-black-pointer:
+  fill: "#000000"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-red-pointer:
+  fill: "#ff0000"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-yellow-pointer:
+  fill: "#ffdd00"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-blue-pointer:
+  fill: "#1579e0"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-green-pointer:
+  fill: "#00cd27"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-white-pointer:
+  fill: "#ffffff"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-black-pointer:
+  fill: "#000000"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-red-pointer:
+  fill: "#ff0000"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-yellow-pointer:
+  fill: "#ffdd00"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-blue-pointer:
+  fill: "#1579e0"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-white-pointer:
+  fill: "#ffffff"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-black-pointer:
+  fill: "#000000"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-red-pointer:
   fill: "#ff0000"
   shield:
     fill: "#f96f00"
     stroke_fill: "#000000"
     stroke_width: 1    
     padding: 1
-orange-yellow-l:
+orange-yellow-pointer:
   fill: "#ffdd00"
   shield:
     fill: "#f96f00"
     stroke_fill: "#000000"
     stroke_width: 1    
     padding: 1
-orange-blue-l:
+orange-blue-pointer:
   fill: "#1579e0"
   shield:
     fill: "#f96f00"
     stroke_fill: "#000000"
     stroke_width: 1    
     padding: 1
-orange-green-l:
+orange-green-pointer:
   fill: "#00cd27"
   shield:
     fill: "#f96f00"
     stroke_fill: "#000000"
     stroke_width: 1    
     padding: 1
-orange-white-l:
+orange-white-pointer:
   fill: "#ffffff"
   shield:
     fill: "#f96f00"
     stroke_fill: "#000000"
     stroke_width: 1    
     padding: 1
-orange-black-l:
+orange-black-pointer:
   fill: "#000000"
   shield:
     fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-red-pointer:
+  fill: "#ff0000"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-yellow-pointer:
+  fill: "#ffdd00"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-blue-pointer:
+  fill: "#1579e0"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-green-pointer:
+  fill: "#00cd27"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-white-pointer:
+  fill: "#ffffff"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-black-pointer:
+  fill: "#000000"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-yellow-pointer:
+  fill: "#ffdd00"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-blue-pointer:
+  fill: "#1579e0"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-green-pointer:
+  fill: "#00cd27"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-white-pointer:
+  fill: "#ffffff"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-black-pointer:
+  fill: "#000000"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+white-red-pointer:
+  fill: "#ff0000"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+white-yellow-pointer:
+  fill: "#ffdd00"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+white-blue-pointer:
+  fill: "#1579e0"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+white-green-pointer:
+  fill: "#00cd27"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+white-black-pointer:
+  fill: "#000000"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+yellow-red-pointer:
+  fill: "#ff0000"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+yellow-blue-pointer:
+  fill: "#1579e0"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+yellow-green-pointer:
+  fill: "#00cd27"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+yellow-white-pointer:
+  fill: "#ffffff"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+yellow-black-pointer:
+  fill: "#000000"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-red-rectangle-line-3:
+  fill: "#ff0000"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-yellow-rectangle-line-3:
+  fill: "#ffdd00"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-blue-rectangle-line-3:
+  fill: "#1579e0"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-green-rectangle-line-3:
+  fill: "#00cd27"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-white-rectangle-line-3:
+  fill: "#ffffff"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-red-rectangle-line-3:
+  fill: "#ff0000"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-yellow-rectangle-line-3:
+  fill: "#ffdd00"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-green-rectangle-line-3:
+  fill: "#00cd27"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-white-rectangle-line-3:
+  fill: "#ffffff"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-black-rectangle-line-3:
+  fill: "#000000"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-red-rectangle-line-3:
+  fill: "#ff0000"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-yellow-rectangle-line-3:
+  fill: "#ffdd00"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-blue-rectangle-line-3:
+  fill: "#1579e0"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-green-rectangle-line-3:
+  fill: "#00cd27"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-white-rectangle-line-3:
+  fill: "#ffffff"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-black-rectangle-line-3:
+  fill: "#000000"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-red-rectangle-line-3:
+  fill: "#ff0000"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-yellow-rectangle-line-3:
+  fill: "#ffdd00"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-blue-rectangle-line-3:
+  fill: "#1579e0"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-white-rectangle-line-3:
+  fill: "#ffffff"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-black-rectangle-line-3:
+  fill: "#000000"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-red-rectangle-line-3:
+  fill: "#ff0000"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-yellow-rectangle-line-3:
+  fill: "#ffdd00"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-blue-rectangle-line-3:
+  fill: "#1579e0"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-green-rectangle-line-3:
+  fill: "#00cd27"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-white-rectangle-line-3:
+  fill: "#ffffff"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-black-rectangle-line-3:
+  fill: "#000000"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-red-rectangle-line-3:
+  fill: "#ff0000"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-yellow-rectangle-line-3:
+  fill: "#ffdd00"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-blue-rectangle-line-3:
+  fill: "#1579e0"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-green-rectangle-line-3:
+  fill: "#00cd27"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-white-rectangle-line-3:
+  fill: "#ffffff"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-black-rectangle-line-3:
+  fill: "#000000"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-yellow-rectangle-line-3:
+  fill: "#ffdd00"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-blue-rectangle-line-3:
+  fill: "#1579e0"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-green-rectangle-line-3:
+  fill: "#00cd27"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-white-rectangle-line-3:
+  fill: "#ffffff"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-black-rectangle-line-3:
+  fill: "#000000"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+white-red-rectangle-line-3:
+  fill: "#ff0000"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+white-yellow-rectangle-line-3:
+  fill: "#ffdd00"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+white-blue-rectangle-line-3:
+  fill: "#1579e0"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+white-green-rectangle-line-3:
+  fill: "#00cd27"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+white-black-rectangle-line-3:
+  fill: "#000000"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+yellow-red-rectangle-line-3:
+  fill: "#ff0000"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+yellow-blue-rectangle-line-3:
+  fill: "#1579e0"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+yellow-green-rectangle-line-3:
+  fill: "#00cd27"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+yellow-white-rectangle-line-3:
+  fill: "#ffffff"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+yellow-black-rectangle-line-3:
+  fill: "#000000"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-red-rectangle:
+  fill: "#ff0000"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-yellow-rectangle:
+  fill: "#ffdd00"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-blue-rectangle:
+  fill: "#1579e0"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-green-rectangle:
+  fill: "#00cd27"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-white-rectangle:
+  fill: "#ffffff"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-red-rectangle:
+  fill: "#ff0000"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-yellow-rectangle:
+  fill: "#ffdd00"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-green-rectangle:
+  fill: "#00cd27"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-white-rectangle:
+  fill: "#ffffff"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-black-rectangle:
+  fill: "#000000"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-red-rectangle:
+  fill: "#ff0000"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-yellow-rectangle:
+  fill: "#ffdd00"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-blue-rectangle:
+  fill: "#1579e0"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-green-rectangle:
+  fill: "#00cd27"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-white-rectangle:
+  fill: "#ffffff"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-black-rectangle:
+  fill: "#000000"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-red-rectangle:
+  fill: "#ff0000"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-yellow-rectangle:
+  fill: "#ffdd00"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-blue-rectangle:
+  fill: "#1579e0"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-white-rectangle:
+  fill: "#ffffff"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-black-rectangle:
+  fill: "#000000"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-red-rectangle:
+  fill: "#ff0000"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-yellow-rectangle:
+  fill: "#ffdd00"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-blue-rectangle:
+  fill: "#1579e0"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-green-rectangle:
+  fill: "#00cd27"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-white-rectangle:
+  fill: "#ffffff"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-black-rectangle:
+  fill: "#000000"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-red-rectangle:
+  fill: "#ff0000"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-yellow-rectangle:
+  fill: "#ffdd00"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-blue-rectangle:
+  fill: "#1579e0"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-green-rectangle:
+  fill: "#00cd27"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-white-rectangle:
+  fill: "#ffffff"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-black-rectangle:
+  fill: "#000000"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-yellow-rectangle:
+  fill: "#ffdd00"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-blue-rectangle:
+  fill: "#1579e0"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-green-rectangle:
+  fill: "#00cd27"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-white-rectangle:
+  fill: "#ffffff"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-black-rectangle:
+  fill: "#000000"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+white-red-rectangle:
+  fill: "#ff0000"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+white-yellow-rectangle:
+  fill: "#ffdd00"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+white-blue-rectangle:
+  fill: "#1579e0"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+white-green-rectangle:
+  fill: "#00cd27"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+white-black-rectangle:
+  fill: "#000000"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+yellow-red-rectangle:
+  fill: "#ff0000"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+yellow-blue-rectangle:
+  fill: "#1579e0"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+yellow-green-rectangle:
+  fill: "#00cd27"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+yellow-white-rectangle:
+  fill: "#ffffff"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+yellow-black-rectangle:
+  fill: "#000000"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-red-right:
+  fill: "#ff0000"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-yellow-right:
+  fill: "#ffdd00"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-blue-right:
+  fill: "#1579e0"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-green-right:
+  fill: "#00cd27"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-white-right:
+  fill: "#ffffff"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-red-right:
+  fill: "#ff0000"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-yellow-right:
+  fill: "#ffdd00"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-green-right:
+  fill: "#00cd27"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-white-right:
+  fill: "#ffffff"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-black-right:
+  fill: "#000000"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-red-right:
+  fill: "#ff0000"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-yellow-right:
+  fill: "#ffdd00"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-blue-right:
+  fill: "#1579e0"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-green-right:
+  fill: "#00cd27"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-white-right:
+  fill: "#ffffff"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-black-right:
+  fill: "#000000"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-red-right:
+  fill: "#ff0000"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-yellow-right:
+  fill: "#ffdd00"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-blue-right:
+  fill: "#1579e0"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-white-right:
+  fill: "#ffffff"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-black-right:
+  fill: "#000000"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-red-right:
+  fill: "#ff0000"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-yellow-right:
+  fill: "#ffdd00"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-blue-right:
+  fill: "#1579e0"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-green-right:
+  fill: "#00cd27"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-white-right:
+  fill: "#ffffff"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-black-right:
+  fill: "#000000"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-red-right:
+  fill: "#ff0000"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-yellow-right:
+  fill: "#ffdd00"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-blue-right:
+  fill: "#1579e0"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-green-right:
+  fill: "#00cd27"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-white-right:
+  fill: "#ffffff"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-black-right:
+  fill: "#000000"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-yellow-right:
+  fill: "#ffdd00"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-blue-right:
+  fill: "#1579e0"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-green-right:
+  fill: "#00cd27"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-white-right:
+  fill: "#ffffff"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-black-right:
+  fill: "#000000"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+white-red-right:
+  fill: "#ff0000"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+white-yellow-right:
+  fill: "#ffdd00"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+white-blue-right:
+  fill: "#1579e0"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+white-green-right:
+  fill: "#00cd27"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+white-black-right:
+  fill: "#000000"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+yellow-red-right:
+  fill: "#ff0000"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+yellow-blue-right:
+  fill: "#1579e0"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+yellow-green-right:
+  fill: "#00cd27"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+yellow-white-right:
+  fill: "#ffffff"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+yellow-black-right:
+  fill: "#000000"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-red-slash:
+  fill: "#ff0000"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-yellow-slash:
+  fill: "#ffdd00"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-blue-slash:
+  fill: "#1579e0"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-green-slash:
+  fill: "#00cd27"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-white-slash:
+  fill: "#ffffff"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-red-slash:
+  fill: "#ff0000"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-yellow-slash:
+  fill: "#ffdd00"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-green-slash:
+  fill: "#00cd27"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-white-slash:
+  fill: "#ffffff"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-black-slash:
+  fill: "#000000"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-red-slash:
+  fill: "#ff0000"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-yellow-slash:
+  fill: "#ffdd00"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-blue-slash:
+  fill: "#1579e0"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-green-slash:
+  fill: "#00cd27"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-white-slash:
+  fill: "#ffffff"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-black-slash:
+  fill: "#000000"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-red-slash:
+  fill: "#ff0000"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-yellow-slash:
+  fill: "#ffdd00"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-blue-slash:
+  fill: "#1579e0"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-white-slash:
+  fill: "#ffffff"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-black-slash:
+  fill: "#000000"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-red-slash:
+  fill: "#ff0000"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-yellow-slash:
+  fill: "#ffdd00"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-blue-slash:
+  fill: "#1579e0"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-green-slash:
+  fill: "#00cd27"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-white-slash:
+  fill: "#ffffff"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-black-slash:
+  fill: "#000000"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-red-slash:
+  fill: "#ff0000"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-yellow-slash:
+  fill: "#ffdd00"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-blue-slash:
+  fill: "#1579e0"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-green-slash:
+  fill: "#00cd27"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-white-slash:
+  fill: "#ffffff"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-black-slash:
+  fill: "#000000"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-yellow-slash:
+  fill: "#ffdd00"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-blue-slash:
+  fill: "#1579e0"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-green-slash:
+  fill: "#00cd27"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-white-slash:
+  fill: "#ffffff"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-black-slash:
+  fill: "#000000"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+white-red-slash:
+  fill: "#ff0000"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+white-yellow-slash:
+  fill: "#ffdd00"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+white-blue-slash:
+  fill: "#1579e0"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+white-green-slash:
+  fill: "#00cd27"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+white-black-slash:
+  fill: "#000000"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+yellow-red-slash:
+  fill: "#ff0000"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+yellow-blue-slash:
+  fill: "#1579e0"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+yellow-green-slash:
+  fill: "#00cd27"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+yellow-white-slash:
+  fill: "#ffffff"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+yellow-black-slash:
+  fill: "#000000"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-red-stripe:
+  fill: "#ff0000"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-yellow-stripe:
+  fill: "#ffdd00"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-blue-stripe:
+  fill: "#1579e0"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-green-stripe:
+  fill: "#00cd27"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-white-stripe:
+  fill: "#ffffff"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-red-stripe:
+  fill: "#ff0000"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-yellow-stripe:
+  fill: "#ffdd00"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-green-stripe:
+  fill: "#00cd27"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-white-stripe:
+  fill: "#ffffff"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-black-stripe:
+  fill: "#000000"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-red-stripe:
+  fill: "#ff0000"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-yellow-stripe:
+  fill: "#ffdd00"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-blue-stripe:
+  fill: "#1579e0"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-green-stripe:
+  fill: "#00cd27"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-white-stripe:
+  fill: "#ffffff"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-black-stripe:
+  fill: "#000000"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-red-stripe:
+  fill: "#ff0000"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-yellow-stripe:
+  fill: "#ffdd00"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-blue-stripe:
+  fill: "#1579e0"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-white-stripe:
+  fill: "#ffffff"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-black-stripe:
+  fill: "#000000"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-red-stripe:
+  fill: "#ff0000"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-yellow-stripe:
+  fill: "#ffdd00"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-blue-stripe:
+  fill: "#1579e0"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-green-stripe:
+  fill: "#00cd27"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-white-stripe:
+  fill: "#ffffff"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-black-stripe:
+  fill: "#000000"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-red-stripe:
+  fill: "#ff0000"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-yellow-stripe:
+  fill: "#ffdd00"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-blue-stripe:
+  fill: "#1579e0"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-green-stripe:
+  fill: "#00cd27"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-white-stripe:
+  fill: "#ffffff"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-black-stripe:
+  fill: "#000000"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-yellow-stripe:
+  fill: "#ffdd00"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-blue-stripe:
+  fill: "#1579e0"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-green-stripe:
+  fill: "#00cd27"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-white-stripe:
+  fill: "#ffffff"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-black-stripe:
+  fill: "#000000"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+white-red-stripe:
+  fill: "#ff0000"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+white-yellow-stripe:
+  fill: "#ffdd00"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+white-blue-stripe:
+  fill: "#1579e0"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+white-green-stripe:
+  fill: "#00cd27"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+white-black-stripe:
+  fill: "#000000"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+yellow-red-stripe:
+  fill: "#ff0000"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+yellow-blue-stripe:
+  fill: "#1579e0"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+yellow-green-stripe:
+  fill: "#00cd27"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+yellow-white-stripe:
+  fill: "#ffffff"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+yellow-black-stripe:
+  fill: "#000000"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-red-triangle-line:
+  fill: "#ff0000"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-yellow-triangle-line:
+  fill: "#ffdd00"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-blue-triangle-line:
+  fill: "#1579e0"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-green-triangle-line:
+  fill: "#00cd27"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-white-triangle-line:
+  fill: "#ffffff"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-red-triangle-line:
+  fill: "#ff0000"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-yellow-triangle-line:
+  fill: "#ffdd00"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-green-triangle-line:
+  fill: "#00cd27"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-white-triangle-line:
+  fill: "#ffffff"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-black-triangle-line:
+  fill: "#000000"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-red-triangle-line:
+  fill: "#ff0000"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-yellow-triangle-line:
+  fill: "#ffdd00"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-blue-triangle-line:
+  fill: "#1579e0"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-green-triangle-line:
+  fill: "#00cd27"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-white-triangle-line:
+  fill: "#ffffff"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-black-triangle-line:
+  fill: "#000000"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-red-triangle-line:
+  fill: "#ff0000"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-yellow-triangle-line:
+  fill: "#ffdd00"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-blue-triangle-line:
+  fill: "#1579e0"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-white-triangle-line:
+  fill: "#ffffff"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-black-triangle-line:
+  fill: "#000000"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-red-triangle-line:
+  fill: "#ff0000"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-yellow-triangle-line:
+  fill: "#ffdd00"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-blue-triangle-line:
+  fill: "#1579e0"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-green-triangle-line:
+  fill: "#00cd27"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-white-triangle-line:
+  fill: "#ffffff"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-black-triangle-line:
+  fill: "#000000"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-red-triangle-line:
+  fill: "#ff0000"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-yellow-triangle-line:
+  fill: "#ffdd00"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-blue-triangle-line:
+  fill: "#1579e0"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-green-triangle-line:
+  fill: "#00cd27"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-white-triangle-line:
+  fill: "#ffffff"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-black-triangle-line:
+  fill: "#000000"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-yellow-triangle-line:
+  fill: "#ffdd00"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-blue-triangle-line:
+  fill: "#1579e0"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-green-triangle-line:
+  fill: "#00cd27"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-white-triangle-line:
+  fill: "#ffffff"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-black-triangle-line:
+  fill: "#000000"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+white-red-triangle-line:
+  fill: "#ff0000"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+white-yellow-triangle-line:
+  fill: "#ffdd00"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+white-blue-triangle-line:
+  fill: "#1579e0"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+white-green-triangle-line:
+  fill: "#00cd27"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+white-black-triangle-line:
+  fill: "#000000"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+yellow-red-triangle-line:
+  fill: "#ff0000"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+yellow-blue-triangle-line:
+  fill: "#1579e0"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+yellow-green-triangle-line:
+  fill: "#00cd27"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+yellow-white-triangle-line:
+  fill: "#ffffff"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+yellow-black-triangle-line:
+  fill: "#000000"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-red-triangle:
+  fill: "#ff0000"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-yellow-triangle:
+  fill: "#ffdd00"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-blue-triangle:
+  fill: "#1579e0"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-green-triangle:
+  fill: "#00cd27"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-white-triangle:
+  fill: "#ffffff"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-red-triangle:
+  fill: "#ff0000"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-yellow-triangle:
+  fill: "#ffdd00"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-green-triangle:
+  fill: "#00cd27"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-white-triangle:
+  fill: "#ffffff"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-black-triangle:
+  fill: "#000000"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-red-triangle:
+  fill: "#ff0000"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-yellow-triangle:
+  fill: "#ffdd00"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-blue-triangle:
+  fill: "#1579e0"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-green-triangle:
+  fill: "#00cd27"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-white-triangle:
+  fill: "#ffffff"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-black-triangle:
+  fill: "#000000"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-red-triangle:
+  fill: "#ff0000"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-yellow-triangle:
+  fill: "#ffdd00"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-blue-triangle:
+  fill: "#1579e0"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-white-triangle:
+  fill: "#ffffff"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-black-triangle:
+  fill: "#000000"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-red-triangle:
+  fill: "#ff0000"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-yellow-triangle:
+  fill: "#ffdd00"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-blue-triangle:
+  fill: "#1579e0"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-green-triangle:
+  fill: "#00cd27"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-white-triangle:
+  fill: "#ffffff"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-black-triangle:
+  fill: "#000000"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-red-triangle:
+  fill: "#ff0000"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-yellow-triangle:
+  fill: "#ffdd00"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-blue-triangle:
+  fill: "#1579e0"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-green-triangle:
+  fill: "#00cd27"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-white-triangle:
+  fill: "#ffffff"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-black-triangle:
+  fill: "#000000"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-yellow-triangle:
+  fill: "#ffdd00"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-blue-triangle:
+  fill: "#1579e0"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-green-triangle:
+  fill: "#00cd27"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-white-triangle:
+  fill: "#ffffff"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-black-triangle:
+  fill: "#000000"
+  shield:
+    fill: "#ff0000"
     stroke_fill: "#000000"
     stroke_width: 1    
     padding: 1
@@ -853,45 +7055,269 @@ yellow-black-triangle:
     stroke_fill: "#000000"
     stroke_width: 1    
     padding: 1
-orange-red-triangle:
+black-red-turned-t:
+  fill: "#ff0000"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-yellow-turned-t:
+  fill: "#ffdd00"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-blue-turned-t:
+  fill: "#1579e0"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-green-turned-t:
+  fill: "#00cd27"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-white-turned-t:
+  fill: "#ffffff"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-red-turned-t:
+  fill: "#ff0000"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-yellow-turned-t:
+  fill: "#ffdd00"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-green-turned-t:
+  fill: "#00cd27"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-white-turned-t:
+  fill: "#ffffff"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-black-turned-t:
+  fill: "#000000"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-red-turned-t:
+  fill: "#ff0000"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-yellow-turned-t:
+  fill: "#ffdd00"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-blue-turned-t:
+  fill: "#1579e0"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-green-turned-t:
+  fill: "#00cd27"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-white-turned-t:
+  fill: "#ffffff"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-black-turned-t:
+  fill: "#000000"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-red-turned-t:
+  fill: "#ff0000"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-yellow-turned-t:
+  fill: "#ffdd00"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-blue-turned-t:
+  fill: "#1579e0"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-white-turned-t:
+  fill: "#ffffff"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-black-turned-t:
+  fill: "#000000"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-red-turned-t:
   fill: "#ff0000"
   shield:
     fill: "#f96f00"
     stroke_fill: "#000000"
     stroke_width: 1    
     padding: 1
-orange-yellow-triangle:
+orange-yellow-turned-t:
   fill: "#ffdd00"
   shield:
     fill: "#f96f00"
     stroke_fill: "#000000"
     stroke_width: 1    
     padding: 1
-orange-blue-triangle:
+orange-blue-turned-t:
   fill: "#1579e0"
   shield:
     fill: "#f96f00"
     stroke_fill: "#000000"
     stroke_width: 1    
     padding: 1
-orange-green-triangle:
+orange-green-turned-t:
   fill: "#00cd27"
   shield:
     fill: "#f96f00"
     stroke_fill: "#000000"
     stroke_width: 1    
     padding: 1
-orange-white-triangle:
+orange-white-turned-t:
   fill: "#ffffff"
   shield:
     fill: "#f96f00"
     stroke_fill: "#000000"
     stroke_width: 1    
     padding: 1
-orange-black-triangle:
+orange-black-turned-t:
   fill: "#000000"
   shield:
     fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-red-turned-t:
+  fill: "#ff0000"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-yellow-turned-t:
+  fill: "#ffdd00"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-blue-turned-t:
+  fill: "#1579e0"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-green-turned-t:
+  fill: "#00cd27"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-white-turned-t:
+  fill: "#ffffff"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-black-turned-t:
+  fill: "#000000"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-yellow-turned-t:
+  fill: "#ffdd00"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-blue-turned-t:
+  fill: "#1579e0"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-green-turned-t:
+  fill: "#00cd27"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-white-turned-t:
+  fill: "#ffffff"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-black-turned-t:
+  fill: "#000000"
+  shield:
+    fill: "#ff0000"
     stroke_fill: "#000000"
     stroke_width: 1    
     padding: 1
@@ -965,48 +7391,6 @@ yellow-black-turned-t:
     stroke_fill: "#000000"
     stroke_width: 1    
     padding: 1
-orange-red-turned-t:
-  fill: "#ff0000"
-  shield:
-    fill: "#f96f00"
-    stroke_fill: "#000000"
-    stroke_width: 1    
-    padding: 1
-orange-yellow-turned-t:
-  fill: "#ffdd00"
-  shield:
-    fill: "#f96f00"
-    stroke_fill: "#000000"
-    stroke_width: 1    
-    padding: 1
-orange-blue-turned-t:
-  fill: "#1579e0"
-  shield:
-    fill: "#f96f00"
-    stroke_fill: "#000000"
-    stroke_width: 1    
-    padding: 1
-orange-green-turned-t:
-  fill: "#00cd27"
-  shield:
-    fill: "#f96f00"
-    stroke_fill: "#000000"
-    stroke_width: 1    
-    padding: 1
-orange-white-turned-t:
-  fill: "#ffffff"
-  shield:
-    fill: "#f96f00"
-    stroke_fill: "#000000"
-    stroke_width: 1    
-    padding: 1
-orange-black-turned-t:
-  fill: "#000000"
-  shield:
-    fill: "#f96f00"
-    stroke_fill: "#000000"
-    stroke_width: 1    
-    padding: 1
 white-red-wheelchair:
   fill: "#ff0000"
   shield:
@@ -1039,6 +7423,342 @@ white-black-wheelchair:
   fill: "#000000"
   shield:
     fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-red-x:
+  fill: "#ff0000"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-yellow-x:
+  fill: "#ffdd00"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-blue-x:
+  fill: "#1579e0"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-green-x:
+  fill: "#00cd27"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+black-white-x:
+  fill: "#ffffff"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-red-x:
+  fill: "#ff0000"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-yellow-x:
+  fill: "#ffdd00"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-green-x:
+  fill: "#00cd27"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-white-x:
+  fill: "#ffffff"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+blue-black-x:
+  fill: "#000000"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-red-x:
+  fill: "#ff0000"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-yellow-x:
+  fill: "#ffdd00"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-blue-x:
+  fill: "#1579e0"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-green-x:
+  fill: "#00cd27"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-white-x:
+  fill: "#ffffff"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+brown-black-x:
+  fill: "#000000"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-red-x:
+  fill: "#ff0000"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-yellow-x:
+  fill: "#ffdd00"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-blue-x:
+  fill: "#1579e0"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-white-x:
+  fill: "#ffffff"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+green-black-x:
+  fill: "#000000"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-red-x:
+  fill: "#ff0000"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-yellow-x:
+  fill: "#ffdd00"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-blue-x:
+  fill: "#1579e0"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-green-x:
+  fill: "#00cd27"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-white-x:
+  fill: "#ffffff"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+orange-black-x:
+  fill: "#000000"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-red-x:
+  fill: "#ff0000"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-yellow-x:
+  fill: "#ffdd00"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-blue-x:
+  fill: "#1579e0"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-green-x:
+  fill: "#00cd27"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-white-x:
+  fill: "#ffffff"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+purple-black-x:
+  fill: "#000000"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-yellow-x:
+  fill: "#ffdd00"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-blue-x:
+  fill: "#1579e0"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-green-x:
+  fill: "#00cd27"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-white-x:
+  fill: "#ffffff"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+red-black-x:
+  fill: "#000000"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+white-red-x:
+  fill: "#ff0000"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+white-yellow-x:
+  fill: "#ffdd00"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+white-blue-x:
+  fill: "#1579e0"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+white-green-x:
+  fill: "#00cd27"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+white-black-x:
+  fill: "#000000"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+yellow-red-x:
+  fill: "#ff0000"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+yellow-blue-x:
+  fill: "#1579e0"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+yellow-green-x:
+  fill: "#00cd27"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+yellow-white-x:
+  fill: "#ffffff"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1    
+    padding: 1
+yellow-black-x:
+  fill: "#000000"
+  shield:
+    fill: "#ffdd00"
     stroke_fill: "#000000"
     stroke_width: 1    
     padding: 1
