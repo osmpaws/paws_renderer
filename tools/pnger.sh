@@ -5,6 +5,7 @@ root="/home/jans/Dokumenty/osm/renderer"
 scalecfg="tools/image_scale.cfg"
 osmcscalecfg="tools/osmc-symbol-scale.cfg"
 transparencycfg="tools/image_transparency.cfg"
+commfile="process.com"
 sourcedir="svg"
 targetdir="png"
 if [ "$#" -lt 1 ]; then
@@ -16,8 +17,18 @@ IFS='%'
 cd $root/$sourcedir
 files=`find . -type f -name "*.svg"`
 cd ..
+
+echo "0" > $commfile
+bgplimit=100
+
 echo "$files" | while read line;
 do
+	while [ `cat $commfile` -ge $bgplimit ]; do
+		sleep .1;
+	done	
+	
+	echo $((`cat $commfile`+1)) > $commfile
+	
 	(
 	filename=`echo $line | rev | cut -d/ -f1 | rev | cut -d. -f1`
 	filepath=`echo $line | rev | cut -d/ -f2- | rev | cut -d/ -f 2-`
@@ -45,7 +56,9 @@ do
 	inkscape -z -e "$targetdir/$filepath/tmp_$iconname.png" -w $newsize "$sourcedir/$line"
 	mkdir -p "$targetdir/$filepath"
 	convert "$targetdir/$filepath/tmp_$iconname.png" -trim -alpha set -channel A -evaluate Divide $transparency "$targetdir/$filepath/$iconname.png"
-	rm "$targetdir/$filepath/tmp_$iconname.png" )&
+	rm "$targetdir/$filepath/tmp_$iconname.png" 
+	echo $((`cat $commfile`-1)) > $commfile )&
+		
 done
 
 wait

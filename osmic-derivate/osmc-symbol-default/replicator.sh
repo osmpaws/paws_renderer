@@ -57,9 +57,9 @@ do
 			if [ "$fgcolor" = "$bgcolor" ]; then
 				continue
 			fi
-			'''if [ "$sign" = "wheelchair" ] && [ "$bgcolor" != "white" ] && ([ "$fgcolor" != "black" ] || [ "$fgcolor" != "blue" ] || [ "$fgcolor" != "red" ]); then
-				continue
-			fi'''
+			#if [ "$sign" = "wheelchair" ] && [ "$bgcolor" != "white" ] && ([ "$fgcolor" != "black" ] || [ "$fgcolor" != "blue" ] || [ "$fgcolor" != "red" ]); then
+			#	continue
+			#fi
 			newname=`echo $file | sed "s/$defaultname/$bgcolor-$fgcolor/"`
 			sed "s/id=\"$defaultname/id=\"$bgcolor-$fgcolor/" $file > $target/$newname
 			

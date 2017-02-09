@@ -396,6 +396,24 @@
 		<rule e="way" k="osmc_foreground" v="black_turned_T">
 			<lineSymbol src="file:/osmc-symbols/orange_black_turned_t.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="red_wheelchair">
+			<lineSymbol src="file:/osmc-symbols/orange_red_wheelchair.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="yellow_wheelchair">
+			<lineSymbol src="file:/osmc-symbols/orange_yellow_wheelchair.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="blue_wheelchair">
+			<lineSymbol src="file:/osmc-symbols/orange_blue_wheelchair.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="green_wheelchair">
+			<lineSymbol src="file:/osmc-symbols/orange_green_wheelchair.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="white_wheelchair">
+			<lineSymbol src="file:/osmc-symbols/orange_white_wheelchair.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="black_wheelchair">
+			<lineSymbol src="file:/osmc-symbols/orange_black_wheelchair.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="red_x">
 			<lineSymbol src="file:/osmc-symbols/orange_red_x.png" align-center="false" repeat="true" />
 		</rule>

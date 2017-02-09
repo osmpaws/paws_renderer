@@ -330,7 +330,7 @@
 					<line stroke="#bde3cb" stroke-width="1.0" />
 				</rule>
 			</rule>
-			<rule e="way" k="leisure" v="swimming_pool">
+			<rule e="way" k="leisure" v="swimming_pool" zoom-min="13">
 				<area fill="#b5d6f1" stroke="#6060ff" stroke-width="0.3" />				
 				<symbol src="file:/symbols/swimming.png" />
 			</rule>
@@ -390,7 +390,7 @@
 		<!-- sport -->
 		<rule e="way" k="sport" v="*">
 			<rule e="way" k="sport" v="soccer" zoom-min="17">
-				<symbol src="file:/symbols/soccer-borderless.png" />
+				<symbol src="file:/symbols/soccer.png" />
 			</rule>
 			<rule e="way" k="sport" v="swimming|canoe|diving|scuba_diving">
 				<area fill="#b5d6f1" stroke="#6060ff" stroke-width="0.3" />
@@ -1467,7 +1467,7 @@
 		<rule e="node" k="leisure" v="playground" zoom-min="17">
 			<symbol src="file:/symbols/playground.png" />
 		</rule>
-		<rule e="node" k="leisure" v="swimming_pool" zoom-min="14">
+		<rule e="node" k="leisure" v="swimming_pool" zoom-min="13">
 			<symbol src="file:/symbols/swimming.png" />
 		</rule>
 		<rule e="node" k="leisure" v="picnic_table">

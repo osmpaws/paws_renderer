@@ -330,7 +330,7 @@
 					<line stroke="#bde3cb" stroke-width="1.0" />
 				</rule>
 			</rule>
-			<rule e="way" k="leisure" v="swimming_pool">
+			<rule e="way" k="leisure" v="swimming_pool" zoom-min="13">
 				<area fill="#b5d6f1" stroke="#6060ff" stroke-width="0.3" />				
 				<symbol src="file:/symbols/swimming.png" />
 			</rule>
@@ -390,7 +390,7 @@
 		<!-- sport -->
 		<rule e="way" k="sport" v="*">
 			<rule e="way" k="sport" v="soccer" zoom-min="17">
-				<symbol src="file:/symbols/soccer-borderless.png" />
+				<symbol src="file:/symbols/soccer.png" />
 			</rule>
 			<rule e="way" k="sport" v="swimming|canoe|diving|scuba_diving">
 				<area fill="#b5d6f1" stroke="#6060ff" stroke-width="0.3" />
@@ -1295,6 +1295,21 @@
 		<rule e="way" k="osmc_foreground" v="black_turned_T">
 			<lineSymbol src="file:/osmc-symbols/yellow_black_turned_t.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="red_wheelchair">
+			<lineSymbol src="file:/osmc-symbols/yellow_red_wheelchair.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="blue_wheelchair">
+			<lineSymbol src="file:/osmc-symbols/yellow_blue_wheelchair.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="green_wheelchair">
+			<lineSymbol src="file:/osmc-symbols/yellow_green_wheelchair.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="white_wheelchair">
+			<lineSymbol src="file:/osmc-symbols/yellow_white_wheelchair.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="black_wheelchair">
+			<lineSymbol src="file:/osmc-symbols/yellow_black_wheelchair.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="red_x">
 			<lineSymbol src="file:/osmc-symbols/yellow_red_x.png" align-center="false" repeat="true" />
 		</rule>
@@ -1872,7 +1887,7 @@
 		<rule e="node" k="leisure" v="playground" zoom-min="17">
 			<symbol src="file:/symbols/playground.png" />
 		</rule>
-		<rule e="node" k="leisure" v="swimming_pool" zoom-min="14">
+		<rule e="node" k="leisure" v="swimming_pool" zoom-min="13">
 			<symbol src="file:/symbols/swimming.png" />
 		</rule>
 		<rule e="node" k="leisure" v="picnic_table">
