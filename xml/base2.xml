@@ -1331,9 +1331,6 @@
 			<rule e="node" k="amenity" v="library" zoom-min="17">
 				<symbol src="file:/symbols/library.png" />
 			</rule>
-			<rule e="node" k="amenity" v="museum" zoom-min="17">
-				<symbol src="file:/symbols/museum.png" />
-			</rule>
 			<rule e="node" k="amenity" v="parking" zoom-min="17">
 				<symbol src="file:/symbols/parking_car.png" />
 			</rule>

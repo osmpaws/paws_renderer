@@ -66,12 +66,12 @@ do
 			symbol=`grep "$bgcolor-$fgcolor" $target/$newname | tr '"' ' ' | awk '{print $2}'`
 			echo "$symbol s 0.5" | tr '-' '_' >> $scalingfactor
 			if [ "$sign" != "bar" ] || [ "$bgcolor" != "white" ]; then
-			echo "		<rule e=\"way\" k=\"osmc_foreground\" v=\""$fgcolor"_"`echo $sign | sed 's/^l$/L/' | sed 's/turned-t/turned_T/'`"\">
+			echo "		<rule e=\"way\" k=\"osmc_foreground\" v=\""$fgcolor"_"`echo $sign | sed 's/^l$/L/' | sed 's/turned-t/turned_T/' | tr '-' '_'`"\">
 			<lineSymbol src=\"file:/osmc-symbols/"$bgcolor"_"$fgcolor"_"`echo $sign | tr '-' '_'`".png\" align-center=\"false\" repeat=\"true\" />
 		</rule>" >> $renderrules
 		
 		        
-			echo "		<rule e=\"way\" k=\"osmc_foreground\" v=\""$fgcolor"_"`echo $sign | sed 's/^l$/L/' | sed 's/turned-t/turned_T/'`"\">
+			echo "		<rule e=\"way\" k=\"osmc_foreground\" v=\""$fgcolor"_"`echo $sign | sed 's/^l$/L/' | sed 's/turned-t/turned_T/' | tr '-' '_'`"\">
 			<lineSymbol src=\"file:/osmc-symbols/"$bgcolor"_"$fgcolor"_"`echo $sign | tr '-' '_'`".png\" align-center=\"false\" repeat=\"true\" />
 		</rule>" >> "osmc-symbol-$bgcolor.xml"
 		

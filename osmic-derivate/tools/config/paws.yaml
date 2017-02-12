@@ -372,6 +372,18 @@ swimming:
     fill: "#ffffff"
     width: 1
     opacity: 1.0
+soccer:
+  fill: "#000000"
+  halo:
+    fill: "#ffffff"
+    width: 1
+    opacity: 1.0
+tennis:
+  fill: "#000000"
+  halo:
+    fill: "#ffffff"
+    width: 1
+    opacity: 1.0
 #patterns
 access-destination:
   fill: "#0000ff"
