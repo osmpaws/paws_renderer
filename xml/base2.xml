@@ -839,7 +839,7 @@
 					<rule e="way" k="highway" v="unclassified|residential|living_street" zoom-min="12">
 						<line stroke="#ffffff" stroke-width="2.02" />
 						<rule e="way" k="*" v="*" zoom-min="15">
-							<pathText k="name" font-style="bold" font-size="20" stroke="#ffffff" stroke-width="2.0" />
+							<pathText k="name" font-style="bold" font-size="20" stroke="#ffffff" stroke-width="3.0" />
 						</rule>
 					</rule>
 					<rule e="way" k="highway" v="byway" zoom-min="12">

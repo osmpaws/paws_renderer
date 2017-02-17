@@ -1,11 +1,14 @@
 #!/bin/bash
 
+# this tool compares given tag-mapping.xml and given render rulse XML file
+# output is what can be rendered but miss in map file -- first block
+#  what is in map and is not rendered (some can be false) -- second and third block
+
 tmwtf="tmw.tmp"
 tmntf="tmn.tmp"
 mxtf="mx.tmp"
 lineseparator="--- --- --- ---"
 
-# pozor, je treba priradit equivalent values !!!
 set -f
 
 sed '/<*!--.\+--/d' $1 | sed '/!--/,/--/d' | sed -n '/<ways>/,/<\/ways>/p' | grep '<osm-tag' | grep -v 'enabled="false"' | sed 's/^\s*//' | sed 's/,/|/g' | sed 's/"\s*equivalent_values="//' | awk '{print $2,$3}' | sort -u > $tmwtf

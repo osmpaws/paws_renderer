@@ -1,7 +1,6 @@
 #!/bin/bash
 
 root="/home/jans/Dokumenty/osm/renderer"
-source ftp.conf
 osmcdflt="osmc-symbol-default"
 osmcyaml="osmc-symbol.yaml"
 osmcxml="osmc-symbol.xml"
@@ -85,6 +84,4 @@ do
 	uploadstr=$uploadstr"themes/$themename.zip,"
 done < tools/$themecfg
 
-uploadstr=`echo $uploadstr | sed 's/,$//'`
-
-#curl -T "{$uploadstr}" "ftp://ftp.radynet.org/osm/htdocs/paws_themes/" --user $login
+#sh upload.sh $uploadstr
