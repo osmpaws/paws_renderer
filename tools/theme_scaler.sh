@@ -6,7 +6,7 @@ txtscale=$2
 IFS='%'
 cat $filename | while read line; do
 	#caption,circle,line,pathtext,area
-	echo $line | egrep "<area|<caption|<circle|<line|<pathtext" > /dev/null
+	echo $line | egrep "<area|<caption|<circle|<line|<pathText" > /dev/null
 	if [ $? -eq 0 ]; then
 		newline=$line
 		

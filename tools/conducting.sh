@@ -1,5 +1,7 @@
 #!/bin/bash
 
+debug=1
+
 root="/home/jans/Dokumenty/osm/renderer"
 osmcdflt="osmc-symbol-default"
 osmcyaml="osmc-symbol.yaml"
@@ -45,6 +47,10 @@ rm -r ../svg/*
 #rm -r ../png/*
 cp -R $exportdir/. ../svg/
 ##################################################
+
+if [ $debug -gt 0 ]; then
+	exit 0
+fi
 
 cd ..
 rm -r themes

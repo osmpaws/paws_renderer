@@ -634,13 +634,16 @@ def modifySVG(config, icon_id, size, icon):
                 print('Shield corner radius is not a number. Defaulting to unrounded corners.')
 
         shield_fill = '#000000'
+        shield_fill_transparency = 1.0
         if 'fill' in config['shield']:
             shield_fill = parseColor(config['shield']['fill'])
             if shield_fill == None:
                 shield_fill = '#000000'
                 print('The specified shield fill is invalid. Format it as HEX/RGB/HSL/HUSL (e.g. #1a1a1a). Defaulting to #000000 (black).')
         else:
-            print('Shield fill not specified. Defaulting to #000000 (black).')
+            #print('Shield fill not specified. Defaulting to #000000 (black).')
+            shield_fill_transparency = 0.0
+            print('Shield fill not specified. Using transparent fill.')
 
         stroke = 'stroke:none;'
         stroke_fill = None
@@ -678,7 +681,7 @@ def modifySVG(config, icon_id, size, icon):
             shield.set('rx', str(shield_rounded))
             shield.set('ry', str(shield_rounded))
         shield.set('id', 'shield')
-        shield.set('style', 'fill:'+shield_fill+';'+stroke)
+        shield.set('style', 'fill:'+shield_fill+';'+'fill-opacity:'+repr(shield_fill_transparency)+';'+stroke)
 
         canvas = xpEval("//def:rect[@id='canvas']")[0]
         canvas.addnext(shield)

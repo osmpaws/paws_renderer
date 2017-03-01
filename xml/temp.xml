@@ -30,6 +30,7 @@
 	<rule e="any" k="*" v="*">
 		<rule e="any" k="leisure" v="nature_reserve" zoom-min="16">
 			<caption k="name" font-family="serif" font-style="bold_italic" font-size="17.0" fill="#40aa40" stroke="#ffffff" stroke-width="3.0" />
+			<pathText k="name" font-family="serif" font-style="bold_italic" font-size="17.0" fill="#40aa40" stroke="#ffffff" stroke-width="3.0" />
 		</rule>		
 		<rule e="any" k="landuse" v="reservoir|basin" zoom-min="14">
 			<caption k="name" font-family="serif" font-style="italic" font-size="20.0" fill="#5576d1" stroke="#e0e0f0" stroke-width="3.7" />
@@ -1355,14 +1356,17 @@
 		<rule e="way" k="admin_level" v="2">
 			<line stroke="#55FF0099" stroke-width="6.0" />
 			<line stroke="#bc4af9" stroke-width="0.7" stroke-dasharray="22.5,7.5,7.5,7.5" />
+			<pathText k="name" font-family="serif" font-style="bold_italic" font-size="11.9" fill="#55FF0099" stroke="#ffffff" stroke-width="2.1" />
 		</rule>	
 		<rule e="way" k="admin_level" v="4">
 			<line stroke="#55FF0099" stroke-width="3.0" />
 			<line stroke="#bc4af9" stroke-width="0.37" stroke-dasharray="22.5,7.5,7.5,7.5" />
+			<pathText k="name" font-family="serif" font-style="bold_italic" font-size="11.9" fill="#55FF0099" stroke="#ffffff" stroke-width="2.1" />
 		</rule>	
 		<rule e="way" k="admin_level" v="6">
 			<line stroke="#55FF0099" stroke-width="1.5" />
 			<line stroke="#bc4af9" stroke-width="0.37" stroke-dasharray="22.5,7.5,7.5,7.5" />
+			<pathText k="name" font-family="serif" font-style="bold_italic" font-size="11.9" fill="#55FF0099" stroke="#ffffff" stroke-width="2.1" />
 		</rule>
 		
 			
@@ -1585,7 +1589,9 @@
 		<!-- non-physical boundaries -->
 		<rule e="way" k="boundary" v="*">
 			<rule e="way" k="boundary" v="national_park">
-				<line stroke="#4ef94b" stroke-width="0.37" stroke-dasharray="22.5,7.5,7.5,7.5" />
+				<line stroke="#4ef94b" stroke-width="0.37" stroke-dasharray="22.5,7.5,7.5,7.5" />				
+				<caption k="name" font-family="serif" font-style="bold_italic" font-size="17.0" fill="#40aa40" stroke="#ffffff" stroke-width="3.0" />
+				<pathText k="name" font-family="serif" font-style="bold_italic" font-size="17.0" fill="#40aa40" stroke="#ffffff" stroke-width="3.0" />
 			</rule>
 			<rule e="way" k="boundary" v="administrative">
 				<rule e="way" k="admin_level" v="*">
@@ -1623,6 +1629,7 @@
 					<rule e="way" k="admin_level" v="1">
 						<line stroke="#80ffff00" stroke-width="2.62" />
 						<line stroke="#f9574b" stroke-width="0.37" stroke-dasharray="22.5,7.5,7.5,7.5" />
+						<pathText k="name" font-family="serif" font-style="bold_italic" font-size="17.0" fill="#80ffff00" stroke="#ffffff" stroke-width="3.0" />
 					</rule>
 				</rule>
 			</rule>

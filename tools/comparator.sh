@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# this tool compares given tag-mapping.xml and given render rulse XML file
+# this tool compares given tag-mapping.xml and given render rules XML file
 # output is what can be rendered but miss in map file -- first block
 #  what is in map and is not rendered (some can be false) -- second and third block
 

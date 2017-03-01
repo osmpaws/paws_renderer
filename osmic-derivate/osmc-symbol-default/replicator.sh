@@ -27,14 +27,24 @@ echo -n "" > $scalingfactor
 echo "<!--OSMC symbols-->" > $renderrules
 #bgclist=("black" "blue" "brown" "green" "orange" "purple" "red" "white" "yellow")
 bgclist="black
+black-circle
 blue
+blue-circle
 brown
 green
+green-circle
+green-frame
 orange
+orange-circle
 purple
 red
+red-circle
+red-frame
 white
-yellow"
+white-circle
+yellow
+yellow-circle
+yellow-frame"
 
 for bgcolor in $bgclist ;
 do
@@ -47,7 +57,32 @@ do
 	sign=`echo $file | cut -d- -f2- | rev | cut -d- -f2- | rev`
 	for bgcolor in $bgclist ;
 	do
-		bgchex=${colors[$bgcolor]}
+		if [[ $bgcolor =~ "-circle" ]]; then
+			#bgstyle="_circle"
+			#bgcolor=`echo $bgcolor | cut -d_ -f2`			
+			bgc=`echo $bgcolor | cut -d- -f1`
+			bgchex=${colors[$bgc]}
+			shieldpars="stroke_fill: \"#$bgchex\"
+    stroke_width: 2
+    rounded: 10
+    padding: 2"
+		elif [[ $bgcolor =~ "-frame" ]]; then
+			#bgstyle="_frame"
+			bgc=`echo $bgcolor | cut -d- -f1`
+			bgchex=${colors[$bgc]}
+			shieldpars="stroke_fill: \"#$bgchex\"
+    stroke_width: 2
+    rounded: 2
+    padding: 2"
+		else
+			#bgstyle=""
+			bgchex=${colors[$bgcolor]}
+			shieldpars="fill: \"#$bgchex\"
+    stroke_fill: \"#000000\"
+    stroke_width: 1
+    padding: 1"
+		fi
+		
 		echo "	<rule e=\"way\" k=\"osmc_background\" v=\"$bgcolor\" zoom-min=\"15\">" >> $renderrules
 		
 		for fgcolor in "red" "yellow" "blue" "green" "white" "black";
@@ -80,10 +115,7 @@ do
 			echo "$symbol:
   fill: \"#$fgchex\"
   shield:
-    fill: \"#$bgchex\"
-    stroke_fill: \"#000000\"
-    stroke_width: 1    
-    padding: 1" >> $svgrules
+    $shieldpars" >> $svgrules
 		done
 		echo "	</rule>" >> $renderrules
 	done
