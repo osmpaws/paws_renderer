@@ -7,14 +7,24 @@ osmcdflt="osmc-symbol-default"
 osmcyaml="osmc-symbol.yaml"
 osmcxml="osmc-symbol.xml"
 osmcblackbg="osmc-symbol-black.xml"
+osmcblackcbg="osmc-symbol-black-circle.xml"
 osmcbluebg="osmc-symbol-blue.xml"
+osmcbluecbg="osmc-symbol-blue-circle.xml"
 osmcbrownbg="osmc-symbol-brown.xml"
 osmcgreenbg="osmc-symbol-green.xml"
+osmcgreenbg="osmc-symbol-green-circle.xml"
+osmcgreenfbg="osmc-symbol-green-frame.xml"
 osmcorangebg="osmc-symbol-orange.xml"
+osmcorangecbg="osmc-symbol-orange-circle.xml"
 osmcpurplebg="osmc-symbol-purple.xml"
 osmcredbg="osmc-symbol-red.xml"
+osmcredfbg="osmc-symbol-red-frame.xml"
 osmcwhitebg="osmc-symbol-white.xml"
+osmcwhitecbg="osmc-symbol-white-circle.xml"
+osmcwhitefbg="osmc-symbol-white-frame.xml"
 osmcyellowbg="osmc-symbol-yellow.xml"
+osmcyellowcbg="osmc-symbol-yellow-circle.xml"
+osmcyellowfbg="osmc-symbol-yellow-frame.xml"
 pawsyaml="paws.yaml"
 pawsosmcyaml="paws-osmc.yaml"
 exportdir="export_paws"
@@ -68,12 +78,24 @@ do
 		sed -i "/<!--hiking#lines#high#zoom-->/r $root/xml/$hlhzx" $root/xml/$tempxml
 		sed -i "/<!--hiking#lines#low#zoom-->/r $root/xml/$hllzx" $root/xml/$tempxml		
 		sed -i "/<!--OSMC#symbols-->/r $root/xml/$osmcwhitebg" $root/xml/$tempxml		
-		sed -i "/<!--OSMC#symbols-->/r $root/xml/$osmcblackbg" $root/xml/$tempxml		
-		sed -i "/<!--OSMC#symbols-->/r $root/xml/$osmcbluebg" $root/xml/$tempxml		
-		sed -i "/<!--OSMC#symbols-->/r $root/xml/$osmcbrownbg" $root/xml/$tempxml		
-		sed -i "/<!--OSMC#symbols-->/r $root/xml/$osmcorangebg" $root/xml/$tempxml		
-		sed -i "/<!--OSMC#symbols-->/r $root/xml/$osmcpurplebg" $root/xml/$tempxml		
-		sed -i "/<!--OSMC#symbols-->/r $root/xml/$osmcredbg" $root/xml/$tempxml	
+		sed -i "/<!--OSMC#symbols-->/r $root/xml/$osmcwhitecbg" $root/xml/$tempxml		
+		sed -i "/<!--OSMC#symbols-->/r $root/xml/$osmcwhitefbg" $root/xml/$tempxml
+		sed -i "/<!--OSMC#symbols-->/r $root/xml/$osmcblackbg" $root/xml/$tempxml
+		sed -i "/<!--OSMC#symbols-->/r $root/xml/$osmcblackcbg" $root/xml/$tempxml
+		sed -i "/<!--OSMC#symbols-->/r $root/xml/$osmcbluebg" $root/xml/$tempxml
+		sed -i "/<!--OSMC#symbols-->/r $root/xml/$osmcbluecbg" $root/xml/$tempxml
+		sed -i "/<!--OSMC#symbols-->/r $root/xml/$osmcbrownbg" $root/xml/$tempxml
+		sed -i "/<!--OSMC#symbols-->/r $root/xml/$osmcgreenbg" $root/xml/$tempxml
+		sed -i "/<!--OSMC#symbols-->/r $root/xml/$osmcgreencbg" $root/xml/$tempxml
+		sed -i "/<!--OSMC#symbols-->/r $root/xml/$osmcgreenfbg" $root/xml/$tempxml
+		sed -i "/<!--OSMC#symbols-->/r $root/xml/$osmcorangebg" $root/xml/$tempxml
+		sed -i "/<!--OSMC#symbols-->/r $root/xml/$osmcorangecbg" $root/xml/$tempxml
+		sed -i "/<!--OSMC#symbols-->/r $root/xml/$osmcpurplebg" $root/xml/$tempxml
+		sed -i "/<!--OSMC#symbols-->/r $root/xml/$osmcredbg" $root/xml/$tempxml
+		sed -i "/<!--OSMC#symbols-->/r $root/xml/$osmcredcbg" $root/xml/$tempxml
+		sed -i "/<!--OSMC#symbols-->/r $root/xml/$osmcredfbg" $root/xml/$tempxml
+		sed -i "/<!--OSMC#symbols-->/r $root/xml/$osmcyellowcbg" $root/xml/$tempxml
+		sed -i "/<!--OSMC#symbols-->/r $root/xml/$osmcyellowfbg" $root/xml/$tempxml
 	fi
 	if [ "$biking" = "1" ]; then
 		sed -i "/<!--biking#lines#high#zoom-->/r $root/xml/$blhzx" $root/xml/$tempxml
