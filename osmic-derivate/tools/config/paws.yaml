@@ -423,6 +423,7 @@ military:
   fill: "#555555"
   shield:
     fill: "#ffe649"
+    opacity: 0.25
     stroke_fill: "#ffe649"
     stroke_width: 1
     padding: 2
