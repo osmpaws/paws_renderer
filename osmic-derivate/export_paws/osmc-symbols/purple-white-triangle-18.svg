@@ -10,6 +10,6 @@
     </rdf:RDF>
   </metadata>
   <defs id="defs6"/>
-  <rect style="fill:none;stroke:none;visibility:hidden" id="canvas" y="0" x="0" height="18" width="18"/><rect x="1" y="1" width="16" height="16" id="shield" style="fill:#b878dd;fill-opacity:1.0;stroke:#000000;stroke-width:1.0;"/>
+  <rect style="fill:none;stroke:none;visibility:hidden" id="canvas" y="0" x="0" height="18" width="18"/><rect x="1" y="1" width="16" height="16" id="shield" style="fill:#b878dd;fill-opacity:None;stroke:#000000;stroke-width:1.0;stroke-opacity:None;"/>
   <path style="fill:#ffffff;fill-opacity:1" id="purple-white-triangle" d="M 13,12 7,2 1,12 Z" transform="translate(2,2)"/>
 </svg>

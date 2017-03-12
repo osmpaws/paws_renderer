@@ -19,7 +19,7 @@ files=`find . -type f -name "*.svg"`
 cd ..
 
 echo "0" > $commfile
-bgplimit=500
+bgplimit=600
 
 echo "$files" | while read line;
 do

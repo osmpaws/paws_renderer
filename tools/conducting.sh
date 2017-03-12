@@ -1,6 +1,6 @@
 #!/bin/bash
 
-debug=1
+debug=2
 
 root="/home/jans/Dokumenty/osm/renderer"
 osmcdflt="osmc-symbol-default"
@@ -12,16 +12,16 @@ osmcbluebg="osmc-symbol-blue.xml"
 osmcbluecbg="osmc-symbol-blue-circle.xml"
 osmcbrownbg="osmc-symbol-brown.xml"
 osmcgreenbg="osmc-symbol-green.xml"
-osmcgreenbg="osmc-symbol-green-circle.xml"
+osmcgreencbg="osmc-symbol-green-circle.xml"
 osmcgreenfbg="osmc-symbol-green-frame.xml"
 osmcorangebg="osmc-symbol-orange.xml"
 osmcorangecbg="osmc-symbol-orange-circle.xml"
 osmcpurplebg="osmc-symbol-purple.xml"
 osmcredbg="osmc-symbol-red.xml"
+osmcredcbg="osmc-symbol-red-circle.xml"
 osmcredfbg="osmc-symbol-red-frame.xml"
 osmcwhitebg="osmc-symbol-white.xml"
 osmcwhitecbg="osmc-symbol-white-circle.xml"
-osmcwhitefbg="osmc-symbol-white-frame.xml"
 osmcyellowbg="osmc-symbol-yellow.xml"
 osmcyellowcbg="osmc-symbol-yellow-circle.xml"
 osmcyellowfbg="osmc-symbol-yellow-frame.xml"
@@ -58,7 +58,7 @@ rm -r ../svg/*
 cp -R $exportdir/. ../svg/
 ##################################################
 
-if [ $debug -gt 0 ]; then
+if [ $debug -le 1 ]; then
 	exit 0
 fi
 
@@ -75,11 +75,12 @@ do
 	mkdir $themename
 	cp $root/xml/$basexml $root/xml/$tempxml
 	if [ "$hiking" = "1" ]; then
+		ls $root/xml/$hlhzx $root/xml/$hllzx $root/xml/$osmcwhitebg $root/xml/$osmcwhitecbg $root/xml/$osmcblackbg $root/xml/$osmcblackcbg $root/xml/$osmcbluebg $root/xml/$osmcbluecbg $root/xml/$osmcbrownbg $root/xml/$osmcgreenbg $root/xml/$osmcgreencbg $root/xml/$osmcgreenfbg $root/xml/$osmcorangebg $root/xml/$osmcorangecbg $root/xml/$osmcpurplebg $root/xml/$osmcredbg $root/xml/$osmcredcbg $root/xml/$osmcredfbg $root/xml/$osmcyellowcbg $root/xml/$osmcyellowfbg
+		
 		sed -i "/<!--hiking#lines#high#zoom-->/r $root/xml/$hlhzx" $root/xml/$tempxml
 		sed -i "/<!--hiking#lines#low#zoom-->/r $root/xml/$hllzx" $root/xml/$tempxml		
 		sed -i "/<!--OSMC#symbols-->/r $root/xml/$osmcwhitebg" $root/xml/$tempxml		
-		sed -i "/<!--OSMC#symbols-->/r $root/xml/$osmcwhitecbg" $root/xml/$tempxml		
-		sed -i "/<!--OSMC#symbols-->/r $root/xml/$osmcwhitefbg" $root/xml/$tempxml
+		sed -i "/<!--OSMC#symbols-->/r $root/xml/$osmcwhitecbg" $root/xml/$tempxml
 		sed -i "/<!--OSMC#symbols-->/r $root/xml/$osmcblackbg" $root/xml/$tempxml
 		sed -i "/<!--OSMC#symbols-->/r $root/xml/$osmcblackcbg" $root/xml/$tempxml
 		sed -i "/<!--OSMC#symbols-->/r $root/xml/$osmcbluebg" $root/xml/$tempxml
@@ -103,7 +104,7 @@ do
 		sed -i "/<!--biking#captions-->/r $root/xml/$bcx" $root/xml/$tempxml		
 		sed -i "/<!--OSMC#symbols-->/r $root/xml/$osmcyellowbg" $root/xml/$tempxml
 	fi
-	#sh tools/pnger.sh $imgscalefactor
+	sh tools/pnger.sh $imgscalefactor
 	sh tools/theme_scaler.sh $xmlscalefactor $txtscalefactor $root/xml/$tempxml > $themename/$themename.xml
 	sh tools/completer.sh $themename
 	
@@ -112,4 +113,7 @@ do
 	uploadstr=$uploadstr"themes/$themename.zip,"
 done < tools/$themecfg
 
-#sh upload.sh $uploadstr
+if [ $debug -le 2 ]; then
+	exit 0
+fi
+sh upload.sh $uploadstr

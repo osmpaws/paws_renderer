@@ -644,7 +644,7 @@ def modifySVG(config, icon_id, size, icon):
         
         shield_opacity = None
         if 'opacity' in config['shield']:
-        try:
+            try:
                 shield_opacity = float(config['shield']['opacity'])
 
                 if shield_opacity < 0 or shield_opacity > 1:
@@ -673,7 +673,7 @@ def modifySVG(config, icon_id, size, icon):
                 
         stroke_opacity = None
         if 'stroke_opacity' in config['shield']:
-        try:
+            try:
                 stroke_opacity = float(config['shield']['stroke_opacity'])
 
                 if stroke_opacity < 0 or stroke_opacity > 1:

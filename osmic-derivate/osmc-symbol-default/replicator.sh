@@ -48,8 +48,9 @@ yellow-frame"
 
 for bgcolor in $bgclist ;
 do
-	echo '<!--OSMC symbols '$bgcolor' background-->
-	<rule e="way" k="osmc_background" v="'$bgcolor'" zoom-min="15">' > "osmc-symbol-$bgcolor.xml"
+	bgcolorxml=`echo $bgcolor | tr '-' '_'`
+	echo '<!--OSMC symbols '$bgcolorxml' background-->
+	<rule e="way" k="osmc_background" v="'$bgcolorxml'" zoom-min="15">' > "osmc-symbol-$bgcolor.xml"
 done
 
 for file in $defaultname-*.svg;
@@ -57,6 +58,8 @@ do
 	sign=`echo $file | cut -d- -f2- | rev | cut -d- -f2- | rev`
 	for bgcolor in $bgclist ;
 	do
+		
+		bgcolorxml=`echo $bgcolor | tr '-' '_'`
 		if [[ $bgcolor =~ "-circle" ]]; then
 			#bgstyle="_circle"
 			#bgcolor=`echo $bgcolor | cut -d_ -f2`			
@@ -64,6 +67,7 @@ do
 			bgchex=${colors[$bgc]}
 			shieldpars="stroke_fill: \"#$bgchex\"
     stroke_width: 2
+    opacity: 0.0
     rounded: 10
     padding: 2"
 		elif [[ $bgcolor =~ "-frame" ]]; then
@@ -72,6 +76,7 @@ do
 			bgchex=${colors[$bgc]}
 			shieldpars="stroke_fill: \"#$bgchex\"
     stroke_width: 2
+    opacity: 0.0
     rounded: 2
     padding: 2"
 		else
@@ -83,13 +88,14 @@ do
     padding: 1"
 		fi
 		
-		echo "	<rule e=\"way\" k=\"osmc_background\" v=\"$bgcolor\" zoom-min=\"15\">" >> $renderrules
+		echo "	<rule e=\"way\" k=\"osmc_background\" v=\"$bgcolorxml\" zoom-min=\"15\">" >> $renderrules
 		
 		for fgcolor in "red" "yellow" "blue" "green" "white" "black";
 		do			
 			fgchex=${colors[$fgcolor]}
+			fgcolorxml=`echo $fgcolor | tr '-' '_'`
 						
-			if [ "$fgcolor" = "$bgcolor" ]; then
+			if [ "$fgchex" = "$bgchex" ]; then
 				continue
 			fi
 			#if [ "$sign" = "wheelchair" ] && [ "$bgcolor" != "white" ] && ([ "$fgcolor" != "black" ] || [ "$fgcolor" != "blue" ] || [ "$fgcolor" != "red" ]); then
@@ -101,13 +107,13 @@ do
 			symbol=`grep "$bgcolor-$fgcolor" $target/$newname | tr '"' ' ' | awk '{print $2}'`
 			echo "$symbol s 0.6" | tr '-' '_' >> $scalingfactor
 			if [ "$sign" != "bar" ] || [ "$bgcolor" != "white" ]; then
-			echo "		<rule e=\"way\" k=\"osmc_foreground\" v=\""$fgcolor"_"`echo $sign | sed 's/^l$/L/' | sed 's/turned-t/turned_T/' | tr '-' '_'`"\">
-			<lineSymbol src=\"file:/osmc-symbols/"$bgcolor"_"$fgcolor"_"`echo $sign | tr '-' '_'`".png\" align-center=\"false\" repeat=\"true\" />
+			echo "		<rule e=\"way\" k=\"osmc_foreground\" v=\""$fgcolorxml"_"`echo $sign | sed 's/^l$/L/' | sed 's/turned-t/turned_T/' | tr '-' '_'`"\">
+			<lineSymbol src=\"file:/osmc-symbols/"$bgcolorxml"_"$fgcolorxml"_"`echo $sign | tr '-' '_'`".png\" align-center=\"false\" repeat=\"true\" />
 		</rule>" >> $renderrules
 		
 		        
-			echo "		<rule e=\"way\" k=\"osmc_foreground\" v=\""$fgcolor"_"`echo $sign | sed 's/^l$/L/' | sed 's/turned-t/turned_T/' | tr '-' '_'`"\">
-			<lineSymbol src=\"file:/osmc-symbols/"$bgcolor"_"$fgcolor"_"`echo $sign | tr '-' '_'`".png\" align-center=\"false\" repeat=\"true\" />
+			echo "		<rule e=\"way\" k=\"osmc_foreground\" v=\""$fgcolorxml"_"`echo $sign | sed 's/^l$/L/' | sed 's/turned-t/turned_T/' | tr '-' '_'`"\">
+			<lineSymbol src=\"file:/osmc-symbols/"$bgcolorxml"_"$fgcolorxml"_"`echo $sign | tr '-' '_'`".png\" align-center=\"false\" repeat=\"true\" />
 		</rule>" >> "osmc-symbol-$bgcolor.xml"
 		
 			fi
