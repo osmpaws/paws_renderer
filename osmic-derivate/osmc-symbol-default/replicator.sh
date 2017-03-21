@@ -95,7 +95,7 @@ do
 			fgchex=${colors[$fgcolor]}
 			fgcolorxml=`echo $fgcolor | tr '-' '_'`
 						
-			if [ "$fgchex" = "$bgchex" ]; then
+			if [ "$fgcolor" = "$bgcolor" ]; then
 				continue
 			fi
 			#if [ "$sign" = "wheelchair" ] && [ "$bgcolor" != "white" ] && ([ "$fgcolor" != "black" ] || [ "$fgcolor" != "blue" ] || [ "$fgcolor" != "red" ]); then
@@ -105,7 +105,7 @@ do
 			sed "s/id=\"$defaultname/id=\"$bgcolor-$fgcolor/" $file > $target/$newname
 			
 			symbol=`grep "$bgcolor-$fgcolor" $target/$newname | tr '"' ' ' | awk '{print $2}'`
-			echo "$symbol s 0.6" | tr '-' '_' >> $scalingfactor
+			echo "$symbol s 0.7" | tr '-' '_' >> $scalingfactor
 			if [ "$sign" != "bar" ] || [ "$bgcolor" != "white" ]; then
 			echo "		<rule e=\"way\" k=\"osmc_foreground\" v=\""$fgcolorxml"_"`echo $sign | sed 's/^l$/L/' | sed 's/turned-t/turned_T/' | tr '-' '_'`"\">
 			<lineSymbol src=\"file:/osmc-symbols/"$bgcolorxml"_"$fgcolorxml"_"`echo $sign | tr '-' '_'`".png\" align-center=\"false\" repeat=\"true\" />

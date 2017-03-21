@@ -1,6 +1,6 @@
 #!/bin/bash
 
-debug=2
+debug=3
 
 root="/home/jans/Dokumenty/osm/renderer"
 osmcdflt="osmc-symbol-default"
@@ -32,6 +32,7 @@ scalecfg="osmc-symbol-scale.cfg"
 basexml="base2.xml"
 tempxml="temp.xml"
 themecfg="themes.cfg"
+uploadscript="upload.sh"
 
 bcx="biking-captions.xml"
 blhzx="biking-lines-high-zoom.xml"
@@ -106,7 +107,13 @@ do
 	fi
 	sh tools/pnger.sh $imgscalefactor
 	sh tools/theme_scaler.sh $xmlscalefactor $txtscalefactor $root/xml/$tempxml > $themename/$themename.xml
+	
+	cat $themename/$themename.xml | sed 's/renderTheme.xsd" version="1"/renderTheme.xsd" version="2"/g
+s/src="file:\//src="file:/g
+s/<circle r="/<circle radius="/g' > $themename/$themename.map.txt
+
 	sh tools/completer.sh $themename
+	cp images/paw.png $themename/$themename.png
 	
 	zip -r $themename.zip $themename
 	mv $themename $themename.zip themes/
@@ -116,4 +123,4 @@ done < tools/$themecfg
 if [ $debug -le 2 ]; then
 	exit 0
 fi
-sh upload.sh $uploadstr
+sh tools/$uploadscript $uploadstr

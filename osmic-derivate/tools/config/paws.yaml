@@ -133,10 +133,22 @@ embassy:
   fill: "#0092da"
 parking-car:
   fill: "#0092da"
+  halo:
+    fill: "#ffffff"
+    width: 1
+    opacity: 1.0
 parking-bicycle:
   fill: "#0092da"
+  halo:
+    fill: "#ffffff"
+    width: 1
+    opacity: 1.0
 parking-garage-car:
   fill: "#0092da"
+  halo:
+    fill: "#ffffff"
+    width: 1
+    opacity: 1.0
 lift-gate:
   fill: "#ff0000"
   halo:

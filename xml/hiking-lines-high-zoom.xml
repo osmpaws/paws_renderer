@@ -31,7 +31,8 @@
 			</rule>
 			<rule e="way" k="osmc_color" v="none">
 				<line stroke="#AAAAAA" stroke-width="3.4" stroke-linecap="butt" stroke-dasharray="15,50" />
-			</rule>	
+			</rule>
+			
 			<rule e="way" k="osmc_color" v="yellow">
 				<line stroke="#FFDD00" stroke-width="3.4" stroke-linecap="butt" stroke-dasharray="0,7.5,15,15" />
 			</rule>
