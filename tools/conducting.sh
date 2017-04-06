@@ -1,6 +1,6 @@
 #!/bin/bash
 
-debug=3
+debug=2
 
 root="/home/jans/Dokumenty/osm/renderer"
 osmcdflt="osmc-symbol-default"
@@ -33,6 +33,7 @@ basexml="base2.xml"
 tempxml="temp.xml"
 themecfg="themes.cfg"
 uploadscript="upload.sh"
+lmod="lmod.txt"
 
 bcx="biking-captions.xml"
 blhzx="biking-lines-high-zoom.xml"
@@ -43,33 +44,52 @@ hllzx="hiking-lines-low-zoom.xml"
 ##################################################
 # fixed part
 ##################################################
-cd $root/osmic-derivate/$osmcdflt
-bash replicator.sh
-cp $osmcyaml ../tools/config/
-cp $scalecfg ../../tools/
-cp $osmcxml osmc-symbol-*.xml ../../xml/
+cd $root
+rebuildimg=0
+lmodf=`find osmic-derivate/ -type f -printf '%T@ %p\n' | sort -n | tail -1 | tr -d '/ .'`
+lmodo=`cat tools/$lmod`
+if [ "$lmodf" = "$lmodo" ] ; then
+	rebuildimg=0
+	
+else
+	rebuildimg=1
+	#echo $lmodf > tools/$lmod
 
-cd ../tools/config
-cat $pawsyaml $osmcyaml > $pawsosmcyaml
+	cd $root/osmic-derivate/$osmcdflt
+	bash replicator.sh
+	cp $osmcyaml ../tools/config/
+	cp $scalecfg ../../tools/
+	cp $osmcxml osmc-symbol-*.xml ../../xml/
 
-cd ../..
-python tools/export.py tools/config/$pawsosmcyaml
-rm -r ../svg/*
-#rm -r ../png/*
-cp -R $exportdir/. ../svg/
+	cd ../tools/config
+	cat $pawsyaml $osmcyaml > $pawsosmcyaml
+
+	cd ../..
+	python tools/export.py tools/config/$pawsosmcyaml
+	rm -r ../svg/*
+	#rm -r ../png/*
+	cp -R $exportdir/. ../svg/
+	find ../osmic-derivate/ -type f -printf '%T@ %p\n' | sort -n | tail -1 | tr -d '/ .' > $root/tools/$lmod
+fi
 ##################################################
 
 if [ $debug -le 1 ]; then
+	echo $rebuildimg
 	exit 0
 fi
 
-cd ..
-rm -r themes
+if [ $rebuildimg -eq 1 ]; then
+	cd ..
+	rm -r themes
+fi
+
 mkdir -p themes
 
 uploadstr=""
+lastimgscale=0
 # nazev thmscl imgscl hiking biking
-
+# pokud se poradi zmeni je treba na vstupu zmenit sort
+sort -k4,4n -s -t ',' "tools/$themecfg" |
 while IFS=, read themename xmlscalefactor txtscalefactor imgscalefactor hiking biking
 do
 	echo $themename $xmlscalefactor $imgscalefactor
@@ -105,20 +125,33 @@ do
 		sed -i "/<!--biking#captions-->/r $root/xml/$bcx" $root/xml/$tempxml		
 		sed -i "/<!--OSMC#symbols-->/r $root/xml/$osmcyellowbg" $root/xml/$tempxml
 	fi
-	sh tools/pnger.sh $imgscalefactor
+	
+	echo "Temp xml done"
+	
+	if [ $rebuildimg -eq 1 ]; then
+		if [ $lastimgscale -ne $imgscalefactor ]; then
+			sh tools/pnger.sh $imgscalefactor
+		fi
+	else
+		mv themes/$themename .
+	fi
+	
 	sh tools/theme_scaler.sh $xmlscalefactor $txtscalefactor $root/xml/$tempxml > $themename/$themename.xml
-	
+	echo "theme scaled"
 	cat $themename/$themename.xml | sed 's/renderTheme.xsd" version="1"/renderTheme.xsd" version="2"/g
-s/src="file:\//src="file:/g
-s/<circle r="/<circle radius="/g' > $themename/$themename.map.txt
-
-	sh tools/completer.sh $themename
-	cp images/paw.png $themename/$themename.png
+	s/src="file:\//src="file:/g 
+	s/<circle r="/<circle radius="/g' > $themename/$themename.map.txt
 	
+	if [ $rebuildimg -eq 1 ]; then
+		sh tools/completer.sh $themename
+	fi
+	cp images/paw.png $themename/$themename.png
+	echo "zipping"
 	zip -r $themename.zip $themename
 	mv $themename $themename.zip themes/
 	uploadstr=$uploadstr"themes/$themename.zip,"
-done < tools/$themecfg
+	lastimgscale=$imgscalefactor
+done
 
 if [ $debug -le 2 ]; then
 	exit 0

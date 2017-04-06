@@ -4,7 +4,7 @@ filename=$3
 scale=$1
 txtscale=$2
 IFS='%'
-cat $filename | while read line; do
+while read line; do
 	#caption,circle,line,pathtext,area
 	echo $line | egrep "<area|<caption|<circle|<line|<pathText" > /dev/null
 	if [ $? -eq 0 ]; then
@@ -49,4 +49,4 @@ cat $filename | while read line; do
 	else		
 		echo $line
 	fi
-done
+done < "$filename"

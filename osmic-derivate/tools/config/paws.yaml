@@ -399,19 +399,13 @@ tennis:
 #patterns
 access-destination:
   fill: "#0000ff"
-access-private:
-  fill: "#ff0000"
-access-no-foot:
-  fill: "#ffaa00"
 access-no-bike:
   fill: "#ff00ff"
-nature-reserve:
-  fill: "#99ff99"
+access-no-foot:
+  fill: "#ffaa00"
+access-private:
+  fill: "#ff0000"
 cemetery:
-  fill: "#999999"
-  shield:
-    fill: "#bde3cb"
-cemetery-jewish:
   fill: "#999999"
   shield:
     fill: "#bde3cb"
@@ -419,6 +413,35 @@ cemetery-christian:
   fill: "#999999"
   shield:
     fill: "#bde3cb"
+cemetery-jewish:
+  fill: "#999999"
+  shield:
+    fill: "#bde3cb"
+marsh:
+  fill: "#0092da"
+military:
+  fill: "#555555"
+  shield:
+    fill: "#ffe649"
+    opacity: 0.25
+    stroke_fill: "#ffe649"
+    stroke_width: 1
+    padding: 2
+nature-reserve:
+  fill: "#99ff99"
+orchard:
+  fill: "#000000"
+  shield:
+    fill: "#aadca2"
+photovoltaic:
+  fill: "#ffffff"
+  shield:
+    fill: "#2222a2"
+    opacity: 0.25
+vineyard:
+  fill: "#000000"
+  shield:
+    fill: "#aadca2"
 wood-coniferous:
   fill: "#96b983"
   shield:
@@ -431,21 +454,3 @@ wood-mixed:
   fill: "#96b983"
   shield:
     fill: "#a6c993"
-military:
-  fill: "#555555"
-  shield:
-    fill: "#ffe649"
-    opacity: 0.25
-    stroke_fill: "#ffe649"
-    stroke_width: 1
-    padding: 2
-orchard:
-  fill: "#000000"
-  shield:
-    fill: "#aadca2"
-vineyard:
-  fill: "#000000"
-  shield:
-    fill: "#aadca2"
-marsh:
-  fill: "#0092da"
