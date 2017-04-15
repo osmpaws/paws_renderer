@@ -8,6 +8,7 @@ osmcwhitebg="osmc-symbol-white.xml"
 osmcorangebg="osmc-symbol-orange.xml"
 osmcyellowbg="osmc-symbol-yellow.xml"
 scalingfactor="osmc-symbol-scale.cfg"
+actualsymbols="/home/hts/osm/nbh/osmc_symbols.lst"
 
 declare -A colors
 colors["black"]="000000"
@@ -56,13 +57,14 @@ done
 for file in $defaultname-*.svg;
 do
 	sign=`echo $file | cut -d- -f2- | rev | cut -d- -f2- | rev`
+	signxml=`echo $sign | sed 's/^l$/L/' | sed 's/turned-t/turned_T/' | tr '-' '_'`
 	for bgcolor in $bgclist ;
 	do
 		
 		bgcolorxml=`echo $bgcolor | tr '-' '_'`
 		if [[ $bgcolor =~ "-circle" ]]; then
 			#bgstyle="_circle"
-			#bgcolor=`echo $bgcolor | cut -d_ -f2`			
+			#bgcolor=`echo $bgcolor | cut -d_ -f2`
 			bgc=`echo $bgcolor | cut -d- -f1`
 			bgchex=${colors[$bgc]}
 			shieldpars="stroke_fill: \"#$bgchex\"
@@ -90,33 +92,59 @@ do
 		
 		echo "	<rule e=\"way\" k=\"osmc_background\" v=\"$bgcolorxml\" zoom-min=\"15\">" >> $renderrules
 		
-		for fgcolor in "red" "yellow" "blue" "green" "white" "black";
+		for fgcolor in "red" "yellow" "blue" "green" "white" "black" "brown" "purple" "orange" "" ;
 		do			
-			fgchex=${colors[$fgcolor]}
-			fgcolorxml=`echo $fgcolor | tr '-' '_'`
-						
+			if [ "$fgcolor" = "" ]; then
+				if [ "$sign" = "shell-modern" ]; then
+					fgchex=${colors["yellow"]}
+				elif [ "$bgcolor" = "white" ]; then
+					fgchex=${colors["black"]}
+				else
+					fgchex=${colors["white"]}
+				fi
+				colormix="$bgcolor"
+				searchstr="^"$bgcolorxml":"$signxml"$"
+				tagvalue="$signxml"
+				pngfilename="$bgcolorxml"_"`echo $sign | tr '-' '_'`"
+			else
+				fgchex=${colors[$fgcolor]}
+				fgcolorxml=`echo $fgcolor | tr '-' '_'`
+				colormix="$bgcolor-$fgcolor"
+				searchstr="^"$bgcolorxml":"$fgcolorxml"_"$signxml"$"
+				tagvalue="$fgcolorxml"_"$signxml"
+				pngfilename="$bgcolorxml"_"$fgcolorxml"_"`echo $sign | tr '-' '_'`"
+			fi
+			
+			#this will filter out most of the combinations because we take only real ones (directly from PBFs)
+			#comment this out if you want all the icons
+			#echo " "$bgcolorxml":"$fgcolorxml"_"$signxml
+			echo $searchstr | grep -f - $actualsymbols -m1 --color=auto
+			if [ $? -ne 0 ]; then
+				continue
+			fi
+			
 			if [ "$fgcolor" = "$bgcolor" ]; then
 				continue
 			fi
 			#if [ "$sign" = "wheelchair" ] && [ "$bgcolor" != "white" ] && ([ "$fgcolor" != "black" ] || [ "$fgcolor" != "blue" ] || [ "$fgcolor" != "red" ]); then
 			#	continue
 			#fi
-			newname=`echo $file | sed "s/$defaultname/$bgcolor-$fgcolor/"`
-			sed "s/id=\"$defaultname/id=\"$bgcolor-$fgcolor/" $file > $target/$newname
+			newname=`echo $file | sed "s/$defaultname/$colormix/"`
+			sed "s/id=\"$defaultname/id=\"$colormix/" $file > $target/$newname
 			
-			symbol=`grep "$bgcolor-$fgcolor" $target/$newname | tr '"' ' ' | awk '{print $2}'`
+			symbol=`grep "$colormix" $target/$newname | tr '"' ' ' | awk '{print $2}'`
 			echo "$symbol s 0.7" | tr '-' '_' >> $scalingfactor
-			if [ "$sign" != "bar" ] || [ "$bgcolor" != "white" ]; then
-			echo "		<rule e=\"way\" k=\"osmc_foreground\" v=\""$fgcolorxml"_"`echo $sign | sed 's/^l$/L/' | sed 's/turned-t/turned_T/' | tr '-' '_'`"\">
-			<lineSymbol src=\"file:/osmc-symbols/"$bgcolorxml"_"$fgcolorxml"_"`echo $sign | tr '-' '_'`".png\" align-center=\"false\" repeat=\"true\" />
+			#if [ "$sign" != "bar" ] || [ "$bgcolor" != "white" ]; then
+			echo "		<rule e=\"way\" k=\"osmc_foreground\" v=\""$tagvalue"\">
+			<lineSymbol src=\"file:/osmc-symbols/"$pngfilename".png\" align-center=\"false\" repeat=\"true\" />
 		</rule>" >> $renderrules
 		
 		        
-			echo "		<rule e=\"way\" k=\"osmc_foreground\" v=\""$fgcolorxml"_"`echo $sign | sed 's/^l$/L/' | sed 's/turned-t/turned_T/' | tr '-' '_'`"\">
-			<lineSymbol src=\"file:/osmc-symbols/"$bgcolorxml"_"$fgcolorxml"_"`echo $sign | tr '-' '_'`".png\" align-center=\"false\" repeat=\"true\" />
+			echo "		<rule e=\"way\" k=\"osmc_foreground\" v=\""$tagvalue"\">
+			<lineSymbol src=\"file:/osmc-symbols/"$pngfilename".png\" align-center=\"false\" repeat=\"true\" />
 		</rule>" >> "osmc-symbol-$bgcolor.xml"
 		
-			fi
+			#fi
 			
 			echo "$symbol:
   fill: \"#$fgchex\"

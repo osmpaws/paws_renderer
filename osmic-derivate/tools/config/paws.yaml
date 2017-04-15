@@ -306,8 +306,16 @@ memorial:
     opacity: 1.0
 oneway:
   fill: "#555555"
+  halo:
+    fill: "#ffffff"
+    width: 1
+    opacity: 1.0
 oneway-closedway:
   fill: "#555555"
+  halo:
+    fill: "#ffffff"
+    width: 1
+    opacity: 1.0
 cliff-line:
   fill: "#555555"
 cliff-line-closedway:
@@ -421,11 +429,10 @@ marsh:
   fill: "#0092da"
 military:
   fill: "#555555"
+  opacity: 0.25
   shield:
     fill: "#ffe649"
     opacity: 0.25
-    stroke_fill: "#ffe649"
-    stroke_width: 1
     padding: 2
 nature-reserve:
   fill: "#99ff99"

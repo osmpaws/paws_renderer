@@ -1,10 +1,10 @@
 		<!--KCT#hiking#lines#high#zoom-->
 		<rule e="way" k="highway" v="track|path|footway|steps|~" zoom-min="14">
 			<rule e="way" k="osmc_color" v="*">
-				<line stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="butt" />
-			</rule>	
+				<line stroke="#FFFFFF" stroke-width="4.4" stroke-linecap="butt" />
+			</rule>
 			<rule e="way" k="osmc_color" v="white">
-				<line stroke="#FFFFFF" stroke-width="3.4" stroke-linecap="butt" stroke-dasharray="15,30" />
+				<line stroke="#FFFFFF" stroke-width="3.4" stroke-linecap="butt" />
 			</rule>
 			<rule e="way" k="osmc_color" v="red">
 				<line stroke="#FF0000" stroke-width="3.4" stroke-linecap="butt" />
@@ -29,115 +29,135 @@
 			</rule>
 			<rule e="way" k="osmc_color" v="green">
 				<line stroke="#00cd27" stroke-width="3.4" stroke-linecap="butt" />
-				<line stroke="#00cd27" stroke-width="3.4" stroke-linecap="butt" stroke-dasharray="15,22.5" />
+				<line stroke="#00cd27" stroke-width="3.4" stroke-linecap="butt" stroke-dasharray="15,60" />
 			</rule>
 			<rule e="way" k="osmc_color" v="orange">
-				<line stroke="#F96F00" stroke-width="3.4" stroke-linecap="butt" stroke-dasharray="15,35" />
+				<line stroke="#F96F00" stroke-width="3.4" stroke-linecap="butt" stroke-dasharray="0,7.5,15,52.5" />
 			</rule>
 			<rule e="way" k="osmc_color" v="purple">
-				<line stroke="#B878DD" stroke-width="3.4" stroke-linecap="butt" stroke-dasharray="15,40" />
+				<line stroke="#B878DD" stroke-width="3.4" stroke-linecap="butt" stroke-dasharray="0,15,15,45" />
 			</rule>
 			<rule e="way" k="osmc_color" v="black">
-				<line stroke="#000000" stroke-width="3.4" stroke-linecap="butt" stroke-dasharray="15,45" />
+				<line stroke="#000000" stroke-width="3.4" stroke-linecap="butt" stroke-dasharray="0,22.5,15,37.5" />
 			</rule>
 			<rule e="way" k="osmc_color" v="none">
-				<line stroke="#AAAAAA" stroke-width="3.4" stroke-linecap="butt" stroke-dasharray="15,50" />
-			</rule>			
+				<line stroke="#AAAAAA" stroke-width="3.4" stroke-linecap="butt" stroke-dasharray="0,30,15,30" />
+			</rule>
 			<rule e="way" k="osmc_color" v="yellow">
-				<line stroke="#FFDD00" stroke-width="3.4" stroke-linecap="butt" stroke-dasharray="0,7.5,15,15" />
+				<line stroke="#FFDD00" stroke-width="3.4" stroke-linecap="butt" stroke-dasharray="0,37.5,15,22.5" />
 			</rule>
 			<rule e="way" k="osmc_color" v="blue">
-				<line stroke="#1579e0" stroke-width="3.4" stroke-linecap="butt" stroke-dasharray="0,15,15,7.5" />
+				<line stroke="#1579e0" stroke-width="3.4" stroke-linecap="butt" stroke-dasharray="0,45,15,15" />
 			</rule>
 			<rule e="way" k="osmc_color" v="red">
-				<line stroke="#FF0000" stroke-width="3.4" stroke-linecap="butt" stroke-dasharray="0,22.5,15,0" />
-			</rule>			
-		</rule>
-		<rule e="way" k="highway" v="bridleway|service|unclassified|residential|living_street|pedestrian|road"  zoom-min="14">
-			<rule e="way" k="osmc_color" v="white">
-				<line stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" stroke-dasharray="15,15" />
+				<line stroke="#FF0000" stroke-width="3.4" stroke-linecap="butt" stroke-dasharray="0,52.5,15,0" />
 			</rule>
-			<rule e="way" k="osmc_color" v="red">			
-				<line stroke="#FFFFFF" stroke-width="5.1" stroke-linecap="butt" />
+		</rule>
+		<rule e="way" k="highway" v="bridleway|service|unclassified|residential|living_street|pedestrian|road" zoom-min="14">
+			<rule e="way" k="osmc_color" v="*">
+				<line stroke="#FFFFFF" stroke-width="5.5" stroke-linecap="butt" />
+			</rule>
+			<rule e="way" k="osmc_color" v="white">
+				<line stroke="#FFFFFF" stroke-width="4.0" stroke-linecap="butt" />
+			</rule>
+			<rule e="way" k="osmc_color" v="red">
 				<line stroke="#FF0000" stroke-width="4.0" stroke-linecap="butt" />
 			</rule>
 			<rule e="way" k="osmc_color" v="blue">
-				<line stroke="#FFFFFF" stroke-width="5.1" stroke-linecap="butt" />
 				<line stroke="#1579e0" stroke-width="4.0" stroke-linecap="butt" />
 			</rule>
 			<rule e="way" k="osmc_color" v="yellow">
-				<line stroke="#FFFFFF" stroke-width="5.1" stroke-linecap="butt" />
 				<line stroke="#FFDD00" stroke-width="4.0" stroke-linecap="butt" />
 			</rule>
-			<rule e="way" k="osmc_color" v="green">
-				<line stroke="#FFFFFF" stroke-width="5.1" stroke-linecap="butt" />
-				<line stroke="#00cd27" stroke-width="4.0" stroke-linecap="butt" />
-				<line stroke="#00cd27" stroke-width="4.0" stroke-linecap="butt" stroke-dasharray="15,22.5" />
-			</rule>
-			<rule e="way" k="osmc_color" v="orange">
-				<line stroke="#F96F00" stroke-width="2.2" stroke-linecap="butt" stroke-dasharray="15,15" />
-			</rule>
-			<rule e="way" k="osmc_color" v="purple">
-				<line stroke="#B878DD" stroke-width="2.2" stroke-linecap="butt" stroke-dasharray="15,15" />
+			<rule e="way" k="osmc_color" v="none">
+				<line stroke="#AAAAAA" stroke-width="4.0" stroke-linecap="butt" />
 			</rule>
 			<rule e="way" k="osmc_color" v="black">
-				<line stroke="#000000" stroke-width="2.2" stroke-linecap="butt" stroke-dasharray="15,15" />
+				<line stroke="#000000" stroke-width="4.0" stroke-linecap="butt" />
+			</rule>
+			<rule e="way" k="osmc_color" v="purple">
+				<line stroke="#B878DD" stroke-width="4.0" stroke-linecap="butt" />
+			</rule>
+			<rule e="way" k="osmc_color" v="orange">
+				<line stroke="#F96F00" stroke-width="4.0" stroke-linecap="butt" />
+			</rule>
+			<rule e="way" k="osmc_color" v="green">
+				<line stroke="#00cd27" stroke-width="4.0" stroke-linecap="butt" />
+				<line stroke="#00cd27" stroke-width="4.0" stroke-linecap="butt" stroke-dasharray="15,60" />
+			</rule>
+			<rule e="way" k="osmc_color" v="orange">
+				<line stroke="#F96F00" stroke-width="4.0" stroke-linecap="butt" stroke-dasharray="0,7.5,15,52.5" />
+			</rule>
+			<rule e="way" k="osmc_color" v="purple">
+				<line stroke="#B878DD" stroke-width="4.0" stroke-linecap="butt" stroke-dasharray="0,15,15,45" />
+			</rule>
+			<rule e="way" k="osmc_color" v="black">
+				<line stroke="#000000" stroke-width="4.0" stroke-linecap="butt" stroke-dasharray="0,22.5,15,37.5" />
 			</rule>
 			<rule e="way" k="osmc_color" v="none">
-				<line stroke="#AAAAAA" stroke-width="2.2" stroke-linecap="butt" stroke-dasharray="15,15" />
-			</rule>	
+				<line stroke="#AAAAAA" stroke-width="4.0" stroke-linecap="butt" stroke-dasharray="0,30,15,30" />
+			</rule>
 			<rule e="way" k="osmc_color" v="yellow">
-				<line stroke="#FFDD00" stroke-width="4.0" stroke-linecap="butt" stroke-dasharray="0,7.5,15,15" />
+				<line stroke="#FFDD00" stroke-width="4.0" stroke-linecap="butt" stroke-dasharray="0,37.5,15,22.5" />
 			</rule>
 			<rule e="way" k="osmc_color" v="blue">
-				<line stroke="#1579e0" stroke-width="4.0" stroke-linecap="butt" stroke-dasharray="0,15,15,7.5" />
-			</rule>			
+				<line stroke="#1579e0" stroke-width="4.0" stroke-linecap="butt" stroke-dasharray="0,45,15,15" />
+			</rule>
 			<rule e="way" k="osmc_color" v="red">
-				<line stroke="#FF0000" stroke-width="4.0" stroke-linecap="butt" stroke-dasharray="0,22.5,15,0" />
-			</rule>	
+				<line stroke="#FF0000" stroke-width="4.0" stroke-linecap="butt" stroke-dasharray="0,52.5,15,0" />
+			</rule>
 		</rule>
 		<rule e="way" k="highway" v="cycleway|tertiary|tertiary_link|secondary_link|primary_link|trunk_link|motorway_link|secondary|primary|trunk" zoom-min="14">
-			<rule e="way" k="osmc_color" v="white">
-				<line stroke="#FFFFFF" stroke-width="3.1" stroke-linecap="round" stroke-dasharray="15,15" />
+			<rule e="way" k="osmc_color" v="*">
+				<line stroke="#FFFFFF" stroke-width="5.9" stroke-linecap="butt" />
 			</rule>
-			<rule e="way" k="osmc_color" v="red">			
-				<line stroke="#FFFFFF" stroke-width="6.0" stroke-linecap="butt" />
+			<rule e="way" k="osmc_color" v="white">
+				<line stroke="#FFFFFF" stroke-width="4.9" stroke-linecap="butt" />
+			</rule>
+			<rule e="way" k="osmc_color" v="red">
 				<line stroke="#FF0000" stroke-width="4.9" stroke-linecap="butt" />
 			</rule>
 			<rule e="way" k="osmc_color" v="blue">
-				<line stroke="#FFFFFF" stroke-width="6.0" stroke-linecap="butt" />
 				<line stroke="#1579e0" stroke-width="4.9" stroke-linecap="butt" />
 			</rule>
 			<rule e="way" k="osmc_color" v="yellow">
-				<line stroke="#FFFFFF" stroke-width="6.0" stroke-linecap="butt" />
 				<line stroke="#FFDD00" stroke-width="4.9" stroke-linecap="butt" />
 			</rule>
-			<rule e="way" k="osmc_color" v="green">
-				<line stroke="#FFFFFF" stroke-width="6.0" stroke-linecap="butt" />
-				<line stroke="#00cd27" stroke-width="4.9" stroke-linecap="butt" />
-			</rule>	
-			<rule e="way" k="osmc_color" v="orange">
-				<line stroke="#F96F00" stroke-width="3.1" stroke-linecap="butt" stroke-dasharray="15,15" />
-			</rule>
-			<rule e="way" k="osmc_color" v="purple">
-				<line stroke="#B878DD" stroke-width="3.1" stroke-linecap="butt" stroke-dasharray="15,15" />
+			<rule e="way" k="osmc_color" v="none">
+				<line stroke="#AAAAAA" stroke-width="4.9" stroke-linecap="butt" />
 			</rule>
 			<rule e="way" k="osmc_color" v="black">
-				<line stroke="#000000" stroke-width="3.1" stroke-linecap="butt" stroke-dasharray="15,15" />
+				<line stroke="#000000" stroke-width="4.9" stroke-linecap="butt" />
 			</rule>
-			<rule e="way" k="osmc_color" v="none">
-				<line stroke="#AAAAAA" stroke-width="3.1" stroke-linecap="butt" stroke-dasharray="15,15" />
+			<rule e="way" k="osmc_color" v="purple">
+				<line stroke="#B878DD" stroke-width="4.9" stroke-linecap="butt" />
+			</rule>
+			<rule e="way" k="osmc_color" v="orange">
+				<line stroke="#F96F00" stroke-width="4.9" stroke-linecap="butt" />
 			</rule>
 			<rule e="way" k="osmc_color" v="green">
-				<line stroke="#00cd27" stroke-width="4.9" stroke-linecap="butt" stroke-dasharray="15,22.5" />
+				<line stroke="#00cd27" stroke-width="4.9" stroke-linecap="butt" />
+				<line stroke="#00cd27" stroke-width="4.9" stroke-linecap="butt" stroke-dasharray="15,60" />
+			</rule>
+			<rule e="way" k="osmc_color" v="orange">
+				<line stroke="#F96F00" stroke-width="4.9" stroke-linecap="butt" stroke-dasharray="0,7.5,15,52.5" />
+			</rule>
+			<rule e="way" k="osmc_color" v="purple">
+				<line stroke="#B878DD" stroke-width="4.9" stroke-linecap="butt" stroke-dasharray="0,15,15,45" />
+			</rule>
+			<rule e="way" k="osmc_color" v="black">
+				<line stroke="#000000" stroke-width="4.9" stroke-linecap="butt" stroke-dasharray="0,22.5,15,37.5" />
+			</rule>
+			<rule e="way" k="osmc_color" v="none">
+				<line stroke="#AAAAAA" stroke-width="4.9" stroke-linecap="butt" stroke-dasharray="0,30,15,30" />
 			</rule>
 			<rule e="way" k="osmc_color" v="yellow">
-				<line stroke="#FFDD00" stroke-width="4.9" stroke-linecap="butt" stroke-dasharray="0,7.5,15,15" />
+				<line stroke="#FFDD00" stroke-width="4.9" stroke-linecap="butt" stroke-dasharray="0,37.5,15,22.5" />
 			</rule>
 			<rule e="way" k="osmc_color" v="blue">
-				<line stroke="#1579e0" stroke-width="4.9" stroke-linecap="butt" stroke-dasharray="0,15,15,7.5" />
-			</rule>			
+				<line stroke="#1579e0" stroke-width="4.9" stroke-linecap="butt" stroke-dasharray="0,45,15,15" />
+			</rule>
 			<rule e="way" k="osmc_color" v="red">
-				<line stroke="#FF0000" stroke-width="4.9" stroke-linecap="butt" stroke-dasharray="0,22.5,15,0" />
-			</rule>	
+				<line stroke="#FF0000" stroke-width="4.9" stroke-linecap="butt" stroke-dasharray="0,52.5,15,0" />
+			</rule>
 		</rule>	

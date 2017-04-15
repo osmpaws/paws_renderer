@@ -756,6 +756,19 @@ def modifySVG(config, icon_id, size, icon):
             path.attrib['style'] = re.sub('fill:#[0-9a-f]{6};?', 'fill:'+fill_color+';', path.attrib['style'])
         else:
             print('The specified fill is invalid. Format it as HEX/RGB/HSL/HUSL (e.g. #1a1a1a).')
+    
+    # change the icon opacity        
+    opacity = None
+    if 'opacity' in config:
+        try:
+            opacity = float(config['opacity'])
+            if opacity < 0 or opacity > 1:
+                opacity = 1.0
+                print('Icon opacity must lie between 0 and 1 (e.g. 0.5). Defaulting to 1.0.')
+            else:
+                path.attrib['style'] = re.sub('fill-opacity:[.0-9]+;?', 'fill-opacity:'+str(opacity)+';', path.attrib['style'])
+        except ValueError:
+            print('The specified icon opacity is not a number.')
 
 
     # adjust document and canvas size, icon position
