@@ -1,6 +1,6 @@
 #!/bin/bash
 
-debug=2
+debug=3
 
 root="/home/jans/Dokumenty/osm/renderer"
 osmcdflt="osmc-symbol-default"
@@ -41,6 +41,7 @@ bcx="biking-captions.xml"
 blhzx="biking-lines-high-zoom.xml"
 bllzx="biking-lines-low-zoom.xml"
 hlhzx="hiking-lines-high-zoom.xml"
+hlhzx4="hiking-lines-high-zoom-4.xml"
 hllzx="hiking-lines-low-zoom.xml"
 
 ##################################################
@@ -95,7 +96,7 @@ lastimgscale=0
 # nazev thmscl imgscl hiking biking
 # pokud se poradi zmeni je treba na vstupu zmenit sort
 sort -k4,4 -s -t ',' "tools/$themecfg" |
-while IFS=, read themename xmlscalefactor txtscalefactor imgscalefactor hiking biking
+while IFS=, read themename xmlscalefactor txtscalefactor imgscalefactor hiking biking revision
 do
 	echo $themename $xmlscalefactor $imgscalefactor
 	echo "Theme name: $themename" >> $logfile
@@ -104,13 +105,24 @@ do
 	echo " image scale: $imgscalefactor" >> $logfile
 	echo " include hiking: $hiking" >> $logfile
 	echo " include biking: $biking" >> $logfile
+	echo " revision: $revision" >> $logfile
 	
 	mkdir $themename
-	cp $root/xml/$basexml $root/xml/$tempxml
+	if [ "$revision" -eq "4" ]; then
+		sed 's/\.\.\/renderTheme.xsd" version="[0-9]\+"/https:\/\/raw.githubusercontent.com\/mapsforge\/mapsforge\/dev\/resources\/renderTheme-v4.xsd" version="4" map-background-outside="#EEEEEE"/g
+	s/src="file:\//src="file:/g
+	s/<circle r="/<circle radius="/g' $root/xml/$basexml > $root/xml/$tempxml
+	else
+		cp $root/xml/$basexml $root/xml/$tempxml
+	fi
 	if [ "$hiking" = "1" ]; then
 		ls $root/xml/$hlhzx $root/xml/$hllzx $root/xml/$osmcwhitebg $root/xml/$osmcwhitecbg $root/xml/$osmcblackbg $root/xml/$osmcblackcbg $root/xml/$osmcbluebg $root/xml/$osmcbluecbg $root/xml/$osmcbrownbg $root/xml/$osmcgreenbg $root/xml/$osmcgreencbg $root/xml/$osmcgreenfbg $root/xml/$osmcorangebg $root/xml/$osmcorangecbg $root/xml/$osmcpurplebg $root/xml/$osmcredbg $root/xml/$osmcredcbg $root/xml/$osmcredfbg $root/xml/$osmcyellowcbg $root/xml/$osmcyellowfbg
 		
-		sed -i "/<!--hiking#lines#high#zoom-->/r $root/xml/$hlhzx" $root/xml/$tempxml
+		if [ "$revision" -eq "4" ]; then
+			sed -i "/<!--hiking#lines#high#zoom#4-->/r $root/xml/$hlhzx4" $root/xml/$tempxml
+		else
+			sed -i "/<!--hiking#lines#high#zoom-->/r $root/xml/$hlhzx" $root/xml/$tempxml
+		fi
 		sed -i "/<!--hiking#lines#low#zoom-->/r $root/xml/$hllzx" $root/xml/$tempxml
 		sed -i "/<!--OSMC#symbols-->/r $root/xml/$osmcwhitebg" $root/xml/$tempxml
 		sed -i "/<!--OSMC#symbols-->/r $root/xml/$osmcwhitecbg" $root/xml/$tempxml
@@ -152,7 +164,7 @@ do
 	
 	sh tools/theme_scaler.sh $xmlscalefactor $txtscalefactor $root/xml/$tempxml > $themename/$themename.xml
 	mkdir -p $themename/v2
-	cat $themename/$themename.xml | sed 's/renderTheme.xsd" version="1"/renderTheme.xsd" version="2"/g
+	cat $themename/$themename.xml | sed 's/renderTheme.xsd" version="[0-9]\+"/renderTheme.xsd" version="2"/g
 	s/src="file:\//src="file:..\//g 
 	s/<circle r="/<circle radius="/g' > $themename/v2/$themename.map.xml
 	

@@ -590,6 +590,9 @@
 	<rule e="way" k="osmc_background" v="yellow_frame" zoom-min="15">
 	</rule>
 	<rule e="way" k="osmc_background" v="black" zoom-min="15">
+		<rule e="way" k="osmc_foreground" v="white_diamond_line">
+			<lineSymbol src="file:/osmc-symbols/black_white_diamond_line.png" align-center="false" repeat="true" />
+		</rule>
 	</rule>
 	<rule e="way" k="osmc_background" v="black_circle" zoom-min="15">
 	</rule>

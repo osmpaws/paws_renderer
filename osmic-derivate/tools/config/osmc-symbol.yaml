@@ -758,6 +758,13 @@ yellow-black-cross:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+black-white-diamond-line:
+  fill: "#ffffff"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 white-red-diamond-line:
   fill: "#ff0000"
   shield:

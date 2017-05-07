@@ -24,6 +24,9 @@
 		<rule e="way" k="osmc_foreground" v="yellow_cross">
 			<lineSymbol src="file:/osmc-symbols/black_yellow_cross.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="white_diamond_line">
+			<lineSymbol src="file:/osmc-symbols/black_white_diamond_line.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="yellow_dot">
 			<lineSymbol src="file:/osmc-symbols/black_yellow_dot.png" align-center="false" repeat="true" />
 		</rule>

@@ -1,6 +1,7 @@
 #/bin/bash
 
 defaultname="adefaultsign"
+symbolstype="way"
 target="../osmc-symbols"
 svgrules="osmc-symbol.yaml"
 renderrules="osmc-symbol.xml"
@@ -51,7 +52,7 @@ for bgcolor in $bgclist ;
 do
 	bgcolorxml=`echo $bgcolor | tr '-' '_'`
 	echo '<!--OSMC symbols '$bgcolorxml' background-->
-	<rule e="way" k="osmc_background" v="'$bgcolorxml'" zoom-min="15">' > "osmc-symbol-$bgcolor.xml"
+	<rule e="'$symbolstype'" k="osmc_background" v="'$bgcolorxml'" zoom-min="15">' > "osmc-symbol-$bgcolor.xml"
 done
 
 for file in $defaultname-*.svg;
@@ -90,7 +91,7 @@ do
     padding: 1"
 		fi
 		
-		echo "	<rule e=\"way\" k=\"osmc_background\" v=\"$bgcolorxml\" zoom-min=\"15\">" >> $renderrules
+		echo "	<rule e=\"$symbolstype\" k=\"osmc_background\" v=\"$bgcolorxml\" zoom-min=\"15\">" >> $renderrules
 		
 		for fgcolor in "red" "yellow" "blue" "green" "white" "black" "brown" "purple" "orange" "" ;
 		do			
@@ -133,19 +134,30 @@ do
 			sed "s/id=\"$defaultname/id=\"$colormix/" $file > $target/$newname
 			
 			symbol=`grep "$colormix" $target/$newname | tr '"' ' ' | awk '{print $2}'`
-			echo "$symbol s 0.7" | tr '-' '_' >> $scalingfactor
+			if [ "$sign" = "bar" ] && [ "$bgcolor" = "white" ]; then
+				echo "$symbol s 0.4" | tr '-' '_' >> $scalingfactor
+			else
+				echo "$symbol s 0.7" | tr '-' '_' >> $scalingfactor
+			fi
 			#if [ "$sign" != "bar" ] || [ "$bgcolor" != "white" ]; then
-			echo "		<rule e=\"way\" k=\"osmc_foreground\" v=\""$tagvalue"\">
+			if [ "$symbolstype" = "way" ]; then
+				echo "		<rule e=\"way\" k=\"osmc_foreground\" v=\""$tagvalue"\">
 			<lineSymbol src=\"file:/osmc-symbols/"$pngfilename".png\" align-center=\"false\" repeat=\"true\" />
 		</rule>" >> $renderrules
 		
-		        
-			echo "		<rule e=\"way\" k=\"osmc_foreground\" v=\""$tagvalue"\">
+				echo "		<rule e=\"way\" k=\"osmc_foreground\" v=\""$tagvalue"\">
 			<lineSymbol src=\"file:/osmc-symbols/"$pngfilename".png\" align-center=\"false\" repeat=\"true\" />
 		</rule>" >> "osmc-symbol-$bgcolor.xml"
+			else
+				echo "		<rule e=\"node\" k=\"osmc_foreground\" v=\""$tagvalue"\">
+			<symbol src=\"file:/osmc-symbols/"$pngfilename".png\" />
+		</rule>" >> $renderrules
 		
+				echo "		<rule e=\"node\" k=\"osmc_foreground\" v=\""$tagvalue"\">
+			<symbol src=\"file:/osmc-symbols/"$pngfilename".png\" />
+		</rule>" >> "osmc-symbol-$bgcolor.xml"
+			fi
 			#fi
-			
 			echo "$symbol:
   fill: \"#$fgchex\"
   shield:

@@ -12,7 +12,7 @@ while read line; do
 		
 		echo $line | grep " dy=" > /dev/null
 		if [ $? -eq 0 ]; then
-			dy=`echo $line | sed 's/.* dy=\"\([-0-9]*\).*/\1/'`
+			dy=`echo $line | sed 's/.* dy=\"\([-0-9.]*\).*/\1/'`
 			#dynew=`echo "if($dy>0){$dy+$scale}else{$dy-$scale}" | bc`
 			dynew=`echo "$dy*$txtscale" | bc | sed 's/^\./0./'`
 			newline=`echo $newline | sed "s/ dy=\"$dy\"/ dy=\"$dynew\"/"`

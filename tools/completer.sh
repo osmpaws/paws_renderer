@@ -17,7 +17,8 @@ imgfiles=`grep 'src=' "$root/$1/$1.xml" | sed 's/.*src=file:"\(.*\)".*/\1/g' | s
 for filepath in $imgfiles;
 do
 	mkdir -p $root/$1/`echo $filepath | rev | cut -d/ -f2- | rev`
-	cp "$root/png/$filepath" "$root/$1/$filepath"
+	suffix=`echo $filepath | rev | cut -d. -f1 | rev`
+	cp "$root/$suffix/$filepath" "$root/$1/$filepath"
 done
 
 #cp -r "$root/xml/$basexml"  $root/$1/$1.xml
