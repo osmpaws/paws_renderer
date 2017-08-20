@@ -1,5 +1,14 @@
 <!--OSMC symbols red_circle background-->
 	<rule e="way" k="osmc_background" v="red_circle" zoom-min="15">
+		<rule e="way" k="osmc_foreground" v="red_bar">
+			<lineSymbol src="file:/osmc-symbols/red_circle_red_bar.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="white_circle">
+			<lineSymbol src="file:/osmc-symbols/red_circle_white_circle.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="red_dot">
+			<lineSymbol src="file:/osmc-symbols/red_circle_red_dot.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="yellow_dot">
 			<lineSymbol src="file:/osmc-symbols/red_circle_yellow_dot.png" align-center="false" repeat="true" />
 		</rule>

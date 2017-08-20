@@ -2,9 +2,11 @@
 
 defaultname="adefaultsign"
 symbolstype="way"
+secsymbolstype="node"
 target="../osmc-symbols"
 svgrules="osmc-symbol.yaml"
 renderrules="osmc-symbol.xml"
+tagrules="tag-mapping.tpl"
 osmcwhitebg="osmc-symbol-white.xml"
 osmcorangebg="osmc-symbol-orange.xml"
 osmcyellowbg="osmc-symbol-yellow.xml"
@@ -21,8 +23,10 @@ colors["purple"]="b878dd"
 colors["red"]="ff0000"
 colors["white"]="ffffff"
 colors["yellow"]="ffdd00"
+colors["none"]="ffffff"
 
 rm -r $target
+echo -n "" > $tagrules
 mkdir -p $target
 echo "#osmc-symbol" > $svgrules
 echo -n "" > $scalingfactor
@@ -30,35 +34,58 @@ echo "<!--OSMC symbols-->" > $renderrules
 #bgclist=("black" "blue" "brown" "green" "orange" "purple" "red" "white" "yellow")
 bgclist="black
 black-circle
+black-frame
+black-round
 blue
 blue-circle
+blue-frame
+blue-round
 brown
+brown-circle
+brown-frame
+brown-round
 green
 green-circle
 green-frame
+green-round
 orange
 orange-circle
+orange-frame
+orange-round
 purple
+purple-circle
+purple-frame
+purple-round
 red
 red-circle
 red-frame
+red-round
 white
 white-circle
+white-frame
+white-round
 yellow
 yellow-circle
-yellow-frame"
+yellow-frame
+yellow-round
+
+none"
 
 for bgcolor in $bgclist ;
 do
 	bgcolorxml=`echo $bgcolor | tr '-' '_'`
 	echo '<!--OSMC symbols '$bgcolorxml' background-->
 	<rule e="'$symbolstype'" k="osmc_background" v="'$bgcolorxml'" zoom-min="15">' > "osmc-symbol-$bgcolor.xml"
+	
+	echo '<!--OSMC symbols '$bgcolorxml' '$secsymbolstype' background-->
+	<rule e="'$secsymbolstype'" k="osmc_background" v="'$bgcolorxml'" zoom-min="15">' > "osmc-symbol-$bgcolor-$secsymbolstype.xml"
 done
 
 for file in $defaultname-*.svg;
 do
 	sign=`echo $file | cut -d- -f2- | rev | cut -d- -f2- | rev`
 	signxml=`echo $sign | sed 's/^l$/L/' | sed 's/turned-t/turned_T/' | tr '-' '_'`
+	
 	for bgcolor in $bgclist ;
 	do
 		
@@ -73,6 +100,14 @@ do
     opacity: 0.0
     rounded: 10
     padding: 2"
+		elif [[ $bgcolor =~ "-round" ]]; then
+			bgc=`echo $bgcolor | cut -d- -f1`
+			bgchex=${colors[$bgc]}
+			shieldpars="fill: \"#$bgchex\"
+    stroke_fill: \"#000000\"
+    stroke_width: 1
+    padding: 2
+    rounded: 10"
 		elif [[ $bgcolor =~ "-frame" ]]; then
 			#bgstyle="_frame"
 			bgc=`echo $bgcolor | cut -d- -f1`
@@ -82,6 +117,12 @@ do
     opacity: 0.0
     rounded: 2
     padding: 2"
+		elif [[ $bgcolor =~ "none" ]] || [ $bgcolor = "" ]; then
+			bgc=`echo $bgcolor | cut -d- -f1`
+			bgchex=${colors[$bgc]}
+			shieldpars="fill: \"#$bgchex\"
+    opacity: 0.0
+    padding: 1"
 		else
 			#bgstyle=""
 			bgchex=${colors[$bgcolor]}
@@ -92,6 +133,7 @@ do
 		fi
 		
 		echo "	<rule e=\"$symbolstype\" k=\"osmc_background\" v=\"$bgcolorxml\" zoom-min=\"15\">" >> $renderrules
+		echo "		<osm-tag key=\"osmc_background\" value=\"$bgcolorxml\" renderable=\"false\" />" >> $tagrules
 		
 		for fgcolor in "red" "yellow" "blue" "green" "white" "black" "brown" "purple" "orange" "" ;
 		do			
@@ -124,6 +166,8 @@ do
 				continue
 			fi
 			
+			echo "		<osm-tag key=\"osmc_foreground\" value=\"$tagvalue\" renderable=\"false\" />" >> $tagrules
+			
 			if [ "$fgcolor" = "$bgcolor" ]; then
 				continue
 			fi
@@ -140,7 +184,7 @@ do
 				echo "$symbol s 0.7" | tr '-' '_' >> $scalingfactor
 			fi
 			#if [ "$sign" != "bar" ] || [ "$bgcolor" != "white" ]; then
-			if [ "$symbolstype" = "way" ]; then
+			#if [ "$symbolstype" = "way" ]; then
 				echo "		<rule e=\"way\" k=\"osmc_foreground\" v=\""$tagvalue"\">
 			<lineSymbol src=\"file:/osmc-symbols/"$pngfilename".png\" align-center=\"false\" repeat=\"true\" />
 		</rule>" >> $renderrules
@@ -148,15 +192,16 @@ do
 				echo "		<rule e=\"way\" k=\"osmc_foreground\" v=\""$tagvalue"\">
 			<lineSymbol src=\"file:/osmc-symbols/"$pngfilename".png\" align-center=\"false\" repeat=\"true\" />
 		</rule>" >> "osmc-symbol-$bgcolor.xml"
-			else
+			#else
 				echo "		<rule e=\"node\" k=\"osmc_foreground\" v=\""$tagvalue"\">
 			<symbol src=\"file:/osmc-symbols/"$pngfilename".png\" />
 		</rule>" >> $renderrules
 		
 				echo "		<rule e=\"node\" k=\"osmc_foreground\" v=\""$tagvalue"\">
 			<symbol src=\"file:/osmc-symbols/"$pngfilename".png\" />
-		</rule>" >> "osmc-symbol-$bgcolor.xml"
-			fi
+		</rule>" >> "osmc-symbol-$bgcolor-$secsymbolstype.xml"
+			#fi
+			
 			#fi
 			echo "$symbol:
   fill: \"#$fgchex\"
@@ -170,7 +215,16 @@ done
 for bgcolor in $bgclist ;
 do
 	echo '	</rule>' >> "osmc-symbol-$bgcolor.xml"
+	echo '	</rule>' >> "osmc-symbol-$bgcolor-$secsymbolstype.xml"
+	if ! grep '<lineSymbol ' "osmc-symbol-$bgcolor.xml" -m1 ; then
+		echo '' > "osmc-symbol-$bgcolor.xml"
+	fi
+	if ! grep '<symbol ' "osmc-symbol-$bgcolor-$secsymbolstype.xml" -m1 ; then
+		echo '' > "osmc-symbol-$bgcolor-$secsymbolstype.xml"
+	fi
 done
+
+sort -t'"' -k2,4 -u -o $tagrules $tagrules
 
 echo "Icons replicated to $target. $svgrules contains new rules for export in colors. Copy the content to appropriate yaml for export."
 

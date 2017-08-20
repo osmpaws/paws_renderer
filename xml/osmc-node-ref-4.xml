@@ -1,0 +1,30 @@
+		<!--OSMC#symbol#node#ref-->
+		<rule cat="hike_symbol_nodes" e="node" k="osmc" v="yes" zoom-min="15">
+			<rule e="node" k="osmc_text" v="osmc_text_black|~|osmc_text_none">
+				<caption k="name" display="always" priority="100" font-size="15" fill="#000000" stroke="#FFFFFF" stroke-width="2" />
+			</rule>
+			<rule e="node" k="osmc_text" v="osmc_text_blue">
+				<caption k="name" display="always" priority="100" font-size="15" fill="#0000FF" stroke="#FFFFFF" stroke-width="2" />
+			</rule>
+			<rule e="node" k="osmc_text" v="osmc_text_brown">
+				<caption k="name" display="always" priority="100" font-size="15" fill="#FFFF00" stroke="#FFFFFF" stroke-width="2" />
+			</rule>
+			<rule e="node" k="osmc_text" v="osmc_text_green">
+				<caption k="name" display="always" priority="100" font-size="15" fill="#00cd27" stroke="#FFFFFF" stroke-width="2" />
+			</rule>
+			<rule e="node" k="osmc_text" v="osmc_text_orange">
+				<caption k="name" display="always" priority="100" font-size="15" fill="#F96F00" stroke="#FFFFFF" stroke-width="2" />
+			</rule>
+			<rule e="node" k="osmc_text" v="osmc_text_purple">
+				<caption k="name" display="always" priority="100" font-size="15" fill="#B878DD" stroke="#FFFFFF" stroke-width="2" />
+			</rule>
+			<rule e="node" k="osmc_text" v="osmc_text_red">
+				<caption k="name" display="always" priority="100" font-size="15" fill="#FF0000" stroke="#FFFFFF" stroke-width="2" />
+			</rule>
+			<rule e="node" k="osmc_text" v="osmc_text_white">
+				<caption k="name" display="always" priority="100" font-size="15" fill="#FFFFFF" stroke="#000000" stroke-width="2" />
+			</rule>
+			<rule e="node" k="osmc_text" v="osmc_text_yellow">
+				<caption k="name" display="always" priority="100" font-size="15" fill="#FFDD00" stroke="#000000" stroke-width="2" />
+			</rule>
+		</rule>

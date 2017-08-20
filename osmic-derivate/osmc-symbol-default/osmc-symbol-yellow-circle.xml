@@ -1,6 +1,15 @@
 <!--OSMC symbols yellow_circle background-->
 	<rule e="way" k="osmc_background" v="yellow_circle" zoom-min="15">
+		<rule e="way" k="osmc_foreground" v="yellow_bar">
+			<lineSymbol src="file:/osmc-symbols/yellow_circle_yellow_bar.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="yellow_dot">
 			<lineSymbol src="file:/osmc-symbols/yellow_circle_yellow_dot.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="green_dot">
+			<lineSymbol src="file:/osmc-symbols/yellow_circle_green_dot.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="black_pointer">
+			<lineSymbol src="file:/osmc-symbols/yellow_circle_black_pointer.png" align-center="false" repeat="true" />
 		</rule>
 	</rule>

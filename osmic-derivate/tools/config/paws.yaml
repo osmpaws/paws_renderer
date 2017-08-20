@@ -97,6 +97,7 @@ bus-station:
   padding: 2
   shield:
     fill: "#ffffff"
+    opacity: 0.5
     stroke_fill: "#0092da"
     stroke_width: 2
     rounded: 10
@@ -180,6 +181,12 @@ mast-communications:
     opacity: 1.0
 water-tower:
   fill: "#555555"
+spring:
+  fill: "#2d2dec"
+  halo:
+    fill: "#ffffff"
+    width: 1
+    opacity: 1.0
 christian:
   fill: "#000000"
 christian-orthodox:
@@ -436,6 +443,8 @@ military:
     padding: 2
 nature-reserve:
   fill: "#99ff99"
+national-park:
+  fill: "#ff9999"
 orchard:
   fill: "#000000"
   shield:

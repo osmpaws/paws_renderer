@@ -1,18 +1,39 @@
 <!--OSMC symbols green_frame background-->
 	<rule e="way" k="osmc_background" v="green_frame" zoom-min="15">
+		<rule e="way" k="osmc_foreground" v="green_backslash">
+			<lineSymbol src="file:/osmc-symbols/green_frame_green_backslash.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="green_bar">
+			<lineSymbol src="file:/osmc-symbols/green_frame_green_bar.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="white_bar">
+			<lineSymbol src="file:/osmc-symbols/green_frame_white_bar.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="black_cross">
 			<lineSymbol src="file:/osmc-symbols/green_frame_black_cross.png" align-center="false" repeat="true" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="white_dot">
 			<lineSymbol src="file:/osmc-symbols/green_frame_white_dot.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="black_dot">
+			<lineSymbol src="file:/osmc-symbols/green_frame_black_dot.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="hiker">
 			<lineSymbol src="file:/osmc-symbols/green_frame_hiker.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="yellow_rectangle">
+			<lineSymbol src="file:/osmc-symbols/green_frame_yellow_rectangle.png" align-center="false" repeat="true" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="white_rectangle">
 			<lineSymbol src="file:/osmc-symbols/green_frame_white_rectangle.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="black_rectangle">
+			<lineSymbol src="file:/osmc-symbols/green_frame_black_rectangle.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="green_slash">
 			<lineSymbol src="file:/osmc-symbols/green_frame_green_slash.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="green_triangle">
+			<lineSymbol src="file:/osmc-symbols/green_frame_green_triangle.png" align-center="false" repeat="true" />
 		</rule>
 	</rule>

@@ -1,0 +1,33 @@
+		<!--KCT#hiking#lines#low#zoom-->
+		<rule cat="hike_lines" e="way" k="osmc_color" v="orange" zoom-min="12" zoom-max="13">
+			<line stroke="#FFFFFF" stroke-width="3.7" stroke-linecap="butt" />
+			<line stroke="#F96F00" stroke-width="3.4" stroke-linecap="butt" />
+		</rule>
+		<rule cat="hike_lines" e="way" k="osmc_color" v="purple" zoom-min="12" zoom-max="13">
+			<line stroke="#FFFFFF" stroke-width="3.7" stroke-linecap="butt" />
+			<line stroke="#B878DD" stroke-width="3.4" stroke-linecap="butt" />
+		</rule>
+		<rule cat="hike_lines" e="way" k="osmc_color" v="black" zoom-min="12" zoom-max="13">
+			<line stroke="#FFFFFF" stroke-width="3.7" stroke-linecap="butt" />
+			<line stroke="#000000" stroke-width="3.4" stroke-linecap="butt" />
+		</rule>
+		<rule cat="hike_lines" e="way" k="osmc_color" v="none" zoom-min="12" zoom-max="13">
+			<line stroke="#FFFFFF" stroke-width="3.7" stroke-linecap="butt" />
+			<line stroke="#AAAAAA" stroke-width="3.4" stroke-linecap="butt" />
+		</rule>	
+		<rule cat="hike_lines" e="way" k="osmc_color" v="blue" zoom-min="12" zoom-max="13">
+			<line stroke="#FFFFFF" stroke-width="3.7" stroke-linecap="butt" />
+			<line stroke="#1579e0" stroke-width="3.0" stroke-linecap="butt" />
+		</rule>
+		<rule cat="hike_lines" e="way" k="osmc_color" v="yellow" zoom-min="12" zoom-max="13">
+			<line stroke="#CCCCCC" stroke-width="4.2" stroke-linecap="butt" />
+			<line stroke="#FFDD00" stroke-width="3.0" stroke-linecap="butt" />
+		</rule>
+		<rule cat="hike_lines" e="way" k="osmc_color" v="green" zoom-min="12" zoom-max="13">
+			<line stroke="#FFFFFF" stroke-width="3.7" stroke-linecap="butt" />
+			<line stroke="#00cd27" stroke-width="3.0" stroke-linecap="butt" />
+		</rule>		
+		<rule cat="hike_lines" e="way" k="osmc_color" v="red" zoom-min="12" zoom-max="13">
+			<line stroke="#FFFFFF" stroke-width="3.7" stroke-linecap="butt" />
+			<line stroke="#FF0000" stroke-width="3.0" stroke-linecap="butt" />
+		</rule>

@@ -1,0 +1,4 @@
+			<!--national#park#pattern-->
+			<rule cat="national_park_pattern" e="way" k="boundary" v="national_park" closed="yes" zoom-min="14">
+				<area src="file:/patterns/national_park.png" />
+			</rule>

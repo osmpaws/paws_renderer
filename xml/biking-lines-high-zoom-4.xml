@@ -1,0 +1,15 @@
+		<!--KCT#biking#lines#high#zoom-->
+		<rule cat="bike_lines" e="way" k="route" v="bicycle">
+			<rule e="way" k="network" v="ncn" zoom-min="19">
+				<line stroke="#9000FF" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="0.15,270" />
+			</rule>
+			<rule e="way" k="network" v="ncn" zoom-min="17" zoom-max="18">
+				<line stroke="#9000FF" stroke-width="2.2" stroke-linecap="round" stroke-dasharray="0.15,150" />
+			</rule>
+			<rule e="way" k="network" v="rcn|lcn|~" zoom-min="19">
+				<line stroke="#FF00FF" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="0,7.5,0.15,180" />
+			</rule>
+			<rule e="way" k="network" v="rcn|lcn|~" zoom-min="17" zoom-max="18">
+				<line stroke="#FF00FF" stroke-width="2.2" stroke-linecap="round" stroke-dasharray="0,7.5,0.15,150" />
+			</rule>
+		</rule>

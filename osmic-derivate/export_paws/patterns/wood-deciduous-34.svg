@@ -10,6 +10,6 @@
     </rdf:RDF>
   </metadata>
   <defs id="defs6"/>
-  <rect width="34" height="34" x="0" y="0" id="canvas" style="fill:none;stroke:none;visibility:hidden"/><rect x="1" y="1" width="32" height="32" id="shield" style="fill:#a6c993;fill-opacity:None;stroke:none;"/>
+  <rect width="34" height="34" x="0" y="0" id="canvas" style="fill:none;stroke:none;visibility:hidden"/><rect x="1" y="1" width="32" height="32" id="shield" style="fill:#a6c993;fill-opacity:1;stroke:none;"/>
   <path d="m 7.75,14 0,-3 L 9,11 C 11.524338,11 12.545311,7.5 10,6.5 11.496636,5.5 11,3 9,2.75 9,2.75 9,1 7,1 5,1 5,2.75 5,2.75 3,3 2.4614171,5.5 4,6.5 1.4966359,7.5 2.4966359,11 5,11 l 1.25,0 0,3 z m 15,12.5 0,-3 1.25,0 c 2.524338,0 3.545311,-3.5 1,-4.5 1.496636,-1 1,-3.499999 -1,-3.749999 0,0 0,-1.75 -2,-1.75 -2,0 -2,1.75 -2,1.75 C 18,15.500001 17.461417,18 19,19 c -2.503364,1 -1.503364,4.5 1,4.5 l 1.25,0 0,3 z" id="wood-deciduous" style="fill:#96b983;fill-opacity:1" transform="translate(1,1)"/>
 </svg>

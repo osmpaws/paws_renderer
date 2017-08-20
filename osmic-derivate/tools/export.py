@@ -642,7 +642,7 @@ def modifySVG(config, icon_id, size, icon):
         else:
             print('Shield fill not specified. Defaulting to #000000 (black).')
         
-        shield_opacity = None
+        shield_opacity = 1
         if 'opacity' in config['shield']:
             try:
                 shield_opacity = float(config['shield']['opacity'])
@@ -671,7 +671,7 @@ def modifySVG(config, icon_id, size, icon):
             except ValueError:
                 print('The specified shield stroke width is not a number.')
                 
-        stroke_opacity = None
+        stroke_opacity = 1
         if 'stroke_opacity' in config['shield']:
             try:
                 stroke_opacity = float(config['shield']['stroke_opacity'])
@@ -728,7 +728,7 @@ def modifySVG(config, icon_id, size, icon):
             except ValueError:
                 print('The specified halo width is not a number.')
 
-        halo_opacity = None
+        halo_opacity = 1
         if 'opacity' in config['halo']:
             try:
                 halo_opacity = float(config['halo']['opacity'])
@@ -758,7 +758,7 @@ def modifySVG(config, icon_id, size, icon):
             print('The specified fill is invalid. Format it as HEX/RGB/HSL/HUSL (e.g. #1a1a1a).')
     
     # change the icon opacity        
-    opacity = None
+    opacity = 1
     if 'opacity' in config:
         try:
             opacity = float(config['opacity'])

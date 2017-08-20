@@ -1,5 +1,8 @@
 <!--OSMC symbols purple background-->
 	<rule e="way" k="osmc_background" v="purple" zoom-min="15">
+		<rule e="way" k="osmc_foreground" v="green_bar">
+			<lineSymbol src="file:/osmc-symbols/purple_green_bar.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="white_bar">
 			<lineSymbol src="file:/osmc-symbols/purple_white_bar.png" align-center="false" repeat="true" />
 		</rule>
@@ -21,6 +24,12 @@
 		<rule e="way" k="osmc_foreground" v="white_dot">
 			<lineSymbol src="file:/osmc-symbols/purple_white_dot.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="heart">
+			<lineSymbol src="file:/osmc-symbols/purple_heart.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="white_hiker">
+			<lineSymbol src="file:/osmc-symbols/purple_white_hiker.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="hiker">
 			<lineSymbol src="file:/osmc-symbols/purple_hiker.png" align-center="false" repeat="true" />
 		</rule>
@@ -32,6 +41,18 @@
 		</rule>
 		<rule e="way" k="osmc_foreground" v="white_pointer">
 			<lineSymbol src="file:/osmc-symbols/purple_white_pointer.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="black_rectangle_line">
+			<lineSymbol src="file:/osmc-symbols/purple_black_rectangle_line.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="white_rectangle">
+			<lineSymbol src="file:/osmc-symbols/purple_white_rectangle.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="white_stripe">
+			<lineSymbol src="file:/osmc-symbols/purple_white_stripe.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="white_triangle_line">
+			<lineSymbol src="file:/osmc-symbols/purple_white_triangle_line.png" align-center="false" repeat="true" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="white_triangle">
 			<lineSymbol src="file:/osmc-symbols/purple_white_triangle.png" align-center="false" repeat="true" />

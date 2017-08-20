@@ -1,5 +1,14 @@
 <!--OSMC symbols black_circle background-->
 	<rule e="way" k="osmc_background" v="black_circle" zoom-min="15">
+		<rule e="way" k="osmc_foreground" v="red_bar">
+			<lineSymbol src="file:/osmc-symbols/black_circle_red_bar.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="green_bar">
+			<lineSymbol src="file:/osmc-symbols/black_circle_green_bar.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="black_bar">
+			<lineSymbol src="file:/osmc-symbols/black_circle_black_bar.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="red_dot">
 			<lineSymbol src="file:/osmc-symbols/black_circle_red_dot.png" align-center="false" repeat="true" />
 		</rule>
@@ -14,5 +23,17 @@
 		</rule>
 		<rule e="way" k="osmc_foreground" v="white_dot">
 			<lineSymbol src="file:/osmc-symbols/black_circle_white_dot.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="black_dot">
+			<lineSymbol src="file:/osmc-symbols/black_circle_black_dot.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="brown_dot">
+			<lineSymbol src="file:/osmc-symbols/black_circle_brown_dot.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="purple_dot">
+			<lineSymbol src="file:/osmc-symbols/black_circle_purple_dot.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="orange_dot">
+			<lineSymbol src="file:/osmc-symbols/black_circle_orange_dot.png" align-center="false" repeat="true" />
 		</rule>
 	</rule>

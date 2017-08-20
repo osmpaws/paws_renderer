@@ -97,6 +97,7 @@ bus-station:
   padding: 2
   shield:
     fill: "#ffffff"
+    opacity: 0.5
     stroke_fill: "#0092da"
     stroke_width: 2
     rounded: 10
@@ -180,6 +181,12 @@ mast-communications:
     opacity: 1.0
 water-tower:
   fill: "#555555"
+spring:
+  fill: "#2d2dec"
+  halo:
+    fill: "#ffffff"
+    width: 1
+    opacity: 1.0
 christian:
   fill: "#000000"
 christian-orthodox:
@@ -436,6 +443,8 @@ military:
     padding: 2
 nature-reserve:
   fill: "#99ff99"
+national-park:
+  fill: "#ff9999"
 orchard:
   fill: "#000000"
   shield:
@@ -504,6 +513,13 @@ green-white-arch:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+red-white-arch:
+  fill: "#ffffff"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 red-frame-red-arch:
   fill: "#ff0000"
   shield:
@@ -540,6 +556,20 @@ white-green-arch:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+white-black-arch:
+  fill: "#000000"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+yellow-black-arch:
+  fill: "#000000"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 green-white-backslash:
   fill: "#ffffff"
   shield:
@@ -547,6 +577,14 @@ green-white-backslash:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+green-frame-green-backslash:
+  fill: "#00cd27"
+  shield:
+    stroke_fill: "#00cd27"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 2
+    padding: 2
 red-blue-backslash:
   fill: "#1579e0"
   shield:
@@ -589,6 +627,13 @@ white-black-backslash:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+white-orange-backslash:
+  fill: "#f96f00"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 yellow-green-backslash:
   fill: "#00cd27"
   shield:
@@ -596,10 +641,83 @@ yellow-green-backslash:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+black-red-bar:
+  fill: "#ff0000"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+black-yellow-bar:
+  fill: "#ffdd00"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+black-blue-bar:
+  fill: "#1579e0"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+black-green-bar:
+  fill: "#00cd27"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 black-white-bar:
   fill: "#ffffff"
   shield:
     fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+black-brown-bar:
+  fill: "#8b4513"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+black-purple-bar:
+  fill: "#b878dd"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+black-circle-red-bar:
+  fill: "#ff0000"
+  shield:
+    stroke_fill: "#000000"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 10
+    padding: 2
+black-circle-green-bar:
+  fill: "#00cd27"
+  shield:
+    stroke_fill: "#000000"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 10
+    padding: 2
+black-circle-black-bar:
+  fill: "#000000"
+  shield:
+    stroke_fill: "#000000"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 10
+    padding: 2
+blue-red-bar:
+  fill: "#ff0000"
+  shield:
+    fill: "#1579e0"
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
@@ -624,6 +742,22 @@ blue-white-bar:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+blue-frame-blue-bar:
+  fill: "#1579e0"
+  shield:
+    stroke_fill: "#1579e0"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 2
+    padding: 2
+blue-frame-white-bar:
+  fill: "#ffffff"
+  shield:
+    stroke_fill: "#1579e0"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 2
+    padding: 2
 brown-red-bar:
   fill: "#ff0000"
   shield:
@@ -633,6 +767,20 @@ brown-red-bar:
     padding: 1
 brown-yellow-bar:
   fill: "#ffdd00"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+brown-blue-bar:
+  fill: "#1579e0"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+brown-green-bar:
+  fill: "#00cd27"
   shield:
     fill: "#8b4513"
     stroke_fill: "#000000"
@@ -652,8 +800,22 @@ brown-orange-bar:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+green-red-bar:
+  fill: "#ff0000"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 green-yellow-bar:
   fill: "#ffdd00"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+green-blue-bar:
+  fill: "#1579e0"
   shield:
     fill: "#00cd27"
     stroke_fill: "#000000"
@@ -666,6 +828,22 @@ green-white-bar:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+green-frame-green-bar:
+  fill: "#00cd27"
+  shield:
+    stroke_fill: "#00cd27"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 2
+    padding: 2
+green-frame-white-bar:
+  fill: "#ffffff"
+  shield:
+    stroke_fill: "#00cd27"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 2
+    padding: 2
 orange-red-bar:
   fill: "#ff0000"
   shield:
@@ -708,6 +886,21 @@ orange-black-bar:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+orange-frame-white-bar:
+  fill: "#ffffff"
+  shield:
+    stroke_fill: "#f96f00"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 2
+    padding: 2
+purple-green-bar:
+  fill: "#00cd27"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 purple-white-bar:
   fill: "#ffffff"
   shield:
@@ -729,6 +922,22 @@ red-white-bar:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+red-circle-red-bar:
+  fill: "#ff0000"
+  shield:
+    stroke_fill: "#ff0000"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 10
+    padding: 2
+red-frame-red-bar:
+  fill: "#ff0000"
+  shield:
+    stroke_fill: "#ff0000"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 2
+    padding: 2
 red-frame-white-bar:
   fill: "#ffffff"
   shield:
@@ -793,6 +1002,46 @@ white-orange-bar:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+white-round-red-bar:
+  fill: "#ff0000"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
+white-round-yellow-bar:
+  fill: "#ffdd00"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
+white-round-blue-bar:
+  fill: "#1579e0"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
+white-round-green-bar:
+  fill: "#00cd27"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
+white-round-brown-bar:
+  fill: "#8b4513"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
 yellow-red-bar:
   fill: "#ff0000"
   shield:
@@ -835,6 +1084,30 @@ yellow-brown-bar:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+yellow-circle-yellow-bar:
+  fill: "#ffdd00"
+  shield:
+    stroke_fill: "#ffdd00"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 10
+    padding: 2
+yellow-frame-white-bar:
+  fill: "#ffffff"
+  shield:
+    stroke_fill: "#ffdd00"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 2
+    padding: 2
+red-round-yellow-bowl:
+  fill: "#ffdd00"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
 white-red-bowl:
   fill: "#ff0000"
   shield:
@@ -870,10 +1143,31 @@ black-yellow-circle:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+black-green-circle:
+  fill: "#00cd27"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 black-white-circle:
   fill: "#ffffff"
   shield:
     fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+black-orange-circle:
+  fill: "#f96f00"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+blue-yellow-circle:
+  fill: "#ffdd00"
+  shield:
+    fill: "#1579e0"
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
@@ -884,6 +1178,28 @@ blue-white-circle:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+blue-black-circle:
+  fill: "#000000"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+blue-round-blue-circle:
+  fill: "#1579e0"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
+brown-yellow-circle:
+  fill: "#ffdd00"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 brown-white-circle:
   fill: "#ffffff"
   shield:
@@ -891,6 +1207,29 @@ brown-white-circle:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+brown-black-circle:
+  fill: "#000000"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+brown-frame-green-circle:
+  fill: "#00cd27"
+  shield:
+    stroke_fill: "#8b4513"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 2
+    padding: 2
+brown-frame-brown-circle:
+  fill: "#8b4513"
+  shield:
+    stroke_fill: "#8b4513"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 2
+    padding: 2
 green-yellow-circle:
   fill: "#ffdd00"
   shield:
@@ -905,6 +1244,30 @@ green-white-circle:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+green-round-yellow-circle:
+  fill: "#ffdd00"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
+green-round-green-circle:
+  fill: "#00cd27"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
+green-round-white-circle:
+  fill: "#ffffff"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
 orange-blue-circle:
   fill: "#1579e0"
   shield:
@@ -933,6 +1296,13 @@ purple-white-circle:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+red-yellow-circle:
+  fill: "#ffdd00"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 red-white-circle:
   fill: "#ffffff"
   shield:
@@ -940,6 +1310,29 @@ red-white-circle:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+red-black-circle:
+  fill: "#000000"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+red-circle-white-circle:
+  fill: "#ffffff"
+  shield:
+    stroke_fill: "#ff0000"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 10
+    padding: 2
+red-round-black-circle:
+  fill: "#000000"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
 white-red-circle:
   fill: "#ff0000"
   shield:
@@ -975,8 +1368,76 @@ white-black-circle:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+white-brown-circle:
+  fill: "#8b4513"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+white-orange-circle:
+  fill: "#f96f00"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+white-round-red-circle:
+  fill: "#ff0000"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
+white-round-blue-circle:
+  fill: "#1579e0"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
+white-round-green-circle:
+  fill: "#00cd27"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
+white-round-white-circle:
+  fill: "#ffffff"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
+white-round-black-circle:
+  fill: "#000000"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
+yellow-red-circle:
+  fill: "#ff0000"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 yellow-blue-circle:
   fill: "#1579e0"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+yellow-green-circle:
+  fill: "#00cd27"
   shield:
     fill: "#ffdd00"
     stroke_fill: "#000000"
@@ -989,6 +1450,22 @@ yellow-black-circle:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+yellow-frame-yellow-circle:
+  fill: "#ffdd00"
+  shield:
+    stroke_fill: "#ffdd00"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 2
+    padding: 2
+yellow-round-green-circle:
+  fill: "#00cd27"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
 black-white-corner:
   fill: "#ffffff"
   shield:
@@ -996,10 +1473,46 @@ black-white-corner:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+black-frame-green-corner:
+  fill: "#00cd27"
+  shield:
+    stroke_fill: "#000000"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 2
+    padding: 2
+blue-red-corner:
+  fill: "#ff0000"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+blue-yellow-corner:
+  fill: "#ffdd00"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+blue-green-corner:
+  fill: "#00cd27"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 blue-white-corner:
   fill: "#ffffff"
   shield:
     fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+green-blue-corner:
+  fill: "#1579e0"
+  shield:
+    fill: "#00cd27"
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
@@ -1080,6 +1593,13 @@ white-orange-corner:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+white-corner:
+  fill: "#000000"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 yellow-red-corner:
   fill: "#ff0000"
   shield:
@@ -1108,6 +1628,13 @@ yellow-white-corner:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+black-red-cross:
+  fill: "#ff0000"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 black-yellow-cross:
   fill: "#ffdd00"
   shield:
@@ -1115,6 +1642,28 @@ black-yellow-cross:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+black-blue-cross:
+  fill: "#1579e0"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+black-white-cross:
+  fill: "#ffffff"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+black-frame-black-cross:
+  fill: "#000000"
+  shield:
+    stroke_fill: "#000000"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 2
+    padding: 2
 blue-yellow-cross:
   fill: "#ffdd00"
   shield:
@@ -1136,8 +1685,29 @@ brown-yellow-cross:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+brown-white-cross:
+  fill: "#ffffff"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+green-red-cross:
+  fill: "#ff0000"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 green-yellow-cross:
   fill: "#ffdd00"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+green-black-cross:
+  fill: "#000000"
   shield:
     fill: "#00cd27"
     stroke_fill: "#000000"
@@ -1172,6 +1742,14 @@ red-yellow-cross:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+red-frame-red-cross:
+  fill: "#ff0000"
+  shield:
+    stroke_fill: "#ff0000"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 2
+    padding: 2
 white-red-cross:
   fill: "#ff0000"
   shield:
@@ -1207,10 +1785,38 @@ white-black-cross:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+white-brown-cross:
+  fill: "#8b4513"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 white-purple-cross:
   fill: "#b878dd"
   shield:
     fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+white-orange-cross:
+  fill: "#f96f00"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+white-cross:
+  fill: "#000000"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+yellow-red-cross:
+  fill: "#ff0000"
+  shield:
+    fill: "#ffdd00"
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
@@ -1225,6 +1831,41 @@ black-white-diamond-line:
   fill: "#ffffff"
   shield:
     fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+blue-white-diamond-line:
+  fill: "#ffffff"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+brown-white-diamond-line:
+  fill: "#ffffff"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+green-yellow-diamond-line:
+  fill: "#ffdd00"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+green-white-diamond-line:
+  fill: "#ffffff"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+red-white-diamond-line:
+  fill: "#ffffff"
+  shield:
+    fill: "#ff0000"
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
@@ -1263,6 +1904,62 @@ white-purple-diamond-line:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+white-orange-diamond-line:
+  fill: "#f96f00"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+yellow-black-diamond-line:
+  fill: "#000000"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+black-red-diamond:
+  fill: "#ff0000"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+black-yellow-diamond:
+  fill: "#ffdd00"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+black-white-diamond:
+  fill: "#ffffff"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+blue-yellow-diamond:
+  fill: "#ffdd00"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+blue-white-diamond:
+  fill: "#ffffff"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+brown-yellow-diamond:
+  fill: "#ffdd00"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 brown-black-diamond:
   fill: "#000000"
   shield:
@@ -1270,10 +1967,46 @@ brown-black-diamond:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+green-yellow-diamond:
+  fill: "#ffdd00"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 green-white-diamond:
   fill: "#ffffff"
   shield:
     fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+green-round-green-diamond:
+  fill: "#00cd27"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
+orange-white-diamond:
+  fill: "#ffffff"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+orange-black-diamond:
+  fill: "#000000"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+red-white-diamond:
+  fill: "#ffffff"
+  shield:
+    fill: "#ff0000"
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
@@ -1312,10 +2045,59 @@ white-black-diamond:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+white-brown-diamond:
+  fill: "#8b4513"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+white-purple-diamond:
+  fill: "#b878dd"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+white-orange-diamond:
+  fill: "#f96f00"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+yellow-red-diamond:
+  fill: "#ff0000"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+yellow-blue-diamond:
+  fill: "#1579e0"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 yellow-green-diamond:
   fill: "#00cd27"
   shield:
     fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+yellow-white-diamond:
+  fill: "#ffffff"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+black-red-dot:
+  fill: "#ff0000"
+  shield:
+    fill: "#000000"
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
@@ -1387,6 +2169,62 @@ black-circle-white-dot:
     opacity: 0.0
     rounded: 10
     padding: 2
+black-circle-black-dot:
+  fill: "#000000"
+  shield:
+    stroke_fill: "#000000"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 10
+    padding: 2
+black-circle-brown-dot:
+  fill: "#8b4513"
+  shield:
+    stroke_fill: "#000000"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 10
+    padding: 2
+black-circle-purple-dot:
+  fill: "#b878dd"
+  shield:
+    stroke_fill: "#000000"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 10
+    padding: 2
+black-circle-orange-dot:
+  fill: "#f96f00"
+  shield:
+    stroke_fill: "#000000"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 10
+    padding: 2
+black-frame-blue-dot:
+  fill: "#1579e0"
+  shield:
+    stroke_fill: "#000000"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 2
+    padding: 2
+black-round-red-dot:
+  fill: "#ff0000"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
+black-round-white-dot:
+  fill: "#ffffff"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
 blue-red-dot:
   fill: "#ff0000"
   shield:
@@ -1415,6 +2253,14 @@ blue-white-dot:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+blue-circle-red-dot:
+  fill: "#ff0000"
+  shield:
+    stroke_fill: "#1579e0"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 10
+    padding: 2
 blue-circle-yellow-dot:
   fill: "#ffdd00"
   shield:
@@ -1439,8 +2285,67 @@ blue-circle-white-dot:
     opacity: 0.0
     rounded: 10
     padding: 2
+blue-round-red-dot:
+  fill: "#ff0000"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
+blue-round-blue-dot:
+  fill: "#1579e0"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
+blue-round-white-dot:
+  fill: "#ffffff"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
+brown-red-dot:
+  fill: "#ff0000"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+brown-yellow-dot:
+  fill: "#ffdd00"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 brown-blue-dot:
   fill: "#1579e0"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+brown-green-dot:
+  fill: "#00cd27"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+brown-white-dot:
+  fill: "#ffffff"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+brown-black-dot:
+  fill: "#000000"
   shield:
     fill: "#8b4513"
     stroke_fill: "#000000"
@@ -1455,6 +2360,13 @@ green-red-dot:
     padding: 1
 green-yellow-dot:
   fill: "#ffdd00"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+green-blue-dot:
+  fill: "#1579e0"
   shield:
     fill: "#00cd27"
     stroke_fill: "#000000"
@@ -1482,6 +2394,38 @@ green-frame-white-dot:
     opacity: 0.0
     rounded: 2
     padding: 2
+green-frame-black-dot:
+  fill: "#000000"
+  shield:
+    stroke_fill: "#00cd27"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 2
+    padding: 2
+green-round-red-dot:
+  fill: "#ff0000"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
+green-round-green-dot:
+  fill: "#00cd27"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
+green-round-white-dot:
+  fill: "#ffffff"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
 orange-red-dot:
   fill: "#ff0000"
   shield:
@@ -1517,6 +2461,13 @@ purple-white-dot:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+red-yellow-dot:
+  fill: "#ffdd00"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 red-blue-dot:
   fill: "#1579e0"
   shield:
@@ -1538,6 +2489,14 @@ red-white-dot:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+red-circle-red-dot:
+  fill: "#ff0000"
+  shield:
+    stroke_fill: "#ff0000"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 10
+    padding: 2
 red-circle-yellow-dot:
   fill: "#ffdd00"
   shield:
@@ -1554,6 +2513,30 @@ red-circle-white-dot:
     opacity: 0.0
     rounded: 10
     padding: 2
+red-frame-red-dot:
+  fill: "#ff0000"
+  shield:
+    stroke_fill: "#ff0000"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 2
+    padding: 2
+red-round-red-dot:
+  fill: "#ff0000"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
+red-round-white-dot:
+  fill: "#ffffff"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
 white-red-dot:
   fill: "#ff0000"
   shield:
@@ -1642,6 +2625,14 @@ white-circle-green-dot:
     opacity: 0.0
     rounded: 10
     padding: 2
+white-circle-black-dot:
+  fill: "#000000"
+  shield:
+    stroke_fill: "#ffffff"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 10
+    padding: 2
 white-circle-orange-dot:
   fill: "#f96f00"
   shield:
@@ -1650,6 +2641,54 @@ white-circle-orange-dot:
     opacity: 0.0
     rounded: 10
     padding: 2
+white-round-red-dot:
+  fill: "#ff0000"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
+white-round-yellow-dot:
+  fill: "#ffdd00"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
+white-round-blue-dot:
+  fill: "#1579e0"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
+white-round-green-dot:
+  fill: "#00cd27"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
+white-round-white-dot:
+  fill: "#ffffff"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
+white-round-purple-dot:
+  fill: "#b878dd"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
 yellow-red-dot:
   fill: "#ff0000"
   shield:
@@ -1685,6 +2724,13 @@ yellow-black-dot:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+yellow-orange-dot:
+  fill: "#f96f00"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 yellow-circle-yellow-dot:
   fill: "#ffdd00"
   shield:
@@ -1693,6 +2739,36 @@ yellow-circle-yellow-dot:
     opacity: 0.0
     rounded: 10
     padding: 2
+yellow-circle-green-dot:
+  fill: "#00cd27"
+  shield:
+    stroke_fill: "#ffdd00"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 10
+    padding: 2
+yellow-frame-green-dot:
+  fill: "#00cd27"
+  shield:
+    stroke_fill: "#ffdd00"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 2
+    padding: 2
+yellow-round-yellow-dot:
+  fill: "#ffdd00"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
+none-yellow-dot:
+  fill: "#ffdd00"
+  shield:
+    fill: "#ffffff"
+    opacity: 0.0
+    padding: 1
 white-red-fork:
   fill: "#ff0000"
   shield:
@@ -1707,6 +2783,83 @@ white-yellow-fork:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+white-blue-fork:
+  fill: "#1579e0"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+white-green-fork:
+  fill: "#00cd27"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+white-black-fork:
+  fill: "#000000"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+orange-heart:
+  fill: "#ffffff"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+purple-heart:
+  fill: "#ffffff"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+white-heart:
+  fill: "#000000"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+yellow-heart:
+  fill: "#ffffff"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+black-red-hiker:
+  fill: "#ff0000"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+black-yellow-hiker:
+  fill: "#ffdd00"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+black-blue-hiker:
+  fill: "#1579e0"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+black-green-hiker:
+  fill: "#00cd27"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 black-white-hiker:
   fill: "#ffffff"
   shield:
@@ -1718,6 +2871,13 @@ black-hiker:
   fill: "#ffffff"
   shield:
     fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+blue-yellow-hiker:
+  fill: "#ffdd00"
+  shield:
+    fill: "#1579e0"
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
@@ -1743,6 +2903,50 @@ blue-circle-hiker:
     opacity: 0.0
     rounded: 10
     padding: 2
+blue-frame-hiker:
+  fill: "#ffffff"
+  shield:
+    stroke_fill: "#1579e0"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 2
+    padding: 2
+blue-round-white-hiker:
+  fill: "#ffffff"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
+brown-yellow-hiker:
+  fill: "#ffdd00"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+brown-white-hiker:
+  fill: "#ffffff"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+brown-orange-hiker:
+  fill: "#f96f00"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+brown-hiker:
+  fill: "#ffffff"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 green-white-hiker:
   fill: "#ffffff"
   shield:
@@ -1765,6 +2969,20 @@ green-frame-hiker:
     opacity: 0.0
     rounded: 2
     padding: 2
+orange-white-hiker:
+  fill: "#ffffff"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+purple-white-hiker:
+  fill: "#ffffff"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 purple-hiker:
   fill: "#ffffff"
   shield:
@@ -1794,6 +3012,22 @@ red-circle-hiker:
     opacity: 0.0
     rounded: 10
     padding: 2
+red-round-red-hiker:
+  fill: "#ff0000"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
+red-round-white-hiker:
+  fill: "#ffffff"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
 white-red-hiker:
   fill: "#ff0000"
   shield:
@@ -1843,10 +3077,24 @@ yellow-hiker:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+black-red-lower:
+  fill: "#ff0000"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 black-green-lower:
   fill: "#00cd27"
   shield:
     fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+blue-red-lower:
+  fill: "#ff0000"
+  shield:
+    fill: "#1579e0"
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
@@ -1871,6 +3119,21 @@ blue-white-lower:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+blue-black-lower:
+  fill: "#000000"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+blue-frame-green-lower:
+  fill: "#00cd27"
+  shield:
+    stroke_fill: "#1579e0"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 2
+    padding: 2
 brown-white-lower:
   fill: "#ffffff"
   shield:
@@ -1906,8 +3169,37 @@ green-white-lower:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+green-circle-red-lower:
+  fill: "#ff0000"
+  shield:
+    stroke_fill: "#00cd27"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 10
+    padding: 2
 orange-red-lower:
   fill: "#ff0000"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+orange-blue-lower:
+  fill: "#1579e0"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+orange-green-lower:
+  fill: "#00cd27"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+orange-white-lower:
+  fill: "#ffffff"
   shield:
     fill: "#f96f00"
     stroke_fill: "#000000"
@@ -2032,6 +3324,13 @@ yellow-white-lower:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+yellow-black-lower:
+  fill: "#000000"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 yellow-purple-lower:
   fill: "#b878dd"
   shield:
@@ -2095,6 +3394,13 @@ black-yellow-pointer:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+black-blue-pointer:
+  fill: "#1579e0"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 black-white-pointer:
   fill: "#ffffff"
   shield:
@@ -2123,10 +3429,53 @@ blue-white-pointer:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+blue-frame-blue-pointer:
+  fill: "#1579e0"
+  shield:
+    stroke_fill: "#1579e0"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 2
+    padding: 2
+brown-red-pointer:
+  fill: "#ff0000"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+brown-yellow-pointer:
+  fill: "#ffdd00"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+brown-green-pointer:
+  fill: "#00cd27"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 brown-white-pointer:
   fill: "#ffffff"
   shield:
     fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+brown-black-pointer:
+  fill: "#000000"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+green-red-pointer:
+  fill: "#ff0000"
+  shield:
+    fill: "#00cd27"
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
@@ -2193,6 +3542,14 @@ red-black-pointer:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+red-frame-red-pointer:
+  fill: "#ff0000"
+  shield:
+    stroke_fill: "#ff0000"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 2
+    padding: 2
 white-red-pointer:
   fill: "#ff0000"
   shield:
@@ -2270,6 +3627,13 @@ yellow-green-pointer:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+yellow-white-pointer:
+  fill: "#ffffff"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 yellow-black-pointer:
   fill: "#000000"
   shield:
@@ -2284,6 +3648,54 @@ yellow-purple-pointer:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+yellow-circle-black-pointer:
+  fill: "#000000"
+  shield:
+    stroke_fill: "#ffdd00"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 10
+    padding: 2
+none-red-pointer:
+  fill: "#ff0000"
+  shield:
+    fill: "#ffffff"
+    opacity: 0.0
+    padding: 1
+none-blue-pointer:
+  fill: "#1579e0"
+  shield:
+    fill: "#ffffff"
+    opacity: 0.0
+    padding: 1
+black-white-rectangle-line:
+  fill: "#ffffff"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+brown-yellow-rectangle-line:
+  fill: "#ffdd00"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+green-yellow-rectangle-line:
+  fill: "#ffdd00"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+green-black-rectangle-line:
+  fill: "#000000"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 orange-yellow-rectangle-line:
   fill: "#ffdd00"
   shield:
@@ -2291,10 +3703,31 @@ orange-yellow-rectangle-line:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+purple-black-rectangle-line:
+  fill: "#000000"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 red-white-rectangle-line:
   fill: "#ffffff"
   shield:
     fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+white-red-rectangle-line:
+  fill: "#ff0000"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+white-yellow-rectangle-line:
+  fill: "#ffdd00"
+  shield:
+    fill: "#ffffff"
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
@@ -2312,10 +3745,38 @@ white-black-rectangle-line:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+yellow-black-rectangle-line:
+  fill: "#000000"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+black-white-rectangle:
+  fill: "#ffffff"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+blue-white-rectangle:
+  fill: "#ffffff"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 blue-rectangle:
   fill: "#ffffff"
   shield:
     fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+brown-red-rectangle:
+  fill: "#ff0000"
+  shield:
+    fill: "#8b4513"
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
@@ -2333,6 +3794,35 @@ brown-white-rectangle:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+green-yellow-rectangle:
+  fill: "#ffdd00"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+green-white-rectangle:
+  fill: "#ffffff"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+green-black-rectangle:
+  fill: "#000000"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+green-frame-yellow-rectangle:
+  fill: "#ffdd00"
+  shield:
+    stroke_fill: "#00cd27"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 2
+    padding: 2
 green-frame-white-rectangle:
   fill: "#ffffff"
   shield:
@@ -2341,6 +3831,59 @@ green-frame-white-rectangle:
     opacity: 0.0
     rounded: 2
     padding: 2
+green-frame-black-rectangle:
+  fill: "#000000"
+  shield:
+    stroke_fill: "#00cd27"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 2
+    padding: 2
+orange-white-rectangle:
+  fill: "#ffffff"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+purple-white-rectangle:
+  fill: "#ffffff"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+red-white-rectangle:
+  fill: "#ffffff"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+red-frame-red-rectangle:
+  fill: "#ff0000"
+  shield:
+    stroke_fill: "#ff0000"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 2
+    padding: 2
+red-frame-white-rectangle:
+  fill: "#ffffff"
+  shield:
+    stroke_fill: "#ff0000"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 2
+    padding: 2
+red-round-white-rectangle:
+  fill: "#ffffff"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
 white-red-rectangle:
   fill: "#ff0000"
   shield:
@@ -2376,10 +3919,60 @@ white-black-rectangle:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+white-brown-rectangle:
+  fill: "#8b4513"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+white-purple-rectangle:
+  fill: "#b878dd"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 white-orange-rectangle:
   fill: "#f96f00"
   shield:
     fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+white-rectangle:
+  fill: "#000000"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+white-circle-black-rectangle:
+  fill: "#000000"
+  shield:
+    stroke_fill: "#ffffff"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 10
+    padding: 2
+yellow-red-rectangle:
+  fill: "#ff0000"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+yellow-blue-rectangle:
+  fill: "#1579e0"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+yellow-green-rectangle:
+  fill: "#00cd27"
+  shield:
+    fill: "#ffdd00"
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
@@ -2390,10 +3983,109 @@ yellow-black-rectangle:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+yellow-frame-red-rectangle:
+  fill: "#ff0000"
+  shield:
+    stroke_fill: "#ffdd00"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 2
+    padding: 2
+black-white-right:
+  fill: "#ffffff"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+green-white-right:
+  fill: "#ffffff"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+red-green-right:
+  fill: "#00cd27"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+white-red-right:
+  fill: "#ff0000"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+white-yellow-right:
+  fill: "#ffdd00"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+white-blue-right:
+  fill: "#1579e0"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+white-green-right:
+  fill: "#00cd27"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+white-black-right:
+  fill: "#000000"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+white-orange-right:
+  fill: "#f96f00"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+yellow-red-right:
+  fill: "#ff0000"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+yellow-white-right:
+  fill: "#ffffff"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+blue-yellow-shell-modern:
+  fill: "#ffdd00"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 blue-shell-modern:
   fill: "#ffdd00"
   shield:
     fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+white-yellow-shell-modern:
+  fill: "#ffdd00"
+  shield:
+    fill: "#ffffff"
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
@@ -2418,6 +4110,43 @@ blue-shell:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+black-green-slash:
+  fill: "#00cd27"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+blue-green-slash:
+  fill: "#00cd27"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+blue-frame-blue-slash:
+  fill: "#1579e0"
+  shield:
+    stroke_fill: "#1579e0"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 2
+    padding: 2
+blue-frame-green-slash:
+  fill: "#00cd27"
+  shield:
+    stroke_fill: "#1579e0"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 2
+    padding: 2
+green-blue-slash:
+  fill: "#1579e0"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 green-white-slash:
   fill: "#ffffff"
   shield:
@@ -2433,6 +4162,13 @@ green-frame-green-slash:
     opacity: 0.0
     rounded: 2
     padding: 2
+orange-white-slash:
+  fill: "#ffffff"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 red-black-slash:
   fill: "#000000"
   shield:
@@ -2489,6 +4225,34 @@ yellow-green-slash:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+yellow-white-slash:
+  fill: "#ffffff"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+black-white-stripe:
+  fill: "#ffffff"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+blue-red-stripe:
+  fill: "#ff0000"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+blue-yellow-stripe:
+  fill: "#ffdd00"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 blue-white-stripe:
   fill: "#ffffff"
   shield:
@@ -2503,6 +4267,13 @@ brown-yellow-stripe:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+green-white-stripe:
+  fill: "#ffffff"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 orange-red-stripe:
   fill: "#ff0000"
   shield:
@@ -2514,6 +4285,13 @@ orange-blue-stripe:
   fill: "#1579e0"
   shield:
     fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+purple-white-stripe:
+  fill: "#ffffff"
+  shield:
+    fill: "#b878dd"
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
@@ -2552,6 +4330,13 @@ white-green-stripe:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+white-black-stripe:
+  fill: "#000000"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 yellow-red-stripe:
   fill: "#ff0000"
   shield:
@@ -2559,10 +4344,103 @@ yellow-red-stripe:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+yellow-white-stripe:
+  fill: "#ffffff"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+yellow-frame-yellow-stripe:
+  fill: "#ffdd00"
+  shield:
+    stroke_fill: "#ffdd00"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 2
+    padding: 2
+black-white-triangle-line:
+  fill: "#ffffff"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+green-yellow-triangle-line:
+  fill: "#ffdd00"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+green-white-triangle-line:
+  fill: "#ffffff"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+purple-white-triangle-line:
+  fill: "#ffffff"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+red-yellow-triangle-line:
+  fill: "#ffdd00"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+red-round-red-triangle-line:
+  fill: "#ff0000"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
+white-red-triangle-line:
+  fill: "#ff0000"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+white-yellow-triangle-line:
+  fill: "#ffdd00"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+white-blue-triangle-line:
+  fill: "#1579e0"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+white-green-triangle-line:
+  fill: "#00cd27"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 white-black-triangle-line:
   fill: "#000000"
   shield:
     fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+yellow-black-triangle-line:
+  fill: "#000000"
+  shield:
+    fill: "#ffdd00"
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
@@ -2574,6 +4452,20 @@ yellow-frame-black-triangle-line:
     opacity: 0.0
     rounded: 2
     padding: 2
+black-red-triangle:
+  fill: "#ff0000"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+black-green-triangle:
+  fill: "#00cd27"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 black-white-triangle:
   fill: "#ffffff"
   shield:
@@ -2581,10 +4473,32 @@ black-white-triangle:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+blue-yellow-triangle:
+  fill: "#ffdd00"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 blue-white-triangle:
   fill: "#ffffff"
   shield:
     fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+blue-circle-blue-triangle:
+  fill: "#1579e0"
+  shield:
+    stroke_fill: "#1579e0"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 10
+    padding: 2
+brown-blue-triangle:
+  fill: "#1579e0"
+  shield:
+    fill: "#8b4513"
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
@@ -2602,6 +4516,13 @@ brown-white-triangle:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+green-yellow-triangle:
+  fill: "#ffdd00"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 green-white-triangle:
   fill: "#ffffff"
   shield:
@@ -2609,6 +4530,14 @@ green-white-triangle:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+green-frame-green-triangle:
+  fill: "#00cd27"
+  shield:
+    stroke_fill: "#00cd27"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 2
+    padding: 2
 orange-white-triangle:
   fill: "#ffffff"
   shield:
@@ -2620,6 +4549,13 @@ purple-white-triangle:
   fill: "#ffffff"
   shield:
     fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+red-yellow-triangle:
+  fill: "#ffdd00"
+  shield:
+    fill: "#ff0000"
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
@@ -2679,6 +4615,38 @@ white-triangle:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+white-round-red-triangle:
+  fill: "#ff0000"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
+white-round-yellow-triangle:
+  fill: "#ffdd00"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
+white-round-blue-triangle:
+  fill: "#1579e0"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
+white-round-green-triangle:
+  fill: "#00cd27"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
 yellow-red-triangle:
   fill: "#ff0000"
   shield:
@@ -2714,6 +4682,39 @@ yellow-black-triangle:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+none-red-triangle:
+  fill: "#ff0000"
+  shield:
+    fill: "#ffffff"
+    opacity: 0.0
+    padding: 1
+none-green-triangle:
+  fill: "#00cd27"
+  shield:
+    fill: "#ffffff"
+    opacity: 0.0
+    padding: 1
+black-white-turned-t:
+  fill: "#ffffff"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+blue-yellow-turned-t:
+  fill: "#ffdd00"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+blue-white-turned-t:
+  fill: "#ffffff"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 red-white-turned-t:
   fill: "#ffffff"
   shield:
@@ -2723,6 +4724,14 @@ red-white-turned-t:
     padding: 1
 red-frame-red-turned-t:
   fill: "#ff0000"
+  shield:
+    stroke_fill: "#ff0000"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 2
+    padding: 2
+red-frame-blue-turned-t:
+  fill: "#1579e0"
   shield:
     stroke_fill: "#ff0000"
     stroke_width: 2
@@ -2799,6 +4808,41 @@ white-blue-wheelchair:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+white-wheelchair:
+  fill: "#000000"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+white-red-wheel:
+  fill: "#ff0000"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+white-blue-wheel:
+  fill: "#1579e0"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+white-green-wheel:
+  fill: "#00cd27"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+white-orange-wheel:
+  fill: "#f96f00"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 black-white-x:
   fill: "#ffffff"
   shield:
@@ -2806,8 +4850,36 @@ black-white-x:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+blue-yellow-x:
+  fill: "#ffdd00"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+green-yellow-x:
+  fill: "#ffdd00"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+red-white-x:
+  fill: "#ffffff"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 white-red-x:
   fill: "#ff0000"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+white-yellow-x:
+  fill: "#ffdd00"
   shield:
     fill: "#ffffff"
     stroke_fill: "#000000"
@@ -2822,6 +4894,20 @@ white-blue-x:
     padding: 1
 white-green-x:
   fill: "#00cd27"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+white-black-x:
+  fill: "#000000"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+white-brown-x:
+  fill: "#8b4513"
   shield:
     fill: "#ffffff"
     stroke_fill: "#000000"

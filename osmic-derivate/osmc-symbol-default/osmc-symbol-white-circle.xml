@@ -12,7 +12,13 @@
 		<rule e="way" k="osmc_foreground" v="green_dot">
 			<lineSymbol src="file:/osmc-symbols/white_circle_green_dot.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="black_dot">
+			<lineSymbol src="file:/osmc-symbols/white_circle_black_dot.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="orange_dot">
 			<lineSymbol src="file:/osmc-symbols/white_circle_orange_dot.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="black_rectangle">
+			<lineSymbol src="file:/osmc-symbols/white_circle_black_rectangle.png" align-center="false" repeat="true" />
 		</rule>
 	</rule>

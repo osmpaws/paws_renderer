@@ -1,0 +1,38 @@
+<stylemenu id="r4menu" defaultvalue="default" defaultlang="en">
+
+	<layer id="l_hike_lines" enabled="true">
+		<name lang="cz" value="TZT - linie" />
+		<name lang="en" value="Waymarked Trails" />
+		<cat id="hike_lines" />
+	</layer>
+	<layer id="l_hike_symbol_lines" parent="l_hike_lines" enabled="false">
+		<name lang="cz" value="TZT - značky (podél linie)" />
+		<name lang="en" value="Waymarked Trails (line symbols)" />
+		<cat id="hike_symbol_lines" />
+	</layer>	
+	<layer id="l_hike_symbol_nodes" parent="l_hike_lines" enabled="true">
+		<name lang="cz" value="TZT - značky (vedle linie)" />
+		<name lang="en" value="Waymarked Trails (node symbols)" />
+		<cat id="hike_symbol_nodes" />
+	</layer>
+	<layer id="l_bike_lines" enabled="true">
+		<name lang="cz" value="Cyklotrasy" />
+		<name lang="en" value="Bike trails" />
+		<cat id="bike_lines" />
+	</layer>
+	<layer id="l_national_park_pattern" enabled="true">
+		<name lang="cz" value="Plocha národních parků" />
+		<name lang="en" value="National park area" />
+		<cat id="national_park_pattern" />
+	</layer>
+	
+	<layer id="default" visible="true">
+		<name lang="cz" value="Výchozí vrstvy" />
+		<name lang="en" value="Default layers" />
+		<overlay id="l_hike_lines" />
+		<!--overlay id="l_hike_symbol_lines" /-->
+		<overlay id="l_hike_symbol_nodes" />
+		<overlay id="l_bike_lines" />
+		<overlay id="l_national_park_pattern" />
+	</layer>
+</stylemenu>
