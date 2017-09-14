@@ -1,0 +1,4 @@
+			<!--piste#nordic-->
+			<rule e="way" k="piste:type" v="nordic">
+				<line stroke="#AAc00000" stroke-width="1.5" stroke-dasharray="45,15" stroke-linecap="butt" />
+			</rule>

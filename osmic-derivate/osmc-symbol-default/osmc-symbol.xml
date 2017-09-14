@@ -3040,6 +3040,12 @@
 		</rule>
 	</rule>
 	<rule e="way" k="osmc_background" v="red_frame" zoom-min="15">
+		<rule e="way" k="osmc_foreground" v="hiker">
+			<lineSymbol src="file:/osmc-symbols/red_frame_hiker.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="hiker">
+			<symbol src="file:/osmc-symbols/red_frame_hiker.png" />
+		</rule>
 	</rule>
 	<rule e="way" k="osmc_background" v="red_round" zoom-min="15">
 		<rule e="way" k="osmc_foreground" v="red_hiker">

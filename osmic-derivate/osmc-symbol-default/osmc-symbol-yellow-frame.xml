@@ -1,5 +1,8 @@
 <!--OSMC symbols yellow_frame background-->
 	<rule e="way" k="osmc_background" v="yellow_frame" zoom-min="15">
+		<rule e="way" k="osmc_foreground" v="~">
+			<lineSymbol src="file:/osmc-symbols/osmcbg_yellow_frame.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="white_bar">
 			<lineSymbol src="file:/osmc-symbols/yellow_frame_white_bar.png" align-center="false" repeat="true" />
 		</rule>

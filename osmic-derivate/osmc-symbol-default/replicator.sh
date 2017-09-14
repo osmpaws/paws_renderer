@@ -68,17 +68,78 @@ yellow
 yellow-circle
 yellow-frame
 yellow-round
-
 none"
 
 for bgcolor in $bgclist ;
 do
 	bgcolorxml=`echo $bgcolor | tr '-' '_'`
+	bgfilename="osmcbg-"$bgcolor
+	bgfilenamexml=`echo $bgfilename | tr '-' '_'`
+	emptyfile="emptysign-rectangle"
+	newname=`echo $emptyfile-*.svg | sed "s/$emptyfile/$bgfilename/"`
+	
+	sed "s/id=\"$emptyfile/id=\"$bgfilename/" $emptyfile-*.svg > $target/$newname
+	
 	echo '<!--OSMC symbols '$bgcolorxml' background-->
-	<rule e="'$symbolstype'" k="osmc_background" v="'$bgcolorxml'" zoom-min="15">' > "osmc-symbol-$bgcolor.xml"
+	<rule e="'$symbolstype'" k="osmc_background" v="'$bgcolorxml'" zoom-min="15">
+		<rule e="'$symbolstype'" k="osmc_foreground" v="~">
+			<lineSymbol src="file:/osmc-symbols/'$bgfilenamexml'.png" align-center="false" repeat="true" />
+		</rule>' > "osmc-symbol-$bgcolor.xml"
 	
 	echo '<!--OSMC symbols '$bgcolorxml' '$secsymbolstype' background-->
-	<rule e="'$secsymbolstype'" k="osmc_background" v="'$bgcolorxml'" zoom-min="15">' > "osmc-symbol-$bgcolor-$secsymbolstype.xml"
+	<rule e="'$secsymbolstype'" k="osmc_background" v="'$bgcolorxml'" zoom-min="15">
+		<rule e="'$secsymbolstype'" k="osmc_foreground" v="~">
+			<symbol src="file:/osmc-symbols/'$bgfilenamexml'.png" />
+		</rule>' > "osmc-symbol-$bgcolor-$secsymbolstype.xml"
+		
+	
+		if [[ $bgcolor =~ "-circle" ]]; then
+			#bgstyle="_circle"
+			#bgcolor=`echo $bgcolor | cut -d_ -f2`
+			bgc=`echo $bgcolor | cut -d- -f1`
+			bgchex=${colors[$bgc]}
+			shieldpars="stroke_fill: \"#$bgchex\"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 10
+    padding: 2"
+		elif [[ $bgcolor =~ "-round" ]]; then
+			bgc=`echo $bgcolor | cut -d- -f1`
+			bgchex=${colors[$bgc]}
+			shieldpars="fill: \"#$bgchex\"
+    stroke_fill: \"#000000\"
+    stroke_width: 1
+    padding: 2
+    rounded: 10"
+		elif [[ $bgcolor =~ "-frame" ]]; then
+			#bgstyle="_frame"
+			bgc=`echo $bgcolor | cut -d- -f1`
+			bgchex=${colors[$bgc]}
+			shieldpars="stroke_fill: \"#$bgchex\"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 2
+    padding: 2"
+		elif [[ $bgcolor =~ "none" ]] || [ $bgcolor = "" ]; then
+			bgc=`echo $bgcolor | cut -d- -f1`
+			bgchex=${colors[$bgc]}
+			shieldpars="fill: \"#$bgchex\"
+    opacity: 0.0
+    padding: 1"
+		else
+			#bgstyle=""
+			bgchex=${colors[$bgcolor]}
+			shieldpars="fill: \"#$bgchex\"
+    stroke_fill: \"#000000\"
+    stroke_width: 1
+    padding: 1"
+		fi
+		
+		echo "$bgfilename:
+  fill: \"#$bgchex\"
+  shield:
+    $shieldpars" >> $svgrules
+    echo "$bgfilenamexml s 0.7" | tr '-' '_' >> $scalingfactor
 done
 
 for file in $defaultname-*.svg;

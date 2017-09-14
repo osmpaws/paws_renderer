@@ -443,8 +443,10 @@ military:
     padding: 2
 nature-reserve:
   fill: "#99ff99"
+  opacity: 0.5
 national-park:
   fill: "#ff9999"
+  opacity: 0.5
 orchard:
   fill: "#000000"
   shield:

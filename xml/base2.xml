@@ -389,7 +389,9 @@
 
 		<rule e="way" k="natural" v="tree_row">
 			<line stroke="#9cbc8a" stroke-width="0.7" />
-			<lineSymbol src="file:/symbols/treepoint.png" align-center="true" repeat="true" />
+			<line stroke="#9cbc8a" stroke-width="1.4" stroke-dasharray="1,49" stroke-linecap="butt" />
+			<line stroke="#9cbc8a" stroke-width="2.1" stroke-dasharray="1,1,48" stroke-linecap="butt" />
+			<line stroke="#9cbc8a" stroke-width="1.4" stroke-dasharray="2,1,47" stroke-linecap="butt" />
 		</rule>
 
 
@@ -933,21 +935,21 @@
 				<line stroke="#55FF0011" stroke-width="6.0" />
 			</rule>
 			<line stroke="#bc4af9" stroke-width="1.0" stroke-dasharray="22.5,7.5,7.5,7.5" stroke-linecap="butt" />
-			<pathText k="name" font-family="serif" font-style="bold_italic" font-size="20" fill="#55FF00" stroke="#ffffff" stroke-width="2.1" />
+			<pathText k="name" font-family="serif" font-style="bold_italic" font-size="20" fill="#bc4af9" stroke="#ffffff" stroke-width="2.1" />
 		</rule>	
 		<rule e="way" k="admin_level" v="4">
 			<rule e="way" k="admin_level" v="*" zoom-max="11">
 				<line stroke="#55FF0011" stroke-width="3.0" />
 			</rule>
 			<line stroke="#bc4af9" stroke-width="0.5" stroke-dasharray="22.5,7.5,7.5,7.5" stroke-linecap="butt" />
-			<pathText k="name" font-family="serif" font-style="bold_italic" font-size="19" fill="#55FF00" stroke="#ffffff" stroke-width="2.1" />
+			<pathText k="name" font-family="serif" font-style="bold_italic" font-size="19" fill="#bc4af9" stroke="#ffffff" stroke-width="2.1" />
 		</rule>	
 		<rule e="way" k="admin_level" v="6">
 			<rule e="way" k="admin_level" v="*" zoom-max="11">
 				<line stroke="#55FF0011" stroke-width="1.5" />
 			</rule>
 			<line stroke="#bc4af9" stroke-width="0.5" stroke-dasharray="22.5,7.5,7.5,7.5" stroke-linecap="butt" />
-			<pathText k="name" font-family="serif" font-style="bold_italic" font-size="18" fill="#55FF00" stroke="#ffffff" stroke-width="2.1" />
+			<pathText k="name" font-family="serif" font-style="bold_italic" font-size="18" fill="#bc4af9" stroke="#ffffff" stroke-width="2.1" />
 		</rule>
 		
 			
@@ -1063,9 +1065,7 @@
 			<rule e="way" k="piste:type" v="sled">
 				<line stroke="#cdabde" stroke-width="3.7" />
 			</rule>
-			<rule e="way" k="piste:type" v="nordic">
-				<line stroke="#AAc00000" stroke-width="1.5" stroke-dasharray="45,15" stroke-linecap="butt" />
-			</rule>
+			<!--piste#nordic-->
 		</rule>
 		
 		<!-- power -->
@@ -1212,7 +1212,7 @@
 					<rule e="way" k="admin_level" v="1">
 						<line stroke="#80ffff00" stroke-width="2.62" />
 						<line stroke="#f9574b" stroke-width="0.37" stroke-dasharray="22.5,7.5,7.5,7.5" />
-						<pathText k="name" font-family="serif" font-style="bold_italic" font-size="17.0" fill="#80ffff00" stroke="#ffffff" stroke-width="3.0" />
+						<pathText k="name" font-family="serif" font-style="bold_italic" font-size="17.0" fill="#f9574b" stroke="#ffffff" stroke-width="3.0" />
 					</rule>
 				</rule>
 			</rule>

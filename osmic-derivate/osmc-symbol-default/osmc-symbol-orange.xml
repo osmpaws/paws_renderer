@@ -1,5 +1,8 @@
 <!--OSMC symbols orange background-->
 	<rule e="way" k="osmc_background" v="orange" zoom-min="15">
+		<rule e="way" k="osmc_foreground" v="~">
+			<lineSymbol src="file:/osmc-symbols/osmcbg_orange.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="red_bar">
 			<lineSymbol src="file:/osmc-symbols/orange_red_bar.png" align-center="false" repeat="true" />
 		</rule>

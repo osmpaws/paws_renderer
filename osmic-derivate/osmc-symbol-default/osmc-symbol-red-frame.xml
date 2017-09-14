@@ -1,5 +1,8 @@
 <!--OSMC symbols red_frame background-->
 	<rule e="way" k="osmc_background" v="red_frame" zoom-min="15">
+		<rule e="way" k="osmc_foreground" v="~">
+			<lineSymbol src="file:/osmc-symbols/osmcbg_red_frame.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="red_arch">
 			<lineSymbol src="file:/osmc-symbols/red_frame_red_arch.png" align-center="false" repeat="true" />
 		</rule>
@@ -14,6 +17,9 @@
 		</rule>
 		<rule e="way" k="osmc_foreground" v="red_dot">
 			<lineSymbol src="file:/osmc-symbols/red_frame_red_dot.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="hiker">
+			<lineSymbol src="file:/osmc-symbols/red_frame_hiker.png" align-center="false" repeat="true" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="red_pointer">
 			<lineSymbol src="file:/osmc-symbols/red_frame_red_pointer.png" align-center="false" repeat="true" />

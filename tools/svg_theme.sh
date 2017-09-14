@@ -15,7 +15,7 @@ padding=1
 
 cd $root
 
-#rm -r "$root/$targetdir/"
+rm -r "$root/$targetdir/"
 mkdir -p "$root/$targetdir/$themename"
 #mv "$root/$svgdir/patterns" "$root/$svgdir/patterns_orig" && mv "$root/$svgpatternsdir/patterns" "$root/$svgdir/patterns"
 
@@ -29,7 +29,7 @@ do
 	s/src="file:\//src="file:/g
 	s/<circle r="/<circle radius="/g
 	s/\.png"/.svg"/g'  > $targetdir/$themename/$newthemename.xml
-	echo "" > $sedscript
+	echo -n "" > $sedscript
 	
 	
 echo "XML done."
@@ -37,6 +37,7 @@ scale=$imgscalefactor
 
 echo "$files" | while read line;
 do
+	#echo $line
 	filename=`echo $line | rev | cut -d/ -f1 | rev | cut -d. -f1`
 	filepath=`echo $line | rev | cut -d/ -f2- | rev | cut -d/ -f 2-`
 	size=`echo $filename | rev | cut -d- -f1 | rev`
@@ -100,7 +101,7 @@ done
 
 #mv "$root/$svgdir/patterns" "$root/$svgpatternsdir/patterns" && mv "$root/$svgdir/patterns_orig" "$root/$svgdir/patterns"
 #rm -r $targetdir/$themename/patterns_orig
-
-zip -r $themename.zip $targetdir/$themename && mv $themename.zip $targetdir
+cd $targetdir
+zip -r $themename.zip $themename && cd ..
 
 

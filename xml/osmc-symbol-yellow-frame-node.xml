@@ -1,0 +1,24 @@
+<!--OSMC symbols yellow_frame node background-->
+	<rule e="node" k="osmc_background" v="yellow_frame" zoom-min="15">
+		<rule e="node" k="osmc_foreground" v="~">
+			<symbol src="file:/osmc-symbols/osmcbg_yellow_frame.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="white_bar">
+			<symbol src="file:/osmc-symbols/yellow_frame_white_bar.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="yellow_circle">
+			<symbol src="file:/osmc-symbols/yellow_frame_yellow_circle.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="green_dot">
+			<symbol src="file:/osmc-symbols/yellow_frame_green_dot.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="red_rectangle">
+			<symbol src="file:/osmc-symbols/yellow_frame_red_rectangle.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="yellow_stripe">
+			<symbol src="file:/osmc-symbols/yellow_frame_yellow_stripe.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="black_triangle_line">
+			<symbol src="file:/osmc-symbols/yellow_frame_black_triangle_line.png" />
+		</rule>
+	</rule>

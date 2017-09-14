@@ -1,0 +1,6 @@
+<!--OSMC symbols brown_circle background-->
+	<rule e="way" k="osmc_background" v="brown_circle" zoom-min="15">
+		<rule e="way" k="osmc_foreground" v="~">
+			<lineSymbol src="file:/osmc-symbols/osmcbg_brown_circle.png" align-center="false" repeat="true" />
+		</rule>
+	</rule>

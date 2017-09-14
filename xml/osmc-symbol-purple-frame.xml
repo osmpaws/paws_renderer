@@ -1,0 +1,6 @@
+<!--OSMC symbols purple_frame background-->
+	<rule e="way" k="osmc_background" v="purple_frame" zoom-min="15">
+		<rule e="way" k="osmc_foreground" v="~">
+			<lineSymbol src="file:/osmc-symbols/osmcbg_purple_frame.png" align-center="false" repeat="true" />
+		</rule>
+	</rule>

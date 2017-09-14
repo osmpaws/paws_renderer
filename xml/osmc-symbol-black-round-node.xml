@@ -1,0 +1,12 @@
+<!--OSMC symbols black_round node background-->
+	<rule e="node" k="osmc_background" v="black_round" zoom-min="15">
+		<rule e="node" k="osmc_foreground" v="~">
+			<symbol src="file:/osmc-symbols/osmcbg_black_round.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="red_dot">
+			<symbol src="file:/osmc-symbols/black_round_red_dot.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="white_dot">
+			<symbol src="file:/osmc-symbols/black_round_white_dot.png" />
+		</rule>
+	</rule>

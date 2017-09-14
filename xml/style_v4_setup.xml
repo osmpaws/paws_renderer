@@ -20,19 +20,25 @@
 		<name lang="en" value="Bike trails" />
 		<cat id="bike_lines" />
 	</layer>
-	<layer id="l_national_park_pattern" enabled="true">
+	<layer id="l_national_park_pattern" enabled="false">
 		<name lang="cz" value="Plocha národních parků" />
 		<name lang="en" value="National park area" />
 		<cat id="national_park_pattern" />
+	</layer>
+	<layer id="l_piste_nordic" enabled="false">
+		<name lang="cz" value="Běžeceké stopy" />
+		<name lang="en" value="Cross-country skiing trail" />
+		<cat id="piste_nordic" />
 	</layer>
 	
 	<layer id="default" visible="true">
 		<name lang="cz" value="Výchozí vrstvy" />
 		<name lang="en" value="Default layers" />
-		<overlay id="l_hike_lines" />
-		<!--overlay id="l_hike_symbol_lines" /-->
+		<!--overlay id="l_hike_lines" /-->
+		<overlay id="l_hike_symbol_lines" />
 		<overlay id="l_hike_symbol_nodes" />
 		<overlay id="l_bike_lines" />
 		<overlay id="l_national_park_pattern" />
+		<overlay id="l_piste_nordic" />
 	</layer>
 </stylemenu>

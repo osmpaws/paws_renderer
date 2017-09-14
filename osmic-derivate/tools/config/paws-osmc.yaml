@@ -443,8 +443,10 @@ military:
     padding: 2
 nature-reserve:
   fill: "#99ff99"
+  opacity: 0.5
 national-park:
   fill: "#ff9999"
+  opacity: 0.5
 orchard:
   fill: "#000000"
   shield:
@@ -471,6 +473,291 @@ wood-mixed:
   shield:
     fill: "#a6c993"
 #osmc-symbol
+osmcbg-black:
+  fill: "#000000"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+osmcbg-black-circle:
+  fill: "#000000"
+  shield:
+    stroke_fill: "#000000"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 10
+    padding: 2
+osmcbg-black-frame:
+  fill: "#000000"
+  shield:
+    stroke_fill: "#000000"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 2
+    padding: 2
+osmcbg-black-round:
+  fill: "#000000"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
+osmcbg-blue:
+  fill: "#1579e0"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+osmcbg-blue-circle:
+  fill: "#1579e0"
+  shield:
+    stroke_fill: "#1579e0"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 10
+    padding: 2
+osmcbg-blue-frame:
+  fill: "#1579e0"
+  shield:
+    stroke_fill: "#1579e0"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 2
+    padding: 2
+osmcbg-blue-round:
+  fill: "#1579e0"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
+osmcbg-brown:
+  fill: "#8b4513"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+osmcbg-brown-circle:
+  fill: "#8b4513"
+  shield:
+    stroke_fill: "#8b4513"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 10
+    padding: 2
+osmcbg-brown-frame:
+  fill: "#8b4513"
+  shield:
+    stroke_fill: "#8b4513"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 2
+    padding: 2
+osmcbg-brown-round:
+  fill: "#8b4513"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
+osmcbg-green:
+  fill: "#00cd27"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+osmcbg-green-circle:
+  fill: "#00cd27"
+  shield:
+    stroke_fill: "#00cd27"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 10
+    padding: 2
+osmcbg-green-frame:
+  fill: "#00cd27"
+  shield:
+    stroke_fill: "#00cd27"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 2
+    padding: 2
+osmcbg-green-round:
+  fill: "#00cd27"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
+osmcbg-orange:
+  fill: "#f96f00"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+osmcbg-orange-circle:
+  fill: "#f96f00"
+  shield:
+    stroke_fill: "#f96f00"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 10
+    padding: 2
+osmcbg-orange-frame:
+  fill: "#f96f00"
+  shield:
+    stroke_fill: "#f96f00"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 2
+    padding: 2
+osmcbg-orange-round:
+  fill: "#f96f00"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
+osmcbg-purple:
+  fill: "#b878dd"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+osmcbg-purple-circle:
+  fill: "#b878dd"
+  shield:
+    stroke_fill: "#b878dd"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 10
+    padding: 2
+osmcbg-purple-frame:
+  fill: "#b878dd"
+  shield:
+    stroke_fill: "#b878dd"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 2
+    padding: 2
+osmcbg-purple-round:
+  fill: "#b878dd"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
+osmcbg-red:
+  fill: "#ff0000"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+osmcbg-red-circle:
+  fill: "#ff0000"
+  shield:
+    stroke_fill: "#ff0000"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 10
+    padding: 2
+osmcbg-red-frame:
+  fill: "#ff0000"
+  shield:
+    stroke_fill: "#ff0000"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 2
+    padding: 2
+osmcbg-red-round:
+  fill: "#ff0000"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
+osmcbg-white:
+  fill: "#ffffff"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+osmcbg-white-circle:
+  fill: "#ffffff"
+  shield:
+    stroke_fill: "#ffffff"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 10
+    padding: 2
+osmcbg-white-frame:
+  fill: "#ffffff"
+  shield:
+    stroke_fill: "#ffffff"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 2
+    padding: 2
+osmcbg-white-round:
+  fill: "#ffffff"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
+osmcbg-yellow:
+  fill: "#ffdd00"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+osmcbg-yellow-circle:
+  fill: "#ffdd00"
+  shield:
+    stroke_fill: "#ffdd00"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 10
+    padding: 2
+osmcbg-yellow-frame:
+  fill: "#ffdd00"
+  shield:
+    stroke_fill: "#ffdd00"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 2
+    padding: 2
+osmcbg-yellow-round:
+  fill: "#ffdd00"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
+osmcbg-none:
+  fill: "#ffffff"
+  shield:
+    fill: "#ffffff"
+    opacity: 0.0
+    padding: 1
 black-red-arch:
   fill: "#ff0000"
   shield:
@@ -3011,6 +3298,14 @@ red-circle-hiker:
     stroke_width: 2
     opacity: 0.0
     rounded: 10
+    padding: 2
+red-frame-hiker:
+  fill: "#ffffff"
+  shield:
+    stroke_fill: "#ff0000"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 2
     padding: 2
 red-round-red-hiker:
   fill: "#ff0000"
