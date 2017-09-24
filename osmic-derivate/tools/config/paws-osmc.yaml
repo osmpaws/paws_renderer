@@ -1202,6 +1202,13 @@ red-yellow-bar:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+red-green-bar:
+  fill: "#00cd27"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 red-white-bar:
   fill: "#ffffff"
   shield:
@@ -1669,6 +1676,14 @@ white-orange-circle:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+white-circle-red-circle:
+  fill: "#ff0000"
+  shield:
+    stroke_fill: "#ffffff"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 10
+    padding: 2
 white-round-red-circle:
   fill: "#ff0000"
   shield:
@@ -2748,6 +2763,14 @@ purple-white-dot:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+purple-round-yellow-dot:
+  fill: "#ffdd00"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
 red-yellow-dot:
   fill: "#ffdd00"
   shield:
@@ -3161,6 +3184,14 @@ black-hiker:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+black-frame-hiker:
+  fill: "#ffffff"
+  shield:
+    stroke_fill: "#000000"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 2
+    padding: 2
 blue-yellow-hiker:
   fill: "#ffdd00"
   shield:
@@ -3416,6 +3447,13 @@ blue-white-lower:
     padding: 1
 blue-black-lower:
   fill: "#000000"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+blue-orange-lower:
+  fill: "#f96f00"
   shield:
     fill: "#1579e0"
     stroke_fill: "#000000"
@@ -3679,6 +3717,13 @@ white-l:
   fill: "#000000"
   shield:
     fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+black-red-pointer:
+  fill: "#ff0000"
+  shield:
+    fill: "#000000"
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
@@ -3959,6 +4004,12 @@ none-red-pointer:
     padding: 1
 none-blue-pointer:
   fill: "#1579e0"
+  shield:
+    fill: "#ffffff"
+    opacity: 0.0
+    padding: 1
+none-green-pointer:
+  fill: "#00cd27"
   shield:
     fill: "#ffffff"
     opacity: 0.0
@@ -4302,6 +4353,13 @@ green-white-right:
     padding: 1
 red-green-right:
   fill: "#00cd27"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+red-white-right:
+  fill: "#ffffff"
   shield:
     fill: "#ff0000"
     stroke_fill: "#000000"

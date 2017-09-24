@@ -271,10 +271,7 @@
 				<!--<area fill="#666666" stroke="#444444" stroke-width="0.1" />-->
 				<line stroke="#444444" stroke-width="0.1" />
 				<line stroke="#444444" stroke-width="1.5" stroke-dasharray="1.5,4.5" stroke-linecap="butt" />
-				<rule e="way" k="*" v="*" closed="yes">
-					<lineSymbol src="file:/symbols/cliff_line_closedway.png" align-center="true" repeat="true" />
-				</rule>
-				<rule e="way" k="*" v="*" closed="no">
+				<rule e="way" k="*" v="*">
 					<lineSymbol src="file:/symbols/cliff_line.png" align-center="true" repeat="true" />
 				</rule>
 			</rule>
@@ -1240,16 +1237,13 @@
 		<rule e="way" k="tunnel" v="~|false|no">
 			<rule e="way" k="area" v="~|false|no">
 				<rule e="way" k="highway" v="*">
-					<rule e="way" k="oneway" v="yes|true|1" closed="no" zoom-min="16">
+					<rule e="way" k="oneway" v="yes|true|1" zoom-min="16">
 						<lineSymbol src="file:/symbols/oneway.png" align-center="true" repeat="true" />
 					</rule>
-					<rule e="way" k="oneway" v="-1" closed="no" zoom-min="16">
+					<rule e="way" k="oneway" v="-1" zoom-min="16">
 						<lineSymbol src="file:/symbols/oneway_closedway.png" align-center="true" repeat="true" />
 					</rule>
-					<rule e="way" k="oneway" v="yes|true|1" closed="yes" zoom-min="16">
-						<lineSymbol src="file:/symbols/oneway_closedway.png" align-center="true" repeat="true" />
-					</rule>
-					<rule e="way" k="oneway" v="-1" closed="yes" zoom-min="16">
+					<rule e="way" k="junction" v="roundabout" zoom-min="16">
 						<lineSymbol src="file:/symbols/oneway.png" align-center="true" repeat="true" />
 					</rule>
 				</rule>
@@ -1763,18 +1757,9 @@
 			</rule>
 		</rule>
 		<!-- place -->
-		<rule e="node" k="place" v="*">			
-			<rule e="node" k="place" v="locality" zoom-min="14">
-				<caption k="name" font-family="serif" font-style="italic" font-size="17.0" fill="#555555" stroke="#ffffff" stroke-width="3.0" />
-			</rule>
-			<rule e="node" k="place" v="hamlet" zoom-min="13">
-				<caption k="name" font-style="bold" font-size="19.0" fill="#000000" stroke="#ffffff" stroke-width="6" />
-			</rule>
-			<rule e="node" k="place" v="suburb|village" zoom-min="10">
-				<caption k="name" font-style="bold" font-size="22.0" fill="#000000" stroke="#ffffff" stroke-width="6" />
-			</rule>
-			<rule e="node" k="place" v="town" zoom-min="9">
-				<caption k="name" font-style="bold" font-size="25" fill="#000000" stroke="#ffffff" stroke-width="7" />
+		<rule e="node" k="place" v="*">
+			<rule e="node" k="place" v="country" zoom-max="6">
+				<caption k="name" font-style="bold" font-size="40" fill="#000000" stroke="#ffffff" stroke-width="8" />
 			</rule>
 			<rule e="node" k="place" v="island" zoom-min="10">
 				<caption k="name" font-style="bold" font-size="28" fill="#000000" stroke="#ffffff" stroke-width="7" />
@@ -1782,8 +1767,17 @@
 			<rule e="node" k="place" v="city" zoom-max="15">
 				<caption k="name" font-style="bold" font-size="30" fill="#000000" stroke="#ffffff" stroke-width="8" />
 			</rule>
-			<rule e="node" k="place" v="country" zoom-max="6">
-				<caption k="name" font-style="bold" font-size="40" fill="#000000" stroke="#ffffff" stroke-width="8" />
+			<rule e="node" k="place" v="town" zoom-min="9">
+				<caption k="name" font-style="bold" font-size="25" fill="#000000" stroke="#ffffff" stroke-width="7" />
+			</rule>
+			<rule e="node" k="place" v="suburb|village" zoom-min="10">
+				<caption k="name" font-style="bold" font-size="22.0" fill="#000000" stroke="#ffffff" stroke-width="6" />
+			</rule>
+			<rule e="node" k="place" v="hamlet" zoom-min="13">
+				<caption k="name" font-style="bold" font-size="19.0" fill="#000000" stroke="#ffffff" stroke-width="6" />
+			</rule>
+			<rule e="node" k="place" v="locality" zoom-min="14">
+				<caption k="name" font-family="serif" font-style="italic" font-size="17.0" fill="#555555" stroke="#ffffff" stroke-width="3.0" />
 			</rule>
 		</rule>
 	</rule>
@@ -1904,6 +1898,9 @@
 		</rule>
 		<rule e="way" k="osmc_foreground" v="black_lower">
 			<lineSymbol src="file:/osmc-symbols/blue_black_lower.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="orange_lower">
+			<lineSymbol src="file:/osmc-symbols/blue_orange_lower.png" align-center="false" repeat="true" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="yellow_pointer">
 			<lineSymbol src="file:/osmc-symbols/blue_yellow_pointer.png" align-center="false" repeat="true" />
@@ -2048,6 +2045,9 @@
 	<rule e="way" k="osmc_background" v="white_circle" zoom-min="15">
 		<rule e="way" k="osmc_foreground" v="~">
 			<lineSymbol src="file:/osmc-symbols/osmcbg_white_circle.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="red_circle">
+			<lineSymbol src="file:/osmc-symbols/white_circle_red_circle.png" align-center="false" repeat="true" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="red_dot">
 			<lineSymbol src="file:/osmc-symbols/white_circle_red_dot.png" align-center="false" repeat="true" />
@@ -2601,6 +2601,9 @@
 		<rule e="way" k="osmc_foreground" v="~">
 			<lineSymbol src="file:/osmc-symbols/osmcbg_purple_round.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="yellow_dot">
+			<lineSymbol src="file:/osmc-symbols/purple_round_yellow_dot.png" align-center="false" repeat="true" />
+		</rule>
 	</rule>
 <!--OSMC symbols none background-->
 	<rule e="way" k="osmc_background" v="none" zoom-min="15">
@@ -2615,6 +2618,9 @@
 		</rule>
 		<rule e="way" k="osmc_foreground" v="blue_pointer">
 			<lineSymbol src="file:/osmc-symbols/none_blue_pointer.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="green_pointer">
+			<lineSymbol src="file:/osmc-symbols/none_green_pointer.png" align-center="false" repeat="true" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="red_triangle">
 			<lineSymbol src="file:/osmc-symbols/none_red_triangle.png" align-center="false" repeat="true" />
@@ -2742,6 +2748,9 @@
 		<rule e="way" k="osmc_foreground" v="green_lower">
 			<lineSymbol src="file:/osmc-symbols/black_green_lower.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="red_pointer">
+			<lineSymbol src="file:/osmc-symbols/black_red_pointer.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="yellow_pointer">
 			<lineSymbol src="file:/osmc-symbols/black_yellow_pointer.png" align-center="false" repeat="true" />
 		</rule>
@@ -2835,6 +2844,9 @@
 		<rule e="way" k="osmc_foreground" v="yellow_bar">
 			<lineSymbol src="file:/osmc-symbols/red_yellow_bar.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="green_bar">
+			<lineSymbol src="file:/osmc-symbols/red_green_bar.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="white_bar">
 			<lineSymbol src="file:/osmc-symbols/red_white_bar.png" align-center="false" repeat="true" />
 		</rule>
@@ -2906,6 +2918,9 @@
 		</rule>
 		<rule e="way" k="osmc_foreground" v="green_right">
 			<lineSymbol src="file:/osmc-symbols/red_green_right.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="white_right">
+			<lineSymbol src="file:/osmc-symbols/red_white_right.png" align-center="false" repeat="true" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="black_slash">
 			<lineSymbol src="file:/osmc-symbols/red_black_slash.png" align-center="false" repeat="true" />
@@ -3014,6 +3029,9 @@
 		</rule>
 		<rule e="way" k="osmc_foreground" v="blue_dot">
 			<lineSymbol src="file:/osmc-symbols/black_frame_blue_dot.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="hiker">
+			<lineSymbol src="file:/osmc-symbols/black_frame_hiker.png" align-center="false" repeat="true" />
 		</rule>
 	</rule>
 <!--OSMC symbols white background-->

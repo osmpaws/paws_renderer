@@ -3,6 +3,9 @@
 		<rule e="way" k="osmc_foreground" v="~">
 			<lineSymbol src="file:/osmc-symbols/osmcbg_white_circle.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="red_circle">
+			<lineSymbol src="file:/osmc-symbols/white_circle_red_circle.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="red_dot">
 			<lineSymbol src="file:/osmc-symbols/white_circle_red_dot.png" align-center="false" repeat="true" />
 		</rule>
