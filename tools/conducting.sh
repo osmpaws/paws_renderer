@@ -75,6 +75,8 @@ hlhzx="hiking-lines-high-zoom.xml"
 hllzx="hiking-lines-low-zoom.xml"
 hlhzx4="hiking-lines-high-zoom-4.xml"
 hllzx4="hiking-lines-low-zoom-4.xml"
+cwl="cycleway-lane.xml"
+cwl4="cycleway-lane-4.xml"
 
 ##################################################
 # fixed part
@@ -248,13 +250,15 @@ do
 	fi
 	if [ "$biking" = "1" ]; then
 		if [ "$revision" -eq "4" ]; then
-			sed -i "/<!--biking#lines#high#zoom-->/r $root/xml/$blhzx4" $root/xml/$tempxml
-			sed -i "/<!--biking#lines#low#zoom-->/r $root/xml/$bllzx4" $root/xml/$tempxml
-			sed -i "/<!--biking#captions-->/r $root/xml/$bcx4" $root/xml/$tempxml
+			sed -i -e "/<!--biking#lines#high#zoom-->/r $root/xml/$blhzx4" \
+			       -e "/<!--biking#lines#low#zoom-->/r $root/xml/$bllzx4" \
+			       -e "/<!--biking#captions-->/r $root/xml/$bcx4" \
+			       -e "/<!--cycleway#lane-->/r $root/xml/$cwl4" $root/xml/$tempxml
 		else
-			sed -i "/<!--biking#lines#high#zoom-->/r $root/xml/$blhzx" $root/xml/$tempxml
-			sed -i "/<!--biking#lines#low#zoom-->/r $root/xml/$bllzx" $root/xml/$tempxml
-			sed -i "/<!--biking#captions-->/r $root/xml/$bcx" $root/xml/$tempxml
+			sed -i "/<!--biking#lines#high#zoom-->/r $root/xml/$blhzx" \
+			       -e "/<!--biking#lines#low#zoom-->/r $root/xml/$bllzx" \
+			       -e "/<!--biking#captions-->/r $root/xml/$bcx" \
+			       -e "/<!--cycleway#lane-->/r $root/xml/$cwl" $root/xml/$tempxml
 		fi
 	fi
 	
@@ -292,6 +296,10 @@ done
 bash $root/tools/svg_theme.sh
 uploadstr=$uploadstr"themes_svg/paws_4.zip,"
 echo -n "themes_svg/paws_4.zip," >> $uploadpath
+
+bash $root/tools/locus_theme.sh
+uploadstr=$uploadstr"themes_svg/paws_4_LE.zip,"
+echo -n "themes_svg/paws_4_LE.zip," >> $uploadpath
 
 if [ $debug -le 2 ]; then
 	exit 0

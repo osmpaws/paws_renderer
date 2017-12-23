@@ -1,0 +1,4 @@
+		<!--cycleway lane-->
+					<rule e="way" k="cycleway" v="*">
+						<line stroke="#ff55ff" stroke-width="2.4" stroke-linecap="square" stroke-dasharray="4,2" />
+					</rule>

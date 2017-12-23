@@ -1,0 +1,39 @@
+<!--OSMC symbols red_frame node background-->
+	<rule e="node" k="osmc_background" v="red_frame" zoom-min="15">
+		<rule e="node" k="osmc_foreground" v="~">
+			<symbol src="file:/osmc-symbols/osmcbg_red_frame.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="red_arch">
+			<symbol src="file:/osmc-symbols/red_frame_red_arch.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="red_bar">
+			<symbol src="file:/osmc-symbols/red_frame_red_bar.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="white_bar">
+			<symbol src="file:/osmc-symbols/red_frame_white_bar.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="red_cross">
+			<symbol src="file:/osmc-symbols/red_frame_red_cross.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="red_dot">
+			<symbol src="file:/osmc-symbols/red_frame_red_dot.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="hiker">
+			<symbol src="file:/osmc-symbols/red_frame_hiker.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="red_pointer">
+			<symbol src="file:/osmc-symbols/red_frame_red_pointer.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="red_rectangle">
+			<symbol src="file:/osmc-symbols/red_frame_red_rectangle.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="white_rectangle">
+			<symbol src="file:/osmc-symbols/red_frame_white_rectangle.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="red_turned_T">
+			<symbol src="file:/osmc-symbols/red_frame_red_turned_t.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="blue_turned_T">
+			<symbol src="file:/osmc-symbols/red_frame_blue_turned_t.png" />
+		</rule>
+	</rule>

@@ -51,7 +51,7 @@ do
 		extrascaletype="s"
 	fi
 	if [ "$extrascaletype" = "s" ]; then
-		newsize=`echo "$size*$scale*$extrascale" | bc`
+		newsize=`echo "$size*$scale*$extrascale" | bc | cut -d. -f1`
 		totalscale=`echo "$scale*$extrascale*100" | bc | cut -d. -f1`
 	elif [ "$extrascaletype" = "f" ]; then
 		if [ "$filepath" = "patterns" ] ; then
@@ -81,9 +81,9 @@ do
 	fi
 	if [ "$extrascaletype" = "s" ]; then
 		if [ "$filepath" = "osmc-symbols" ] ; then
-			echo 's,'"$filepath/$iconname"'\.svg\",'"$filepath/$iconname"'\.svg\" symbol-scaling=\"percent\" symbol-percent=\"'"$totalscale"'\" rotate=\"false\" repeat-start=\"'$((1 + RANDOM % 50))'\" repeat-gap=\"'$((100 + RANDOM % 50))'\" ,' >> $sedscript
+			echo 's,'"$filepath/$iconname"'\.svg\",'"$filepath/$iconname"'\.svg\" symbol-scaling=\"size\" symbol-width=\"'"$newsize"'\" symbol-height=\"'"$newsize"'\" rotate=\"false\" repeat-start=\"'$((1 + RANDOM % 50))'\" repeat-gap=\"'$((100 + RANDOM % 50))'\" ,' >> $sedscript
 		else
-			echo 's,'"$filepath/$iconname"'\.svg\",'"$filepath/$iconname"'\.svg\" symbol-scaling=\"percent\" symbol-percent=\"'"$totalscale"'\",' >> $sedscript
+			echo 's,'"$filepath/$iconname"'\.svg\",'"$filepath/$iconname"'\.svg\" symbol-scaling=\"size\" symbol-width=\"'"$newsize"'\" symbol-height=\"'"$newsize"'\",' >> $sedscript
 		fi
 	elif [ "$extrascaletype" = "f" ]; then
 		echo 's,'"$filepath/$iconname"'\.svg\",'"$filepath/$iconname"'\.svg\" symbol-scaling=\"size\" symbol-width=\"'"$newsize"'\" symbol-height=\"'"$newsize"'\",' >> $sedscript

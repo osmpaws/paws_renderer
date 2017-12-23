@@ -1,0 +1,6 @@
+<!--OSMC symbols purple_circle node background-->
+	<rule e="node" k="osmc_background" v="purple_circle" zoom-min="15">
+		<rule e="node" k="osmc_foreground" v="~">
+			<symbol src="file:/osmc-symbols/osmcbg_purple_circle.png" />
+		</rule>
+	</rule>

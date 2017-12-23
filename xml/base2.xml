@@ -77,71 +77,6 @@
 			</rule>
 		</rule>
 		
-		<!-- tunnel -->
-		<rule e="way" k="tunnel" v="true|yes">
-			<!-- highway tunnels -->
-			<rule e="way" k="highway" v="*">
-				<!-- highway tunnel casings -->
-				<rule e="way" k="highway" v="steps|footway|path">
-					<line stroke="#707070" stroke-width="0.9" stroke-dasharray="7.5,7.5" stroke-linecap="butt" />
-				</rule>
-				<rule e="way" k="highway" v="track|cycleway|bridleway|service">
-					<line stroke="#707070" stroke-width="1.5" stroke-dasharray="7.5,7.5" stroke-linecap="butt" />
-				</rule>
-				<rule e="way" k="highway" v="construction">
-					<line stroke="#707070" stroke-width="1.6" stroke-dasharray="7.5,7.5" stroke-linecap="butt" />
-				</rule>
-				<rule e="way" k="highway" v="road">
-					<line stroke="#707070" stroke-width="1.9" stroke-dasharray="7.5,7.5" stroke-linecap="butt" />
-				</rule>
-				<rule e="way" k="highway" v="pedestrian|unclassified|residential|living_street|byway">
-					<line stroke="#707070" stroke-width="2.2" stroke-dasharray="7.5,7.5" stroke-linecap="butt" />
-				</rule>
-				<rule e="way" k="highway" v="tertiary|secondary_link|primary_link|trunk_link|motorway_link|secondary|primary|trunk">
-					<line stroke="#707070" stroke-width="2.7" stroke-dasharray="7.5,7.5" stroke-linecap="butt" />
-				</rule>
-				<rule e="way" k="highway" v="motorway">
-					<line stroke="#707070" stroke-width="3.0" stroke-dasharray="7.5,7.5" stroke-linecap="butt" />
-				</rule>
-
-				<!-- highway tunnel cores -->
-				<rule e="way" k="highway" v="steps|footway|path">
-					<line stroke="#ffffff" stroke-width="0.67" stroke-dasharray="7.5,7.5" stroke-linecap="butt" />
-				</rule>
-				<rule e="way" k="highway" v="track">
-					<line stroke="#ffffff" stroke-width="1.0" stroke-dasharray="7.5,7.5" stroke-linecap="butt" />
-				</rule>
-				<rule e="way" k="highway" v="cycleway|bridleway|service">
-					<line stroke="#ffffff" stroke-width="1.27" stroke-dasharray="7.5,7.5" stroke-linecap="butt" />
-				</rule>
-				<rule e="way" k="highway" v="construction">
-					<line stroke="#ffffff" stroke-width="1.5" stroke-dasharray="7.5,7.5" stroke-linecap="butt" />
-				</rule>
-				<rule e="way" k="highway" v="road">
-					<line stroke="#ffffff" stroke-width="1.87" stroke-dasharray="7.5,7.5" stroke-linecap="butt" />
-				</rule>
-				<rule e="way" k="highway" v="pedestrian|unclassified|residential|living_street|byway">
-					<line stroke="#ffffff" stroke-width="2.02" stroke-dasharray="7.5,7.5" stroke-linecap="butt" />
-				</rule>
-				<rule e="way" k="highway" v="tertiary|secondary_link|primary_link|trunk_link|motorway_link|secondary|primary|trunk">
-					<line stroke="#ffffff" stroke-width="2.2" stroke-dasharray="7.5,7.5" stroke-linecap="butt" />
-				</rule>
-				<rule e="way" k="highway" v="motorway">
-					<line stroke="#ffffff" stroke-width="2.5" stroke-dasharray="7.5,7.5" stroke-linecap="butt" />
-				</rule>
-			</rule>
-
-			<!-- railway tunnel -->
-			<rule e="way" k="railway" v="*">
-				<rule e="way" k="railway" v="tram|subway|light_rail|narrow_gauge">
-					<line stroke="#880f0f4c" stroke-width="0.37" stroke-dasharray="6,6" stroke-linecap="butt" />
-				</rule>
-				<rule e="way" k="railway" v="rail">
-					<line stroke="#aa333333" stroke-width="0.6" stroke-dasharray="6,6" stroke-linecap="butt" />
-				</rule>
-			</rule>
-		</rule>
-
 		<!--forest-->
 		<rule e="way" k="natural|landuse" v="forest|wood|scrub">
 			<rule e="way" k="wood" v="*">
@@ -228,8 +163,99 @@
 				<caption k="name" font-style="bold" font-size="17.0" fill="#4040ff" stroke="#ffffff" stroke-width="3.0" />
 			</rule>
 		</rule>
+		
+		<!-- tunnel -->
+		<rule e="way" k="tunnel" v="true|yes">
+			<!-- highway tunnels -->
+			<rule e="way" k="highway" v="*">
+				<!-- highway tunnel casings -->
+				<rule e="way" k="highway" v="steps|footway|path">
+					<line stroke="#707070" stroke-width="0.9" stroke-dasharray="7.5,7.5" stroke-linecap="butt" />
+				</rule>
+				<rule e="way" k="highway" v="track|cycleway|bridleway|service">
+					<line stroke="#707070" stroke-width="1.5" stroke-dasharray="7.5,7.5" stroke-linecap="butt" />
+				</rule>
+				<rule e="way" k="highway" v="construction">
+					<line stroke="#707070" stroke-width="1.6" stroke-dasharray="7.5,7.5" stroke-linecap="butt" />
+				</rule>
+				<rule e="way" k="highway" v="road">
+					<line stroke="#707070" stroke-width="1.9" stroke-dasharray="7.5,7.5" stroke-linecap="butt" />
+				</rule>
+				<rule e="way" k="highway" v="pedestrian|unclassified|residential|living_street|byway">
+					<line stroke="#707070" stroke-width="2.2" stroke-dasharray="7.5,7.5" stroke-linecap="butt" />
+				</rule>
+				<rule e="way" k="highway" v="tertiary|secondary_link|primary_link|trunk_link|motorway_link|secondary|primary|trunk">
+					<line stroke="#707070" stroke-width="2.7" stroke-dasharray="7.5,7.5" stroke-linecap="butt" />
+				</rule>
+				<rule e="way" k="highway" v="motorway">
+					<line stroke="#707070" stroke-width="3.0" stroke-dasharray="7.5,7.5" stroke-linecap="butt" />
+				</rule>
 
+				<!-- highway tunnel cores -->
+				<rule e="way" k="highway" v="steps|footway|path">
+					<line stroke="#ffffff" stroke-width="0.67" stroke-dasharray="7.5,7.5" stroke-linecap="butt" />
+				</rule>
+				<rule e="way" k="highway" v="track">
+					<line stroke="#ffffff" stroke-width="1.0" stroke-dasharray="7.5,7.5" stroke-linecap="butt" />
+				</rule>
+				<rule e="way" k="highway" v="cycleway|bridleway|service">
+					<line stroke="#ffffff" stroke-width="1.27" stroke-dasharray="7.5,7.5" stroke-linecap="butt" />
+				</rule>
+				<rule e="way" k="highway" v="construction">
+					<line stroke="#ffffff" stroke-width="1.5" stroke-dasharray="7.5,7.5" stroke-linecap="butt" />
+				</rule>
+				<rule e="way" k="highway" v="road">
+					<line stroke="#ffffff" stroke-width="1.87" stroke-dasharray="7.5,7.5" stroke-linecap="butt" />
+				</rule>
+				<rule e="way" k="highway" v="pedestrian|unclassified|residential|living_street|byway">
+					<line stroke="#ffffff" stroke-width="2.02" stroke-dasharray="7.5,7.5" stroke-linecap="butt" />
+				</rule>
+				<rule e="way" k="highway" v="tertiary|secondary_link|primary_link|trunk_link|motorway_link|secondary|primary|trunk">
+					<line stroke="#ffffff" stroke-width="2.2" stroke-dasharray="7.5,7.5" stroke-linecap="butt" />
+				</rule>
+				<rule e="way" k="highway" v="motorway">
+					<line stroke="#ffffff" stroke-width="2.5" stroke-dasharray="7.5,7.5" stroke-linecap="butt" />
+				</rule>
+			</rule>
 
+			<!-- railway tunnel -->
+			<rule e="way" k="railway" v="*">
+				<rule e="way" k="railway" v="tram|subway|light_rail|narrow_gauge">
+					<line stroke="#880f0f4c" stroke-width="0.37" stroke-dasharray="6,6" stroke-linecap="butt" />
+				</rule>
+				<rule e="way" k="railway" v="rail">
+					<line stroke="#aa333333" stroke-width="0.6" stroke-dasharray="6,6" stroke-linecap="butt" />
+				</rule>
+			</rule>
+		</rule>
+		
+		<!-- natural -->
+		<rule e="way" k="natural" v="*">
+			<rule e="way" k="natural" v="cliff" zoom-min="14">
+				<!--<area fill="#666666" stroke="#444444" stroke-width="0.1" />-->
+				<line stroke="#444444" stroke-width="0.1" />
+				<line stroke="#444444" stroke-width="1.5" stroke-dasharray="1.5,4.5" stroke-linecap="butt" />
+				<rule e="way" k="*" v="*">
+					<lineSymbol src="file:/symbols/cliff_line.png" align-center="true" repeat="true" />
+				</rule>
+			</rule>
+			<rule e="way" k="natural" v="beach">
+				<area fill="#eecc55" />
+			</rule>
+			<rule e="way" k="natural" v="sand">
+				<area fill="#ddbb55" />
+			</rule>
+			<rule e="way" k="natural" v="heath">
+				<area fill="#ffffc0" stroke="#ffff90" stroke-width="0.3" />
+			</rule>
+			<rule e="way" k="natural" v="marsh|wetland">
+				<area src="file:/patterns/marsh.png" />
+			</rule>
+			<rule e="way" k="*" v="*" zoom-min="16">
+				<caption k="name" dy="-22.5" font-style="bold" font-size="17.0" fill="#4040ff" stroke="#ffffff" stroke-width="3.0" />
+			</rule>
+		</rule>
+		
 		<!-- amenity -->
 		<rule e="way" k="amenity" v="*">
 			<rule e="way" k="amenity" v="kindergarten|school|college|university">
@@ -264,35 +290,6 @@
 			</rule>
 		</rule>
 
-
-		<!-- natural -->
-		<rule e="way" k="natural" v="*">
-			<rule e="way" k="natural" v="cliff" zoom-min="14">
-				<!--<area fill="#666666" stroke="#444444" stroke-width="0.1" />-->
-				<line stroke="#444444" stroke-width="0.1" />
-				<line stroke="#444444" stroke-width="1.5" stroke-dasharray="1.5,4.5" stroke-linecap="butt" />
-				<rule e="way" k="*" v="*">
-					<lineSymbol src="file:/symbols/cliff_line.png" align-center="true" repeat="true" />
-				</rule>
-			</rule>
-			<rule e="way" k="natural" v="beach">
-				<area fill="#eecc55" />
-			</rule>
-			<rule e="way" k="natural" v="sand">
-				<area fill="#ddbb55" />
-			</rule>
-			<rule e="way" k="natural" v="heath">
-				<area fill="#ffffc0" stroke="#ffff90" stroke-width="0.3" />
-			</rule>
-			<rule e="way" k="natural" v="marsh|wetland">
-				<area src="file:/patterns/marsh.png" />
-			</rule>
-			<rule e="way" k="*" v="*" zoom-min="16">
-				<caption k="name" dy="-22.5" font-style="bold" font-size="17.0" fill="#4040ff" stroke="#ffffff" stroke-width="3.0" />
-			</rule>
-		</rule>
-
-
 		<!-- leisure -->
 		<rule e="way" k="leisure" v="*">
 			<rule e="way" k="leisure" v="park|garden|golf_course|common|green" zoom-min="13">
@@ -321,7 +318,7 @@
 			</rule>
 		</rule>
 
-        	<!-- waterways -->
+		<!-- waterways -->
 		<rule e="way" k="waterway" v="*">
 			<!-- waterway casings -->
 			<rule e="way" k="waterway" v="drain">
@@ -638,10 +635,10 @@
 							<line stroke="#000000" stroke-width="2.1" stroke-linecap="butt" />
 						</rule>
 						<rule e="way" k="highway" v="pedestrian|unclassified|residential|living_street|byway">
-							<line stroke="#000000" stroke-width="2.4" stroke-linecap="butt" />
+							<line stroke="#000000" stroke-width="3.0" stroke-linecap="butt" />
 						</rule>
 						<rule e="way" k="highway" v="tertiary|tertiary_link|secondary_link|primary_link|trunk_link|secondary|primary|trunk">
-							<line stroke="#000000" stroke-width="2.8" stroke-linecap="butt" />
+							<line stroke="#000000" stroke-width="3.0" stroke-linecap="butt" />
 						</rule>
 						<rule e="way" k="highway" v="motorway_link">
 							<line stroke="#FF8080" stroke-width="3.3" stroke-linecap="butt" />
@@ -650,6 +647,7 @@
 							<line stroke="#DF8080" stroke-width="4.2" stroke-linecap="butt" />
 						</rule>
 					</rule>
+					<!--cycleway#lane-->
 				</rule>
 			</rule>
 		</rule>
@@ -1128,7 +1126,7 @@
 					<line stroke="#b7e6e6" stroke-width="0.37" stroke-linecap="butt" />
 					<line stroke="#0f4c0f" stroke-width="0.37" stroke-dasharray="18,27" stroke-linecap="butt" />
 				</rule>
-				<rule e="way" k="railway" v="abandoned|preserved">
+				<rule e="way" k="railway" v="abandoned|preserved|construction">
 					<line stroke="#9f9f9f" stroke-width="0.6" stroke-linecap="butt" />
 					<line stroke="#e6e6e6" stroke-width="0.37" stroke-linecap="butt" />
 					<line stroke="#9f9f9f" stroke-width="0.37" stroke-dasharray="18,27" stroke-linecap="butt" />
@@ -1164,8 +1162,8 @@
 
 		<!-- non-physical boundaries -->
 		<rule e="way" k="boundary" v="*">
-			<rule e="way" k="boundary" v="national_park">
-				<line stroke="#4ef94b" stroke-width="0.37" stroke-dasharray="22.5,7.5,7.5,7.5" />				
+			<rule e="way" k="boundary" v="national_park|protected_area">
+				<line stroke="#4ef94b" stroke-width="0.37" stroke-dasharray="22.5,7.5,7.5,7.5" />
 				<caption k="name" font-family="serif" font-style="bold_italic" font-size="17.0" fill="#40aa40" stroke="#ffffff" stroke-width="3.0" />
 				<pathText k="name" font-family="serif" font-style="bold_italic" font-size="17.0" fill="#40aa40" stroke="#ffffff" stroke-width="3.0" />
 				<!--national#park#pattern-->

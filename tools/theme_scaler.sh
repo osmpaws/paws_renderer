@@ -14,21 +14,21 @@ while read line; do
 		if [ $? -eq 0 ]; then
 			dy=`echo $line | sed 's/.* dy=\"\([-0-9.]*\).*/\1/'`
 			#dynew=`echo "if($dy>0){$dy+$scale}else{$dy-$scale}" | bc`
-			dynew=`echo "$dy*$txtscale" | bc | sed 's/^\./0./'`
+			dynew=`echo "$dy*$txtscale" | bc | sed -e 's/^\./0./' -e 's/^-\./-0./'`
 			newline=`echo $newline | sed "s/ dy=\"$dy\"/ dy=\"$dynew\"/"`
 		fi
 		
 		echo $line | grep " r=" > /dev/null
 		if [ $? -eq 0 ]; then
 			old=`echo $line | sed 's/.* r=\"\([0-9.]*\).*/\1/'`
-			new=`echo "$old*$scale" | bc | sed 's/^\./0./' | sed 's/^0$/0.1/'`
+			new=`echo "$old*$scale" | bc | sed -e 's/^\./0./' -e 's/^-\./-0./' -e 's/^0$/0.1/'`
 			newline=`echo $newline | sed "s/ r=\"$old\"/ r=\"$new\"/"`
 		fi
 		
 		echo $line | grep " stroke-width=" > /dev/null
 		if [ $? -eq 0 ]; then
 			old=`echo $line | sed 's/.* stroke-width=\"\([0-9.]*\).*/\1/'`
-			new=`echo "$old*$scale" | bc | sed 's/^\./0./' | sed 's/^0$/0.1/'`
+			new=`echo "$old*$scale" | bc | sed -e 's/^\./0./' -e 's/^-\./-0./' -e 's/^0$/0.1/'`
 			newline=`echo $newline | sed "s/ stroke-width=\"$old\"/ stroke-width=\"$new\"/"`
 		fi
 		
@@ -42,7 +42,7 @@ while read line; do
 		echo $line | grep " font-size=" > /dev/null
 		if [ $? -eq 0 ]; then
 			old=`echo $line | sed 's/.* font-size=\"\([0-9.]*\).*/\1/'`
-			new=`echo "$old*$txtscale" | bc | sed 's/^\./0./'`
+			new=`echo "$old*$txtscale" | bc | sed -e 's/^\./0./' -e 's/^-\./-0./'`
 			newline=`echo $newline | sed "s/ font-size=\"$old\"/ font-size=\"$new\"/"`
 		fi
 		echo $newline

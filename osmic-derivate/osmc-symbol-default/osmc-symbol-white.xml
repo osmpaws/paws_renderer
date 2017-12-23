@@ -36,6 +36,9 @@
 		<rule e="way" k="osmc_foreground" v="orange_backslash">
 			<lineSymbol src="file:/osmc-symbols/white_orange_backslash.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="backslash">
+			<lineSymbol src="file:/osmc-symbols/white_backslash.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="red_bar">
 			<lineSymbol src="file:/osmc-symbols/white_red_bar.png" align-center="false" repeat="true" />
 		</rule>

@@ -1,0 +1,10 @@
+					<!--cycleway lane-->
+					<rule e="way" k="cycleway" v="lane">
+						<line stroke="#ff55ff" stroke-width="2.4" stroke-linecap="butt" stroke-dasharray="4,2" />
+					</rule>
+					<rule e="way" k="cycleway:left" v="lane">
+						<line stroke="#ff55ff" stroke-width="1.2" stroke-linecap="butt" stroke-dasharray="4,2" dy="-0.6" />
+					</rule>
+					<rule e="way" k="cycleway:right" v="lane">
+						<line stroke="#ff55ff" stroke-width="1.2" stroke-linecap="butt" stroke-dasharray="4,2" dy="0.6" />
+					</rule>

@@ -1,0 +1,27 @@
+<!--OSMC symbols green_round node background-->
+	<rule e="node" k="osmc_background" v="green_round" zoom-min="15">
+		<rule e="node" k="osmc_foreground" v="~">
+			<symbol src="file:/osmc-symbols/osmcbg_green_round.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="yellow_circle">
+			<symbol src="file:/osmc-symbols/green_round_yellow_circle.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="green_circle">
+			<symbol src="file:/osmc-symbols/green_round_green_circle.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="white_circle">
+			<symbol src="file:/osmc-symbols/green_round_white_circle.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="green_diamond">
+			<symbol src="file:/osmc-symbols/green_round_green_diamond.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="red_dot">
+			<symbol src="file:/osmc-symbols/green_round_red_dot.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="green_dot">
+			<symbol src="file:/osmc-symbols/green_round_green_dot.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="white_dot">
+			<symbol src="file:/osmc-symbols/green_round_white_dot.png" />
+		</rule>
+	</rule>

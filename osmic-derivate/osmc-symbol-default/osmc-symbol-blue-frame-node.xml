@@ -1,0 +1,27 @@
+<!--OSMC symbols blue_frame node background-->
+	<rule e="node" k="osmc_background" v="blue_frame" zoom-min="15">
+		<rule e="node" k="osmc_foreground" v="~">
+			<symbol src="file:/osmc-symbols/osmcbg_blue_frame.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="blue_bar">
+			<symbol src="file:/osmc-symbols/blue_frame_blue_bar.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="white_bar">
+			<symbol src="file:/osmc-symbols/blue_frame_white_bar.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="hiker">
+			<symbol src="file:/osmc-symbols/blue_frame_hiker.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="green_lower">
+			<symbol src="file:/osmc-symbols/blue_frame_green_lower.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="blue_pointer">
+			<symbol src="file:/osmc-symbols/blue_frame_blue_pointer.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="blue_slash">
+			<symbol src="file:/osmc-symbols/blue_frame_blue_slash.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="green_slash">
+			<symbol src="file:/osmc-symbols/blue_frame_green_slash.png" />
+		</rule>
+	</rule>

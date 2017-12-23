@@ -1,0 +1,63 @@
+<!--OSMC symbols purple node background-->
+	<rule e="node" k="osmc_background" v="purple" zoom-min="15">
+		<rule e="node" k="osmc_foreground" v="~">
+			<symbol src="file:/osmc-symbols/osmcbg_purple.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="green_bar">
+			<symbol src="file:/osmc-symbols/purple_green_bar.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="white_bar">
+			<symbol src="file:/osmc-symbols/purple_white_bar.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="blue_circle">
+			<symbol src="file:/osmc-symbols/purple_blue_circle.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="white_circle">
+			<symbol src="file:/osmc-symbols/purple_white_circle.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="white_corner">
+			<symbol src="file:/osmc-symbols/purple_white_corner.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="white_cross">
+			<symbol src="file:/osmc-symbols/purple_white_cross.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="red_dot">
+			<symbol src="file:/osmc-symbols/purple_red_dot.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="white_dot">
+			<symbol src="file:/osmc-symbols/purple_white_dot.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="heart">
+			<symbol src="file:/osmc-symbols/purple_heart.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="white_hiker">
+			<symbol src="file:/osmc-symbols/purple_white_hiker.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="hiker">
+			<symbol src="file:/osmc-symbols/purple_hiker.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="red_lower">
+			<symbol src="file:/osmc-symbols/purple_red_lower.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="white_lower">
+			<symbol src="file:/osmc-symbols/purple_white_lower.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="white_pointer">
+			<symbol src="file:/osmc-symbols/purple_white_pointer.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="black_rectangle_line">
+			<symbol src="file:/osmc-symbols/purple_black_rectangle_line.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="white_rectangle">
+			<symbol src="file:/osmc-symbols/purple_white_rectangle.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="white_stripe">
+			<symbol src="file:/osmc-symbols/purple_white_stripe.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="white_triangle_line">
+			<symbol src="file:/osmc-symbols/purple_white_triangle_line.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="white_triangle">
+			<symbol src="file:/osmc-symbols/purple_white_triangle.png" />
+		</rule>
+	</rule>
