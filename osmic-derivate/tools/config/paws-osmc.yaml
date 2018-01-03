@@ -423,22 +423,22 @@ access-private:
 cemetery:
   fill: "#999999"
   shield:
-    fill: "#bde3cb"
+    fill: "#9acee1"
 cemetery-christian:
   fill: "#999999"
   shield:
-    fill: "#bde3cb"
+    fill: "#9acee1"
 cemetery-jewish:
   fill: "#999999"
   shield:
-    fill: "#bde3cb"
+    fill: "#9acee1"
 marsh:
   fill: "#0092da"
 military:
   fill: "#555555"
   opacity: 0.25
   shield:
-    fill: "#ffe649"
+    fill: "#8bbaa0"
     opacity: 0.25
     padding: 2
 nature-reserve:
@@ -450,28 +450,28 @@ national-park:
 orchard:
   fill: "#000000"
   shield:
-    fill: "#aadca2"
+    fill: "#8ab8cd"
 photovoltaic:
   fill: "#ffffff"
   shield:
-    fill: "#2222a2"
+    fill: "#394ccd"
     opacity: 0.25
 vineyard:
   fill: "#000000"
   shield:
-    fill: "#aadca2"
+    fill: "#8ab8cd"
 wood-coniferous:
   fill: "#96b983"
   shield:
-    fill: "#a6c993"
+    fill: "#80abc5"
 wood-deciduous:
   fill: "#96b983"
   shield:
-    fill: "#a6c993"
+    fill: "#80abc5"
 wood-mixed:
   fill: "#96b983"
   shield:
-    fill: "#a6c993"
+    fill: "#80abc5"
 #osmc-symbol
 osmcbg-black:
   fill: "#000000"
@@ -1829,6 +1829,13 @@ blue-white-corner:
   fill: "#ffffff"
   shield:
     fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+brown-white-corner:
+  fill: "#ffffff"
+  shield:
+    fill: "#8b4513"
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-debug=2
+debug=3
 
 root="/home/jans/Dokumenty/osm/renderer"
 osmcdflt="osmc-symbol-default"
@@ -64,6 +64,9 @@ lmod="lmod.txt"
 logfile="$root/logfile.txt"
 osmcsymlst=~hts/osm/nbh/osmc_symbols.lst
 osmcsymlstold="osmc_symbol.lst"
+winter=1
+wintercol="winter.sh"
+pawswinteryaml="paws_winter.yaml"
 
 bcx="biking-captions.xml"
 blhzx="biking-lines-high-zoom.xml"
@@ -108,6 +111,12 @@ else
 	cp $osmcxml osmc-symbol-*.xml ../../xml/
 
 	cd ../tools/config
+	
+	if [ $winter -eq 1 ]; then
+		bash $root/tools/$wintercol $pawsyaml > $pawswinteryaml
+		pawsyaml="$pawswinteryaml"
+	fi
+	
 	cat $pawsyaml $osmcyaml > $pawsosmcyaml
 	sed -e 's/^  - name: ".*symbols"/#/' -e 's/output_basedir:.*/output_basedir: "..\/svg_patterns"/' -e '/^  padding:.*/d' $pawsyaml > $pawspatternsyaml
 
@@ -255,7 +264,7 @@ do
 			       -e "/<!--biking#captions-->/r $root/xml/$bcx4" \
 			       -e "/<!--cycleway#lane-->/r $root/xml/$cwl4" $root/xml/$tempxml
 		else
-			sed -i "/<!--biking#lines#high#zoom-->/r $root/xml/$blhzx" \
+			sed -i -e "/<!--biking#lines#high#zoom-->/r $root/xml/$blhzx" \
 			       -e "/<!--biking#lines#low#zoom-->/r $root/xml/$bllzx" \
 			       -e "/<!--biking#captions-->/r $root/xml/$bcx" \
 			       -e "/<!--cycleway#lane-->/r $root/xml/$cwl" $root/xml/$tempxml
@@ -275,6 +284,11 @@ do
 	fi
 	
 	sh tools/theme_scaler.sh $xmlscalefactor $txtscalefactor $root/xml/$tempxml > $themename/$themename.xml
+	
+	if [ "$winter" -eq "1" ]; then
+		bash tools/$wintercol $themename/$themename.xml > $root/xml/$tempxml && cp $root/xml/$tempxml $themename/$themename.xml
+	fi
+	
 	mkdir -p $themename/v2
 	cat $themename/$themename.xml | sed 's/renderTheme.xsd" version="[0-9]\+"/renderTheme.xsd" version="2"/g
 	s/src="file:\//src="file:..\//g 

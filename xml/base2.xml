@@ -1162,7 +1162,12 @@
 
 		<!-- non-physical boundaries -->
 		<rule e="way" k="boundary" v="*">
-			<rule e="way" k="boundary" v="national_park|protected_area">
+			<rule e="way" k="boundary" v="protected_area" zoom-min="12" >
+				<line stroke="#4ef94b" stroke-width="0.37" stroke-dasharray="22.5,7.5,7.5,7.5" />
+				<caption k="name" font-family="serif" font-style="bold_italic" font-size="17.0" fill="#40aa40" stroke="#ffffff" stroke-width="3.0" />
+				<pathText k="name" font-family="serif" font-style="bold_italic" font-size="17.0" fill="#40aa40" stroke="#ffffff" stroke-width="3.0" />
+			</rule>
+			<rule e="way" k="boundary" v="national_park" zoom-min="12" >
 				<line stroke="#4ef94b" stroke-width="0.37" stroke-dasharray="22.5,7.5,7.5,7.5" />
 				<caption k="name" font-family="serif" font-style="bold_italic" font-size="17.0" fill="#40aa40" stroke="#ffffff" stroke-width="3.0" />
 				<pathText k="name" font-family="serif" font-style="bold_italic" font-size="17.0" fill="#40aa40" stroke="#ffffff" stroke-width="3.0" />
@@ -1293,7 +1298,7 @@
 		</rule>
 		<!-- barrier -->
 		<rule e="node" k="barrier" v="*">
-			<rule e="node" k="barrier" v="bollard" zoom-min="17">				
+			<rule e="node" k="barrier" v="bollard" zoom-min="17">
 				<circle r="7.0" fill="#FF0000" />
 				<circle r="4.0" fill="#FFFFFF" />
 				<circle r="2.0" fill="#FF0000" />

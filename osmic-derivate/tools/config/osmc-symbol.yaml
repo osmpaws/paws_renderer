@@ -1358,6 +1358,13 @@ blue-white-corner:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+brown-white-corner:
+  fill: "#ffffff"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 green-blue-corner:
   fill: "#1579e0"
   shield:
