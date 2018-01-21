@@ -1,4 +1,12 @@
 		<!--cycleway lane-->
-					<rule e="way" k="cycleway" v="*">
+					<rule e="way" k="cycleway|cycleway:left|cycleway:right" v="*">
 						<line stroke="#ff55ff" stroke-width="2.4" stroke-linecap="square" stroke-dasharray="4,2" />
+						<rule e="way" k="*" v="opposite_lane|opposite">
+							<rule e="way" k="oneway" v="yes|true|1" zoom-min="16">
+								<lineSymbol src="file:/symbols/opposite_lane.png" align-center="true" repeat="true" />
+							</rule>
+							<rule e="way" k="oneway" v="-1" zoom-min="16">
+								<lineSymbol src="file:/symbols/opposite_lane_reversed.png" align-center="true" repeat="true" />
+							</rule>
+						</rule>
 					</rule>

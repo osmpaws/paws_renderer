@@ -321,6 +321,18 @@ oneway-closedway:
     fill: "#ffffff"
     width: 1
     opacity: 1.0
+opposite-lane:
+  fill: "#555555"
+  halo:
+    fill: "#ff55ff"
+    width: 1
+    opacity: 1.0
+opposite-lane-reversed:
+  fill: "#555555"
+  halo:
+    fill: "#ff55ff"
+    width: 1
+    opacity: 1.0
 cliff-line:
   fill: "#555555"
 cliff-line-closedway:

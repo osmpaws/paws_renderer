@@ -839,8 +839,16 @@
 					</rule>
 					<!--cycleway#lane-->
 		<!--cycleway lane-->
-					<rule e="way" k="cycleway" v="*">
+					<rule e="way" k="cycleway|cycleway:left|cycleway:right" v="*">
 						<line stroke="#ff55ff" stroke-width="4.8" stroke-linecap="square" stroke-dasharray="8,4" />
+						<rule e="way" k="*" v="opposite_lane|opposite">
+							<rule e="way" k="oneway" v="yes|true|1" zoom-min="16">
+								<lineSymbol src="file:/symbols/opposite_lane.png" align-center="true" repeat="true" />
+							</rule>
+							<rule e="way" k="oneway" v="-1" zoom-min="16">
+								<lineSymbol src="file:/symbols/opposite_lane_reversed.png" align-center="true" repeat="true" />
+							</rule>
+						</rule>
 					</rule>
 				</rule>
 			</rule>
@@ -1744,6 +1752,8 @@
 			<rule e="node" k="tourism" v="viewpoint" zoom-min="15">
 				<symbol src="file:/symbols/viewpoint.png" />
 			</rule>
+			<!--#guidepost#-->
+			<!--#guidepost#-->
 			<rule e="node" k="information" v="guidepost">
 				<rule e="node" k="*" v="*" zoom-min="14">
 					<symbol src="file:/symbols/guidepost.png" />
@@ -1866,6 +1876,9 @@
 		</rule>
 		<rule e="way" k="osmc_foreground" v="white_diamond_line">
 			<lineSymbol src="file:/osmc-symbols/blue_white_diamond_line.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="red_diamond">
+			<lineSymbol src="file:/osmc-symbols/blue_red_diamond.png" align-center="false" repeat="true" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="yellow_diamond">
 			<lineSymbol src="file:/osmc-symbols/blue_yellow_diamond.png" align-center="false" repeat="true" />
@@ -3634,6 +3647,9 @@
 		<rule e="way" k="osmc_foreground" v="white_diamond_line">
 			<lineSymbol src="file:/osmc-symbols/green_white_diamond_line.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="red_diamond">
+			<lineSymbol src="file:/osmc-symbols/green_red_diamond.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="yellow_diamond">
 			<lineSymbol src="file:/osmc-symbols/green_yellow_diamond.png" align-center="false" repeat="true" />
 		</rule>
@@ -3711,6 +3727,9 @@
 		</rule>
 		<rule e="way" k="osmc_foreground" v="white_slash">
 			<lineSymbol src="file:/osmc-symbols/green_white_slash.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="red_stripe">
+			<lineSymbol src="file:/osmc-symbols/green_red_stripe.png" align-center="false" repeat="true" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="white_stripe">
 			<lineSymbol src="file:/osmc-symbols/green_white_stripe.png" align-center="false" repeat="true" />

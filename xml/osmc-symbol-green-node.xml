@@ -48,6 +48,9 @@
 		<rule e="node" k="osmc_foreground" v="white_diamond_line">
 			<symbol src="file:/osmc-symbols/green_white_diamond_line.png" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="red_diamond">
+			<symbol src="file:/osmc-symbols/green_red_diamond.png" />
+		</rule>
 		<rule e="node" k="osmc_foreground" v="yellow_diamond">
 			<symbol src="file:/osmc-symbols/green_yellow_diamond.png" />
 		</rule>
@@ -125,6 +128,9 @@
 		</rule>
 		<rule e="node" k="osmc_foreground" v="white_slash">
 			<symbol src="file:/osmc-symbols/green_white_slash.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="red_stripe">
+			<symbol src="file:/osmc-symbols/green_red_stripe.png" />
 		</rule>
 		<rule e="node" k="osmc_foreground" v="white_stripe">
 			<symbol src="file:/osmc-symbols/green_white_stripe.png" />

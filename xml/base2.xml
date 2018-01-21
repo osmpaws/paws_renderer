@@ -1483,12 +1483,7 @@
 			<rule e="node" k="tourism" v="viewpoint" zoom-min="15">
 				<symbol src="file:/symbols/viewpoint.png" />
 			</rule>
-			<rule e="node" k="information" v="guidepost">
-				<rule e="node" k="*" v="*" zoom-min="14">
-					<symbol src="file:/symbols/guidepost.png" />
-					<caption k="ele" dy="33.0" font-family="sans_serif" font-style="italic" font-size="17" fill="#000000" stroke="#FFFFFF" stroke-width="3.7" />
-				</rule>
-			</rule>
+			<!--#guidepost#-->
 			<rule e="node" k="information" v="map" zoom-min="16">
 				<symbol src="file:/symbols/map.png" />
 			</rule>

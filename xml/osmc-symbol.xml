@@ -1860,6 +1860,12 @@
 	<rule e="way" k="osmc_background" v="black_round" zoom-min="15">
 	</rule>
 	<rule e="way" k="osmc_background" v="blue" zoom-min="15">
+		<rule e="way" k="osmc_foreground" v="red_diamond">
+			<lineSymbol src="file:/osmc-symbols/blue_red_diamond.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="red_diamond">
+			<symbol src="file:/osmc-symbols/blue_red_diamond.png" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="yellow_diamond">
 			<lineSymbol src="file:/osmc-symbols/blue_yellow_diamond.png" align-center="false" repeat="true" />
 		</rule>
@@ -1900,6 +1906,12 @@
 	<rule e="way" k="osmc_background" v="brown_round" zoom-min="15">
 	</rule>
 	<rule e="way" k="osmc_background" v="green" zoom-min="15">
+		<rule e="way" k="osmc_foreground" v="red_diamond">
+			<lineSymbol src="file:/osmc-symbols/green_red_diamond.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="red_diamond">
+			<symbol src="file:/osmc-symbols/green_red_diamond.png" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="yellow_diamond">
 			<lineSymbol src="file:/osmc-symbols/green_yellow_diamond.png" align-center="false" repeat="true" />
 		</rule>
@@ -4922,6 +4934,12 @@
 	<rule e="way" k="osmc_background" v="brown_round" zoom-min="15">
 	</rule>
 	<rule e="way" k="osmc_background" v="green" zoom-min="15">
+		<rule e="way" k="osmc_foreground" v="red_stripe">
+			<lineSymbol src="file:/osmc-symbols/green_red_stripe.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="red_stripe">
+			<symbol src="file:/osmc-symbols/green_red_stripe.png" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="white_stripe">
 			<lineSymbol src="file:/osmc-symbols/green_white_stripe.png" align-center="false" repeat="true" />
 		</rule>

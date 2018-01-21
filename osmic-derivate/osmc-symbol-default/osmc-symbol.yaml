@@ -1795,6 +1795,13 @@ black-white-diamond:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+blue-red-diamond:
+  fill: "#ff0000"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 blue-yellow-diamond:
   fill: "#ffdd00"
   shield:
@@ -1820,6 +1827,13 @@ brown-black-diamond:
   fill: "#000000"
   shield:
     fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+green-red-diamond:
+  fill: "#ff0000"
+  shield:
+    fill: "#00cd27"
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
@@ -4208,6 +4222,13 @@ brown-white-stripe:
   fill: "#ffffff"
   shield:
     fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+green-red-stripe:
+  fill: "#ff0000"
+  shield:
+    fill: "#00cd27"
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1

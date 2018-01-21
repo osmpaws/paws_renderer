@@ -9,11 +9,16 @@
 		<name lang="cz" value="TZT - značky (podél linie)" />
 		<name lang="en" value="Waymarked Trails (line symbols)" />
 		<cat id="hike_symbol_lines" />
-	</layer>	
+	</layer>
 	<layer id="l_hike_symbol_nodes" parent="l_hike_lines" enabled="true">
 		<name lang="cz" value="TZT - značky (vedle linie)" />
 		<name lang="en" value="Waymarked Trails (node symbols)" />
 		<cat id="hike_symbol_nodes" />
+	</layer>
+	<layer id="l_guidepost" enabled="true">
+		<name lang="cz" value="Rozcestníky" />
+		<name lang="en" value="Guideposts" />
+		<cat id="guidepost" />
 	</layer>
 	<layer id="l_bike_lines" enabled="true">
 		<name lang="cz" value="Cyklotrasy" />
@@ -37,8 +42,9 @@
 		<!--overlay id="l_hike_lines" /-->
 		<overlay id="l_hike_symbol_lines" />
 		<overlay id="l_hike_symbol_nodes" />
+		<overlay id="l_guidepost" />
 		<overlay id="l_bike_lines" />
-		<overlay id="l_national_park_pattern" />
 		<overlay id="l_piste_nordic" />
+		<overlay id="l_national_park_pattern" />
 	</layer>
 </stylemenu>

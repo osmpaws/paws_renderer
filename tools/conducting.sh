@@ -1,6 +1,6 @@
 #!/bin/bash
 
-debug=3
+debug=2
 
 root="/home/jans/Dokumenty/osm/renderer"
 osmcdflt="osmc-symbol-default"
@@ -80,6 +80,8 @@ hlhzx4="hiking-lines-high-zoom-4.xml"
 hllzx4="hiking-lines-low-zoom-4.xml"
 cwl="cycleway-lane.xml"
 cwl4="cycleway-lane-4.xml"
+gp="guidepost.xml"
+gp4="guidepost-4.xml"
 
 ##################################################
 # fixed part
@@ -166,12 +168,14 @@ do
 		sed 's/\.\.\/renderTheme.xsd" version="[0-9]\+"/https:\/\/raw.githubusercontent.com\/mapsforge\/mapsforge\/dev\/resources\/renderTheme-v4.xsd" version="4" map-background-outside="#EEEEEE"/g
 	s/src="file:\//src="file:/g
 	s/<circle r="/<circle radius="/g' $root/xml/$basexml > $root/xml/$tempxml
-	sed -i "/<!--style#v4#setup-->/r $root/xml/$stylev4setup" $root/xml/$tempxml
-	sed -i "/<!--national#park#pattern-->/r $root/xml/national-park-4.xml" $root/xml/$tempxml
-	sed -i "/<!--piste#nordic-->/r $root/xml/piste-nordic-4.xml" $root/xml/$tempxml
+	sed -i -e "/<!--style#v4#setup-->/r $root/xml/$stylev4setup" \
+	    -e "/<!--national#park#pattern-->/r $root/xml/national-park-4.xml" \
+	    -e "/<!--piste#nordic-->/r $root/xml/piste-nordic-4.xml" \
+	    -e "/<!--#guidepost#-->/r $root/xml/guidepost-4.xml" $root/xml/$tempxml
 	else
 		cp $root/xml/$basexml $root/xml/$tempxml
-		sed -i "/<!--piste#nordic-->/r $root/xml/piste-nordic.xml" $root/xml/$tempxml
+		sed -i -e "/<!--piste#nordic-->/r $root/xml/piste-nordic.xml" \
+		       -e "/<!--#guidepost#-->/r $root/xml/guidepost.xml" $root/xml/$tempxml
 	fi
 	
 	if [ "$hiking" = "1" ]; then
