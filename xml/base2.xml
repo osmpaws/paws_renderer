@@ -1314,7 +1314,11 @@
 			</rule>
 		</rule>
 
-
+		
+		<rule e="node" k="military" v="bunker" zoom-min="17">
+			<caption k="name" dy="-22.5" font-style="bold" font-size="17.0" fill="#40cc40" stroke="#ffffff" stroke-width="3.0" />
+		</rule>
+		
 		<!-- highway -->
 		<rule e="node" k="highway" v="*">
 			<rule e="node" k="highway" v="bus_stop" zoom-min="15">
@@ -1410,6 +1414,9 @@
 		<rule e="node" k="generator:source" v="wind">
 			<symbol src="file:/symbols/power_wind.png" />
 		</rule>
+		<rule e="node" k="power" v="tower">
+			<circle r="4.0" fill="#ffffff" stroke="#606060" stroke-width="2" />
+		</rule>
 
 
 		<!-- railway -->
@@ -1436,6 +1443,9 @@
 			<rule e="node" k="shop" v="bakery" zoom-min="17">
 				<symbol src="file:/symbols/bakery.png" />
 			</rule>
+			<rule e="node" k="shop" v="butcher" zoom-min="17">
+				<symbol src="file:/symbols/butcher.png" />
+			</rule>
 			<rule e="node" k="shop" v="bicycle" zoom-min="17">
 				<symbol src="file:/symbols/bicycle.png" />
 				<caption k="name" dy="-30" font-style="bold" font-size="17" fill="#aa3399" stroke="#ffffff" stroke-width="3.0" />
@@ -1443,8 +1453,14 @@
 			<rule e="node" k="shop" v="florist" zoom-min="17">
 				<symbol src="file:/symbols/florist.png" />
 			</rule>
-			<rule e="node" k="shop" v="supermarket|organic" zoom-min="17">
+			<rule e="node" k="shop" v="organic|supermarket" zoom-min="17">
 				<symbol src="file:/symbols/supermarket.png" />
+			</rule>
+			<rule e="node" k="shop" v="kiosk" zoom-min="17">
+				<symbol src="file:/symbols/kiosk.png" />
+			</rule>
+			<rule e="node" k="shop" v="convenience" zoom-min="17">
+				<symbol src="file:/symbols/convenience.png" />
 			</rule>
 			<rule e="node" k="shop" v="sport" zoom-min="17">
 				<symbol src="file:/symbols/supermarket.png" />
@@ -1526,6 +1542,8 @@
 	<!-- any -->
 	<rule e="any" k="*" v="*">
 		
+		<!--mapper#pois-->
+		
 		<!--OSMC#symbols-->
 		
 		<!--OSMC#symbol#node#ref-->
@@ -1539,8 +1557,15 @@
 				<symbol src="file:/symbols/airport.png" />
 			</rule>
 		</rule>
-
-
+		<!-- entrance -->
+		<rule e="any" k="entrance" v="*">
+			<rule e="any" k="entrance" v="yes" zoom-min="19">
+				<symbol src="file:/symbols/entrance.png" />
+			</rule>
+			<rule e="any" k="entrance" v="main" zoom-min="18">
+				<symbol src="file:/symbols/entrance_main.png" />
+			</rule>
+		</rule>
 		<!-- amenity -->
 		<rule e="any" k="amenity" v="*">
 			<rule e="any" k="amenity" v="atm" zoom-min="17">

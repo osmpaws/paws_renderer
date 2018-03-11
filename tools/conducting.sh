@@ -1,6 +1,6 @@
 #!/bin/bash
 
-debug=2
+debug=3
 
 root="/home/jans/Dokumenty/osm/renderer"
 osmcdflt="osmc-symbol-default"
@@ -82,6 +82,7 @@ cwl="cycleway-lane.xml"
 cwl4="cycleway-lane-4.xml"
 gp="guidepost.xml"
 gp4="guidepost-4.xml"
+mapper4="mapper-4.xml"
 
 ##################################################
 # fixed part
@@ -171,6 +172,7 @@ do
 	sed -i -e "/<!--style#v4#setup-->/r $root/xml/$stylev4setup" \
 	    -e "/<!--national#park#pattern-->/r $root/xml/national-park-4.xml" \
 	    -e "/<!--piste#nordic-->/r $root/xml/piste-nordic-4.xml" \
+	    -e "/<!--mapper#pois-->/r $root/xml/mapper-4.xml" \
 	    -e "/<!--#guidepost#-->/r $root/xml/guidepost-4.xml" $root/xml/$tempxml
 	else
 		cp $root/xml/$basexml $root/xml/$tempxml

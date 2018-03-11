@@ -46,6 +46,7 @@
 		<osm-tag key="osmc_foreground" value="black_diamond_line" renderable="false" />
 		<osm-tag key="osmc_foreground" value="black_dot" renderable="false" />
 		<osm-tag key="osmc_foreground" value="black_fork" renderable="false" />
+		<osm-tag key="osmc_foreground" value="black_hiker" renderable="false" />
 		<osm-tag key="osmc_foreground" value="black_lower" renderable="false" />
 		<osm-tag key="osmc_foreground" value="black_pointer" renderable="false" />
 		<osm-tag key="osmc_foreground" value="black_rectangle" renderable="false" />

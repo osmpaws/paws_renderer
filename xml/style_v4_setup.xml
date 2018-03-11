@@ -35,6 +35,11 @@
 		<name lang="en" value="Cross-country skiing trail" />
 		<cat id="piste_nordic" />
 	</layer>
+	<layer id="l_mapper" enabled="false">
+		<name lang="cz" value="Pro přispěvatele OSM" />
+		<name lang="en" value="For OSM contributors" />
+		<cat id="mapper" />
+	</layer>
 	
 	<layer id="default" visible="true">
 		<name lang="cz" value="Výchozí vrstvy" />
@@ -46,5 +51,10 @@
 		<overlay id="l_bike_lines" />
 		<overlay id="l_piste_nordic" />
 		<overlay id="l_national_park_pattern" />
+	</layer>
+	<layer id="osm" visible="true">
+		<name lang="cz" value="OSM vrstvy" />
+		<name lang="en" value="OSM layers" />
+		<overlay id="l_mapper" />
 	</layer>
 </stylemenu>

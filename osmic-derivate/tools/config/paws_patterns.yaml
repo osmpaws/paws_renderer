@@ -351,6 +351,10 @@ railway-crossing-small:
     opacity: 1.0
 pillbox:
   fill: "#000000"
+  halo:
+    fill: "#ffffff"
+    width: 0.2
+    opacity: 1.0
 tree-point:
   fill: "#4fc60f"
 ruin:
@@ -421,6 +425,23 @@ tennis:
     fill: "#ffffff"
     width: 1
     opacity: 1.0
+continue:
+  fill: "#000000"
+  halo:
+    fill: "#ffffff"
+    width: 1
+    opacity: 1.0
+noexit:
+  fill: "#ffffff"
+  halo:
+    fill: "#ff0000"
+    width: 0.5
+  shield:
+    fill: "#2d2dec"
+    stroke_fill: "#1a1a1a"
+    stroke_width: 0.5
+    rounded: 3
+    opacity: 0.5
 #patterns
 access-destination:
   fill: "#0000ff"
