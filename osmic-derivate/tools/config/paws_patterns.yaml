@@ -454,22 +454,22 @@ access-private:
 cemetery:
   fill: "#999999"
   shield:
-    fill: "#9acee1"
+    fill: "#bde3cb"
 cemetery-christian:
   fill: "#999999"
   shield:
-    fill: "#9acee1"
+    fill: "#bde3cb"
 cemetery-jewish:
   fill: "#999999"
   shield:
-    fill: "#9acee1"
+    fill: "#bde3cb"
 marsh:
   fill: "#0092da"
 military:
   fill: "#555555"
   opacity: 0.25
   shield:
-    fill: "#8bbaa0"
+    fill: "#ffe649"
     opacity: 0.25
     padding: 2
 nature-reserve:
@@ -477,29 +477,29 @@ nature-reserve:
   opacity: 0.5
 national-park:
   fill: "#ff9999"
-  opacity: 0.5
+  opacity: 0.2
 orchard:
   fill: "#000000"
   shield:
-    fill: "#8ab8cd"
+    fill: "#aadca2"
 photovoltaic:
   fill: "#ffffff"
   shield:
-    fill: "#394ccd"
+    fill: "#2222a2"
     opacity: 0.25
 vineyard:
   fill: "#000000"
   shield:
-    fill: "#8ab8cd"
+    fill: "#aadca2"
 wood-coniferous:
   fill: "#96b983"
   shield:
-    fill: "#80abc5"
+    fill: "#a6c993"
 wood-deciduous:
   fill: "#96b983"
   shield:
-    fill: "#80abc5"
+    fill: "#a6c993"
 wood-mixed:
   fill: "#96b983"
   shield:
-    fill: "#80abc5"
+    fill: "#a6c993"

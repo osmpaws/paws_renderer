@@ -64,7 +64,7 @@ lmod="lmod.txt"
 logfile="$root/logfile.txt"
 osmcsymlst=~hts/osm/nbh/osmc_symbols.lst
 osmcsymlstold="osmc_symbol.lst"
-winter=1
+winter=0
 wintercol="winter.sh"
 pawswinteryaml="paws_winter.yaml"
 
@@ -107,7 +107,9 @@ else
 	rebuildimg=1
 
 	cd $root/osmic-derivate/$osmcdflt
+	startsec=`date +%s`
 	bash replicator.sh
+	echo "replication done in: $((`date +%s`-startsec)) sec" >> $logfile
 	cp $osmcyaml ../tools/config/
 	cp $scalecfg ../../tools/
 	rm ../../xml/osmc-symbol-*.xml
@@ -116,7 +118,9 @@ else
 	cd ../tools/config
 	
 	if [ $winter -eq 1 ]; then
+		startsec=`date +%s`
 		bash $root/tools/$wintercol $pawsyaml > $pawswinteryaml
+		echo "winter modification done in: $((`date +%s`-startsec)) sec" >> $logfile
 		pawsyaml="$pawswinteryaml"
 	fi
 	
@@ -169,6 +173,7 @@ do
 		sed 's/\.\.\/renderTheme.xsd" version="[0-9]\+"/https:\/\/raw.githubusercontent.com\/mapsforge\/mapsforge\/dev\/resources\/renderTheme-v4.xsd" version="4" map-background-outside="#EEEEEE"/g
 	s/src="file:\//src="file:/g
 	s/<circle r="/<circle radius="/g' $root/xml/$basexml > $root/xml/$tempxml
+	
 	sed -i -e "/<!--style#v4#setup-->/r $root/xml/$stylev4setup" \
 	    -e "/<!--national#park#pattern-->/r $root/xml/national-park-4.xml" \
 	    -e "/<!--piste#nordic-->/r $root/xml/piste-nordic-4.xml" \
@@ -183,83 +188,18 @@ do
 	if [ "$hiking" = "1" ]; then
 				
 		if [ "$revision" -eq "4" ]; then
-			sed -i "/<!--hiking#lines#high#zoom#4-->/r $root/xml/$hlhzx4" $root/xml/$tempxml
-			sed -i "/<!--hiking#lines#low#zoom-->/r $root/xml/$hllzx" $root/xml/$tempxml
-			
-			sed -i '/<!--OSMC#symbols-->/r '<(sed 's/k="osmc_background"/cat="hike_symbol_lines" k="osmc_background"/g' `find $root/xml -name 'osmc-symbol-*.xml' -not -name '*-node.xml'`) $root/xml/$tempxml
-			
-			#sed -i '/<!--OSMC#symbols-->/r '<(sed 's/k="osmc_background"/cat="hike_symbol_lines" k="osmc_background"/g' $root/xml/$osmcwhitebg) $root/xml/$tempxml
-			#sed -i '/<!--OSMC#symbols-->/r '<(sed 's/k="osmc_background"/cat="hike_symbol_lines" k="osmc_background"/g' $root/xml/$osmcwhitecbg) $root/xml/$tempxml
-			#sed -i '/<!--OSMC#symbols-->/r '<(sed 's/k="osmc_background"/cat="hike_symbol_lines" k="osmc_background"/g' $root/xml/$osmcblackbg) $root/xml/$tempxml
-			#sed -i '/<!--OSMC#symbols-->/r '<(sed 's/k="osmc_background"/cat="hike_symbol_lines" k="osmc_background"/g' $root/xml/$osmcblackcbg) $root/xml/$tempxml
-			#sed -i '/<!--OSMC#symbols-->/r '<(sed 's/k="osmc_background"/cat="hike_symbol_lines" k="osmc_background"/g' $root/xml/$osmcbluebg) $root/xml/$tempxml
-			#sed -i '/<!--OSMC#symbols-->/r '<(sed 's/k="osmc_background"/cat="hike_symbol_lines" k="osmc_background"/g' $root/xml/$osmcbluecbg) $root/xml/$tempxml
-			#sed -i '/<!--OSMC#symbols-->/r '<(sed 's/k="osmc_background"/cat="hike_symbol_lines" k="osmc_background"/g' $root/xml/$osmcbrownbg) $root/xml/$tempxml
-			#sed -i '/<!--OSMC#symbols-->/r '<(sed 's/k="osmc_background"/cat="hike_symbol_lines" k="osmc_background"/g' $root/xml/$osmcgreenbg) $root/xml/$tempxml
-			#sed -i '/<!--OSMC#symbols-->/r '<(sed 's/k="osmc_background"/cat="hike_symbol_lines" k="osmc_background"/g' $root/xml/$osmcgreencbg) $root/xml/$tempxml
-			#sed -i '/<!--OSMC#symbols-->/r '<(sed 's/k="osmc_background"/cat="hike_symbol_lines" k="osmc_background"/g' $root/xml/$osmcgreenfbg) $root/xml/$tempxml
-			#sed -i '/<!--OSMC#symbols-->/r '<(sed 's/k="osmc_background"/cat="hike_symbol_lines" k="osmc_background"/g' $root/xml/$osmcorangebg) $root/xml/$tempxml
-			#sed -i '/<!--OSMC#symbols-->/r '<(sed 's/k="osmc_background"/cat="hike_symbol_lines" k="osmc_background"/g' $root/xml/$osmcorangecbg) $root/xml/$tempxml
-			#sed -i '/<!--OSMC#symbols-->/r '<(sed 's/k="osmc_background"/cat="hike_symbol_lines" k="osmc_background"/g' $root/xml/$osmcpurplebg) $root/xml/$tempxml
-			#sed -i '/<!--OSMC#symbols-->/r '<(sed 's/k="osmc_background"/cat="hike_symbol_lines" k="osmc_background"/g' $root/xml/$osmcredbg) $root/xml/$tempxml
-			#sed -i '/<!--OSMC#symbols-->/r '<(sed 's/k="osmc_background"/cat="hike_symbol_lines" k="osmc_background"/g' $root/xml/$osmcredcbg) $root/xml/$tempxml
-			#sed -i '/<!--OSMC#symbols-->/r '<(sed 's/k="osmc_background"/cat="hike_symbol_lines" k="osmc_background"/g' $root/xml/$osmcredfbg) $root/xml/$tempxml
-			#sed -i '/<!--OSMC#symbols-->/r '<(sed 's/k="osmc_background"/cat="hike_symbol_lines" k="osmc_background"/g' $root/xml/$osmcyellowbg) $root/xml/$tempxml
-			#sed -i '/<!--OSMC#symbols-->/r '<(sed 's/k="osmc_background"/cat="hike_symbol_lines" k="osmc_background"/g' $root/xml/$osmcyellowcbg) $root/xml/$tempxml
-			#sed -i '/<!--OSMC#symbols-->/r '<(sed 's/k="osmc_background"/cat="hike_symbol_lines" k="osmc_background"/g' $root/xml/$osmcyellowfbg) $root/xml/$tempxml
-			#sed -i '/<!--OSMC#symbols-->/r '<(sed 's/k="osmc_background"/cat="hike_symbol_lines" k="osmc_background"/g' $root/xml/$osmcnonebg) $root/xml/$tempxml
+			sed -i -e "/<!--hiking#lines#high#zoom#4-->/r $root/xml/$hlhzx4" \
+			       -e "/<!--hiking#lines#low#zoom-->/r $root/xml/$hllzx" \
+			       -e '/<!--OSMC#symbols-->/r '<(sed 's/k="osmc_background"/cat="hike_symbol_lines" k="osmc_background"/g' `find $root/xml -name 'osmc-symbol-*.xml' -not -name '*-node.xml'`) $root/xml/$tempxml
 			# nodes
 			if [ 1 -eq 1 ]; then
-			sed -i '/<!--OSMC#symbols-->/r '<(sed 's/k="osmc_background"/cat="hike_symbol_nodes" k="osmc_background"/g' $root/xml/osmc-symbol-*-node.xml) $root/xml/$tempxml
-			
-			#sed -i '/<!--OSMC#symbols-->/r '<(sed 's/k="osmc_background"/cat="hike_symbol_nodes" k="osmc_background"/g' $root/xml/$osmcwhitebgnd) $root/xml/$tempxml
-			#sed -i '/<!--OSMC#symbols-->/r '<(sed 's/k="osmc_background"/cat="hike_symbol_nodes" k="osmc_background"/g' $root/xml/$osmcwhitecbgnd) $root/xml/$tempxml
-			#sed -i '/<!--OSMC#symbols-->/r '<(sed 's/k="osmc_background"/cat="hike_symbol_nodes" k="osmc_background"/g' $root/xml/$osmcblackbgnd) $root/xml/$tempxml
-			#sed -i '/<!--OSMC#symbols-->/r '<(sed 's/k="osmc_background"/cat="hike_symbol_nodes" k="osmc_background"/g' $root/xml/$osmcblackcbgnd) $root/xml/$tempxml
-			#sed -i '/<!--OSMC#symbols-->/r '<(sed 's/k="osmc_background"/cat="hike_symbol_nodes" k="osmc_background"/g' $root/xml/$osmcbluebgnd) $root/xml/$tempxml
-			#sed -i '/<!--OSMC#symbols-->/r '<(sed 's/k="osmc_background"/cat="hike_symbol_nodes" k="osmc_background"/g' $root/xml/$osmcbluecbgnd) $root/xml/$tempxml
-			#sed -i '/<!--OSMC#symbols-->/r '<(sed 's/k="osmc_background"/cat="hike_symbol_nodes" k="osmc_background"/g' $root/xml/$osmcbrownbgnd) $root/xml/$tempxml
-			#sed -i '/<!--OSMC#symbols-->/r '<(sed 's/k="osmc_background"/cat="hike_symbol_nodes" k="osmc_background"/g' $root/xml/$osmcgreenbgnd) $root/xml/$tempxml
-			#sed -i '/<!--OSMC#symbols-->/r '<(sed 's/k="osmc_background"/cat="hike_symbol_nodes" k="osmc_background"/g' $root/xml/$osmcgreencbgnd) $root/xml/$tempxml
-			#sed -i '/<!--OSMC#symbols-->/r '<(sed 's/k="osmc_background"/cat="hike_symbol_nodes" k="osmc_background"/g' $root/xml/$osmcgreenfbgnd) $root/xml/$tempxml
-			#sed -i '/<!--OSMC#symbols-->/r '<(sed 's/k="osmc_background"/cat="hike_symbol_nodes" k="osmc_background"/g' $root/xml/$osmcorangebgnd) $root/xml/$tempxml
-			#sed -i '/<!--OSMC#symbols-->/r '<(sed 's/k="osmc_background"/cat="hike_symbol_nodes" k="osmc_background"/g' $root/xml/$osmcorangecbgnd) $root/xml/$tempxml
-			#sed -i '/<!--OSMC#symbols-->/r '<(sed 's/k="osmc_background"/cat="hike_symbol_nodes" k="osmc_background"/g' $root/xml/$osmcpurplebgnd) $root/xml/$tempxml
-			#sed -i '/<!--OSMC#symbols-->/r '<(sed 's/k="osmc_background"/cat="hike_symbol_nodes" k="osmc_background"/g' $root/xml/$osmcredbgnd) $root/xml/$tempxml
-			#sed -i '/<!--OSMC#symbols-->/r '<(sed 's/k="osmc_background"/cat="hike_symbol_nodes" k="osmc_background"/g' $root/xml/$osmcredcbgnd) $root/xml/$tempxml
-			#sed -i '/<!--OSMC#symbols-->/r '<(sed 's/k="osmc_background"/cat="hike_symbol_nodes" k="osmc_background"/g' $root/xml/$osmcredfbgnd) $root/xml/$tempxml
-			#sed -i '/<!--OSMC#symbols-->/r '<(sed 's/k="osmc_background"/cat="hike_symbol_nodes" k="osmc_background"/g' $root/xml/$osmcyellowbgnd) $root/xml/$tempxml
-			#sed -i '/<!--OSMC#symbols-->/r '<(sed 's/k="osmc_background"/cat="hike_symbol_nodes" k="osmc_background"/g' $root/xml/$osmcyellowcbgnd) $root/xml/$tempxml
-			#sed -i '/<!--OSMC#symbols-->/r '<(sed 's/k="osmc_background"/cat="hike_symbol_nodes" k="osmc_background"/g' $root/xml/$osmcyellowfbgnd) $root/xml/$tempxml
-			#sed -i '/<!--OSMC#symbols-->/r '<(sed 's/k="osmc_background"/cat="hike_symbol_nodes" k="osmc_background"/g' $root/xml/$osmcnonebg) $root/xml/$tempxml
-			
-			sed -i "/<!--OSMC#symbol#node#ref-->/r $root/xml/$osmcrefnd" $root/xml/$tempxml
+				sed -i -e '/<!--OSMC#symbols-->/r '<(sed 's/k="osmc_background"/cat="hike_symbol_nodes" k="osmc_background"/g' $root/xml/osmc-symbol-*-node.xml) \
+				       -e "/<!--OSMC#symbol#node#ref-->/r $root/xml/$osmcrefnd" $root/xml/$tempxml
 			fi
 		else
-			sed -i "/<!--hiking#lines#high#zoom-->/r $root/xml/$hlhzx" $root/xml/$tempxml
-			sed -i "/<!--hiking#lines#low#zoom-->/r $root/xml/$hllzx" $root/xml/$tempxml
-			
-			sed -i "/<!--OSMC#symbols-->/r "<(cat `find $root/xml -name 'osmc-symbol-*.xml' -not -name '*-node.xml'`) $root/xml/$tempxml
-			
-			#sed -i "/<!--OSMC#symbols-->/r $root/xml/$osmcwhitebg" $root/xml/$tempxml
-			#sed -i "/<!--OSMC#symbols-->/r $root/xml/$osmcwhitecbg" $root/xml/$tempxml
-			#sed -i "/<!--OSMC#symbols-->/r $root/xml/$osmcblackbg" $root/xml/$tempxml
-			#sed -i "/<!--OSMC#symbols-->/r $root/xml/$osmcblackcbg" $root/xml/$tempxml
-			#sed -i "/<!--OSMC#symbols-->/r $root/xml/$osmcbluebg" $root/xml/$tempxml
-			#sed -i "/<!--OSMC#symbols-->/r $root/xml/$osmcbluecbg" $root/xml/$tempxml
-			#sed -i "/<!--OSMC#symbols-->/r $root/xml/$osmcbrownbg" $root/xml/$tempxml
-			#sed -i "/<!--OSMC#symbols-->/r $root/xml/$osmcgreenbg" $root/xml/$tempxml
-			#sed -i "/<!--OSMC#symbols-->/r $root/xml/$osmcgreencbg" $root/xml/$tempxml
-			#sed -i "/<!--OSMC#symbols-->/r $root/xml/$osmcgreenfbg" $root/xml/$tempxml
-			#sed -i "/<!--OSMC#symbols-->/r $root/xml/$osmcorangebg" $root/xml/$tempxml
-			#sed -i "/<!--OSMC#symbols-->/r $root/xml/$osmcorangecbg" $root/xml/$tempxml
-			#sed -i "/<!--OSMC#symbols-->/r $root/xml/$osmcpurplebg" $root/xml/$tempxml
-			#sed -i "/<!--OSMC#symbols-->/r $root/xml/$osmcredbg" $root/xml/$tempxml
-			#sed -i "/<!--OSMC#symbols-->/r $root/xml/$osmcredcbg" $root/xml/$tempxml
-			#sed -i "/<!--OSMC#symbols-->/r $root/xml/$osmcredfbg" $root/xml/$tempxml
-			#sed -i "/<!--OSMC#symbols-->/r $root/xml/$osmcyellowbg" $root/xml/$tempxml
-			#sed -i "/<!--OSMC#symbols-->/r $root/xml/$osmcyellowcbg" $root/xml/$tempxml
-			#sed -i "/<!--OSMC#symbols-->/r $root/xml/$osmcyellowfbg" $root/xml/$tempxml
+			sed -i -e "/<!--hiking#lines#high#zoom-->/r $root/xml/$hlhzx" \
+			       -e "/<!--hiking#lines#low#zoom-->/r $root/xml/$hllzx" \
+			       -e "/<!--OSMC#symbols-->/r "<(cat `find $root/xml -name 'osmc-symbol-*.xml' -not -name '*-node.xml'`) $root/xml/$tempxml
 			
 		fi
 	fi
@@ -282,17 +222,23 @@ do
 	if [ $rebuildimg -eq 1 ]; then
 		if [ "$lastimgscale" != "$imgscalefactor" ]; then
 			echo " regenerating images" >> $logfile
+			startsec=`date +%s`
 			sh tools/pnger.sh $imgscalefactor
+			echo "PNGs created in: $((`date +%s`-startsec)) sec" >> $logfile
 		fi
 	else
 		echo " updating only XML" >> $logfile
 		mv themes/$themename .
 	fi
 	
-	sh tools/theme_scaler.sh $xmlscalefactor $txtscalefactor $root/xml/$tempxml > $themename/$themename.xml
+	startsec=`date +%s`
+	bash tools/theme_scaler.sh $xmlscalefactor $txtscalefactor $root/xml/$tempxml > $themename/$themename.xml
+	echo "theme scaled in: $((`date +%s`-startsec)) sec" >> $logfile
 	
 	if [ "$winter" -eq "1" ]; then
+		startsec=`date +%s`
 		bash tools/$wintercol $themename/$themename.xml > $root/xml/$tempxml && cp $root/xml/$tempxml $themename/$themename.xml
+		echo "winter theme changes in: $((`date +%s`-startsec)) sec" >> $logfile
 	fi
 	
 	mkdir -p $themename/v2
@@ -302,7 +248,9 @@ do
 	
 	if [ $rebuildimg -eq 1 ]; then
 		echo " attaching required images to theme" >> $logfile
+		startsec=`date +%s`
 		sh tools/completer.sh $themename
+		echo "PNGs copied in: $((`date +%s`-startsec)) sec" >> $logfile
 	fi
 	cp images/paw.png $themename/$themename.png
 	echo "zipping"

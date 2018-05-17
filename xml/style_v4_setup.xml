@@ -1,48 +1,50 @@
 <stylemenu id="r4menu" defaultvalue="default" defaultlang="en">
 
 	<layer id="l_hike_lines" enabled="true">
-		<name lang="cz" value="TZT - linie" />
+		<name lang="cs" value="TZT - linie" />
 		<name lang="en" value="Waymarked Trails" />
 		<cat id="hike_lines" />
 	</layer>
 	<layer id="l_hike_symbol_lines" parent="l_hike_lines" enabled="false">
-		<name lang="cz" value="TZT - značky (podél linie)" />
+		<name lang="cs" value="TZT - značky (podél linie)" />
 		<name lang="en" value="Waymarked Trails (line symbols)" />
 		<cat id="hike_symbol_lines" />
 	</layer>
 	<layer id="l_hike_symbol_nodes" parent="l_hike_lines" enabled="true">
-		<name lang="cz" value="TZT - značky (vedle linie)" />
+		<name lang="cs" value="TZT - značky (vedle linie)" />
 		<name lang="en" value="Waymarked Trails (node symbols)" />
 		<cat id="hike_symbol_nodes" />
 	</layer>
 	<layer id="l_guidepost" enabled="true">
-		<name lang="cz" value="Rozcestníky" />
+		<name lang="cs" value="Rozcestníky" />
 		<name lang="en" value="Guideposts" />
 		<cat id="guidepost" />
 	</layer>
 	<layer id="l_bike_lines" enabled="true">
-		<name lang="cz" value="Cyklotrasy" />
+		<name lang="cs" value="Cyklotrasy" />
 		<name lang="en" value="Bike trails" />
 		<cat id="bike_lines" />
 	</layer>
 	<layer id="l_national_park_pattern" enabled="false">
-		<name lang="cz" value="Plocha národních parků" />
+		<name lang="cs" value="Plocha národních parků" />
 		<name lang="en" value="National park area" />
 		<cat id="national_park_pattern" />
 	</layer>
 	<layer id="l_piste_nordic" enabled="true">
-		<name lang="cz" value="Běžeceké stopy" />
+		<name lang="cs" value="Běžeceké stopy" />
 		<name lang="en" value="Cross-country skiing trail" />
 		<cat id="piste_nordic" />
 	</layer>
 	<layer id="l_mapper" enabled="false">
-		<name lang="cz" value="Pro přispěvatele OSM" />
+		<name lang="cs" value="Pro přispěvatele OSM" />
 		<name lang="en" value="For OSM contributors" />
-		<cat id="mapper" />
+		<cat id="fixme_continue" />
+		<cat id="noexit_yes" />
+		<cat id="postbox_ref" />
 	</layer>
 	
 	<layer id="default" visible="true">
-		<name lang="cz" value="Výchozí vrstvy" />
+		<name lang="cs" value="Výchozí vrstvy" />
 		<name lang="en" value="Default layers" />
 		<!--overlay id="l_hike_lines" /-->
 		<overlay id="l_hike_symbol_lines" />
@@ -53,7 +55,7 @@
 		<overlay id="l_national_park_pattern" />
 	</layer>
 	<layer id="osm" visible="true">
-		<name lang="cz" value="OSM vrstvy" />
+		<name lang="cs" value="OSM vrstvy" />
 		<name lang="en" value="OSM layers" />
 		<overlay id="l_mapper" />
 	</layer>

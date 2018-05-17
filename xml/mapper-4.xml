@@ -1,12 +1,10 @@
 			<!--mapper#pois-->
-			<rule cat="mapper" e="node" k="noexit|fixme|amenity" v="*" zoom-min="17">
-				<rule e="node" k="noexit" v="yes" zoom-min="17">
-					<symbol src="file:/symbols/noexit.png" />
-				</rule>
-				<rule e="node" k="fixme" v="continue" zoom-min="17">
-					<symbol src="file:/symbols/continue.png" />
-				</rule>
+			<rule cat="noexit_yes" e="node" k="noexit" v="yes" zoom-min="17">
+				<symbol src="file:/symbols/noexit.png" />
 			</rule>
-			<rule cat="mapper" e="node" k="amenity" v="post_box" zoom-min="17">
+			<rule cat="fixme_continue" e="node" k="fixme" v="continue" zoom-min="17">
+				<symbol src="file:/symbols/continue.png" />
+			</rule>
+			<rule cat="postbox_ref" e="node" k="amenity" v="post_box" zoom-min="17">
 				<caption k="ele" dy="35" font-style="bold" font-size="17" fill="#606060" stroke="#ffffff" stroke-width="2.0" />
 			</rule>

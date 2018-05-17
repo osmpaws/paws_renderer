@@ -456,22 +456,22 @@ access-private:
 cemetery:
   fill: "#999999"
   shield:
-    fill: "#9acee1"
+    fill: "#bde3cb"
 cemetery-christian:
   fill: "#999999"
   shield:
-    fill: "#9acee1"
+    fill: "#bde3cb"
 cemetery-jewish:
   fill: "#999999"
   shield:
-    fill: "#9acee1"
+    fill: "#bde3cb"
 marsh:
   fill: "#0092da"
 military:
   fill: "#555555"
   opacity: 0.25
   shield:
-    fill: "#8bbaa0"
+    fill: "#ffe649"
     opacity: 0.25
     padding: 2
 nature-reserve:
@@ -479,32 +479,32 @@ nature-reserve:
   opacity: 0.5
 national-park:
   fill: "#ff9999"
-  opacity: 0.5
+  opacity: 0.2
 orchard:
   fill: "#000000"
   shield:
-    fill: "#8ab8cd"
+    fill: "#aadca2"
 photovoltaic:
   fill: "#ffffff"
   shield:
-    fill: "#394ccd"
+    fill: "#2222a2"
     opacity: 0.25
 vineyard:
   fill: "#000000"
   shield:
-    fill: "#8ab8cd"
+    fill: "#aadca2"
 wood-coniferous:
   fill: "#96b983"
   shield:
-    fill: "#80abc5"
+    fill: "#a6c993"
 wood-deciduous:
   fill: "#96b983"
   shield:
-    fill: "#80abc5"
+    fill: "#a6c993"
 wood-mixed:
   fill: "#96b983"
   shield:
-    fill: "#80abc5"
+    fill: "#a6c993"
 #osmc-symbol
 osmcbg-black:
   fill: "#000000"
@@ -2486,6 +2486,12 @@ yellow-white-diamond:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+none-yellow-diamond:
+  fill: "#ffdd00"
+  shield:
+    fill: "#ffffff"
+    opacity: 0.0
+    padding: 1
 black-red-dot:
   fill: "#ff0000"
   shield:
@@ -2592,6 +2598,14 @@ black-circle-orange-dot:
     stroke_width: 2
     opacity: 0.0
     rounded: 10
+    padding: 2
+black-frame-red-dot:
+  fill: "#ff0000"
+  shield:
+    stroke_fill: "#000000"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 2
     padding: 2
 black-frame-blue-dot:
   fill: "#1579e0"
@@ -3177,6 +3191,14 @@ none-yellow-dot:
     fill: "#ffffff"
     opacity: 0.0
     padding: 1
+brown-round-white-fork:
+  fill: "#ffffff"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
 white-red-fork:
   fill: "#ff0000"
   shield:

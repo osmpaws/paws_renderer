@@ -189,6 +189,7 @@
 		<osm-tag key="osmc_foreground" value="white_diamond" renderable="false" />
 		<osm-tag key="osmc_foreground" value="white_diamond_line" renderable="false" />
 		<osm-tag key="osmc_foreground" value="white_dot" renderable="false" />
+		<osm-tag key="osmc_foreground" value="white_fork" renderable="false" />
 		<osm-tag key="osmc_foreground" value="white_hiker" renderable="false" />
 		<osm-tag key="osmc_foreground" value="white_lower" renderable="false" />
 		<osm-tag key="osmc_foreground" value="white_pointer" renderable="false" />

@@ -479,7 +479,7 @@ nature-reserve:
   opacity: 0.5
 national-park:
   fill: "#ff9999"
-  opacity: 0.5
+  opacity: 0.2
 orchard:
   fill: "#000000"
   shield:

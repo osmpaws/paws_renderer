@@ -6,4 +6,7 @@
 		<rule e="node" k="osmc_foreground" v="yellow_dot">
 			<symbol src="file:/osmc-symbols/brown_round_yellow_dot.png" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="white_fork">
+			<symbol src="file:/osmc-symbols/brown_round_white_fork.png" />
+		</rule>
 	</rule>

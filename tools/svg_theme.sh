@@ -25,6 +25,8 @@ sort -u -t',' -k2,4  "$themecfg" | grep -v "paws_4" |
 while IFS=, read origthemename xmlscalefactor txtscalefactor imgscalefactor hiking biking revision
 do
 	newthemename=`echo $origthemename | sed 's/paws/paws_4/'`
+	startsec=`date +%s`
+	echo "XML start ."
 	sh tools/theme_scaler.sh $xmlscalefactor $txtscalefactor $xmlsourcedir/$themename/$themename.xml | sed 's/\.\.\/renderTheme.xsd" version="[0-9]\+"/https:\/\/raw.githubusercontent.com\/mapsforge\/mapsforge\/dev\/resources\/renderTheme-v4.xsd" version="4" map-background-outside="#EEEEEE"/g
 	s/src="file:\//src="file:/g
 	s/<circle r="/<circle radius="/g
@@ -32,7 +34,7 @@ do
 	echo -n "" > $sedscript
 	
 	
-echo "XML done."
+echo "XML done $((`date +%s`-startsec)) sec."
 scale=$imgscalefactor
 
 echo "$files" | while read line;

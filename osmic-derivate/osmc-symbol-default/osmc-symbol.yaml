@@ -1979,6 +1979,12 @@ yellow-white-diamond:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+none-yellow-diamond:
+  fill: "#ffdd00"
+  shield:
+    fill: "#ffffff"
+    opacity: 0.0
+    padding: 1
 black-red-dot:
   fill: "#ff0000"
   shield:
@@ -2085,6 +2091,14 @@ black-circle-orange-dot:
     stroke_width: 2
     opacity: 0.0
     rounded: 10
+    padding: 2
+black-frame-red-dot:
+  fill: "#ff0000"
+  shield:
+    stroke_fill: "#000000"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 2
     padding: 2
 black-frame-blue-dot:
   fill: "#1579e0"
@@ -2670,6 +2684,14 @@ none-yellow-dot:
     fill: "#ffffff"
     opacity: 0.0
     padding: 1
+brown-round-white-fork:
+  fill: "#ffffff"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
 white-red-fork:
   fill: "#ff0000"
   shield:

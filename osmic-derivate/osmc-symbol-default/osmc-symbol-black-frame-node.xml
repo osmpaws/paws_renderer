@@ -9,6 +9,9 @@
 		<rule e="node" k="osmc_foreground" v="black_cross">
 			<symbol src="file:/osmc-symbols/black_frame_black_cross.png" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="red_dot">
+			<symbol src="file:/osmc-symbols/black_frame_red_dot.png" />
+		</rule>
 		<rule e="node" k="osmc_foreground" v="blue_dot">
 			<symbol src="file:/osmc-symbols/black_frame_blue_dot.png" />
 		</rule>
