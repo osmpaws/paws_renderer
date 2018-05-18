@@ -193,28 +193,28 @@
 
 				<!-- highway tunnel cores -->
 				<rule e="way" k="highway" v="steps|footway|path">
-					<line stroke="#ffffff70" stroke-width="0.67" stroke-dasharray="7.5,7.5" stroke-linecap="butt" />
+					<line stroke="#70ffffff" stroke-width="0.67" stroke-dasharray="7.5,7.5" stroke-linecap="butt" />
 				</rule>
 				<rule e="way" k="highway" v="track">
-					<line stroke="#ffffff70" stroke-width="1.0" stroke-dasharray="7.5,7.5" stroke-linecap="butt" />
+					<line stroke="#70ffffff" stroke-width="1.0" stroke-dasharray="7.5,7.5" stroke-linecap="butt" />
 				</rule>
 				<rule e="way" k="highway" v="cycleway|bridleway|service">
-					<line stroke="#ffffff70" stroke-width="1.27" stroke-dasharray="7.5,7.5" stroke-linecap="butt" />
+					<line stroke="#70ffffff" stroke-width="1.27" stroke-dasharray="7.5,7.5" stroke-linecap="butt" />
 				</rule>
 				<rule e="way" k="highway" v="construction">
-					<line stroke="#ffffff" stroke-width="1.5" stroke-dasharray="7.5,7.5" stroke-linecap="butt" />
+					<line stroke="#70ffffff" stroke-width="1.5" stroke-dasharray="7.5,7.5" stroke-linecap="butt" />
 				</rule>
 				<rule e="way" k="highway" v="road">
-					<line stroke="#ffffff" stroke-width="1.87" stroke-dasharray="7.5,7.5" stroke-linecap="butt" />
+					<line stroke="#70ffffff" stroke-width="1.87" stroke-dasharray="7.5,7.5" stroke-linecap="butt" />
 				</rule>
 				<rule e="way" k="highway" v="pedestrian|unclassified|residential|living_street|byway">
-					<line stroke="#ffffff70" stroke-width="2.02" stroke-dasharray="7.5,7.5" stroke-linecap="butt" />
+					<line stroke="#70ffffff" stroke-width="2.02" stroke-dasharray="7.5,7.5" stroke-linecap="butt" />
 				</rule>
 				<rule e="way" k="highway" v="tertiary|secondary_link|primary_link|trunk_link|motorway_link|secondary|primary|trunk">
-					<line stroke="#ffffff70" stroke-width="2.2" stroke-dasharray="7.5,7.5" stroke-linecap="butt" />
+					<line stroke="#70ffffff" stroke-width="2.2" stroke-dasharray="7.5,7.5" stroke-linecap="butt" />
 				</rule>
 				<rule e="way" k="highway" v="motorway">
-					<line stroke="#ffffff70" stroke-width="2.5" stroke-dasharray="7.5,7.5" stroke-linecap="butt" />
+					<line stroke="#70ffffff" stroke-width="2.5" stroke-dasharray="7.5,7.5" stroke-linecap="butt" />
 				</rule>
 			</rule>
 
