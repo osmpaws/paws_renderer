@@ -947,6 +947,10 @@
 			<line stroke="#bc4af9" stroke-width="0.5" stroke-dasharray="22.5,7.5,7.5,7.5" stroke-linecap="butt" />
 			<pathText k="name" font-family="serif" font-style="bold_italic" font-size="18" fill="#bc4af9" stroke="#ffffff" stroke-width="2.1" />
 		</rule>
+		<rule e="way" k="admin_level" v="7">
+			<line stroke="#bc4af9" stroke-width="0.3" stroke-dasharray="15,7.5,5,7.5" stroke-linecap="butt" />
+			<pathText k="name" font-family="serif" font-style="bold_italic" font-size="17" fill="#bc4af9" stroke="#ffffff" stroke-width="2.1" />
+		</rule>
 		
 			
 
