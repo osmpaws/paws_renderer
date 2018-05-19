@@ -3608,6 +3608,13 @@ blue-frame-green-lower:
     opacity: 0.0
     rounded: 2
     padding: 2
+brown-yellow-lower:
+  fill: "#ffdd00"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 brown-white-lower:
   fill: "#ffffff"
   shield:
@@ -3823,6 +3830,13 @@ yellow-orange-lower:
   fill: "#f96f00"
   shield:
     fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+black-l:
+  fill: "#ffffff"
+  shield:
+    fill: "#000000"
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
