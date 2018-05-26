@@ -1,6 +1,6 @@
 #!/bin/bash
 
-debug=3
+debug=2
 
 root="/home/jans/Dokumenty/osm/renderer"
 osmcdflt="osmc-symbol-default"
@@ -58,6 +58,8 @@ scalecfg="osmc-symbol-scale.cfg"
 basexml="base2.xml"
 tempxml="temp.xml"
 themecfg="themes.cfg"
+templatesrc=`cat tools/${themecfg} | tr ',' ' '  | awk '{print $5,$6,$1}' | sort -k1,1nr -k2,2nr -k3,3 | head -n1 | awk '{print $3}'`
+template="template.xml"
 uploadscript="upload.sh"
 uploadpath="upload.txt"
 lmod="lmod.txt"
@@ -272,5 +274,7 @@ echo -n "themes_svg/paws_4_LE.zip," >> $uploadpath
 if [ $debug -le 2 ]; then
 	exit 0
 fi
+
+cp themes/$templatesrc/${templatesrc}.xml $template
 
 sh tools/$uploadscript "$root/$uploadpath"
