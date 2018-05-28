@@ -157,8 +157,8 @@ fi
 mkdir -p themes
 
 uploadstr=""
-buildstr=`awk '{printf("%$0+1)}' tool/$buildctrl`
-releasestr=`awk '{printf("%$0+1)}' tool/$releasectrl`
+buildstr=`awk '{printf("%05d",$0+1)}' tools/$buildctrl`
+releasestr=`awk '{printf("%05d",$0+1)}' tools/$releasectrl`
 
 echo -n "" > $uploadpath
 lastimgscale=0
@@ -178,13 +178,13 @@ do
 	echo " build: $buildstr" >> $logfile
 	echo " release: $releasestr" >> $logfile
 	
-	mkdir $themename	
+	mkdir $themename
 	
 	cp $root/xml/$basexml $root/xml/$tempxml
-	echo "s/<!--#version#-->/<!--#r${releasestr}${buildstr}#-->" >> $themename/$sedfile
-	echo "$buildstr" > tool/$buildctrl
+	echo "s/<!--#version#-->/<!--#r${releasestr}b${buildstr}#-->/" > $themename/$sedfile
+	echo "$buildstr" > tools/$buildctrl
 	if [ "$debug" -ge "3" ]; then
-		echo "$releasestr" > tool/$releasectrl
+		echo "$releasestr" > tools/$releasectrl
 	fi
 	
 	if [ "$revision" -eq "4" ]; then
@@ -259,7 +259,8 @@ do
 		fi
 	fi
 	
-	sed -i -f $themename/$sedfile $root/xml/$tempxml
+	sed -f $themename/$sedfile -i $root/xml/$tempxml
+	rm $themename/$sedfile
 	
 	echo "Temp xml done"
 	
