@@ -180,87 +180,88 @@ do
 	
 	mkdir $themename
 	
-	cp $root/xml/$basexml $root/xml/$tempxml
-	echo "s/<!--#version#-->/<!--#r${releasestr}b${buildstr}#-->/" > $themename_$sedfile
+###	cp $root/xml/$basexml $root/xml/$tempxml
+###	echo "s/<!--#version#-->/<!--#r${releasestr}b${buildstr}#-->/" > $themename_$sedfile
 	echo "$buildstr" > tools/$buildctrl
 	if [ "$debug" -ge "3" ]; then
 		echo "$releasestr" > tools/$releasectrl
 	fi
 	
 	if [ "$revision" -eq "4" ]; then
-		echo 's/\.\.\/renderTheme.xsd" version="[0-9]\+"/https:\/\/raw.githubusercontent.com\/mapsforge\/mapsforge\/dev\/resources\/renderTheme-v4.xsd" version="4" map-background-outside="#EEEEEE"/g
+###		echo 's/\.\.\/renderTheme.xsd" version="[0-9]\+"/https:\/\/raw.githubusercontent.com\/mapsforge\/mapsforge\/dev\/resources\/renderTheme-v4.xsd" version="4" map-background-outside="#EEEEEE"/g
+###	s/src="file:\//src="file:/g
+###	s/<circle r="/<circle radius="/g' >> $themename_$sedfile
+		sed 's/\.\.\/renderTheme.xsd" version="[0-9]\+"/https:\/\/raw.githubusercontent.com\/mapsforge\/mapsforge\/dev\/resources\/renderTheme-v4.xsd" version="4" map-background-outside="#EEEEEE"/g
 	s/src="file:\//src="file:/g
-	s/<circle r="/<circle radius="/g' >> $themename_$sedfile
-##		sed 's/\.\.\/renderTheme.xsd" version="[0-9]\+"/https:\/\/raw.githubusercontent.com\/mapsforge\/mapsforge\/dev\/resources\/renderTheme-v4.xsd" version="4" map-background-outside="#EEEEEE"/g
-##	s/src="file:\//src="file:/g
-##	s/<circle r="/<circle radius="/g' $root/xml/$basexml > $root/xml/$tempxml
+	s/<circle r="/<circle radius="/g' $root/xml/$basexml > $root/xml/$tempxml
 	
-		echo "/<!--style#v4#setup-->/r $root/xml/$stylev4setup
-		/<!--national#park#pattern-->/r $root/xml/national-park-4.xml
-		/<!--mapper#pois-->/r $root/xml/$mapper4
-		/<!--#guidepost#-->/r $root/xml/$gp4" >> $themename_$sedfile
+###		echo "/<!--style#v4#setup-->/r $root/xml/$stylev4setup
+###		/<!--national#park#pattern-->/r $root/xml/national-park-4.xml
+###		/<!--mapper#pois-->/r $root/xml/$mapper4
+###		/<!--#guidepost#-->/r $root/xml/$gp4" >> $themename_$sedfile
 		
-##		sed -i -e "/<!--style#v4#setup-->/r $root/xml/$stylev4setup" \
-##	    -e "/<!--national#park#pattern-->/r $root/xml/national-park-4.xml" \
-##	    -e "/<!--piste#nordic-->/r $root/xml/piste-nordic-4.xml" \
-##	    -e "/<!--mapper#pois-->/r $root/xml/mapper-4.xml" \
-##	    -e "/<!--#guidepost#-->/r $root/xml/guidepost-4.xml" $root/xml/$tempxml
+		sed -i -e "/<!--style#v4#setup-->/r $root/xml/$stylev4setup" \
+		       -e "/<!--national#park#pattern-->/r $root/xml/national-park-4.xml" \
+		       -e "/<!--piste#nordic-->/r $root/xml/piste-nordic-4.xml" \
+		       -e "/<!--mapper#pois-->/r $root/xml/mapper-4.xml" \
+		       -e "/<!--#guidepost#-->/r $root/xml/guidepost-4.xml" \
+		       -e "s/<!--#version#-->/<!--#r${releasestr}b${buildstr}#-->/" $root/xml/$tempxml
 	else
-##		cp $root/xml/$basexml $root/xml/$tempxml
-		echo "/<!--piste#nordic-->/r $root/xml/piste-nordic.xml
-		      /<!--#guidepost#-->/r $root/xml/$gp" >> $themename_$sedfile
-##		sed -i -e "/<!--piste#nordic-->/r $root/xml/piste-nordic.xml" \
-##		       -e "/<!--#guidepost#-->/r $root/xml/guidepost.xml" $root/xml/$tempxml
+		cp $root/xml/$basexml $root/xml/$tempxml
+###		echo "/<!--piste#nordic-->/r $root/xml/piste-nordic.xml
+###		      /<!--#guidepost#-->/r $root/xml/$gp" >> $themename_$sedfile
+		sed -i -e "/<!--piste#nordic-->/r $root/xml/piste-nordic.xml" \
+		       -e "/<!--#guidepost#-->/r $root/xml/guidepost.xml" \
+		       -e "s/<!--#version#-->/<!--#r${releasestr}b${buildstr}#-->/" $root/xml/$tempxml
 	fi
 	
 	if [ "$hiking" = "1" ]; then
 				
 		if [ "$revision" -eq "4" ]; then
-			echo "/<!--hiking#lines#high#zoom#4-->/r $root/xml/$hlhzx4 
-			       /<!--hiking#lines#low#zoom-->/r $root/xml/$hllzx" >> $themename_$sedfile
+###			echo "/<!--hiking#lines#high#zoom#4-->/r $root/xml/$hlhzx4 
+###			       /<!--hiking#lines#low#zoom-->/r $root/xml/$hllzx" >> $themename_$sedfile
 			       
-##			sed -i -e "/<!--hiking#lines#high#zoom#4-->/r $root/xml/$hlhzx4" \
-##			       -e "/<!--hiking#lines#low#zoom-->/r $root/xml/$hllzx" \
-			sed -i -e '/<!--OSMC#symbols-->/r '<(sed 's/k="osmc_background"/cat="hike_symbol_lines" k="osmc_background"/g' `find $root/xml -name 'osmc-symbol-*.xml' -not -name '*-node.xml'`) $root/xml/$tempxml
+			sed -i -e "/<!--hiking#lines#high#zoom#4-->/r $root/xml/$hlhzx4" \
+			       -e "/<!--hiking#lines#low#zoom-->/r $root/xml/$hllzx" \
+			       -e '/<!--OSMC#symbols-->/r '<(sed 's/k="osmc_background"/cat="hike_symbol_lines" k="osmc_background"/g' `find $root/xml -name 'osmc-symbol-*.xml' -not -name '*-node.xml'`) $root/xml/$tempxml
 			# nodes
 			if [ 1 -eq 1 ]; then
-				sed -i -e '/<!--OSMC#symbols-->/r '<(sed 's/k="osmc_background"/cat="hike_symbol_nodes" k="osmc_background"/g' $root/xml/osmc-symbol-*-node.xml) ##/
-##				       -e "/<!--OSMC#symbol#node#ref-->/r $root/xml/$osmcrefnd" $root/xml/$tempxml
-				echo "/<!--OSMC#symbol#node#ref-->/r $root/xml/$osmcrefnd" >> $themename_$sedfile
+				sed -i -e '/<!--OSMC#symbols-->/r '<(sed 's/k="osmc_background"/cat="hike_symbol_nodes" k="osmc_background"/g' $root/xml/osmc-symbol-*-node.xml) /
+				       -e "/<!--OSMC#symbol#node#ref-->/r $root/xml/$osmcrefnd" $root/xml/$tempxml
+###				echo "/<!--OSMC#symbol#node#ref-->/r $root/xml/$osmcrefnd" >> $themename_$sedfile
 			fi
 		else
-##			sed -i -e "/<!--hiking#lines#high#zoom-->/r $root/xml/$hlhzx" \
-##			       -e "/<!--hiking#lines#low#zoom-->/r $root/xml/$hllzx" \
-			echo "/<!--hiking#lines#high#zoom-->/r $root/xml/$hlhzx
-			      /<!--hiking#lines#low#zoom-->/r $root/xml/$hllzx" >> $themename_$sedfile
-			sed -i -e "/<!--OSMC#symbols-->/r "<(cat `find $root/xml -name 'osmc-symbol-*.xml' -not -name '*-node.xml'`) $root/xml/$tempxml
-			
+			sed -i -e "/<!--hiking#lines#high#zoom-->/r $root/xml/$hlhzx" \
+			       -e "/<!--hiking#lines#low#zoom-->/r $root/xml/$hllzx" \
+			       -e "/<!--OSMC#symbols-->/r "<(cat `find $root/xml -name 'osmc-symbol-*.xml' -not -name '*-node.xml'`) $root/xml/$tempxml
+###			echo "/<!--hiking#lines#high#zoom-->/r $root/xml/$hlhzx
+###			      /<!--hiking#lines#low#zoom-->/r $root/xml/$hllzx" >> $themename_$sedfile
 		fi
 	fi
 	if [ "$biking" = "1" ]; then
 		if [ "$revision" -eq "4" ]; then
-			echo "/<!--biking#lines#high#zoom-->/r $root/xml/$blhzx4
-			       /<!--biking#lines#low#zoom-->/r $root/xml/$bllzx4
-			       /<!--biking#captions-->/r $root/xml/$bcx4
-			       /<!--cycleway#lane-->/r $root/xml/$cwl4" >> $themename_$sedfile
-##			sed -i -e "/<!--biking#lines#high#zoom-->/r $root/xml/$blhzx4" \
-##			       -e "/<!--biking#lines#low#zoom-->/r $root/xml/$bllzx4" \
-##			       -e "/<!--biking#captions-->/r $root/xml/$bcx4" \
-##			       -e "/<!--cycleway#lane-->/r $root/xml/$cwl4" $root/xml/$tempxml
+###			echo "/<!--biking#lines#high#zoom-->/r $root/xml/$blhzx4
+###			       /<!--biking#lines#low#zoom-->/r $root/xml/$bllzx4
+###			       /<!--biking#captions-->/r $root/xml/$bcx4
+###			       /<!--cycleway#lane-->/r $root/xml/$cwl4" >> $themename_$sedfile
+			sed -i -e "/<!--biking#lines#high#zoom-->/r $root/xml/$blhzx4" \
+			       -e "/<!--biking#lines#low#zoom-->/r $root/xml/$bllzx4" \
+			       -e "/<!--biking#captions-->/r $root/xml/$bcx4" \
+			       -e "/<!--cycleway#lane-->/r $root/xml/$cwl4" $root/xml/$tempxml
 		else
-			echo "/<!--biking#lines#high#zoom-->/r $root/xml/$blhzx
-			      /<!--biking#lines#low#zoom-->/r $root/xml/$bllzx
-			      /<!--biking#captions-->/r $root/xml/$bcx
-			      /<!--cycleway#lane-->/r $root/xml/$cwl" >> $themename_$sedfile
-##			sed -i -e "/<!--biking#lines#high#zoom-->/r $root/xml/$blhzx" \
-##			       -e "/<!--biking#lines#low#zoom-->/r $root/xml/$bllzx" \
-##			       -e "/<!--biking#captions-->/r $root/xml/$bcx" \
-##			       -e "/<!--cycleway#lane-->/r $root/xml/$cwl" $root/xml/$tempxml
+###			echo "/<!--biking#lines#high#zoom-->/r $root/xml/$blhzx
+###			      /<!--biking#lines#low#zoom-->/r $root/xml/$bllzx
+###			      /<!--biking#captions-->/r $root/xml/$bcx
+###			      /<!--cycleway#lane-->/r $root/xml/$cwl" >> $themename_$sedfile
+			sed -i -e "/<!--biking#lines#high#zoom-->/r $root/xml/$blhzx" \
+			       -e "/<!--biking#lines#low#zoom-->/r $root/xml/$bllzx" \
+			       -e "/<!--biking#captions-->/r $root/xml/$bcx" \
+			       -e "/<!--cycleway#lane-->/r $root/xml/$cwl" $root/xml/$tempxml
 		fi
 	fi
 	
-	sed -f $themename_$sedfile -i $root/xml/$tempxml
-	rm $themename_$sedfile
+###	sed -f $themename_$sedfile -i $root/xml/$tempxml
+###	rm $themename_$sedfile
 	
 	echo "Temp xml done"
 	
