@@ -46,7 +46,7 @@
 		<rule e="any" k="natural" v="water" zoom-min="14">
 			<caption k="name" font-family="serif" font-style="italic" font-size="20.0" fill="#5576d1" stroke="#e0e0f0" stroke-width="3.7" />
 		</rule>
-		<rule e="any" k="amenity" v="restaurant|pub|bar|cafe" zoom-min="17">
+		<rule e="any" k="amenity" v="restaurant|pub|bar|cafe" zoom-min="18">
 			<caption k="name" dy="-23" font-style="bold_italic" font-size="17.0" fill="#804040" stroke="#ffffff" stroke-width="3.0" />
 		</rule>
 		<rule e="any" k="tourism" v="hotel" zoom-min="17">
@@ -157,11 +157,11 @@
 			</rule>
 			<rule e="way" k="landuse" v="military">
 				<area src="file:/patterns/military.png" stroke="#e4e4e4" stroke-width="0.3" />
-				<rule e="way" k="*" v="*" zoom-min="15">
+				<rule e="way" k="*" v="*" zoom-min="16">
 					<caption k="name" font-style="bold" font-size="17.0" fill="#4040ff" stroke="#ffffff" stroke-width="3.0" />
 				</rule>
 			</rule>
-			<rule e="way" k="*" v="*" zoom-min="16">
+			<rule e="way" k="*" v="*" zoom-min="17">
 				<caption k="name" font-style="bold" font-size="17.0" fill="#4040ff" stroke="#ffffff" stroke-width="3.0" />
 			</rule>
 		</rule>
@@ -287,7 +287,7 @@
 			<rule e="way" k="amenity" v="fountain" closed="yes">
 				<area fill="#b5d6f1" stroke="#000080" stroke-width="0.22" />
 			</rule>
-			<rule e="way" k="*" v="*" zoom-min="17">
+			<rule e="way" k="*" v="*" zoom-min="18">
 				<caption k="name" dy="-22.5" font-style="bold" font-size="17.0" fill="#4040ff" stroke="#ffffff" stroke-width="3.0" />
 			</rule>
 		</rule>
@@ -315,7 +315,7 @@
 			<rule e="way" k="leisure" v="swimming_pool" zoom-min="13">
 				<area fill="#b5d6f1" stroke="#6060ff" stroke-width="0.3" />
 			</rule>
-			<rule e="way" k="*" v="*" zoom-min="16">
+			<rule e="way" k="*" v="*" zoom-min="17">
 				<caption k="name" dy="-22.5" font-style="bold" font-size="17.0" fill="#4040ff" stroke="#ffffff" stroke-width="3.0" />
 			</rule>
 		</rule>
@@ -1275,8 +1275,8 @@
 		<rule e="node" k="historic" v="*" zoom-max="16">
 			<circle r="6.0" fill="#a0a0ff" stroke="#006060" stroke-width="2.2" />
 		</rule>
-		<rule e="any" k="*" v="*" zoom-min="15">
-			<caption k="name" dy="-22.5" font-style="bold" font-size="17.0" fill="#4040ff" stroke="#ffffff" stroke-width="3.0" />
+		<rule e="any" k="*" v="*" zoom-min="17">
+			<caption k="name" dy="-22.5" font-style="bold" font-size="17.0" fill="#40ff40" stroke="#ffffff" stroke-width="3.0" />
 		</rule>	
 		<rule e="any" k="historic" v="memorial" zoom-min="16">
 			<symbol src="file:/symbols/memorial.png" />
@@ -1302,7 +1302,7 @@
 	
 			
 		<rule e="node" k="amenity" v="*">
-			<rule e="node" k="*" v="*" zoom-min="17">
+			<rule e="node" k="*" v="*" zoom-min="18">
 				<caption k="name" dy="-22.5" font-style="bold" font-size="17.0" fill="#4040ff" stroke="#ffffff" stroke-width="3.0" />
 			</rule>
 		</rule>
@@ -1481,7 +1481,7 @@
 				<caption k="name" dy="-35" font-style="bold" font-size="17" fill="#aaaa33" stroke="#ffffff" stroke-width="3.0" />
 			</rule>
 
-			<rule e="node" k="*" v="*" zoom-min="17">
+			<rule e="node" k="*" v="*" zoom-min="18">
 				<caption k="name" dy="-35" font-style="bold" font-size="17" fill="#4040ff" stroke="#ffffff" stroke-width="3.0" />
 			</rule>
 		</rule>
@@ -1490,6 +1490,9 @@
 		<!-- tourism -->
 		<rule e="node" k="tourism" v="*">
 			<rule e="node" k="tourism" v="alpine_hut" zoom-min="15">
+				<symbol src="file:/symbols/alpine_hut.png" />
+			</rule>
+			<rule e="node" k="tourism" v="artwork" zoom-min="18">
 				<symbol src="file:/symbols/alpine_hut.png" />
 			</rule>
 			<rule e="node" k="tourism" v="camp_site" zoom-min="15">
