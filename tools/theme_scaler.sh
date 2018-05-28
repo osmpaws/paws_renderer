@@ -4,8 +4,40 @@ filename=$3
 scale=$1
 txtscale=$2
 IFS='%'
+useawk=1
+
+if [ "$useawk" -eq "1" ] ; then
+	awk -v "scale=$scale" -v "txtscale=$txtscale" '/<area|<caption|<circle|<line|<pathText/ {
+	fnw = match($0,"<")
+	printf "%s",substr($0,0,fnw-1)
+	for(i=1;i<=NF;i++) {
+		if ( $i ~ /r=|stroke-width=/ ) { 
+			split($i,workfields,"\"");
+			printf"%s\"%-03.1f\"%s ",workfields[1],workfields[2]*scale,workfields[3];
+		} else if ( $i ~ /dy=|font-size=/ ) { 
+			split($i,workfields,"\"");
+			printf"%s\"%-03.1f\"%s ",workfields[1],workfields[2]*txtscale,workfields[3];
+		} else if ( $i ~ /stroke-dasharray=/ ) { 
+			split($i,workfields,"\"");
+			printf"%s\"",workfields[1];
+			nsd = split(workfields[2],dasharray,",");
+			for(j=1;j<nsd;j++) {
+				printf"%-03.1f,",dasharray[j]*scale;
+			}
+			printf"%-03.1f%s\" ",dasharray[nsd]*scale,workfields[3];
+		} else {
+			printf "%s ",$i;
+		}
+	}
+	printf "\n";
+	}
+	!/<area|<caption|<circle|<line|<pathText/ {print $0}' "$filename"
+else
+
 while read line; do
 	#caption,circle,line,pathtext,area
+	
+	
 	
 	if echo $line | grep -q -e "<area" -e "<caption" -e "<circle" -e "<line" -e "<pathText" ; then
 		newline=$line
@@ -49,3 +81,5 @@ while read line; do
 		echo $line
 	fi
 done < "$filename"
+
+fi
