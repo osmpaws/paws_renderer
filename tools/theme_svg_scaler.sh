@@ -3,6 +3,25 @@
 filename=$2
 scale=$1
 IFS='%'
+useawk=1
+
+if [ "$useawk" -eq "1" ] ; then
+	awk -v "scale=$scale"  '/<area|<lineSymbol|<symbol/ {
+	fnw = match($0,"<")
+	printf "%s",substr($0,0,fnw-1)
+	for(i=1;i<=NF;i++) {
+		if ( $i ~ /symbol-percent=|symbol-width=|symbol-height=/ ) { 
+			split($i,workfields,"\"");
+			printf"%s\"%-0.1f\"%s ",workfields[1],(workfields[2]*scale < 0.1)?0.1:workfields[2]*scale,workfields[3];
+		} else {
+			printf "%s ",$i;
+		}
+	}
+	printf "\n";
+	}
+	!/<area|<lineSymbol|<symbol/ {print $0}' "$filename"
+else
+
 while read line; do
 	#caption,circle,line,pathtext,area
 	if echo $line | egrep -q "<area|<lineSymbol|<symbol" ; then
@@ -31,3 +50,4 @@ while read line; do
 		echo $line
 	fi
 done < "$filename"
+fi

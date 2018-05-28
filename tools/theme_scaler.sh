@@ -13,18 +13,18 @@ if [ "$useawk" -eq "1" ] ; then
 	for(i=1;i<=NF;i++) {
 		if ( $i ~ /r=|stroke-width=/ ) { 
 			split($i,workfields,"\"");
-			printf"%s\"%-03.1f\"%s ",workfields[1],(workfields[2]*scale < 0.1)?0.1:workfields[2]*scale,workfields[3];
+			printf"%s\"%-0.1f\"%s ",workfields[1],(workfields[2]*scale < 0.1)?0.1:workfields[2]*scale,workfields[3];
 		} else if ( $i ~ /dy=|font-size=/ ) { 
 			split($i,workfields,"\"");
-			printf"%s\"%-03.1f\"%s ",workfields[1],(workfields[2]*txtscale < 0.1)?0.1:workfields[2]*txtscale,workfields[3];
+			printf"%s\"%-0.1f\"%s ",workfields[1],(workfields[2]*txtscale < 0.1)?0.1:workfields[2]*txtscale,workfields[3];
 		} else if ( $i ~ /stroke-dasharray=/ ) { 
 			split($i,workfields,"\"");
 			printf"%s\"",workfields[1];
 			nsd = split(workfields[2],dasharray,",");
 			for(j=1;j<nsd;j++) {
-				printf"%-03.1f,",dasharray[j]*scale;
+				printf"%-0.1f,",dasharray[j]*scale;
 			}
-			printf"%-03.1f%s\" ",dasharray[nsd]*scale,workfields[3];
+			printf"%-0.1f%s\" ",dasharray[nsd]*scale,workfields[3];
 		} else {
 			printf "%s ",$i;
 		}
