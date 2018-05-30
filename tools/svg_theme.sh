@@ -36,7 +36,7 @@ do
 	
 echo "XML done $((`date +%s`-startsec)) sec."
 scale=$imgscalefactor
-
+echo "SVG images scaling:"
 echo "$files" | while read line;
 do
 	#echo $line
@@ -90,7 +90,10 @@ do
 	elif [ "$extrascaletype" = "f" ]; then
 		echo 's,'"$filepath/$iconname"'\.svg\",'"$filepath/$iconname"'\.svg\" symbol-scaling=\"size\" symbol-width=\"'"$newsize"'\" symbol-height=\"'"$newsize"'\",' >> $sedscript
 	fi
+	echo -n "."
 done
+
+echo  "."
 
 echo '/<\s*symbol / s/rotate="[^"]*" //g
 /<\s*symbol / s/repeat-start="[^"]*" //g
