@@ -40,8 +40,10 @@ echo "SVG images scaling:"
 echo "$files" | while read line;
 do
 	#echo $line
-	filename=`echo $line | rev | cut -d/ -f1 | rev | cut -d. -f1`
-	filepath=`echo $line | rev | cut -d/ -f2- | rev | cut -d/ -f 2-`
+	#filename=`echo $line | rev | cut -d/ -f1 | rev | cut -d. -f1`
+	filename=`basename "$line" | cut -d. -f1`
+	#filepath=`echo $line | rev | cut -d/ -f2- | rev | cut -d/ -f 2-`
+	filepath=`dirname "$line"`
 	size=`echo $filename | rev | cut -d- -f1 | rev`
 	iconname=`echo $filename | rev | cut -d- -f2- | rev | sed 's/[ -]/_/g'`
 	
