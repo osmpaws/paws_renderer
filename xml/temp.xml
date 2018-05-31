@@ -2,7 +2,7 @@
 <rendertheme xmlns="http://mapsforge.org/renderTheme" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://mapsforge.org/renderTheme ../renderTheme.xsd" version="1" map-background="#f8f8f8">
 	
-	<!--#r00001b00012#-->
+	<!--#r00001b00013#-->
 
 	<!--style#v4#setup-->
 	
@@ -1762,7 +1762,7 @@
 				<symbol src="file:/symbols/alpine_hut.png" />
 			</rule>
 			<rule e="node" k="tourism" v="artwork" zoom-min="18">
-				<symbol src="file:/symbols/alpine_hut.png" />
+				<symbol src="file:/symbols/artwork.png" />
 			</rule>
 			<rule e="node" k="tourism" v="camp_site" zoom-min="15">
 				<symbol src="file:/symbols/camping.png" />
@@ -4077,6 +4077,9 @@
 			</rule>
 			<rule e="any" k="amenity" v="fast_food" zoom-min="17">
 				<symbol src="file:/symbols/fast_food.png" />
+			</rule>
+			<rule e="any" k="amenity" v="feeding_place" zoom-min="17">
+				<symbol src="file:/symbols/game_feeding.png" />
 			</rule>
 			<rule e="any" k="amenity" v="fire_station" zoom-min="17">
 				<symbol src="file:/symbols/fire_station.png" />
