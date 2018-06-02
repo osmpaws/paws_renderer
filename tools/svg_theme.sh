@@ -50,10 +50,7 @@ do
 	scaletmp=`grep -h "^$iconname " $root/$scalecfg $root/$osmcscalecfg`
 	extrascaletype=`echo "$scaletmp" | awk '{print $2}'`
 	extrascale=`echo "$scaletmp" | awk '{print $3}'`
-	if [ "$extrascale" = "" ]; then
-		extrascale="1"
-		extrascaletype="s"
-	fi
+	
 	if [ "$extrascaletype" = "s" ]; then
 		newsize=`echo "$size*$scale*$extrascale" | bc | cut -d. -f1`
 		totalscale=`echo "$scale*$extrascale*100" | bc | cut -d. -f1`
@@ -63,6 +60,9 @@ do
 		else
 			newsize="$extrascale"
 		fi
+	else
+		extrascale="1"
+		extrascaletype="s"
 	fi
 	
 	transparency=`grep "$iconname " $root/$transparencycfg | awk '{print $2}'`
@@ -101,6 +101,7 @@ echo '/<\s*symbol / s/rotate="[^"]*" //g
 /<\s*symbol / s/repeat-start="[^"]*" //g
 /<\s*symbol / s/repeat-gap="[^"]*" //g' >> $sedscript
 sed -i -f $sedscript $targetdir/$themename/$newthemename.xml
+cp $sedscript $sedscript_$RANDOM
 
 done
 

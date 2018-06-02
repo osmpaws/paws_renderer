@@ -6,7 +6,7 @@ IFS='%'
 useawk=1
 
 if [ "$useawk" -eq "1" ] ; then
-	awk -v "scale=$scale"  '/<area|<lineSymbol|<symbol/ {
+	awk -v "scale=$scale"  '/<area |<lineSymbol |<symbol / {
 	fnw = match($0,"<")
 	printf "%s",substr($0,0,fnw-1)
 	for(i=1;i<=NF;i++) {
