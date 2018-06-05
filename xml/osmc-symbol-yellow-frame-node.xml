@@ -18,6 +18,9 @@
 		<rule e="node" k="osmc_foreground" v="yellow_stripe">
 			<symbol src="file:/osmc-symbols/yellow_frame_yellow_stripe.png" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="tower">
+			<symbol src="file:/osmc-symbols/yellow_frame_tower.png" />
+		</rule>
 		<rule e="node" k="osmc_foreground" v="black_triangle_line">
 			<symbol src="file:/osmc-symbols/yellow_frame_black_triangle_line.png" />
 		</rule>

@@ -20,6 +20,7 @@ mkdir -p "$root/$targetdir/$themename"
 #mv "$root/$svgdir/patterns" "$root/$svgdir/patterns_orig" && mv "$root/$svgpatternsdir/patterns" "$root/$svgdir/patterns"
 
 files=`find $svgdir -type f -name "*.svg"`
+filescount=`echo "$files" | wc -l`
 
 sort -u -t',' -k2,4  "$themecfg" | grep -v "paws_4" |
 while IFS=, read origthemename xmlscalefactor txtscalefactor imgscalefactor hiking biking revision
@@ -37,19 +38,28 @@ do
 echo "XML done $((`date +%s`-startsec)) sec."
 scale=$imgscalefactor
 echo "SVG images scaling:"
+filescounter=0
+startsec=`date +%s`
 echo "$files" | while read line;
 do
 	#echo $line
-	#filename=`echo $line | rev | cut -d/ -f1 | rev | cut -d. -f1`
 	filename=`basename "$line" | cut -d. -f1`
-	#filepath=`echo $line | rev | cut -d/ -f2- | rev | cut -d/ -f 2-`
-	filepath=`dirname "$line"`
-	size=`echo $filename | rev | cut -d- -f1 | rev`
+	#filename=`echo $line | rev | cut -d/ -f1 | rev | cut -d. -f1`
+	#filepath=`dirname "$line"`
+	filepath=`echo $line | rev | cut -d/ -f2- | rev | cut -d/ -f 2-`
+	#size=`echo $filename | rev | cut -d- -f1 | rev`
+	size=`echo $filename | awk -F '-' '{print $NF}'`
 	iconname=`echo $filename | rev | cut -d- -f2- | rev | sed 's/[ -]/_/g'`
 	
 	scaletmp=`grep -h "^$iconname " $root/$scalecfg $root/$osmcscalecfg`
 	extrascaletype=`echo "$scaletmp" | awk '{print $2}'`
 	extrascale=`echo "$scaletmp" | awk '{print $3}'`
+	
+	
+	if [ "$extrascaletype" = "" ]; then
+		extrascale="1"
+		extrascaletype="s"
+	fi
 	
 	if [ "$extrascaletype" = "s" ]; then
 		newsize=`echo "$size*$scale*$extrascale" | bc | cut -d. -f1`
@@ -60,9 +70,6 @@ do
 		else
 			newsize="$extrascale"
 		fi
-	else
-		extrascale="1"
-		extrascaletype="s"
 	fi
 	
 	transparency=`grep "$iconname " $root/$transparencycfg | awk '{print $2}'`
@@ -92,24 +99,27 @@ do
 	elif [ "$extrascaletype" = "f" ]; then
 		echo 's,'"$filepath/$iconname"'\.svg\",'"$filepath/$iconname"'\.svg\" symbol-scaling=\"size\" symbol-width=\"'"$newsize"'\" symbol-height=\"'"$newsize"'\",' >> $sedscript
 	fi
-	echo -n "."
+	#filescounter=$((filescounter+1))
+	#echo -en "\b\b\b\b\b"
+	#progress=`echo "${filescounter}/${filescount}*100" | bc -l | cut -d'.' -f1`
+	#echo -n "$progress %"
+	#echo -n "."
 done
+echo "Images done $((`date +%s`-startsec)) sec."
 
-echo  "."
+echo ""
 
 echo '/<\s*symbol / s/rotate="[^"]*" //g
 /<\s*symbol / s/repeat-start="[^"]*" //g
 /<\s*symbol / s/repeat-gap="[^"]*" //g' >> $sedscript
 sed -i -f $sedscript $targetdir/$themename/$newthemename.xml
-cp $sedscript $sedscript_$RANDOM
 
 done
-
 #rm $targetdir/$themename/$themename.xml.tmp
 
 #mv "$root/$svgdir/patterns" "$root/$svgpatternsdir/patterns" && mv "$root/$svgdir/patterns_orig" "$root/$svgdir/patterns"
 #rm -r $targetdir/$themename/patterns_orig
 cd $targetdir
-zip -r $themename.zip $themename && cd ..
+zip -qr $themename.zip $themename && cd ..
 
 

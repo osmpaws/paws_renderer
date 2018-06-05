@@ -300,7 +300,7 @@ do
 	fi
 	cp images/paw.png $themename/$themename.png
 	echo "zipping"
-	zip -r $themename.zip $themename
+	zip -qr $themename.zip $themename
 	mv $themename $themename.zip themes/
 	uploadstr=$uploadstr"themes/$themename.zip,"
 	echo -n "themes/$themename.zip," >> $uploadpath

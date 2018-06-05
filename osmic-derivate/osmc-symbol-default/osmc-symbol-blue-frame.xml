@@ -15,6 +15,9 @@
 		<rule e="way" k="osmc_foreground" v="green_lower">
 			<lineSymbol src="file:/osmc-symbols/blue_frame_green_lower.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="mine">
+			<lineSymbol src="file:/osmc-symbols/blue_frame_mine.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="blue_pointer">
 			<lineSymbol src="file:/osmc-symbols/blue_frame_blue_pointer.png" align-center="false" repeat="true" />
 		</rule>

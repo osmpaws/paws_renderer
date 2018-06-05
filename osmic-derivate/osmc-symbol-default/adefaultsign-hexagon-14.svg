@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   version="1.1"
-   width="100%"
-   height="100%"
+   id="svg2"
    viewBox="0 0 14 14"
-   id="svg2">
+   height="100%"
+   width="100%"
+   version="1.1">
   <metadata
      id="metadata8">
     <rdf:RDF>
@@ -27,14 +25,14 @@
   <defs
      id="defs6" />
   <rect
-     width="14"
-     height="14"
-     x="0"
-     y="0"
+     style="fill:none;stroke:none;visibility:hidden"
      id="canvas"
-     style="fill:none;stroke:none;visibility:hidden" />
+     y="0"
+     x="0"
+     height="14"
+     width="14" />
   <path
-     d="M 2,3.25 C 0.82230833,3.8506797 1.3228408,5.1017226 2.5,4.5 L 6.9995257,2.2 11.5,4.5 C 12.692398,5.1093835 13.192837,3.8582892 12,3.25 L 6.9995257,0.7 z M 3,5 5,9 5,10 3,13 4.5,13 6,10.5 8,10.5 9.5,13 11,13 9,10 9,9 11,5 10.2,4.5 8,9 6,9 3.8,4.5 z"
-     id="game_feeding"
-     style="fill:#000000;fill-opacity:1;stroke:none" />
+     style="fill:#000000;fill-opacity:1;stroke:none"
+     id="adefaultsign-hexagon"
+     d="M 5,10 9,10 11,7 9,4 5,4 3,7 Z" />
 </svg>

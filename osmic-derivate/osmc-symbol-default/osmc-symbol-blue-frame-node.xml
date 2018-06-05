@@ -15,6 +15,9 @@
 		<rule e="node" k="osmc_foreground" v="green_lower">
 			<symbol src="file:/osmc-symbols/blue_frame_green_lower.png" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="mine">
+			<symbol src="file:/osmc-symbols/blue_frame_mine.png" />
+		</rule>
 		<rule e="node" k="osmc_foreground" v="blue_pointer">
 			<symbol src="file:/osmc-symbols/blue_frame_blue_pointer.png" />
 		</rule>

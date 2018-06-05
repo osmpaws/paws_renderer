@@ -12,11 +12,14 @@ osmcorangebg="osmc-symbol-orange.xml"
 osmcyellowbg="osmc-symbol-yellow.xml"
 scalingfactor="osmc-symbol-scale.cfg"
 actualsymbols="/home/hts/osm/nbh/osmc_symbols.lst"
+possiblesymbols="osmc_symbols_possible.lst"
+diffsymbols="osmc_symbols_diff.lst"
 
 declare -A colors
 colors["black"]="000000"
 colors["blue"]="1579e0"
 colors["brown"]="8b4513"
+colors["gray"]="aaaaaa"
 colors["green"]="00cd27"
 colors["orange"]="f96f00"
 colors["purple"]="b878dd"
@@ -25,7 +28,7 @@ colors["white"]="ffffff"
 colors["yellow"]="ffdd00"
 colors["none"]="ffffff"
 
-rm -r $target
+rm -r $target $possiblesymbols
 echo -n "" > $tagrules
 mkdir -p $target
 echo "#osmc-symbol" > $svgrules
@@ -44,6 +47,10 @@ brown
 brown-circle
 brown-frame
 brown-round
+gray
+gray-circle
+gray-frame
+gray-round
 green
 green-circle
 green-frame
@@ -222,8 +229,8 @@ do
 			#this will filter out most of the combinations because we take only real ones (directly from PBFs)
 			#comment this out if you want all the icons
 			#echo " "$bgcolorxml":"$fgcolorxml"_"$signxml
-			echo $searchstr | grep -f - $actualsymbols -m1 --color=auto
-			if [ $? -ne 0 ]; then
+			echo "$searchstr" | tr -d '^$' >> $possiblesymbols
+			if ! echo $searchstr | grep -f - $actualsymbols -m1 --color=auto ; then
 				continue
 			fi
 			
@@ -286,6 +293,9 @@ do
 done
 
 sort -t'"' -k2,4 -u -o $tagrules $tagrules
+
+sort $possiblesymbols -o $possiblesymbols
+comm -23 $actualsymbols $possiblesymbols > $diffsymbols
 
 echo "Icons replicated to $target. $svgrules contains new rules for export in colors. Copy the content to appropriate yaml for export."
 

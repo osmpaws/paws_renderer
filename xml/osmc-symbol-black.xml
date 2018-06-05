@@ -48,6 +48,9 @@
 		<rule e="way" k="osmc_foreground" v="white_corner">
 			<lineSymbol src="file:/osmc-symbols/black_white_corner.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="white_crest">
+			<lineSymbol src="file:/osmc-symbols/black_white_crest.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="red_cross">
 			<lineSymbol src="file:/osmc-symbols/black_red_cross.png" align-center="false" repeat="true" />
 		</rule>
@@ -113,6 +116,9 @@
 		</rule>
 		<rule e="way" k="osmc_foreground" v="L">
 			<lineSymbol src="file:/osmc-symbols/black_l.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="mine">
+			<lineSymbol src="file:/osmc-symbols/black_mine.png" align-center="false" repeat="true" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="red_pointer">
 			<lineSymbol src="file:/osmc-symbols/black_red_pointer.png" align-center="false" repeat="true" />

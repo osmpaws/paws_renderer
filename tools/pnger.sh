@@ -25,14 +25,14 @@ echo "$files" | while read line;
 do
 	while [ `cat $commfile` -ge $bgplimit ]; do
 		sleep .1;
-	done	
+	done
 	
 	echo $((`cat $commfile`+1)) > $commfile
 	
 	(
 	filename=`echo $line | rev | cut -d/ -f1 | rev | cut -d. -f1`
 	filepath=`echo $line | rev | cut -d/ -f2- | rev | cut -d/ -f 2-`
-	size=`echo $filename | rev | cut -d- -f1 | rev`	
+	size=`echo $filename | rev | cut -d- -f1 | rev`
 	iconname=`echo $filename | rev | cut -d- -f2- | rev | sed 's/[ -]/_/g'`
 	
 	scaletmp=`grep -h "^$iconname " $root/$scalecfg $root/$osmcscalecfg`
@@ -53,9 +53,9 @@ do
 		transparency="1"
 	fi
 	
-	inkscape -z -e "$targetdir/$filepath/tmp_$iconname.png" -w $newsize "$sourcedir/$line"
+	inkscape -z -e "$targetdir/$filepath/tmp_$iconname.png" -w $newsize "$sourcedir/$line" > /dev/null || echo "$targetdir/$filepath/tmp_$iconname.png , $newsize , $sourcedir/$line"
 	mkdir -p "$targetdir/$filepath"
-	convert "$targetdir/$filepath/tmp_$iconname.png" -trim -alpha set -channel A -evaluate Divide $transparency "$targetdir/$filepath/$iconname.png"
+	convert "$targetdir/$filepath/tmp_$iconname.png" -trim -alpha set -channel A -evaluate Divide $transparency "$targetdir/$filepath/$iconname.png" > /dev/null  || echo "$targetdir/$filepath/tmp_$iconname.png $newsize , $transparency , $sourcedir/$line"
 	rm "$targetdir/$filepath/tmp_$iconname.png" 
 	echo $((`cat $commfile`-1)) > $commfile )&
 		

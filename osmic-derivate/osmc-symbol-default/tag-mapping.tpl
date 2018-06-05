@@ -10,6 +10,10 @@
 		<osm-tag key="osmc_background" value="brown_circle" renderable="false" />
 		<osm-tag key="osmc_background" value="brown_frame" renderable="false" />
 		<osm-tag key="osmc_background" value="brown_round" renderable="false" />
+		<osm-tag key="osmc_background" value="gray" renderable="false" />
+		<osm-tag key="osmc_background" value="gray_circle" renderable="false" />
+		<osm-tag key="osmc_background" value="gray_frame" renderable="false" />
+		<osm-tag key="osmc_background" value="gray_round" renderable="false" />
 		<osm-tag key="osmc_background" value="green" renderable="false" />
 		<osm-tag key="osmc_background" value="green_circle" renderable="false" />
 		<osm-tag key="osmc_background" value="green_frame" renderable="false" />
@@ -35,17 +39,21 @@
 		<osm-tag key="osmc_background" value="yellow_circle" renderable="false" />
 		<osm-tag key="osmc_background" value="yellow_frame" renderable="false" />
 		<osm-tag key="osmc_background" value="yellow_round" renderable="false" />
+		<osm-tag key="osmc_foreground" value="ammonit" renderable="false" />
 		<osm-tag key="osmc_foreground" value="backslash" renderable="false" />
+		<osm-tag key="osmc_foreground" value="black_ammonit" renderable="false" />
 		<osm-tag key="osmc_foreground" value="black_arch" renderable="false" />
 		<osm-tag key="osmc_foreground" value="black_backslash" renderable="false" />
 		<osm-tag key="osmc_foreground" value="black_bar" renderable="false" />
 		<osm-tag key="osmc_foreground" value="black_circle" renderable="false" />
 		<osm-tag key="osmc_foreground" value="black_corner" renderable="false" />
+		<osm-tag key="osmc_foreground" value="black_crest" renderable="false" />
 		<osm-tag key="osmc_foreground" value="black_cross" renderable="false" />
 		<osm-tag key="osmc_foreground" value="black_diamond" renderable="false" />
 		<osm-tag key="osmc_foreground" value="black_diamond_line" renderable="false" />
 		<osm-tag key="osmc_foreground" value="black_dot" renderable="false" />
 		<osm-tag key="osmc_foreground" value="black_fork" renderable="false" />
+		<osm-tag key="osmc_foreground" value="black_hexagon" renderable="false" />
 		<osm-tag key="osmc_foreground" value="black_hiker" renderable="false" />
 		<osm-tag key="osmc_foreground" value="black_lower" renderable="false" />
 		<osm-tag key="osmc_foreground" value="black_pointer" renderable="false" />
@@ -54,8 +62,10 @@
 		<osm-tag key="osmc_foreground" value="black_right" renderable="false" />
 		<osm-tag key="osmc_foreground" value="black_slash" renderable="false" />
 		<osm-tag key="osmc_foreground" value="black_stripe" renderable="false" />
+		<osm-tag key="osmc_foreground" value="black_tower" renderable="false" />
 		<osm-tag key="osmc_foreground" value="black_triangle" renderable="false" />
 		<osm-tag key="osmc_foreground" value="black_triangle_line" renderable="false" />
+		<osm-tag key="osmc_foreground" value="black_triangle_turned" renderable="false" />
 		<osm-tag key="osmc_foreground" value="black_turned_T" renderable="false" />
 		<osm-tag key="osmc_foreground" value="black_x" renderable="false" />
 		<osm-tag key="osmc_foreground" value="blue_arch" renderable="false" />
@@ -79,6 +89,7 @@
 		<osm-tag key="osmc_foreground" value="blue_stripe" renderable="false" />
 		<osm-tag key="osmc_foreground" value="blue_triangle" renderable="false" />
 		<osm-tag key="osmc_foreground" value="blue_triangle_line" renderable="false" />
+		<osm-tag key="osmc_foreground" value="blue_triangle_turned" renderable="false" />
 		<osm-tag key="osmc_foreground" value="blue_turned_T" renderable="false" />
 		<osm-tag key="osmc_foreground" value="blue_wheel" renderable="false" />
 		<osm-tag key="osmc_foreground" value="blue_wheelchair" renderable="false" />
@@ -88,9 +99,11 @@
 		<osm-tag key="osmc_foreground" value="brown_cross" renderable="false" />
 		<osm-tag key="osmc_foreground" value="brown_diamond" renderable="false" />
 		<osm-tag key="osmc_foreground" value="brown_dot" renderable="false" />
+		<osm-tag key="osmc_foreground" value="brown_hexagon" renderable="false" />
 		<osm-tag key="osmc_foreground" value="brown_lower" renderable="false" />
 		<osm-tag key="osmc_foreground" value="brown_pointer" renderable="false" />
 		<osm-tag key="osmc_foreground" value="brown_rectangle" renderable="false" />
+		<osm-tag key="osmc_foreground" value="brown_rectangle_line" renderable="false" />
 		<osm-tag key="osmc_foreground" value="brown_stripe" renderable="false" />
 		<osm-tag key="osmc_foreground" value="brown_x" renderable="false" />
 		<osm-tag key="osmc_foreground" value="corner" renderable="false" />
@@ -116,12 +129,14 @@
 		<osm-tag key="osmc_foreground" value="green_stripe" renderable="false" />
 		<osm-tag key="osmc_foreground" value="green_triangle" renderable="false" />
 		<osm-tag key="osmc_foreground" value="green_triangle_line" renderable="false" />
+		<osm-tag key="osmc_foreground" value="green_triangle_turned" renderable="false" />
 		<osm-tag key="osmc_foreground" value="green_turned_T" renderable="false" />
 		<osm-tag key="osmc_foreground" value="green_wheel" renderable="false" />
 		<osm-tag key="osmc_foreground" value="green_x" renderable="false" />
 		<osm-tag key="osmc_foreground" value="heart" renderable="false" />
 		<osm-tag key="osmc_foreground" value="hiker" renderable="false" />
 		<osm-tag key="osmc_foreground" value="L" renderable="false" />
+		<osm-tag key="osmc_foreground" value="mine" renderable="false" />
 		<osm-tag key="osmc_foreground" value="orange_backslash" renderable="false" />
 		<osm-tag key="osmc_foreground" value="orange_bar" renderable="false" />
 		<osm-tag key="osmc_foreground" value="orange_circle" renderable="false" />
@@ -130,6 +145,7 @@
 		<osm-tag key="osmc_foreground" value="orange_diamond" renderable="false" />
 		<osm-tag key="osmc_foreground" value="orange_diamond_line" renderable="false" />
 		<osm-tag key="osmc_foreground" value="orange_dot" renderable="false" />
+		<osm-tag key="osmc_foreground" value="orange_hexagon" renderable="false" />
 		<osm-tag key="osmc_foreground" value="orange_hiker" renderable="false" />
 		<osm-tag key="osmc_foreground" value="orange_lower" renderable="false" />
 		<osm-tag key="osmc_foreground" value="orange_pointer" renderable="false" />
@@ -156,6 +172,7 @@
 		<osm-tag key="osmc_foreground" value="red_bowl" renderable="false" />
 		<osm-tag key="osmc_foreground" value="red_circle" renderable="false" />
 		<osm-tag key="osmc_foreground" value="red_corner" renderable="false" />
+		<osm-tag key="osmc_foreground" value="red_crest" renderable="false" />
 		<osm-tag key="osmc_foreground" value="red_cross" renderable="false" />
 		<osm-tag key="osmc_foreground" value="red_diamond" renderable="false" />
 		<osm-tag key="osmc_foreground" value="red_diamond_line" renderable="false" />
@@ -170,14 +187,17 @@
 		<osm-tag key="osmc_foreground" value="red_right" renderable="false" />
 		<osm-tag key="osmc_foreground" value="red_slash" renderable="false" />
 		<osm-tag key="osmc_foreground" value="red_stripe" renderable="false" />
+		<osm-tag key="osmc_foreground" value="red_tower" renderable="false" />
 		<osm-tag key="osmc_foreground" value="red_triangle" renderable="false" />
 		<osm-tag key="osmc_foreground" value="red_triangle_line" renderable="false" />
+		<osm-tag key="osmc_foreground" value="red_triangle_turned" renderable="false" />
 		<osm-tag key="osmc_foreground" value="red_turned_T" renderable="false" />
 		<osm-tag key="osmc_foreground" value="red_wheel" renderable="false" />
 		<osm-tag key="osmc_foreground" value="red_wheelchair" renderable="false" />
 		<osm-tag key="osmc_foreground" value="red_x" renderable="false" />
 		<osm-tag key="osmc_foreground" value="shell" renderable="false" />
 		<osm-tag key="osmc_foreground" value="shell_modern" renderable="false" />
+		<osm-tag key="osmc_foreground" value="tower" renderable="false" />
 		<osm-tag key="osmc_foreground" value="triangle" renderable="false" />
 		<osm-tag key="osmc_foreground" value="wheelchair" renderable="false" />
 		<osm-tag key="osmc_foreground" value="white_arch" renderable="false" />
@@ -185,6 +205,7 @@
 		<osm-tag key="osmc_foreground" value="white_bar" renderable="false" />
 		<osm-tag key="osmc_foreground" value="white_circle" renderable="false" />
 		<osm-tag key="osmc_foreground" value="white_corner" renderable="false" />
+		<osm-tag key="osmc_foreground" value="white_crest" renderable="false" />
 		<osm-tag key="osmc_foreground" value="white_cross" renderable="false" />
 		<osm-tag key="osmc_foreground" value="white_diamond" renderable="false" />
 		<osm-tag key="osmc_foreground" value="white_diamond_line" renderable="false" />
@@ -201,6 +222,7 @@
 		<osm-tag key="osmc_foreground" value="white_stripe" renderable="false" />
 		<osm-tag key="osmc_foreground" value="white_triangle" renderable="false" />
 		<osm-tag key="osmc_foreground" value="white_triangle_line" renderable="false" />
+		<osm-tag key="osmc_foreground" value="white_triangle_turned" renderable="false" />
 		<osm-tag key="osmc_foreground" value="white_turned_T" renderable="false" />
 		<osm-tag key="osmc_foreground" value="white_wheelchair" renderable="false" />
 		<osm-tag key="osmc_foreground" value="white_x" renderable="false" />
@@ -215,6 +237,7 @@
 		<osm-tag key="osmc_foreground" value="yellow_diamond_line" renderable="false" />
 		<osm-tag key="osmc_foreground" value="yellow_dot" renderable="false" />
 		<osm-tag key="osmc_foreground" value="yellow_fork" renderable="false" />
+		<osm-tag key="osmc_foreground" value="yellow_hexagon" renderable="false" />
 		<osm-tag key="osmc_foreground" value="yellow_hiker" renderable="false" />
 		<osm-tag key="osmc_foreground" value="yellow_L" renderable="false" />
 		<osm-tag key="osmc_foreground" value="yellow_lower" renderable="false" />
@@ -228,5 +251,6 @@
 		<osm-tag key="osmc_foreground" value="yellow_stripe" renderable="false" />
 		<osm-tag key="osmc_foreground" value="yellow_triangle" renderable="false" />
 		<osm-tag key="osmc_foreground" value="yellow_triangle_line" renderable="false" />
+		<osm-tag key="osmc_foreground" value="yellow_triangle_turned" renderable="false" />
 		<osm-tag key="osmc_foreground" value="yellow_turned_T" renderable="false" />
 		<osm-tag key="osmc_foreground" value="yellow_x" renderable="false" />
