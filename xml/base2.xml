@@ -1087,7 +1087,7 @@
 				<lineSymbol src="file:/symbols/cable_car.png" />
 			</rule>
 			<rule e="way" k="aerialway" v="chair_lift">
-				<lineSymbol src="file:/symbols/chair_lift_2.png" />
+				<lineSymbol src="file:/symbols/chair_lift.png" />
 			</rule>
 			<rule e="way" k="aerialway" v="gondola">
 				<lineSymbol src="file:/symbols/gondola.png" />

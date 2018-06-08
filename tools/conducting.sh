@@ -1,6 +1,6 @@
 #!/bin/bash
 
-debug=2
+debug=3
 
 root="/home/jans/Dokumenty/osm/renderer"
 osmcdflt="osmc-symbol-default"
@@ -320,5 +320,9 @@ if [ $debug -le 2 ]; then
 fi
 
 cp themes/$templatesrc/${templatesrc}.xml $template
+
+git status
+git commit -a -m "This is automatic commit of release r$releasestr ( build b$buildstr )"
+git push
 
 sh tools/$uploadscript "$root/$uploadpath"
