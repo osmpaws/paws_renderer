@@ -1,6 +1,7 @@
 #!/bin/bash
 
 debug=3
+release=0
 
 root="/home/jans/Dokumenty/osm/renderer"
 osmcdflt="osmc-symbol-default"
@@ -95,6 +96,11 @@ mapper4="mapper-4.xml"
 cd $root
 echo "Debug mode: $debug" > $logfile
 
+if [ "$2" = "-r" ]; then
+	release=1
+fi
+echo "Release mode: $release" > $logfile
+
 if ! diff -q $osmcsymlst $osmcsymlstold &> /dev/null; then
 	cp $osmcsymlst $osmcsymlstold
 	touch $root/osmic-derivate/$osmcdflt/force_rebuild
@@ -183,7 +189,7 @@ do
 ###	cp $root/xml/$basexml $root/xml/$tempxml
 ###	echo "s/<!--#version#-->/<!--#r${releasestr}b${buildstr}#-->/" > $themename_$sedfile
 	echo "$buildstr" > tools/$buildctrl
-	if [ "$debug" -ge "3" ]; then
+	if [ "$release" -eq "1" ]; then
 		echo "$releasestr" > tools/$releasectrl
 	fi
 	
@@ -315,7 +321,7 @@ bash $root/tools/locus_theme.sh
 uploadstr=$uploadstr"themes_svg/paws_4_LE.zip,"
 echo -n "themes_svg/paws_4_LE.zip," >> $uploadpath
 
-if [ $debug -le 2 ]; then
+if [ $release -ne 1 ]; then
 	exit 0
 fi
 
