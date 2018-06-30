@@ -96,10 +96,10 @@ mapper4="mapper-4.xml"
 cd $root
 echo "Debug mode: $debug" > $logfile
 
-if [ "$2" = "-r" ]; then
+if [ "$1" = "-r" ]; then
 	release=1
 fi
-echo "Release mode: $release" > $logfile
+echo "Release mode: $release" >> $logfile
 
 if ! diff -q $osmcsymlst $osmcsymlstold &> /dev/null; then
 	cp $osmcsymlst $osmcsymlstold
@@ -321,7 +321,7 @@ bash $root/tools/locus_theme.sh
 uploadstr=$uploadstr"themes_svg/paws_4_LE.zip,"
 echo -n "themes_svg/paws_4_LE.zip," >> $uploadpath
 
-if [ $release -ne 1 ]; then
+if [ "$release" -ne "1" ]; then
 	exit 0
 fi
 

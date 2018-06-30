@@ -100,6 +100,12 @@
 		<rule e="node" k="osmc_foreground" v="red_arch">
 			<symbol src="file:/osmc-symbols/black_red_arch.png" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="yellow_arch">
+			<lineSymbol src="file:/osmc-symbols/black_yellow_arch.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="yellow_arch">
+			<symbol src="file:/osmc-symbols/black_yellow_arch.png" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="blue_arch">
 			<lineSymbol src="file:/osmc-symbols/black_blue_arch.png" align-center="false" repeat="true" />
 		</rule>
@@ -1150,6 +1156,12 @@
 		<rule e="node" k="osmc_foreground" v="white_circle">
 			<symbol src="file:/osmc-symbols/green_white_circle.png" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="black_circle">
+			<lineSymbol src="file:/osmc-symbols/green_black_circle.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="black_circle">
+			<symbol src="file:/osmc-symbols/green_black_circle.png" />
+		</rule>
 	</rule>
 	<rule e="way" k="osmc_background" v="green_circle" zoom-min="15">
 	</rule>
@@ -1207,6 +1219,12 @@
 		</rule>
 		<rule e="node" k="osmc_foreground" v="white_circle">
 			<symbol src="file:/osmc-symbols/purple_white_circle.png" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="black_circle">
+			<lineSymbol src="file:/osmc-symbols/purple_black_circle.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="black_circle">
+			<symbol src="file:/osmc-symbols/purple_black_circle.png" />
 		</rule>
 	</rule>
 	<rule e="way" k="osmc_background" v="purple_circle" zoom-min="15">
@@ -2518,6 +2536,12 @@
 		<rule e="node" k="osmc_foreground" v="white_dot">
 			<symbol src="file:/osmc-symbols/blue_white_dot.png" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="black_dot">
+			<lineSymbol src="file:/osmc-symbols/blue_black_dot.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="black_dot">
+			<symbol src="file:/osmc-symbols/blue_black_dot.png" />
+		</rule>
 	</rule>
 	<rule e="way" k="osmc_background" v="blue_circle" zoom-min="15">
 		<rule e="way" k="osmc_foreground" v="red_dot">
@@ -2775,6 +2799,12 @@
 		</rule>
 		<rule e="node" k="osmc_foreground" v="white_dot">
 			<symbol src="file:/osmc-symbols/red_white_dot.png" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="black_dot">
+			<lineSymbol src="file:/osmc-symbols/red_black_dot.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="black_dot">
+			<symbol src="file:/osmc-symbols/red_black_dot.png" />
 		</rule>
 	</rule>
 	<rule e="way" k="osmc_background" v="red_circle" zoom-min="15">
@@ -5400,6 +5430,12 @@
 	<rule e="way" k="osmc_background" v="white_round" zoom-min="15">
 	</rule>
 	<rule e="way" k="osmc_background" v="yellow" zoom-min="15">
+		<rule e="way" k="osmc_foreground" v="shell">
+			<lineSymbol src="file:/osmc-symbols/yellow_shell.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="shell">
+			<symbol src="file:/osmc-symbols/yellow_shell.png" />
+		</rule>
 	</rule>
 	<rule e="way" k="osmc_background" v="yellow_circle" zoom-min="15">
 	</rule>
@@ -6204,6 +6240,18 @@
 		<rule e="node" k="osmc_foreground" v="black_triangle_turned">
 			<symbol src="file:/osmc-symbols/white_black_triangle_turned.png" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="brown_triangle_turned">
+			<lineSymbol src="file:/osmc-symbols/white_brown_triangle_turned.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="brown_triangle_turned">
+			<symbol src="file:/osmc-symbols/white_brown_triangle_turned.png" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="purple_triangle_turned">
+			<lineSymbol src="file:/osmc-symbols/white_purple_triangle_turned.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="purple_triangle_turned">
+			<symbol src="file:/osmc-symbols/white_purple_triangle_turned.png" />
+		</rule>
 	</rule>
 	<rule e="way" k="osmc_background" v="white_circle" zoom-min="15">
 	</rule>
@@ -6429,6 +6477,12 @@
 		</rule>
 		<rule e="node" k="osmc_foreground" v="black_triangle">
 			<symbol src="file:/osmc-symbols/white_black_triangle.png" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="brown_triangle">
+			<lineSymbol src="file:/osmc-symbols/white_brown_triangle.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="brown_triangle">
+			<symbol src="file:/osmc-symbols/white_brown_triangle.png" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="orange_triangle">
 			<lineSymbol src="file:/osmc-symbols/white_orange_triangle.png" align-center="false" repeat="true" />

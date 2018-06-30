@@ -6,6 +6,9 @@
 		<rule e="way" k="osmc_foreground" v="red_arch">
 			<lineSymbol src="file:/osmc-symbols/black_red_arch.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="yellow_arch">
+			<lineSymbol src="file:/osmc-symbols/black_yellow_arch.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="blue_arch">
 			<lineSymbol src="file:/osmc-symbols/black_blue_arch.png" align-center="false" repeat="true" />
 		</rule>

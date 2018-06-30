@@ -15,6 +15,9 @@
 		<rule e="node" k="osmc_foreground" v="white_circle">
 			<symbol src="file:/osmc-symbols/purple_white_circle.png" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="black_circle">
+			<symbol src="file:/osmc-symbols/purple_black_circle.png" />
+		</rule>
 		<rule e="node" k="osmc_foreground" v="white_corner">
 			<symbol src="file:/osmc-symbols/purple_white_corner.png" />
 		</rule>

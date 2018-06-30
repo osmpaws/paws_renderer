@@ -462,6 +462,12 @@
 		<rule e="node" k="osmc_foreground" v="black_triangle_turned">
 			<symbol src="file:/osmc-symbols/white_black_triangle_turned.png" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="brown_triangle_turned">
+			<symbol src="file:/osmc-symbols/white_brown_triangle_turned.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="purple_triangle_turned">
+			<symbol src="file:/osmc-symbols/white_purple_triangle_turned.png" />
+		</rule>
 		<rule e="node" k="osmc_foreground" v="red_triangle">
 			<symbol src="file:/osmc-symbols/white_red_triangle.png" />
 		</rule>
@@ -476,6 +482,9 @@
 		</rule>
 		<rule e="node" k="osmc_foreground" v="black_triangle">
 			<symbol src="file:/osmc-symbols/white_black_triangle.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="brown_triangle">
+			<symbol src="file:/osmc-symbols/white_brown_triangle.png" />
 		</rule>
 		<rule e="node" k="osmc_foreground" v="orange_triangle">
 			<symbol src="file:/osmc-symbols/white_orange_triangle.png" />

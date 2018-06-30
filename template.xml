@@ -2,7 +2,7 @@
 <rendertheme xmlns="http://mapsforge.org/renderTheme" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://mapsforge.org/renderTheme ../renderTheme.xsd" version="1" map-background="#f8f8f8">
 	
-	<!--#r00001b00051#-->
+	<!--#r00002b00057#-->
 
 	<!--style#v4#setup-->
 	
@@ -458,41 +458,41 @@
 	</rule>
 
         <!-- contour lines level 12 -->
-        <rule e="way" k="contour_ext" v="*" zoom-min="12" zoom-max="12">   
-           <rule e="way" k="contour_ext" v="elevation_minor">   
+        <rule e="way" k="contour_ext" v="*" zoom-min="12" zoom-max="12">
+           <rule e="way" k="contour_ext" v="elevation_minor">
               <line stroke="#60800010" stroke-width="0.30" />
            </rule>
-           <rule e="way" k="contour_ext" v="elevation_medium|elevation_major">   
+           <rule e="way" k="contour_ext" v="elevation_medium|elevation_major">
               <line stroke="#60800000" stroke-width="0.90" />
            </rule>
         </rule>
         <!-- contour lines level 13 -->
         <rule e="way" k="contour_ext" v="*" zoom-min="13" zoom-max="13">
-           <rule e="way" k="contour_ext" v="elevation_minor">   
+           <rule e="way" k="contour_ext" v="elevation_minor">
               <line stroke="#60800000" stroke-width="0.30" />
            </rule>
-           <rule e="way" k="contour_ext" v="elevation_medium|elevation_major">   
+           <rule e="way" k="contour_ext" v="elevation_medium|elevation_major">
               <line stroke="#60800000" stroke-width="0.70" />
            </rule>
         </rule>
         <!-- contour lines level 14-->
         <rule e="way" k="contour_ext" v="*" zoom-min="14" zoom-max="14">
-           <rule e="way" k="contour_ext" v="elevation_minor">   
+           <rule e="way" k="contour_ext" v="elevation_minor">
               <line stroke="#60800000" stroke-width="0.22" />
            </rule>
-           <rule e="way" k="contour_ext" v="elevation_medium|elevation_major">   
+           <rule e="way" k="contour_ext" v="elevation_medium|elevation_major">
               <line stroke="#60800000" stroke-width="0.60" />
               <rule e="way" k="*" v="*">
                  <pathText k="ele" font-style="bold" font-size="14.00" fill="#bb7755" stroke="#ffffff" stroke-width="2.00" />
-              </rule>              
-           </rule>   
+              </rule>
+           </rule>
         </rule>
         <!-- contour lines level 15-->
         <rule e="way" k="contour_ext" v="*" zoom-min="15" zoom-max="15">
-           <rule e="way" k="contour_ext" v="elevation_minor" zoom-max="15">   
+           <rule e="way" k="contour_ext" v="elevation_minor" zoom-max="15">
               <line stroke="#60800000" stroke-width="0.18" />
            </rule>
-           <rule e="way" k="contour_ext" v="elevation_medium|elevation_major">   
+           <rule e="way" k="contour_ext" v="elevation_medium|elevation_major">
               <line stroke="#60800000" stroke-width="0.40" />
               <rule e="way" k="*" v="*">
                  <pathText k="ele" font-style="bold" font-size="14.00" fill="#bb7755" stroke="#ffffff" stroke-width="2.00" />
@@ -501,10 +501,10 @@
         </rule>
         <!-- contour lines level 16 -->
         <rule e="way" k="contour_ext" v="*" zoom-min="16" zoom-max="16">
-           <rule e="way" k="contour_ext" v="elevation_minor">   
+           <rule e="way" k="contour_ext" v="elevation_minor">
               <line stroke="#60800000" stroke-width="0.12" />
            </rule>
-           <rule e="way" k="contour_ext" v="elevation_medium|elevation_major">   
+           <rule e="way" k="contour_ext" v="elevation_medium|elevation_major">
               <line stroke="#60800000" stroke-width="0.30" />
               <rule e="way" k="*" v="*">
                  <pathText k="ele" font-style="bold" font-size="14.00" fill="#bb7755" stroke="#ffffff" stroke-width="2.00" />
@@ -513,10 +513,10 @@
         </rule>   
         <!-- contour lines level 17 and above -->
         <rule e="way" k="contour_ext" v="*" zoom-min="17">
-           <rule e="way" k="contour_ext" v="elevation_minor">   
+           <rule e="way" k="contour_ext" v="elevation_minor">
               <line stroke="#60800000" stroke-width="0.10" />
            </rule>
-           <rule e="way" k="contour_ext" v="elevation_medium|elevation_major">   
+           <rule e="way" k="contour_ext" v="elevation_medium|elevation_major">
               <line stroke="#60800000" stroke-width="0.22" />
               <rule e="way" k="*" v="*">
                  <pathText k="ele" font-style="bold" font-size="14.00" fill="#bb7755" stroke="#ffffff" stroke-width="2.00" />
@@ -1697,6 +1697,9 @@
 		<rule e="node" k="generator:source" v="wind">
 			<symbol src="file:/symbols/power_wind.png" />
 		</rule>
+		<rule e="node" k="power" v="pole">
+			<circle r="2.00" fill="#ffffff" stroke="#606060" stroke-width="0.50" />
+		</rule>
 		<rule e="node" k="power" v="tower">
 			<circle r="4.00" fill="#ffffff" stroke="#606060" stroke-width="2.00" />
 		</rule>
@@ -1933,6 +1936,9 @@
 		<rule e="way" k="osmc_foreground" v="white_dot">
 			<lineSymbol src="file:/osmc-symbols/blue_white_dot.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="black_dot">
+			<lineSymbol src="file:/osmc-symbols/blue_black_dot.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="yellow_hiker">
 			<lineSymbol src="file:/osmc-symbols/blue_yellow_hiker.png" align-center="false" repeat="true" />
 		</rule>
@@ -2163,6 +2169,9 @@
 		</rule>
 		<rule e="way" k="osmc_foreground" v="white_circle">
 			<lineSymbol src="file:/osmc-symbols/purple_white_circle.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="black_circle">
+			<lineSymbol src="file:/osmc-symbols/purple_black_circle.png" align-center="false" repeat="true" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="white_corner">
 			<lineSymbol src="file:/osmc-symbols/purple_white_corner.png" align-center="false" repeat="true" />
@@ -2584,6 +2593,9 @@
 		<rule e="way" k="osmc_foreground" v="white_right">
 			<lineSymbol src="file:/osmc-symbols/yellow_white_right.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="shell">
+			<lineSymbol src="file:/osmc-symbols/yellow_shell.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="blue_slash">
 			<lineSymbol src="file:/osmc-symbols/yellow_blue_slash.png" align-center="false" repeat="true" />
 		</rule>
@@ -2778,6 +2790,9 @@
 		</rule>
 		<rule e="way" k="osmc_foreground" v="red_arch">
 			<lineSymbol src="file:/osmc-symbols/black_red_arch.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="yellow_arch">
+			<lineSymbol src="file:/osmc-symbols/black_yellow_arch.png" align-center="false" repeat="true" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="blue_arch">
 			<lineSymbol src="file:/osmc-symbols/black_blue_arch.png" align-center="false" repeat="true" />
@@ -3036,6 +3051,9 @@
 		</rule>
 		<rule e="way" k="osmc_foreground" v="white_dot">
 			<lineSymbol src="file:/osmc-symbols/red_white_dot.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="black_dot">
+			<lineSymbol src="file:/osmc-symbols/red_black_dot.png" align-center="false" repeat="true" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="white_hiker">
 			<lineSymbol src="file:/osmc-symbols/red_white_hiker.png" align-center="false" repeat="true" />
@@ -3670,6 +3688,12 @@
 		<rule e="way" k="osmc_foreground" v="black_triangle_turned">
 			<lineSymbol src="file:/osmc-symbols/white_black_triangle_turned.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="brown_triangle_turned">
+			<lineSymbol src="file:/osmc-symbols/white_brown_triangle_turned.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="purple_triangle_turned">
+			<lineSymbol src="file:/osmc-symbols/white_purple_triangle_turned.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="red_triangle">
 			<lineSymbol src="file:/osmc-symbols/white_red_triangle.png" align-center="false" repeat="true" />
 		</rule>
@@ -3684,6 +3708,9 @@
 		</rule>
 		<rule e="way" k="osmc_foreground" v="black_triangle">
 			<lineSymbol src="file:/osmc-symbols/white_black_triangle.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="brown_triangle">
+			<lineSymbol src="file:/osmc-symbols/white_brown_triangle.png" align-center="false" repeat="true" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="orange_triangle">
 			<lineSymbol src="file:/osmc-symbols/white_orange_triangle.png" align-center="false" repeat="true" />
@@ -3816,6 +3843,9 @@
 		</rule>
 		<rule e="way" k="osmc_foreground" v="white_circle">
 			<lineSymbol src="file:/osmc-symbols/green_white_circle.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="black_circle">
+			<lineSymbol src="file:/osmc-symbols/green_black_circle.png" align-center="false" repeat="true" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="blue_corner">
 			<lineSymbol src="file:/osmc-symbols/green_blue_corner.png" align-center="false" repeat="true" />

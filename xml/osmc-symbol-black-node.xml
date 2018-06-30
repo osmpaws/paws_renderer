@@ -6,6 +6,9 @@
 		<rule e="node" k="osmc_foreground" v="red_arch">
 			<symbol src="file:/osmc-symbols/black_red_arch.png" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="yellow_arch">
+			<symbol src="file:/osmc-symbols/black_yellow_arch.png" />
+		</rule>
 		<rule e="node" k="osmc_foreground" v="blue_arch">
 			<symbol src="file:/osmc-symbols/black_blue_arch.png" />
 		</rule>
