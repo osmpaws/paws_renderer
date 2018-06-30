@@ -1428,6 +1428,9 @@
 		<rule e="node" k="generator:source" v="wind">
 			<symbol src="file:/symbols/power_wind.png" />
 		</rule>
+		<rule e="node" k="power" v="pole">
+			<circle r="2.0" fill="#ffffff" stroke="#606060" stroke-width="0.5" />
+		</rule>
 		<rule e="node" k="power" v="tower">
 			<circle r="4.0" fill="#ffffff" stroke="#606060" stroke-width="2" />
 		</rule>
