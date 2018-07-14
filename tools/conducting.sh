@@ -73,6 +73,7 @@ pawswinteryaml="paws_winter.yaml"
 buildctrl="build.txt"
 releasectrl="release.txt"
 sedfile="sed_script.sed"
+jarfile=
 
 bcx="biking-captions.xml"
 blhzx="biking-lines-high-zoom.xml"
@@ -322,6 +323,15 @@ uploadstr=$uploadstr"themes_svg/paws_4_LE.zip,"
 echo -n "themes_svg/paws_4_LE.zip," >> $uploadpath
 
 if [ "$release" -ne "1" ]; then
+	if [ -f "$jarfile" ] ; then
+		unzip $jarfile/tag-mapping.xml
+		if [ -f tag-mapping.xml ] ; then
+			if [ `diff tag-mapping.xml "$root/osmic-derivate/osmc-symbol-default/tag-mapping.tpl" | grep '^>' | wc -l` -gt "0" ] ; then
+				echo "There is some new symbol not included to map file.";
+				echo "diff tag-mapping.xml $root/osmic-derivate/osmc-symbol-default/tag-mapping.tpl";
+			fi
+		fi
+	fi
 	exit 0
 fi
 
