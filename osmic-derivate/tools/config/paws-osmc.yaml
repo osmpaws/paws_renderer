@@ -5459,6 +5459,30 @@ brown-white-triangle:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+brown-frame-red-triangle:
+  fill: "#ff0000"
+  shield:
+    stroke_fill: "#8b4513"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 2
+    padding: 2
+brown-frame-yellow-triangle:
+  fill: "#ffdd00"
+  shield:
+    stroke_fill: "#8b4513"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 2
+    padding: 2
+brown-frame-blue-triangle:
+  fill: "#1579e0"
+  shield:
+    stroke_fill: "#8b4513"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 2
+    padding: 2
 green-yellow-triangle:
   fill: "#ffdd00"
   shield:

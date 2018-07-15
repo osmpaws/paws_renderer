@@ -73,7 +73,7 @@ pawswinteryaml="paws_winter.yaml"
 buildctrl="build.txt"
 releasectrl="release.txt"
 sedfile="sed_script.sed"
-jarfile=
+jarfile=~/.openstreetmap/osmosis/plugins/mapsforge-map-writer-0.8.0-jar-with-dependencies.jar
 
 bcx="biking-captions.xml"
 blhzx="biking-lines-high-zoom.xml"
@@ -324,7 +324,8 @@ echo -n "themes_svg/paws_4_LE.zip," >> $uploadpath
 
 if [ "$release" -ne "1" ]; then
 	if [ -f "$jarfile" ] ; then
-		unzip $jarfile/tag-mapping.xml
+		rm tag-mapping.xml
+		unzip "$jarfile" tag-mapping.xml
 		if [ -f tag-mapping.xml ] ; then
 			if [ `diff tag-mapping.xml "$root/osmic-derivate/osmc-symbol-default/tag-mapping.tpl" | grep '^>' | wc -l` -gt "0" ] ; then
 				echo "There is some new symbol not included to map file.";
