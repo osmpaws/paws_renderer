@@ -9,6 +9,9 @@
 		<rule e="node" k="osmc_foreground" v="white_bar">
 			<symbol src="file:/osmc-symbols/blue_frame_white_bar.png" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="blue_bowl">
+			<symbol src="file:/osmc-symbols/blue_frame_blue_bowl.png" />
+		</rule>
 		<rule e="node" k="osmc_foreground" v="hiker">
 			<symbol src="file:/osmc-symbols/blue_frame_hiker.png" />
 		</rule>

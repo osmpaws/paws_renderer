@@ -1,0 +1,40 @@
+			<!--mtb#scale-->
+			<rule cat="mtb_scale"  e="way" k="mtb:scale" v="0">
+				<line stroke="#3040ff40" stroke-width="4.0" stroke-linecap="butt" />
+			</rule>
+			<rule cat="mtb_scale"  e="way" k="mtb:scale" v="1">
+				<line stroke="#30ff4040" stroke-width="4.0" stroke-linecap="butt" />
+			</rule>
+			<rule cat="mtb_scale"  e="way" k="mtb:scale" v="2">
+				<line stroke="#30ff4040" stroke-width="4.0" stroke-linecap="butt" />
+			</rule>
+			<rule cat="mtb_scale"  e="way" k="mtb:scale" v="3">
+				<line stroke="#30505040" stroke-width="4.0" stroke-linecap="butt" />
+			</rule>
+			<rule cat="mtb_scale"  e="way" k="mtb:scale" v="4">
+				<line stroke="#30505050" stroke-width="4.0" stroke-dasharray="20,3" stroke-linecap="butt" />
+				<line stroke="#aaff4040" stroke-width="4.0" stroke-dasharray="0,20,3,0" stroke-linecap="butt" />
+			</rule>
+			<rule cat="mtb_scale"  e="way" k="mtb:scale" v="5">
+				<line stroke="#30505050" stroke-width="4.0" stroke-dasharray="20,3,3,3" stroke-linecap="butt" />
+				<line stroke="#aaff4040" stroke-width="4.0" stroke-dasharray="0,20,3,3,3,0" stroke-linecap="butt" />
+			</rule>
+			<rule cat="mtb_scale"  e="way" k="mtb:scale" v="6">
+				<line stroke="#30505050" stroke-width="4.0" stroke-dasharray="20,5" stroke-linecap="butt" />
+				<line stroke="#aaff4040" stroke-width="4.0" stroke-dasharray="0,20,5,0" stroke-linecap="butt" />
+			</rule>
+			<rule cat="mtb_scale"  e="way" k="mtb:scale:uphill" v="1">
+				<line stroke="#202020" stroke-width="6.0" stroke-dasharray="0,40,3,2" stroke-linecap="butt" />
+			</rule>
+			<rule cat="mtb_scale"  e="way" k="mtb:scale:uphill" v="2">
+				<line stroke="#202020" stroke-width="6.0" stroke-dasharray="0,40,3,2,3,2" stroke-linecap="butt" />
+			</rule>
+			<rule cat="mtb_scale"  e="way" k="mtb:scale:uphill" v="3">
+				<line stroke="#202020" stroke-width="6.0" stroke-dasharray="0,40,3,2,3,2,3,2" stroke-linecap="butt" />
+			</rule>
+			<rule cat="mtb_scale"  e="way" k="mtb:scale:uphill" v="4">
+				<line stroke="#202020" stroke-width="6.0" stroke-dasharray="0,40,3,2,3,2,3,2,3,2" stroke-linecap="butt" />
+			</rule>
+			<rule cat="mtb_scale"  e="way" k="mtb:scale:uphill" v="5">
+				<line stroke="#202020" stroke-width="6.0" stroke-dasharray="0,40,3,2,3,2,3,2,3,2,3,2" stroke-linecap="butt" />
+			</rule>

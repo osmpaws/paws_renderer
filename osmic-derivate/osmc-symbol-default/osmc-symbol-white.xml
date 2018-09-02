@@ -99,6 +99,9 @@
 		<rule e="way" k="osmc_foreground" v="brown_circle">
 			<lineSymbol src="file:/osmc-symbols/white_brown_circle.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="purple_circle">
+			<lineSymbol src="file:/osmc-symbols/white_purple_circle.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="orange_circle">
 			<lineSymbol src="file:/osmc-symbols/white_orange_circle.png" align-center="false" repeat="true" />
 		</rule>

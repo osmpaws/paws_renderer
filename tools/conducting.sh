@@ -87,6 +87,7 @@ hlhzx4="hiking-lines-high-zoom-4.xml"
 hllzx4="hiking-lines-low-zoom-4.xml"
 cwl="cycleway-lane.xml"
 cwl4="cycleway-lane-4.xml"
+mtbs4="mtb-scale-4.xml"
 gp="guidepost.xml"
 gp4="guidepost-4.xml"
 mapper4="mapper-4.xml"
@@ -254,6 +255,7 @@ do
 			sed -i -e "/<!--biking#lines#high#zoom-->/r $root/xml/$blhzx4" \
 			       -e "/<!--biking#lines#low#zoom-->/r $root/xml/$bllzx4" \
 			       -e "/<!--biking#captions-->/r $root/xml/$bcx4" \
+			       -e "/<!--mtb#scale-->/r $root/xml/$mtbs4" \
 			       -e "/<!--cycleway#lane-->/r $root/xml/$cwl4" $root/xml/$tempxml
 		else
 ###			echo "/<!--biking#lines#high#zoom-->/r $root/xml/$blhzx

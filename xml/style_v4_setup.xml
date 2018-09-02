@@ -25,6 +25,11 @@
 		<name lang="en" value="Bike trails" />
 		<cat id="bike_lines" />
 	</layer>
+	<layer id="l_mtb_scale" enabled="false">
+		<name lang="cs" value="MTB náročnost" />
+		<name lang="en" value="MTB scale" />
+		<cat id="mtb_scale" />
+	</layer>
 	<layer id="l_national_park_pattern" enabled="false">
 		<name lang="cs" value="Plocha národních parků" />
 		<name lang="en" value="National park area" />
@@ -51,7 +56,15 @@
 		<overlay id="l_hike_symbol_nodes" />
 		<overlay id="l_guidepost" />
 		<overlay id="l_bike_lines" />
+		<overlay id="l_mtb_scale" />
 		<overlay id="l_piste_nordic" />
+		<overlay id="l_national_park_pattern" />
+	</layer>
+	<layer id="default" visible="true">
+		<name lang="cs" value="Cyklo vrstvy" />
+		<name lang="en" value="Bicycle layers" />
+		<overlay id="l_bike_lines" />
+		<overlay id="l_mtb_scale" />
 		<overlay id="l_national_park_pattern" />
 	</layer>
 	<layer id="osm" visible="true">
