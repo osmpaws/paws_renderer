@@ -247,6 +247,9 @@
 			<rule e="way" k="natural" v="sand">
 				<area fill="#ddbb55" />
 			</rule>
+			<rule e="way" k="natural" v="scree">
+				<area src="file:/patterns/scree.png" />
+			</rule>
 			<rule e="way" k="natural" v="heath">
 				<area fill="#ffffc0" stroke="#ffff90" stroke-width="0.3" />
 			</rule>
