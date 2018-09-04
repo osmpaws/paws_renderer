@@ -60,7 +60,7 @@
 		<overlay id="l_piste_nordic" />
 		<overlay id="l_national_park_pattern" />
 	</layer>
-	<layer id="default" visible="true">
+	<layer id="bicycle" visible="true">
 		<name lang="cs" value="Cyklo vrstvy" />
 		<name lang="en" value="Bicycle layers" />
 		<overlay id="l_bike_lines" />

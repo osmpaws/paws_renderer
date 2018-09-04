@@ -487,10 +487,6 @@ photovoltaic:
   shield:
     fill: "#2222a2"
     opacity: 0.25
-scree:
-  fill: "#35281E"
-  shield:
-    fill: "#D2B48C"
 vineyard:
   fill: "#000000"
   shield:

@@ -2,23 +2,23 @@
 <rendertheme xmlns="http://mapsforge.org/renderTheme" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://mapsforge.org/renderTheme ../renderTheme.xsd" version="1" map-background="#f8f8f8">
 	
-	<!--#r00002b00057#-->
+	<!--#r00003b00072#-->
 
 	<!--style#v4#setup-->
 	
-	<!-- This part comes from  
-	  andromaps_hc V3
-          by Christian Kernbeis / www.openandromaps.org
-          
-          That theme was licensed under a Creative Commons 
-          Attribution-NonCommercial-ShareAlike 3.0 Unported License:
-          http://creativecommons.org/licenses/by-nc-sa/3.0/
-          
-          and is taken to this theme to be possibly used with openandromaps
-          while this theme was designed only for continental states.
-          Please visit http://www.openandromaps.org for more info.
-         -->
-        <!-- render land above water -->
+	<!-- This part comes from
+		andromaps_hc V3
+		by Christian Kernbeis / www.openandromaps.org
+		
+		That theme was licensed under a Creative Commons 
+		Attribution-NonCommercial-ShareAlike 3.0 Unported License:
+		http://creativecommons.org/licenses/by-nc-sa/3.0/
+		
+		and is taken to this theme to be possibly used with openandromaps
+		while this theme was designed only for continental states.
+		Please visit http://www.openandromaps.org for more info.
+	-->
+	<!-- render land above water -->
 	<rule e="way" k="natural" v="*">
 		<rule e="way" k="natural" v="sea">
 			<area fill="#b5d6f1" />
@@ -30,9 +30,9 @@
 	<!-- end of sea rules from andromaps_hc theme-->
 	
 	<!-- Images used by this theme comes from osmic project which provides icons related to OSM under a CC0 license 
-	     https://github.com/gmgeo/osmic 
-	     Some icons are made by me, but they went through the programs enclosed to osmic icons. Of course these icons are also provided under the CC0 license.
-	 -->
+		https://github.com/gmgeo/osmic 
+		Some icons are made by me, but they went through the programs enclosed to osmic icons. Of course these icons are also provided under the CC0 license.
+	-->
 	<!-- captions -->
 	<!-- ways -->
 	<rule e="any" k="*" v="*">
@@ -41,10 +41,10 @@
 			<pathText k="name" font-family="serif" font-style="bold_italic" font-size="17.00" fill="#40aa40" stroke="#ffffff" stroke-width="3.00" />
 		</rule>		
 		<rule e="any" k="landuse" v="reservoir|basin" zoom-min="14">
-			<caption k="name" font-family="serif" font-style="italic" font-size="20.00" fill="#5576d1" stroke="#e0e0f0" stroke-width="3.70" />
+			<caption k="name" font-family="serif" font-style="italic" font-size="17.00" fill="#5576d1" stroke="#e0e0f0" stroke-width="3.00" />
 		</rule>		
 		<rule e="any" k="natural" v="water" zoom-min="14">
-			<caption k="name" font-family="serif" font-style="italic" font-size="20.00" fill="#5576d1" stroke="#e0e0f0" stroke-width="3.70" />
+			<caption k="name" font-family="serif" font-style="italic" font-size="17.00" fill="#5576d1" stroke="#e0e0f0" stroke-width="3.00" />
 		</rule>
 		<rule e="any" k="amenity" v="restaurant|pub|bar|cafe" zoom-min="18">
 			<caption k="name" dy="-23.00" font-style="bold_italic" font-size="17.00" fill="#804040" stroke="#ffffff" stroke-width="3.00" />
@@ -60,22 +60,22 @@
 		<!-- natural -->
 		<rule e="way" k="natural" v="*">
 			<rule e="way" k="natural" v="coastline">
-			    <rule e="way" k="*" v="*" closed="no">
+				 <rule e="way" k="*" v="*" closed="no">
 				<line stroke="#708599" stroke-width="0.40" />
-			    </rule>
-			    <rule e="way" k="*" v="*" closed="yes">
+				 </rule>
+				 <rule e="way" k="*" v="*" closed="yes">
 				<!-- <area fill="#b5d6f1" stroke="#b5d6f1" stroke-width="0.60" /> -->
 				<area fill="#f9f9f9" stroke="#f9f9f9" stroke-width="0.60" />
-			    </rule>
+				 </rule>
 			</rule>
 			<rule e="way" k="natural" v="glacier">
-			    <area fill="#fafaff" stroke="#add8e6" stroke-width="1.20" />
+				 <area fill="#fafaff" stroke="#add8e6" stroke-width="1.20" />
 			</rule>
 			<rule e="way" k="natural" v="land">
-			    <area fill="#f8f8f8" stroke="#e0e0e0" stroke-width="0.10" />
+				 <area fill="#f8f8f8" stroke="#e0e0e0" stroke-width="0.10" />
 			</rule>
 			<rule e="way" k="natural" v="grassland">
-			    <area fill="#eeffbb" stroke="#77dd66" stroke-width="0.10" />
+				 <area fill="#eeffbb" stroke="#77dd66" stroke-width="0.10" />
 			</rule>
 		</rule>
 		
@@ -246,6 +246,9 @@
 			</rule>
 			<rule e="way" k="natural" v="sand">
 				<area fill="#ddbb55" />
+			</rule>
+			<rule e="way" k="natural" v="scree">
+				<area src="file:/patterns/scree.png" />
 			</rule>
 			<rule e="way" k="natural" v="heath">
 				<area fill="#ffffc0" stroke="#ffff90" stroke-width="0.30" />
@@ -457,78 +460,78 @@
 		</rule>
 	</rule>
 
-        <!-- contour lines level 12 -->
-        <rule e="way" k="contour_ext" v="*" zoom-min="12" zoom-max="12">
-           <rule e="way" k="contour_ext" v="elevation_minor">
-              <line stroke="#60800010" stroke-width="0.30" />
-           </rule>
-           <rule e="way" k="contour_ext" v="elevation_medium|elevation_major">
-              <line stroke="#60800000" stroke-width="0.90" />
-           </rule>
-        </rule>
-        <!-- contour lines level 13 -->
-        <rule e="way" k="contour_ext" v="*" zoom-min="13" zoom-max="13">
-           <rule e="way" k="contour_ext" v="elevation_minor">
-              <line stroke="#60800000" stroke-width="0.30" />
-           </rule>
-           <rule e="way" k="contour_ext" v="elevation_medium|elevation_major">
-              <line stroke="#60800000" stroke-width="0.70" />
-           </rule>
-        </rule>
-        <!-- contour lines level 14-->
-        <rule e="way" k="contour_ext" v="*" zoom-min="14" zoom-max="14">
-           <rule e="way" k="contour_ext" v="elevation_minor">
-              <line stroke="#60800000" stroke-width="0.22" />
-           </rule>
-           <rule e="way" k="contour_ext" v="elevation_medium|elevation_major">
-              <line stroke="#60800000" stroke-width="0.60" />
-              <rule e="way" k="*" v="*">
-                 <pathText k="ele" font-style="bold" font-size="14.00" fill="#bb7755" stroke="#ffffff" stroke-width="2.00" />
-              </rule>
-           </rule>
-        </rule>
-        <!-- contour lines level 15-->
-        <rule e="way" k="contour_ext" v="*" zoom-min="15" zoom-max="15">
-           <rule e="way" k="contour_ext" v="elevation_minor" zoom-max="15">
-              <line stroke="#60800000" stroke-width="0.18" />
-           </rule>
-           <rule e="way" k="contour_ext" v="elevation_medium|elevation_major">
-              <line stroke="#60800000" stroke-width="0.40" />
-              <rule e="way" k="*" v="*">
-                 <pathText k="ele" font-style="bold" font-size="14.00" fill="#bb7755" stroke="#ffffff" stroke-width="2.00" />
-              </rule>
-           </rule>
-        </rule>
-        <!-- contour lines level 16 -->
-        <rule e="way" k="contour_ext" v="*" zoom-min="16" zoom-max="16">
-           <rule e="way" k="contour_ext" v="elevation_minor">
-              <line stroke="#60800000" stroke-width="0.12" />
-           </rule>
-           <rule e="way" k="contour_ext" v="elevation_medium|elevation_major">
-              <line stroke="#60800000" stroke-width="0.30" />
-              <rule e="way" k="*" v="*">
-                 <pathText k="ele" font-style="bold" font-size="14.00" fill="#bb7755" stroke="#ffffff" stroke-width="2.00" />
-              </rule>
-           </rule>
-        </rule>   
-        <!-- contour lines level 17 and above -->
-        <rule e="way" k="contour_ext" v="*" zoom-min="17">
-           <rule e="way" k="contour_ext" v="elevation_minor">
-              <line stroke="#60800000" stroke-width="0.10" />
-           </rule>
-           <rule e="way" k="contour_ext" v="elevation_medium|elevation_major">
-              <line stroke="#60800000" stroke-width="0.22" />
-              <rule e="way" k="*" v="*">
-                 <pathText k="ele" font-style="bold" font-size="14.00" fill="#bb7755" stroke="#ffffff" stroke-width="2.00" />
-              </rule>
-           </rule>
-        </rule>
-        
-        <rule e="way" k="natural" v="water">
+	<!-- contour lines level 12 -->
+	<rule e="way" k="contour_ext" v="*" zoom-min="12" zoom-max="12">
+		<rule e="way" k="contour_ext" v="elevation_minor">
+			<line stroke="#60800010" stroke-width="0.30" />
+		</rule>
+		<rule e="way" k="contour_ext" v="elevation_medium|elevation_major">
+			<line stroke="#60800000" stroke-width="0.90" />
+		</rule>
+	</rule>
+	<!-- contour lines level 13 -->
+	<rule e="way" k="contour_ext" v="*" zoom-min="13" zoom-max="13">
+		<rule e="way" k="contour_ext" v="elevation_minor">
+			<line stroke="#60800000" stroke-width="0.30" />
+		</rule>
+		<rule e="way" k="contour_ext" v="elevation_medium|elevation_major">
+			<line stroke="#60800000" stroke-width="0.70" />
+		</rule>
+	</rule>
+	<!-- contour lines level 14-->
+	<rule e="way" k="contour_ext" v="*" zoom-min="14" zoom-max="14">
+		<rule e="way" k="contour_ext" v="elevation_minor">
+			<line stroke="#60800000" stroke-width="0.22" />
+		</rule>
+		<rule e="way" k="contour_ext" v="elevation_medium|elevation_major">
+			<line stroke="#60800000" stroke-width="0.60" />
+			<rule e="way" k="*" v="*">
+		 <pathText k="ele" font-style="bold" font-size="14.00" fill="#bb7755" stroke="#ffffff" stroke-width="2.00" />
+			</rule>
+		</rule>
+	</rule>
+	<!-- contour lines level 15-->
+	<rule e="way" k="contour_ext" v="*" zoom-min="15" zoom-max="15">
+		<rule e="way" k="contour_ext" v="elevation_minor" zoom-max="15">
+			<line stroke="#60800000" stroke-width="0.18" />
+		</rule>
+		<rule e="way" k="contour_ext" v="elevation_medium|elevation_major">
+			<line stroke="#60800000" stroke-width="0.40" />
+			<rule e="way" k="*" v="*">
+		 <pathText k="ele" font-style="bold" font-size="14.00" fill="#bb7755" stroke="#ffffff" stroke-width="2.00" />
+			</rule>
+		</rule>
+	</rule>
+	<!-- contour lines level 16 -->
+	<rule e="way" k="contour_ext" v="*" zoom-min="16" zoom-max="16">
+		<rule e="way" k="contour_ext" v="elevation_minor">
+			<line stroke="#60800000" stroke-width="0.12" />
+		</rule>
+		<rule e="way" k="contour_ext" v="elevation_medium|elevation_major">
+			<line stroke="#60800000" stroke-width="0.30" />
+			<rule e="way" k="*" v="*">
+		 <pathText k="ele" font-style="bold" font-size="14.00" fill="#bb7755" stroke="#ffffff" stroke-width="2.00" />
+			</rule>
+		</rule>
+	</rule>	
+	<!-- contour lines level 17 and above -->
+	<rule e="way" k="contour_ext" v="*" zoom-min="17">
+		<rule e="way" k="contour_ext" v="elevation_minor">
+			<line stroke="#60800000" stroke-width="0.10" />
+		</rule>
+		<rule e="way" k="contour_ext" v="elevation_medium|elevation_major">
+			<line stroke="#60800000" stroke-width="0.22" />
+			<rule e="way" k="*" v="*">
+		 <pathText k="ele" font-style="bold" font-size="14.00" fill="#bb7755" stroke="#ffffff" stroke-width="2.00" />
+			</rule>
+		</rule>
+	</rule>
+	
+	<rule e="way" k="natural" v="water">
 		<area fill="#b5d6f1" />
 	</rule>
-        
-        <rule e="way" k="landuse" v="reservoir|basin">
+	
+	<rule e="way" k="landuse" v="reservoir|basin">
 		<area fill="#b5d6f1" />
 	</rule>
 
@@ -540,12 +543,12 @@
 			<rule e="way" k="waterway" v="dam" closed="no">
 				<line stroke="#000000" stroke-width="0.70" />
 			</rule>
-			<rule e="way" k="waterway" v="dam"  closed="yes">
+			<rule e="way" k="waterway" v="dam" closed="yes">
 				<area fill="#777777" stroke="#000000" stroke-width="0.70" />
 			</rule>
 			<rule e="way" k="waterway" v="weir">
 				<line stroke="#000044" stroke-width="0.60" />
-				<caption k="name" font-family="serif" font-style="bold_italic" font-size="18.00" fill="#5576d1" stroke="#a0a090" stroke-width="1.00" />
+				<caption k="name" font-family="serif" font-style="bold_italic" font-size="18.00" fill="#a0a090" stroke="#5576d1" stroke-width="1.00" />
 			</rule>
 			<rule e="way" k="lock" v="yes|true">
 				<line stroke="#000000" stroke-width="3.00" stroke-linecap="butt" />
@@ -883,6 +886,8 @@
 				</rule>
 			</rule>
 		</rule>
+		
+		<!--mtb#scale-->
 		
 		<!--hiking#lines#high#zoom#4-->
 		
@@ -1498,11 +1503,6 @@
 			<area fill="#559900" stroke="#707070" stroke-width="0.70" />
 		</rule>
 
-		<!-- place -->
-		<rule e="way" k="place" v="locality" zoom-min="17">
-			<caption k="name" font-family="serif" font-style="italic" font-size="17.00" fill="#000000" stroke="#ffffff" stroke-width="3.00" />
-		</rule>
-
 		<!-- barriers -->
 		<rule e="way" k="barrier" v="*">
 			<rule e="way" k="barrier" v="fence|wall|city_wall" zoom-min="12">
@@ -1514,8 +1514,8 @@
 			</rule>
 		</rule>
 	</rule>
-	
-	<!-- historic -->	
+
+	<!-- historic -->
 	<!--historic castle-->
 	<rule e="any" k="historic" v="castle" zoom-min="13">
 		<rule e="any" k="ruins" v="~|no">
@@ -1545,7 +1545,7 @@
 			<circle r="6.00" fill="#a0a0ff" stroke="#006060" stroke-width="2.20" />
 		</rule>
 		<rule e="any" k="*" v="*" zoom-min="17">
-			<caption k="name" dy="-22.50" font-style="bold" font-size="17.00" fill="#40ff40" stroke="#ffffff" stroke-width="3.00" />
+			<caption k="name" dy="-22.50" font-style="bold" font-size="17.00" fill="#40cc40" stroke="#ffffff" stroke-width="3.00" />
 		</rule>	
 		<rule e="any" k="historic" v="memorial" zoom-min="16">
 			<symbol src="file:/symbols/memorial.png" />
@@ -1688,7 +1688,7 @@
 		<!-- waterways -->
 		<rule e="node" k="waterway" v="*">
 			<rule e="node" k="waterway" v="weir" zoom-min="15">
-				<circle r="6.00" fill="#b5d6f1" stroke="#000044" stroke-width="2.20" />
+				<circle r="6.00" fill="#000044" stroke="#b5d6f1" stroke-width="2.20" />
 				<caption k="name" font-family="serif" font-style="bold_italic" font-size="18.00" fill="#5576d1" stroke="#707080" stroke-width="2.70" />
 			</rule>
 		</rule>
@@ -1811,26 +1811,29 @@
 		</rule>
 		<!-- place -->
 		<rule e="node" k="place" v="*">
-			<rule e="node" k="place" v="country" zoom-max="6">
-				<caption k="name" font-style="bold" font-size="40.00" fill="#000000" stroke="#ffffff" stroke-width="8.00" />
+			<rule e="node" k="place" v="locality" zoom-min="15">
+				<caption k="name" font-family="serif" font-style="italic" font-size="15.00" fill="#555555" stroke="#ffffff" stroke-width="2.00" />
+			</rule>
+			<rule e="node" k="place" v="hamlet" zoom-min="13">
+				<caption k="name" font-style="bold" font-size="19.00" fill="#000000" stroke="#a0ffffff" stroke-width="6.00" />
+			</rule>
+			<rule e="node" k="place" v="suburb|village" zoom-min="10">
+				<caption k="name" font-style="bold" font-size="22.00" fill="#000000" stroke="#a0ffffff" stroke-width="6.00" />
+			</rule>
+			<rule e="node" k="place" v="town" zoom-min="9">
+				<caption k="name" font-style="bold" font-size="25.00" fill="#000000" stroke="#a0ffffff" stroke-width="7.00" />
 			</rule>
 			<rule e="node" k="place" v="island" zoom-min="10">
 				<caption k="name" font-style="bold" font-size="28.00" fill="#000000" stroke="#ffffff" stroke-width="7.00" />
 			</rule>
 			<rule e="node" k="place" v="city" zoom-max="15">
-				<caption k="name" font-style="bold" font-size="30.00" fill="#000000" stroke="#ffffff" stroke-width="8.00" />
+				<caption k="name" font-style="bold" font-size="30.00" fill="#000000" stroke="#a0ffffff" stroke-width="8.00" />
 			</rule>
-			<rule e="node" k="place" v="town" zoom-min="9">
-				<caption k="name" font-style="bold" font-size="25.00" fill="#000000" stroke="#ffffff" stroke-width="7.00" />
+			<rule e="node" k="place" v="city" zoom-min="16">
+				<caption k="name" font-style="bold" font-size="25.00" fill="#000000" stroke="#a0ffffff" stroke-width="7.00" />
 			</rule>
-			<rule e="node" k="place" v="suburb|village" zoom-min="10">
-				<caption k="name" font-style="bold" font-size="22.00" fill="#000000" stroke="#ffffff" stroke-width="6.00" />
-			</rule>
-			<rule e="node" k="place" v="hamlet" zoom-min="13">
-				<caption k="name" font-style="bold" font-size="19.00" fill="#000000" stroke="#ffffff" stroke-width="6.00" />
-			</rule>
-			<rule e="node" k="place" v="locality" zoom-min="14">
-				<caption k="name" font-family="serif" font-style="italic" font-size="17.00" fill="#555555" stroke="#ffffff" stroke-width="3.00" />
+			<rule e="node" k="place" v="country" zoom-max="6">
+				<caption k="name" font-style="bold" font-size="40.00" fill="#000000" stroke="#ffffff" stroke-width="8.00" />
 			</rule>
 		</rule>
 	</rule>
@@ -1884,6 +1887,12 @@
 		</rule>
 		<rule e="way" k="osmc_foreground" v="black_bar">
 			<lineSymbol src="file:/osmc-symbols/blue_black_bar.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="green_bowl">
+			<lineSymbol src="file:/osmc-symbols/blue_green_bowl.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="orange_bowl">
+			<lineSymbol src="file:/osmc-symbols/blue_orange_bowl.png" align-center="false" repeat="true" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="yellow_circle">
 			<lineSymbol src="file:/osmc-symbols/blue_yellow_circle.png" align-center="false" repeat="true" />
@@ -1972,6 +1981,9 @@
 		<rule e="way" k="osmc_foreground" v="mine">
 			<lineSymbol src="file:/osmc-symbols/blue_mine.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="red_pointer">
+			<lineSymbol src="file:/osmc-symbols/blue_red_pointer.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="yellow_pointer">
 			<lineSymbol src="file:/osmc-symbols/blue_yellow_pointer.png" align-center="false" repeat="true" />
 		</rule>
@@ -1983,6 +1995,9 @@
 		</rule>
 		<rule e="way" k="osmc_foreground" v="white_rectangle">
 			<lineSymbol src="file:/osmc-symbols/blue_white_rectangle.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="black_rectangle">
+			<lineSymbol src="file:/osmc-symbols/blue_black_rectangle.png" align-center="false" repeat="true" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="rectangle">
 			<lineSymbol src="file:/osmc-symbols/blue_rectangle.png" align-center="false" repeat="true" />
@@ -2236,6 +2251,18 @@
 		<rule e="way" k="osmc_foreground" v="brown_circle">
 			<lineSymbol src="file:/osmc-symbols/brown_frame_brown_circle.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="red_triangle">
+			<lineSymbol src="file:/osmc-symbols/brown_frame_red_triangle.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="yellow_triangle">
+			<lineSymbol src="file:/osmc-symbols/brown_frame_yellow_triangle.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="blue_triangle">
+			<lineSymbol src="file:/osmc-symbols/brown_frame_blue_triangle.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="green_triangle">
+			<lineSymbol src="file:/osmc-symbols/brown_frame_green_triangle.png" align-center="false" repeat="true" />
+		</rule>
 	</rule>
 <!--OSMC symbols red_frame background-->
 	<rule e="way" k="osmc_background" v="red_frame" zoom-min="15">
@@ -2400,6 +2427,9 @@
 		</rule>
 		<rule e="way" k="osmc_foreground" v="white_hiker">
 			<lineSymbol src="file:/osmc-symbols/blue_round_white_hiker.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="white_pointer">
+			<lineSymbol src="file:/osmc-symbols/blue_round_white_pointer.png" align-center="false" repeat="true" />
 		</rule>
 	</rule>
 <!--OSMC symbols brown_circle background-->
@@ -2635,6 +2665,9 @@
 		<rule e="way" k="osmc_foreground" v="black_triangle">
 			<lineSymbol src="file:/osmc-symbols/yellow_black_triangle.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="orange_triangle">
+			<lineSymbol src="file:/osmc-symbols/yellow_orange_triangle.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="white_x">
 			<lineSymbol src="file:/osmc-symbols/yellow_white_x.png" align-center="false" repeat="true" />
 		</rule>
@@ -2655,6 +2688,9 @@
 		</rule>
 		<rule e="way" k="osmc_foreground" v="white_bar">
 			<lineSymbol src="file:/osmc-symbols/green_frame_white_bar.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="green_bowl">
+			<lineSymbol src="file:/osmc-symbols/green_frame_green_bowl.png" align-center="false" repeat="true" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="black_cross">
 			<lineSymbol src="file:/osmc-symbols/green_frame_black_cross.png" align-center="false" repeat="true" />
@@ -2704,6 +2740,9 @@
 		<rule e="way" k="osmc_foreground" v="green_dot">
 			<lineSymbol src="file:/osmc-symbols/yellow_frame_green_dot.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="yellow_pointer">
+			<lineSymbol src="file:/osmc-symbols/yellow_frame_yellow_pointer.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="red_rectangle">
 			<lineSymbol src="file:/osmc-symbols/yellow_frame_red_rectangle.png" align-center="false" repeat="true" />
 		</rule>
@@ -2736,6 +2775,12 @@
 	<rule e="way" k="osmc_background" v="none" zoom-min="15">
 		<rule e="way" k="osmc_foreground" v="~">
 			<lineSymbol src="file:/osmc-symbols/osmcbg_none.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="yellow_bar">
+			<lineSymbol src="file:/osmc-symbols/none_yellow_bar.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="orange_bar">
+			<lineSymbol src="file:/osmc-symbols/none_orange_bar.png" align-center="false" repeat="true" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="yellow_diamond">
 			<lineSymbol src="file:/osmc-symbols/none_yellow_diamond.png" align-center="false" repeat="true" />
@@ -2983,6 +3028,9 @@
 		<rule e="way" k="osmc_foreground" v="white_hiker">
 			<lineSymbol src="file:/osmc-symbols/red_round_white_hiker.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="white_pointer">
+			<lineSymbol src="file:/osmc-symbols/red_round_white_pointer.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="white_rectangle">
 			<lineSymbol src="file:/osmc-symbols/red_round_white_rectangle.png" align-center="false" repeat="true" />
 		</rule>
@@ -3057,6 +3105,9 @@
 		</rule>
 		<rule e="way" k="osmc_foreground" v="white_hiker">
 			<lineSymbol src="file:/osmc-symbols/red_white_hiker.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="black_hiker">
+			<lineSymbol src="file:/osmc-symbols/red_black_hiker.png" align-center="false" repeat="true" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="hiker">
 			<lineSymbol src="file:/osmc-symbols/red_hiker.png" align-center="false" repeat="true" />
@@ -3183,6 +3234,9 @@
 		</rule>
 		<rule e="way" k="osmc_foreground" v="white_bar">
 			<lineSymbol src="file:/osmc-symbols/blue_frame_white_bar.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="blue_bowl">
+			<lineSymbol src="file:/osmc-symbols/blue_frame_blue_bowl.png" align-center="false" repeat="true" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="hiker">
 			<lineSymbol src="file:/osmc-symbols/blue_frame_hiker.png" align-center="false" repeat="true" />
@@ -3324,6 +3378,9 @@
 		</rule>
 		<rule e="way" k="osmc_foreground" v="brown_circle">
 			<lineSymbol src="file:/osmc-symbols/white_brown_circle.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="purple_circle">
+			<lineSymbol src="file:/osmc-symbols/white_purple_circle.png" align-center="false" repeat="true" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="orange_circle">
 			<lineSymbol src="file:/osmc-symbols/white_orange_circle.png" align-center="false" repeat="true" />
@@ -3952,6 +4009,9 @@
 		<rule e="way" k="osmc_foreground" v="white_right">
 			<lineSymbol src="file:/osmc-symbols/green_white_right.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="shell">
+			<lineSymbol src="file:/osmc-symbols/green_shell.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="blue_slash">
 			<lineSymbol src="file:/osmc-symbols/green_blue_slash.png" align-center="false" repeat="true" />
 		</rule>
@@ -4008,6 +4068,9 @@
 		</rule>
 		<rule e="way" k="osmc_foreground" v="white_dot">
 			<lineSymbol src="file:/osmc-symbols/green_round_white_dot.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="white_pointer">
+			<lineSymbol src="file:/osmc-symbols/green_round_white_pointer.png" align-center="false" repeat="true" />
 		</rule>
 	</rule>
 <!--OSMC symbols red_circle background-->
@@ -4075,8 +4138,20 @@
 		<rule e="way" k="osmc_foreground" v="orange_bar">
 			<lineSymbol src="file:/osmc-symbols/brown_orange_bar.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="red_bowl">
+			<lineSymbol src="file:/osmc-symbols/brown_red_bowl.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="yellow_bowl">
+			<lineSymbol src="file:/osmc-symbols/brown_yellow_bowl.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="green_bowl">
+			<lineSymbol src="file:/osmc-symbols/brown_green_bowl.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="yellow_circle">
 			<lineSymbol src="file:/osmc-symbols/brown_yellow_circle.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="green_circle">
+			<lineSymbol src="file:/osmc-symbols/brown_green_circle.png" align-center="false" repeat="true" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="white_circle">
 			<lineSymbol src="file:/osmc-symbols/brown_white_circle.png" align-center="false" repeat="true" />
