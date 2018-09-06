@@ -2,7 +2,7 @@
 <rendertheme xmlns="http://mapsforge.org/renderTheme" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://mapsforge.org/renderTheme ../renderTheme.xsd" version="1" map-background="#f8f8f8">
 	
-	<!--#r00003b00072#-->
+	<!--#r00004b00076#-->
 
 	<!--style#v4#setup-->
 	
@@ -1688,8 +1688,8 @@
 		<!-- waterways -->
 		<rule e="node" k="waterway" v="*">
 			<rule e="node" k="waterway" v="weir" zoom-min="15">
-				<circle r="6.0" fill="#000044" stroke="#b5d6f1" stroke-width="2.2" />
-				<caption k="name" font-family="serif" font-style="bold_italic" font-size="18.0" fill="#5576d1" stroke="#707080" stroke-width="2.7" />
+				<circle r="6.0" fill="#b5d6f1" stroke="#000044" stroke-width="2.2" />
+				<caption k="name" font-family="serif" font-style="bold_italic" font-size="18.0" fill="#707080" stroke="#5576d1" stroke-width="2.7" />
 			</rule>
 		</rule>
 		

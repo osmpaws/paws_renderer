@@ -1,14 +1,14 @@
 			<!--mtb#scale-->
-			<rule cat="mtb_scale" e="way" k="mtb:scale" v="0">
+			<rule cat="mtb_scale" e="way" k="mtb:scale" v="0|0-|0+">
 				<line stroke="#3040ff40" stroke-width="4.0" stroke-linecap="butt" />
 			</rule>
-			<rule cat="mtb_scale" e="way" k="mtb:scale" v="1">
+			<rule cat="mtb_scale" e="way" k="mtb:scale" v="1|1-|1+">
 				<line stroke="#30ff4040" stroke-width="4.0" stroke-linecap="butt" />
 			</rule>
-			<rule cat="mtb_scale" e="way" k="mtb:scale" v="2">
+			<rule cat="mtb_scale" e="way" k="mtb:scale" v="2|2-|2+">
 				<line stroke="#30ff4040" stroke-width="4.0" stroke-linecap="butt" />
 			</rule>
-			<rule cat="mtb_scale" e="way" k="mtb:scale" v="3">
+			<rule cat="mtb_scale" e="way" k="mtb:scale" v="3|3-|3+">
 				<line stroke="#30505040" stroke-width="4.0" stroke-linecap="butt" />
 			</rule>
 			<rule cat="mtb_scale" e="way" k="mtb:scale" v="4">
