@@ -4,6 +4,12 @@
 # output is what can be rendered but miss in map file -- first block
 #  what is in map and is not rendered (some can be false) -- second and third block
 
+if [ $# -lt "2" ]; then
+	echo "input files missing"
+	echo "usage: $0 tag-mapping.xml paws.xml"
+	exit 1
+fi
+
 tmwtf="tmw.tmp"
 tmntf="tmn.tmp"
 mxtf="mx.tmp"
@@ -21,6 +27,7 @@ SAVEIFS=$IFS
 
 ways=" "
 pois=" "
+echo "In render rules, not in map file:"
 while read okey ovalue otype; do
 	key=`echo "$okey" | cut -d '"' -f2`
 	value=`echo "$ovalue" | cut -d '"' -f2`
@@ -83,7 +90,7 @@ while read okey ovalue otype; do
 			if [ $counter -eq 0 ]; then
 				echo "- $k=$v $type http://taginfo.openstreetmap.org/tags/$k=$v"
 			fi
-		done		
+		done
 		
 	done
 done < $mxtf
@@ -95,6 +102,7 @@ done < $mxtf
 pois="$pois "
 ways="$ways "
 echo $lineseparator
+echo "Not in render rules, present in map file:"
 pois=`echo $pois | tr ' ' '\n' | sort -un | tr '\n' ' '`
 counter=1
 while read line; do

@@ -442,6 +442,12 @@ noexit:
     stroke_width: 0.5
     rounded: 3
     opacity: 0.5
+emergency-phone:
+  fill: "#ff0000"
+  halo:
+    fill: "#ffffff"
+    width: 1
+    opacity: 1.0
 #patterns
 access-destination:
   fill: "#0000ff"
