@@ -450,6 +450,12 @@ emergency-phone:
     fill: "#ffffff"
     width: 1
     opacity: 1.0
+bad-surface:
+  fill: "#ffdb00"
+  opacity: 0.25
+  shield:
+    fill: "#000000"
+    opacity: 0.25
 #patterns
 access-destination:
   fill: "#0000ff"

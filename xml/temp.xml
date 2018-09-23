@@ -2,7 +2,7 @@
 <rendertheme xmlns="http://mapsforge.org/renderTheme" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://mapsforge.org/renderTheme ../renderTheme.xsd" version="1" map-background="#f8f8f8">
 	
-	<!--#r00005b00077#-->
+	<!--#r00005b00096#-->
 
 	<!--style#v4#setup-->
 	
@@ -1111,6 +1111,8 @@
 						</rule>
 					</rule>
 
+					<!--#restriction#-->
+					<!--restrictions-->
 					<rule e="way" k="highway" v="*" zoom-min="16">
 						<rule e="way" k="access" v="destination">
 							<line src="file:/patterns/access_destination.png" stroke-width="2.5" />
@@ -1192,10 +1194,18 @@
 			</rule-->
 		</rule>
 		
+		<!--hiking#restrictions-->
+		<!--hiking restrictions-->
 		<rule e="way" k="foot" v="no">
 			<line src="file:/patterns/access_no_foot.png" stroke-width="2.2" />
 		</rule>
+		
 		<!--biking#restrictions-->
+		<!--biking restrictions-->
+		<rule e="way" k="bike|bicycle" v="no">
+			<line src="file:/patterns/access_no_bike.png" stroke-width="2.2" />
+			<lineSymbol src="file:/symbols/no_bicycle.png" />
+		</rule>
 		
 		<!--State and region boundaries-->
 		<rule e="way" k="admin_level" v="2">
@@ -1241,11 +1251,11 @@
 		<rule e="way" k="man_made" v="*">
 			<rule e="node" k="man_made" v="chimney" zoom-min="17">
 				<rule e="way" k="man_made" v="chimney" closed="no">
-					<line fill="#000000" stroke="#d5a655" stroke-width="3" />
-				<rule>
+					<line stroke="#d5a655" stroke-width="3" />
+				</rule>
 				<rule e="way" k="man_made" v="chimney" closed="yes">
 					<area fill="#000000" stroke="#d5a655" stroke-width="3" />
-				<rule>
+				</rule>
 			</rule>
 			<rule e="way" k="man_made" v="pier">
 				<rule e="way" k="*" v="*" closed="no">
@@ -1862,6 +1872,9 @@
 		<rule e="way" k="osmc_foreground" v="yellow_bar">
 			<lineSymbol src="file:/osmc-symbols/yellow_circle_yellow_bar.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="red_circle">
+			<lineSymbol src="file:/osmc-symbols/yellow_circle_red_circle.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="yellow_dot">
 			<lineSymbol src="file:/osmc-symbols/yellow_circle_yellow_dot.png" align-center="false" repeat="true" />
 		</rule>
@@ -2014,6 +2027,9 @@
 		</rule>
 		<rule e="way" k="osmc_foreground" v="yellow_shell_modern">
 			<lineSymbol src="file:/osmc-symbols/blue_yellow_shell_modern.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="orange_shell_modern">
+			<lineSymbol src="file:/osmc-symbols/blue_orange_shell_modern.png" align-center="false" repeat="true" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="shell_modern">
 			<lineSymbol src="file:/osmc-symbols/blue_shell_modern.png" align-center="false" repeat="true" />
@@ -4454,7 +4470,7 @@
 		
 		<!-- emergency -->
 		<rule e="any" k="emergency" v="*">
-			<rule e="any" k="emergency" v="phone" zoom-min="17">
+			<rule e="any" k="emergency" v="phone" zoom-min="16">
 				<symbol src="file:/symbols/emergency_phone.png" />
 			</rule>
 		</rule>

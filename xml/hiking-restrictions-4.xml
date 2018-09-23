@@ -1,0 +1,4 @@
+		<!--hiking restrictions-->
+		<rule e="way" k="foot" v="no">
+			<lineSymbol src="file:/symbols/access_no_foot.png" repeat-start="5" repeat-gap="10" align-center="true" repeat="true"/>
+		</rule>

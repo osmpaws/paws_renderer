@@ -154,6 +154,7 @@
 		<osm-tag key="osmc_foreground" value="orange_pointer" renderable="false" />
 		<osm-tag key="osmc_foreground" value="orange_rectangle" renderable="false" />
 		<osm-tag key="osmc_foreground" value="orange_right" renderable="false" />
+		<osm-tag key="osmc_foreground" value="orange_shell_modern" renderable="false" />
 		<osm-tag key="osmc_foreground" value="orange_stripe" renderable="false" />
 		<osm-tag key="osmc_foreground" value="orange_triangle" renderable="false" />
 		<osm-tag key="osmc_foreground" value="orange_wheel" renderable="false" />

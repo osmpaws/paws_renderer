@@ -1,0 +1,9 @@
+					<!--restrictions-->
+					<rule e="way" k="highway" v="*" zoom-min="16" >
+						<rule e="way" k="access" v="destination" >
+							<lineSymbol src="file:/symbols/access_destination.png" repeat-start="0" repeat-gap="10" align-center="true" repeat="true"/>
+						</rule>
+						<rule e="way" k="access" v="private" >
+							<lineSymbol src="file:/symbols/access_private.png" repeat-start="2" repeat-gap="10" align-center="true" repeat="true"/>
+						</rule>
+					</rule>

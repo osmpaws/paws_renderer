@@ -213,6 +213,7 @@ do
 		       -e "/<!--piste#nordic-->/r $root/xml/piste-nordic-4.xml" \
 		       -e "/<!--mapper#pois-->/r $root/xml/mapper-4.xml" \
 		       -e "/<!--#guidepost#-->/r $root/xml/guidepost-4.xml" \
+		       -e "/<!--#restriction#-->/r $root/xml/restrictions-4.xml" \
 		       -e "s/<!--#version#-->/<!--#r${releasestr}b${buildstr}#-->/" $root/xml/$tempxml
 	else
 		cp $root/xml/$basexml $root/xml/$tempxml
@@ -220,6 +221,7 @@ do
 ###		      /<!--#guidepost#-->/r $root/xml/$gp" >> $themename_$sedfile
 		sed -i -e "/<!--piste#nordic-->/r $root/xml/piste-nordic.xml" \
 		       -e "/<!--#guidepost#-->/r $root/xml/guidepost.xml" \
+		       -e "/<!--#restriction#-->/r $root/xml/restrictions.xml" \
 		       -e "s/<!--#version#-->/<!--#r${releasestr}b${buildstr}#-->/" $root/xml/$tempxml
 	fi
 	
@@ -231,6 +233,7 @@ do
 			       
 			sed -i -e "/<!--hiking#lines#high#zoom#4-->/r $root/xml/$hlhzx4" \
 			       -e "/<!--hiking#lines#low#zoom-->/r $root/xml/$hllzx4" \
+			       -e "/<!--hiking#restrictions-->/r $root/xml/hiking-restrictions-4.xml" \
 			       -e '/<!--OSMC#symbols-->/r '<(sed 's/k="osmc_background"/cat="hike_symbol_lines" k="osmc_background"/g' `find $root/xml -name 'osmc-symbol-*.xml' -not -name '*-node.xml'`) $root/xml/$tempxml
 			# nodes
 			if [ 1 -eq 1 ]; then
@@ -241,6 +244,7 @@ do
 		else
 			sed -i -e "/<!--hiking#lines#high#zoom-->/r $root/xml/$hlhzx" \
 			       -e "/<!--hiking#lines#low#zoom-->/r $root/xml/$hllzx" \
+			       -e "/<!--hiking#restrictions-->/r $root/xml/hiking-restrictions.xml" \
 			       -e "/<!--OSMC#symbols-->/r "<(cat `find $root/xml -name 'osmc-symbol-*.xml' -not -name '*-node.xml'`) $root/xml/$tempxml
 ###			echo "/<!--hiking#lines#high#zoom-->/r $root/xml/$hlhzx
 ###			      /<!--hiking#lines#low#zoom-->/r $root/xml/$hllzx" >> $themename_$sedfile
@@ -256,6 +260,7 @@ do
 			       -e "/<!--biking#lines#low#zoom-->/r $root/xml/$bllzx4" \
 			       -e "/<!--biking#captions-->/r $root/xml/$bcx4" \
 			       -e "/<!--mtb#scale-->/r $root/xml/$mtbs4" \
+			       -e "/<!--biking#restrictions-->/r $root/xml/biking-restrictions-4.xml" \
 			       -e "/<!--cycleway#lane-->/r $root/xml/$cwl4" $root/xml/$tempxml
 		else
 ###			echo "/<!--biking#lines#high#zoom-->/r $root/xml/$blhzx
@@ -265,6 +270,7 @@ do
 			sed -i -e "/<!--biking#lines#high#zoom-->/r $root/xml/$blhzx" \
 			       -e "/<!--biking#lines#low#zoom-->/r $root/xml/$bllzx" \
 			       -e "/<!--biking#captions-->/r $root/xml/$bcx" \
+			       -e "/<!--biking#restrictions-->/r $root/xml/biking-restrictions.xml" \
 			       -e "/<!--cycleway#lane-->/r $root/xml/$cwl" $root/xml/$tempxml
 		fi
 	fi
@@ -320,9 +326,17 @@ bash $root/tools/svg_theme.sh
 uploadstr=$uploadstr"themes_svg/paws_4.zip,"
 echo -n "themes_svg/paws_4.zip," >> $uploadpath
 
+mkdir -p website
+cp themes_svg/paws_4.zip website
+bash tools/locus_action.sh themes_svg/paws_4.zip > website/la_paws_4.xml
+echo "<a href=locus-actions://http/`hostname -I | sed 's/ //g'`:8000/la_paws_4.xml>paws_4</a><br>" > website/index.html
+
 bash $root/tools/locus_theme.sh
 uploadstr=$uploadstr"themes_svg/paws_4_LE.zip,"
 echo -n "themes_svg/paws_4_LE.zip," >> $uploadpath
+cp themes_svg/paws_4_LE.zip website
+bash tools/locus_action.sh themes_svg/paws_4_LE.zip > website/la_paws_4_LE.xml
+echo "<a href=locus-actions://http/`hostname -I | sed 's/ //g'`:8000/la_paws_4_LE.xml>paws_4_LE</a>" >> website/index.html
 
 if [ "$release" -ne "1" ]; then
 	if [ -f "$jarfile" ] ; then

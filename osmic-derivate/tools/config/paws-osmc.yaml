@@ -450,6 +450,12 @@ emergency-phone:
     fill: "#ffffff"
     width: 1
     opacity: 1.0
+bad-surface:
+  fill: "#ffdb00"
+  opacity: 0.25
+  shield:
+    fill: "#000000"
+    opacity: 0.25
 #patterns
 access-destination:
   fill: "#0000ff"
@@ -1994,6 +2000,14 @@ yellow-black-circle:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+yellow-circle-red-circle:
+  fill: "#ff0000"
+  shield:
+    stroke_fill: "#ffdd00"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 10
+    padding: 2
 yellow-frame-yellow-circle:
   fill: "#ffdd00"
   shield:
@@ -4990,6 +5004,13 @@ yellow-white-right:
     padding: 1
 blue-yellow-shell-modern:
   fill: "#ffdd00"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+blue-orange-shell-modern:
+  fill: "#f96f00"
   shield:
     fill: "#1579e0"
     stroke_fill: "#000000"

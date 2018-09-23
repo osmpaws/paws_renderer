@@ -2,7 +2,7 @@
 <rendertheme xmlns="http://mapsforge.org/renderTheme" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://mapsforge.org/renderTheme ../renderTheme.xsd" version="1" map-background="#f8f8f8">
 	
-	<!--#r00004b00076#-->
+	<!--#r00005b00096#-->
 
 	<!--style#v4#setup-->
 	
@@ -1111,6 +1111,8 @@
 						</rule>
 					</rule>
 
+					<!--#restriction#-->
+					<!--restrictions-->
 					<rule e="way" k="highway" v="*" zoom-min="16">
 						<rule e="way" k="access" v="destination">
 							<line src="file:/patterns/access_destination.png" stroke-width="2.50" />
@@ -1192,10 +1194,18 @@
 			</rule-->
 		</rule>
 		
+		<!--hiking#restrictions-->
+		<!--hiking restrictions-->
 		<rule e="way" k="foot" v="no">
 			<line src="file:/patterns/access_no_foot.png" stroke-width="2.20" />
 		</rule>
+		
 		<!--biking#restrictions-->
+		<!--biking restrictions-->
+		<rule e="way" k="bike|bicycle" v="no">
+			<line src="file:/patterns/access_no_bike.png" stroke-width="2.20" />
+			<lineSymbol src="file:/symbols/no_bicycle.png" />
+		</rule>
 		
 		<!--State and region boundaries-->
 		<rule e="way" k="admin_level" v="2">
@@ -1238,13 +1248,23 @@
 
 
 		<!-- man_made features -->
-		<rule e="way" k="man_made" v="pier">
-			<rule e="way" k="*" v="*" closed="no">
-				<line stroke="#d0d0d0" stroke-width="0.60" stroke-linecap="butt" />
-				<line stroke="#e4e4e4" stroke-width="0.40" stroke-linecap="butt" />
+		<rule e="way" k="man_made" v="*">
+			<rule e="node" k="man_made" v="chimney" zoom-min="17">
+				<rule e="way" k="man_made" v="chimney" closed="no">
+					<line stroke="#d5a655" stroke-width="3.00" />
+				</rule>
+				<rule e="way" k="man_made" v="chimney" closed="yes">
+					<area fill="#000000" stroke="#d5a655" stroke-width="3.00" />
+				</rule>
 			</rule>
-			<rule e="way" k="*" v="*" closed="yes">
-				<area fill="#e4e4e4" stroke="#d0d0d0" stroke-width="0.10" />
+			<rule e="way" k="man_made" v="pier">
+				<rule e="way" k="*" v="*" closed="no">
+					<line stroke="#d0d0d0" stroke-width="0.60" stroke-linecap="butt" />
+					<line stroke="#e4e4e4" stroke-width="0.40" stroke-linecap="butt" />
+				</rule>
+				<rule e="way" k="*" v="*" closed="yes">
+					<area fill="#e4e4e4" stroke="#d0d0d0" stroke-width="0.10" />
+				</rule>
 			</rule>
 		</rule>
 
@@ -1405,7 +1425,7 @@
 					<line stroke="#0f0f4c" stroke-width="0.60" stroke-linecap="butt" />
 					<line stroke="#b7b7e6" stroke-width="0.37" stroke-dasharray="18.00,27.0" stroke-linecap="butt" />
 				</rule>
-				<rule e="way" k="railway" v="light_rail">
+				<rule e="way" k="railway" v="light_rail|spur">
 					<line stroke="#0f4c0f" stroke-width="0.60" stroke-linecap="butt" />
 					<line stroke="#b7e6e6" stroke-width="0.37" stroke-linecap="butt" />
 					<line stroke="#0f4c0f" stroke-width="0.37" stroke-dasharray="18.00,27.0" stroke-linecap="butt" />
@@ -1852,6 +1872,9 @@
 		<rule e="way" k="osmc_foreground" v="yellow_bar">
 			<lineSymbol src="file:/osmc-symbols/yellow_circle_yellow_bar.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="red_circle">
+			<lineSymbol src="file:/osmc-symbols/yellow_circle_red_circle.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="yellow_dot">
 			<lineSymbol src="file:/osmc-symbols/yellow_circle_yellow_dot.png" align-center="false" repeat="true" />
 		</rule>
@@ -2004,6 +2027,9 @@
 		</rule>
 		<rule e="way" k="osmc_foreground" v="yellow_shell_modern">
 			<lineSymbol src="file:/osmc-symbols/blue_yellow_shell_modern.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="orange_shell_modern">
+			<lineSymbol src="file:/osmc-symbols/blue_orange_shell_modern.png" align-center="false" repeat="true" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="shell_modern">
 			<lineSymbol src="file:/osmc-symbols/blue_shell_modern.png" align-center="false" repeat="true" />
@@ -4439,6 +4465,13 @@
 			</rule>
 			<rule e="any" k="sport" v="tennis" zoom-min="17">
 				<symbol src="file:/symbols/tennis.png" />
+			</rule>
+		</rule>
+		
+		<!-- emergency -->
+		<rule e="any" k="emergency" v="*">
+			<rule e="any" k="emergency" v="phone" zoom-min="16">
+				<symbol src="file:/symbols/emergency_phone.png" />
 			</rule>
 		</rule>
 	</rule>

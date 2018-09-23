@@ -30,6 +30,11 @@
 		<name lang="en" value="MTB scale" />
 		<cat id="mtb_scale" />
 	</layer>
+	<layer id="l_surface" enabled="false">
+		<name lang="cs" value="Nevhodné povrchy" />
+		<name lang="en" value="Inappropriate surfaces" />
+		<cat id="surface" />
+	</layer>
 	<layer id="l_national_park_pattern" enabled="false">
 		<name lang="cs" value="Plocha národních parků" />
 		<name lang="en" value="National park area" />
@@ -65,6 +70,7 @@
 		<name lang="en" value="Bicycle layers" />
 		<overlay id="l_bike_lines" />
 		<overlay id="l_mtb_scale" />
+		<overlay id="l_surface" />
 		<overlay id="l_national_park_pattern" />
 	</layer>
 	<layer id="osm" visible="true">

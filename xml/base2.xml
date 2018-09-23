@@ -909,14 +909,7 @@
 						</rule>
 					</rule>
 
-					<rule e="way" k="highway" v="*" zoom-min="16">
-						<rule e="way" k="access" v="destination">
-							<line src="file:/patterns/access_destination.png" stroke-width="2.5" />
-						</rule>
-						<rule e="way" k="access" v="private">
-							<line src="file:/patterns/access_private.png" stroke-width="2.5" />
-						</rule>
-					</rule>
+					<!--#restriction#-->
 				</rule>
 			</rule>
 		</rule>
@@ -927,9 +920,8 @@
 		
 		<!--biking#captions-->
 		
-		<rule e="way" k="foot" v="no">
-			<line src="file:/patterns/access_no_foot.png" stroke-width="2.2" />
-		</rule>
+		<!--hiking#restrictions-->
+		
 		<!--biking#restrictions-->
 		
 		<!--State and region boundaries-->
@@ -976,11 +968,11 @@
 		<rule e="way" k="man_made" v="*">
 			<rule e="node" k="man_made" v="chimney" zoom-min="17">
 				<rule e="way" k="man_made" v="chimney" closed="no">
-					<line fill="#000000" stroke="#d5a655" stroke-width="3" />
-				<rule>
+					<line stroke="#d5a655" stroke-width="3" />
+				</rule>
 				<rule e="way" k="man_made" v="chimney" closed="yes">
 					<area fill="#000000" stroke="#d5a655" stroke-width="3" />
-				<rule>
+				</rule>
 			</rule>
 			<rule e="way" k="man_made" v="pier">
 				<rule e="way" k="*" v="*" closed="no">
@@ -1742,7 +1734,7 @@
 		
 		<!-- emergency -->
 		<rule e="any" k="emergency" v="*">
-			<rule e="any" k="emergency" v="phone" zoom-min="17">
+			<rule e="any" k="emergency" v="phone" zoom-min="16">
 				<symbol src="file:/symbols/emergency_phone.png" />
 			</rule>
 		</rule>

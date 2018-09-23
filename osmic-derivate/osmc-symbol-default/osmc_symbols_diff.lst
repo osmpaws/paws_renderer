@@ -832,6 +832,7 @@ white:green_bicycle
 white:green_blackslash
 White:green_cross
 white:green_diamont
+white:green_drop
 white:green_drop_line
 white:green_foot
 white:green_frame
@@ -1136,6 +1137,7 @@ yellow_round:
 yellow_round:black
 yellow_round:yellow
 yellow_round:yellow_round
+yellow_round:10C
 yellow_round:2D
 yellow_round:2E
 yellow_round:5

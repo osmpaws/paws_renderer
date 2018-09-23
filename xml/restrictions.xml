@@ -1,0 +1,9 @@
+					<!--restrictions-->
+					<rule e="way" k="highway" v="*" zoom-min="16">
+						<rule e="way" k="access" v="destination">
+							<line src="file:/patterns/access_destination.png" stroke-width="2.5" />
+						</rule>
+						<rule e="way" k="access" v="private">
+							<line src="file:/patterns/access_private.png" stroke-width="2.5" />
+						</rule>
+					</rule>

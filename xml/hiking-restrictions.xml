@@ -1,0 +1,4 @@
+		<!--hiking restrictions-->
+		<rule e="way" k="foot" v="no">
+			<line src="file:/patterns/access_no_foot.png" stroke-width="2.2" />
+		</rule>
