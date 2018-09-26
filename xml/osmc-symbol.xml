@@ -948,6 +948,12 @@
 		<rule e="node" k="osmc_foreground" v="green_bowl">
 			<symbol src="file:/osmc-symbols/blue_green_bowl.png" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="white_bowl">
+			<lineSymbol src="file:/osmc-symbols/blue_white_bowl.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="white_bowl">
+			<symbol src="file:/osmc-symbols/blue_white_bowl.png" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="orange_bowl">
 			<lineSymbol src="file:/osmc-symbols/blue_orange_bowl.png" align-center="false" repeat="true" />
 		</rule>
@@ -985,6 +991,12 @@
 		</rule>
 		<rule e="node" k="osmc_foreground" v="green_bowl">
 			<symbol src="file:/osmc-symbols/brown_green_bowl.png" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="white_bowl">
+			<lineSymbol src="file:/osmc-symbols/brown_white_bowl.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="white_bowl">
+			<symbol src="file:/osmc-symbols/brown_white_bowl.png" />
 		</rule>
 	</rule>
 	<rule e="way" k="osmc_background" v="brown_circle" zoom-min="15">

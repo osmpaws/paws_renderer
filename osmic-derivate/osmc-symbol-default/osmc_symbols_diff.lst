@@ -844,6 +844,7 @@ white:green_slah
 white:green_snake
 white:green_square
 white:green_stripe_double
+white:green_T
 white:green_tree
 white:green_triangel
 white:grey_backslash
@@ -986,6 +987,7 @@ white:yellow_cros
 white_yellow_diamond
 white:yellow_dot,
 white:yellow_FIXME_alternative
+white:yellow_goblet
 white:yellow_house
 white:yellow_point
 white:yellow_rectrangle

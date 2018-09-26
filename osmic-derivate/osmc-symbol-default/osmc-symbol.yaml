@@ -1047,6 +1047,13 @@ blue-green-bowl:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+blue-white-bowl:
+  fill: "#ffffff"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 blue-orange-bowl:
   fill: "#f96f00"
   shield:
@@ -1078,6 +1085,13 @@ brown-yellow-bowl:
     padding: 1
 brown-green-bowl:
   fill: "#00cd27"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+brown-white-bowl:
+  fill: "#ffffff"
   shield:
     fill: "#8b4513"
     stroke_fill: "#000000"

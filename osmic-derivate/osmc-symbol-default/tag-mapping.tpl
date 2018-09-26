@@ -209,6 +209,7 @@
 		<osm-tag key="osmc_foreground" value="white_arch" renderable="false" />
 		<osm-tag key="osmc_foreground" value="white_backslash" renderable="false" />
 		<osm-tag key="osmc_foreground" value="white_bar" renderable="false" />
+		<osm-tag key="osmc_foreground" value="white_bowl" renderable="false" />
 		<osm-tag key="osmc_foreground" value="white_circle" renderable="false" />
 		<osm-tag key="osmc_foreground" value="white_corner" renderable="false" />
 		<osm-tag key="osmc_foreground" value="white_crest" renderable="false" />

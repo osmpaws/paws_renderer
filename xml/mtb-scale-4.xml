@@ -1,6 +1,9 @@
 			<!--mtb#scale-->
 			<rule cat="surface" e="way" k="surface" v="gravel">
-				<line stroke="#60ffdb40" stroke-width="8.00" stroke-dasharray="10,5" stroke-linecap="butt" />
+				<line stroke="#60888888" stroke-width="8.00" stroke-dasharray="10,15" stroke-linecap="butt" />
+			</rule>
+			<rule cat="surface" e="way" k="surface" v="mud">
+				<line stroke="#6099794d" stroke-width="8.00" stroke-dasharray="0,10,10,5" stroke-linecap="butt" />
 			</rule>
 			<rule cat="mtb_scale" e="way" k="mtb:scale" v="0|0-|0+">
 				<line stroke="#3040ff40" stroke-width="4.0" stroke-linecap="butt" />
