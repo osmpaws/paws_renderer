@@ -18,6 +18,9 @@
 		<rule e="node" k="osmc_foreground" v="red_dot">
 			<symbol src="file:/osmc-symbols/red_frame_red_dot.png" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="red_hiker">
+			<symbol src="file:/osmc-symbols/red_frame_red_hiker.png" />
+		</rule>
 		<rule e="node" k="osmc_foreground" v="hiker">
 			<symbol src="file:/osmc-symbols/red_frame_hiker.png" />
 		</rule>
