@@ -36,6 +36,9 @@
 		<rule e="way" k="osmc_foreground" v="purple_bar">
 			<lineSymbol src="file:/osmc-symbols/black_purple_bar.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="red_bowl">
+			<lineSymbol src="file:/osmc-symbols/black_red_bowl.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="yellow_circle">
 			<lineSymbol src="file:/osmc-symbols/black_yellow_circle.png" align-center="false" repeat="true" />
 		</rule>

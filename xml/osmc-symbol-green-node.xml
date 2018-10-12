@@ -21,6 +21,9 @@
 		<rule e="node" k="osmc_foreground" v="white_bar">
 			<symbol src="file:/osmc-symbols/green_white_bar.png" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="white_bowl">
+			<symbol src="file:/osmc-symbols/green_white_bowl.png" />
+		</rule>
 		<rule e="node" k="osmc_foreground" v="yellow_circle">
 			<symbol src="file:/osmc-symbols/green_yellow_circle.png" />
 		</rule>
@@ -158,6 +161,9 @@
 		</rule>
 		<rule e="node" k="osmc_foreground" v="yellow_triangle">
 			<symbol src="file:/osmc-symbols/green_yellow_triangle.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="blue_triangle">
+			<symbol src="file:/osmc-symbols/green_blue_triangle.png" />
 		</rule>
 		<rule e="node" k="osmc_foreground" v="white_triangle">
 			<symbol src="file:/osmc-symbols/green_white_triangle.png" />

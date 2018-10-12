@@ -77,10 +77,13 @@
 			<rule e="way" k="natural" v="grassland">
 				 <area fill="#eeffbb" stroke="#77dd66" stroke-width="0.1" />
 			</rule>
+			<rule e="way" k="natural" v="scrub">
+				<area src="file:/patterns/scrub.png" />
+			</rule>
 		</rule>
 		
 		<!--forest-->
-		<rule e="way" k="natural|landuse" v="forest|wood|scrub">
+		<rule e="way" k="natural|landuse" v="forest|wood">
 			<rule e="way" k="wood" v="*">
 				<rule e="way" k="wood" v="coniferous">
 					<area src="file:/patterns/wood_coniferous.png" />
@@ -104,6 +107,7 @@
 				<caption k="name" font-style="bold" font-size="17.0" fill="#40aa40" stroke="#ffffff" stroke-width="3.0" />
 			</rule>
 		</rule>
+		
 		
 		<!-- landuse -->
 		<rule e="way" k="landuse" v="*">

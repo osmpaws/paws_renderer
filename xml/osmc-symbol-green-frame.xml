@@ -24,6 +24,9 @@
 		<rule e="way" k="osmc_foreground" v="black_dot">
 			<lineSymbol src="file:/osmc-symbols/green_frame_black_dot.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="green_hiker">
+			<lineSymbol src="file:/osmc-symbols/green_frame_green_hiker.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="hiker">
 			<lineSymbol src="file:/osmc-symbols/green_frame_hiker.png" align-center="false" repeat="true" />
 		</rule>

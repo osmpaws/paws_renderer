@@ -274,6 +274,7 @@ darkblue
 default
 due
 education
+ewd:white_stripe
 E6
 #E8ADAA
 :F.
@@ -477,6 +478,7 @@ losange
 lwl
 magenta:4.5
 Männl.
+maroon_round:CSC
 maroon_web
 mine
 :mine
@@ -733,6 +735,7 @@ white:AW
 white:A2
 white:B
 white_bar
+white_bar:blue_circle
 white_bar:GAB
 white_bar:GAB.
 white:barva_backslash
@@ -1027,6 +1030,7 @@ withe:orange_diamond
 withe:yellow_bar
 withe:yellow_lower
 with:yellow_bar
+:WON1
 x
 yellos:
 yellow

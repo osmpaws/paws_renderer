@@ -505,6 +505,10 @@ scree:
   fill: "#35281e"
   shield:
     fill: "#d2b48c"
+scrub:
+  fill: "#96b983"
+  shield:
+    fill: "#a6c993"
 vineyard:
   fill: "#000000"
   shield:

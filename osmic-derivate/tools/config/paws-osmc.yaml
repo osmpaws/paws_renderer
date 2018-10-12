@@ -505,6 +505,10 @@ scree:
   fill: "#35281e"
   shield:
     fill: "#d2b48c"
+scrub:
+  fill: "#96b983"
+  shield:
+    fill: "#a6c993"
 vineyard:
   fill: "#000000"
   shield:
@@ -1563,6 +1567,13 @@ none-orange-bar:
     fill: "#ffffff"
     opacity: 0.0
     padding: 1
+black-red-bowl:
+  fill: "#ff0000"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 blue-green-bowl:
   fill: "#00cd27"
   shield:
@@ -1617,6 +1628,13 @@ brown-white-bowl:
   fill: "#ffffff"
   shield:
     fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+green-white-bowl:
+  fill: "#ffffff"
+  shield:
+    fill: "#00cd27"
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
@@ -3693,6 +3711,14 @@ green-hiker:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+green-frame-green-hiker:
+  fill: "#00cd27"
+  shield:
+    stroke_fill: "#00cd27"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 2
+    padding: 2
 green-frame-hiker:
   fill: "#ffffff"
   shield:
@@ -4441,6 +4467,13 @@ red-black-pointer:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+red-orange-pointer:
+  fill: "#f96f00"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 red-frame-red-pointer:
   fill: "#ff0000"
   shield:
@@ -4944,6 +4977,13 @@ black-white-right:
   fill: "#ffffff"
   shield:
     fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+blue-yellow-right:
+  fill: "#ffdd00"
+  shield:
+    fill: "#1579e0"
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
@@ -5683,6 +5723,13 @@ brown-frame-green-triangle:
     padding: 2
 green-yellow-triangle:
   fill: "#ffdd00"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+green-blue-triangle:
+  fill: "#1579e0"
   shield:
     fill: "#00cd27"
     stroke_fill: "#000000"
