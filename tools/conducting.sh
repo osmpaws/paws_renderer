@@ -214,6 +214,7 @@ do
 		       -e "/<!--mapper#pois-->/r $root/xml/mapper-4.xml" \
 		       -e "/<!--#guidepost#-->/r $root/xml/guidepost-4.xml" \
 		       -e "/<!--#restriction#-->/r $root/xml/restrictions-4.xml" \
+		       -e "/<!--natural#cliff-->/r $root/xml/cliff-4.xml" \
 		       -e "s/<!--#version#-->/<!--#r${releasestr}b${buildstr}#-->/" $root/xml/$tempxml
 	else
 		cp $root/xml/$basexml $root/xml/$tempxml
@@ -222,6 +223,7 @@ do
 		sed -i -e "/<!--piste#nordic-->/r $root/xml/piste-nordic.xml" \
 		       -e "/<!--#guidepost#-->/r $root/xml/guidepost.xml" \
 		       -e "/<!--#restriction#-->/r $root/xml/restrictions.xml" \
+		       -e "/<!--natural#cliff-->/r $root/xml/cliff.xml" \
 		       -e "s/<!--#version#-->/<!--#r${releasestr}b${buildstr}#-->/" $root/xml/$tempxml
 	fi
 	

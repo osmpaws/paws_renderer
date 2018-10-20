@@ -2,7 +2,7 @@
 <rendertheme xmlns="http://mapsforge.org/renderTheme" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://mapsforge.org/renderTheme ../renderTheme.xsd" version="1" map-background="#f8f8f8">
 	
-	<!--#r00010b00112#-->
+	<!--#r00011b00120#-->
 
 	<!--style#v4#setup-->
 	
@@ -172,6 +172,7 @@
 		
 		<!-- natural -->
 		<rule e="way" k="natural" v="*">
+			<!--natural#cliff-->
 			<rule e="way" k="natural" v="cliff" zoom-min="14">
 				<!--<area fill="#666666" stroke="#444444" stroke-width="0.10" />-->
 				<line stroke="#444444" stroke-width="0.10" />
@@ -327,9 +328,9 @@
 
 		<rule e="way" k="natural" v="tree_row">
 			<line stroke="#9cbc8a" stroke-width="0.70" />
-			<line stroke="#9cbc8a" stroke-width="1.40" stroke-dasharray="1.00,49.0" stroke-linecap="butt" />
-			<line stroke="#9cbc8a" stroke-width="2.10" stroke-dasharray="1.00,1.00,48.0" stroke-linecap="butt" />
-			<line stroke="#9cbc8a" stroke-width="1.40" stroke-dasharray="2.00,1.00,47.0" stroke-linecap="butt" />
+			<line stroke="#9cbc8a" stroke-width="1.40" stroke-dasharray="1.00,39.0" stroke-linecap="butt" />
+			<line stroke="#9cbc8a" stroke-width="2.10" stroke-dasharray="0.00,1.00,1.00,38.0" stroke-linecap="butt" />
+			<line stroke="#9cbc8a" stroke-width="1.40" stroke-dasharray="0.00,2.00,1.00,37.0" stroke-linecap="butt" />
 		</rule>
 		
 		<!-- tunnel -->
@@ -425,6 +426,32 @@
 				<rule e="way" k="highway" v="living_street">
 					<area fill="#e9e4ef" stroke="#ffffff" stroke-width="0.22" />
 				</rule>
+			</rule>
+		</rule>
+		<rule e="way" k="highway" v="*" closed="yes">
+			<rule e="way" k="highway" v="footway|footpath">
+				<area fill="#e5e0c2" stroke="#707070" stroke-width="0.22" />
+			</rule>
+			<rule e="way" k="highway" v="pedestrian">
+				<area fill="#b5bbb2" stroke="#707070" stroke-width="0.22" />
+			</rule>
+			<rule e="way" k="highway" v="path">
+				<area fill="#d0d0d0" stroke="#d0d0d0" stroke-width="0.67" />
+			</rule>
+			<rule e="way" k="highway" v="service">
+				<area fill="#ffffff" stroke="#707070" stroke-width="0.22" />
+			</rule>
+			<rule e="way" k="highway" v="unclassified">
+				<area fill="#ffffff" stroke="#707070" stroke-width="0.40" />
+			</rule>
+			<rule e="way" k="highway" v="residential">
+				<area fill="#ffffff" stroke="#707070" stroke-width="0.22" />
+			</rule>
+			<rule e="way" k="highway" v="road">
+				<area fill="#d0d0d0" />
+			</rule>
+			<rule e="way" k="highway" v="living_street">
+				<area fill="#e9e4ef" stroke="#ffffff" stroke-width="0.22" />
 			</rule>
 		</rule>
 
@@ -797,7 +824,7 @@
 						<rule e="way" k="highway" v="byway" zoom-min="12">
 							<line stroke="#000000" stroke-width="2.50" stroke-dasharray="10.50,3.0" stroke-linecap="butt" />
 						</rule>
-						<rule e="way" k="highway" v="pedestrian|unclassified|residential|living_street" zoom-min="12">
+						<rule e="way" k="highway" v="unclassified|residential|living_street" zoom-min="12">
 							<line stroke="#000000" stroke-width="2.50" />
 						</rule>
 						<rule e="way" k="highway" v="tertiary|tertiary_link" zoom-min="12">
@@ -1028,7 +1055,6 @@
 					</rule>
 					<rule e="way" k="highway" v="pedestrian" zoom-min="12">
 						<line stroke="#b5bbb2" stroke-width="1.50" />
-						<line stroke="#b5bbb2" stroke-width="2.00" stroke-dasharray="10.00,10.0" stroke-linecap="butt" />
 						<rule e="way" k="*" v="*" zoom-min="15">
 							<pathText k="name" font-style="bold" font-size="18.00" stroke="#e5e0c2" stroke-width="2.00" />
 						</rule>
@@ -1699,6 +1725,9 @@
 			</rule>
 			<rule e="node" k="natural" v="cliff" zoom-min="14">
 				<symbol src="file:/symbols/cliff.png" />
+			</rule>
+			<rule e="node" k="natural" v="rock" zoom-min="14">
+				<symbol src="file:/symbols/rock.png" />
 			</rule>
 			<rule e="node" k="natural" v="stone" zoom-min="14">
 				<symbol src="file:/symbols/stone.png" />

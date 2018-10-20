@@ -1,0 +1,8 @@
+			<rule e="way" k="natural" v="cliff" zoom-min="14">
+				<!--<area fill="#666666" stroke="#444444" stroke-width="0.1" />-->
+				<line stroke="#444444" stroke-width="0.1" />
+				<line stroke="#444444" stroke-width="1.5" stroke-dasharray="1.5,4.5" stroke-linecap="butt" />
+				<rule e="way" k="*" v="*">
+					<lineSymbol src="file:/symbols/cliff_line.png" align-center="true" repeat="true" />
+				</rule>
+			</rule>

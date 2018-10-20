@@ -32,6 +32,8 @@ viewpoint:
     opacity: 1.0
 cliff:
   fill: "#d08f55"
+rock:
+  fill: "#444422"
 cave-entrance:
   fill: "#000000"
 peak:
@@ -221,6 +223,8 @@ no-bicycle:
     stroke_width: 2
     rounded: 10
     padding: 2
+traffic-signal:
+  fill: "#000000"
 books:
   fill: "#ac39ac"
 butcher:
@@ -506,9 +510,9 @@ scree:
   shield:
     fill: "#d2b48c"
 scrub:
-  fill: "#86b973"
+  fill: "#569953"
   shield:
-    fill: "#b6e9a3"
+    fill: "#96c993"
 vineyard:
   fill: "#000000"
   shield:

@@ -32,7 +32,7 @@
      id="canvas"
      style="fill:none;stroke:none;visibility:hidden" />
   <path
-     d="M 14,8 14,7 10,7 7,2 4,7 0,7 0,8 Z"
+     d="M 9,7 7,1 5,7 Z"
      id="cliff-line-closedway"
      style="fill:#000000;fill-opacity:1;stroke:none" />
 </svg>

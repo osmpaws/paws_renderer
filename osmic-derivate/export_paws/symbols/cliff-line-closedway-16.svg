@@ -11,5 +11,5 @@
   </metadata>
   <defs id="defs6"/>
   <rect width="16" height="16" x="0" y="0" id="canvas" style="fill:none;stroke:none;visibility:hidden"/>
-  <path d="M 14,8 14,7 10,7 7,2 4,7 0,7 0,8 Z" id="cliff-line-closedway" style="fill:#555555;fill-opacity:1" transform="translate(1,1)"/>
+  <path d="M 9,7 7,1 5,7 Z" id="cliff-line-closedway" style="fill:#555555;fill-opacity:1" transform="translate(1,1)"/>
 </svg>

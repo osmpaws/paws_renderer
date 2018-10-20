@@ -172,14 +172,7 @@
 		
 		<!-- natural -->
 		<rule e="way" k="natural" v="*">
-			<rule e="way" k="natural" v="cliff" zoom-min="14">
-				<!--<area fill="#666666" stroke="#444444" stroke-width="0.1" />-->
-				<line stroke="#444444" stroke-width="0.1" />
-				<line stroke="#444444" stroke-width="1.5" stroke-dasharray="1.5,4.5" stroke-linecap="butt" />
-				<rule e="way" k="*" v="*">
-					<lineSymbol src="file:/symbols/cliff_line.png" align-center="true" repeat="true" />
-				</rule>
-			</rule>
+			<!--natural#cliff-->
 			<rule e="way" k="natural" v="beach">
 				<area fill="#eecc55" />
 			</rule>
@@ -327,9 +320,9 @@
 
 		<rule e="way" k="natural" v="tree_row">
 			<line stroke="#9cbc8a" stroke-width="0.7" />
-			<line stroke="#9cbc8a" stroke-width="1.4" stroke-dasharray="1,49" stroke-linecap="butt" />
-			<line stroke="#9cbc8a" stroke-width="2.1" stroke-dasharray="1,1,48" stroke-linecap="butt" />
-			<line stroke="#9cbc8a" stroke-width="1.4" stroke-dasharray="2,1,47" stroke-linecap="butt" />
+			<line stroke="#9cbc8a" stroke-width="1.4" stroke-dasharray="1,39" stroke-linecap="butt" />
+			<line stroke="#9cbc8a" stroke-width="2.1" stroke-dasharray="0,1,1,38" stroke-linecap="butt" />
+			<line stroke="#9cbc8a" stroke-width="1.4" stroke-dasharray="0,2,1,37" stroke-linecap="butt" />
 		</rule>
 		
 		<!-- tunnel -->
@@ -425,6 +418,32 @@
 				<rule e="way" k="highway" v="living_street">
 					<area fill="#e9e4ef" stroke="#ffffff" stroke-width="0.22" />
 				</rule>
+			</rule>
+		</rule>
+		<rule e="way" k="highway" v="*" closed="yes">
+			<rule e="way" k="highway" v="footway|footpath">
+				<area fill="#e5e0c2" stroke="#707070" stroke-width="0.22" />
+			</rule>
+			<rule e="way" k="highway" v="pedestrian">
+				<area fill="#b5bbb2" stroke="#707070" stroke-width="0.22" />
+			</rule>
+			<rule e="way" k="highway" v="path">
+				<area fill="#d0d0d0" stroke="#d0d0d0" stroke-width="0.67" />
+			</rule>
+			<rule e="way" k="highway" v="service">
+				<area fill="#ffffff" stroke="#707070" stroke-width="0.22" />
+			</rule>
+			<rule e="way" k="highway" v="unclassified">
+				<area fill="#ffffff" stroke="#707070" stroke-width="0.4" />
+			</rule>
+			<rule e="way" k="highway" v="residential">
+				<area fill="#ffffff" stroke="#707070" stroke-width="0.22" />
+			</rule>
+			<rule e="way" k="highway" v="road">
+				<area fill="#d0d0d0" />
+			</rule>
+			<rule e="way" k="highway" v="living_street">
+				<area fill="#e9e4ef" stroke="#ffffff" stroke-width="0.22" />
 			</rule>
 		</rule>
 
@@ -607,7 +626,7 @@
 						<rule e="way" k="highway" v="byway" zoom-min="12">
 							<line stroke="#000000" stroke-width="2.5" stroke-dasharray="10.5,3" stroke-linecap="butt" />
 						</rule>
-						<rule e="way" k="highway" v="pedestrian|unclassified|residential|living_street" zoom-min="12">
+						<rule e="way" k="highway" v="unclassified|residential|living_street" zoom-min="12">
 							<line stroke="#000000" stroke-width="2.5" />
 						</rule>
 						<rule e="way" k="highway" v="tertiary|tertiary_link" zoom-min="12">
@@ -825,8 +844,7 @@
 						</rule>
 					</rule>
 					<rule e="way" k="highway" v="pedestrian" zoom-min="12">
-						<line stroke="#b5bbb2" stroke-width="1.5" />						
-						<line stroke="#b5bbb2" stroke-width="2" stroke-dasharray="10,10" stroke-linecap="butt" />
+						<line stroke="#b5bbb2" stroke-width="1.5" />
 						<rule e="way" k="*" v="*" zoom-min="15">
 							<pathText k="name" font-style="bold" font-size="18" stroke="#e5e0c2" stroke-width="2.0" />
 						</rule>
@@ -1412,6 +1430,9 @@
 			</rule>
 			<rule e="node" k="natural" v="cliff" zoom-min="14">
 				<symbol src="file:/symbols/cliff.png" />
+			</rule>
+			<rule e="node" k="natural" v="rock" zoom-min="14">
+				<symbol src="file:/symbols/rock.png" />
 			</rule>
 			<rule e="node" k="natural" v="stone" zoom-min="14">
 				<symbol src="file:/symbols/stone.png" />

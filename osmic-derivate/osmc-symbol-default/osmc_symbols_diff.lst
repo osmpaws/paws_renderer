@@ -103,6 +103,7 @@ black:W3
 black:X
 black:X8
 black:yellow
+black:22
 black:3
 black:5
 blau-gelb-blau
@@ -670,11 +671,13 @@ red:white
 red:white_
 red/white
 red:whitebar
+red_white_bar:VL7A
 red:white_bicycle
 red:white_man
 red:white_strep
 red:white_stripe_G20
 red:white_striper
+red_white_stripe:VL4
 red:white_stripe_Z8
 red/whitw
 red:wite_stripe
@@ -851,6 +854,7 @@ white:green_stripe_double
 white:green_T
 white:green_tree
 white:green_triangel
+white:grey
 white:grey_backslash
 white:GRR
 white:grren_bar
