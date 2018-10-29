@@ -429,6 +429,12 @@
 		<rule e="way" k="osmc_foreground" v="black_stripe">
 			<lineSymbol src="file:/osmc-symbols/white_black_stripe.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="purple_stripe">
+			<lineSymbol src="file:/osmc-symbols/white_purple_stripe.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="orange_stripe">
+			<lineSymbol src="file:/osmc-symbols/white_orange_stripe.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="red_tower">
 			<lineSymbol src="file:/osmc-symbols/white_red_tower.png" align-center="false" repeat="true" />
 		</rule>

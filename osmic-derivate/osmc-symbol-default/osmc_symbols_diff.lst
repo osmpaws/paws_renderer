@@ -930,6 +930,7 @@ white_round:bird
 white_round:blu_dot
 white_round:wp
 white_round:1
+white_round:3
 white_round:4
 white:RS
 white:runner
@@ -1059,6 +1060,7 @@ yellow:BLP
 yellow:blue_grape
 yellow:blue_red_diamond
 yellow_circle:
+:yellow_circle
 yellow_circle:P10
 yellow_circle:P16
 yellow_circle:P18

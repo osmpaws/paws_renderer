@@ -507,8 +507,10 @@ photovoltaic:
     opacity: 0.25
 scree:
   fill: "#35281e"
+  opacity: 0.5
   shield:
     fill: "#d2b48c"
+    opacity: 0.5
 scrub:
   fill: "#569953"
   shield:

@@ -507,8 +507,10 @@ photovoltaic:
     opacity: 0.25
 scree:
   fill: "#35281e"
+  opacity: 0.5
   shield:
     fill: "#d2b48c"
+    opacity: 0.5
 scrub:
   fill: "#569953"
   shield:
@@ -1573,6 +1575,13 @@ none-orange-bar:
     padding: 1
 black-red-bowl:
   fill: "#ff0000"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+black-yellow-bowl:
+  fill: "#ffdd00"
   shield:
     fill: "#000000"
     stroke_fill: "#000000"
@@ -3329,6 +3338,14 @@ white-circle-black-dot:
     opacity: 0.0
     rounded: 10
     padding: 2
+white-circle-purple-dot:
+  fill: "#b878dd"
+  shield:
+    stroke_fill: "#ffffff"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 10
+    padding: 2
 white-circle-orange-dot:
   fill: "#f96f00"
   shield:
@@ -4759,6 +4776,13 @@ brown-red-rectangle:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+brown-yellow-rectangle:
+  fill: "#ffdd00"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 brown-green-rectangle:
   fill: "#00cd27"
   shield:
@@ -5374,6 +5398,20 @@ white-green-stripe:
     padding: 1
 white-black-stripe:
   fill: "#000000"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+white-purple-stripe:
+  fill: "#b878dd"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+white-orange-stripe:
+  fill: "#f96f00"
   shield:
     fill: "#ffffff"
     stroke_fill: "#000000"

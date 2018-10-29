@@ -328,17 +328,14 @@ bash $root/tools/svg_theme.sh
 uploadstr=$uploadstr"themes_svg/paws_4.zip,"
 echo -n "themes_svg/paws_4.zip," >> $uploadpath
 
-mkdir -p website
-cp themes_svg/paws_4.zip website
-bash tools/locus_action.sh themes_svg/paws_4.zip > website/la_paws_4.xml
-echo "<a href=locus-actions://http/`hostname -I | sed 's/ //g'`:8000/la_paws_4.xml>paws_4</a><br>" > website/index.html
-
 bash $root/tools/locus_theme.sh
 uploadstr=$uploadstr"themes_svg/paws_4_LE.zip,"
 echo -n "themes_svg/paws_4_LE.zip," >> $uploadpath
-cp themes_svg/paws_4_LE.zip website
-bash tools/locus_action.sh themes_svg/paws_4_LE.zip > website/la_paws_4_LE.xml
-echo "<a href=locus-actions://http/`hostname -I | sed 's/ //g'`:8000/la_paws_4_LE.xml>paws_4_LE</a>" >> website/index.html
+
+localuploadtool="$root/tools/local_upload.sh"
+if [ -f "$localuploadtool" ] ; then
+	bash "$localuploadtool" `sed 's/,/ /g' $uploadpath`
+fi
 
 if [ "$release" -ne "1" ]; then
 	if [ -f "$jarfile" ] ; then

@@ -429,6 +429,12 @@
 		<rule e="node" k="osmc_foreground" v="black_stripe">
 			<symbol src="file:/osmc-symbols/white_black_stripe.png" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="purple_stripe">
+			<symbol src="file:/osmc-symbols/white_purple_stripe.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="orange_stripe">
+			<symbol src="file:/osmc-symbols/white_orange_stripe.png" />
+		</rule>
 		<rule e="node" k="osmc_foreground" v="red_tower">
 			<symbol src="file:/osmc-symbols/white_red_tower.png" />
 		</rule>
