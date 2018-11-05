@@ -245,6 +245,7 @@ brown:brownR
 brown:castle
 brown_circle:
 :brown_diamond
+brown_dot:
 brown:EA
 brown:F1
 :brown_hiker
@@ -322,6 +323,7 @@ Green_drop_filled.png
 green:DRW
 green:EWkE
 green:fork_blue
+green_frame
 green_frame:
 green_frame:IBP
 green_frame:MST
@@ -681,6 +683,7 @@ red_white_stripe:VL4
 red:white_stripe_Z8
 red/whitw
 red:wite_stripe
+red:withe_bar
 red_x
 :red_x
 red:1
@@ -994,6 +997,7 @@ white:yellow_bicycle
 white:yellow_cicle
 white:yellow_cros
 white_yellow_diamond
+white:yellow_diamond;blue
 white:yellow_dot,
 white:yellow_FIXME_alternative
 white:yellow_goblet
@@ -1112,6 +1116,7 @@ yellow:F4
 yellow:green
 yellow:green_up_triangle
 yellow_ground:green_bowl
+yellow:GtB
 yellow:GTK
 yellow:G2
 yellow:G5
@@ -1215,4 +1220,5 @@ Z0:black
 #40E0D0
 7BT
 #8EBE5F:#8EBE5F
+#800000_circle:
 #888888

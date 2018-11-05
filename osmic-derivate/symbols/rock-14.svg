@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -34,7 +32,7 @@
      id="canvas"
      style="fill:none;stroke:none;visibility:hidden" />
   <path
-     d="M 2,12 12,12 9,5 7,9 5,1 z"
-     id="cliff"
+     d="M 2,11 12,11 10,3 C 10,3 8.7309816,7.730188 7,7 5.2690184,6.269812 4,5 4,5 Z"
+     id="rock"
      style="fill:#000000;fill-opacity:1;stroke:none" />
 </svg>

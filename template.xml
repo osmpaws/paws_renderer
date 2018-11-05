@@ -2,7 +2,7 @@
 <rendertheme xmlns="http://mapsforge.org/renderTheme" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://mapsforge.org/renderTheme ../renderTheme.xsd" version="1" map-background="#f8f8f8">
 	
-	<!--#r00012b00138#-->
+	<!--#r00013b00159#-->
 
 	<!--style#v4#setup-->
 	
@@ -47,7 +47,7 @@
 			<caption k="name" font-family="serif" font-style="italic" font-size="17.00" fill="#5576d1" stroke="#e0e0f0" stroke-width="3.00" />
 		</rule>
 		<rule e="any" k="amenity" v="restaurant|pub|bar|cafe" zoom-min="18">
-			<caption k="name" dy="-23.00" font-style="bold_italic" font-size="17.00" fill="#804040" stroke="#ffffff" stroke-width="3.00" />
+			<caption k="name" dy="-23.00" font-style="bold_italic" font-size="17.00" fill="#a06020" stroke="#ffffff" stroke-width="3.00" />
 		</rule>
 		<rule e="any" k="tourism" v="hotel" zoom-min="17">
 			<caption k="name" dy="-23.00" font-family="serif" font-style="bold_italic" font-size="17.00" fill="#804040" stroke="#ffffff" stroke-width="3.00" />
@@ -131,7 +131,7 @@
 			</rule>
 			<rule e="way" k="landuse" v="landfill|quarry">
 				<area fill="#e9dd72" stroke="#556b2f" stroke-width="0.30" />
-			</rule>			
+			</rule>
 			<rule e="way" k="landuse" v="cemetery" zoom-min="13">
 				<area src="file:/patterns/cemetery.png" stroke="#e4e4e4" stroke-width="0.30" />
 				<rule e="way" k="religion" v="christian" zoom-min="13">
@@ -140,7 +140,7 @@
 				<rule e="way" k="religion" v="jewish" zoom-min="13">
 					<area src="file:/patterns/cemetery_jewish.png" stroke="#e4e4e4" stroke-width="0.30" />
 				</rule>
-			</rule>			
+			</rule>
 			<rule e="way" k="landuse" v="field|farm|farmland" zoom-min="13">
 				<area fill="#FFF5ED" stroke="#cccc88" stroke-width="0.10" />
 			</rule>
@@ -153,20 +153,23 @@
 			<rule e="way" k="landuse" v="allotments|village_green|recreation_ground" zoom-min="13">
 				<area fill="#bde3cb" stroke="#6fc13d" stroke-width="0.30" />
 			</rule>
+			<rule e="way" k="landuse" v="plant_nursery" zoom-min="13">
+				<area fill="#aadca2" stroke="#6fc18e" stroke-width="0.30" />
+			</rule>
 			<rule e="way" k="landuse" v="orchard" zoom-min="13">
 				<area src="file:/patterns/orchard.png" stroke="#6fc18e" stroke-width="0.30" />
-			</rule>			
+			</rule>
 			<rule e="way" k="landuse" v="vineyard" zoom-min="13">
 				<area src="file:/patterns/vineyard.png" stroke="#6fc18e" stroke-width="0.30" />
 			</rule>
 			<rule e="way" k="landuse" v="military">
 				<area src="file:/patterns/military.png" stroke="#e4e4e4" stroke-width="0.30" />
 				<rule e="way" k="*" v="*" zoom-min="16">
-					<caption k="name" font-style="bold" font-size="17.00" fill="#4040ff" stroke="#ffffff" stroke-width="3.00" />
+					<caption k="name" font-style="bold" font-size="17.00" fill="#408040" stroke="#ffffff" stroke-width="3.00" />
 				</rule>
 			</rule>
 			<rule e="way" k="*" v="*" zoom-min="17">
-				<caption k="name" font-style="bold" font-size="17.00" fill="#4040ff" stroke="#ffffff" stroke-width="3.00" />
+				<caption k="name" font-style="bold" font-size="17.00" fill="#408040" stroke="#ffffff" stroke-width="3.00" />
 			</rule>
 		</rule>
 		
@@ -177,6 +180,9 @@
 			</rule>
 			<rule e="way" k="natural" v="sand">
 				<area fill="#ddbb55" />
+			</rule>
+			<rule e="way" k="natural" v="bare_rock">
+				<area src="file:/patterns/bare_rock.png" stroke="#c2a47c" stroke-width="0.10" />
 			</rule>
 			<rule e="way" k="natural" v="scree">
 				<area src="file:/patterns/scree.png" stroke="#c2a47c" stroke-width="0.10" />
@@ -241,7 +247,7 @@
 				<area fill="#b5d6f1" stroke="#000080" stroke-width="0.22" />
 			</rule>
 			<rule e="way" k="*" v="*" zoom-min="18">
-				<caption k="name" dy="-22.50" font-style="bold" font-size="17.00" fill="#4040ff" stroke="#ffffff" stroke-width="3.00" />
+				<caption k="name" dy="-22.50" font-style="bold" font-size="17.00" fill="#a06020" stroke="#ffffff" stroke-width="3.00" />
 			</rule>
 		</rule>
 
@@ -269,7 +275,7 @@
 				<area fill="#b5d6f1" stroke="#6060ff" stroke-width="0.30" />
 			</rule>
 			<rule e="way" k="*" v="*" zoom-min="17">
-				<caption k="name" dy="-22.50" font-style="bold" font-size="17.00" fill="#4040ff" stroke="#ffffff" stroke-width="3.00" />
+				<caption k="name" dy="-22.50" font-style="bold" font-size="17.00" fill="#407740" stroke="#ffffff" stroke-width="3.00" />
 			</rule>
 		</rule>
 
@@ -338,9 +344,9 @@
 
 		<rule e="way" k="natural" v="tree_row">
 			<line stroke="#9cbc8a" stroke-width="0.70" />
-			<line stroke="#9cbc8a" stroke-width="1.40" stroke-dasharray="1.00,39.0" stroke-linecap="butt" />
-			<line stroke="#9cbc8a" stroke-width="2.10" stroke-dasharray="0.00,1.00,1.00,38.0" stroke-linecap="butt" />
-			<line stroke="#9cbc8a" stroke-width="1.40" stroke-dasharray="0.00,2.00,1.00,37.0" stroke-linecap="butt" />
+			<line stroke="#9cbc8a" stroke-width="1.40" stroke-dasharray="2.00,38.0" stroke-linecap="butt" />
+			<line stroke="#9cbc8a" stroke-width="2.10" stroke-dasharray="0.00,2.00,4.00,34.0" stroke-linecap="butt" />
+			<line stroke="#9cbc8a" stroke-width="1.40" stroke-dasharray="0.00,6.00,2.00,32.0" stroke-linecap="butt" />
 		</rule>
 		
 		<!-- tunnel -->
@@ -520,28 +526,28 @@
 	<!-- contour lines level 12 -->
 	<rule e="way" k="contour_ext" v="*" zoom-min="12" zoom-max="12">
 		<rule e="way" k="contour_ext" v="elevation_minor">
-			<line stroke="#60800010" stroke-width="0.30" />
+			<line stroke="#60800010" stroke-width="0.30" /> <!--elevation_contour_line-->
 		</rule>
 		<rule e="way" k="contour_ext" v="elevation_medium|elevation_major">
-			<line stroke="#60800000" stroke-width="0.90" />
+			<line stroke="#60800000" stroke-width="0.90" /> <!--elevation_contour_line-->
 		</rule>
 	</rule>
 	<!-- contour lines level 13 -->
 	<rule e="way" k="contour_ext" v="*" zoom-min="13" zoom-max="13">
 		<rule e="way" k="contour_ext" v="elevation_minor">
-			<line stroke="#60800000" stroke-width="0.30" />
+			<line stroke="#60800000" stroke-width="0.30" /> <!--elevation_contour_line-->
 		</rule>
 		<rule e="way" k="contour_ext" v="elevation_medium|elevation_major">
-			<line stroke="#60800000" stroke-width="0.70" />
+			<line stroke="#60800000" stroke-width="0.70" /> <!--elevation_contour_line-->
 		</rule>
 	</rule>
 	<!-- contour lines level 14-->
 	<rule e="way" k="contour_ext" v="*" zoom-min="14" zoom-max="14">
 		<rule e="way" k="contour_ext" v="elevation_minor">
-			<line stroke="#60800000" stroke-width="0.22" />
+			<line stroke="#60800000" stroke-width="0.22" /> <!--elevation_contour_line-->
 		</rule>
 		<rule e="way" k="contour_ext" v="elevation_medium|elevation_major">
-			<line stroke="#60800000" stroke-width="0.60" />
+			<line stroke="#60800000" stroke-width="0.60" /> <!--elevation_contour_line-->
 			<rule e="way" k="*" v="*">
 		 <pathText k="ele" font-style="bold" font-size="14.00" fill="#bb7755" stroke="#ffffff" stroke-width="2.00" />
 			</rule>
@@ -550,10 +556,10 @@
 	<!-- contour lines level 15-->
 	<rule e="way" k="contour_ext" v="*" zoom-min="15" zoom-max="15">
 		<rule e="way" k="contour_ext" v="elevation_minor" zoom-max="15">
-			<line stroke="#60800000" stroke-width="0.18" />
+			<line stroke="#60800000" stroke-width="0.18" /> <!--elevation_contour_line-->
 		</rule>
 		<rule e="way" k="contour_ext" v="elevation_medium|elevation_major">
-			<line stroke="#60800000" stroke-width="0.40" />
+			<line stroke="#60800000" stroke-width="0.40" /> <!--elevation_contour_line-->
 			<rule e="way" k="*" v="*">
 		 <pathText k="ele" font-style="bold" font-size="14.00" fill="#bb7755" stroke="#ffffff" stroke-width="2.00" />
 			</rule>
@@ -562,10 +568,10 @@
 	<!-- contour lines level 16 -->
 	<rule e="way" k="contour_ext" v="*" zoom-min="16" zoom-max="16">
 		<rule e="way" k="contour_ext" v="elevation_minor">
-			<line stroke="#60800000" stroke-width="0.12" />
+			<line stroke="#60800000" stroke-width="0.12" /> <!--elevation_contour_line-->
 		</rule>
 		<rule e="way" k="contour_ext" v="elevation_medium|elevation_major">
-			<line stroke="#60800000" stroke-width="0.30" />
+			<line stroke="#60800000" stroke-width="0.30" /> <!--elevation_contour_line-->
 			<rule e="way" k="*" v="*">
 		 <pathText k="ele" font-style="bold" font-size="14.00" fill="#bb7755" stroke="#ffffff" stroke-width="2.00" />
 			</rule>
@@ -574,10 +580,10 @@
 	<!-- contour lines level 17 and above -->
 	<rule e="way" k="contour_ext" v="*" zoom-min="17">
 		<rule e="way" k="contour_ext" v="elevation_minor">
-			<line stroke="#60800000" stroke-width="0.10" />
+			<line stroke="#60800000" stroke-width="0.10" /> <!--elevation_contour_line-->
 		</rule>
 		<rule e="way" k="contour_ext" v="elevation_medium|elevation_major">
-			<line stroke="#60800000" stroke-width="0.22" />
+			<line stroke="#60800000" stroke-width="0.22" /> <!--elevation_contour_line-->
 			<rule e="way" k="*" v="*">
 		 <pathText k="ele" font-style="bold" font-size="14.00" fill="#bb7755" stroke="#ffffff" stroke-width="2.00" />
 			</rule>
@@ -1621,8 +1627,8 @@
 			<circle r="6.00" fill="#a0a0ff" stroke="#006060" stroke-width="2.20" />
 		</rule>
 		<rule e="any" k="*" v="*" zoom-min="17">
-			<caption k="name" dy="-22.50" font-style="bold" font-size="17.00" fill="#40cc40" stroke="#ffffff" stroke-width="3.00" />
-		</rule>	
+			<caption k="name" dy="-22.50" font-style="bold" font-size="17.00" fill="#805030" stroke="#ffffff" stroke-width="3.00" />
+		</rule>
 		<rule e="any" k="historic" v="memorial" zoom-min="16">
 			<symbol src="file:/symbols/memorial.png" />
 		</rule>
@@ -1648,7 +1654,7 @@
 			
 		<rule e="node" k="amenity" v="*">
 			<rule e="node" k="*" v="*" zoom-min="18">
-				<caption k="name" dy="-22.50" font-style="bold" font-size="17.00" fill="#4040ff" stroke="#ffffff" stroke-width="3.00" />
+				<caption k="name" dy="-22.50" font-style="bold" font-size="17.00" fill="#a06020" stroke="#ffffff" stroke-width="3.00" />
 			</rule>
 		</rule>
 		<!-- barrier -->
@@ -1804,7 +1810,7 @@
 
 
 		<!-- shop -->
-		<rule e="node" k="shop" v="*">
+		<rule e="any" k="shop" v="*">
 			<rule e="node" k="shop" v="bakery" zoom-min="17">
 				<symbol src="file:/symbols/bakery.png" />
 			</rule>
@@ -1832,8 +1838,8 @@
 				<caption k="name" dy="-35.00" font-style="bold" font-size="17.00" fill="#aaaa33" stroke="#ffffff" stroke-width="3.00" />
 			</rule>
 
-			<rule e="node" k="*" v="*" zoom-min="18">
-				<caption k="name" dy="-35.00" font-style="bold" font-size="17.00" fill="#4040ff" stroke="#ffffff" stroke-width="3.00" />
+			<rule e="any" k="*" v="*" zoom-min="18">
+				<caption k="name" dy="-35.00" font-style="bold" font-size="17.00" fill="#aa3399" stroke="#ffffff" stroke-width="3.00" />
 			</rule>
 		</rule>
 

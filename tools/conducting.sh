@@ -334,7 +334,7 @@ echo -n "themes_svg/paws_4_LE.zip," >> $uploadpath
 
 localuploadtool="$root/tools/local_upload.sh"
 if [ -f "$localuploadtool" ] ; then
-	bash "$localuploadtool" `sed 's/,/ /g' $uploadpath`
+	bash "$localuploadtool" `sed -e 's/themes\/paws_4.zip//' -e 's/,/ /g' $uploadpath`
 fi
 
 if [ "$release" -ne "1" ]; then

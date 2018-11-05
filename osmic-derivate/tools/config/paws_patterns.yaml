@@ -30,9 +30,9 @@ viewpoint:
     width: 1
     opacity: 1.0
 cliff:
-  fill: "#d08f55"
+  fill: "#555555"
 rock:
-  fill: "#444422"
+  fill: "#555555"
 cave-entrance:
   fill: "#000000"
 peak:
@@ -49,6 +49,10 @@ vulcan:
     opacity: 1.0
 stone:
   fill: "#555555"
+  halo:
+    fill: "#ffffff"
+    width: 1
+    opacity: 1.0
 saddle:
   fill: "#d08f55"
 rental-bicycle:
@@ -467,6 +471,12 @@ access-no-foot:
   fill: "#ffaa00"
 access-private:
   fill: "#ff0000"
+bare-rock:
+  fill: "#25281e"
+  opacity: 0.5
+  shield:
+    fill: "#c2b48c"
+    opacity: 0.5
 cemetery:
   fill: "#999999"
   shield:

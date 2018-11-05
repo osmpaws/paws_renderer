@@ -25,7 +25,7 @@ else
 while read line; do
 	#caption,circle,line,pathtext,area
 	if echo $line | egrep -q "<area|<lineSymbol|<symbol" ; then
-		newline=$line		
+		newline=$line
 		
 		if echo $line | grep -q " symbol-percent=" ; then
 			sp=`echo $line | sed 's/.* symbol-percent=\"\([-0-9.]*\).*/\1/'`
@@ -46,7 +46,7 @@ while read line; do
 		fi
 		
 		echo $newline
-	else		
+	else
 		echo $line
 	fi
 done < "$filename"
