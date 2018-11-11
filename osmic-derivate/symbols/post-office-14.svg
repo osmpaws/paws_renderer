@@ -5,11 +5,11 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   id="svg2"
-   viewBox="0 0 14 14"
-   height="100%"
+   version="1.1"
    width="100%"
-   version="1.1">
+   height="100%"
+   viewBox="0 0 14 14"
+   id="svg2">
   <metadata
      id="metadata8">
     <rdf:RDF>
@@ -25,14 +25,14 @@
   <defs
      id="defs6" />
   <rect
-     style="fill:none;stroke:none;visibility:hidden"
-     id="canvas"
-     y="0"
-     x="0"
+     width="14"
      height="14"
-     width="14" />
+     x="0"
+     y="0"
+     id="canvas"
+     style="fill:none;stroke:none;visibility:hidden" />
   <path
-     style="fill:#000000;fill-opacity:1;stroke:none"
      id="post-office"
-     d="m 0,2 0,1 7,4 7,-4 0,-1 z m 0,3 0,7 14,0 0,-7 -7,4 z" />
+     d="M 0,2 C 0,2.3333333 0,2.6666667 0,3 2.3333333,4.3333333 4.6666667,5.6666667 7,7 9.3333333,5.6666667 11.666667,4.3333333 14,3 14,2.6666667 14,2.3333333 14,2 9.3333333,2 4.6666667,2 0,2 Z m 0,3 c 0,2.3333333 0,4.6666667 0,7 4.6666667,0 9.3333333,0 14,0 C 14,9.6666667 14,7.3333333 14,5 11.666667,6.3333333 9.3333333,7.6666667 7,9 4.6666667,7.6666667 2.3333333,6.3333333 0,5 Z"
+     style="fill:#000000;fill-opacity:1;stroke:none" />
 </svg>

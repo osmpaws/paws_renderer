@@ -76,6 +76,7 @@ do
 				newsize="16"
 			elif [ "$size" -gt "4" ]; then
 				newsize="8"
+			fi
 		else
 			newsize="$extrascale"
 		fi

@@ -964,6 +964,7 @@ white:squirrel
 white_stripe
 white_stripe:D0
 white_stripe:G0
+white_stripe:red_right
 white_stripe:302
 white:T
 white:_T
@@ -1056,6 +1057,7 @@ yellow:
 :yellow
 yellow:Aand
 yellow:AV
+yellow_backslash
 yellow-bar
 yellow_bar
 :yellow_bar
