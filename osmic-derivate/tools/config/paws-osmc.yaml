@@ -452,6 +452,54 @@ noexit:
     stroke_width: 0.5
     rounded: 3
     opacity: 0.5
+sac-ti:
+  fill: "#000000"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 0.1
+    rounded: 3
+    opacity: 0.1
+sac-tii:
+  fill: "#000000"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 0.1
+    rounded: 3
+    opacity: 0.1
+sac-tiii:
+  fill: "#000000"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 0.1
+    rounded: 3
+    opacity: 0.1
+sac-tiv:
+  fill: "#000000"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 0.1
+    rounded: 3
+    opacity: 0.1
+sac-tv:
+  fill: "#000000"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 0.1
+    rounded: 3
+    opacity: 0.1
+sac-tvi:
+  fill: "#000000"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 0.1
+    rounded: 3
+    opacity: 0.1
 emergency-phone:
   fill: "#ff0000"
   halo:
@@ -2126,6 +2174,13 @@ brown-white-corner:
   fill: "#ffffff"
   shield:
     fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+green-red-corner:
+  fill: "#ff0000"
+  shield:
+    fill: "#00cd27"
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
@@ -5022,6 +5077,13 @@ blue-yellow-right:
   fill: "#ffdd00"
   shield:
     fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+green-blue-right:
+  fill: "#1579e0"
+  shield:
+    fill: "#00cd27"
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1

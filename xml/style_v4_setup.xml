@@ -30,6 +30,11 @@
 		<name lang="en" value="MTB scale" />
 		<cat id="mtb_scale" />
 	</layer>
+	<layer id="l_sac_scale" enabled="false">
+		<name lang="cs" value="SAC náročnost" />
+		<name lang="en" value="SAC scale" />
+		<cat id="sac_scale" />
+	</layer>
 	<layer id="l_surface" enabled="false">
 		<name lang="cs" value="Nevhodné povrchy" />
 		<name lang="en" value="Inappropriate surfaces" />
@@ -59,6 +64,7 @@
 		<!--overlay id="l_hike_lines" /-->
 		<overlay id="l_hike_symbol_lines" />
 		<overlay id="l_hike_symbol_nodes" />
+		<overlay id="l_sac_scale" />
 		<overlay id="l_guidepost" />
 		<overlay id="l_bike_lines" />
 		<overlay id="l_mtb_scale" />

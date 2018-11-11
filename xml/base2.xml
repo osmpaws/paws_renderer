@@ -742,6 +742,8 @@
 		
 		<!--mtb#scale-->
 		
+		<!--sac#scale-->
+		
 		<!--hiking#lines#high#zoom#4-->
 		
 		<rule e="way" k="highway" v="*">

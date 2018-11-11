@@ -236,6 +236,7 @@ do
 			sed -i -e "/<!--hiking#lines#high#zoom#4-->/r $root/xml/$hlhzx4" \
 			       -e "/<!--hiking#lines#low#zoom-->/r $root/xml/$hllzx4" \
 			       -e "/<!--hiking#restrictions-->/r $root/xml/hiking-restrictions-4.xml" \
+			       -e "/<!--sac#scale-->/r $root/xml/sac-scale-4.xml" \
 			       -e '/<!--OSMC#symbols-->/r '<(sed 's/k="osmc_background"/cat="hike_symbol_lines" k="osmc_background"/g' `find $root/xml -name 'osmc-symbol-*.xml' -not -name '*-node.xml'`) $root/xml/$tempxml
 			# nodes
 			if [ 1 -eq 1 ]; then

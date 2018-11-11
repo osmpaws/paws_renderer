@@ -66,7 +66,16 @@ do
 		totalscale=`echo "$scale*$extrascale*100" | bc | cut -d. -f1`
 	elif [ "$extrascaletype" = "f" ]; then
 		if [ "$filepath" = "patterns" ] ; then
-			newsize="$size"
+			if [ "$size" -gt "64" ]; then
+				newsize="128"
+			elif [ "$size" -gt "32" ]; then
+				newsize="64"
+			elif [ "$size" -gt "16" ]; then
+				newsize="32"
+			elif [ "$size" -gt "8" ]; then
+				newsize="16"
+			elif [ "$size" -gt "4" ]; then
+				newsize="8"
 		else
 			newsize="$extrascale"
 		fi

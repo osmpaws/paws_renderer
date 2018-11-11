@@ -1,0 +1,19 @@
+			<!--sac#scale-->
+			<rule cat="sac_scale" e="way" k="sac_scale" v="hiking">
+				<lineSymbol src="file:/symbols/sac_ti.png" align-center="false" repeat="true" />
+			</rule>
+			<rule cat="sac_scale" e="way" k="sac_scale" v="mountain_hiking">
+				<lineSymbol src="file:/symbols/sac_tii.png" align-center="false" repeat="true" />
+			</rule>
+			<rule cat="sac_scale" e="way" k="sac_scale" v="demanding_mountain_hiking">
+				<lineSymbol src="file:/symbols/sac_tiii.png" align-center="false" repeat="true" />
+			</rule>
+			<rule cat="sac_scale" e="way" k="sac_scale" v="alpine_hiking">
+				<lineSymbol src="file:/symbols/sac_tiv.png" align-center="false" repeat="true" />
+			</rule>
+			<rule cat="sac_scale" e="way" k="sac_scale" v="demanding_alpine_hiking">
+				<lineSymbol src="file:/symbols/sac_tv.png" align-center="false" repeat="true" />
+			</rule>
+			<rule cat="sac_scale" e="way" k="sac_scale" v="difficult_alpine_hiking">
+				<lineSymbol src="file:/symbols/sac_tvi.png" align-center="false" repeat="true" />
+			</rule>

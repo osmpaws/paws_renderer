@@ -139,6 +139,8 @@ def main():
             if name_match is not None:
                 icon_id = name_match.group(1)
                 size = int(name_match.group(2))
+            else:
+                print("File name is bad, there should be only letters and hyphens in name and size at the end: " + icon_path)
 
             # include mode - determine if current file should be included in set
             if 'include' in directory:
@@ -221,7 +223,7 @@ def main():
                     exportPNG(icon_out_path, destination, config['dpi'], config['retina'])
                     os.remove(icon_out_path)
             except Exception, e:
-                print(e)
+                print('An error happend during saving modified icon: ',e)
                 continue
 
 

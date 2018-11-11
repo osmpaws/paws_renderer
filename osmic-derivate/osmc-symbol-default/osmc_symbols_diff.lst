@@ -6,6 +6,10 @@
 *
 ⌘
 :ammonit
+aqua:
+aqua:blue_dot
+aqua:orange_dot
+aqua:purple_dot
 aqua:white_bar
 azul:CLD2
 azul:CLD3
@@ -270,6 +274,7 @@ C:blue
 cc:black
 cyan:
 cyan_dot
+cyan:green_dot
 cyan_stripe
 darkblue
 #ddb287:
@@ -481,6 +486,7 @@ losange
 lwl
 magenta:4.5
 Männl.
+maroon:
 maroon_round:CSC
 maroon_web
 mine
@@ -565,6 +571,7 @@ purple:none
 purple:P
 purple:purple
 purple_round
+purple_round:
 :purple_round
 purple:RTw
 purple:RWS
@@ -606,6 +613,7 @@ red_circle:12
 red_circle:15
 red_circle:2
 red_circle:3
+red_corner:
 red_diamond
 :red_diamond
 red_diamond:blue_dot
@@ -711,6 +719,7 @@ symbol=green:white
 symbol=red:red
 symbol=yellow:white
 Tauplitz
+teal:
 text:black
 TIE
 TK7
@@ -1208,7 +1217,10 @@ yellow:78
 yellow:80
 yellw_round:
 Z0:black
+#00ffff:green_dot
+#00ffff:purple_dot
 #008bcc
+#008080:
 11:black
 136
 2
@@ -1220,5 +1232,6 @@ Z0:black
 #40E0D0
 7BT
 #8EBE5F:#8EBE5F
+#800000:
 #800000_circle:
 #888888
