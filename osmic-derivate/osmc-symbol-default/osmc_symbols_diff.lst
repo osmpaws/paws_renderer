@@ -22,6 +22,7 @@ azure:purple_dot
 azure:violet_dot
 A2:white
 bee
+bigtree
 black
 black:
 black:-
@@ -705,6 +706,7 @@ ROM
 Roter
 Rot-Weiß
 Rot/Weiß
+rted:white_stripe
 Rundwanderweg
 RWW
 shell
@@ -1219,6 +1221,7 @@ yellow:78
 yellow:80
 yellw_round:
 Z0:black
+#00ffff:
 #00ffff:green_dot
 #00ffff:purple_dot
 #008bcc
@@ -1232,6 +1235,7 @@ Z0:black
 3:yellow
 :4
 #40E0D0
+#4169e1:
 7BT
 #8EBE5F:#8EBE5F
 #800000:

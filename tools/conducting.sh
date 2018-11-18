@@ -215,6 +215,7 @@ do
 		       -e "/<!--#guidepost#-->/r $root/xml/guidepost-4.xml" \
 		       -e "/<!--#restriction#-->/r $root/xml/restrictions-4.xml" \
 		       -e "/<!--natural#cliff-->/r $root/xml/cliff-4.xml" \
+		       -e "/<!--horsing#lines#low#zoom-->/r $root/xml/horsing-lines-low-zoom-4.xml" \
 		       -e "s/<!--#version#-->/<!--#r${releasestr}b${buildstr}#-->/" $root/xml/$tempxml
 	else
 		cp $root/xml/$basexml $root/xml/$tempxml
@@ -348,6 +349,11 @@ if [ "$release" -ne "1" ]; then
 				echo "diff tag-mapping.xml $root/osmic-derivate/osmc-symbol-default/tag-mapping.tpl";
 			fi
 		fi
+	fi
+	echo "Press return to see git status."
+	read ans
+	if [ "$ans" != "n" ]; then
+		git status
 	fi
 	exit 0
 fi

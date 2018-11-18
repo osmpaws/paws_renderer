@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" viewBox="0 0 16 16" id="svg2">
+  <metadata id="metadata8">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <dc:title/>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs id="defs6"/>
+  <rect style="fill:none;stroke:none;visibility:hidden" id="canvas" y="0" x="0" height="16" width="16"/><rect x="1" y="1" width="14" height="14" rx="3" ry="3" id="shield" style="fill:#80a7f9;fill-opacity:0.3;stroke:#000000;stroke-width:0.1;stroke-opacity:1;"/>
+  <path style="fill:#000000;fill-opacity:1" d="M1.0 3.0C1.0 3.6666667 1.0 4.3333333 1.0 5.0C1.6666667 5.0 2.3333333 5.0 3.0 5.0C3.0 7.3333333 3.0 9.6666667 3.0 12.0C3.6666667 12.0 4.3333333 12.0 5.0 12.0C5.0 9.6666667 5.0 7.3333333 5.0 5.0C5.6666667 5.0 6.3333333 5.0 7.0 5.0C7.0 4.3333333 7.0 3.6666667 7.0 3.0C5.0 3.0 3.0 3.0 1.0 3.0ZM8.0 3.0C7.5 5.6666667 7.0 7.8333333 6.5 10.0C7.6666667 10.0 8.8333333 10.0 10.0 10.0C10.0 10.333333 10.0 11.166667 10.0 12.0C10.666667 12.0 11.333333 12.0 12.0 12.0C12.0 11.666667 12.0 10.833333 12.0 10.0C12.330078 10.0 12.660156 10.0 12.990234 10.0C12.993489 9.0 12.996745 8.5 13.0 8.0C12.666667 8.0 12.333333 8.0 12.0 8.0C12.0 7.6666667 12.0 7.3333333 12.0 7.0C11.332682 7.0 10.665365 7.0 9.9980469 7.0C9.9863281 7.3333333 9.9746094 7.6666667 9.9628906 8.0C9.4752604 8.0 8.9876302 8.0 8.5 8.0C8.8333333 6.3333333 9.1666667 4.6666667 9.5 3.0C9.0 3.0 8.5 3.0 8.0 3.0Z" id="sac-tiv" transform="translate(1,1)"/>
+</svg>

@@ -1,5 +1,5 @@
-		<!--hiking#lines#low#zoom-->
-		<rule cat="hike_lines" e="way" k="route" v="hiking|foot|wheelchair|ski" zoom-min="12" zoom-max="13">
+		<!--horsing#lines#low#zoom-->
+		<rule cat="horse_lines" e="way" k="route" v="horse" zoom-min="12" zoom-max="13">
 			<rule e="way" k="osmc_color" v="orange" >
 				<line stroke="#FFFFFF" stroke-width="3.7" stroke-linecap="butt" />
 				<line stroke="#F96F00" stroke-width="3.4" stroke-linecap="butt" />

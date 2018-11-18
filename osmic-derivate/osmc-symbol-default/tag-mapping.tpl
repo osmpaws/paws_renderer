@@ -157,6 +157,7 @@
 		<osm-tag key="osmc_foreground" value="orange_shell_modern" renderable="false" />
 		<osm-tag key="osmc_foreground" value="orange_stripe" renderable="false" />
 		<osm-tag key="osmc_foreground" value="orange_triangle" renderable="false" />
+		<osm-tag key="osmc_foreground" value="orange_triangle_turned" renderable="false" />
 		<osm-tag key="osmc_foreground" value="orange_wheel" renderable="false" />
 		<osm-tag key="osmc_foreground" value="purple_bar" renderable="false" />
 		<osm-tag key="osmc_foreground" value="purple_circle" renderable="false" />
@@ -170,6 +171,7 @@
 		<osm-tag key="osmc_foreground" value="purple_pointer" renderable="false" />
 		<osm-tag key="osmc_foreground" value="purple_rectangle" renderable="false" />
 		<osm-tag key="osmc_foreground" value="purple_stripe" renderable="false" />
+		<osm-tag key="osmc_foreground" value="purple_triangle" renderable="false" />
 		<osm-tag key="osmc_foreground" value="purple_triangle_turned" renderable="false" />
 		<osm-tag key="osmc_foreground" value="rectangle" renderable="false" />
 		<osm-tag key="osmc_foreground" value="red_arch" renderable="false" />

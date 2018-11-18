@@ -5141,6 +5141,13 @@ white-purple-triangle-turned:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+white-orange-triangle-turned:
+  fill: "#f96f00"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 black-red-triangle:
   fill: "#ff0000"
   shield:
@@ -5353,6 +5360,13 @@ white-black-triangle:
     padding: 1
 white-brown-triangle:
   fill: "#8b4513"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+white-purple-triangle:
+  fill: "#b878dd"
   shield:
     fill: "#ffffff"
     stroke_fill: "#000000"

@@ -2,7 +2,7 @@
 <rendertheme xmlns="http://mapsforge.org/renderTheme" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://mapsforge.org/renderTheme ../renderTheme.xsd" version="1" map-background="#f8f8f8">
 	
-	<!--#r00014b00173#-->
+	<!--#r00015b00185#-->
 
 	<!--style#v4#setup-->
 	
@@ -193,32 +193,19 @@
 			<rule e="way" k="natural" v="marsh|wetland">
 				<area src="file:/patterns/marsh.png" />
 			</rule>
-			<!--natural#cliff-->
-			<rule e="way" k="natural" v="cliff" zoom-min="14">
-				<!--<area fill="#666666" stroke="#444444" stroke-width="0.10" />-->
-				<line stroke="#444444" stroke-width="0.10" />
-				<line stroke="#444444" stroke-width="1.50" stroke-dasharray="1.50,4.5" stroke-linecap="butt" />
-				<rule e="way" k="*" v="*">
-					<lineSymbol src="file:/symbols/cliff_line.png" align-center="true" repeat="true" />
-				</rule>
-			</rule>
-			<rule e="way" k="natural" v="ridge" zoom-min="14">
-				<line stroke="#222222" stroke-width="0.30" />
-				<line stroke="#bbbbbb" stroke-width="0.70" stroke-dasharray="2.00,2.00,2.00,2.00,2.00,20.0" stroke-linecap="butt" />
-				<line stroke="#222222" stroke-width="1.20" stroke-dasharray="0.00,2.00,2.00,2.00,2.00,22.0" stroke-linecap="butt" />
-			</rule>
-			<rule e="way" k="natural" v="arete" zoom-min="14">
-				<line stroke="#000000" stroke-width="0.30" />
-				<line stroke="#dddddd" stroke-width="0.70" stroke-dasharray="2.00,2.00,2.00,2.00,2.00,2.00,2.00,6.0" stroke-linecap="butt" />
-				<line stroke="#000000" stroke-width="1.20" stroke-dasharray="0.00,2.00,2.00,2.00,2.00,2.00,2.00,8.0" stroke-linecap="butt" />
-			</rule>
-			<rule e="way" k="*" v="*" zoom-min="16">
-				<caption k="name" dy="-22.50" font-style="bold" font-size="17.00" fill="#4040ff" stroke="#ffffff" stroke-width="3.00" />
-			</rule>
 		</rule>
 		
 		<!-- amenity -->
 		<rule e="way" k="amenity" v="*">
+			<rule e="way" k="amenity" v="recycling">
+				<area fill="#adabab" stroke="#7d7d7d" stroke-width="0.30" />
+			</rule>
+			<rule e="way" k="amenity" v="hospital">
+				<area fill="#cdabab" stroke="#e97d72" stroke-width="0.30" />
+			</rule>
+			<rule e="way" k="amenity" v="fire_station">
+				<area fill="#cd5b5b" stroke="#e97d72" stroke-width="0.30" />
+			</rule>
 			<rule e="way" k="amenity" v="kindergarten|school|college|university">
 				<area fill="#cdabde" stroke="#e9dd72" stroke-width="0.30" />
 			</rule>
@@ -253,6 +240,9 @@
 
 		<!-- leisure -->
 		<rule e="way" k="leisure" v="*">
+			<rule e="way" k="leisure" v="marina" zoom-min="13">
+				<area fill="#a5c6e1" stroke="#d6d6d6" stroke-width="0.30" />
+			</rule>
 			<rule e="way" k="leisure" v="park|garden|golf_course|common|green" zoom-min="13">
 				<area fill="#c7f1a3" stroke="#6fe18e" stroke-width="0.30" />
 			</rule>
@@ -316,6 +306,20 @@
 				<area fill="#b5d6f1" />
 			</rule>
 		</rule>
+		
+		<!-- man_made -->
+		<rule e="way" k="man_made" v="*">
+			<rule e="way" k="man_made" v="water_works" zoom-min="15">
+				<area fill="#b5d6f1" stroke="#b5b5b5" stroke-width="1.00" />
+			</rule>
+		</rule>
+		
+		<!-- shop -->
+		<rule e="way" k="shop" v="*">
+			<rule e="way" k="shop" v="garden_centre" zoom-min="15">
+				<area fill="#9acc92" stroke="#6fc18e" stroke-width="0.30" />
+			</rule>
+		</rule>
 
 		<!-- sport -->
 		<rule e="way" k="sport" v="*">
@@ -330,6 +334,9 @@
 
 		<!-- tourism areas -->
 		<rule e="way" k="tourism" v="*">
+			<rule e="way" k="tourism" v="theme_park">
+				<area fill="#ffcaee" />
+			</rule>
 			<rule e="way" k="tourism" v="attraction">
 				<area fill="#f2caea" />
 			</rule>
@@ -337,6 +344,32 @@
 				<area fill="#c7f1a3" stroke="#6fc18e" stroke-width="0.30" />
 			</rule>
 
+			<rule e="way" k="*" v="*" zoom-min="16">
+				<caption k="name" dy="-22.50" font-style="bold" font-size="17.00" fill="#4040ff" stroke="#ffffff" stroke-width="3.00" />
+			</rule>
+		</rule>
+		
+		<!-- natural -->
+		<rule e="way" k="natural" v="*">
+			<!--natural#cliff-->
+			<rule e="way" k="natural" v="cliff" zoom-min="14">
+				<!--<area fill="#666666" stroke="#444444" stroke-width="0.10" />-->
+				<line stroke="#444444" stroke-width="0.10" />
+				<line stroke="#444444" stroke-width="1.50" stroke-dasharray="1.50,4.5" stroke-linecap="butt" />
+				<rule e="way" k="*" v="*">
+					<lineSymbol src="file:/symbols/cliff_line.png" align-center="true" repeat="true" />
+				</rule>
+			</rule>
+			<rule e="way" k="natural" v="ridge" zoom-min="14">
+				<line stroke="#222222" stroke-width="0.30" />
+				<line stroke="#bbbbbb" stroke-width="0.70" stroke-dasharray="2.00,2.00,2.00,2.00,2.00,20.0" stroke-linecap="butt" />
+				<line stroke="#222222" stroke-width="1.20" stroke-dasharray="0.00,2.00,2.00,2.00,2.00,22.0" stroke-linecap="butt" />
+			</rule>
+			<rule e="way" k="natural" v="arete" zoom-min="14">
+				<line stroke="#000000" stroke-width="0.30" />
+				<line stroke="#dddddd" stroke-width="0.70" stroke-dasharray="2.00,2.00,2.00,2.00,2.00,2.00,2.00,6.0" stroke-linecap="butt" />
+				<line stroke="#000000" stroke-width="1.20" stroke-dasharray="0.00,2.00,2.00,2.00,2.00,2.00,2.00,8.0" stroke-linecap="butt" />
+			</rule>
 			<rule e="way" k="*" v="*" zoom-min="16">
 				<caption k="name" dy="-22.50" font-style="bold" font-size="17.00" fill="#4040ff" stroke="#ffffff" stroke-width="3.00" />
 			</rule>
@@ -1206,6 +1239,8 @@
 			</rule>
 		</rule>
 		
+		<!--horsing#lines#low#zoom-->
+		
 		<!--hiking#lines#low#zoom-->
 		<!--KCT#hiking#lines#low#zoom-->
 		<rule e="way" k="osmc_color" v="orange" zoom-min="12" zoom-max="13">
@@ -1313,12 +1348,12 @@
 
 		<!-- man_made features -->
 		<rule e="way" k="man_made" v="*">
-			<rule e="node" k="man_made" v="chimney" zoom-min="17">
+			<rule e="way" k="man_made" v="chimney" zoom-min="17">
 				<rule e="way" k="man_made" v="chimney" closed="no">
 					<line stroke="#d5a655" stroke-width="3.00" />
 				</rule>
 				<rule e="way" k="man_made" v="chimney" closed="yes">
-					<area fill="#000000" stroke="#d5a655" stroke-width="3.00" />
+					<area fill="#000000" stroke="#d5a655" stroke-width="1.00" />
 				</rule>
 			</rule>
 			<rule e="way" k="man_made" v="pier">
@@ -1757,13 +1792,13 @@
 			<rule e="node" k="natural" v="tree" zoom-min="17">
 				<symbol src="file:/symbols/tree_deciduous.png" />
 			</rule>
-			<rule e="node" k="natural" v="cliff" zoom-min="14">
+			<rule e="node" k="natural" v="cliff" zoom-min="13">
 				<symbol src="file:/symbols/cliff.png" />
 			</rule>
-			<rule e="node" k="natural" v="rock" zoom-min="14">
+			<rule e="node" k="natural" v="rock" zoom-min="13">
 				<symbol src="file:/symbols/rock.png" />
 			</rule>
-			<rule e="node" k="natural" v="stone" zoom-min="14">
+			<rule e="node" k="natural" v="stone" zoom-min="13">
 				<symbol src="file:/symbols/stone.png" />
 			</rule>
 
@@ -1813,85 +1848,13 @@
 
 		<!-- shop -->
 		<rule e="any" k="shop" v="*">
-			<rule e="node" k="shop" v="bakery" zoom-min="17">
-				<symbol src="file:/symbols/bakery.png" />
-			</rule>
-			<rule e="node" k="shop" v="butcher" zoom-min="17">
-				<symbol src="file:/symbols/butcher.png" />
-			</rule>
-			<rule e="node" k="shop" v="bicycle" zoom-min="17">
-				<symbol src="file:/symbols/bicycle.png" />
-				<caption k="name" dy="-30.00" font-style="bold" font-size="17.00" fill="#aa3399" stroke="#ffffff" stroke-width="3.00" />
-			</rule>
-			<rule e="node" k="shop" v="florist" zoom-min="17">
-				<symbol src="file:/symbols/florist.png" />
-			</rule>
-			<rule e="node" k="shop" v="organic|supermarket" zoom-min="17">
-				<symbol src="file:/symbols/supermarket.png" />
-			</rule>
-			<rule e="node" k="shop" v="kiosk" zoom-min="17">
-				<symbol src="file:/symbols/kiosk.png" />
-			</rule>
-			<rule e="node" k="shop" v="convenience" zoom-min="17">
-				<symbol src="file:/symbols/convenience.png" />
-			</rule>
-			<rule e="node" k="shop" v="sport" zoom-min="17">
-				<symbol src="file:/symbols/supermarket.png" />
-				<caption k="name" dy="-35.00" font-style="bold" font-size="17.00" fill="#aaaa33" stroke="#ffffff" stroke-width="3.00" />
-			</rule>
-
 			<rule e="any" k="*" v="*" zoom-min="18">
 				<caption k="name" dy="-35.00" font-style="bold" font-size="17.00" fill="#aa3399" stroke="#ffffff" stroke-width="3.00" />
 			</rule>
 		</rule>
 
-
 		<!-- tourism -->
 		<rule e="node" k="tourism" v="*">
-			<rule e="node" k="tourism" v="alpine_hut" zoom-min="15">
-				<symbol src="file:/symbols/alpine_hut.png" />
-			</rule>
-			<rule e="node" k="tourism" v="artwork" zoom-min="18">
-				<symbol src="file:/symbols/artwork.png" />
-			</rule>
-			<rule e="node" k="tourism" v="camp_site" zoom-min="15">
-				<symbol src="file:/symbols/camping.png" />
-			</rule>
-			<rule e="node" k="tourism" v="hostel" zoom-min="17">
-				<symbol src="file:/symbols/hostel.png" />
-			</rule>
-			<rule e="node" k="tourism" v="hotel" zoom-min="17">
-				<symbol src="file:/symbols/hotel.png" />
-			</rule>
-			<rule e="node" k="tourism" v="informations" zoom-min="17">
-				<symbol src="file:/symbols/information.png" />
-			</rule>
-			<rule e="node" k="tourism" v="museum" zoom-min="17" zoom-max="18">
-				<symbol src="file:/symbols/museum.png" />
-			</rule>
-			<rule e="node" k="tourism" v="picnic_site">
-				<symbol src="file:/symbols/picnic_site.png" />
-			</rule>
-			<rule e="node" k="tourism" v="viewpoint" zoom-min="15">
-				<symbol src="file:/symbols/viewpoint.png" />
-			</rule>
-			<!--#guidepost#-->
-			<!--#guidepost#-->
-			<rule e="node" k="information" v="guidepost">
-				<rule e="node" k="*" v="*" zoom-min="14">
-					<symbol src="file:/symbols/guidepost.png" />
-					<caption k="ele" dy="33.00" font-family="sans_serif" font-style="italic" font-size="17.00" fill="#000000" stroke="#FFFFFF" stroke-width="3.70" />
-				</rule>
-			</rule>
-			<rule e="node" k="information" v="map" zoom-min="16">
-				<symbol src="file:/symbols/map.png" />
-			</rule>
-			<rule e="node" k="information" v="board" zoom-min="15">
-				<symbol src="file:/symbols/board.png" />
-			</rule>
-			<rule e="node" k="information" v="office" zoom-min="16">
-				<symbol src="file:/symbols/information_office.png" />
-			</rule>
 			<rule e="node" k="*" v="*" zoom-min="15">
 				<caption k="name" font-family="sans_serif" font-style="italic" dy="-28.50" font-size="21.00" fill="#000000" stroke="#FFFFFF" stroke-width="5.70" />
 			</rule>
@@ -3874,6 +3837,9 @@
 		<rule e="way" k="osmc_foreground" v="purple_triangle_turned">
 			<lineSymbol src="file:/osmc-symbols/white_purple_triangle_turned.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="orange_triangle_turned">
+			<lineSymbol src="file:/osmc-symbols/white_orange_triangle_turned.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="red_triangle">
 			<lineSymbol src="file:/osmc-symbols/white_red_triangle.png" align-center="false" repeat="true" />
 		</rule>
@@ -3891,6 +3857,9 @@
 		</rule>
 		<rule e="way" k="osmc_foreground" v="brown_triangle">
 			<lineSymbol src="file:/osmc-symbols/white_brown_triangle.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="purple_triangle">
+			<lineSymbol src="file:/osmc-symbols/white_purple_triangle.png" align-center="false" repeat="true" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="orange_triangle">
 			<lineSymbol src="file:/osmc-symbols/white_orange_triangle.png" align-center="false" repeat="true" />
@@ -4553,6 +4522,39 @@
 			</rule>
 		</rule>
 		
+		<!-- shop -->
+		<rule e="any" k="shop" v="*">
+			<rule e="any" k="shop" v="bakery" zoom-min="17">
+				<symbol src="file:/symbols/bakery.png" />
+			</rule>
+			<rule e="any" k="shop" v="butcher" zoom-min="17">
+				<symbol src="file:/symbols/butcher.png" />
+			</rule>
+			<rule e="any" k="shop" v="bicycle" zoom-min="17">
+				<symbol src="file:/symbols/bicycle.png" />
+				<caption k="name" dy="-30.00" font-style="bold" font-size="17.00" fill="#aa3399" stroke="#ffffff" stroke-width="3.00" />
+			</rule>
+			<rule e="any" k="shop" v="florist" zoom-min="17">
+				<symbol src="file:/symbols/florist.png" />
+			</rule>
+			<rule e="any" k="shop" v="garden_centre" zoom-min="17">
+				<symbol src="file:/symbols/garden_centre.png" />
+			</rule>
+			<rule e="any" k="shop" v="organic|supermarket" zoom-min="17">
+				<symbol src="file:/symbols/supermarket.png" />
+			</rule>
+			<rule e="any" k="shop" v="kiosk" zoom-min="17">
+				<symbol src="file:/symbols/kiosk.png" />
+			</rule>
+			<rule e="any" k="shop" v="convenience" zoom-min="17">
+				<symbol src="file:/symbols/convenience.png" />
+			</rule>
+			<rule e="any" k="shop" v="sport" zoom-min="17">
+				<symbol src="file:/symbols/supermarket.png" />
+				<caption k="name" dy="-35.00" font-style="bold" font-size="17.00" fill="#aaaa33" stroke="#ffffff" stroke-width="3.00" />
+			</rule>
+		</rule>
+		
 		<!-- leisure -->
 		<rule e="any" k="leisure" v="*">
 			<rule e="any" k="leisure" v="playground" zoom-min="17">
@@ -4565,6 +4567,53 @@
 			<symbol src="file:/symbols/pillbox.png" />
 		</rule>
 		
+		<!-- tourism -->
+		<rule e="any" k="tourism" v="*">
+			<rule e="any" k="tourism" v="alpine_hut" zoom-min="15">
+				<symbol src="file:/symbols/alpine_hut.png" />
+			</rule>
+			<rule e="any" k="tourism" v="artwork" zoom-min="18">
+				<symbol src="file:/symbols/artwork.png" />
+			</rule>
+			<rule e="any" k="tourism" v="camp_site" zoom-min="15">
+				<symbol src="file:/symbols/camping.png" />
+			</rule>
+			<rule e="any" k="tourism" v="hostel" zoom-min="17">
+				<symbol src="file:/symbols/hostel.png" />
+			</rule>
+			<rule e="any" k="tourism" v="hotel" zoom-min="17">
+				<symbol src="file:/symbols/hotel.png" />
+			</rule>
+			<rule e="any" k="tourism" v="informations" zoom-min="17">
+				<symbol src="file:/symbols/information.png" />
+			</rule>
+			<rule e="any" k="tourism" v="museum" zoom-min="17" zoom-max="18">
+				<symbol src="file:/symbols/museum.png" />
+			</rule>
+			<rule e="any" k="tourism" v="picnic_site">
+				<symbol src="file:/symbols/picnic_site.png" />
+			</rule>
+			<rule e="any" k="tourism" v="viewpoint" zoom-min="15">
+				<symbol src="file:/symbols/viewpoint.png" />
+			</rule>
+			<!--#guidepost#-->
+			<!--#guidepost#-->
+			<rule e="node" k="information" v="guidepost">
+				<rule e="node" k="*" v="*" zoom-min="14">
+					<symbol src="file:/symbols/guidepost.png" />
+					<caption k="ele" dy="33.00" font-family="sans_serif" font-style="italic" font-size="17.00" fill="#000000" stroke="#FFFFFF" stroke-width="3.70" />
+				</rule>
+			</rule>
+			<rule e="any" k="information" v="map" zoom-min="16">
+				<symbol src="file:/symbols/map.png" />
+			</rule>
+			<rule e="any" k="information" v="board" zoom-min="15">
+				<symbol src="file:/symbols/board.png" />
+			</rule>
+			<rule e="any" k="information" v="office" zoom-min="16">
+				<symbol src="file:/symbols/information_office.png" />
+			</rule>
+		</rule>
 		
 		<rule e="any" k="natural" v="spring" zoom-min="15">
 			<symbol src="file:/symbols/spring.png" />

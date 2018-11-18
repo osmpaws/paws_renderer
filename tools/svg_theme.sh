@@ -67,15 +67,15 @@ do
 	elif [ "$extrascaletype" = "f" ]; then
 		if [ "$filepath" = "patterns" ] ; then
 			if [ "$size" -gt "64" ]; then
-				newsize="128"
-			elif [ "$size" -gt "32" ]; then
 				newsize="64"
-			elif [ "$size" -gt "16" ]; then
+			elif [ "$size" -gt "32" ]; then
 				newsize="32"
-			elif [ "$size" -gt "8" ]; then
+			elif [ "$size" -gt "16" ]; then
 				newsize="16"
-			elif [ "$size" -gt "4" ]; then
+			elif [ "$size" -gt "8" ]; then
 				newsize="8"
+			elif [ "$size" -gt "4" ]; then
+				newsize="4"
 			fi
 		else
 			newsize="$extrascale"
