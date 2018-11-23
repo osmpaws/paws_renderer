@@ -259,6 +259,7 @@ brown:none
 brown:PL
 :brown_pointer
 brown:RKr
+brown_round
 :brown_signpost
 brown:SNP
 brown:W
@@ -800,6 +801,7 @@ white:bridleway
 white:brown_arrow
 white:brown_oak_leaf
 white:brown_X
+white:BT
 white:B1
 white:B2
 white:B3
@@ -977,6 +979,7 @@ white_triangle:
 :white_triangle
 white_triangle:blue_dot
 white_triangle:green_dot
+white_triangle:red_triangle
 white:Tt
 white:TT
 :white_turned_T

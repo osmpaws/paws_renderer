@@ -64,7 +64,7 @@ do
 	echo "s;$line;$newline;" >> $sedscript
 done
 
-echo "/<!--elevation_contour_line-->/ s/\/>.*/curve=\"cubic\" \/>/" >> $sedscript
+echo "/<!--smooth_line-->/ s/\/>.*/curve=\"cubic\" \/>/" >> $sedscript
 
 sed -i -f $sedscript $targetdir/$themename/$themename.xml
 
