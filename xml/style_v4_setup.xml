@@ -10,12 +10,14 @@
 		<name lang="en" value="Waymarked Trails (line symbols)" />
 		<cat id="hike_lines" />
 		<cat id="hike_symbol_lines" />
+		<cat id="hike_lines" />
 	</layer>
 	<layer id="l_hike_symbol_nodes" parent="l_osmc_lines" enabled="true">
 		<name lang="cs" value="TZT - značky (vedle linie)" />
 		<name lang="en" value="Waymarked Trails (node symbols)" />
 		<cat id="hike_lines" />
 		<cat id="hike_symbol_nodes" />
+		<cat id="hike_lines" />
 	</layer>
 	<layer id="l_horse_lines" parent="l_osmc_lines" enabled="false">
 		<name lang="cs" value="Koňské trasy" />

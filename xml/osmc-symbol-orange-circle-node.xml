@@ -3,4 +3,7 @@
 		<rule e="node" k="osmc_foreground" v="~">
 			<symbol src="file:/osmc-symbols/osmcbg_orange_circle.png" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="orange_hiker">
+			<symbol src="file:/osmc-symbols/orange_circle_orange_hiker.png" />
+		</rule>
 	</rule>

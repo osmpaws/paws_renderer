@@ -1087,14 +1087,16 @@
 		<!-- highway one-way markers -->
 		<rule e="way" k="tunnel" v="~|false|no">
 			<rule e="way" k="area" v="~|false|no" closed="no" >
-				<rule e="way" k="oneway" v="yes|true|1" zoom-min="16">
-					<lineSymbol src="file:/symbols/oneway.png" align-center="true" repeat="true" />
-				</rule>
-				<rule e="way" k="oneway" v="-1" zoom-min="16">
-					<lineSymbol src="file:/symbols/oneway_closedway.png" align-center="true" repeat="true" />
-				</rule>
-				<rule e="way" k="junction" v="roundabout" zoom-min="16">
-					<lineSymbol src="file:/symbols/oneway.png" align-center="true" repeat="true" />
+				<rule e="way" k="highway" v="*">
+					<rule e="way" k="oneway" v="yes|true|1" zoom-min="16">
+						<lineSymbol src="file:/symbols/oneway.png" align-center="true" repeat="true" />
+					</rule>
+					<rule e="way" k="oneway" v="-1" zoom-min="16">
+						<lineSymbol src="file:/symbols/oneway_closedway.png" align-center="true" repeat="true" />
+					</rule>
+					<rule e="way" k="junction" v="roundabout" zoom-min="16">
+						<lineSymbol src="file:/symbols/oneway.png" align-center="true" repeat="true" />
+					</rule>
 				</rule>
 			</rule>
 		</rule>
@@ -1499,13 +1501,13 @@
 			<rule e="node" k="natural" v="tree" zoom-min="17">
 				<symbol src="file:/symbols/tree_deciduous.png" />
 			</rule>
-			<rule e="node" k="natural" v="cliff" zoom-min="13">
+			<rule e="node" k="natural" v="cliff" zoom-min="14">
 				<symbol src="file:/symbols/cliff.png" />
 			</rule>
-			<rule e="node" k="natural" v="rock" zoom-min="13">
+			<rule e="node" k="natural" v="rock" zoom-min="14">
 				<symbol src="file:/symbols/rock.png" />
 			</rule>
-			<rule e="node" k="natural" v="stone" zoom-min="13">
+			<rule e="node" k="natural" v="stone" zoom-min="14">
 				<symbol src="file:/symbols/stone.png" />
 			</rule>
 
