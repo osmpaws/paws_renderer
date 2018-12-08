@@ -563,6 +563,10 @@ photovoltaic:
   shield:
     fill: "#2222a2"
     opacity: 0.25
+plant-nursery:
+  fill: "#000000"
+  shield:
+    fill: "#aadca2"
 scree:
   fill: "#35281e"
   opacity: 0.5
@@ -5279,6 +5283,13 @@ green-frame-green-slash:
     opacity: 0.0
     rounded: 2
     padding: 2
+orange-green-slash:
+  fill: "#00cd27"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 orange-white-slash:
   fill: "#ffffff"
   shield:

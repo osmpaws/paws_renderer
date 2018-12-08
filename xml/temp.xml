@@ -2,7 +2,7 @@
 <rendertheme xmlns="http://mapsforge.org/renderTheme" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://mapsforge.org/renderTheme ../renderTheme.xsd" version="1" map-background="#f8f8f8">
 	
-	<!--#r00017b00193#-->
+	<!--#r00018b00197#-->
 
 	<!--style#v4#setup-->
 	
@@ -154,7 +154,7 @@
 				<area fill="#bde3cb" stroke="#6fc13d" stroke-width="0.3" />
 			</rule>
 			<rule e="way" k="landuse" v="plant_nursery" zoom-min="13">
-				<area fill="#aadca2" stroke="#6fc18e" stroke-width="0.3" />
+				<area src="file:/patterns/plant_nursery.png" stroke="#6fc18e" stroke-width="0.3" />
 			</rule>
 			<rule e="way" k="landuse" v="orchard" zoom-min="13">
 				<area src="file:/patterns/orchard.png" stroke="#6fc18e" stroke-width="0.3" />
@@ -217,24 +217,6 @@
 				<rule e="way" k="religion" v="jewish" zoom-min="13">
 					<area src="file:/patterns/cemetery_jewish.png" stroke="#e4e4e4" stroke-width="0.3" />
 				</rule>
-			</rule>
-			<rule e="way" k="amenity" v="parking">
-				<area fill="#ffffc0" stroke="#e9dd72" stroke-width="0.3" />
-				<rule e="way" k="access" v="private" zoom-min="15">
-					<area src="file:/patterns/access_private.png" />
-				</rule>
-			</rule>
-			<rule e="way" k="amenity" v="bicycle_parking">
-				<area fill="#ffffc0" stroke="#e9dd72" stroke-width="0.3" />
-				<rule e="way" k="access" v="private" zoom-min="15">
-					<area src="file:/patterns/access_private.png" />
-				</rule>
-			</rule>
-			<rule e="way" k="amenity" v="fountain" closed="yes">
-				<area fill="#b5d6f1" stroke="#000080" stroke-width="0.22" />
-			</rule>
-			<rule e="way" k="*" v="*" zoom-min="18">
-				<caption k="name" dy="-22.5" font-style="bold" font-size="17.0" fill="#a06020" stroke="#ffffff" stroke-width="3.0" />
 			</rule>
 		</rule>
 
@@ -517,7 +499,28 @@
 				<area fill="#e9e4ef" stroke="#ffffff" stroke-width="0.22" />
 			</rule>
 		</rule>
-
+		
+		<!-- amenity -->
+		<rule e="way" k="amenity" v="*">
+			<rule e="way" k="amenity" v="parking">
+				<area fill="#ffffc0" stroke="#e9dd72" stroke-width="0.3" />
+				<rule e="way" k="access" v="private" zoom-min="15">
+					<area src="file:/patterns/access_private.png" />
+				</rule>
+			</rule>
+			<rule e="way" k="amenity" v="bicycle_parking">
+				<area fill="#ffffc0" stroke="#e9dd72" stroke-width="0.3" />
+				<rule e="way" k="access" v="private" zoom-min="15">
+					<area src="file:/patterns/access_private.png" />
+				</rule>
+			</rule>
+			<rule e="way" k="amenity" v="fountain" closed="yes">
+				<area fill="#b5d6f1" stroke="#000080" stroke-width="0.22" />
+			</rule>
+			<rule e="way" k="*" v="*" zoom-min="18">
+				<caption k="name" dy="-22.5" font-style="bold" font-size="17.0" fill="#a06020" stroke="#ffffff" stroke-width="3.0" />
+			</rule>
+		</rule>
 
 		<!-- platform cores -->
 		<rule e="way" k="highway|railway|public_transport" v="platform">
@@ -2455,6 +2458,9 @@
 		</rule>
 		<rule e="way" k="osmc_foreground" v="white_rectangle">
 			<lineSymbol src="file:/osmc-symbols/orange_white_rectangle.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="green_slash">
+			<lineSymbol src="file:/osmc-symbols/orange_green_slash.png" align-center="false" repeat="true" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="white_slash">
 			<lineSymbol src="file:/osmc-symbols/orange_white_slash.png" align-center="false" repeat="true" />

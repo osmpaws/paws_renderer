@@ -27,7 +27,7 @@
 			</rule>
 			<rule e="way" k="osmc_color" v="green">
 				<line stroke="#00cd27" stroke-width="1" stroke-linecap="butt" dy="1.5" />
-				<line stroke="#00cd27" stroke-width="1" stroke-linecap="butt" dy="1.5" stroke-dasharray="10,10" />
+				<!--line stroke="#00cd27" stroke-width="1" stroke-linecap="butt" dy="1.5" stroke-dasharray="10,10" /-->
 			</rule>
 			<rule e="way" k="osmc_color" v="orange">
 				<line stroke="#F96F00" stroke-width="1" stroke-linecap="butt" dy="2.5" stroke-dasharray="10,10" />

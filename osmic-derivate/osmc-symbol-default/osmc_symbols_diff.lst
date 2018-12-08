@@ -892,6 +892,7 @@ white:Lb
 white:LDB
 white:LES
 :white_lower
+white_lower:12
 white:L17
 white:L18
 white:L19
@@ -1046,6 +1047,7 @@ white:3_red_dot
 white:3_yellow_dot
 white:37
 white:4
+white:5
 white:&#60;
 white:&#60;5
 white:π

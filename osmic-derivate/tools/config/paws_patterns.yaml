@@ -561,6 +561,10 @@ photovoltaic:
   shield:
     fill: "#2222a2"
     opacity: 0.25
+plant-nursery:
+  fill: "#000000"
+  shield:
+    fill: "#aadca2"
 scree:
   fill: "#35281e"
   opacity: 0.5
