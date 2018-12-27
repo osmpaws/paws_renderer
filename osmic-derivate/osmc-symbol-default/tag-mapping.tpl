@@ -207,6 +207,7 @@
 		<osm-tag key="osmc_foreground" value="shell_modern" renderable="false" />
 		<osm-tag key="osmc_foreground" value="tower" renderable="false" />
 		<osm-tag key="osmc_foreground" value="triangle" renderable="false" />
+		<osm-tag key="osmc_foreground" value="turned_T" renderable="false" />
 		<osm-tag key="osmc_foreground" value="wheelchair" renderable="false" />
 		<osm-tag key="osmc_foreground" value="white_arch" renderable="false" />
 		<osm-tag key="osmc_foreground" value="white_backslash" renderable="false" />

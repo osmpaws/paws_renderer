@@ -31,7 +31,9 @@ viewpoint:
     width: 1
     opacity: 1.0
 cliff:
-  fill: "#d08f55"
+  fill: "#555555"
+rock:
+  fill: "#555555"
 cave-entrance:
   fill: "#000000"
 peak:
@@ -48,6 +50,10 @@ vulcan:
     opacity: 1.0
 stone:
   fill: "#555555"
+  halo:
+    fill: "#ffffff"
+    width: 1
+    opacity: 1.0
 saddle:
   fill: "#d08f55"
 rental-bicycle:
@@ -221,6 +227,8 @@ no-bicycle:
     stroke_width: 2
     rounded: 10
     padding: 2
+traffic-signal:
+  fill: "#000000"
 books:
   fill: "#ac39ac"
 butcher:
@@ -444,6 +452,66 @@ noexit:
     stroke_width: 0.5
     rounded: 3
     opacity: 0.5
+sac-ti:
+  fill: "#000000"
+  shield:
+    fill: "#ffe700"
+    stroke_fill: "#000000"
+    stroke_width: 0.1
+    rounded: 3
+    opacity: 0.3
+sac-tii:
+  fill: "#000000"
+  shield:
+    fill: "#fd817a"
+    stroke_fill: "#000000"
+    stroke_width: 0.1
+    rounded: 3
+    opacity: 0.3
+sac-tiii:
+  fill: "#000000"
+  shield:
+    fill: "#ff0e00"
+    stroke_fill: "#000000"
+    stroke_width: 0.1
+    rounded: 3
+    opacity: 0.3
+sac-tiv:
+  fill: "#000000"
+  shield:
+    fill: "#80a7f9"
+    stroke_fill: "#000000"
+    stroke_width: 0.1
+    rounded: 3
+    opacity: 0.3
+sac-tv:
+  fill: "#000000"
+  shield:
+    fill: "#427af2"
+    stroke_fill: "#000000"
+    stroke_width: 0.1
+    rounded: 3
+    opacity: 0.3
+sac-tvi:
+  fill: "#000000"
+  shield:
+    fill: "#0051ff"
+    stroke_fill: "#000000"
+    stroke_width: 0.1
+    rounded: 3
+    opacity: 0.3
+emergency-phone:
+  fill: "#ff0000"
+  halo:
+    fill: "#ffffff"
+    width: 1
+    opacity: 1.0
+bad-surface:
+  fill: "#ffdb00"
+  opacity: 0.25
+  shield:
+    fill: "#000000"
+    opacity: 0.25
 #patterns
 access-destination:
   fill: "#0000ff"
@@ -453,6 +521,12 @@ access-no-foot:
   fill: "#ffaa00"
 access-private:
   fill: "#ff0000"
+bare-rock:
+  fill: "#25281e"
+  opacity: 0.5
+  shield:
+    fill: "#80abc2"
+    opacity: 0.5
 cemetery:
   fill: "#999999"
   shield:
@@ -479,7 +553,7 @@ nature-reserve:
   opacity: 0.5
 national-park:
   fill: "#ff9999"
-  opacity: 0.5
+  opacity: 0.2
 orchard:
   fill: "#000000"
   shield:
@@ -489,6 +563,20 @@ photovoltaic:
   shield:
     fill: "#394ccd"
     opacity: 0.25
+plant-nursery:
+  fill: "#000000"
+  shield:
+    fill: "#8ab8cd"
+scree:
+  fill: "#35281e"
+  opacity: 0.5
+  shield:
+    fill: "#84b0c2"
+    opacity: 0.5
+scrub:
+  fill: "#569953"
+  shield:
+    fill: "#7ca6c5"
 vineyard:
   fill: "#000000"
   shield:

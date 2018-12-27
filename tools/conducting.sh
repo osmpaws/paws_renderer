@@ -69,6 +69,8 @@ osmcsymlst=~hts/osm/nbh/osmc_symbols.lst
 osmcsymlstold="osmc_symbol.lst"
 winter=0
 wintercol="winter.sh"
+winterprefix="winter_"
+winterarg=""
 pawswinteryaml="paws_winter.yaml"
 buildctrl="build.txt"
 releasectrl="release.txt"
@@ -100,6 +102,13 @@ echo "Debug mode: $debug" > $logfile
 
 if [ "$1" = "-r" ]; then
 	release=1
+	if [ "$2" = "-w" ]; then
+		winter=1
+		winterarg="-w"
+	fi
+elif [ "$1" = "-w" ]; then
+	winter=1
+	winterarg="-w"
 fi
 echo "Release mode: $release" >> $logfile
 
@@ -113,6 +122,10 @@ lmodf=`find osmic-derivate/ -type f -printf '%T@ %p\n' | sort -n | tail -1 | tr 
 echo " Current state: $lmodf" >> $logfile
 lmodo=`cat tools/$lmod`
 echo "Original state: $lmodo" >> $logfile
+
+if [ $winter -eq 1 ]; then
+	lmodo="#"
+fi
 
 if [ "$lmodf" = "$lmodo" ] ; then
 	rebuildimg=0
@@ -145,7 +158,11 @@ else
 	rm -r ../svg/*
 	#rm -r ../png/*
 	cp -R $exportdir/. ../svg/
-	find ../osmic-derivate/ -type f -printf '%T@ %p\n' | sort -n | tail -1 | tr -d '/ .' > $root/tools/$lmod
+	if [ $winter -eq 1 ]; then
+		echo "#" > $root/tools/$lmod
+	else
+		find ../osmic-derivate/ -type f -printf '%T@ %p\n' | sort -n | tail -1 | tr -d '/ .' > $root/tools/$lmod
+	fi
 	
 	rm -r ../svg_patterns/*
 	python tools/export.py tools/config/$pawspatternsyaml
@@ -334,9 +351,17 @@ bash $root/tools/locus_theme.sh
 uploadstr=$uploadstr"themes_svg/paws_4_LE.zip,"
 echo -n "themes_svg/paws_4_LE.zip," >> $uploadpath
 
+if [ "$winter" -eq "1" ]; then
+	bash tools/winter_rename.sh $uploadpath
+fi
+
 localuploadtool="$root/tools/local_upload.sh"
 if [ -f "$localuploadtool" ] ; then
-	bash "$localuploadtool" `sed -e 's/themes\/paws_4.zip//' -e 's/,/ /g' $uploadpath`
+	if [ "$winter" -eq "1" ]; then
+		bash "$localuploadtool" `sed -e 's/themes\/winter_paws_4.zip//' -e 's/,/ /g' $uploadpath`
+	else
+		bash "$localuploadtool" `sed -e 's/themes\/paws_4.zip//' -e 's/,/ /g' $uploadpath`
+	fi
 fi
 
 if [ "$release" -ne "1" ]; then
@@ -364,4 +389,4 @@ git status
 git commit -a -m "This is automatic commit of release r$releasestr ( build b$buildstr )"
 git push
 
-sh tools/$uploadscript "$root/$uploadpath"
+sh tools/$uploadscript "$root/$uploadpath" "$winterarg"

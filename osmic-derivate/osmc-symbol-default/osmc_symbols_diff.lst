@@ -187,6 +187,7 @@ blue_pointer
 :blue_pointer
 blue:PW
 blue_rectangle
+blue_rectangle:
 :blue_rectangle
 blue_rectangle:GT
 blue_rectangle:HB
@@ -194,6 +195,8 @@ blue_rectangle:SP110
 blue_rectangle:SP159
 blue_rectangle:SP35
 blue_rectangle:SP52
+blue_rectangle:SP78
+blue_rectangle:XX###
 blue_round
 blue_round:
 :blue_round
@@ -492,6 +495,7 @@ lwl
 magenta:4.5
 Männl.
 maroon:
+maroon:lime_bar
 maroon_round:CSC
 maroon_web
 mine
@@ -694,6 +698,7 @@ red:white_stripe_G20
 red:white_striper
 red_white_stripe:VL4
 red:white_stripe_Z8
+red_white_stripe:737
 red/whitw
 red:wite_stripe
 red:withe_bar
@@ -756,6 +761,7 @@ white:AW
 white:A2
 white:B
 white_bar
+white_bar:blue
 white_bar:blue_circle
 white_bar:GAB
 white_bar:GAB.
@@ -1212,6 +1218,7 @@ yellow_x
 :yellow_x
 yellow:yellow
 yellow:yellow_rectangle1
+yellow:yellow.51
 yellow:10
 yellow:13
 yellow:14
