@@ -118,17 +118,33 @@ if ! diff -q $osmcsymlst $osmcsymlstold &> /dev/null; then
 fi
 
 rebuildimg=0
-lmodf=`find osmic-derivate/ -type f -printf '%T@ %p\n' | sort -n | tail -1 | tr -d '/ .'`
+if [ $winter -eq 1 ]; then
+	lmodf=`find osmic-derivate/ -type f -printf '%T@ %p\n' | sort -n | tail -1 | tr -d '/ .' | sed 's/$/w/'`
+else
+	lmodf=`find osmic-derivate/ -type f -printf '%T@ %p\n' | sort -n | tail -1 | tr -d '/ .' | sed 's/$/s/'`
+fi
+
+
 echo " Current state: $lmodf" >> $logfile
 lmodo=`cat tools/$lmod`
 echo "Original state: $lmodo" >> $logfile
 
-if [ $winter -eq 1 ]; then
-	lmodo="#"
+month=`date +%m | awk '{printf("%d", $1)}'`
+if [ $month -ge 12 ] || [ $month -le 3 ]; then
+	if grep -q '<layer id="l_piste_nordic" enabled="false">' $root/xml/$stylev4setup ; then
+		sed -i '/<layer id="l_piste_nordic"/ s/enabled="false"/enabled="true"/' $root/xml/$stylev4setup
+	fi
+else
+	if grep -q '<layer id="l_piste_nordic" enabled="true">' $root/xml/$stylev4setup ; then
+		sed -i '/<layer id="l_piste_nordic"/ s/enabled="true"/enabled="false"/' $root/xml/$stylev4setup
+	fi
 fi
 
 if [ "$lmodf" = "$lmodo" ] ; then
 	rebuildimg=0
+	if [ $winter -eq 1 ]; then
+		bash tools/winter_rename.sh $uploadpath -r
+	fi
 else
 	rebuildimg=1
 
@@ -159,9 +175,9 @@ else
 	#rm -r ../png/*
 	cp -R $exportdir/. ../svg/
 	if [ $winter -eq 1 ]; then
-		echo "#" > $root/tools/$lmod
+		find ../osmic-derivate/ -type f -printf '%T@ %p\n' | sort -n | tail -1 | tr -d '/ .' | sed 's/$/w/' > $root/tools/$lmod
 	else
-		find ../osmic-derivate/ -type f -printf '%T@ %p\n' | sort -n | tail -1 | tr -d '/ .' > $root/tools/$lmod
+		find ../osmic-derivate/ -type f -printf '%T@ %p\n' | sort -n | tail -1 | tr -d '/ .' | sed 's/$/s/' > $root/tools/$lmod
 	fi
 	
 	rm -r ../svg_patterns/*
@@ -334,7 +350,11 @@ do
 		sh tools/completer.sh $themename
 		echo "PNGs copied in: $((`date +%s`-startsec)) sec" >> $logfile
 	fi
-	cp images/paw.png $themename/$themename.png
+	if [ "$winter" -eq "1" ]; then
+		cp images/winter_paw.png $themename/$themename.png
+	else
+		cp images/paw.png $themename/$themename.png
+	fi
 	echo "zipping"
 	zip -qr $themename.zip $themename
 	mv $themename $themename.zip themes/
@@ -347,7 +367,7 @@ bash $root/tools/svg_theme.sh
 uploadstr=$uploadstr"themes_svg/paws_4.zip,"
 echo -n "themes_svg/paws_4.zip," >> $uploadpath
 
-bash $root/tools/locus_theme.sh
+bash $root/tools/locus_theme.sh "$winterarg"
 uploadstr=$uploadstr"themes_svg/paws_4_LE.zip,"
 echo -n "themes_svg/paws_4_LE.zip," >> $uploadpath
 

@@ -191,6 +191,7 @@ blue_rectangle:
 :blue_rectangle
 blue_rectangle:GT
 blue_rectangle:HB
+blue_rectangle:SPxx
 blue_rectangle:SP110
 blue_rectangle:SP159
 blue_rectangle:SP35
@@ -573,6 +574,7 @@ purple_circle:
 purple:DGG
 :purple_diamond
 purple_diamond:blue_dot
+purple_diamond:csc
 :purple_dot
 purple:DP
 purple_frame:
@@ -1028,6 +1030,7 @@ white:yellow_dot,
 white:yellow_FIXME_alternative
 white:yellow_goblet
 white:yellow_house
+white:yellow_chapel
 white:yellow_point
 white:yellow_rectrangle
 white:yellow_rhombus
