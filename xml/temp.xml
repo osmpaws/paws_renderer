@@ -2,7 +2,7 @@
 <rendertheme xmlns="http://mapsforge.org/renderTheme" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://mapsforge.org/renderTheme ../renderTheme.xsd" version="1" map-background="#f8f8f8">
 	
-	<!--#r00020b00215#-->
+	<!--#r00021b00216#-->
 
 	<!--style#v4#setup-->
 	
@@ -1398,25 +1398,25 @@
 			<!-- piste areas -->
 			<rule e="way" k="piste:type" v="downhill" closed="yes">
 				<rule e="way" k="piste:difficulty" v="novice">
-					<area fill="#5540ff40" stroke="#5540ff40" stroke-width="15.00" /> <!--winter#skip-->
+					<area fill="#5540ff40" stroke="#5540ff40" stroke-width="1.00" /> <!--winter#skip-->
 				</rule>
 				<rule e="way" k="piste:difficulty" v="easy">
-					<area fill="#554040ff" stroke="#554040ff" stroke-width="15.00" /> <!--winter#skip-->
+					<area fill="#554040ff" stroke="#554040ff" stroke-width="1.00" /> <!--winter#skip-->
 				</rule>
 				<rule e="way" k="piste:difficulty" v="intermediate">
-					<area fill="#55ff4040" stroke="#55ff4040" stroke-width="15.00" /> <!--winter#skip-->
+					<area fill="#55ff4040" stroke="#55ff4040" stroke-width="1.00" /> <!--winter#skip-->
 				</rule>
 				<rule e="way" k="piste:difficulty" v="advanced">
-					<area fill="#55000000" stroke="#55000000" stroke-width="15.00" /> <!--winter#skip-->
+					<area fill="#55000000" stroke="#55000000" stroke-width="1.00" /> <!--winter#skip-->
 				</rule>
 				<rule e="way" k="piste:difficulty" v="expert">
-					<area fill="#55f6800a" stroke="#55f6800a" stroke-width="15.00" /> <!--winter#skip-->
+					<area fill="#55f6800a" stroke="#55f6800a" stroke-width="1.00" /> <!--winter#skip-->
 				</rule>
 				<rule e="way" k="piste:difficulty" v="freeride">
-					<area fill="#55f6dd0a" stroke="#55f6dd0a" stroke-width="15.00" /> <!--winter#skip-->
+					<area fill="#55f6dd0a" stroke="#55f6dd0a" stroke-width="1.00" /> <!--winter#skip-->
 				</rule>
 				<rule e="way" k="piste:difficulty" v="~">
-					<area fill="#55505050" stroke="#55505050" stroke-width="15.00" /> <!--winter#skip-->
+					<area fill="#55505050" stroke="#55505050" stroke-width="1.00" /> <!--winter#skip-->
 				</rule>
 
 				<rule e="way" k="*" v="*" zoom-min="16">
