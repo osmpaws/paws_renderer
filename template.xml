@@ -2,7 +2,7 @@
 <rendertheme xmlns="http://mapsforge.org/renderTheme" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://mapsforge.org/renderTheme ../renderTheme.xsd" version="1" map-background="#f8f8f8">
 	
-	<!--#r00017b00193#-->
+	<!--#r00022b00217#-->
 
 	<!--style#v4#setup-->
 	
@@ -154,7 +154,7 @@
 				<area fill="#bde3cb" stroke="#6fc13d" stroke-width="0.30" />
 			</rule>
 			<rule e="way" k="landuse" v="plant_nursery" zoom-min="13">
-				<area fill="#aadca2" stroke="#6fc18e" stroke-width="0.30" />
+				<area src="file:/patterns/plant_nursery.png" stroke="#6fc18e" stroke-width="0.30" />
 			</rule>
 			<rule e="way" k="landuse" v="orchard" zoom-min="13">
 				<area src="file:/patterns/orchard.png" stroke="#6fc18e" stroke-width="0.30" />
@@ -217,24 +217,6 @@
 				<rule e="way" k="religion" v="jewish" zoom-min="13">
 					<area src="file:/patterns/cemetery_jewish.png" stroke="#e4e4e4" stroke-width="0.30" />
 				</rule>
-			</rule>
-			<rule e="way" k="amenity" v="parking">
-				<area fill="#ffffc0" stroke="#e9dd72" stroke-width="0.30" />
-				<rule e="way" k="access" v="private" zoom-min="15">
-					<area src="file:/patterns/access_private.png" />
-				</rule>
-			</rule>
-			<rule e="way" k="amenity" v="bicycle_parking">
-				<area fill="#ffffc0" stroke="#e9dd72" stroke-width="0.30" />
-				<rule e="way" k="access" v="private" zoom-min="15">
-					<area src="file:/patterns/access_private.png" />
-				</rule>
-			</rule>
-			<rule e="way" k="amenity" v="fountain" closed="yes">
-				<area fill="#b5d6f1" stroke="#000080" stroke-width="0.22" />
-			</rule>
-			<rule e="way" k="*" v="*" zoom-min="18">
-				<caption k="name" dy="-22.50" font-style="bold" font-size="17.00" fill="#a06020" stroke="#ffffff" stroke-width="3.00" />
 			</rule>
 		</rule>
 
@@ -517,7 +499,28 @@
 				<area fill="#e9e4ef" stroke="#ffffff" stroke-width="0.22" />
 			</rule>
 		</rule>
-
+		
+		<!-- amenity -->
+		<rule e="way" k="amenity" v="*">
+			<rule e="way" k="amenity" v="parking">
+				<area fill="#ffffc0" stroke="#e9dd72" stroke-width="0.30" />
+				<rule e="way" k="access" v="private" zoom-min="15">
+					<area src="file:/patterns/access_private.png" />
+				</rule>
+			</rule>
+			<rule e="way" k="amenity" v="bicycle_parking">
+				<area fill="#ffffc0" stroke="#e9dd72" stroke-width="0.30" />
+				<rule e="way" k="access" v="private" zoom-min="15">
+					<area src="file:/patterns/access_private.png" />
+				</rule>
+			</rule>
+			<rule e="way" k="amenity" v="fountain" closed="yes">
+				<area fill="#b5d6f1" stroke="#000080" stroke-width="0.22" />
+			</rule>
+			<rule e="way" k="*" v="*" zoom-min="18">
+				<caption k="name" dy="-22.50" font-style="bold" font-size="17.00" fill="#a06020" stroke="#ffffff" stroke-width="3.00" />
+			</rule>
+		</rule>
 
 		<!-- platform cores -->
 		<rule e="way" k="highway|railway|public_transport" v="platform">
@@ -1375,14 +1378,16 @@
 		<!-- highway one-way markers -->
 		<rule e="way" k="tunnel" v="~|false|no">
 			<rule e="way" k="area" v="~|false|no" closed="no" >
-				<rule e="way" k="oneway" v="yes|true|1" zoom-min="16">
-					<lineSymbol src="file:/symbols/oneway.png" align-center="true" repeat="true" />
-				</rule>
-				<rule e="way" k="oneway" v="-1" zoom-min="16">
-					<lineSymbol src="file:/symbols/oneway_closedway.png" align-center="true" repeat="true" />
-				</rule>
-				<rule e="way" k="junction" v="roundabout" zoom-min="16">
-					<lineSymbol src="file:/symbols/oneway.png" align-center="true" repeat="true" />
+				<rule e="way" k="highway" v="*">
+					<rule e="way" k="oneway" v="yes|true|1" zoom-min="16">
+						<lineSymbol src="file:/symbols/oneway.png" align-center="true" repeat="true" />
+					</rule>
+					<rule e="way" k="oneway" v="-1" zoom-min="16">
+						<lineSymbol src="file:/symbols/oneway_closedway.png" align-center="true" repeat="true" />
+					</rule>
+					<rule e="way" k="junction" v="roundabout" zoom-min="16">
+						<lineSymbol src="file:/symbols/oneway.png" align-center="true" repeat="true" />
+					</rule>
 				</rule>
 			</rule>
 		</rule>
@@ -1393,25 +1398,25 @@
 			<!-- piste areas -->
 			<rule e="way" k="piste:type" v="downhill" closed="yes">
 				<rule e="way" k="piste:difficulty" v="novice">
-					<area fill="#5540ff40" stroke="#5540ff40" stroke-width="7.50" />
+					<area fill="#5540ff40" stroke="#5540ff40" stroke-width="0.50" /> <!--winter#skip-->
 				</rule>
 				<rule e="way" k="piste:difficulty" v="easy">
-					<area fill="#554040ff" stroke="#554040ff" stroke-width="7.50" />
+					<area fill="#554040ff" stroke="#554040ff" stroke-width="0.50" /> <!--winter#skip-->
 				</rule>
 				<rule e="way" k="piste:difficulty" v="intermediate">
-					<area fill="#55ff4040" stroke="#55ff4040" stroke-width="7.50" />
+					<area fill="#55ff4040" stroke="#55ff4040" stroke-width="0.50" /> <!--winter#skip-->
 				</rule>
 				<rule e="way" k="piste:difficulty" v="advanced">
-					<area fill="#55000000" stroke="#55000000" stroke-width="7.50" />
+					<area fill="#55000000" stroke="#55000000" stroke-width="0.50" /> <!--winter#skip-->
 				</rule>
 				<rule e="way" k="piste:difficulty" v="expert">
-					<area fill="#55f6800a" stroke="#55f6800a" stroke-width="7.50" />
+					<area fill="#55f6800a" stroke="#55f6800a" stroke-width="0.50" /> <!--winter#skip-->
 				</rule>
 				<rule e="way" k="piste:difficulty" v="freeride">
-					<area fill="#55f6dd0a" stroke="#55f6dd0a" stroke-width="7.50" />
+					<area fill="#55f6dd0a" stroke="#55f6dd0a" stroke-width="0.50" /> <!--winter#skip-->
 				</rule>
 				<rule e="way" k="piste:difficulty" v="~">
-					<area fill="#55505050" stroke="#55505050" stroke-width="7.50" />
+					<area fill="#55505050" stroke="#55505050" stroke-width="0.50" /> <!--winter#skip-->
 				</rule>
 
 				<rule e="way" k="*" v="*" zoom-min="16">
@@ -1791,13 +1796,13 @@
 			<rule e="node" k="natural" v="tree" zoom-min="17">
 				<symbol src="file:/symbols/tree_deciduous.png" />
 			</rule>
-			<rule e="node" k="natural" v="cliff" zoom-min="13">
+			<rule e="node" k="natural" v="cliff" zoom-min="14">
 				<symbol src="file:/symbols/cliff.png" />
 			</rule>
-			<rule e="node" k="natural" v="rock" zoom-min="13">
+			<rule e="node" k="natural" v="rock" zoom-min="14">
 				<symbol src="file:/symbols/rock.png" />
 			</rule>
-			<rule e="node" k="natural" v="stone" zoom-min="13">
+			<rule e="node" k="natural" v="stone" zoom-min="14">
 				<symbol src="file:/symbols/stone.png" />
 			</rule>
 
@@ -2047,6 +2052,9 @@
 		</rule>
 		<rule e="way" k="osmc_foreground" v="white_pointer">
 			<lineSymbol src="file:/osmc-symbols/blue_white_pointer.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="yellow_rectangle">
+			<lineSymbol src="file:/osmc-symbols/blue_yellow_rectangle.png" align-center="false" repeat="true" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="white_rectangle">
 			<lineSymbol src="file:/osmc-symbols/blue_white_rectangle.png" align-center="false" repeat="true" />
@@ -2455,6 +2463,9 @@
 		</rule>
 		<rule e="way" k="osmc_foreground" v="white_rectangle">
 			<lineSymbol src="file:/osmc-symbols/orange_white_rectangle.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="green_slash">
+			<lineSymbol src="file:/osmc-symbols/orange_green_slash.png" align-center="false" repeat="true" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="white_slash">
 			<lineSymbol src="file:/osmc-symbols/orange_white_slash.png" align-center="false" repeat="true" />
@@ -3118,6 +3129,9 @@
 	<rule e="way" k="osmc_background" v="orange_circle" zoom-min="15">
 		<rule e="way" k="osmc_foreground" v="~">
 			<lineSymbol src="file:/osmc-symbols/osmcbg_orange_circle.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="orange_hiker">
+			<lineSymbol src="file:/osmc-symbols/orange_circle_orange_hiker.png" align-center="false" repeat="true" />
 		</rule>
 	</rule>
 <!--OSMC symbols red background-->
@@ -3880,6 +3894,9 @@
 		</rule>
 		<rule e="way" k="osmc_foreground" v="black_turned_T">
 			<lineSymbol src="file:/osmc-symbols/white_black_turned_t.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="turned_T">
+			<lineSymbol src="file:/osmc-symbols/white_turned_t.png" align-center="false" repeat="true" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="red_wheelchair">
 			<lineSymbol src="file:/osmc-symbols/white_red_wheelchair.png" align-center="false" repeat="true" />
