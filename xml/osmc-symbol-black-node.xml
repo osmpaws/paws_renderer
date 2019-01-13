@@ -123,6 +123,9 @@
 		<rule e="node" k="osmc_foreground" v="green_lower">
 			<symbol src="file:/osmc-symbols/black_green_lower.png" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="white_lower">
+			<symbol src="file:/osmc-symbols/black_white_lower.png" />
+		</rule>
 		<rule e="node" k="osmc_foreground" v="L">
 			<symbol src="file:/osmc-symbols/black_l.png" />
 		</rule>

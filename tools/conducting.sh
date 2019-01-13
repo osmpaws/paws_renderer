@@ -251,10 +251,15 @@ do
 		       -e "/<!--horsing#lines#low#zoom-->/r $root/xml/horsing-lines-low-zoom-4.xml" \
 		       -e "s/<!--#version#-->/<!--#r${releasestr}b${buildstr}#-->/" $root/xml/$tempxml
 	else
+		if [ $month -ge 12 ] || [ $month -le 3 ]; then
+			pistenordic="piste-nordic.xml"
+		else
+			pistenordic="empty.xml"
+		fi
 		cp $root/xml/$basexml $root/xml/$tempxml
 ###		echo "/<!--piste#nordic-->/r $root/xml/piste-nordic.xml
 ###		      /<!--#guidepost#-->/r $root/xml/$gp" >> $themename_$sedfile
-		sed -i -e "/<!--piste#nordic-->/r $root/xml/piste-nordic.xml" \
+		sed -i -e "/<!--piste#nordic-->/r $root/xml/$pistenordic" \
 		       -e "/<!--#guidepost#-->/r $root/xml/guidepost.xml" \
 		       -e "/<!--#restriction#-->/r $root/xml/restrictions.xml" \
 		       -e "/<!--natural#cliff-->/r $root/xml/cliff.xml" \

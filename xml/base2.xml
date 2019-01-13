@@ -69,7 +69,7 @@
 				 </rule>
 			</rule>
 			<rule e="way" k="natural" v="glacier">
-				 <area fill="#fafaff" stroke="#add8e6" stroke-width="1.2" />
+				 <area fill="#dafaff" stroke="#add8e6" stroke-width="1.2" />
 			</rule>
 			<rule e="way" k="natural" v="land">
 				 <area fill="#f8f8f8" stroke="#e0e0e0" stroke-width="0.1" />
@@ -263,7 +263,7 @@
 
 			<!-- waterway cores -->
 			<rule e="way" k="waterway" v="ditch">
-				<line stroke="#b5d6f1" stroke-width="0.1" />
+				<line stroke="#b5d6f1" stroke-width="0.2" />
 			</rule>
 			<rule e="way" k="waterway" v="drain">
 				<line stroke="#b5d6f1" stroke-width="1.2" />
@@ -272,7 +272,7 @@
 				<line stroke="#b5d6f1" stroke-width="1.2" />
 			</rule>
 			<rule e="way" k="waterway" v="stream">
-				<line stroke="#b5d6f1" stroke-width="0.412" />
+				<line stroke="#b5d6f1" stroke-width="0.5" />
 			</rule>
 			<rule e="way" k="waterway" v="river">
 				<line stroke="#b5d6f1" stroke-width="1.5" />
@@ -840,7 +840,7 @@
 								<line stroke="#505050" stroke-width="1.1" stroke-linecap="square" stroke-dasharray="15,9,1.5,9,1.5,9,1.5,9" />
 							</rule>
 							<rule e="way" k="tracktype" v="~|false">
-								<line stroke="#505050" stroke-width="1.0" stroke-linecap="square" stroke-dasharray="15,9,1.5,9,1.5,9,1.5,9,1.5,9" />
+								<line stroke="#505050" stroke-width="1.0" stroke-linecap="square" stroke-dasharray="15,9,1.5,9,0.1,15,0.1,9,1.5,9" />
 							</rule>
 						</rule>
 						<rule e="way" k="*" v="*" zoom-min="17" zoom-max="18">
@@ -860,7 +860,7 @@
 								<line stroke="#505050" stroke-width="1.1" stroke-linecap="square" stroke-dasharray="22.5,18,1.5,18,1.5,18,1.5,18" />
 							</rule>
 							<rule e="way" k="tracktype" v="~|false">
-								<line stroke="#505050" stroke-width="1.0" stroke-linecap="square" stroke-dasharray="22.5,18,1.5,18,1.5,18,1.5,18,1.5,18" />
+								<line stroke="#505050" stroke-width="1.0" stroke-linecap="square" stroke-dasharray="22.5,18,1.5,18,0.1,25,0.1,18,1.5,18" />
 							</rule>
 						</rule>
 						<rule e="way" k="*" v="*" zoom-min="19">
@@ -880,7 +880,7 @@
 								<line stroke="#505050" stroke-width="1.1" stroke-linecap="square" stroke-dasharray="30,45,1.5,45,1.5,45,1.5,45" />
 							</rule>
 							<rule e="way" k="tracktype" v="~|false">
-								<line stroke="#505050" stroke-width="1.0" stroke-linecap="square" stroke-dasharray="30,45,1.5,45,1.5,45,1.5,45,1.5,45" />
+								<line stroke="#505050" stroke-width="1.0" stroke-linecap="square" stroke-dasharray="30,45,1.5,45,0.1,55,0.1,45,1.5,45" />
 							</rule>
 						</rule>						
 						<rule e="way" k="*" v="*" zoom-min="15">
@@ -1105,7 +1105,34 @@
 		<!-- pistes -->
 		<rule e="way" k="piste:type" v="*">
 			<!-- piste areas -->
-			<rule e="way" k="piste:type" v="downhill" closed="yes">
+			<rule e="way" k="piste:type" v="downhill" closed="yes" zoom-max="14">
+				<rule e="way" k="piste:difficulty" v="novice">
+					<area fill="#5540ff40" stroke="#5540ff40" stroke-width="5.5" /> <!--winter#skip-->
+				</rule>
+				<rule e="way" k="piste:difficulty" v="easy">
+					<area fill="#554040ff" stroke="#554040ff" stroke-width="5.5" /> <!--winter#skip-->
+				</rule>
+				<rule e="way" k="piste:difficulty" v="intermediate">
+					<area fill="#55ff4040" stroke="#55ff4040" stroke-width="5.5" /> <!--winter#skip-->
+				</rule>
+				<rule e="way" k="piste:difficulty" v="advanced">
+					<area fill="#55000000" stroke="#55000000" stroke-width="5.5" /> <!--winter#skip-->
+				</rule>
+				<rule e="way" k="piste:difficulty" v="expert">
+					<area fill="#55f6800a" stroke="#55f6800a" stroke-width="5.5" /> <!--winter#skip-->
+				</rule>
+				<rule e="way" k="piste:difficulty" v="freeride">
+					<area fill="#55f6dd0a" stroke="#55f6dd0a" stroke-width="5.5" /> <!--winter#skip-->
+				</rule>
+				<rule e="way" k="piste:difficulty" v="~">
+					<area fill="#55505050" stroke="#55505050" stroke-width="5.5" /> <!--winter#skip-->
+				</rule>
+
+				<rule e="way" k="*" v="*" zoom-min="16">
+					<caption k="name" font-style="bold" font-size="17.0" fill="#000000" stroke="#ffffff" stroke-width="3.0" />
+				</rule>
+			</rule>
+			<rule e="way" k="piste:type" v="downhill" closed="yes" zoom-min="15">
 				<rule e="way" k="piste:difficulty" v="novice">
 					<area fill="#5540ff40" stroke="#5540ff40" stroke-width="0.5" /> <!--winter#skip-->
 				</rule>

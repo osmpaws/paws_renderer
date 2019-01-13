@@ -525,27 +525,27 @@ bare-rock:
   fill: "#25281e"
   opacity: 0.5
   shield:
-    fill: "#c2b48c"
+    fill: "#80abc2"
     opacity: 0.5
 cemetery:
   fill: "#999999"
   shield:
-    fill: "#bde3cb"
+    fill: "#9acee1"
 cemetery-christian:
   fill: "#999999"
   shield:
-    fill: "#bde3cb"
+    fill: "#9acee1"
 cemetery-jewish:
   fill: "#999999"
   shield:
-    fill: "#bde3cb"
+    fill: "#9acee1"
 marsh:
   fill: "#0092da"
 military:
   fill: "#555555"
   opacity: 0.25
   shield:
-    fill: "#ffe649"
+    fill: "#8bbaa0"
     opacity: 0.25
     padding: 2
 nature-reserve:
@@ -557,42 +557,42 @@ national-park:
 orchard:
   fill: "#000000"
   shield:
-    fill: "#aadca2"
+    fill: "#8ab8cd"
 photovoltaic:
   fill: "#ffffff"
   shield:
-    fill: "#2222a2"
+    fill: "#394ccd"
     opacity: 0.25
 plant-nursery:
   fill: "#000000"
   shield:
-    fill: "#aadca2"
+    fill: "#8ab8cd"
 scree:
   fill: "#35281e"
   opacity: 0.5
   shield:
-    fill: "#d2b48c"
+    fill: "#84b0c2"
     opacity: 0.5
 scrub:
   fill: "#569953"
   shield:
-    fill: "#96c993"
+    fill: "#7ca6c5"
 vineyard:
   fill: "#000000"
   shield:
-    fill: "#aadca2"
+    fill: "#8ab8cd"
 wood-coniferous:
   fill: "#96b983"
   shield:
-    fill: "#a6c993"
+    fill: "#80abc5"
 wood-deciduous:
   fill: "#96b983"
   shield:
-    fill: "#a6c993"
+    fill: "#80abc5"
 wood-mixed:
   fill: "#96b983"
   shield:
-    fill: "#a6c993"
+    fill: "#80abc5"
 #osmc-symbol
 osmcbg-black:
   fill: "#000000"
@@ -2717,6 +2717,13 @@ orange-black-diamond:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+purple-white-diamond:
+  fill: "#ffffff"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 red-white-diamond:
   fill: "#ffffff"
   shield:
@@ -3972,6 +3979,13 @@ black-red-lower:
     padding: 1
 black-green-lower:
   fill: "#00cd27"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+black-white-lower:
+  fill: "#ffffff"
   shield:
     fill: "#000000"
     stroke_fill: "#000000"

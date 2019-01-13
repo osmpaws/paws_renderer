@@ -2380,6 +2380,12 @@
 	<rule e="way" k="osmc_background" v="orange_round" zoom-min="15">
 	</rule>
 	<rule e="way" k="osmc_background" v="purple" zoom-min="15">
+		<rule e="way" k="osmc_foreground" v="white_diamond">
+			<lineSymbol src="file:/osmc-symbols/purple_white_diamond.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="white_diamond">
+			<symbol src="file:/osmc-symbols/purple_white_diamond.png" />
+		</rule>
 	</rule>
 	<rule e="way" k="osmc_background" v="purple_circle" zoom-min="15">
 	</rule>
@@ -3849,6 +3855,12 @@
 		</rule>
 		<rule e="node" k="osmc_foreground" v="green_lower">
 			<symbol src="file:/osmc-symbols/black_green_lower.png" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="white_lower">
+			<lineSymbol src="file:/osmc-symbols/black_white_lower.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="white_lower">
+			<symbol src="file:/osmc-symbols/black_white_lower.png" />
 		</rule>
 	</rule>
 	<rule e="way" k="osmc_background" v="black_circle" zoom-min="15">

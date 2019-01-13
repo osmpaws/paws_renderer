@@ -24,6 +24,9 @@
 		<rule e="node" k="osmc_foreground" v="white_cross">
 			<symbol src="file:/osmc-symbols/purple_white_cross.png" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="white_diamond">
+			<symbol src="file:/osmc-symbols/purple_white_diamond.png" />
+		</rule>
 		<rule e="node" k="osmc_foreground" v="red_dot">
 			<symbol src="file:/osmc-symbols/purple_red_dot.png" />
 		</rule>

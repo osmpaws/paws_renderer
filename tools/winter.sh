@@ -15,7 +15,7 @@ tb=`echo $targetcol | awk '{print toupper(substr($0, 5, 2))}'`
 
 while IFS= read line ; do
 	if echo $line | grep -q '<!--winter#skip-->' ; then
-		echo "$line"
+		echo "$line" | sed 's/\s*<!--winter#skip-->//'
 	elif echo $line | grep -q 'area.* .*fill' ; then
 		hex=`echo $line | sed 's/.* fill="#\([^"]\{3,8\}\)" .*/\1/'`
 		or=`echo $hex | awk '{print toupper(substr($0, 1, 2))}'`

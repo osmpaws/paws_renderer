@@ -2122,6 +2122,13 @@ orange-black-diamond:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+purple-white-diamond:
+  fill: "#ffffff"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 red-white-diamond:
   fill: "#ffffff"
   shield:
@@ -3377,6 +3384,13 @@ black-red-lower:
     padding: 1
 black-green-lower:
   fill: "#00cd27"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+black-white-lower:
+  fill: "#ffffff"
   shield:
     fill: "#000000"
     stroke_fill: "#000000"

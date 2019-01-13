@@ -5,11 +5,11 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   id="svg2"
-   viewBox="0 0 14 14"
-   height="100%"
+   version="1.1"
    width="100%"
-   version="1.1">
+   height="100%"
+   viewBox="0 0 14 14"
+   id="svg2">
   <metadata
      id="metadata8">
     <rdf:RDF>
@@ -25,14 +25,14 @@
   <defs
      id="defs6" />
   <rect
-     style="fill:none;stroke:none;visibility:hidden"
-     id="canvas"
-     y="0"
-     x="0"
+     width="14"
      height="14"
-     width="14" />
+     x="0"
+     y="0"
+     id="canvas"
+     style="fill:none;stroke:none;visibility:hidden" />
   <path
-     style="fill:#000000;fill-opacity:1;stroke:none"
      id="alpine-hut"
-     d="M 0,4 0,5 2,4 2,14 12,14 12,4 14,5 14,4 7,0 z m 4,1 6,0 0,7 -6,0 z" />
+     d="M 0,4 C 0,4.3333333 0,4.6666667 0,5 0.66666667,4.6666667 1.3333333,4.3333333 2,4 c 0,3.3333333 0,6.666667 0,10 3.3333333,0 6.6666667,0 10,0 0,-3.333333 0,-6.6666667 0,-10 0.666667,0.3333333 1.333333,0.6666667 2,1 C 14,4.6666667 14,4.3333333 14,4 11.666667,2.6666667 9.3333333,1.3333333 7,0 4.6666667,1.3333333 2.3333333,2.6666667 0,4 Z m 4,1 c 2,0 4,0 6,0 0,2.3333333 0,4.6666667 0,7 C 8,12 6,12 4,12 4,9.6666667 4,7.3333333 4,5 Z"
+     style="fill:#000000;fill-opacity:1;stroke:none" />
 </svg>
