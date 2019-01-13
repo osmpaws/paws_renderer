@@ -2,7 +2,7 @@
 <rendertheme xmlns="http://mapsforge.org/renderTheme" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://mapsforge.org/renderTheme ../renderTheme.xsd" version="1" map-background="#f8f8f8">
 	
-	<!--#r00022b00217#-->
+	<!--#r00024b00230#-->
 
 	<!--style#v4#setup-->
 	
@@ -69,7 +69,7 @@
 				 </rule>
 			</rule>
 			<rule e="way" k="natural" v="glacier">
-				 <area fill="#fafaff" stroke="#add8e6" stroke-width="1.20" />
+				 <area fill="#dafaff" stroke="#add8e6" stroke-width="1.20" />
 			</rule>
 			<rule e="way" k="natural" v="land">
 				 <area fill="#f8f8f8" stroke="#e0e0e0" stroke-width="0.10" />
@@ -263,7 +263,7 @@
 
 			<!-- waterway cores -->
 			<rule e="way" k="waterway" v="ditch">
-				<line stroke="#b5d6f1" stroke-width="0.10" />
+				<line stroke="#b5d6f1" stroke-width="0.20" />
 			</rule>
 			<rule e="way" k="waterway" v="drain">
 				<line stroke="#b5d6f1" stroke-width="1.20" />
@@ -272,7 +272,7 @@
 				<line stroke="#b5d6f1" stroke-width="1.20" />
 			</rule>
 			<rule e="way" k="waterway" v="stream">
-				<line stroke="#b5d6f1" stroke-width="0.41" />
+				<line stroke="#b5d6f1" stroke-width="0.50" />
 			</rule>
 			<rule e="way" k="waterway" v="river">
 				<line stroke="#b5d6f1" stroke-width="1.50" />
@@ -1050,7 +1050,7 @@
 								<line stroke="#505050" stroke-width="1.10" stroke-linecap="square" stroke-dasharray="15.00,9.00,1.50,9.00,1.50,9.00,1.50,9.0" />
 							</rule>
 							<rule e="way" k="tracktype" v="~|false">
-								<line stroke="#505050" stroke-width="1.00" stroke-linecap="square" stroke-dasharray="15.00,9.00,1.50,9.00,1.50,9.00,1.50,9.00,1.50,9.0" />
+								<line stroke="#505050" stroke-width="1.00" stroke-linecap="square" stroke-dasharray="15.00,9.00,1.50,9.00,0.10,15.00,0.10,9.00,1.50,9.0" />
 							</rule>
 						</rule>
 						<rule e="way" k="*" v="*" zoom-min="17" zoom-max="18">
@@ -1070,7 +1070,7 @@
 								<line stroke="#505050" stroke-width="1.10" stroke-linecap="square" stroke-dasharray="22.50,18.00,1.50,18.00,1.50,18.00,1.50,18.0" />
 							</rule>
 							<rule e="way" k="tracktype" v="~|false">
-								<line stroke="#505050" stroke-width="1.00" stroke-linecap="square" stroke-dasharray="22.50,18.00,1.50,18.00,1.50,18.00,1.50,18.00,1.50,18.0" />
+								<line stroke="#505050" stroke-width="1.00" stroke-linecap="square" stroke-dasharray="22.50,18.00,1.50,18.00,0.10,25.00,0.10,18.00,1.50,18.0" />
 							</rule>
 						</rule>
 						<rule e="way" k="*" v="*" zoom-min="19">
@@ -1090,7 +1090,7 @@
 								<line stroke="#505050" stroke-width="1.10" stroke-linecap="square" stroke-dasharray="30.00,45.00,1.50,45.00,1.50,45.00,1.50,45.0" />
 							</rule>
 							<rule e="way" k="tracktype" v="~|false">
-								<line stroke="#505050" stroke-width="1.00" stroke-linecap="square" stroke-dasharray="30.00,45.00,1.50,45.00,1.50,45.00,1.50,45.00,1.50,45.0" />
+								<line stroke="#505050" stroke-width="1.00" stroke-linecap="square" stroke-dasharray="30.00,45.00,1.50,45.00,0.10,55.00,0.10,45.00,1.50,45.0" />
 							</rule>
 						</rule>						
 						<rule e="way" k="*" v="*" zoom-min="15">
@@ -1396,7 +1396,34 @@
 		<!-- pistes -->
 		<rule e="way" k="piste:type" v="*">
 			<!-- piste areas -->
-			<rule e="way" k="piste:type" v="downhill" closed="yes">
+			<rule e="way" k="piste:type" v="downhill" closed="yes" zoom-max="14">
+				<rule e="way" k="piste:difficulty" v="novice">
+					<area fill="#5540ff40" stroke="#5540ff40" stroke-width="5.50" /> <!--winter#skip-->
+				</rule>
+				<rule e="way" k="piste:difficulty" v="easy">
+					<area fill="#554040ff" stroke="#554040ff" stroke-width="5.50" /> <!--winter#skip-->
+				</rule>
+				<rule e="way" k="piste:difficulty" v="intermediate">
+					<area fill="#55ff4040" stroke="#55ff4040" stroke-width="5.50" /> <!--winter#skip-->
+				</rule>
+				<rule e="way" k="piste:difficulty" v="advanced">
+					<area fill="#55000000" stroke="#55000000" stroke-width="5.50" /> <!--winter#skip-->
+				</rule>
+				<rule e="way" k="piste:difficulty" v="expert">
+					<area fill="#55f6800a" stroke="#55f6800a" stroke-width="5.50" /> <!--winter#skip-->
+				</rule>
+				<rule e="way" k="piste:difficulty" v="freeride">
+					<area fill="#55f6dd0a" stroke="#55f6dd0a" stroke-width="5.50" /> <!--winter#skip-->
+				</rule>
+				<rule e="way" k="piste:difficulty" v="~">
+					<area fill="#55505050" stroke="#55505050" stroke-width="5.50" /> <!--winter#skip-->
+				</rule>
+
+				<rule e="way" k="*" v="*" zoom-min="16">
+					<caption k="name" font-style="bold" font-size="17.00" fill="#000000" stroke="#ffffff" stroke-width="3.00" />
+				</rule>
+			</rule>
+			<rule e="way" k="piste:type" v="downhill" closed="yes" zoom-min="15">
 				<rule e="way" k="piste:difficulty" v="novice">
 					<area fill="#5540ff40" stroke="#5540ff40" stroke-width="0.50" /> <!--winter#skip-->
 				</rule>
@@ -1456,9 +1483,26 @@
 			</rule>
 			<!--piste#nordic-->
 			<!--piste#nordic-->
-			<rule e="way" k="piste:type" v="nordic">
-				<line stroke="#AAc00000" stroke-width="1.50" stroke-dasharray="45.00,15.0" stroke-linecap="butt" />
+			<rule e="way" k="piste:type" v="skitour">
+				<line stroke="#AA9c58cf" stroke-width="1.50" stroke-dasharray="0.00,15.00,45.00,15.0" stroke-linecap="butt" />
 			</rule>
+			<rule e="way" k="piste:type" v="nordic">
+				<line stroke="#Acffffff" stroke-width="2.00" stroke-dasharray="46.00,13.00,1.00,0.0" stroke-linecap="butt" />
+				<rule cat="piste_nordic" e="way" k="piste:grooming" v="~">
+					<line stroke="#AAc00000" stroke-width="1.50" stroke-dasharray="21.00,3.00,21.00,15.0" stroke-linecap="butt" />
+				</rule>
+				<rule cat="piste_nordic" e="way" k="piste:grooming" v="classic">
+					<line stroke="#AAc00000" stroke-width="1.50" stroke-dasharray="45.00,15.0" stroke-linecap="butt" />
+				</rule>
+				<rule cat="piste_nordic" e="way" k="piste:grooming" v="skating">
+					<line stroke="#AAe06000" stroke-width="1.50" stroke-dasharray="45.00,15.0" stroke-linecap="butt" />
+				</rule>
+				<rule cat="piste_nordic" e="way" k="piste:grooming" v="classic+skating|classic;skating">
+					<line stroke="#AAc00000" stroke-width="1.50" stroke-dasharray="22.00,38.0" stroke-linecap="butt" />
+					<line stroke="#AAe06000" stroke-width="1.50" stroke-dasharray="0.00,22.00,23.00,15.0" stroke-linecap="butt" />
+				</rule>
+			</rule>
+			<!--AA3cb0c1 AA9c58cf-->
 		</rule>
 		
 		<!-- power -->
@@ -2266,6 +2310,9 @@
 		<rule e="way" k="osmc_foreground" v="white_cross">
 			<lineSymbol src="file:/osmc-symbols/purple_white_cross.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="white_diamond">
+			<lineSymbol src="file:/osmc-symbols/purple_white_diamond.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="red_dot">
 			<lineSymbol src="file:/osmc-symbols/purple_red_dot.png" align-center="false" repeat="true" />
 		</rule>
@@ -3033,6 +3080,9 @@
 		</rule>
 		<rule e="way" k="osmc_foreground" v="green_lower">
 			<lineSymbol src="file:/osmc-symbols/black_green_lower.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="white_lower">
+			<lineSymbol src="file:/osmc-symbols/black_white_lower.png" align-center="false" repeat="true" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="L">
 			<lineSymbol src="file:/osmc-symbols/black_l.png" align-center="false" repeat="true" />
