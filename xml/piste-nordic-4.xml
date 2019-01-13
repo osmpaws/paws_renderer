@@ -8,6 +8,9 @@
 				<rule cat="piste_nordic" e="way" k="piste:grooming" v="~">
 					<line stroke="#AAc00000" stroke-width="1.5" stroke-dasharray="21,3,21,15" stroke-linecap="butt" />
 				</rule>
+				<rule cat="piste_nordic" e="way" k="piste:grooming" v="backcountry">
+					<line stroke="#AA3cb0c1" stroke-width="1.5" stroke-dasharray="45,15" stroke-linecap="butt" />
+				</rule>
 				<rule cat="piste_nordic" e="way" k="piste:grooming" v="classic">
 					<line stroke="#AAc00000" stroke-width="1.5" stroke-dasharray="45,15" stroke-linecap="butt" />
 				</rule>
