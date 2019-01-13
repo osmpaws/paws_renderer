@@ -2,7 +2,7 @@
 <rendertheme xmlns="http://mapsforge.org/renderTheme" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://mapsforge.org/renderTheme ../renderTheme.xsd" version="1" map-background="#f8f8f8">
 	
-	<!--#r00024b00230#-->
+	<!--#r00025b00231#-->
 
 	<!--style#v4#setup-->
 	
@@ -1484,7 +1484,7 @@
 			<!--piste#nordic-->
 			<!--piste#nordic-->
 			<rule e="way" k="piste:type" v="skitour">
-				<line stroke="#Acffffff" stroke-width="2.0" stroke-dasharray="0,15,46,13,1,0" stroke-linecap="butt" />
+				<line stroke="#Acffffff" stroke-width="2.0" stroke-dasharray="0,14,47,13" stroke-linecap="butt" />
 				<line stroke="#AA9c58cf" stroke-width="1.5" stroke-dasharray="0,15,45,15" stroke-linecap="butt" />
 			</rule>
 			<rule e="way" k="piste:type" v="nordic">

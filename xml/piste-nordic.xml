@@ -1,6 +1,6 @@
 			<!--piste#nordic-->
 			<rule e="way" k="piste:type" v="skitour">
-				<line stroke="#Acffffff" stroke-width="2.0" stroke-dasharray="0,15,46,13,1,0" stroke-linecap="butt" />
+				<line stroke="#Acffffff" stroke-width="2.0" stroke-dasharray="0,14,47,13" stroke-linecap="butt" />
 				<line stroke="#AA9c58cf" stroke-width="1.5" stroke-dasharray="0,15,45,15" stroke-linecap="butt" />
 			</rule>
 			<rule e="way" k="piste:type" v="nordic">
