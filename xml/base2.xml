@@ -466,29 +466,11 @@
 			</rule>
 		</rule>
 		<rule e="way" k="highway" v="*" closed="yes">
-			<rule e="way" k="highway" v="unclassified">
-				<area fill="#ffffff" stroke="#707070" stroke-width="0.4" />
-			</rule>
-			<rule e="way" k="highway" v="road">
-				<area fill="#d0d0d0" />
-			</rule>
-			<rule e="way" k="highway" v="service">
-				<area fill="#ffffff" stroke="#707070" stroke-width="0.22" />
-			</rule>
-			<rule e="way" k="highway" v="residential">
-				<area fill="#ffffff" stroke="#707070" stroke-width="0.22" />
-			</rule>
-			<rule e="way" k="highway" v="footway|footpath">
-				<area fill="#dddddd" stroke="#707070" stroke-width="0.22" />
-			</rule>
-			<rule e="way" k="highway" v="path">
-				<area fill="#d0d0d0" stroke="#d0d0d0" stroke-width="0.67" />
-			</rule>
 			<rule e="way" k="highway" v="pedestrian">
 				<area fill="#b5bbb2" stroke="#707070" stroke-width="0.22" />
 			</rule>
-			<rule e="way" k="highway" v="living_street">
-				<area fill="#e9e4ef" stroke="#ffffff" stroke-width="0.22" />
+			<rule e="way" k="highway" v="service">
+				<area fill="#ffffff" stroke="#707070" stroke-width="0.22" />
 			</rule>
 		</rule>
 		

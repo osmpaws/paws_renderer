@@ -2,7 +2,7 @@
 <rendertheme xmlns="http://mapsforge.org/renderTheme" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://mapsforge.org/renderTheme ../renderTheme.xsd" version="1" map-background="#f8f8f8">
 	
-	<!--#r00028b00234#-->
+	<!--#r00029b00238#-->
 
 	<!--style#v4#setup-->
 	
@@ -474,29 +474,11 @@
 			</rule>
 		</rule>
 		<rule e="way" k="highway" v="*" closed="yes">
-			<rule e="way" k="highway" v="unclassified">
-				<area fill="#DAFFFB" stroke="#707070" stroke-width="0.80" />
-			</rule>
-			<rule e="way" k="highway" v="road">
-				<area fill="#B2D0E4" />
-			</rule>
-			<rule e="way" k="highway" v="service">
-				<area fill="#DAFFFB" stroke="#707070" stroke-width="0.44" />
-			</rule>
-			<rule e="way" k="highway" v="residential">
-				<area fill="#DAFFFB" stroke="#707070" stroke-width="0.44" />
-			</rule>
-			<rule e="way" k="highway" v="footway|footpath">
-				<area fill="#BCDDEA" stroke="#707070" stroke-width="0.44" />
-			</rule>
-			<rule e="way" k="highway" v="path">
-				<area fill="#B2D0E4" stroke="#d0d0d0" stroke-width="1.34" />
-			</rule>
 			<rule e="way" k="highway" v="pedestrian">
 				<area fill="#9CB6D5" stroke="#707070" stroke-width="0.44" />
 			</rule>
-			<rule e="way" k="highway" v="living_street">
-				<area fill="#C8E9F3" stroke="#ffffff" stroke-width="0.44" />
+			<rule e="way" k="highway" v="service">
+				<area fill="#DAFFFB" stroke="#707070" stroke-width="0.44" />
 			</rule>
 		</rule>
 		
@@ -1486,6 +1468,12 @@
 			<rule e="way" k="piste:type" v="skitour">
 				<line stroke="#Acffffff" stroke-width="4.00" stroke-dasharray="0.00,28.00,94.00,26.0" stroke-linecap="butt" />
 				<line stroke="#AA9c58cf" stroke-width="3.00" stroke-dasharray="0.00,30.00,90.00,30.0" stroke-linecap="butt" />
+				<rule e="way" k="piste:difficulty" v="intermediate">
+					<lineSymbol src="file:/symbols/warning.png" align-center="false" repeat="true" />
+				</rule>
+				<rule e="way" k="piste:difficulty" v="advanced|expert|freeride|extreme">
+					<lineSymbol src="file:/symbols/danger.png" align-center="false" repeat="true" />
+				</rule>
 			</rule>
 			<rule e="way" k="piste:type" v="nordic">
 				<line stroke="#Acffffff" stroke-width="4.00" stroke-dasharray="92.00,26.00,2.00,0.0" stroke-linecap="butt" />
@@ -1504,6 +1492,12 @@
 				<rule e="way" k="piste:grooming" v="classic+skating|classic;skating">
 					<line stroke="#AAc00000" stroke-width="3.00" stroke-dasharray="44.00,76.0" stroke-linecap="butt" />
 					<line stroke="#AAe06000" stroke-width="3.00" stroke-dasharray="0.00,44.00,46.00,30.0" stroke-linecap="butt" />
+				</rule>
+				<rule e="way" k="piste:difficulty" v="intermediate">
+					<lineSymbol src="file:/symbols/warning.png" align-center="false" repeat="true" />
+				</rule>
+				<rule e="way" k="piste:difficulty" v="advanced|expert|freeride|extreme">
+					<lineSymbol src="file:/symbols/danger.png" align-center="false" repeat="true" />
 				</rule>
 			</rule>
 			<!--AA3cb0c1 AA9c58cf-->
