@@ -360,6 +360,9 @@ do
 	else
 		cp images/paw.png $themename/$themename.png
 	fi
+	
+	touch $themename/.nomedia
+	
 	echo "zipping"
 	zip -qr $themename.zip $themename
 	mv $themename $themename.zip themes/

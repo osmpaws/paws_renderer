@@ -32,6 +32,8 @@ else
 	cp images/paw.png $targetdir/$themename/$themename.png
 fi
 
+touch $targetdir/$themename/.nomedia
+
 sed -e 's/renderTheme-v4.xsd" version="4" map-background-outside="#EEEEEE"/renderTheme.xsd" version="1" locus-extended="1" fill-sea-areas="0"/' -e 's/src="file:/src="file:\//g' -e 's/<circle radius="/<circle r="/g' -e 's/symbol-width="\([0-9.]*\)"/symbol-width="\1dp"/' -e 's/ dy="\(-*[0-9.]*\)"/ dy="\1dp"/' -e 's/symbol-scaling="size"//g' -e 's/symbol-scaling="percent"//g' -e '/<area /! s/symbol-height="[0-9.]*"//g' -e 's/symbol-height="\([0-9.]*\)"/symbol-height="\1dp"/' -e 's/stroke-width="\([0-9.]*\)"/stroke-width="\1dp"/' -e 's/font-size="\([0-9.]*\)"/font-size="\1dp"/' $targetdir/$srcthemename/paws_4_S.xml > $targetdir/$themename/$themename.xml
 #-e 's/symbol-percent="[0-9.]*"/symbol-width="20dp"/'
 

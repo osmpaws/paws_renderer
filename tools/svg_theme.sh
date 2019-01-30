@@ -18,6 +18,13 @@ cd $root
 rm -r "$root/$targetdir/"
 mkdir -p "$root/$targetdir/$themename"
 #mv "$root/$svgdir/patterns" "$root/$svgdir/patterns_orig" && mv "$root/$svgpatternsdir/patterns" "$root/$svgdir/patterns"
+if [ "$winter" -eq "1" ]; then
+	cp images/winter_paw.png $targetdir/$themename/$themename.png
+else
+	cp images/paw.png $targetdir/$themename/$themename.png
+fi
+
+touch $targetdir/$themename/.nomedia
 
 files=`find $svgdir -type f -name "*.svg"`
 filescount=`echo "$files" | wc -l`
@@ -121,7 +128,8 @@ echo ""
 
 echo '/<\s*symbol / s/rotate="[^"]*" //g
 /<\s*symbol / s/repeat-start="[^"]*" //g
-/<\s*symbol / s/repeat-gap="[^"]*" //g' >> $sedscript
+/<\s*symbol / s/repeat-gap="[^"]*" //g
+/<\s*symbol / s/\s*\/>/ priority="2" \/>/g' >> $sedscript
 sed -i -f $sedscript $targetdir/$themename/$newthemename.xml
 
 done

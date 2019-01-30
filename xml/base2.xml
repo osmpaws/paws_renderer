@@ -247,7 +247,7 @@
 				<area fill="#b5d6f1" stroke="#6060ff" stroke-width="0.3" />
 			</rule>
 			<rule e="way" k="*" v="*" zoom-min="17">
-				<caption k="name" dy="-22.5" font-style="bold" font-size="17.0" fill="#407740" stroke="#ffffff" stroke-width="3.0" />
+				<caption k="name" dy="-25.5" font-style="bold" font-size="17.0" fill="#407740" stroke="#ffffff" stroke-width="3.0" />
 			</rule>
 		</rule>
 
@@ -327,7 +327,7 @@
 			</rule>
 
 			<rule e="way" k="*" v="*" zoom-min="16">
-				<caption k="name" dy="-22.5" font-style="bold" font-size="17.0" fill="#4040ff" stroke="#ffffff" stroke-width="3.0" />
+				<caption k="name" dy="-25.5" font-style="bold" font-size="17.0" fill="#4040ff" stroke="#ffffff" stroke-width="3.0" />
 			</rule>
 		</rule>
 		
@@ -1382,7 +1382,7 @@
 			<circle r="6.0" fill="#a0a0ff" stroke="#006060" stroke-width="2.2" />
 		</rule>
 		<rule e="any" k="*" v="*" zoom-min="17">
-			<caption k="name" dy="-22.5" font-style="bold" font-size="17.0" fill="#805030" stroke="#ffffff" stroke-width="3.0" />
+			<caption k="name" dy="-25.5" font-style="bold" font-size="17.0" fill="#805030" stroke="#ffffff" stroke-width="3.0" />
 		</rule>
 		<rule e="any" k="historic" v="memorial" zoom-min="16">
 			<symbol src="file:/symbols/memorial.png" />
@@ -1409,7 +1409,7 @@
 			
 		<rule e="node" k="amenity" v="*">
 			<rule e="node" k="*" v="*" zoom-min="18">
-				<caption k="name" dy="-22.5" font-style="bold" font-size="17.0" fill="#a06020" stroke="#ffffff" stroke-width="3.0" />
+				<caption k="name" dy="-25.5" font-style="bold" font-size="17.0" fill="#a06020" stroke="#ffffff" stroke-width="3.0" />
 			</rule>
 		</rule>
 		<!-- barrier -->
@@ -1432,7 +1432,7 @@
 
 		
 		<rule e="node" k="military" v="bunker" zoom-min="17">
-			<caption k="name" dy="-22.5" font-style="bold" font-size="17.0" fill="#40cc40" stroke="#ffffff" stroke-width="3.0" />
+			<caption k="name" dy="-25.5" font-style="bold" font-size="17.0" fill="#40cc40" stroke="#ffffff" stroke-width="3.0" />
 		</rule>
 		
 		<!-- highway -->
@@ -1521,7 +1521,7 @@
 			</rule>
 
 			<rule e="node" k="*" v="*" zoom-min="14">
-				<caption k="name" dy="-22.5" font-family="serif" font-style="bold_italic" font-size="17.0" fill="#502000" stroke="#ffffff" stroke-width="3.0" />
+				<caption k="name" dy="-25.5" font-family="serif" font-style="bold_italic" font-size="17.0" fill="#502000" stroke="#ffffff" stroke-width="3.0" />
 			</rule>
 		</rule>
 		

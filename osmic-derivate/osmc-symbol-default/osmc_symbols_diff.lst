@@ -152,6 +152,7 @@ blue_fork
 blue_frame
 blue_frame:
 blue_frame:Bijl
+blue_frame:Gag
 blue_frame:2T
 blue_frame:5WT
 blue:F3
@@ -401,6 +402,7 @@ green_pointer:white_fork
 green:purble
 green:R
 green_rectangle
+green_rectangle:A1
 green_rectangle:BR
 :green_rectangle_line
 green:red
@@ -640,6 +642,7 @@ red:EKW
 red:FA
 red_frame
 red_frame:
+red_frame:Bijl
 red_frame:KrM
 red_frame:K1
 red_frame:none
@@ -1030,6 +1033,7 @@ white:yellow_cicle
 white:yellow_cros
 white_yellow_diamond
 white:yellow_diamond;blue
+white:yellow_dimond
 white:yellow_dot,
 white:yellow_FIXME_alternative
 white:yellow_goblet
