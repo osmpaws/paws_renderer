@@ -524,6 +524,27 @@ danger:
     fill: "#ffdb00"
     width: 1
     opacity: 1.0
+trail-visibility-good:
+  fill: "#774422"
+  opacity: 0.9
+  halo:
+    fill: "#ffffff"
+    width: 1
+    opacity: 0.6
+trail-visibility-bad:
+  fill: "#774422"
+  opacity: 0.6
+  halo:
+    fill: "#ffffff"
+    width: 1
+    opacity: 0.6
+trail-visibility-no:
+  fill: "#774422"
+  opacity: 0.3
+  halo:
+    fill: "#ffffff"
+    width: 1
+    opacity: 0.6
 #patterns
 access-destination:
   fill: "#0000ff"

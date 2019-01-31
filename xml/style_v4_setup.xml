@@ -49,6 +49,11 @@
 		<name lang="en" value="Inappropriate surfaces" />
 		<cat id="surface" />
 	</layer>
+	<layer id="l_trail_visibility" enabled="false">
+		<name lang="cs" value="Viditelnost stezky" />
+		<name lang="en" value="Trail visibility" />
+		<cat id="trail_visibility" />
+	</layer>
 	<layer id="l_national_park_pattern" enabled="false">
 		<name lang="cs" value="Plocha národních parků" />
 		<name lang="en" value="National park area" />
@@ -77,6 +82,7 @@
 		<overlay id="l_guidepost" />
 		<overlay id="l_bike_lines" />
 		<overlay id="l_mtb_scale" />
+		<overlay id="l_trail_visibility" />
 		<overlay id="l_horse_lines" />
 		<overlay id="l_piste_nordic" />
 		<overlay id="l_national_park_pattern" />
@@ -87,6 +93,7 @@
 		<overlay id="l_bike_lines" />
 		<overlay id="l_mtb_scale" />
 		<overlay id="l_surface" />
+		<overlay id="l_trail_visibility" />
 		<overlay id="l_national_park_pattern" />
 	</layer>
 	<layer id="osm" visible="true">

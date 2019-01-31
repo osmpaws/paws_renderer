@@ -248,6 +248,7 @@ do
 		       -e "/<!--mapper#pois-->/r $root/xml/mapper-4.xml" \
 		       -e "/<!--#guidepost#-->/r $root/xml/guidepost-4.xml" \
 		       -e "/<!--#restriction#-->/r $root/xml/restrictions-4.xml" \
+		       -e "/<!--trail#visibility-->/r $root/xml/trail-visibility-4.xml" \
 		       -e "/<!--natural#cliff-->/r $root/xml/cliff-4.xml" \
 		       -e "/<!--horsing#lines#low#zoom-->/r $root/xml/horsing-lines-low-zoom-4.xml" \
 		       -e "s/<!--#version#-->/<!--#r${releasestr}b${buildstr}#-->/" $root/xml/$tempxml

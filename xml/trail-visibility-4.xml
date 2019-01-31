@@ -1,0 +1,12 @@
+					<!--trail#visibility-->
+					<rule cat="trail_visibility" e="way" k="trail_visibility" v="*" zoom-min="16" >
+						<rule e="way" k="trail_visibility" v="good|intermediate" >
+							<lineSymbol src="file:/symbols/trail_visibility_good.png" repeat-start="4" repeat-gap="91" repeat="true"/>
+						</rule>
+						<rule e="way" k="trail_visibility" v="bad|horrible" >
+							<lineSymbol src="file:/symbols/trail_visibility_bad.png" repeat-start="4" repeat-gap="61" repeat="true"/>
+						</rule>
+						<rule e="way" k="trail_visibility" v="no" >
+							<lineSymbol src="file:/symbols/trail_visibility_no.png" repeat-start="4" repeat-gap="31" repeat="true"/>
+						</rule>
+					</rule>
