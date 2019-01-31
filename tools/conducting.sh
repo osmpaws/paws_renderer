@@ -363,10 +363,12 @@ do
 		cp images/paw.png $themename/$themename.png
 	fi
 	
-	touch .nomedia
+	if [ ! -f $themename/.nomedia ]; then
+		touch $themename/.nomedia
+	fi
 	
 	echo "zipping"
-	zip -qr $themename.zip $themename .nomedia
+	zip -qr $themename.zip $themename
 	mv $themename $themename.zip themes/
 	uploadstr=$uploadstr"themes/$themename.zip,"
 	echo -n "themes/$themename.zip," >> $uploadpath

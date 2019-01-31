@@ -136,7 +136,9 @@ done
 #mv "$root/$svgdir/patterns" "$root/$svgpatternsdir/patterns" && mv "$root/$svgdir/patterns_orig" "$root/$svgdir/patterns"
 #rm -r $targetdir/$themename/patterns_orig
 cd $targetdir
-touch .nomedia
-zip -qr $themename.zip $themename .nomedia && cd ..
+if [ ! -f $themename/.nomedia ]; then
+	touch $themename/.nomedia
+fi
+zip -qr $themename.zip $themename && cd ..
 
 

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="JOSM">
+  <node id="-42309" action="modify" visible="true" lat="49.71893716774" lon="13.4075" version="1" timestamp="1" />
+  <node id="-42312" action="modify" visible="true" lat="49.71893716774" lon="13.409" version="1" timestamp="1" />
+  <node id="-45542" action="modify" visible="true" lat="49.71893716774" lon="13.410" version="1" timestamp="1" />
+  <node id="-45544" action="modify" visible="true" lat="49.71893716774" lon="13.4108" version="1" timestamp="1" />
+  <node id="-45545" action="modify" visible="true" lat="49.71893716774" lon="13.4115" version="1" timestamp="1" />
+  <way id="-42313" action="modify" visible="true" version="1" timestamp="1">
+    <nd ref="-42309" />
+    <nd ref="-42312" />
+    <tag k="highway" v="track" />
+    <tag k="ref" v="#" />
+    <tag k="name" v="grade1" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way id="-45547" action="modify" visible="true" version="1" timestamp="1">
+    <nd ref="-42312" />
+    <nd ref="-45542" />
+    <tag k="highway" v="track" />
+    <tag k="ref" v="#" />
+    <tag k="name" v="tunel" />
+    <tag k="oneway" v="yes" />
+    <tag k="tunnel" v="yes" />
+  </way>
+  <way id="-45548" action="modify" visible="true" version="1" timestamp="1">
+    <nd ref="-45542" />
+    <nd ref="-45544" />
+    <tag k="bridge" v="yes" />
+    <tag k="ref" v="#" />
+    <tag k="highway" v="track" />
+    <tag k="name" v="most" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way id="-45549" action="modify" visible="true" version="1" timestamp="1">
+    <nd ref="-45544" />
+    <nd ref="-45545" />
+    <tag k="ford" v="yes" />
+    <tag k="ref" v="#" />
+    <tag k="highway" v="track" />
+    <tag k="name" v="brod" />
+    <tag k="oneway" v="yes" />
+  </way>
+</osm>
