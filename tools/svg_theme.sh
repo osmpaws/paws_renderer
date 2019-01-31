@@ -24,8 +24,6 @@ else
 	cp images/paw.png $targetdir/$themename/$themename.png
 fi
 
-touch $targetdir/$themename/.nomedia
-
 files=`find $svgdir -type f -name "*.svg"`
 filescount=`echo "$files" | wc -l`
 
@@ -138,6 +136,7 @@ done
 #mv "$root/$svgdir/patterns" "$root/$svgpatternsdir/patterns" && mv "$root/$svgdir/patterns_orig" "$root/$svgdir/patterns"
 #rm -r $targetdir/$themename/patterns_orig
 cd $targetdir
-zip -qr $themename.zip $themename && cd ..
+touch .nomedia
+zip -qr $themename.zip $themename .nomedia && cd ..
 
 

@@ -61,6 +61,7 @@ tempxml="temp.xml"
 themecfg="themes.cfg"
 templatesrc=`cat tools/${themecfg} | tr ',' ' '  | awk '{print $5,$6,$1}' | sort -k1,1nr -k2,2nr -k3,3 | head -n1 | awk '{print $3}'`
 template="template.xml"
+template4="template4.xml"
 uploadscript="upload.sh"
 uploadpath="upload.txt"
 lmod="lmod.txt"
@@ -361,10 +362,10 @@ do
 		cp images/paw.png $themename/$themename.png
 	fi
 	
-	touch $themename/.nomedia
+	touch .nomedia
 	
 	echo "zipping"
-	zip -qr $themename.zip $themename
+	zip -qr $themename.zip $themename .nomedia
 	mv $themename $themename.zip themes/
 	uploadstr=$uploadstr"themes/$themename.zip,"
 	echo -n "themes/$themename.zip," >> $uploadpath
@@ -412,6 +413,7 @@ if [ "$release" -ne "1" ]; then
 fi
 
 cp themes/$templatesrc/${templatesrc}.xml $template
+cp themes_svg/paws_4/paws_4.xml $template4
 
 git status
 git commit -a -m "This is automatic commit of release r$releasestr ( build b$buildstr )"

@@ -32,7 +32,6 @@ else
 	cp images/paw.png $targetdir/$themename/$themename.png
 fi
 
-touch $targetdir/$themename/.nomedia
 
 sed -e 's/renderTheme-v4.xsd" version="4" map-background-outside="#EEEEEE"/renderTheme.xsd" version="1" locus-extended="1" fill-sea-areas="0"/' -e 's/src="file:/src="file:\//g' -e 's/<circle radius="/<circle r="/g' -e 's/symbol-width="\([0-9.]*\)"/symbol-width="\1dp"/' -e 's/ dy="\(-*[0-9.]*\)"/ dy="\1dp"/' -e 's/symbol-scaling="size"//g' -e 's/symbol-scaling="percent"//g' -e '/<area /! s/symbol-height="[0-9.]*"//g' -e 's/symbol-height="\([0-9.]*\)"/symbol-height="\1dp"/' -e 's/stroke-width="\([0-9.]*\)"/stroke-width="\1dp"/' -e 's/font-size="\([0-9.]*\)"/font-size="\1dp"/' $targetdir/$srcthemename/paws_4_S.xml > $targetdir/$themename/$themename.xml
 #-e 's/symbol-percent="[0-9.]*"/symbol-width="20dp"/'
@@ -84,6 +83,7 @@ cp -r `find $root/$targetdir/$srcthemename/* -type d` $targetdir/$themename
 sed -i -e 's/width="100%"\s*height="100%"\s*viewBox="0 0 \([0-9.]*\) \([0-9.]*\)"/width="\1" height="\2" viewBox="0 0 \1 \2"/' -e 's/viewBox="0 0 \([0-9.]*\) \([0-9.]*\)"\s*width="100%"\s*height="100%"/width="\1" height="\2" viewBox="0 0 \1 \2"/' -e 's/height="100%"\s*width="100%"\s*viewBox="0 0 \([0-9.]*\) \([0-9.]*\)"/width="\1" height="\2" viewBox="0 0 \1 \2"/' -e 's/viewBox="0 0 \([0-9.]*\) \([0-9.]*\)"\s*height="100%"\s*width="100%"/width="\1" height="\2" viewBox="0 0 \1 \2"/' $targetdir/$themename/*/*.svg
 
 cd $targetdir
-zip -qr $themename.zip $themename && cd ..
+touch .nomedia
+zip -qr $themename.zip $themename .nomedia && cd ..
 
 
