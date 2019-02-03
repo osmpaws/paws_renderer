@@ -443,7 +443,7 @@
 					<area fill="#e5e0c2" stroke="#707070" stroke-width="0.22" />
 				</rule>
 				<rule e="way" k="highway" v="pedestrian">
-					<area fill="#b5bbb2" stroke="#707070" stroke-width="0.22" />
+					<area fill="#b5bbb2" stroke="#707070" stroke-width="0.22" /> <!--winter#skip-->
 				</rule>
 				<rule e="way" k="highway" v="path">
 					<area fill="#d0d0d0" stroke="#d0d0d0" stroke-width="0.67" />
@@ -467,7 +467,7 @@
 		</rule>
 		<rule e="way" k="highway" v="*" closed="yes">
 			<rule e="way" k="highway" v="pedestrian">
-				<area fill="#b5bbb2" stroke="#707070" stroke-width="0.22" />
+				<area fill="#b5bbb2" stroke="#707070" stroke-width="0.22" /> <!--winter#skip-->
 			</rule>
 			<rule e="way" k="highway" v="service">
 				<area fill="#ffffff" stroke="#707070" stroke-width="0.22" />
@@ -668,7 +668,7 @@
 						<rule e="way" k="highway" v="steps" zoom-min="12">
 							<line stroke="#707070" stroke-width="0.9" />
 						</rule>
-						<rule e="way" k="highway" v="cycleway|bridleway|service" zoom-min="12">
+						<rule e="way" k="highway" v="cycleway|service" zoom-min="12">
 							<line stroke="#000000" stroke-width="1.8" />
 						</rule>
 						<rule e="way" k="highway" v="byway" zoom-min="12">
@@ -870,7 +870,11 @@
 						</rule>
 					</rule>
 					<rule e="way" k="highway" v="bridleway">
-						<line stroke="#706040" stroke-width="0.9" stroke-dasharray="15,6,6,6" />
+						<line stroke="#807040" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="1,29" />
+						<line stroke="#807040" stroke-width="1.2" stroke-linecap="butt" stroke-dasharray="10,20" />
+						<line stroke="#ffffff" stroke-width="0.6" stroke-linecap="round" stroke-dasharray="1,29" />
+						<line stroke="#ffffff" stroke-width="0.6" stroke-linecap="butt" stroke-dasharray="10,20" />
+
 						<rule e="way" k="*" v="*" zoom-min="15">
 							<pathText k="name" font-style="bold" font-size="18" stroke="#d3cb98" stroke-width="2.0" />
 						</rule>
