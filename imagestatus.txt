@@ -1,0 +1,955 @@
+osmc-symbols/black-blue-arch-14.svg
+osmc-symbols/black-blue-bar-14.svg
+osmc-symbols/black-blue-cross-14.svg
+osmc-symbols/black-blue-dot-14.svg
+osmc-symbols/black-blue-hiker-14.svg
+osmc-symbols/black-blue-pointer-14.svg
+osmc-symbols/black-brown-bar-14.svg
+osmc-symbols/black-circle-black-bar-14.svg
+osmc-symbols/black-circle-black-dot-14.svg
+osmc-symbols/black-circle-blue-dot-14.svg
+osmc-symbols/black-circle-brown-dot-14.svg
+osmc-symbols/black-circle-green-bar-14.svg
+osmc-symbols/black-circle-green-dot-14.svg
+osmc-symbols/black-circle-orange-dot-14.svg
+osmc-symbols/black-circle-purple-dot-14.svg
+osmc-symbols/black-circle-red-bar-14.svg
+osmc-symbols/black-circle-red-dot-14.svg
+osmc-symbols/black-circle-white-dot-14.svg
+osmc-symbols/black-circle-yellow-dot-14.svg
+osmc-symbols/black-frame-black-cross-14.svg
+osmc-symbols/black-frame-blue-dot-14.svg
+osmc-symbols/black-frame-green-corner-14.svg
+osmc-symbols/black-frame-hiker-14.svg
+osmc-symbols/black-frame-red-dot-14.svg
+osmc-symbols/black-green-bar-14.svg
+osmc-symbols/black-green-circle-14.svg
+osmc-symbols/black-green-dot-14.svg
+osmc-symbols/black-green-hiker-14.svg
+osmc-symbols/black-green-lower-14.svg
+osmc-symbols/black-green-rectangle-14.svg
+osmc-symbols/black-green-slash-14.svg
+osmc-symbols/black-green-triangle-14.svg
+osmc-symbols/black-hiker-14.svg
+osmc-symbols/black-l-14.svg
+osmc-symbols/black-mine-14.svg
+osmc-symbols/black-orange-circle-14.svg
+osmc-symbols/black-purple-bar-14.svg
+osmc-symbols/black-red-arch-14.svg
+osmc-symbols/black-red-bar-14.svg
+osmc-symbols/black-red-bowl-14.svg
+osmc-symbols/black-red-cross-14.svg
+osmc-symbols/black-red-diamond-14.svg
+osmc-symbols/black-red-dot-14.svg
+osmc-symbols/black-red-hiker-14.svg
+osmc-symbols/black-red-lower-14.svg
+osmc-symbols/black-red-pointer-14.svg
+osmc-symbols/black-red-triangle-14.svg
+osmc-symbols/black-round-red-dot-14.svg
+osmc-symbols/black-round-white-dot-14.svg
+osmc-symbols/black-white-arch-14.svg
+osmc-symbols/black-white-bar-14.svg
+osmc-symbols/black-white-circle-14.svg
+osmc-symbols/black-white-corner-14.svg
+osmc-symbols/black-white-crest-14.svg
+osmc-symbols/black-white-cross-14.svg
+osmc-symbols/black-white-diamond-line-14.svg
+osmc-symbols/black-white-diamond-14.svg
+osmc-symbols/black-white-dot-14.svg
+osmc-symbols/black-white-hiker-14.svg
+osmc-symbols/black-white-lower-14.svg
+osmc-symbols/black-white-pointer-14.svg
+osmc-symbols/black-white-rectangle-line-14.svg
+osmc-symbols/black-white-rectangle-14.svg
+osmc-symbols/black-white-right-14.svg
+osmc-symbols/black-white-stripe-14.svg
+osmc-symbols/black-white-triangle-line-14.svg
+osmc-symbols/black-white-triangle-14.svg
+osmc-symbols/black-white-turned-t-14.svg
+osmc-symbols/black-white-x-14.svg
+osmc-symbols/black-yellow-arch-14.svg
+osmc-symbols/black-yellow-bar-14.svg
+osmc-symbols/black-yellow-bowl-14.svg
+osmc-symbols/black-yellow-circle-14.svg
+osmc-symbols/black-yellow-cross-14.svg
+osmc-symbols/black-yellow-diamond-14.svg
+osmc-symbols/black-yellow-dot-14.svg
+osmc-symbols/black-yellow-hiker-14.svg
+osmc-symbols/black-yellow-pointer-14.svg
+osmc-symbols/black-yellow-triangle-14.svg
+osmc-symbols/blue-black-arch-14.svg
+osmc-symbols/blue-black-bar-14.svg
+osmc-symbols/blue-black-circle-14.svg
+osmc-symbols/blue-black-dot-14.svg
+osmc-symbols/blue-black-hiker-14.svg
+osmc-symbols/blue-black-lower-14.svg
+osmc-symbols/blue-black-rectangle-14.svg
+osmc-symbols/blue-circle-blue-dot-14.svg
+osmc-symbols/blue-circle-blue-triangle-14.svg
+osmc-symbols/blue-circle-hiker-14.svg
+osmc-symbols/blue-circle-red-dot-14.svg
+osmc-symbols/blue-circle-white-dot-14.svg
+osmc-symbols/blue-circle-yellow-dot-14.svg
+osmc-symbols/blue-frame-blue-bar-14.svg
+osmc-symbols/blue-frame-blue-bowl-14.svg
+osmc-symbols/blue-frame-blue-pointer-14.svg
+osmc-symbols/blue-frame-blue-slash-14.svg
+osmc-symbols/blue-frame-green-lower-14.svg
+osmc-symbols/blue-frame-green-slash-14.svg
+osmc-symbols/blue-frame-hiker-14.svg
+osmc-symbols/blue-frame-mine-14.svg
+osmc-symbols/blue-frame-white-bar-14.svg
+osmc-symbols/blue-green-bar-14.svg
+osmc-symbols/blue-green-bowl-14.svg
+osmc-symbols/blue-green-corner-14.svg
+osmc-symbols/blue-green-dot-14.svg
+osmc-symbols/blue-green-lower-14.svg
+osmc-symbols/blue-green-pointer-14.svg
+osmc-symbols/blue-green-right-14.svg
+osmc-symbols/blue-green-slash-14.svg
+osmc-symbols/blue-hiker-14.svg
+osmc-symbols/blue-mine-14.svg
+osmc-symbols/blue-orange-bowl-14.svg
+osmc-symbols/blue-orange-lower-14.svg
+osmc-symbols/blue-orange-shell-modern-14.svg
+osmc-symbols/blue-rectangle-14.svg
+osmc-symbols/blue-red-bar-14.svg
+osmc-symbols/blue-red-corner-14.svg
+osmc-symbols/blue-red-diamond-14.svg
+osmc-symbols/blue-red-dot-14.svg
+osmc-symbols/blue-red-lower-14.svg
+osmc-symbols/blue-red-pointer-14.svg
+osmc-symbols/blue-red-stripe-14.svg
+osmc-symbols/blue-round-blue-circle-14.svg
+osmc-symbols/blue-round-blue-dot-14.svg
+osmc-symbols/blue-round-red-dot-14.svg
+osmc-symbols/blue-round-white-dot-14.svg
+osmc-symbols/blue-round-white-hiker-14.svg
+osmc-symbols/blue-round-white-pointer-14.svg
+osmc-symbols/blue-shell-modern-14.svg
+osmc-symbols/blue-shell-14.svg
+osmc-symbols/blue-white-arch-14.svg
+osmc-symbols/blue-white-bar-14.svg
+osmc-symbols/blue-white-bowl-14.svg
+osmc-symbols/blue-white-circle-14.svg
+osmc-symbols/blue-white-corner-14.svg
+osmc-symbols/blue-white-cross-14.svg
+osmc-symbols/blue-white-diamond-line-14.svg
+osmc-symbols/blue-white-diamond-14.svg
+osmc-symbols/blue-white-dot-14.svg
+osmc-symbols/blue-white-hiker-14.svg
+osmc-symbols/blue-white-lower-14.svg
+osmc-symbols/blue-white-pointer-14.svg
+osmc-symbols/blue-white-rectangle-14.svg
+osmc-symbols/blue-white-shell-14.svg
+osmc-symbols/blue-white-stripe-14.svg
+osmc-symbols/blue-white-triangle-14.svg
+osmc-symbols/blue-white-turned-t-14.svg
+osmc-symbols/blue-white-wheelchair-14.svg
+osmc-symbols/blue-yellow-bar-14.svg
+osmc-symbols/blue-yellow-circle-14.svg
+osmc-symbols/blue-yellow-corner-14.svg
+osmc-symbols/blue-yellow-cross-14.svg
+osmc-symbols/blue-yellow-diamond-14.svg
+osmc-symbols/blue-yellow-dot-14.svg
+osmc-symbols/blue-yellow-hiker-14.svg
+osmc-symbols/blue-yellow-lower-14.svg
+osmc-symbols/blue-yellow-pointer-14.svg
+osmc-symbols/blue-yellow-rectangle-14.svg
+osmc-symbols/blue-yellow-right-14.svg
+osmc-symbols/blue-yellow-shell-modern-14.svg
+osmc-symbols/blue-yellow-shell-14.svg
+osmc-symbols/blue-yellow-stripe-14.svg
+osmc-symbols/blue-yellow-triangle-14.svg
+osmc-symbols/blue-yellow-turned-t-14.svg
+osmc-symbols/blue-yellow-x-14.svg
+osmc-symbols/brown-black-circle-14.svg
+osmc-symbols/brown-black-diamond-14.svg
+osmc-symbols/brown-black-dot-14.svg
+osmc-symbols/brown-black-pointer-14.svg
+osmc-symbols/brown-blue-bar-14.svg
+osmc-symbols/brown-blue-dot-14.svg
+osmc-symbols/brown-blue-triangle-14.svg
+osmc-symbols/brown-frame-blue-triangle-14.svg
+osmc-symbols/brown-frame-brown-circle-14.svg
+osmc-symbols/brown-frame-green-circle-14.svg
+osmc-symbols/brown-frame-green-triangle-14.svg
+osmc-symbols/brown-frame-red-triangle-14.svg
+osmc-symbols/brown-frame-yellow-triangle-14.svg
+osmc-symbols/brown-green-bar-14.svg
+osmc-symbols/brown-green-bowl-14.svg
+osmc-symbols/brown-green-circle-14.svg
+osmc-symbols/brown-green-dot-14.svg
+osmc-symbols/brown-green-pointer-14.svg
+osmc-symbols/brown-green-rectangle-14.svg
+osmc-symbols/brown-green-triangle-14.svg
+osmc-symbols/brown-hiker-14.svg
+osmc-symbols/brown-mine-14.svg
+osmc-symbols/brown-orange-bar-14.svg
+osmc-symbols/brown-orange-hiker-14.svg
+osmc-symbols/brown-red-bar-14.svg
+osmc-symbols/brown-red-bowl-14.svg
+osmc-symbols/brown-red-dot-14.svg
+osmc-symbols/brown-red-pointer-14.svg
+osmc-symbols/brown-red-rectangle-14.svg
+osmc-symbols/brown-round-white-fork-14.svg
+osmc-symbols/brown-round-yellow-dot-14.svg
+osmc-symbols/brown-tower-14.svg
+osmc-symbols/brown-white-arch-14.svg
+osmc-symbols/brown-white-bar-14.svg
+osmc-symbols/brown-white-bowl-14.svg
+osmc-symbols/brown-white-circle-14.svg
+osmc-symbols/brown-white-corner-14.svg
+osmc-symbols/brown-white-cross-14.svg
+osmc-symbols/brown-white-diamond-line-14.svg
+osmc-symbols/brown-white-dot-14.svg
+osmc-symbols/brown-white-hiker-14.svg
+osmc-symbols/brown-white-lower-14.svg
+osmc-symbols/brown-white-pointer-14.svg
+osmc-symbols/brown-white-rectangle-14.svg
+osmc-symbols/brown-white-stripe-14.svg
+osmc-symbols/brown-white-triangle-turned-14.svg
+osmc-symbols/brown-white-triangle-14.svg
+osmc-symbols/brown-yellow-bar-14.svg
+osmc-symbols/brown-yellow-bowl-14.svg
+osmc-symbols/brown-yellow-circle-14.svg
+osmc-symbols/brown-yellow-cross-14.svg
+osmc-symbols/brown-yellow-diamond-14.svg
+osmc-symbols/brown-yellow-dot-14.svg
+osmc-symbols/brown-yellow-hiker-14.svg
+osmc-symbols/brown-yellow-lower-14.svg
+osmc-symbols/brown-yellow-pointer-14.svg
+osmc-symbols/brown-yellow-rectangle-line-14.svg
+osmc-symbols/brown-yellow-rectangle-14.svg
+osmc-symbols/brown-yellow-stripe-14.svg
+osmc-symbols/brown-yellow-triangle-turned-14.svg
+osmc-symbols/gray-black-bar-14.svg
+osmc-symbols/gray-blue-bar-14.svg
+osmc-symbols/gray-purple-bar-14.svg
+osmc-symbols/gray-yellow-bar-14.svg
+osmc-symbols/green-black-circle-14.svg
+osmc-symbols/green-black-cross-14.svg
+osmc-symbols/green-black-dot-14.svg
+osmc-symbols/green-black-hexagon-14.svg
+osmc-symbols/green-black-hiker-14.svg
+osmc-symbols/green-black-pointer-14.svg
+osmc-symbols/green-black-rectangle-line-14.svg
+osmc-symbols/green-black-rectangle-14.svg
+osmc-symbols/green-blue-bar-14.svg
+osmc-symbols/green-blue-corner-14.svg
+osmc-symbols/green-blue-dot-14.svg
+osmc-symbols/green-blue-lower-14.svg
+osmc-symbols/green-blue-pointer-14.svg
+osmc-symbols/green-blue-right-14.svg
+osmc-symbols/green-blue-slash-14.svg
+osmc-symbols/green-blue-triangle-14.svg
+osmc-symbols/green-circle-blue-dot-14.svg
+osmc-symbols/green-circle-red-lower-14.svg
+osmc-symbols/green-frame-black-cross-14.svg
+osmc-symbols/green-frame-black-dot-14.svg
+osmc-symbols/green-frame-black-rectangle-14.svg
+osmc-symbols/green-frame-green-backslash-14.svg
+osmc-symbols/green-frame-green-bar-14.svg
+osmc-symbols/green-frame-green-bowl-14.svg
+osmc-symbols/green-frame-green-hiker-14.svg
+osmc-symbols/green-frame-green-slash-14.svg
+osmc-symbols/green-frame-green-triangle-14.svg
+osmc-symbols/green-frame-hiker-14.svg
+osmc-symbols/green-frame-white-bar-14.svg
+osmc-symbols/green-frame-white-dot-14.svg
+osmc-symbols/green-frame-white-rectangle-14.svg
+osmc-symbols/green-frame-yellow-rectangle-14.svg
+osmc-symbols/green-hiker-14.svg
+osmc-symbols/green-mine-14.svg
+osmc-symbols/green-red-bar-14.svg
+osmc-symbols/green-red-corner-14.svg
+osmc-symbols/green-red-cross-14.svg
+osmc-symbols/green-red-diamond-14.svg
+osmc-symbols/green-red-dot-14.svg
+osmc-symbols/green-red-lower-14.svg
+osmc-symbols/green-red-pointer-14.svg
+osmc-symbols/green-red-stripe-14.svg
+osmc-symbols/green-round-green-circle-14.svg
+osmc-symbols/green-round-green-diamond-14.svg
+osmc-symbols/green-round-green-dot-14.svg
+osmc-symbols/green-round-red-dot-14.svg
+osmc-symbols/green-round-white-circle-14.svg
+osmc-symbols/green-round-white-dot-14.svg
+osmc-symbols/green-round-white-pointer-14.svg
+osmc-symbols/green-round-yellow-circle-14.svg
+osmc-symbols/green-shell-14.svg
+osmc-symbols/green-white-arch-14.svg
+osmc-symbols/green-white-backslash-14.svg
+osmc-symbols/green-white-bar-14.svg
+osmc-symbols/green-white-bowl-14.svg
+osmc-symbols/green-white-circle-14.svg
+osmc-symbols/green-white-corner-14.svg
+osmc-symbols/green-white-diamond-line-14.svg
+osmc-symbols/green-white-diamond-14.svg
+osmc-symbols/green-white-dot-14.svg
+osmc-symbols/green-white-hiker-14.svg
+osmc-symbols/green-white-lower-14.svg
+osmc-symbols/green-white-pointer-14.svg
+osmc-symbols/green-white-rectangle-14.svg
+osmc-symbols/green-white-right-14.svg
+osmc-symbols/green-white-slash-14.svg
+osmc-symbols/green-white-stripe-14.svg
+osmc-symbols/green-white-triangle-line-14.svg
+osmc-symbols/green-white-triangle-14.svg
+osmc-symbols/green-white-wheelchair-14.svg
+osmc-symbols/green-yellow-bar-14.svg
+osmc-symbols/green-yellow-circle-14.svg
+osmc-symbols/green-yellow-cross-14.svg
+osmc-symbols/green-yellow-diamond-line-14.svg
+osmc-symbols/green-yellow-diamond-14.svg
+osmc-symbols/green-yellow-dot-14.svg
+osmc-symbols/green-yellow-lower-14.svg
+osmc-symbols/green-yellow-pointer-14.svg
+osmc-symbols/green-yellow-rectangle-line-14.svg
+osmc-symbols/green-yellow-rectangle-14.svg
+osmc-symbols/green-yellow-triangle-line-14.svg
+osmc-symbols/green-yellow-triangle-14.svg
+osmc-symbols/green-yellow-x-14.svg
+osmc-symbols/none-blue-pointer-14.svg
+osmc-symbols/none-green-pointer-14.svg
+osmc-symbols/none-green-triangle-14.svg
+osmc-symbols/none-orange-bar-14.svg
+osmc-symbols/none-red-pointer-14.svg
+osmc-symbols/none-red-triangle-14.svg
+osmc-symbols/none-yellow-bar-14.svg
+osmc-symbols/none-yellow-diamond-14.svg
+osmc-symbols/none-yellow-dot-14.svg
+osmc-symbols/orange-black-bar-14.svg
+osmc-symbols/orange-black-diamond-14.svg
+osmc-symbols/orange-black-dot-14.svg
+osmc-symbols/orange-black-pointer-14.svg
+osmc-symbols/orange-blue-bar-14.svg
+osmc-symbols/orange-blue-circle-14.svg
+osmc-symbols/orange-blue-corner-14.svg
+osmc-symbols/orange-blue-lower-14.svg
+osmc-symbols/orange-blue-stripe-14.svg
+osmc-symbols/orange-circle-orange-hiker-14.svg
+osmc-symbols/orange-frame-white-bar-14.svg
+osmc-symbols/orange-green-bar-14.svg
+osmc-symbols/orange-green-lower-14.svg
+osmc-symbols/orange-green-slash-14.svg
+osmc-symbols/orange-heart-14.svg
+osmc-symbols/orange-hiker-14.svg
+osmc-symbols/orange-red-bar-14.svg
+osmc-symbols/orange-red-dot-14.svg
+osmc-symbols/orange-red-lower-14.svg
+osmc-symbols/orange-red-stripe-14.svg
+osmc-symbols/orange-white-bar-14.svg
+osmc-symbols/orange-white-circle-14.svg
+osmc-symbols/orange-white-cross-14.svg
+osmc-symbols/orange-white-diamond-14.svg
+osmc-symbols/orange-white-dot-14.svg
+osmc-symbols/orange-white-hiker-14.svg
+osmc-symbols/orange-white-lower-14.svg
+osmc-symbols/orange-white-pointer-14.svg
+osmc-symbols/orange-white-rectangle-14.svg
+osmc-symbols/orange-white-slash-14.svg
+osmc-symbols/orange-white-triangle-14.svg
+osmc-symbols/orange-yellow-bar-14.svg
+osmc-symbols/orange-yellow-rectangle-line-14.svg
+osmc-symbols/orange-yellow-rectangle-14.svg
+osmc-symbols/osmcbg-black-circle-14.svg
+osmc-symbols/osmcbg-black-frame-14.svg
+osmc-symbols/osmcbg-black-round-14.svg
+osmc-symbols/osmcbg-black-14.svg
+osmc-symbols/osmcbg-blue-circle-14.svg
+osmc-symbols/osmcbg-blue-frame-14.svg
+osmc-symbols/osmcbg-blue-round-14.svg
+osmc-symbols/osmcbg-blue-14.svg
+osmc-symbols/osmcbg-brown-circle-14.svg
+osmc-symbols/osmcbg-brown-frame-14.svg
+osmc-symbols/osmcbg-brown-round-14.svg
+osmc-symbols/osmcbg-brown-14.svg
+osmc-symbols/osmcbg-gray-circle-14.svg
+osmc-symbols/osmcbg-gray-frame-14.svg
+osmc-symbols/osmcbg-gray-round-14.svg
+osmc-symbols/osmcbg-gray-14.svg
+osmc-symbols/osmcbg-green-circle-14.svg
+osmc-symbols/osmcbg-green-frame-14.svg
+osmc-symbols/osmcbg-green-round-14.svg
+osmc-symbols/osmcbg-green-14.svg
+osmc-symbols/osmcbg-none-14.svg
+osmc-symbols/osmcbg-orange-circle-14.svg
+osmc-symbols/osmcbg-orange-frame-14.svg
+osmc-symbols/osmcbg-orange-round-14.svg
+osmc-symbols/osmcbg-orange-14.svg
+osmc-symbols/osmcbg-purple-circle-14.svg
+osmc-symbols/osmcbg-purple-frame-14.svg
+osmc-symbols/osmcbg-purple-round-14.svg
+osmc-symbols/osmcbg-purple-14.svg
+osmc-symbols/osmcbg-red-circle-14.svg
+osmc-symbols/osmcbg-red-frame-14.svg
+osmc-symbols/osmcbg-red-round-14.svg
+osmc-symbols/osmcbg-red-14.svg
+osmc-symbols/osmcbg-white-circle-14.svg
+osmc-symbols/osmcbg-white-frame-14.svg
+osmc-symbols/osmcbg-white-round-14.svg
+osmc-symbols/osmcbg-white-14.svg
+osmc-symbols/osmcbg-yellow-circle-14.svg
+osmc-symbols/osmcbg-yellow-frame-14.svg
+osmc-symbols/osmcbg-yellow-round-14.svg
+osmc-symbols/osmcbg-yellow-14.svg
+osmc-symbols/purple-black-circle-14.svg
+osmc-symbols/purple-black-rectangle-line-14.svg
+osmc-symbols/purple-blue-circle-14.svg
+osmc-symbols/purple-green-bar-14.svg
+osmc-symbols/purple-heart-14.svg
+osmc-symbols/purple-hiker-14.svg
+osmc-symbols/purple-mine-14.svg
+osmc-symbols/purple-red-dot-14.svg
+osmc-symbols/purple-red-lower-14.svg
+osmc-symbols/purple-round-yellow-dot-14.svg
+osmc-symbols/purple-white-bar-14.svg
+osmc-symbols/purple-white-circle-14.svg
+osmc-symbols/purple-white-corner-14.svg
+osmc-symbols/purple-white-cross-14.svg
+osmc-symbols/purple-white-diamond-14.svg
+osmc-symbols/purple-white-dot-14.svg
+osmc-symbols/purple-white-hiker-14.svg
+osmc-symbols/purple-white-lower-14.svg
+osmc-symbols/purple-white-pointer-14.svg
+osmc-symbols/purple-white-rectangle-14.svg
+osmc-symbols/purple-white-stripe-14.svg
+osmc-symbols/purple-white-triangle-line-14.svg
+osmc-symbols/purple-white-triangle-turned-14.svg
+osmc-symbols/purple-white-triangle-14.svg
+osmc-symbols/red-black-circle-14.svg
+osmc-symbols/red-black-dot-14.svg
+osmc-symbols/red-black-hiker-14.svg
+osmc-symbols/red-black-pointer-14.svg
+osmc-symbols/red-black-slash-14.svg
+osmc-symbols/red-blue-backslash-14.svg
+osmc-symbols/red-blue-bar-14.svg
+osmc-symbols/red-blue-dot-14.svg
+osmc-symbols/red-blue-lower-14.svg
+osmc-symbols/red-circle-hiker-14.svg
+osmc-symbols/red-circle-red-bar-14.svg
+osmc-symbols/red-circle-red-dot-14.svg
+osmc-symbols/red-circle-red-triangle-turned-14.svg
+osmc-symbols/red-circle-red-triangle-14.svg
+osmc-symbols/red-circle-white-circle-14.svg
+osmc-symbols/red-circle-white-dot-14.svg
+osmc-symbols/red-circle-yellow-dot-14.svg
+osmc-symbols/red-frame-blue-turned-t-14.svg
+osmc-symbols/red-frame-hiker-14.svg
+osmc-symbols/red-frame-red-arch-14.svg
+osmc-symbols/red-frame-red-bar-14.svg
+osmc-symbols/red-frame-red-cross-14.svg
+osmc-symbols/red-frame-red-dot-14.svg
+osmc-symbols/red-frame-red-hiker-14.svg
+osmc-symbols/red-frame-red-pointer-14.svg
+osmc-symbols/red-frame-red-rectangle-14.svg
+osmc-symbols/red-frame-red-turned-t-14.svg
+osmc-symbols/red-frame-white-bar-14.svg
+osmc-symbols/red-frame-white-rectangle-14.svg
+osmc-symbols/red-green-bar-14.svg
+osmc-symbols/red-green-dot-14.svg
+osmc-symbols/red-green-lower-14.svg
+osmc-symbols/red-green-right-14.svg
+osmc-symbols/red-hiker-14.svg
+osmc-symbols/red-mine-14.svg
+osmc-symbols/red-orange-pointer-14.svg
+osmc-symbols/red-orange-triangle-14.svg
+osmc-symbols/red-round-black-circle-14.svg
+osmc-symbols/red-round-red-dot-14.svg
+osmc-symbols/red-round-red-hiker-14.svg
+osmc-symbols/red-round-red-triangle-line-14.svg
+osmc-symbols/red-round-white-dot-14.svg
+osmc-symbols/red-round-white-hiker-14.svg
+osmc-symbols/red-round-white-pointer-14.svg
+osmc-symbols/red-round-white-rectangle-14.svg
+osmc-symbols/red-round-yellow-bowl-14.svg
+osmc-symbols/red-tower-14.svg
+osmc-symbols/red-white-arch-14.svg
+osmc-symbols/red-white-bar-14.svg
+osmc-symbols/red-white-circle-14.svg
+osmc-symbols/red-white-corner-14.svg
+osmc-symbols/red-white-diamond-line-14.svg
+osmc-symbols/red-white-diamond-14.svg
+osmc-symbols/red-white-dot-14.svg
+osmc-symbols/red-white-hiker-14.svg
+osmc-symbols/red-white-lower-14.svg
+osmc-symbols/red-white-pointer-14.svg
+osmc-symbols/red-white-rectangle-line-14.svg
+osmc-symbols/red-white-rectangle-14.svg
+osmc-symbols/red-white-right-14.svg
+osmc-symbols/red-white-stripe-14.svg
+osmc-symbols/red-white-triangle-14.svg
+osmc-symbols/red-white-turned-t-14.svg
+osmc-symbols/red-white-wheelchair-14.svg
+osmc-symbols/red-white-x-14.svg
+osmc-symbols/red-yellow-bar-14.svg
+osmc-symbols/red-yellow-circle-14.svg
+osmc-symbols/red-yellow-cross-14.svg
+osmc-symbols/red-yellow-dot-14.svg
+osmc-symbols/red-yellow-lower-14.svg
+osmc-symbols/red-yellow-pointer-14.svg
+osmc-symbols/red-yellow-stripe-14.svg
+osmc-symbols/red-yellow-triangle-line-14.svg
+osmc-symbols/red-yellow-triangle-14.svg
+osmc-symbols/white-ammonit-14.svg
+osmc-symbols/white-backslash-14.svg
+osmc-symbols/white-black-ammonit-14.svg
+osmc-symbols/white-black-arch-14.svg
+osmc-symbols/white-black-backslash-14.svg
+osmc-symbols/white-black-bar-14.svg
+osmc-symbols/white-black-circle-14.svg
+osmc-symbols/white-black-corner-14.svg
+osmc-symbols/white-black-crest-14.svg
+osmc-symbols/white-black-cross-14.svg
+osmc-symbols/white-black-diamond-line-14.svg
+osmc-symbols/white-black-diamond-14.svg
+osmc-symbols/white-black-dot-14.svg
+osmc-symbols/white-black-fork-14.svg
+osmc-symbols/white-black-lower-14.svg
+osmc-symbols/white-black-pointer-14.svg
+osmc-symbols/white-black-rectangle-line-14.svg
+osmc-symbols/white-black-rectangle-14.svg
+osmc-symbols/white-black-right-14.svg
+osmc-symbols/white-black-slash-14.svg
+osmc-symbols/white-black-stripe-14.svg
+osmc-symbols/white-black-triangle-line-14.svg
+osmc-symbols/white-black-triangle-turned-14.svg
+osmc-symbols/white-black-triangle-14.svg
+osmc-symbols/white-black-turned-t-14.svg
+osmc-symbols/white-black-x-14.svg
+osmc-symbols/white-blue-arch-14.svg
+osmc-symbols/white-blue-backslash-14.svg
+osmc-symbols/white-blue-bar-14.svg
+osmc-symbols/white-blue-bowl-14.svg
+osmc-symbols/white-blue-circle-14.svg
+osmc-symbols/white-blue-corner-14.svg
+osmc-symbols/white-blue-cross-14.svg
+osmc-symbols/white-blue-diamond-line-14.svg
+osmc-symbols/white-blue-diamond-14.svg
+osmc-symbols/white-blue-dot-14.svg
+osmc-symbols/white-blue-fork-14.svg
+osmc-symbols/white-blue-hiker-14.svg
+osmc-symbols/white-blue-lower-14.svg
+osmc-symbols/white-blue-l-14.svg
+osmc-symbols/white-blue-pointer-14.svg
+osmc-symbols/white-blue-rectangle-line-14.svg
+osmc-symbols/white-blue-rectangle-14.svg
+osmc-symbols/white-blue-right-14.svg
+osmc-symbols/white-blue-slash-14.svg
+osmc-symbols/white-blue-stripe-14.svg
+osmc-symbols/white-blue-triangle-line-14.svg
+osmc-symbols/white-blue-triangle-turned-14.svg
+osmc-symbols/white-blue-triangle-14.svg
+osmc-symbols/white-blue-turned-t-14.svg
+osmc-symbols/white-blue-wheelchair-14.svg
+osmc-symbols/white-blue-wheel-14.svg
+osmc-symbols/white-blue-x-14.svg
+osmc-symbols/white-brown-bar-14.svg
+osmc-symbols/white-brown-circle-14.svg
+osmc-symbols/white-brown-cross-14.svg
+osmc-symbols/white-brown-diamond-14.svg
+osmc-symbols/white-brown-dot-14.svg
+osmc-symbols/white-brown-hexagon-14.svg
+osmc-symbols/white-brown-lower-14.svg
+osmc-symbols/white-brown-pointer-14.svg
+osmc-symbols/white-brown-rectangle-line-14.svg
+osmc-symbols/white-brown-rectangle-14.svg
+osmc-symbols/white-brown-triangle-turned-14.svg
+osmc-symbols/white-brown-triangle-14.svg
+osmc-symbols/white-brown-x-14.svg
+osmc-symbols/white-circle-black-dot-14.svg
+osmc-symbols/white-circle-black-rectangle-14.svg
+osmc-symbols/white-circle-blue-dot-14.svg
+osmc-symbols/white-circle-green-dot-14.svg
+osmc-symbols/white-circle-orange-dot-14.svg
+osmc-symbols/white-circle-purple-dot-14.svg
+osmc-symbols/white-circle-red-circle-14.svg
+osmc-symbols/white-circle-red-dot-14.svg
+osmc-symbols/white-circle-yellow-dot-14.svg
+osmc-symbols/white-corner-14.svg
+osmc-symbols/white-cross-14.svg
+osmc-symbols/white-green-arch-14.svg
+osmc-symbols/white-green-backslash-14.svg
+osmc-symbols/white-green-bar-14.svg
+osmc-symbols/white-green-bowl-14.svg
+osmc-symbols/white-green-circle-14.svg
+osmc-symbols/white-green-corner-14.svg
+osmc-symbols/white-green-cross-14.svg
+osmc-symbols/white-green-diamond-14.svg
+osmc-symbols/white-green-dot-14.svg
+osmc-symbols/white-green-fork-14.svg
+osmc-symbols/white-green-hiker-14.svg
+osmc-symbols/white-green-lower-14.svg
+osmc-symbols/white-green-l-14.svg
+osmc-symbols/white-green-pointer-14.svg
+osmc-symbols/white-green-rectangle-line-14.svg
+osmc-symbols/white-green-rectangle-14.svg
+osmc-symbols/white-green-right-14.svg
+osmc-symbols/white-green-slash-14.svg
+osmc-symbols/white-green-stripe-14.svg
+osmc-symbols/white-green-triangle-line-14.svg
+osmc-symbols/white-green-triangle-turned-14.svg
+osmc-symbols/white-green-triangle-14.svg
+osmc-symbols/white-green-turned-t-14.svg
+osmc-symbols/white-green-wheel-14.svg
+osmc-symbols/white-green-x-14.svg
+osmc-symbols/white-heart-14.svg
+osmc-symbols/white-hiker-14.svg
+osmc-symbols/white-l-14.svg
+osmc-symbols/white-mine-14.svg
+osmc-symbols/white-orange-backslash-14.svg
+osmc-symbols/white-orange-bar-14.svg
+osmc-symbols/white-orange-circle-14.svg
+osmc-symbols/white-orange-corner-14.svg
+osmc-symbols/white-orange-cross-14.svg
+osmc-symbols/white-orange-diamond-line-14.svg
+osmc-symbols/white-orange-diamond-14.svg
+osmc-symbols/white-orange-dot-14.svg
+osmc-symbols/white-orange-hexagon-14.svg
+osmc-symbols/white-orange-lower-14.svg
+osmc-symbols/white-orange-pointer-14.svg
+osmc-symbols/white-orange-rectangle-14.svg
+osmc-symbols/white-orange-right-14.svg
+osmc-symbols/white-orange-stripe-14.svg
+osmc-symbols/white-orange-triangle-turned-14.svg
+osmc-symbols/white-orange-triangle-14.svg
+osmc-symbols/white-orange-wheel-14.svg
+osmc-symbols/white-purple-bar-14.svg
+osmc-symbols/white-purple-circle-14.svg
+osmc-symbols/white-purple-corner-14.svg
+osmc-symbols/white-purple-cross-14.svg
+osmc-symbols/white-purple-diamond-line-14.svg
+osmc-symbols/white-purple-diamond-14.svg
+osmc-symbols/white-purple-dot-14.svg
+osmc-symbols/white-purple-lower-14.svg
+osmc-symbols/white-purple-l-14.svg
+osmc-symbols/white-purple-pointer-14.svg
+osmc-symbols/white-purple-rectangle-14.svg
+osmc-symbols/white-purple-stripe-14.svg
+osmc-symbols/white-purple-triangle-turned-14.svg
+osmc-symbols/white-purple-triangle-14.svg
+osmc-symbols/white-rectangle-14.svg
+osmc-symbols/white-red-arch-14.svg
+osmc-symbols/white-red-backslash-14.svg
+osmc-symbols/white-red-bar-14.svg
+osmc-symbols/white-red-bowl-14.svg
+osmc-symbols/white-red-circle-14.svg
+osmc-symbols/white-red-corner-14.svg
+osmc-symbols/white-red-cross-14.svg
+osmc-symbols/white-red-diamond-line-14.svg
+osmc-symbols/white-red-diamond-14.svg
+osmc-symbols/white-red-dot-14.svg
+osmc-symbols/white-red-fork-14.svg
+osmc-symbols/white-red-hiker-14.svg
+osmc-symbols/white-red-lower-14.svg
+osmc-symbols/white-red-l-14.svg
+osmc-symbols/white-red-pointer-14.svg
+osmc-symbols/white-red-rectangle-line-14.svg
+osmc-symbols/white-red-rectangle-14.svg
+osmc-symbols/white-red-right-14.svg
+osmc-symbols/white-red-slash-14.svg
+osmc-symbols/white-red-stripe-14.svg
+osmc-symbols/white-red-tower-14.svg
+osmc-symbols/white-red-triangle-line-14.svg
+osmc-symbols/white-red-triangle-turned-14.svg
+osmc-symbols/white-red-triangle-14.svg
+osmc-symbols/white-red-turned-t-14.svg
+osmc-symbols/white-red-wheelchair-14.svg
+osmc-symbols/white-red-wheel-14.svg
+osmc-symbols/white-red-x-14.svg
+osmc-symbols/white-round-black-circle-14.svg
+osmc-symbols/white-round-black-diamond-14.svg
+osmc-symbols/white-round-blue-bar-14.svg
+osmc-symbols/white-round-blue-circle-14.svg
+osmc-symbols/white-round-blue-dot-14.svg
+osmc-symbols/white-round-blue-triangle-14.svg
+osmc-symbols/white-round-brown-bar-14.svg
+osmc-symbols/white-round-green-bar-14.svg
+osmc-symbols/white-round-green-circle-14.svg
+osmc-symbols/white-round-green-dot-14.svg
+osmc-symbols/white-round-green-triangle-14.svg
+osmc-symbols/white-round-mine-14.svg
+osmc-symbols/white-round-purple-dot-14.svg
+osmc-symbols/white-round-red-bar-14.svg
+osmc-symbols/white-round-red-circle-14.svg
+osmc-symbols/white-round-red-dot-14.svg
+osmc-symbols/white-round-red-triangle-14.svg
+osmc-symbols/white-round-white-circle-14.svg
+osmc-symbols/white-round-white-dot-14.svg
+osmc-symbols/white-round-yellow-bar-14.svg
+osmc-symbols/white-round-yellow-dot-14.svg
+osmc-symbols/white-round-yellow-triangle-14.svg
+osmc-symbols/white-tower-14.svg
+osmc-symbols/white-triangle-14.svg
+osmc-symbols/white-turned-t-14.svg
+osmc-symbols/white-wheelchair-14.svg
+osmc-symbols/white-yellow-arch-14.svg
+osmc-symbols/white-yellow-backslash-14.svg
+osmc-symbols/white-yellow-bar-14.svg
+osmc-symbols/white-yellow-bowl-14.svg
+osmc-symbols/white-yellow-circle-14.svg
+osmc-symbols/white-yellow-corner-14.svg
+osmc-symbols/white-yellow-cross-14.svg
+osmc-symbols/white-yellow-diamond-line-14.svg
+osmc-symbols/white-yellow-diamond-14.svg
+osmc-symbols/white-yellow-dot-14.svg
+osmc-symbols/white-yellow-fork-14.svg
+osmc-symbols/white-yellow-hexagon-14.svg
+osmc-symbols/white-yellow-hiker-14.svg
+osmc-symbols/white-yellow-lower-14.svg
+osmc-symbols/white-yellow-l-14.svg
+osmc-symbols/white-yellow-pointer-14.svg
+osmc-symbols/white-yellow-rectangle-line-14.svg
+osmc-symbols/white-yellow-rectangle-14.svg
+osmc-symbols/white-yellow-right-14.svg
+osmc-symbols/white-yellow-shell-modern-14.svg
+osmc-symbols/white-yellow-slash-14.svg
+osmc-symbols/white-yellow-stripe-14.svg
+osmc-symbols/white-yellow-triangle-line-14.svg
+osmc-symbols/white-yellow-triangle-turned-14.svg
+osmc-symbols/white-yellow-triangle-14.svg
+osmc-symbols/white-yellow-turned-t-14.svg
+osmc-symbols/white-yellow-x-14.svg
+osmc-symbols/yellow-black-arch-14.svg
+osmc-symbols/yellow-black-bar-14.svg
+osmc-symbols/yellow-black-circle-14.svg
+osmc-symbols/yellow-black-cross-14.svg
+osmc-symbols/yellow-black-diamond-line-14.svg
+osmc-symbols/yellow-black-dot-14.svg
+osmc-symbols/yellow-black-lower-14.svg
+osmc-symbols/yellow-black-pointer-14.svg
+osmc-symbols/yellow-black-rectangle-line-14.svg
+osmc-symbols/yellow-black-rectangle-14.svg
+osmc-symbols/yellow-black-tower-14.svg
+osmc-symbols/yellow-black-triangle-line-14.svg
+osmc-symbols/yellow-black-triangle-14.svg
+osmc-symbols/yellow-black-x-14.svg
+osmc-symbols/yellow-blue-bar-14.svg
+osmc-symbols/yellow-blue-circle-14.svg
+osmc-symbols/yellow-blue-corner-14.svg
+osmc-symbols/yellow-blue-diamond-14.svg
+osmc-symbols/yellow-blue-dot-14.svg
+osmc-symbols/yellow-blue-lower-14.svg
+osmc-symbols/yellow-blue-pointer-14.svg
+osmc-symbols/yellow-blue-rectangle-14.svg
+osmc-symbols/yellow-blue-slash-14.svg
+osmc-symbols/yellow-blue-triangle-14.svg
+osmc-symbols/yellow-brown-bar-14.svg
+osmc-symbols/yellow-circle-black-pointer-14.svg
+osmc-symbols/yellow-circle-green-dot-14.svg
+osmc-symbols/yellow-circle-red-circle-14.svg
+osmc-symbols/yellow-circle-yellow-bar-14.svg
+osmc-symbols/yellow-circle-yellow-dot-14.svg
+osmc-symbols/yellow-frame-black-triangle-line-14.svg
+osmc-symbols/yellow-frame-green-dot-14.svg
+osmc-symbols/yellow-frame-red-rectangle-14.svg
+osmc-symbols/yellow-frame-tower-14.svg
+osmc-symbols/yellow-frame-white-bar-14.svg
+osmc-symbols/yellow-frame-yellow-circle-14.svg
+osmc-symbols/yellow-frame-yellow-pointer-14.svg
+osmc-symbols/yellow-frame-yellow-stripe-14.svg
+osmc-symbols/yellow-green-backslash-14.svg
+osmc-symbols/yellow-green-bar-14.svg
+osmc-symbols/yellow-green-circle-14.svg
+osmc-symbols/yellow-green-corner-14.svg
+osmc-symbols/yellow-green-diamond-14.svg
+osmc-symbols/yellow-green-dot-14.svg
+osmc-symbols/yellow-green-lower-14.svg
+osmc-symbols/yellow-green-pointer-14.svg
+osmc-symbols/yellow-green-rectangle-14.svg
+osmc-symbols/yellow-green-slash-14.svg
+osmc-symbols/yellow-green-triangle-14.svg
+osmc-symbols/yellow-heart-14.svg
+osmc-symbols/yellow-hiker-14.svg
+osmc-symbols/yellow-mine-14.svg
+osmc-symbols/yellow-orange-dot-14.svg
+osmc-symbols/yellow-orange-lower-14.svg
+osmc-symbols/yellow-orange-triangle-14.svg
+osmc-symbols/yellow-purple-lower-14.svg
+osmc-symbols/yellow-purple-pointer-14.svg
+osmc-symbols/yellow-red-bar-14.svg
+osmc-symbols/yellow-red-circle-14.svg
+osmc-symbols/yellow-red-corner-14.svg
+osmc-symbols/yellow-red-crest-14.svg
+osmc-symbols/yellow-red-cross-14.svg
+osmc-symbols/yellow-red-diamond-14.svg
+osmc-symbols/yellow-red-dot-14.svg
+osmc-symbols/yellow-red-lower-14.svg
+osmc-symbols/yellow-red-pointer-14.svg
+osmc-symbols/yellow-red-rectangle-14.svg
+osmc-symbols/yellow-red-right-14.svg
+osmc-symbols/yellow-red-stripe-14.svg
+osmc-symbols/yellow-red-triangle-14.svg
+osmc-symbols/yellow-round-green-bowl-14.svg
+osmc-symbols/yellow-round-green-circle-14.svg
+osmc-symbols/yellow-round-yellow-dot-14.svg
+osmc-symbols/yellow-shell-14.svg
+osmc-symbols/yellow-tower-14.svg
+osmc-symbols/yellow-white-bar-14.svg
+osmc-symbols/yellow-white-corner-14.svg
+osmc-symbols/yellow-white-diamond-14.svg
+osmc-symbols/yellow-white-dot-14.svg
+osmc-symbols/yellow-white-hiker-14.svg
+osmc-symbols/yellow-white-lower-14.svg
+osmc-symbols/yellow-white-pointer-14.svg
+osmc-symbols/yellow-white-right-14.svg
+osmc-symbols/yellow-white-slash-14.svg
+osmc-symbols/yellow-white-stripe-14.svg
+osmc-symbols/yellow-white-triangle-14.svg
+osmc-symbols/yellow-white-x-14.svg
+patterns/access-destination-14.svg 1477506859.0233184980
+patterns/access-no-bike-14.svg 1477506894.1433846000
+patterns/access-no-foot-14.svg 1477506920.5834342220
+patterns/access-private-14.svg 1477506936.2394635500
+patterns/bare-rock-32.svg 1549569599.5567771930
+patterns/cemetery-christian-32.svg 1549569599.5687772300
+patterns/cemetery-jewish-32.svg 1549569599.5727772420
+patterns/cemetery-32.svg 1549569599.5607772050
+patterns/marsh-32.svg 1547369247.5884419340
+patterns/military-14.svg 1549569599.5807772660
+patterns/national-park-14.svg 1523032857.8471863180
+patterns/nature-reserve-14.svg 1477507704.1292325590
+patterns/orchard-32.svg 1549569599.5847772790
+patterns/photovoltaic-32.svg 1549569599.5927773040
+patterns/plant-nursery-32.svg 1549569599.5967773160
+patterns/scree-32.svg 1549569599.6007773280
+patterns/scrub-32.svg 1549569599.6047773410
+patterns/vineyard-32.svg 1549569599.6127773650
+patterns/wood-coniferous-32.svg 1549569599.6167773780
+patterns/wood-deciduous-32.svg 1549569599.6207773910
+patterns/wood-mixed-32.svg 1549569599.6287774150
+symbols/access-destination-14.svg 1537685023.1772427360
+symbols/access-no-bike-14.svg 1537697731.6136963050
+symbols/access-no-foot-14.svg 1537700748.2133918680
+symbols/access-private-14.svg 1537643530.1119110720
+symbols/adefaultsign-hiker-14.svg 1537705201.5146864000
+symbols/adit-14.svg 1546447023.0706070790
+symbols/airport-14.svg 1476378830.7498430000
+symbols/alpine-hut-14.svg 1546447093.5347332160
+symbols/archaeological-site-14.svg 1476378830.7498430000
+symbols/artwork-14.svg 1527510130.2984621570
+symbols/atm-14.svg 1541921431.2129123740
+symbols/bad-surface-14.svg 1537707243.5739652980
+symbols/bakery-14.svg 1476378830.7458430000
+symbols/bank-14.svg 1476378830.7458430000
+symbols/bar-14.svg 1476378830.7378420000
+symbols/bench-14.svg 1476378830.7458430000
+symbols/bicycle-14.svg 1477072718.3872190000
+symbols/board-14.svg 1476464177.2373000000
+symbols/bus-station-14.svg 1476378830.7498430000
+symbols/bus-14.svg 1477594924.8516655020
+symbols/butcher-14.svg 1476378830.7498430000
+symbols/cable-car-14.svg 1481218481.9091744740
+symbols/cafe-14.svg 1541932785.1820252410
+symbols/camping-14.svg 1541930401.5661951290
+symbols/castle-fortress-14.svg 1476378830.7498430000
+symbols/castle-ruin-14.svg 1479568521.0000000000
+symbols/castle-stately-14.svg 1476378830.7498430000
+symbols/cave-entrance-14.svg 1546447047.5386550950
+symbols/cinema-14.svg 1476378830.7378420000
+symbols/cliff-line-closedway-14.svg 1539976116.1507432290
+symbols/cliff-line-14.svg 1539976066.3386073610
+symbols/cliff-14.svg 1541100330.5410787770
+symbols/continue-14.svg 1519842245.8011205560
+symbols/convenience-14.svg 1476378830.7498430000
+symbols/danger-14.svg 1547891252.4945651220
+symbols/drinking-water-14.svg 1476378830.7458430000
+symbols/emergency-phone-14.svg 1541923375.1518185860
+symbols/entrance-main-14.svg 1541930329.1619692280
+symbols/entrance-10.svg 1476378830.7378420000
+symbols/fast-food-14.svg 1476378830.7378420000
+symbols/fire-station-14.svg 1476378830.7418420000
+symbols/florist-14.svg 1476378830.7498430000
+symbols/fountain-14.svg 1476378830.7458430000
+symbols/fuel-14.svg 1476378830.7538430000
+symbols/game-feeding-14.svg 1528021090.3015648480
+symbols/garden-centre-14.svg 1476378830.7498430000
+symbols/gate-14.svg 1541930513.5825347520
+symbols/gondola-14.svg 1546447160.2308051590
+symbols/guidepost-14.svg 1541921502.3411599980
+symbols/heliport-14.svg 1476378830.7538430000
+symbols/hospital-14.svg 1476378830.7418420000
+symbols/hostel-14.svg 1541921527.9692493290
+symbols/hotel-14.svg 1476378830.7378420000
+symbols/hunting-stand-14.svg 1476378830.7458430000
+symbols/chair-lift-14.svg 1541931921.2151127120
+symbols/christian-14.svg 1476378830.7458430000
+symbols/church-14.svg 1479568591.0000000000
+symbols/incline-down-14.svg 1535957181.0651473050
+symbols/incline-up-14.svg 1535957181.0651473050
+symbols/information-office-14.svg 1477677328.9139249460
+symbols/information-14.svg 1476378830.7498430000
+symbols/jewish-14.svg 1541921585.5134501160
+symbols/kindergarten-14.svg 1541964349.2987962390
+symbols/kiosk-14.svg 1476378830.7498430000
+symbols/library-14.svg 1476378830.7378420000
+symbols/lift-gate-14.svg 1477735636.0000000000
+symbols/map-14.svg 1477771505.6431415470
+symbols/mast-communications-14.svg 1476378830.7458430000
+symbols/memorial-14.svg 1541932029.4314860090
+symbols/monument-14.svg 1476378830.7498430000
+symbols/mountain-rescue-14.svg 1541931878.1989645730
+symbols/museum-14.svg 1541922950.6182885450
+symbols/muslim-14.svg 1476378830.7458430000
+symbols/no-bicycle-14.svg 1477072736.5912550000
+symbols/noexit-14.svg 1519919665.5831695650
+symbols/observation-tower-14.svg 1541923292.9475215040
+symbols/oneway-closedway-14.svg 1477768459.5338172520
+symbols/oneway-14.svg 1477768359.7136418930
+symbols/opposite-lane-reversed-14.svg 1516207141.7858284950
+symbols/opposite-lane-14.svg 1516207063.6968416520
+symbols/parking-bicycle-14.svg 1541930468.3983974880
+symbols/parking-car-14.svg 1476378830.7538430000
+symbols/parking-garage-car-14.svg 1476378830.7538430000
+symbols/peak-10.svg 1476378830.7458430000
+symbols/pharmacy-14.svg 1541932115.0917821180
+symbols/picnic-site-14.svg 1476466330.3479100000
+symbols/pillbox-14.svg 1479552818.0000000000
+symbols/playground-14.svg 1476378830.7378420000
+symbols/police-14.svg 1476378830.7418420000
+symbols/post-box-14.svg 1477767557.1644215940
+symbols/post-office-14.svg 1541930595.1827835510
+symbols/power-wind-14.svg 1476378830.7418420000
+symbols/pub-14.svg 1541924793.4141218430
+symbols/railway-crossing-small-14.svg 1478280629.9804600620
+symbols/railway-crossing-14.svg 1477941670.4754027340
+symbols/recycling-14.svg 1476378830.7378420000
+symbols/rental-bicycle-14.svg 1476378830.0000000000
+symbols/repair-bicycle-14.svg 1476378830.7498430000
+symbols/restaurant-14.svg 1476378830.7418420000
+symbols/rock-14.svg 1540299487.9043942740
+symbols/ruin-14.svg 1479571236.0000000000
+symbols/sac-tiii-14.svg 1541923157.2830320600
+symbols/sac-tii-14.svg 1541923121.0749016100
+symbols/sac-tiv-14.svg 1541929487.6948544390
+symbols/sac-ti-14.svg 1541923096.6508136590
+symbols/sac-tvi-14.svg 1541923239.6753291840
+symbols/sac-tv-14.svg 1541929946.0245493870
+symbols/shelter-14.svg 1477809907.0000000000
+symbols/school-14.svg 1485372806.8101910730
+symbols/soccer-14.svg 1485506210.0000000000
+symbols/spring-14.svg 1498144872.8396274710
+symbols/stone-14.svg 1541165229.1213673720
+symbols/supermarket-14.svg 1476378830.7498430000
+symbols/swimming-14.svg 1476378830.7498430000
+symbols/table-14.svg 1476378830.7458430000
+symbols/telephone-14.svg 1541923320.3116203540
+symbols/tennis-14.svg 1486297359.3693661680
+symbols/theatre-14.svg 1476378830.7498430000
+symbols/toilets-14.svg 1476378830.7378420000
+symbols/town-hall-14.svg 1476378830.7378420000
+symbols/traffic-signal-14.svg 1508316968.9356992520
+symbols/trail-visibility-bad-14.svg 1549484777.6925010120
+symbols/trail-visibility-good-14.svg 1549484777.6925010120
+symbols/trail-visibility-no-14.svg 1549484777.6925010120
+symbols/tree-deciduous-14.svg 1476378830.7458430000
+symbols/tree-point-10.svg 1479568541.0000000000
+symbols/tree-unspecified-14.svg 1476378830.7458430000
+symbols/university-14.svg 1508317374.4533083730
+symbols/viewpoint-14.svg 1476378830.7498430000
+symbols/vulcan-10.svg 1477335840.2201525530
+symbols/warning-14.svg 1547891195.1144232390
+symbols/wayside-cross-14.svg 1479554569.0000000000
+symbols/wayside-shrine-14.svg 1479567130.0000000000
+symbols/windmill-14.svg 1476378830.7498430000
