@@ -1,6 +1,6 @@
 #!/bin/bash
 
-debug=1
+debug=3
 release=0
 
 root="/home/jans/Dokumenty/osm/renderer"
@@ -87,7 +87,7 @@ transparencycfg="tools/image_transparency.cfg"
 statusfile="$root/imagestatus.txt"
 refreshlist="$root/imagerefresh.lst"
 workstatusfile="$root/imagestatus.wrk"
-workstatusfile="$root/tools/toucher.sh"
+toucher="$root/tools/toucher.sh"
 
 bcx="biking-captions.xml"
 blhzx="biking-lines-high-zoom.xml"
@@ -155,9 +155,9 @@ fi
 
 #if [ "$lmodf" = "$lmodo" ] ; then
 #	rebuildimg=0
-#	if [ $winter -eq 1 ]; then
-#		bash tools/winter_rename.sh $uploadpath -r
-#	fi
+	if [ $winter -eq 1 ]; then
+		bash tools/winter_rename.sh $uploadpath -r
+	fi
 #else
 #if [ `cat "$refreshlist" | wc -l` -gt 0 ] ; then
 if [ 1 -gt 0 ] ; then
@@ -199,10 +199,10 @@ if [ 1 -gt 0 ] ; then
 	mv "$workstatusfile" "$statusfile"
 	
 	cd tools/config
-	cp $pawsosmcyaml $pawsosmcyold
+	mv $pawsosmcyaml $pawsosmcyold
 	cat $pawsyaml $osmcyaml > $pawsosmcyaml
 	if diff $pawsosmcyold $pawsosmcyaml > /dev/null ; then
-		diff <(sed 's/^\([a-z]\)/#$#$#\1/' $pawsyaml | tr -d '\n' | sed -e 's/$/\n/g' -e 's/#$#$#/\n/g') <(sed 's/^\([a-z]\)/#$#$#\1/' $pawswinteryaml | tr -d '\n' | sed -e 's/$/\n/g' -e 's/#$#$#/\n/g')  | grep '^>' | awk '{print $2}' | tr ':' ' ' | tr -d '\n' | $toucher
+		diff <(sed 's/^\([a-z]\)/#$#$#\1/' $pawsyaml | tr -d '\n' | sed -e 's/$/\n/g' -e 's/#$#$#/\n/g') <(sed 's/^\([a-z]\)/#$#$#\1/' $pawswinteryaml | tr -d '\n' | sed -e 's/$/\n/g' -e 's/#$#$#/\n/g') | grep '^>' | awk '{print $2}' | tr ':' ' ' | $toucher
 	fi
 	sed -e 's/^  - name: ".*symbols"/#/' -e 's/output_basedir:.*/output_basedir: "..\/svg_patterns"/' -e '/^  padding:.*/d' $pawsyaml > $pawspatternsyaml
 
