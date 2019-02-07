@@ -1,6 +1,6 @@
 #!/bin/bash
 
-debug=3
+debug=1
 release=0
 
 root="/home/jans/Dokumenty/osm/renderer"
@@ -54,6 +54,7 @@ osmcrefnd="osmc-node-ref-4.xml"
 pawsyaml="paws.yaml"
 pawspatternsyaml="paws_patterns.yaml"
 pawsosmcyaml="paws-osmc.yaml"
+pawsosmcyold="paws-osmc.yold"
 exportdir="export_paws"
 scalecfg="osmc-symbol-scale.cfg"
 basexml="base2.xml"
@@ -66,6 +67,7 @@ uploadscript="upload.sh"
 uploadpath="upload.txt"
 lmod="lmod.txt"
 logfile="$root/logfile.txt"
+errfile="$root/errfile.txt"
 osmcsymlst=~hts/osm/nbh/osmc_symbols.lst
 osmcsymlstold="osmc_symbol.lst"
 winter=0
@@ -77,6 +79,15 @@ buildctrl="build.txt"
 releasectrl="release.txt"
 sedfile="sed_script.sed"
 jarfile=~/.openstreetmap/osmosis/plugins/mapsforge-map-writer-0.8.0-jar-with-dependencies.jar
+# mini update
+sttscalecfg="tools/image_scale.stt"
+osmcscalecfg="tools/osmc-symbol-scale.cfg"
+sttosmcscalecfg="tools/osmc-symbol-scale.stt"
+transparencycfg="tools/image_transparency.cfg"
+statusfile="$root/imagestatus.txt"
+refreshlist="$root/imagerefresh.lst"
+workstatusfile="$root/imagestatus.wrk"
+workstatusfile="$root/tools/toucher.sh"
 
 bcx="biking-captions.xml"
 blhzx="biking-lines-high-zoom.xml"
@@ -101,34 +112,32 @@ mapper4="mapper-4.xml"
 cd $root
 echo "Debug mode: $debug" > $logfile
 
-if [ "$1" = "-r" ]; then
-	release=1
-	if [ "$2" = "-w" ]; then
-		winter=1
-		winterarg="-w"
-	fi
-elif [ "$1" = "-w" ]; then
-	winter=1
-	winterarg="-w"
-fi
+rebuildimg=0
+
+while [ $# -gt 0 ] ; do
+	case $1 in
+		-r)
+			release=1
+		;;
+		-w) 
+			winter=1
+			winterarg="-w" 
+		;;
+		-c)
+			rebuildimg=1
+		;;
+		*)
+			echo "neznámý argument $1"
+		;;
+	esac
+	shift
+done
 echo "Release mode: $release" >> $logfile
 
-if ! diff -q $osmcsymlst $osmcsymlstold &> /dev/null; then
-	cp $osmcsymlst $osmcsymlstold
-	touch $root/osmic-derivate/$osmcdflt/force_rebuild
-fi
-
-rebuildimg=0
-if [ $winter -eq 1 ]; then
-	lmodf=`find osmic-derivate/ -type f -printf '%T@ %p\n' | sort -n | tail -1 | tr -d '/ .' | sed 's/$/w/'`
-else
-	lmodf=`find osmic-derivate/ -type f -printf '%T@ %p\n' | sort -n | tail -1 | tr -d '/ .' | sed 's/$/s/'`
-fi
-
-
-echo " Current state: $lmodf" >> $logfile
-lmodo=`cat tools/$lmod`
-echo "Original state: $lmodo" >> $logfile
+#if ! diff -q $osmcsymlst $osmcsymlstold &> /dev/null; then
+#	cp $osmcsymlst $osmcsymlstold
+#	touch $root/osmic-derivate/$osmcdflt/force_rebuild
+#fi
 
 month=`date +%m | awk '{printf("%d", $1)}'`
 if [ $month -ge 12 ] || [ $month -le 3 ]; then
@@ -141,23 +150,31 @@ else
 	fi
 fi
 
-if [ "$lmodf" = "$lmodo" ] ; then
-	rebuildimg=0
-	if [ $winter -eq 1 ]; then
-		bash tools/winter_rename.sh $uploadpath -r
+#bash tools/minimalupdate.sh
+#refreshlist="imagerefresh.lst"
+
+#if [ "$lmodf" = "$lmodo" ] ; then
+#	rebuildimg=0
+#	if [ $winter -eq 1 ]; then
+#		bash tools/winter_rename.sh $uploadpath -r
+#	fi
+#else
+#if [ `cat "$refreshlist" | wc -l` -gt 0 ] ; then
+if [ 1 -gt 0 ] ; then
+	#rebuildimg=1
+	if ! diff -q $osmcsymlst $osmcsymlstold ; then
+		cp $osmcsymlst $osmcsymlstold
+		cd $root/osmic-derivate/$osmcdflt
+		startsec=`date +%s`
+		bash replicator.sh
+		echo "replication done in: $((`date +%s`-startsec)) sec" >> $logfile
+		cp $osmcyaml ../tools/config/
+		cp $scalecfg ../../tools/
+		rm ../../xml/osmc-symbol-*.xml
+		cp $osmcxml osmc-symbol-*.xml ../../xml/
 	fi
-else
-	rebuildimg=1
-
+	
 	cd $root/osmic-derivate/$osmcdflt
-	startsec=`date +%s`
-	bash replicator.sh
-	echo "replication done in: $((`date +%s`-startsec)) sec" >> $logfile
-	cp $osmcyaml ../tools/config/
-	cp $scalecfg ../../tools/
-	rm ../../xml/osmc-symbol-*.xml
-	cp $osmcxml osmc-symbol-*.xml ../../xml/
-
 	cd ../tools/config
 	
 	if [ $winter -eq 1 ]; then
@@ -167,7 +184,26 @@ else
 		pawsyaml="$pawswinteryaml"
 	fi
 	
+	cd ../..
+	find symbols patterns -type f -printf '%p %T@\n' > "$workstatusfile"
+	find osmc-symbols -type f -printf '%p\n' >> "$workstatusfile"
+
+	sort -o "$workstatusfile" "$workstatusfile"
+	
+	if [ $rebuildimg -ge 1 ]; then
+		echo -n '' > "$statusfile"
+	fi
+	if [ -f "$statusfile" ]; then
+		comm -13 "$statusfile" "$workstatusfile" | sort | awk '{print $1}' | sed 's/^/.\//' | rev | cut -d'-' -f2- | rev > "$refreshlist"
+	fi
+	mv "$workstatusfile" "$statusfile"
+	
+	cd tools/config
+	cp $pawsosmcyaml $pawsosmcyold
 	cat $pawsyaml $osmcyaml > $pawsosmcyaml
+	if diff $pawsosmcyold $pawsosmcyaml > /dev/null ; then
+		diff <(sed 's/^\([a-z]\)/#$#$#\1/' $pawsyaml | tr -d '\n' | sed -e 's/$/\n/g' -e 's/#$#$#/\n/g') <(sed 's/^\([a-z]\)/#$#$#\1/' $pawswinteryaml | tr -d '\n' | sed -e 's/$/\n/g' -e 's/#$#$#/\n/g')  | grep '^>' | awk '{print $2}' | tr ':' ' ' | tr -d '\n' | $toucher
+	fi
 	sed -e 's/^  - name: ".*symbols"/#/' -e 's/output_basedir:.*/output_basedir: "..\/svg_patterns"/' -e '/^  padding:.*/d' $pawsyaml > $pawspatternsyaml
 
 	cd ../..
@@ -183,6 +219,8 @@ else
 	
 	rm -r ../svg_patterns/*
 	python tools/export.py tools/config/$pawspatternsyaml
+	cd ..
+	
 fi
 echo "Regenerate images: $rebuildimg" >> $logfile
 ##################################################
@@ -192,7 +230,6 @@ if [ $debug -le 1 ]; then
 fi
 
 if [ $rebuildimg -eq 1 ]; then
-	cd ..
 	rm -r themes
 fi
 
@@ -324,17 +361,16 @@ do
 	
 	echo "Temp xml done"
 	
-	if [ $rebuildimg -eq 1 ]; then
-		if [ "$lastimgscale" != "$imgscalefactor" ]; then
-			echo " regenerating images" >> $logfile
-			startsec=`date +%s`
-			sh tools/pnger.sh $imgscalefactor
-			echo "PNGs created in: $((`date +%s`-startsec)) sec" >> $logfile
-		fi
-	else
-		echo " updating only XML" >> $logfile
-		mv themes/$themename .
+	if [ "$lastimgscale" != "$imgscalefactor" ]; then
+		echo " regenerating images" >> $logfile
+		startsec=`date +%s`
+		sh tools/pnger.sh $imgscalefactor
+		echo ""
+		echo "PNGs created in: $((`date +%s`-startsec)) sec" >> $logfile
 	fi
+	mv themes/$themename .
+	echo " updating XML" >> $logfile
+		
 	
 	startsec=`date +%s`
 	bash tools/theme_scaler.sh $xmlscalefactor $txtscalefactor $root/xml/$tempxml > $themename/$themename.xml
@@ -351,10 +387,11 @@ do
 	s/src="file:\//src="file:..\//g 
 	s/<circle r="/<circle radius="/g' > $themename/v2/$themename.map.xml
 	
-	if [ $rebuildimg -eq 1 ]; then
+	if [ $rebuildimg -ge 0 ]; then
 		echo " attaching required images to theme" >> $logfile
 		startsec=`date +%s`
 		sh tools/completer.sh $themename
+		echo ""
 		echo "PNGs copied in: $((`date +%s`-startsec)) sec" >> $logfile
 	fi
 	if [ "$winter" -eq "1" ]; then
@@ -393,6 +430,17 @@ if [ -f "$localuploadtool" ] ; then
 		bash "$localuploadtool" `sed -e 's/themes\/winter_paws_4.zip//' -e 's/,/ /g' $uploadpath`
 	else
 		bash "$localuploadtool" `sed -e 's/themes\/paws_4.zip//' -e 's/,/ /g' $uploadpath`
+	fi
+fi
+
+if [ -f "$errfile" ] ; then
+	if [ -s "$errfile" ] ; then
+		echo "There is an error:"
+		cat "$errfile" | sed 's/^/ /'
+		read -r answer -i "Do you want to clear error log? (y/N):"
+		if [ "$answer" = "y" ] || [ "$answer" = "Y" ] ; then
+			rm "$errfile"
+		fi
 	fi
 fi
 

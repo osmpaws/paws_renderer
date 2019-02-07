@@ -84,6 +84,7 @@
 		<osm-tag key="osmc_foreground" value="blue_lower" renderable="false" />
 		<osm-tag key="osmc_foreground" value="blue_pointer" renderable="false" />
 		<osm-tag key="osmc_foreground" value="blue_rectangle" renderable="false" />
+		<osm-tag key="osmc_foreground" value="blue_rectangle_line" renderable="false" />
 		<osm-tag key="osmc_foreground" value="blue_right" renderable="false" />
 		<osm-tag key="osmc_foreground" value="blue_slash" renderable="false" />
 		<osm-tag key="osmc_foreground" value="blue_stripe" renderable="false" />

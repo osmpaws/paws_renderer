@@ -6,6 +6,7 @@ scalecfg="tools/image_scale.cfg"
 osmcscalecfg="tools/osmc-symbol-scale.cfg"
 transparencycfg="tools/image_transparency.cfg"
 commfile="process.com"
+refreshlist="imagerefresh.lst"
 sourcedir="svg"
 targetdir="png"
 if [ "$#" -lt 1 ]; then
@@ -23,6 +24,11 @@ bgplimit=600
 
 echo "$files" | while read line;
 do
+	if ! grep -qF `echo "$line" | rev | cut -d- -f2- | rev` $refreshlist ; then
+		continue
+	else
+		echo -n "."
+	fi
 	while [ `cat $commfile` -ge $bgplimit ]; do
 		sleep .1;
 	done
