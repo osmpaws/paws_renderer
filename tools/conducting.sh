@@ -139,6 +139,19 @@ echo "Release mode: $release" >> $logfile
 #	touch $root/osmic-derivate/$osmcdflt/force_rebuild
 #fi
 
+if [ $winter -eq 1 ]; then
+	#lmodf=`find osmic-derivate/ -type f -printf '%T@ %p\n' | sort -n | tail -1 | tr -d '/ .' | sed 's/$/w/'`
+	lmodf="w"
+else
+	#lmodf=`find osmic-derivate/ -type f -printf '%T@ %p\n' | sort -n | tail -1 | tr -d '/ .' | sed 's/$/s/'`
+	lmodf="s"
+fi
+
+
+echo " Current state: $lmodf" >> $logfile
+lmodo=`cat tools/$lmod`
+echo "Original state: $lmodo" >> $logfile
+
 month=`date +%m | awk '{printf("%d", $1)}'`
 if [ $month -ge 12 ] || [ $month -le 3 ]; then
 	if grep -q '<layer id="l_piste_nordic" enabled="false">' $root/xml/$stylev4setup ; then
@@ -153,11 +166,12 @@ fi
 #bash tools/minimalupdate.sh
 #refreshlist="imagerefresh.lst"
 
-#if [ "$lmodf" = "$lmodo" ] ; then
+if [ "$lmodo" = "w" ] ; then
 #	rebuildimg=0
-	if [ $winter -eq 1 ]; then
+#	if [ $winter -eq 1 ]; then
 		bash tools/winter_rename.sh $uploadpath -r
-	fi
+#	fi
+fi
 #else
 #if [ `cat "$refreshlist" | wc -l` -gt 0 ] ; then
 if [ 1 -gt 0 ] ; then
@@ -212,9 +226,11 @@ if [ 1 -gt 0 ] ; then
 	#rm -r ../png/*
 	cp -R $exportdir/. ../svg/
 	if [ $winter -eq 1 ]; then
-		find ../osmic-derivate/ -type f -printf '%T@ %p\n' | sort -n | tail -1 | tr -d '/ .' | sed 's/$/w/' > $root/tools/$lmod
+		#find ../osmic-derivate/ -type f -printf '%T@ %p\n' | sort -n | tail -1 | tr -d '/ .' | sed 's/$/w/' > $root/tools/$lmod
+		echo "w" > $root/tools/$lmod
 	else
-		find ../osmic-derivate/ -type f -printf '%T@ %p\n' | sort -n | tail -1 | tr -d '/ .' | sed 's/$/s/' > $root/tools/$lmod
+		#find ../osmic-derivate/ -type f -printf '%T@ %p\n' | sort -n | tail -1 | tr -d '/ .' | sed 's/$/s/' > $root/tools/$lmod
+		echo "s" > $root/tools/$lmod
 	fi
 	
 	rm -r ../svg_patterns/*
