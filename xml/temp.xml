@@ -2,7 +2,7 @@
 <rendertheme xmlns="http://mapsforge.org/renderTheme" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://mapsforge.org/renderTheme ../renderTheme.xsd" version="1" map-background="#f8f8f8">
 	
-	<!--#r00035b00302#-->
+	<!--#r00035b00313#-->
 
 	<!--style#v4#setup-->
 	
@@ -1333,7 +1333,7 @@
 							<pathText k="name" font-style="bold" font-size="18" stroke="#d1fad1" stroke-width="2.0" />
 						</rule>
 					</rule>
-					<!--trail#visibility-->
+					<!--#trail#visibility-->
 					<!--#restriction#-->
 					<!--restrictions-->
 					<rule e="way" k="highway" v="*" zoom-min="16">

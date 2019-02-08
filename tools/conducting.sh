@@ -198,12 +198,20 @@ if [ 1 -gt 0 ] ; then
 		pawsyaml="$pawswinteryaml"
 	fi
 	
+	#cd tools/config
+	mv $pawsosmcyaml $pawsosmcyold
+	cat $pawsyaml $osmcyaml > $pawsosmcyaml
+	if ! diff $pawsosmcyold $pawsosmcyaml > /dev/null ; then
+		diff <(sed 's/^\([a-z]\)/#$#$#\1/' $pawsyaml | tr -d '\n' | sed -e 's/$/\n/g' -e 's/#$#$#/\n/g') <(sed 's/^\([a-z]\)/#$#$#\1/' $pawswinteryaml | tr -d '\n' | sed -e 's/$/\n/g' -e 's/#$#$#/\n/g') | grep '^>' | awk '{print $2}' | tr ':' ' ' | $toucher
+	fi
+	
+	sed -e 's/^  - name: ".*symbols"/#/' -e 's/output_basedir:.*/output_basedir: "..\/svg_patterns"/' -e '/^  padding:.*/d' $pawsyaml > $pawspatternsyaml
+	
 	cd ../..
+	
 	find symbols patterns -type f -printf '%p %T@\n' > "$workstatusfile"
 	find osmc-symbols -type f -printf '%p\n' >> "$workstatusfile"
-
 	sort -o "$workstatusfile" "$workstatusfile"
-	
 	if [ $rebuildimg -ge 1 ]; then
 		echo -n '' > "$statusfile"
 	fi
@@ -212,18 +220,10 @@ if [ 1 -gt 0 ] ; then
 	fi
 	mv "$workstatusfile" "$statusfile"
 	
-	cd tools/config
-	mv $pawsosmcyaml $pawsosmcyold
-	cat $pawsyaml $osmcyaml > $pawsosmcyaml
-	if diff $pawsosmcyold $pawsosmcyaml > /dev/null ; then
-		diff <(sed 's/^\([a-z]\)/#$#$#\1/' $pawsyaml | tr -d '\n' | sed -e 's/$/\n/g' -e 's/#$#$#/\n/g') <(sed 's/^\([a-z]\)/#$#$#\1/' $pawswinteryaml | tr -d '\n' | sed -e 's/$/\n/g' -e 's/#$#$#/\n/g') | grep '^>' | awk '{print $2}' | tr ':' ' ' | $toucher
-	fi
-	sed -e 's/^  - name: ".*symbols"/#/' -e 's/output_basedir:.*/output_basedir: "..\/svg_patterns"/' -e '/^  padding:.*/d' $pawsyaml > $pawspatternsyaml
-
-	cd ../..
 	python tools/export.py tools/config/$pawsosmcyaml
-	rm -r ../svg/*
-	#rm -r ../png/*
+	rm -r ../svg/
+	rm -r ../png/
+	mkdir -p ../png
 	cp -R $exportdir/. ../svg/
 	if [ $winter -eq 1 ]; then
 		#find ../osmic-derivate/ -type f -printf '%T@ %p\n' | sort -n | tail -1 | tr -d '/ .' | sed 's/$/w/' > $root/tools/$lmod
@@ -233,8 +233,8 @@ if [ 1 -gt 0 ] ; then
 		echo "s" > $root/tools/$lmod
 	fi
 	
-	rm -r ../svg_patterns/*
-	python tools/export.py tools/config/$pawspatternsyaml
+	#rm -r ../svg_patterns/*
+	#python tools/export.py tools/config/$pawspatternsyaml
 	cd ..
 	
 fi
@@ -453,7 +453,8 @@ if [ -f "$errfile" ] ; then
 	if [ -s "$errfile" ] ; then
 		echo "There is an error:"
 		cat "$errfile" | sed 's/^/ /'
-		read -r answer -i "Do you want to clear error log? (y/N):"
+		echo -n "Do you want to clear error log? (y/N):"
+		read -r answer
 		if [ "$answer" = "y" ] || [ "$answer" = "Y" ] ; then
 			rm "$errfile"
 		fi
@@ -465,9 +466,9 @@ if [ "$release" -ne "1" ]; then
 		rm tag-mapping.xml
 		unzip "$jarfile" tag-mapping.xml
 		if [ -f tag-mapping.xml ] ; then
-			if [ `diff tag-mapping.xml "$root/osmic-derivate/osmc-symbol-default/tag-mapping.tpl" | grep '^>' | wc -l` -gt "0" ] ; then
+			if [ `diff tag-mapping.xml "$root/osmic-derivate/osmc-symbol-default/tag-mapping.xml" | grep '^>' | wc -l` -gt "0" ] ; then
 				echo "There is some new symbol not included to map file.";
-				echo "diff tag-mapping.xml $root/osmic-derivate/osmc-symbol-default/tag-mapping.tpl";
+				echo "diff tag-mapping.xml $root/osmic-derivate/osmc-symbol-default/tag-mapping.xml";
 			fi
 		fi
 	fi

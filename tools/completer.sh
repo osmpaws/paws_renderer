@@ -18,7 +18,7 @@ imgfiles=`grep 'src=' "$root/$1/$1.xml" | sed 's/.*src=file:"\(.*\)".*/\1/g' | s
 
 for filepath in $imgfiles;
 do
-	pattern=`echo "$filepath" | rev | cut -d. -f2- | rev | sed 's/_/./g'`
+	pattern=`echo "$filepath" | rev | cut -d. -f2- | rev | sed 's/[a-z/]/./g'`
 	if ! grep -q "$pattern" $refreshlist ; then
 		continue
 	else
