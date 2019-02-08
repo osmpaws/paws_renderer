@@ -13,7 +13,7 @@ fi
 
 find themes* -type f -name '*paws*' |
 while read -r filename ; do
-	if echo "$filename" | rev | cut -d'.' -f'1' | rev | grep 'zip' ; then
+	if echo "$filename" | rev | cut -d'.' -f1 | rev | grep 'zip' ; then
 		rm "$filename"
 	fi
 	dname=`dirname "$filename"`
