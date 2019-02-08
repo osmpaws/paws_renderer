@@ -82,7 +82,7 @@
 		<overlay id="l_guidepost" />
 		<overlay id="l_bike_lines" />
 		<overlay id="l_mtb_scale" />
-		<overlay id="l_trail_visibility" />
+		<!--overlay id="l_trail_visibility" /-->
 		<overlay id="l_horse_lines" />
 		<overlay id="l_piste_nordic" />
 		<overlay id="l_national_park_pattern" />
@@ -93,7 +93,7 @@
 		<overlay id="l_bike_lines" />
 		<overlay id="l_mtb_scale" />
 		<overlay id="l_surface" />
-		<overlay id="l_trail_visibility" />
+		<!--overlay id="l_trail_visibility" /-->
 		<overlay id="l_national_park_pattern" />
 	</layer>
 	<layer id="osm" visible="true">
