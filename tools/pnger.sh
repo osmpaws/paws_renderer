@@ -24,8 +24,8 @@ bgplimit=600
 
 echo "$files" | while read line;
 do
-	pattern=`echo "$filepath" | rev | cut -d. -f2- | rev | sed -e 's/[^a-z/]/./g'`
-	if ! grep -qF `echo "$line" | rev | cut -d- -f2- | rev` $refreshlist ; then
+	#pattern=`echo "$filepath" | rev | cut -d. -f2- | rev | sed -e 's/[^a-z/]/./g'`
+	if ! grep -qF -m1 `echo "$line" | rev | cut -d- -f2- | rev` $refreshlist ; then
 		continue
 	else
 		echo -n "."

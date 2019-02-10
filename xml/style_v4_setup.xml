@@ -29,10 +29,20 @@
 		<name lang="en" value="Guideposts" />
 		<cat id="guidepost" />
 	</layer>
-	<layer id="l_bike_lines" enabled="true">
+	<layer id="l_bike_ref_captions" enabled="true">
+		<name lang="cs" value="TZT - linie" />
+		<name lang="en" value="Waymarked Trails" />
+		<cat id="bike_ref_captions" />
+	</layer>
+	<layer id="l_bike_lines" parent="l_bike_ref_captions" enabled="false">
+		<name lang="cs" value="Cyklotrasy (čára)" />
+		<name lang="en" value="Bike trails (line)" />
+		<cat id="bike_lines" />
+	</layer>
+	<layer id="l_bike_beads" parent="l_bike_ref_captions" enabled="true">
 		<name lang="cs" value="Cyklotrasy" />
 		<name lang="en" value="Bike trails" />
-		<cat id="bike_lines" />
+		<cat id="bike_beads" />
 	</layer>
 	<layer id="l_mtb_scale" enabled="false">
 		<name lang="cs" value="MTB náročnost" />
@@ -80,6 +90,7 @@
 		<overlay id="l_hike_symbol_nodes" />
 		<overlay id="l_sac_scale" />
 		<overlay id="l_guidepost" />
+		<overlay id="l_bike_beads" />
 		<overlay id="l_bike_lines" />
 		<overlay id="l_mtb_scale" />
 		<!--overlay id="l_trail_visibility" /-->
@@ -90,6 +101,7 @@
 	<layer id="bicycle" visible="true">
 		<name lang="cs" value="Cyklo vrstvy" />
 		<name lang="en" value="Bicycle layers" />
+		<overlay id="l_bike_beads" />
 		<overlay id="l_bike_lines" />
 		<overlay id="l_mtb_scale" />
 		<overlay id="l_surface" />

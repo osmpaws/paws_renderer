@@ -1,15 +1,15 @@
 		<!--KCT#biking#captions-->
-		<rule cat="bike_lines" e="way" k="route" v="bicycle">
+		<rule cat="bike_ref_captions" e="way" k="route" v="bicycle">
 			<rule e="way" k="network" v="rcn|lcn" zoom-min="13">
-				<pathText k="ref" font-style="bold" font-size="20" stroke="#FFFFFF" fill="#FF00FF" stroke-width="4.0" />
+				<pathText k="ref" font-style="bold" font-size="20" dy="-3" stroke="#FFFFFF" fill="#FF00FF" stroke-width="4.0" />
 			</rule>
 			<!--rule e="way" k="network" v="rcn|lcn" zoom-max="12">
-				<pathText k="ref" font-style="bold" font-size="16" stroke="#FFFFFF" fill="#FF00FF" stroke-width="4.0" />
+				<pathText k="ref" font-style="bold" font-size="16" dy="-3" stroke="#FFFFFF" fill="#FF00FF" stroke-width="4.0" />
 			</rule-->
 			<rule e="way" k="network" v="ncn" zoom-min="13">
-				<pathText k="ref" font-style="bold" font-size="20" stroke="#FFFFFF" fill="#9000FF" stroke-width="4.0" />
+				<pathText k="ref" font-style="bold" font-size="20" dy="-3" stroke="#FFFFFF" fill="#9000FF" stroke-width="4.0" />
 			</rule>
 			<!--rule e="way" k="network" v="ncn" zoom-max="12">
-				<pathText k="ref" font-style="bold" font-size="16" stroke="#FFFFFF" fill="#6000FF" stroke-width="4.0" />
+				<pathText k="ref" font-style="bold" font-size="16" dy="-3" stroke="#FFFFFF" fill="#6000FF" stroke-width="4.0" />
 			</rule-->
 		</rule>

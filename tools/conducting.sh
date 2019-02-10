@@ -96,6 +96,8 @@ bllzx="biking-lines-low-zoom.xml"
 bcx4="biking-captions-4.xml"
 blhzx4="biking-lines-high-zoom-4.xml"
 bllzx4="biking-lines-low-zoom-4.xml"
+bbhzx4="biking-beads-high-zoom-4.xml"
+bblzx4="biking-beads-low-zoom-4.xml"
 hlhzx="hiking-lines-high-zoom.xml"
 hllzx="hiking-lines-low-zoom.xml"
 hlhzx4="hiking-lines-high-zoom-4.xml"
@@ -362,6 +364,8 @@ do
 ###			       /<!--cycleway#lane-->/r $root/xml/$cwl4" >> $themename_$sedfile
 			sed -i -e "/<!--biking#lines#high#zoom-->/r $root/xml/$blhzx4" \
 			       -e "/<!--biking#lines#low#zoom-->/r $root/xml/$bllzx4" \
+			       -e "/<!--biking#lines#high#zoom-->/r $root/xml/$bbhzx4" \
+			       -e "/<!--biking#lines#low#zoom-->/r $root/xml/$bblzx4" \
 			       -e "/<!--biking#captions-->/r $root/xml/$bcx4" \
 			       -e "/<!--mtb#scale-->/r $root/xml/$mtbs4" \
 			       -e "/<!--biking#restrictions-->/r $root/xml/biking-restrictions-4.xml" \
