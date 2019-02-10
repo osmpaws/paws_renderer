@@ -2,7 +2,7 @@
 <rendertheme xmlns="http://mapsforge.org/renderTheme" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://mapsforge.org/renderTheme ../renderTheme.xsd" version="1" map-background="#f8f8f8">
 	
-	<!--#r00034b00261#-->
+	<!--#r00036b00334#-->
 
 	<!--style#v4#setup-->
 	
@@ -451,7 +451,7 @@
 					<area fill="#e5e0c2" stroke="#707070" stroke-width="0.22" />
 				</rule>
 				<rule e="way" k="highway" v="pedestrian">
-					<area fill="#b5bbb2" stroke="#707070" stroke-width="0.22" />
+					<area fill="#b5bbb2" stroke="#707070" stroke-width="0.22" /> <!--winter#skip-->
 				</rule>
 				<rule e="way" k="highway" v="path">
 					<area fill="#d0d0d0" stroke="#d0d0d0" stroke-width="0.67" />
@@ -475,7 +475,7 @@
 		</rule>
 		<rule e="way" k="highway" v="*" closed="yes">
 			<rule e="way" k="highway" v="pedestrian">
-				<area fill="#b5bbb2" stroke="#707070" stroke-width="0.22" />
+				<area fill="#b5bbb2" stroke="#707070" stroke-width="0.22" /> <!--winter#skip-->
 			</rule>
 			<rule e="way" k="highway" v="service">
 				<area fill="#ffffff" stroke="#707070" stroke-width="0.22" />
@@ -866,7 +866,7 @@
 						<rule e="way" k="highway" v="steps" zoom-min="12">
 							<line stroke="#707070" stroke-width="0.90" />
 						</rule>
-						<rule e="way" k="highway" v="cycleway|bridleway|service" zoom-min="12">
+						<rule e="way" k="highway" v="cycleway|service" zoom-min="12">
 							<line stroke="#000000" stroke-width="1.80" />
 						</rule>
 						<rule e="way" k="highway" v="byway" zoom-min="12">
@@ -990,10 +990,44 @@
 							<line stroke="#FFAAFF" stroke-width="0.50" />
 						</rule>
 						<rule e="way" k="highway" v="footway" zoom-min="13" zoom-max="17">
-							<line stroke="#959072" stroke-width="0.70" stroke-dasharray="5.00,5.0" stroke-linecap="butt" />
+							<rule e="way" k="trail_visibility" v="excellent|~">
+								<line stroke="#959072" stroke-width="0.70" stroke-dasharray="5.00,5.0" stroke-linecap="butt" />
+							</rule>
+							<rule e="way" k="trail_visibility" v="good">
+								<line stroke="#d5959072" stroke-width="0.70" stroke-dasharray="5.00,5.0" stroke-linecap="butt" />
+							</rule>
+							<rule e="way" k="trail_visibility" v="intermediate">
+								<line stroke="#ab959072" stroke-width="0.70" stroke-dasharray="5.00,5.0" stroke-linecap="butt" />
+							</rule>
+							<rule e="way" k="trail_visibility" v="bad">
+								<line stroke="#81959072" stroke-width="0.70" stroke-dasharray="5.00,5.0" stroke-linecap="butt" />
+							</rule>
+							<rule e="way" k="trail_visibility" v="horrible">
+								<line stroke="#57959072" stroke-width="0.70" stroke-dasharray="5.00,5.0" stroke-linecap="butt" />
+							</rule>
+							<rule e="way" k="trail_visibility" v="no">
+								<line stroke="#2d959072" stroke-width="0.70" stroke-dasharray="5.00,5.0" stroke-linecap="butt" />
+							</rule>
 						</rule>
 						<rule e="way" k="highway" v="footway" zoom-min="18">
-							<line stroke="#959072" stroke-width="0.70" stroke-dasharray="10.00,10.0" stroke-linecap="butt" />
+							<rule e="way" k="trail_visibility" v="excellent|~">
+								<line stroke="#959072" stroke-width="0.70" stroke-dasharray="10.00,10.0" stroke-linecap="butt" />
+							</rule>
+							<rule e="way" k="trail_visibility" v="good">
+								<line stroke="#d5959072" stroke-width="0.70" stroke-dasharray="10.00,10.0" stroke-linecap="butt" />
+							</rule>
+							<rule e="way" k="trail_visibility" v="intermediate">
+								<line stroke="#ab959072" stroke-width="0.70" stroke-dasharray="10.00,10.0" stroke-linecap="butt" />
+							</rule>
+							<rule e="way" k="trail_visibility" v="bad">
+								<line stroke="#81959072" stroke-width="0.70" stroke-dasharray="10.00,10.0" stroke-linecap="butt" />
+							</rule>
+							<rule e="way" k="trail_visibility" v="horrible">
+								<line stroke="#57959072" stroke-width="0.70" stroke-dasharray="10.00,10.0" stroke-linecap="butt" />
+							</rule>
+							<rule e="way" k="trail_visibility" v="no">
+								<line stroke="#2d959072" stroke-width="0.70" stroke-dasharray="10.00,10.0" stroke-linecap="butt" />
+							</rule>
 						</rule>
 						<rule e="way" k="*" v="*" zoom-min="15">
 							<pathText k="name" font-style="bold" font-size="17.00" stroke="#e5e0c2" stroke-width="2.00" />
@@ -1005,10 +1039,44 @@
 							<line stroke="#FFAAFF" stroke-width="0.50" />
 						</rule>
 						<rule e="way" k="highway" v="path" zoom-min="13" zoom-max="17">
-							<line stroke="#909090" stroke-width="0.70" stroke-dasharray="5.00,5.0" stroke-linecap="butt" />
+							<rule e="way" k="trail_visibility" v="excellent|~">
+								<line stroke="#909090" stroke-width="0.70" stroke-dasharray="5.00,5.0" stroke-linecap="butt" />
+							</rule>
+							<rule e="way" k="trail_visibility" v="good">
+								<line stroke="#d5909090" stroke-width="0.70" stroke-dasharray="5.00,5.0" stroke-linecap="butt" />
+							</rule>
+							<rule e="way" k="trail_visibility" v="intermediate">
+								<line stroke="#ab909090" stroke-width="0.70" stroke-dasharray="5.00,5.0" stroke-linecap="butt" />
+							</rule>
+							<rule e="way" k="trail_visibility" v="bad">
+								<line stroke="#81909090" stroke-width="0.70" stroke-dasharray="5.00,5.0" stroke-linecap="butt" />
+							</rule>
+							<rule e="way" k="trail_visibility" v="horrible">
+								<line stroke="#57909090" stroke-width="0.70" stroke-dasharray="5.00,5.0" stroke-linecap="butt" />
+							</rule>
+							<rule e="way" k="trail_visibility" v="no">
+								<line stroke="#2d909090" stroke-width="0.70" stroke-dasharray="5.00,5.0" stroke-linecap="butt" />
+							</rule>
 						</rule>
 						<rule e="way" k="highway" v="path" zoom-min="18">
-							<line stroke="#909090" stroke-width="0.70" stroke-dasharray="10.00,10.0" stroke-linecap="butt" />
+							<rule e="way" k="trail_visibility" v="excellent|~">
+								<line stroke="#909090" stroke-width="0.70" stroke-dasharray="10.00,10.0" stroke-linecap="butt" />
+							</rule>
+							<rule e="way" k="trail_visibility" v="good">
+								<line stroke="#d5909090" stroke-width="0.70" stroke-dasharray="10.00,10.0" stroke-linecap="butt" />
+							</rule>
+							<rule e="way" k="trail_visibility" v="intermediate">
+								<line stroke="#ab909090" stroke-width="0.70" stroke-dasharray="10.00,10.0" stroke-linecap="butt" />
+							</rule>
+							<rule e="way" k="trail_visibility" v="bad">
+								<line stroke="#81909090" stroke-width="0.70" stroke-dasharray="10.00,10.0" stroke-linecap="butt" />
+							</rule>
+							<rule e="way" k="trail_visibility" v="horrible">
+								<line stroke="#57909090" stroke-width="0.70" stroke-dasharray="10.00,10.0" stroke-linecap="butt" />
+							</rule>
+							<rule e="way" k="trail_visibility" v="no">
+								<line stroke="#2d909090" stroke-width="0.70" stroke-dasharray="10.00,10.0" stroke-linecap="butt" />
+							</rule>
 						</rule>
 						<rule e="way" k="*" v="*" zoom-min="15">
 							<pathText k="name" font-style="bold" font-size="17.00" stroke="#d0d0d0" stroke-width="2.00" />
@@ -1074,13 +1142,88 @@
 							<rule e="way" k="tracktype" v="~|false">
 								<line stroke="#505050" stroke-width="1.00" stroke-linecap="square" stroke-dasharray="30.00,45.00,1.50,45.00,0.10,55.00,0.10,45.00,1.50,45.0" />
 							</rule>
-						</rule>						
+						</rule>
 						<rule e="way" k="*" v="*" zoom-min="15">
 							<pathText k="name" font-style="bold" font-size="17.00" stroke="#fff2de" stroke-width="2.00" />
 						</rule>
 					</rule>
 					<rule e="way" k="highway" v="bridleway">
-						<line stroke="#706040" stroke-width="0.90" stroke-dasharray="15.00,6.00,6.00,6.0" />
+						<rule e="way" k="highway" v="bridleway" zoom-max="19">
+							<rule e="way" k="trail_visibility" v="excellent|~">
+								<line stroke="#807040" stroke-width="1.20" stroke-linecap="round" stroke-dasharray="1.00,29.0" />
+								<line stroke="#807040" stroke-width="1.20" stroke-linecap="butt" stroke-dasharray="10.00,20.0" />
+								<line stroke="#ffffff" stroke-width="0.60" stroke-linecap="round" stroke-dasharray="1.00,29.0" />
+								<line stroke="#ffffff" stroke-width="0.60" stroke-linecap="butt" stroke-dasharray="10.00,20.0" />
+							</rule>
+							<rule e="way" k="trail_visibility" v="good">
+								<line stroke="#d5807040" stroke-width="1.20" stroke-linecap="round" stroke-dasharray="1.00,29.0" />
+								<line stroke="#d5807040" stroke-width="1.20" stroke-linecap="butt" stroke-dasharray="10.00,20.0" />
+								<line stroke="#d5ffffff" stroke-width="0.60" stroke-linecap="round" stroke-dasharray="1.00,29.0" />
+								<line stroke="#d5ffffff" stroke-width="0.60" stroke-linecap="butt" stroke-dasharray="10.00,20.0" />
+							</rule>
+							<rule e="way" k="trail_visibility" v="intermediate">
+								<line stroke="#ab807040" stroke-width="1.20" stroke-linecap="round" stroke-dasharray="1.00,29.0" />
+								<line stroke="#ab807040" stroke-width="1.20" stroke-linecap="butt" stroke-dasharray="10.00,20.0" />
+								<line stroke="#abffffff" stroke-width="0.60" stroke-linecap="round" stroke-dasharray="1.00,29.0" />
+								<line stroke="#abffffff" stroke-width="0.60" stroke-linecap="butt" stroke-dasharray="10.00,20.0" />
+							</rule>
+							<rule e="way" k="trail_visibility" v="bad">
+								<line stroke="#81807040" stroke-width="1.20" stroke-linecap="round" stroke-dasharray="1.00,29.0" />
+								<line stroke="#81807040" stroke-width="1.20" stroke-linecap="butt" stroke-dasharray="10.00,20.0" />
+								<line stroke="#81ffffff" stroke-width="0.60" stroke-linecap="round" stroke-dasharray="1.00,29.0" />
+								<line stroke="#81ffffff" stroke-width="0.60" stroke-linecap="butt" stroke-dasharray="10.00,20.0" />
+							</rule>
+							<rule e="way" k="trail_visibility" v="horrible">
+								<line stroke="#57807040" stroke-width="1.20" stroke-linecap="round" stroke-dasharray="1.00,29.0" />
+								<line stroke="#57807040" stroke-width="1.20" stroke-linecap="butt" stroke-dasharray="10.00,20.0" />
+								<line stroke="#57ffffff" stroke-width="0.60" stroke-linecap="round" stroke-dasharray="1.00,29.0" />
+								<line stroke="#57ffffff" stroke-width="0.60" stroke-linecap="butt" stroke-dasharray="10.00,20.0" />
+							</rule>
+							<rule e="way" k="trail_visibility" v="no">
+								<line stroke="#2d807040" stroke-width="1.20" stroke-linecap="round" stroke-dasharray="1.00,29.0" />
+								<line stroke="#2d807040" stroke-width="1.20" stroke-linecap="butt" stroke-dasharray="10.00,20.0" />
+								<line stroke="#2dffffff" stroke-width="0.60" stroke-linecap="round" stroke-dasharray="1.00,29.0" />
+								<line stroke="#2dffffff" stroke-width="0.60" stroke-linecap="butt" stroke-dasharray="10.00,20.0" />
+							</rule>
+						</rule>
+						<rule e="way" k="highway" v="bridleway" zoom-min="20">
+							<rule e="way" k="trail_visibility" v="excellent|~">
+								<line stroke="#807040" stroke-width="1.20" stroke-linecap="round" stroke-dasharray="1.00,39.0" />
+								<line stroke="#807040" stroke-width="1.20" stroke-linecap="butt" stroke-dasharray="15.00,25.0" />
+								<line stroke="#ffffff" stroke-width="0.60" stroke-linecap="round" stroke-dasharray="1.00,39.0" />
+								<line stroke="#ffffff" stroke-width="0.60" stroke-linecap="butt" stroke-dasharray="15.00,25.0" />
+							</rule>
+							<rule e="way" k="trail_visibility" v="good">
+								<line stroke="#d5807040" stroke-width="1.20" stroke-linecap="round" stroke-dasharray="1.00,39.0" />
+								<line stroke="#d5807040" stroke-width="1.20" stroke-linecap="butt" stroke-dasharray="15.00,25.0" />
+								<line stroke="#d5ffffff" stroke-width="0.60" stroke-linecap="round" stroke-dasharray="1.00,39.0" />
+								<line stroke="#d5ffffff" stroke-width="0.60" stroke-linecap="butt" stroke-dasharray="15.00,25.0" />
+							</rule>
+							<rule e="way" k="trail_visibility" v="intermediate">
+								<line stroke="#ab807040" stroke-width="1.20" stroke-linecap="round" stroke-dasharray="1.00,39.0" />
+								<line stroke="#ab807040" stroke-width="1.20" stroke-linecap="butt" stroke-dasharray="15.00,25.0" />
+								<line stroke="#abffffff" stroke-width="0.60" stroke-linecap="round" stroke-dasharray="1.00,39.0" />
+								<line stroke="#abffffff" stroke-width="0.60" stroke-linecap="butt" stroke-dasharray="15.00,25.0" />
+							</rule>
+							<rule e="way" k="trail_visibility" v="bad">
+								<line stroke="#81807040" stroke-width="1.20" stroke-linecap="round" stroke-dasharray="1.00,39.0" />
+								<line stroke="#81807040" stroke-width="1.20" stroke-linecap="butt" stroke-dasharray="15.00,25.0" />
+								<line stroke="#81ffffff" stroke-width="0.60" stroke-linecap="round" stroke-dasharray="1.00,39.0" />
+								<line stroke="#81ffffff" stroke-width="0.60" stroke-linecap="butt" stroke-dasharray="15.00,25.0" />
+							</rule>
+							<rule e="way" k="trail_visibility" v="horrible">
+								<line stroke="#57807040" stroke-width="1.20" stroke-linecap="round" stroke-dasharray="1.00,39.0" />
+								<line stroke="#57807040" stroke-width="1.20" stroke-linecap="butt" stroke-dasharray="15.00,25.0" />
+								<line stroke="#57ffffff" stroke-width="0.60" stroke-linecap="round" stroke-dasharray="1.00,39.0" />
+								<line stroke="#57ffffff" stroke-width="0.60" stroke-linecap="butt" stroke-dasharray="15.00,25.0" />
+							</rule>
+							<rule e="way" k="trail_visibility" v="no">
+								<line stroke="#2d807040" stroke-width="1.20" stroke-linecap="round" stroke-dasharray="1.00,39.0" />
+								<line stroke="#2d807040" stroke-width="1.20" stroke-linecap="butt" stroke-dasharray="15.00,25.0" />
+								<line stroke="#2dffffff" stroke-width="0.60" stroke-linecap="round" stroke-dasharray="1.00,39.0" />
+								<line stroke="#2dffffff" stroke-width="0.60" stroke-linecap="butt" stroke-dasharray="15.00,25.0" />
+							</rule>
+						</rule>
 						<rule e="way" k="*" v="*" zoom-min="15">
 							<pathText k="name" font-style="bold" font-size="18.00" stroke="#d3cb98" stroke-width="2.00" />
 						</rule>
@@ -1190,7 +1333,7 @@
 							<pathText k="name" font-style="bold" font-size="18.00" stroke="#d1fad1" stroke-width="2.00" />
 						</rule>
 					</rule>
-					<!--trail#visibility-->
+					<!--#trail#visibility-->
 					<!--#restriction#-->
 					<!--restrictions-->
 					<rule e="way" k="highway" v="*" zoom-min="16">
@@ -2109,6 +2252,9 @@
 		</rule>
 		<rule e="way" k="osmc_foreground" v="yellow_right">
 			<lineSymbol src="file:/osmc-symbols/blue_yellow_right.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="green_right">
+			<lineSymbol src="file:/osmc-symbols/blue_green_right.png" align-center="false" repeat="true" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="yellow_shell_modern">
 			<lineSymbol src="file:/osmc-symbols/blue_yellow_shell_modern.png" align-center="false" repeat="true" />
@@ -3763,6 +3909,9 @@
 		<rule e="way" k="osmc_foreground" v="yellow_rectangle_line">
 			<lineSymbol src="file:/osmc-symbols/white_yellow_rectangle_line.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="blue_rectangle_line">
+			<lineSymbol src="file:/osmc-symbols/white_blue_rectangle_line.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="green_rectangle_line">
 			<lineSymbol src="file:/osmc-symbols/white_green_rectangle_line.png" align-center="false" repeat="true" />
 		</rule>
@@ -4014,6 +4163,9 @@
 	<rule e="way" k="osmc_background" v="yellow_round" zoom-min="15">
 		<rule e="way" k="osmc_foreground" v="~">
 			<lineSymbol src="file:/osmc-symbols/osmcbg_yellow_round.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="green_bowl">
+			<lineSymbol src="file:/osmc-symbols/yellow_round_green_bowl.png" align-center="false" repeat="true" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="green_circle">
 			<lineSymbol src="file:/osmc-symbols/yellow_round_green_circle.png" align-center="false" repeat="true" />
