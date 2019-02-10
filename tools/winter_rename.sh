@@ -13,8 +13,9 @@ fi
 
 find themes* -type f -name '*paws*' |
 while read -r filename ; do
-	if echo "$filename" | rev | cut -d'.' -f1 | rev | grep 'zip' ; then
+	if echo "$filename" | rev | cut -d'.' -f1 | rev | grep -q 'zip' ; then
 		rm "$filename"
+		continue
 	fi
 	dname=`dirname "$filename"`
 	bname=`basename "$filename"`

@@ -24,6 +24,7 @@ bgplimit=600
 
 echo "$files" | while read line;
 do
+	pattern=`echo "$filepath" | rev | cut -d. -f2- | rev | sed -e 's/[^a-z/]/./g'`
 	if ! grep -qF `echo "$line" | rev | cut -d- -f2- | rev` $refreshlist ; then
 		continue
 	else
@@ -37,7 +38,9 @@ do
 	
 	(
 	filename=`echo $line | rev | cut -d/ -f1 | rev | cut -d. -f1`
+	#filename=`basename "$line"`
 	filepath=`echo $line | rev | cut -d/ -f2- | rev | cut -d/ -f 2-`
+	#filepath=`dirname "$line"`
 	size=`echo $filename | rev | cut -d- -f1 | rev`
 	iconname=`echo $filename | rev | cut -d- -f2- | rev | sed 's/[ -]/_/g'`
 	
@@ -59,8 +62,8 @@ do
 		transparency="1"
 	fi
 	
+	mkdir -p "$targetdir/$filepath/"
 	inkscape -z -e "$targetdir/$filepath/tmp_$iconname.png" -w $newsize "$sourcedir/$line" > /dev/null || echo "$targetdir/$filepath/tmp_$iconname.png , $newsize , $sourcedir/$line"
-	mkdir -p "$targetdir/$filepath"
 	convert "$targetdir/$filepath/tmp_$iconname.png" -trim -alpha set -channel A -evaluate Divide $transparency "$targetdir/$filepath/$iconname.png" > /dev/null  || echo "$targetdir/$filepath/tmp_$iconname.png $newsize , $transparency , $sourcedir/$line"
 	rm "$targetdir/$filepath/tmp_$iconname.png" 
 	echo $((`cat $commfile`-1)) > $commfile )&

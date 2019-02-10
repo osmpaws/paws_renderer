@@ -56,6 +56,7 @@ pawspatternsyaml="paws_patterns.yaml"
 pawsosmcyaml="paws-osmc.yaml"
 pawsosmcyold="paws-osmc.yold"
 exportdir="export_paws"
+imgscalecfg="$root/tools/image_scale.cfg"
 scalecfg="osmc-symbol-scale.cfg"
 basexml="base2.xml"
 tempxml="temp.xml"
@@ -80,7 +81,7 @@ releasectrl="release.txt"
 sedfile="sed_script.sed"
 jarfile=~/.openstreetmap/osmosis/plugins/mapsforge-map-writer-0.8.0-jar-with-dependencies.jar
 # mini update
-sttscalecfg="tools/image_scale.stt"
+sttscalecfg="$root/tools/image_scale.stt"
 osmcscalecfg="tools/osmc-symbol-scale.cfg"
 sttosmcscalecfg="tools/osmc-symbol-scale.stt"
 transparencycfg="tools/image_transparency.cfg"
@@ -202,7 +203,13 @@ if [ 1 -gt 0 ] ; then
 	mv $pawsosmcyaml $pawsosmcyold
 	cat $pawsyaml $osmcyaml > $pawsosmcyaml
 	if ! diff $pawsosmcyold $pawsosmcyaml > /dev/null ; then
-		diff <(sed 's/^\([a-z]\)/#$#$#\1/' $pawsyaml | tr -d '\n' | sed -e 's/$/\n/g' -e 's/#$#$#/\n/g') <(sed 's/^\([a-z]\)/#$#$#\1/' $pawswinteryaml | tr -d '\n' | sed -e 's/$/\n/g' -e 's/#$#$#/\n/g') | grep '^>' | awk '{print $2}' | tr ':' ' ' | $toucher
+		diff <(sed 's/^\([a-z]\)/#$#$#\1/' $pawsosmcyold | tr -d '\n' | sed -e 's/$/\n/g' -e 's/#$#$#/\n/g') <(sed 's/^\([a-z]\)/#$#$#\1/' $pawsosmcyaml | tr -d '\n' | sed -e 's/$/\n/g' -e 's/#$#$#/\n/g') | grep '^>' | awk '{print $2}' | tr ':' ' ' | $toucher
+	fi
+	
+	if ! diff "$sttscalecfg" "$imgscalecfg" > /dev/null ; then
+		diff "$sttscalecfg" "$imgscalecfg" | grep '^>' | awk '{print $2}' | $toucher
+		
+		cp "$imgscalecfg" "$sttscalecfg"
 	fi
 	
 	sed -e 's/^  - name: ".*symbols"/#/' -e 's/output_basedir:.*/output_basedir: "..\/svg_patterns"/' -e '/^  padding:.*/d' $pawsyaml > $pawspatternsyaml
@@ -378,6 +385,7 @@ do
 	echo "Temp xml done"
 	
 	if [ "$lastimgscale" != "$imgscalefactor" ]; then
+		echo " regenerating images"
 		echo " regenerating images" >> $logfile
 		startsec=`date +%s`
 		sh tools/pnger.sh $imgscalefactor
@@ -385,6 +393,7 @@ do
 		echo "PNGs created in: $((`date +%s`-startsec)) sec" >> $logfile
 	fi
 	mv themes/$themename .
+	echo " updating XML"
 	echo " updating XML" >> $logfile
 		
 	
@@ -404,6 +413,7 @@ do
 	s/<circle r="/<circle radius="/g' > $themename/v2/$themename.map.xml
 	
 	if [ $rebuildimg -ge 0 ]; then
+		echo " attaching required images to theme"
 		echo " attaching required images to theme" >> $logfile
 		startsec=`date +%s`
 		sh tools/completer.sh $themename

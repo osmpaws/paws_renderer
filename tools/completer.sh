@@ -18,15 +18,16 @@ imgfiles=`grep 'src=' "$root/$1/$1.xml" | sed 's/.*src=file:"\(.*\)".*/\1/g' | s
 
 for filepath in $imgfiles;
 do
-	pattern=`echo "$filepath" | rev | cut -d. -f2- | rev | sed 's/[a-z/]/./g'`
+	pattern=`echo "$filepath" | rev | cut -d. -f2- | rev | sed -e 's/[^a-z/]/./g'`
 	if ! grep -q "$pattern" $refreshlist ; then
 		continue
 	else
 		echo -n ":"
 	fi
-	mkdir -p $root/$1/`echo $filepath | rev | cut -d/ -f2- | rev`
+	#mkdir -p $root/$1/`echo $filepath | rev | cut -d/ -f2- | rev`
+	mkdir -p $root/$1/`basename "$filepath"`
 	suffix=`echo $filepath | rev | cut -d. -f1 | rev`
-	cp "$root/$suffix/$filepath" "$root/$1/$filepath" || echo "file not found: $filepath" >> "$errfile"
+	cp "$root/$suffix/$filepath" "$root/$1/$filepath" || echo "$? file not found: $filepath ($root/$suffix/$filepath) ($root/$1/$filepath) ($pattern)" >> "$errfile"
 done
 
 #cp -r "$root/xml/$basexml"  $root/$1/$1.xml
