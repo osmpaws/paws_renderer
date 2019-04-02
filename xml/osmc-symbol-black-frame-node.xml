@@ -18,4 +18,19 @@
 		<rule e="node" k="osmc_foreground" v="hiker">
 			<symbol src="file:/osmc-symbols/black_frame_hiker.png" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="red_rectangle">
+			<symbol src="file:/osmc-symbols/black_frame_red_rectangle.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="yellow_rectangle">
+			<symbol src="file:/osmc-symbols/black_frame_yellow_rectangle.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="blue_rectangle">
+			<symbol src="file:/osmc-symbols/black_frame_blue_rectangle.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="green_rectangle">
+			<symbol src="file:/osmc-symbols/black_frame_green_rectangle.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="orange_rectangle">
+			<symbol src="file:/osmc-symbols/black_frame_orange_rectangle.png" />
+		</rule>
 	</rule>

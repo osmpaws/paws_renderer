@@ -2565,6 +2565,14 @@ green-circle-blue-dot:
     opacity: 0.0
     rounded: 10
     padding: 2
+green-circle-white-dot:
+  fill: "#ffffff"
+  shield:
+    stroke_fill: "#00cd27"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 10
+    padding: 2
 green-frame-white-dot:
   fill: "#ffffff"
   shield:
@@ -3100,6 +3108,13 @@ black-green-hiker:
     padding: 1
 black-white-hiker:
   fill: "#ffffff"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+black-orange-hiker:
+  fill: "#f96f00"
   shield:
     fill: "#000000"
     stroke_fill: "#000000"
@@ -3942,6 +3957,13 @@ green-black-pointer:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+green-purple-pointer:
+  fill: "#b878dd"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 green-round-white-pointer:
   fill: "#ffffff"
   shield:
@@ -4259,6 +4281,46 @@ black-white-rectangle:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+black-frame-red-rectangle:
+  fill: "#ff0000"
+  shield:
+    stroke_fill: "#000000"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 2
+    padding: 2
+black-frame-yellow-rectangle:
+  fill: "#ffdd00"
+  shield:
+    stroke_fill: "#000000"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 2
+    padding: 2
+black-frame-blue-rectangle:
+  fill: "#1579e0"
+  shield:
+    stroke_fill: "#000000"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 2
+    padding: 2
+black-frame-green-rectangle:
+  fill: "#00cd27"
+  shield:
+    stroke_fill: "#000000"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 2
+    padding: 2
+black-frame-orange-rectangle:
+  fill: "#f96f00"
+  shield:
+    stroke_fill: "#000000"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 2
+    padding: 2
 blue-yellow-rectangle:
   fill: "#ffdd00"
   shield:
@@ -5338,6 +5400,13 @@ green-frame-green-triangle:
     opacity: 0.0
     rounded: 2
     padding: 2
+orange-yellow-triangle:
+  fill: "#ffdd00"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 orange-white-triangle:
   fill: "#ffffff"
   shield:

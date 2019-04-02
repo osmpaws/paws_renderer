@@ -114,6 +114,9 @@
 		<rule e="node" k="osmc_foreground" v="white_hiker">
 			<symbol src="file:/osmc-symbols/black_white_hiker.png" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="orange_hiker">
+			<symbol src="file:/osmc-symbols/black_orange_hiker.png" />
+		</rule>
 		<rule e="node" k="osmc_foreground" v="hiker">
 			<symbol src="file:/osmc-symbols/black_hiker.png" />
 		</rule>

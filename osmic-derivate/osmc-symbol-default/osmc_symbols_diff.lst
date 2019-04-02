@@ -46,10 +46,13 @@ black:B6
 black_circle
 black_circle:
 :black_circle
+black_circle:A
+black_circle:B
 black_circle:black_horse
 black_circle:celtic_head
 black_circle:L8
 black_circle:red_rat
+black_circle:white
 black_circle:25
 :black_corcle
 :black_cross
@@ -131,6 +134,8 @@ blue:Buit
 blue_circle
 blue_circle:
 :blue_circle
+blue_circle:A
+blue_circle:B
 blue_circle;blue_dot
 blue_circle:GL
 blue_circle:L8
@@ -162,6 +167,7 @@ blue:gree_lower
 blue:green_frog
 blue:HBW
 blue:H-G
+blue_hiker
 blue:HW
 blue:H10
 blue:H5
@@ -209,6 +215,7 @@ blue_round:black
 blue_round:blue_round
 blue_round:nonde
 blue_round:none
+blue_round:white
 blue_round:ZHL
 blue_round:12
 blue_round:2
@@ -654,6 +661,7 @@ red:GBD
 red:gold
 red:Gouw
 red:GWP
+red_hiker
 red:HKR
 red;;Hk1;red;white
 red:H2
@@ -684,6 +692,7 @@ red_round:M
 red_round:N1
 red_round:N3
 red_round:red_round
+red_round:white
 red_round:white_arrow
 red_round:1
 red_round:13
@@ -704,7 +713,9 @@ red:whitebar
 red_white_bar:VL7A
 red:white_bicycle
 red:white_man
+red:white_sripe
 red:white_strep
+red:white_stripe_A47a
 red:white_stripe_G20
 red:white_striper
 red_white_stripe:VL4
@@ -723,6 +734,9 @@ red:2M
 red:3S
 red:5
 red:5KM
+red:7
+red:8
+red:9
 ROM
 Roter
 Rot-Weiß
@@ -769,10 +783,12 @@ white:=
 white:𐂂
 :white
 white:A
+white:AC
 white:AW
 white:A2
 white:B
 white_bar
+:white_bar
 white_bar:blue
 white_bar:blue_circle
 white_bar:GAB
@@ -928,6 +944,7 @@ white:O
 white:orange_flower
 white:orange_round
 white:pink_bar
+white:pink_dot
 :white_pointer
 white_pointer:BW
 white:PS
@@ -942,6 +959,7 @@ white:radweg
 white:re_bar
 white_rectangle:
 white:red
+white:red-bar
 white:red_bar;green
 white:red_bicycle
 white:red_crown

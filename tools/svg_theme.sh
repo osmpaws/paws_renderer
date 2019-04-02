@@ -18,11 +18,11 @@ cd $root
 rm -r "$root/$targetdir/"
 mkdir -p "$root/$targetdir/$themename"
 #mv "$root/$svgdir/patterns" "$root/$svgdir/patterns_orig" && mv "$root/$svgpatternsdir/patterns" "$root/$svgdir/patterns"
-if [ "$winter" -eq "1" ]; then
-	cp images/winter_paw.png $targetdir/$themename/$themename.png
-else
-	cp images/paw.png $targetdir/$themename/$themename.png
-fi
+#if [ "$winter" -eq "1" ]; then
+#	cp images/winter_paw.png $targetdir/$themename/$themename.png
+#else
+#	cp images/paw.png $targetdir/$themename/$themename.png
+#fi
 
 files=`find $svgdir -type f -name "*.svg"`
 filescount=`echo "$files" | wc -l`
