@@ -193,6 +193,12 @@ spring:
     fill: "#ffffff"
     width: 1
     opacity: 1.0
+waterfall:
+  fill: "#2d2dec"
+  halo:
+    fill: "#ffffff"
+    width: 1
+    opacity: 1.0
 christian:
   fill: "#000000"
 christian-orthodox:
