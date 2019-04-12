@@ -71,6 +71,7 @@ black:green
 black:green_low
 black:grey_bar
 black:G1
+black_hiker
 black:H0
 black:H1
 black:H10
@@ -142,6 +143,7 @@ blue_circle:L8
 blue_circle:L9
 bluecircle:Nellele-Rundweg
 blue_circle:17
+blue_cross
 blue:DHB
 blue_diamond
 :blue_diamond
@@ -236,6 +238,7 @@ blue:WA
 blue:WBw
 blue:Wew
 blue:WG
+:blue_wheelchair
 blue_white_bar
 blue:white_star
 blue:WWW
@@ -745,6 +748,7 @@ rted:white_stripe
 Rundwanderweg
 RWW
 shell
+shell_modern
 :shell_modern
 Schwarze
 Schwarzer

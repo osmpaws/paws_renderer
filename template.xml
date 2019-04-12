@@ -2,7 +2,7 @@
 <rendertheme xmlns="http://mapsforge.org/renderTheme" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://mapsforge.org/renderTheme ../renderTheme.xsd" version="1" map-background="#f8f8f8">
 	
-	<!--#r00039b00344#-->
+	<!--#r00040b00347#-->
 
 	<!--style#v4#setup-->
 	
@@ -1965,6 +1965,11 @@
 				<circle r="6.00" fill="#b5d6f1" stroke="#000044" stroke-width="2.20" />
 				<caption k="name" font-family="serif" font-style="bold_italic" font-size="18.00" fill="#707080" stroke="#5576d1" stroke-width="2.70" />
 			</rule>
+			<rule e="node" k="waterway" v="waterfall" zoom-min="15">
+				<symbol src="file:/symbols/waterfall.png" />
+				<caption k="name" font-family="serif" font-style="bold_italic" font-size="18.00" fill="#5576d1" stroke="#707080" stroke-width="2.70" />
+			</rule>
+		</rule>
 		</rule>
 		
 		<!--power-->
@@ -4334,6 +4339,9 @@
 		<rule e="way" k="osmc_foreground" v="white_triangle_line">
 			<lineSymbol src="file:/osmc-symbols/green_white_triangle_line.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="red_triangle">
+			<lineSymbol src="file:/osmc-symbols/green_red_triangle.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="yellow_triangle">
 			<lineSymbol src="file:/osmc-symbols/green_yellow_triangle.png" align-center="false" repeat="true" />
 		</rule>
@@ -4730,9 +4738,6 @@
 		
 		<!-- shop -->
 		<rule e="any" k="shop" v="*">
-			<rule e="any" k="shop" v="bakery" zoom-min="17">
-				<symbol src="file:/symbols/bakery.png" />
-			</rule>
 			<rule e="any" k="shop" v="butcher" zoom-min="17">
 				<symbol src="file:/symbols/butcher.png" />
 			</rule>
@@ -4740,14 +4745,29 @@
 				<symbol src="file:/symbols/bicycle.png" />
 				<caption k="name" dy="-30.00" font-style="bold" font-size="17.00" fill="#aa3399" stroke="#ffffff" stroke-width="3.00" />
 			</rule>
+			<rule e="any" k="shop" v="chemists" zoom-min="17">
+				<symbol src="file:/symbols/chemists.png" />
+			</rule>
 			<rule e="any" k="shop" v="florist" zoom-min="17">
 				<symbol src="file:/symbols/florist.png" />
 			</rule>
 			<rule e="any" k="shop" v="garden_centre" zoom-min="17">
 				<symbol src="file:/symbols/garden_centre.png" />
 			</rule>
-			<rule e="any" k="shop" v="organic|supermarket" zoom-min="17">
+			<rule e="any" k="shop" v="greengrocer" zoom-min="17">
+				<symbol src="file:/symbols/greengrocer.png" />
+			</rule>
+			<rule e="any" k="shop" v="gift" zoom-min="17">
+				<symbol src="file:/symbols/gift.png" />
+			</rule>
+			<rule e="any" k="shop" v="mall|organic|supermarket" zoom-min="17">
 				<symbol src="file:/symbols/supermarket.png" />
+			</rule>			
+			<rule e="any" k="shop" v="bakery" zoom-min="17">
+				<symbol src="file:/symbols/bakery.png" />
+			</rule>
+			<rule e="any" k="shop" v="confectionery" zoom-min="17">
+				<symbol src="file:/symbols/confectionery.png" />
 			</rule>
 			<rule e="any" k="shop" v="kiosk" zoom-min="17">
 				<symbol src="file:/symbols/kiosk.png" />
@@ -4755,7 +4775,7 @@
 			<rule e="any" k="shop" v="convenience" zoom-min="17">
 				<symbol src="file:/symbols/convenience.png" />
 			</rule>
-			<rule e="any" k="shop" v="sport" zoom-min="17">
+			<rule e="any" k="shop" v="sports" zoom-min="17">
 				<symbol src="file:/symbols/supermarket.png" />
 				<caption k="name" dy="-35.00" font-style="bold" font-size="17.00" fill="#aaaa33" stroke="#ffffff" stroke-width="3.00" />
 			</rule>

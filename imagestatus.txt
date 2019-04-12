@@ -277,6 +277,7 @@ osmc-symbols/green-red-dot-14.svg
 osmc-symbols/green-red-lower-14.svg
 osmc-symbols/green-red-pointer-14.svg
 osmc-symbols/green-red-stripe-14.svg
+osmc-symbols/green-red-triangle-14.svg
 osmc-symbols/green-round-green-circle-14.svg
 osmc-symbols/green-round-green-diamond-14.svg
 osmc-symbols/green-round-green-dot-14.svg
@@ -860,6 +861,7 @@ symbols/cinema-14.svg 1476378830.7378420000
 symbols/cliff-line-closedway-14.svg 1539976116.1507432290
 symbols/cliff-line-14.svg 1539976066.3386073610
 symbols/cliff-14.svg 1541100330.5410787770
+symbols/confectionery-14.svg 1476378830.7498430000
 symbols/continue-14.svg 1519842245.8011205560
 symbols/convenience-14.svg 1476378830.7498430000
 symbols/danger-14.svg 1547891252.4945651220
@@ -875,7 +877,9 @@ symbols/fuel-14.svg 1476378830.7538430000
 symbols/game-feeding-14.svg 1528021090.3015648480
 symbols/garden-centre-14.svg 1476378830.7498430000
 symbols/gate-14.svg 1541930513.5825347520
+symbols/gift-14.svg 1476378830.7498430000
 symbols/gondola-14.svg 1549797394.1976827980
+symbols/greengrocer-14.svg 1476378830.7498430000
 symbols/guidepost-14.svg 1541921502.3411599980
 symbols/heliport-14.svg 1476378830.7538430000
 symbols/hospital-14.svg 1476378830.7418420000
@@ -883,6 +887,7 @@ symbols/hostel-14.svg 1541921527.9692493290
 symbols/hotel-14.svg 1476378830.7378420000
 symbols/hunting-stand-14.svg 1476378830.7458430000
 symbols/chair-lift-14.svg 1549796996.7635977590
+symbols/chemist-14.svg 1476378830.7498430000
 symbols/christian-14.svg 1476378830.7458430000
 symbols/church-14.svg 1479568591.0000000000
 symbols/incline-down-14.svg 1535957181.0651473050
@@ -959,6 +964,7 @@ symbols/university-14.svg 1508317374.4533083730
 symbols/viewpoint-14.svg 1476378830.7498430000
 symbols/vulcan-10.svg 1477335840.2201525530
 symbols/warning-14.svg 1547891195.1144232390
+symbols/waterfall-14.svg 1476378830.7458430000
 symbols/wayside-cross-14.svg 1479554569.0000000000
 symbols/wayside-shrine-14.svg 1479567130.0000000000
 symbols/windmill-14.svg 1476378830.7498430000

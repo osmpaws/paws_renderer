@@ -1674,6 +1674,11 @@
 				<circle r="6.0" fill="#b5d6f1" stroke="#000044" stroke-width="2.2" />
 				<caption k="name" font-family="serif" font-style="bold_italic" font-size="18.0" fill="#707080" stroke="#5576d1" stroke-width="2.7" />
 			</rule>
+			<rule e="node" k="waterway" v="waterfall" zoom-min="15">
+				<symbol src="file:/symbols/waterfall.png" />
+				<caption k="name" font-family="serif" font-style="bold_italic" font-size="18.0" fill="#5576d1" stroke="#707080" stroke-width="2.7" />
+			</rule>
+		</rule>
 		</rule>
 		
 		<!--power-->
@@ -1889,9 +1894,6 @@
 		
 		<!-- shop -->
 		<rule e="any" k="shop" v="*">
-			<rule e="any" k="shop" v="bakery" zoom-min="17">
-				<symbol src="file:/symbols/bakery.png" />
-			</rule>
 			<rule e="any" k="shop" v="butcher" zoom-min="17">
 				<symbol src="file:/symbols/butcher.png" />
 			</rule>
@@ -1899,14 +1901,29 @@
 				<symbol src="file:/symbols/bicycle.png" />
 				<caption k="name" dy="-30" font-style="bold" font-size="17" fill="#aa3399" stroke="#ffffff" stroke-width="3.0" />
 			</rule>
+			<rule e="any" k="shop" v="chemists" zoom-min="17">
+				<symbol src="file:/symbols/chemists.png" />
+			</rule>
 			<rule e="any" k="shop" v="florist" zoom-min="17">
 				<symbol src="file:/symbols/florist.png" />
 			</rule>
 			<rule e="any" k="shop" v="garden_centre" zoom-min="17">
 				<symbol src="file:/symbols/garden_centre.png" />
 			</rule>
-			<rule e="any" k="shop" v="organic|supermarket" zoom-min="17">
+			<rule e="any" k="shop" v="greengrocer" zoom-min="17">
+				<symbol src="file:/symbols/greengrocer.png" />
+			</rule>
+			<rule e="any" k="shop" v="gift" zoom-min="17">
+				<symbol src="file:/symbols/gift.png" />
+			</rule>
+			<rule e="any" k="shop" v="mall|organic|supermarket" zoom-min="17">
 				<symbol src="file:/symbols/supermarket.png" />
+			</rule>			
+			<rule e="any" k="shop" v="bakery" zoom-min="17">
+				<symbol src="file:/symbols/bakery.png" />
+			</rule>
+			<rule e="any" k="shop" v="confectionery" zoom-min="17">
+				<symbol src="file:/symbols/confectionery.png" />
 			</rule>
 			<rule e="any" k="shop" v="kiosk" zoom-min="17">
 				<symbol src="file:/symbols/kiosk.png" />
@@ -1914,7 +1931,7 @@
 			<rule e="any" k="shop" v="convenience" zoom-min="17">
 				<symbol src="file:/symbols/convenience.png" />
 			</rule>
-			<rule e="any" k="shop" v="sport" zoom-min="17">
+			<rule e="any" k="shop" v="sports" zoom-min="17">
 				<symbol src="file:/symbols/supermarket.png" />
 				<caption k="name" dy="-35" font-style="bold" font-size="17" fill="#aaaa33" stroke="#ffffff" stroke-width="3.0" />
 			</rule>
