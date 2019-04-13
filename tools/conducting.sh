@@ -120,6 +120,11 @@ mapper4="mapper-4.xml"
 cd $root
 echo "Debug mode: $debug" > $logfile
 
+if ! xmllint --noout "$root/xml/$basexml" ; then
+	echo "Base XML is invalid. Exit."
+	exit 1
+fi
+
 rebuildimg=0
 
 while [ $# -gt 0 ] ; do
@@ -414,6 +419,10 @@ do
 		startsec=`date +%s`
 		bash tools/$wintercol $themename/$themename.xml > $root/xml/$tempxml && cp $root/xml/$tempxml $themename/$themename.xml
 		echo "winter theme changes in: $((`date +%s`-startsec)) sec" >> $logfile
+	fi
+	
+	if ! xmllint --noout "$themename/$themename.xml" ; then
+		echo "Theme XML is invalid."
 	fi
 	
 	mkdir -p $themename/v2

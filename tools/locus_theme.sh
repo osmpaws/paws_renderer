@@ -78,6 +78,10 @@ echo "/<!--smooth_line-->/ s/\/>.*/curve=\"cubic\" \/>/" >> $sedscript
 
 sed -i -f $sedscript $targetdir/$themename/$themename.xml
 
+if ! xmllint --noout "$targetdir/$themename/$themename.xml" ; then
+	echo "Theme XML is invalid."
+fi
+
 cp -r `find $root/$targetdir/$srcthemename/* -type d` $targetdir/$themename
 
 sed -i -e 's/width="100%"\s*height="100%"\s*viewBox="0 0 \([0-9.]*\) \([0-9.]*\)"/width="\1" height="\2" viewBox="0 0 \1 \2"/' -e 's/viewBox="0 0 \([0-9.]*\) \([0-9.]*\)"\s*width="100%"\s*height="100%"/width="\1" height="\2" viewBox="0 0 \1 \2"/' -e 's/height="100%"\s*width="100%"\s*viewBox="0 0 \([0-9.]*\) \([0-9.]*\)"/width="\1" height="\2" viewBox="0 0 \1 \2"/' -e 's/viewBox="0 0 \([0-9.]*\) \([0-9.]*\)"\s*height="100%"\s*width="100%"/width="\1" height="\2" viewBox="0 0 \1 \2"/' $targetdir/$themename/*/*.svg

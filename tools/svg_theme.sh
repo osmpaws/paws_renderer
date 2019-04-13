@@ -130,6 +130,10 @@ echo '/<\s*symbol / s/rotate="[^"]*" //g
 /<\s*symbol / s/\s*\/>/ priority="2" \/>/g' >> $sedscript
 sed -i -f $sedscript $targetdir/$themename/$newthemename.xml
 
+if ! xmllint --noout "$targetdir/$themename/$newthemename.xml" ; then
+	echo "Theme XML is invalid."
+fi
+
 done
 #rm $targetdir/$themename/$themename.xml.tmp
 
