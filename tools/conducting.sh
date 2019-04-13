@@ -3,7 +3,9 @@
 debug=3
 release=0
 
-root="/home/jans/Dokumenty/osm/renderer"
+thisdir=`basename $BASH_SOURCE`
+root=`readlink -m "$thisdir/.."`
+export PAWS_RENDERER_ROOT="$root"
 osmcdflt="osmc-symbol-default"
 osmcyaml="osmc-symbol.yaml"
 osmcxml="osmc-symbol.xml"
@@ -70,6 +72,9 @@ lmod="lmod.txt"
 logfile="$root/logfile.txt"
 errfile="$root/errfile.txt"
 osmcsymlst=~hts/osm/nbh/osmc_symbols.lst
+if [ ! -f "$osmcsymlst" ] ; then
+	osmcsymlst=osmc_symbols.lst
+fi
 osmcsymlstold="osmc_symbol.lst"
 winter=0
 wintercol="winter.sh"
@@ -502,3 +507,4 @@ git commit -a -m "This is automatic commit of release r$releasestr ( build b$bui
 git push
 
 sh tools/$uploadscript "$root/$uploadpath" "$winterarg"
+sh tools/notify.sh

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-root="/home/jans/Dokumenty/osm/renderer"
+root="$PAWS_RENDERER_ROOT"
 basexml="base2.xml"
 refreshlist="imagerefresh.lst"
 errfile="$root/errfile.txt"

@@ -1679,7 +1679,6 @@
 				<caption k="name" font-family="serif" font-style="bold_italic" font-size="18.0" fill="#5576d1" stroke="#707080" stroke-width="2.7" />
 			</rule>
 		</rule>
-		</rule>
 		
 		<!--power-->
 		<rule e="node" k="generator:source" v="wind">

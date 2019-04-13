@@ -1,6 +1,6 @@
 #!/bin/bash
 
-root="/home/jans/Dokumenty/osm/renderer"
+root="$PAWS_RENDERER_ROOT"
 
 cd $root/osmic-derivate
 files=`find symbols patterns -type f`

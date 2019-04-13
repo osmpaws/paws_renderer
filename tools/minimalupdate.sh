@@ -1,7 +1,7 @@
 #!/bin/bash
 
 curworkdir=`pwd`
-root="/home/jans/Dokumenty/osm/renderer"
+root="$PAWS_RENDERER_ROOT"
 scalecfg="tools/image_scale.cfg"
 sttscalecfg="tools/image_scale.stt"
 osmcscalecfg="tools/osmc-symbol-scale.cfg"
