@@ -2,7 +2,7 @@
 <rendertheme xmlns="http://mapsforge.org/renderTheme" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://mapsforge.org/renderTheme ../renderTheme.xsd" version="1" map-background="#f8f8f8">
 	
-	<!--#r00042b00352#-->
+	<!--#r00043b00358#-->
 
 	<!--style#v4#setup-->
 	
@@ -1967,7 +1967,7 @@
 			</rule>
 			<rule e="node" k="waterway" v="waterfall" zoom-min="15">
 				<symbol src="file:/symbols/waterfall.png" />
-				<caption k="name" font-family="serif" font-style="bold_italic" font-size="18.00" fill="#5576d1" stroke="#707080" stroke-width="2.70" />
+				<caption k="name" dy="-27.00" font-family="serif" font-style="bold_italic" font-size="18.00" fill="#5576d1" stroke="#d0d0f0" stroke-width="2.70" />
 			</rule>
 		</rule>
 		
@@ -4744,8 +4744,8 @@
 				<symbol src="file:/symbols/bicycle.png" />
 				<caption k="name" dy="-30.00" font-style="bold" font-size="17.00" fill="#aa3399" stroke="#ffffff" stroke-width="3.00" />
 			</rule>
-			<rule e="any" k="shop" v="chemists" zoom-min="17">
-				<symbol src="file:/symbols/chemists.png" />
+			<rule e="any" k="shop" v="chemist" zoom-min="17">
+				<symbol src="file:/symbols/chemist.png" />
 			</rule>
 			<rule e="any" k="shop" v="florist" zoom-min="17">
 				<symbol src="file:/symbols/florist.png" />

@@ -1676,7 +1676,7 @@
 			</rule>
 			<rule e="node" k="waterway" v="waterfall" zoom-min="15">
 				<symbol src="file:/symbols/waterfall.png" />
-				<caption k="name" font-family="serif" font-style="bold_italic" font-size="18.0" fill="#5576d1" stroke="#707080" stroke-width="2.7" />
+				<caption k="name" dy="-27" font-family="serif" font-style="bold_italic" font-size="18.0" fill="#5576d1" stroke="#d0d0f0" stroke-width="2.7" />
 			</rule>
 		</rule>
 		
@@ -1900,8 +1900,8 @@
 				<symbol src="file:/symbols/bicycle.png" />
 				<caption k="name" dy="-30" font-style="bold" font-size="17" fill="#aa3399" stroke="#ffffff" stroke-width="3.0" />
 			</rule>
-			<rule e="any" k="shop" v="chemists" zoom-min="17">
-				<symbol src="file:/symbols/chemists.png" />
+			<rule e="any" k="shop" v="chemist" zoom-min="17">
+				<symbol src="file:/symbols/chemist.png" />
 			</rule>
 			<rule e="any" k="shop" v="florist" zoom-min="17">
 				<symbol src="file:/symbols/florist.png" />
