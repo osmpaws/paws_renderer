@@ -2,7 +2,7 @@
 <rendertheme xmlns="http://mapsforge.org/renderTheme" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://mapsforge.org/renderTheme ../renderTheme.xsd" version="1" map-background="#f8f8f8">
 	
-	<!--#r00043b00358#-->
+	<!--#r00044b00366#-->
 
 	<!--style#v4#setup-->
 	
@@ -225,10 +225,10 @@
 			<rule e="way" k="leisure" v="marina" zoom-min="13">
 				<area fill="#3978ac" stroke="#d6d6d6" stroke-width="0.3" />
 			</rule>
-			<rule e="way" k="leisure" v="park|garden|golf_course|common|green" zoom-min="13">
+			<rule e="way" k="leisure" v="park|garden|golf_course|common" zoom-min="13">
 				<area fill="#c7f1a3" stroke="#6fe18e" stroke-width="0.3" />
 			</rule>
-			<rule e="way" k="leisure" v="playground|playing_fields|pitch|dog_park|recreation_ground">
+			<rule e="way" k="leisure" v="playground|pitch|dog_park|recreation_ground">
 				<area fill="#c7f1a3" stroke="#6fc18e" stroke-width="0.3" />
 			</rule>
 			<rule e="way" k="leisure" v="stadium|sports_centre|water_park">
@@ -519,6 +519,9 @@
 		<rule e="way" k="aeroway" v="*">
 			<rule e="way" k="aeroway" v="aerodrome" closed="yes">
 				<area fill="#d8dcce" stroke="#000000" stroke-width="0.7" />
+				<rule e="way" k="landuse" v="military">
+					<area src="file:/patterns/military.png" stroke="#e4e4e4" stroke-width="0.3" />
+				</rule>
 			</rule>
 			<rule e="way" k="aeroway" v="apron">
 				<area fill="#f0f0f0" />
@@ -1616,7 +1619,7 @@
 		<rule e="way" k="power" v="line" zoom-min="12">
 			<line stroke="#000000" stroke-width="0.3" />
 		</rule>
-		<rule e="way" k="generator:method" v="photovoltaic" zoom-min="12">
+		<rule e="way" k="generator:source" v="solar" zoom-min="12">
 			<area src="file:/patterns/photovoltaic.png" stroke="#eeeeee" stroke-width="0.6" />
 		</rule>
 
@@ -1673,7 +1676,7 @@
 					<line stroke="#0f0f4c" stroke-width="0.6" stroke-linecap="butt" />
 					<line stroke="#b7b7e6" stroke-width="0.37" stroke-dasharray="18,27" stroke-linecap="butt" />
 				</rule>
-				<rule e="way" k="railway" v="light_rail|spur">
+				<rule e="way" k="railway" v="light_rail">
 					<line stroke="#0f4c0f" stroke-width="0.6" stroke-linecap="butt" />
 					<line stroke="#b7e6e6" stroke-width="0.37" stroke-linecap="butt" />
 					<line stroke="#0f4c0f" stroke-width="0.37" stroke-dasharray="18,27" stroke-linecap="butt" />
@@ -1694,19 +1697,32 @@
 					<line stroke="#333333" stroke-width="0.37" stroke-dasharray="27,27" stroke-linecap="butt" />
 				</rule>
 				<rule e="way" k="railway" v="rail" zoom-max="13">
-					<line stroke="#333333" stroke-width="1.5" stroke-linecap="butt" />
-					<line stroke="#e6e6e6" stroke-width="1.3" stroke-linecap="butt" />
-					<line stroke="#333333" stroke-width="1.3" stroke-dasharray="7.5,7.5" stroke-linecap="butt" />
+					<rule e="way" k="service" v="~">
+						<line stroke="#333333" stroke-width="1.5" stroke-linecap="butt" />
+						<line stroke="#e6e6e6" stroke-width="1.3" stroke-linecap="butt" />
+						<line stroke="#333333" stroke-width="1.3" stroke-dasharray="7.5,7.5" stroke-linecap="butt" />
+					</rule>
 				</rule>
 				<rule e="way" k="railway" v="rail" zoom-min="14" zoom-max="16">
-					<line stroke="#333333" stroke-width="1.2" stroke-linecap="butt" />
-					<line stroke="#e6e6e6" stroke-width="1.0" stroke-linecap="butt" />
-					<line stroke="#333333" stroke-width="1.0" stroke-dasharray="22.5,22.5" stroke-linecap="butt" />
+					<rule e="way" k="service" v="~">
+						<line stroke="#333333" stroke-width="1.2" stroke-linecap="butt" />
+						<line stroke="#e6e6e6" stroke-width="1.0" stroke-linecap="butt" />
+						<line stroke="#333333" stroke-width="1.0" stroke-dasharray="22.5,22.5" stroke-linecap="butt" />
+					</rule>
 				</rule>
 				<rule e="way" k="railway" v="rail" zoom-min="16">
-					<line stroke="#333333" stroke-width="0.8" stroke-linecap="butt" />
-					<line stroke="#e6e6e6" stroke-width="0.6" stroke-linecap="butt" />
-					<line stroke="#333333" stroke-width="0.6" stroke-dasharray="22.5,22.5" stroke-linecap="butt" />
+					<rule e="way" k="service" v="~">
+						<line stroke="#333333" stroke-width="0.8" stroke-linecap="butt" />
+						<line stroke="#e6e6e6" stroke-width="0.6" stroke-linecap="butt" />
+						<line stroke="#333333" stroke-width="0.6" stroke-dasharray="22.5,22.5" stroke-linecap="butt" />
+					</rule>
+				</rule>
+				<rule e="way" k="railway" v="rail" zoom-min="16">
+					<rule e="way" k="service" v="*">
+						<line stroke="#0f4c0f" stroke-width="0.6" stroke-linecap="butt" />
+						<line stroke="#b7e6e6" stroke-width="0.37" stroke-linecap="butt" />
+						<line stroke="#0f4c0f" stroke-width="0.37" stroke-dasharray="18,27" stroke-linecap="butt" />
+					</rule>
 				</rule>
 			</rule>
 		</rule>
@@ -1768,7 +1784,14 @@
 		</rule>
 
 		<rule e="way" k="military" v="bunker" zoom-min="14">
-			<area fill="#559900" stroke="#707070" stroke-width="0.7" />
+			<rule e="way" k="military" v="bunker" zoom-min="14">
+				<area fill="#559900" stroke="#707070" stroke-width="0.7" />
+				<caption k="name" dy="-25.5" font-style="bold" font-size="17.0" fill="#40cc40" stroke="#ffffff" stroke-width="3.0" />
+			</rule>
+			<rule e="way" k="military" v="barracks" zoom-min="14">
+				<area fill="#66AA00" stroke="#707070" stroke-width="0.7" />
+				<caption k="name" dy="-25.5" font-style="bold" font-size="17.0" fill="#40cc40" stroke="#ffffff" stroke-width="3.0" />
+			</rule>
 		</rule>
 
 		<!-- barriers -->
@@ -1864,9 +1887,14 @@
 			</rule>
 		</rule>
 
-		
-		<rule e="node" k="military" v="bunker" zoom-min="17">
-			<caption k="name" dy="-25.5" font-style="bold" font-size="17.0" fill="#40cc40" stroke="#ffffff" stroke-width="3.0" />
+		<rule e="node" k="military" v="*">
+			<rule e="node" k="military" v="bunker" zoom-min="17">
+				<caption k="name" dy="-25.5" font-style="bold" font-size="17.0" fill="#40cc40" stroke="#ffffff" stroke-width="3.0" />
+			</rule>
+			<rule e="way" k="military" v="barracks" zoom-min="14">
+				<circle r="10.0" fill="#66AA00" stroke="#707070" stroke-width="3" />
+				<caption k="name" dy="-25.5" font-style="bold" font-size="17.0" fill="#40cc40" stroke="#ffffff" stroke-width="3.0" />
+			</rule>
 		</rule>
 		
 		<!-- highway -->
@@ -1886,11 +1914,6 @@
 			</rule>
 		</rule>
 		
-		<!--man made cross-->
-		<rule e="node" k="man_made" v="cross" zoom-min="16">
-			<symbol src="file:/symbols/wayside_cross.png" />
-		</rule>
-				
 		<!-- house numbers -->
 		<rule e="node" k="addr:housenumber" v="*" zoom-min="18">
 			<rule e="node" k="shop|tourism|amenity" v="~" zoom-min="17">
@@ -1912,8 +1935,13 @@
 			<symbol src="file:/symbols/picnic_site.png" />
 		</rule>
 
-
 		<!-- man_made -->
+		<rule e="node" k="man_made" v="water_works" zoom-min="16">
+			<circle r="15.0" fill="#518dab" stroke="#b5b5b5" stroke-width="3" />
+		</rule>
+		<rule e="node" k="man_made" v="cross" zoom-min="16">
+			<symbol src="file:/symbols/wayside_cross.png" />
+		</rule>
 		<rule e="node" k="man_made" v="adit|mineshaft" zoom-min="17">
 			<symbol src="file:/symbols/adit.png" />
 		</rule>
@@ -1922,6 +1950,9 @@
 		</rule>
 		<rule e="node" k="man_made" v="windmill" zoom-min="17">
 			<symbol src="file:/symbols/windmill.png" />
+		</rule>
+		<rule e="node" k="man_made" v="lighthouse" zoom-min="17">
+			<symbol src="file:/symbols/lighthouse.png" />
 		</rule>
 		<rule e="any" k="man_made" v="tower" zoom-min="17">
 			<rule e="any" k="tower:type" v="communication" zoom-min="17">
@@ -4611,7 +4642,7 @@
 			<rule e="any" k="aeroway" v="helipad" zoom-min="17">
 				<symbol src="file:/symbols/heliport.png" />
 			</rule>
-			<rule e="any" k="aeroway" v="aerodrome|airport" zoom-max="13">
+			<rule e="any" k="aeroway" v="aerodrome" zoom-max="13">
 				<symbol src="file:/symbols/airport.png" />
 			</rule>
 		</rule>

@@ -25,7 +25,7 @@ do
 		echo -n ":"
 	fi
 	#mkdir -p $root/$1/`echo $filepath | rev | cut -d/ -f2- | rev`
-	mkdir -p $root/$1/`basename "$filepath"`
+	mkdir -p $root/$1/`dirname "$filepath"`
 	suffix=`echo $filepath | rev | cut -d. -f1 | rev`
 	cp "$root/$suffix/$filepath" "$root/$1/$filepath" || echo "$? file not found: $filepath ($root/$suffix/$filepath) ($root/$1/$filepath) ($pattern)" >> "$errfile"
 done

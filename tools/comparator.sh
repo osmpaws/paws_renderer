@@ -20,7 +20,8 @@ set -f
 sed '/<*!--.\+--/d' $1 | sed '/!--/,/--/d' | sed -n '/<ways>/,/<\/ways>/p' | grep '<osm-tag' | grep -v 'enabled="false"' | sed 's/^\s*//' | sed 's/,/|/g' | sed 's/"\s*equivalent_values="//' | awk '{print $2,$3}' | sort -u > $tmwtf
 sed '/<*!--.\+--/d' $1 | sed '/!--/,/--/d' | sed -n '/<pois>/,/<\/pois>/p' | grep '<osm-tag' | grep -v 'enabled="false"' | sed 's/^\s*//' | sed 's/,/|/g' | sed 's/"\s*equivalent_values="//' | awk '{print $2,$3}' | sort -u > $tmntf
 
-sed '/<*!--.\+--/d' $2 | sed '/!--/,/--/d' | grep '<rule' | grep -v 'enabled="false"' | sed 's/^\s*//' | awk '{print $3,$4,$2}' | tr -d '>' | sort -u | sed 's/\*/.*/g' > $mxtf
+#sed '/<*!--.\+--/d' $2 | sed '/!--/,/--/d' | grep '<rule' | grep -v 'enabled="false"' | sed 's/^\s*//' | awk '{print $3,$4,$2}' | tr -d '>' | sort -u | sed 's/\*/.*/g' > $mxtf
+sed '/<*!--.\+--/d' $2 | sed '/!--/,/--/d' | grep '<rule' | grep -v 'enabled="false"' | sed 's/^\s*//' | sed 's/^.*e="\([^"]*\)".*k="\([^"]*\)".*v="\([^"]*\)".*/\2 \3 \1/' | tr -d '>' | sort -u | sed 's/\*/.*/g' > $mxtf
 #| sed 's/\*/\x27.*\x27/g'
 
 SAVEIFS=$IFS
