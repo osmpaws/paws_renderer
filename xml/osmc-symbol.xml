@@ -2300,6 +2300,12 @@
 		</rule>
 	</rule>
 	<rule e="way" k="osmc_background" v="blue_circle" zoom-min="15">
+		<rule e="way" k="osmc_foreground" v="blue_diamond">
+			<lineSymbol src="file:/osmc-symbols/blue_circle_blue_diamond.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="blue_diamond">
+			<symbol src="file:/osmc-symbols/blue_circle_blue_diamond.png" />
+		</rule>
 	</rule>
 	<rule e="way" k="osmc_background" v="blue_frame" zoom-min="15">
 	</rule>

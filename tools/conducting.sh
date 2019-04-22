@@ -434,7 +434,7 @@ do
 		echo " attaching required images to theme"
 		echo " attaching required images to theme" >> $logfile
 		startsec=`date +%s`
-		sh tools/completer.sh $themename
+		bash tools/completer.sh $themename
 		echo ""
 		echo "PNGs copied in: $((`date +%s`-startsec)) sec" >> $logfile
 	fi

@@ -315,6 +315,12 @@ guidepost:
     fill: "#ffffff"
     width: 1
     opacity: 1.0
+guidepost-bad:
+  fill: "#000000"
+  halo:
+    fill: "#ff0000"
+    width: 1
+    opacity: 1.0
 bench:
   halo:
     fill: "#ffffff"

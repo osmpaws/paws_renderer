@@ -90,6 +90,7 @@ osmc-symbols/blue-black-dot-14.svg
 osmc-symbols/blue-black-hiker-14.svg
 osmc-symbols/blue-black-lower-14.svg
 osmc-symbols/blue-black-rectangle-14.svg
+osmc-symbols/blue-circle-blue-diamond-14.svg
 osmc-symbols/blue-circle-blue-dot-14.svg
 osmc-symbols/blue-circle-blue-triangle-14.svg
 osmc-symbols/blue-circle-hiker-14.svg
@@ -880,6 +881,7 @@ symbols/gate-14.svg 1541930513.5825347520
 symbols/gift-14.svg 1476378830.7498430000
 symbols/gondola-14.svg 1549797394.1976827980
 symbols/greengrocer-14.svg 1476378830.7498430000
+symbols/guidepost-bad-14.svg 1555867238.8471550540
 symbols/guidepost-14.svg 1541921502.3411599980
 symbols/heliport-14.svg 1476378830.7538430000
 symbols/hospital-14.svg 1476378830.7418420000

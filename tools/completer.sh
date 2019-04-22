@@ -14,7 +14,7 @@ name=$1
 #rm -r "$root/$1/"
 #mkdir "$root/$1"
 
-imgfiles=`grep 'src=' "$root/$1/$1.xml" | sed 's/.*src=file:"\(.*\)".*/\1/g' | sort | tr ':' ' ' | awk '{print $3}' | tr -d '"'`
+imgfiles=`grep 'src=' "$root/$1/$1.xml" | sed 's/.*src=file:"\(.*\)".*/\1/g' | sort | tr ':' ' ' | awk '{print $3}' | tr -d '"' | sort -u`
 
 for filepath in $imgfiles;
 do
@@ -30,4 +30,8 @@ do
 	cp "$root/$suffix/$filepath" "$root/$1/$filepath" || echo "$? file not found: $filepath ($root/$suffix/$filepath) ($root/$1/$filepath) ($pattern)" >> "$errfile"
 done
 
+dirfiles=`find "$root/$1" -name '*.png' | grep '\(.\+/\)\{3,\}.*' | rev | cut -d'/' -f1-2 | rev | sort | sed 's/^/\//'`
+if diff <( echo "$imgfiles" ) <( echo "$dirfiles" ) ; then
+	diff <( echo "$imgfiles" ) <( echo "$dirfiles" ) >> "$errfile"
+fi
 #cp -r "$root/xml/$basexml"  $root/$1/$1.xml

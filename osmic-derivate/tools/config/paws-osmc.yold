@@ -315,6 +315,12 @@ guidepost:
     fill: "#ffffff"
     width: 1
     opacity: 1.0
+guidepost-bad:
+  fill: "#000000"
+  halo:
+    fill: "#ff0000"
+    width: 1
+    opacity: 1.0
 bench:
   halo:
     fill: "#ffffff"
@@ -2707,6 +2713,14 @@ blue-white-diamond:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+blue-circle-blue-diamond:
+  fill: "#1579e0"
+  shield:
+    stroke_fill: "#1579e0"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 10
+    padding: 2
 brown-yellow-diamond:
   fill: "#ffdd00"
   shield:
