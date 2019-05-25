@@ -7,6 +7,7 @@ osmc-symbols/black-blue-pointer-14.svg
 osmc-symbols/black-brown-bar-14.svg
 osmc-symbols/black-circle-black-bar-14.svg
 osmc-symbols/black-circle-black-dot-14.svg
+osmc-symbols/black-circle-black-triangle-14.svg
 osmc-symbols/black-circle-blue-dot-14.svg
 osmc-symbols/black-circle-brown-dot-14.svg
 osmc-symbols/black-circle-green-bar-14.svg
@@ -233,6 +234,8 @@ osmc-symbols/brown-yellow-triangle-turned-14.svg
 osmc-symbols/gray-black-bar-14.svg
 osmc-symbols/gray-blue-bar-14.svg
 osmc-symbols/gray-purple-bar-14.svg
+osmc-symbols/gray-white-bar-14.svg
+osmc-symbols/gray-white-stripe-14.svg
 osmc-symbols/gray-yellow-bar-14.svg
 osmc-symbols/green-black-circle-14.svg
 osmc-symbols/green-black-cross-14.svg
@@ -251,6 +254,7 @@ osmc-symbols/green-blue-right-14.svg
 osmc-symbols/green-blue-slash-14.svg
 osmc-symbols/green-blue-triangle-14.svg
 osmc-symbols/green-circle-blue-dot-14.svg
+osmc-symbols/green-circle-green-triangle-turned-14.svg
 osmc-symbols/green-circle-red-lower-14.svg
 osmc-symbols/green-circle-white-dot-14.svg
 osmc-symbols/green-frame-black-cross-14.svg
@@ -320,10 +324,13 @@ osmc-symbols/green-yellow-rectangle-14.svg
 osmc-symbols/green-yellow-triangle-line-14.svg
 osmc-symbols/green-yellow-triangle-14.svg
 osmc-symbols/green-yellow-x-14.svg
+osmc-symbols/none-blue-bar-14.svg
 osmc-symbols/none-blue-pointer-14.svg
 osmc-symbols/none-green-pointer-14.svg
 osmc-symbols/none-green-triangle-14.svg
 osmc-symbols/none-orange-bar-14.svg
+osmc-symbols/none-red-bar-14.svg
+osmc-symbols/none-red-dot-14.svg
 osmc-symbols/none-red-pointer-14.svg
 osmc-symbols/none-red-triangle-14.svg
 osmc-symbols/none-yellow-bar-14.svg
@@ -339,6 +346,7 @@ osmc-symbols/orange-blue-corner-14.svg
 osmc-symbols/orange-blue-lower-14.svg
 osmc-symbols/orange-blue-stripe-14.svg
 osmc-symbols/orange-circle-orange-hiker-14.svg
+osmc-symbols/orange-circle-orange-triangle-14.svg
 osmc-symbols/orange-frame-white-bar-14.svg
 osmc-symbols/orange-green-bar-14.svg
 osmc-symbols/orange-green-lower-14.svg
@@ -777,6 +785,7 @@ osmc-symbols/yellow-mine-14.svg
 osmc-symbols/yellow-orange-dot-14.svg
 osmc-symbols/yellow-orange-lower-14.svg
 osmc-symbols/yellow-orange-triangle-14.svg
+osmc-symbols/yellow-purple-dot-14.svg
 osmc-symbols/yellow-purple-lower-14.svg
 osmc-symbols/yellow-purple-pointer-14.svg
 osmc-symbols/yellow-red-bar-14.svg
@@ -881,7 +890,7 @@ symbols/gate-14.svg 1541930513.5825347520
 symbols/gift-14.svg 1476378830.7498430000
 symbols/gondola-14.svg 1549797394.1976827980
 symbols/greengrocer-14.svg 1476378830.7498430000
-symbols/guidepost-bad-14.svg 1555867238.8471550540
+symbols/guidepost-bad-14.svg 1558727875.7142721400
 symbols/guidepost-14.svg 1541921502.3411599980
 symbols/heliport-14.svg 1476378830.7538430000
 symbols/hospital-14.svg 1476378830.7418420000

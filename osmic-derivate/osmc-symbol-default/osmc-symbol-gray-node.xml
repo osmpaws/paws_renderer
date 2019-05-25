@@ -9,10 +9,16 @@
 		<rule e="node" k="osmc_foreground" v="blue_bar">
 			<symbol src="file:/osmc-symbols/gray_blue_bar.png" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="white_bar">
+			<symbol src="file:/osmc-symbols/gray_white_bar.png" />
+		</rule>
 		<rule e="node" k="osmc_foreground" v="black_bar">
 			<symbol src="file:/osmc-symbols/gray_black_bar.png" />
 		</rule>
 		<rule e="node" k="osmc_foreground" v="purple_bar">
 			<symbol src="file:/osmc-symbols/gray_purple_bar.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="white_stripe">
+			<symbol src="file:/osmc-symbols/gray_white_stripe.png" />
 		</rule>
 	</rule>

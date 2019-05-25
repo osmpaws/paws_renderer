@@ -91,6 +91,7 @@ black:N
 black:none
 black:pink_bar
 black:pink_hiker
+black_pointer
 :black_pointer
 black_pointer_line:K
 black:PW
@@ -225,6 +226,7 @@ blue_round:7
 blue_round:8
 blue:RWW1
 blue:R13
+blue:S
 blue:SHK
 blue:SlR
 blue:STK
@@ -356,6 +358,7 @@ green_frame:IBP
 green_frame:MST
 green_frame:MWW
 green_frame:none
+green_frame:R1
 green_frame:T1
 green_frame:T5
 green_frame:T6
@@ -422,6 +425,7 @@ green_round:
 :green_round
 green_round:black
 green_round:green
+green_round:M
 green_round:15
 green_round:16
 green:RWW7
@@ -517,10 +521,12 @@ maroon_round:CSC
 maroon_web
 mine
 :mine
+Muntii
 :NHM
 no
 no_marker
 none
+none:gray_triangle
 none:green_triange
 none;none
 none:none
@@ -702,6 +708,7 @@ red_round:13
 red_round:6
 red:RWR
 red:RWW6
+red:S
 red:SBB38
 red:SGT
 red_stripe
@@ -717,6 +724,7 @@ red_white_bar:VL7A
 red:white_bicycle
 red:white_man
 red:white_sripe
+red:white_stipe
 red:white_strep
 red:white_stripe_A47a
 red:white_stripe_G20
@@ -983,11 +991,13 @@ white:red_RT
 white:red_runner
 white:red_T
 white:red_white
+white:red_X
 white:Reh
 white:rgreen_bar
 white_round
 white_round:
 white_round:bird
+white_round:black
 white_round:blu_dot
 white_round:wp
 white_round:1
@@ -1273,6 +1283,7 @@ yellow:78
 yellow:80
 yellw_round:
 Z0:black
+Z00:black
 #00ffff:
 #00ffff:green_dot
 #00ffff:purple_dot
