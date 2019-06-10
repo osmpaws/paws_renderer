@@ -12,8 +12,14 @@
 		<rule e="node" k="osmc_foreground" v="blue_bar">
 			<symbol src="file:/osmc-symbols/none_blue_bar.png" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="white_bar">
+			<symbol src="file:/osmc-symbols/none_white_bar.png" />
+		</rule>
 		<rule e="node" k="osmc_foreground" v="orange_bar">
 			<symbol src="file:/osmc-symbols/none_orange_bar.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="yellow_circle">
+			<symbol src="file:/osmc-symbols/none_yellow_circle.png" />
 		</rule>
 		<rule e="node" k="osmc_foreground" v="yellow_diamond">
 			<symbol src="file:/osmc-symbols/none_yellow_diamond.png" />

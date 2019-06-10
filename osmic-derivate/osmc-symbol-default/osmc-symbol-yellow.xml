@@ -168,6 +168,9 @@
 		<rule e="way" k="osmc_foreground" v="white_right">
 			<lineSymbol src="file:/osmc-symbols/yellow_white_right.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="blue_shell_modern">
+			<lineSymbol src="file:/osmc-symbols/yellow_blue_shell_modern.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="shell">
 			<lineSymbol src="file:/osmc-symbols/yellow_shell.png" align-center="false" repeat="true" />
 		</rule>
@@ -212,6 +215,9 @@
 		</rule>
 		<rule e="way" k="osmc_foreground" v="orange_triangle">
 			<lineSymbol src="file:/osmc-symbols/yellow_orange_triangle.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="red_x">
+			<lineSymbol src="file:/osmc-symbols/yellow_red_x.png" align-center="false" repeat="true" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="white_x">
 			<lineSymbol src="file:/osmc-symbols/yellow_white_x.png" align-center="false" repeat="true" />

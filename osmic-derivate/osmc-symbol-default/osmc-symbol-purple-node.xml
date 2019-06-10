@@ -30,6 +30,9 @@
 		<rule e="node" k="osmc_foreground" v="red_dot">
 			<symbol src="file:/osmc-symbols/purple_red_dot.png" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="blue_dot">
+			<symbol src="file:/osmc-symbols/purple_blue_dot.png" />
+		</rule>
 		<rule e="node" k="osmc_foreground" v="white_dot">
 			<symbol src="file:/osmc-symbols/purple_white_dot.png" />
 		</rule>

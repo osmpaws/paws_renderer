@@ -1693,6 +1693,12 @@ none-blue-bar:
     fill: "#ffffff"
     opacity: 0.0
     padding: 1
+none-white-bar:
+  fill: "#ffffff"
+  shield:
+    fill: "#ffffff"
+    opacity: 0.0
+    padding: 1
 none-orange-bar:
   fill: "#f96f00"
   shield:
@@ -2203,6 +2209,12 @@ yellow-round-green-circle:
     stroke_width: 1
     padding: 2
     rounded: 10
+none-yellow-circle:
+  fill: "#ffdd00"
+  shield:
+    fill: "#ffffff"
+    opacity: 0.0
+    padding: 1
 black-white-corner:
   fill: "#ffffff"
   shield:

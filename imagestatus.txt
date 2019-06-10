@@ -281,6 +281,7 @@ osmc-symbols/green-red-diamond-14.svg
 osmc-symbols/green-red-dot-14.svg
 osmc-symbols/green-red-lower-14.svg
 osmc-symbols/green-red-pointer-14.svg
+osmc-symbols/green-red-right-14.svg
 osmc-symbols/green-red-stripe-14.svg
 osmc-symbols/green-red-triangle-14.svg
 osmc-symbols/green-round-green-circle-14.svg
@@ -333,7 +334,9 @@ osmc-symbols/none-red-bar-14.svg
 osmc-symbols/none-red-dot-14.svg
 osmc-symbols/none-red-pointer-14.svg
 osmc-symbols/none-red-triangle-14.svg
+osmc-symbols/none-white-bar-14.svg
 osmc-symbols/none-yellow-bar-14.svg
+osmc-symbols/none-yellow-circle-14.svg
 osmc-symbols/none-yellow-diamond-14.svg
 osmc-symbols/none-yellow-dot-14.svg
 osmc-symbols/orange-black-bar-14.svg
@@ -416,6 +419,7 @@ osmc-symbols/osmcbg-yellow-14.svg
 osmc-symbols/purple-black-circle-14.svg
 osmc-symbols/purple-black-rectangle-line-14.svg
 osmc-symbols/purple-blue-circle-14.svg
+osmc-symbols/purple-blue-dot-14.svg
 osmc-symbols/purple-green-bar-14.svg
 osmc-symbols/purple-heart-14.svg
 osmc-symbols/purple-hiker-14.svg
@@ -576,6 +580,7 @@ osmc-symbols/white-brown-rectangle-line-14.svg
 osmc-symbols/white-brown-rectangle-14.svg
 osmc-symbols/white-brown-triangle-turned-14.svg
 osmc-symbols/white-brown-triangle-14.svg
+osmc-symbols/white-brown-wheel-14.svg
 osmc-symbols/white-brown-x-14.svg
 osmc-symbols/white-circle-black-dot-14.svg
 osmc-symbols/white-circle-black-rectangle-14.svg
@@ -752,6 +757,7 @@ osmc-symbols/yellow-blue-dot-14.svg
 osmc-symbols/yellow-blue-lower-14.svg
 osmc-symbols/yellow-blue-pointer-14.svg
 osmc-symbols/yellow-blue-rectangle-14.svg
+osmc-symbols/yellow-blue-shell-modern-14.svg
 osmc-symbols/yellow-blue-slash-14.svg
 osmc-symbols/yellow-blue-triangle-14.svg
 osmc-symbols/yellow-brown-bar-14.svg
@@ -801,6 +807,7 @@ osmc-symbols/yellow-red-rectangle-14.svg
 osmc-symbols/yellow-red-right-14.svg
 osmc-symbols/yellow-red-stripe-14.svg
 osmc-symbols/yellow-red-triangle-14.svg
+osmc-symbols/yellow-red-x-14.svg
 osmc-symbols/yellow-round-green-bowl-14.svg
 osmc-symbols/yellow-round-green-circle-14.svg
 osmc-symbols/yellow-round-yellow-dot-14.svg
@@ -856,7 +863,7 @@ symbols/bank-14.svg 1476378830.7458430000
 symbols/bar-14.svg 1476378830.7378420000
 symbols/bench-14.svg 1476378830.7458430000
 symbols/bicycle-14.svg 1477072718.3872190000
-symbols/board-14.svg 1476464177.2373000000
+symbols/board-14.svg 1559495322.3154562480
 symbols/bus-station-14.svg 1549660737.2860827310
 symbols/bus-14.svg 1477594924.8516655020
 symbols/butcher-14.svg 1476378830.7498430000
@@ -911,7 +918,7 @@ symbols/kiosk-14.svg 1476378830.7498430000
 symbols/library-14.svg 1476378830.7378420000
 symbols/lift-gate-14.svg 1477735636.0000000000
 symbols/lighthouse-14.svg 1476378830.7458430000
-symbols/map-14.svg 1477771505.6431415470
+symbols/map-14.svg 1559495322.3234562720
 symbols/mast-communications-14.svg 1476378830.7458430000
 symbols/memorial-14.svg 1541932029.4314860090
 symbols/monument-14.svg 1476378830.7498430000

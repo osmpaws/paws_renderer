@@ -2,7 +2,7 @@
 <rendertheme xmlns="http://mapsforge.org/renderTheme" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://mapsforge.org/renderTheme ../renderTheme.xsd" version="1" map-background="#f8f8f8">
 	
-	<!--#r00046b00379#-->
+	<!--#r00047b00393#-->
 
 	<!--style#v4#setup-->
 	
@@ -866,17 +866,33 @@
 					<!-- no bridge -->
 					<rule e="way" k="bridge" v="~|no|false">
 						<!-- highway casings -->
-						<rule e="way" k="highway" v="steps" zoom-min="12">
-							<line stroke="#707070" stroke-width="0.9" />
+						<rule e="way" k="*" v="*" zoom-max="15">
+							<rule e="way" k="highway" v="steps" zoom-min="12">
+								<line stroke="#707070" stroke-width="0.6" />
+							</rule>
+							<rule e="way" k="highway" v="cycleway|service" zoom-min="12">
+								<line stroke="#000000" stroke-width="1.2" />
+							</rule>
+							<rule e="way" k="highway" v="byway" zoom-min="12">
+								<line stroke="#000000" stroke-width="1.7" stroke-dasharray="10.5,3" stroke-linecap="butt" />
+							</rule>
+							<rule e="way" k="highway" v="unclassified|residential|living_street" zoom-min="12">
+								<line stroke="#000000" stroke-width="1.8" />
+							</rule>
 						</rule>
-						<rule e="way" k="highway" v="cycleway|service" zoom-min="12">
-							<line stroke="#000000" stroke-width="1.8" />
-						</rule>
-						<rule e="way" k="highway" v="byway" zoom-min="12">
-							<line stroke="#000000" stroke-width="2.5" stroke-dasharray="10.5,3" stroke-linecap="butt" />
-						</rule>
-						<rule e="way" k="highway" v="unclassified|residential|living_street" zoom-min="12">
-							<line stroke="#000000" stroke-width="2.5" />
+						<rule e="way" k="*" v="*" zoom-min="16">
+							<rule e="way" k="highway" v="steps" zoom-min="12">
+								<line stroke="#707070" stroke-width="0.9" />
+							</rule>
+							<rule e="way" k="highway" v="cycleway|service" zoom-min="12">
+								<line stroke="#000000" stroke-width="1.8" />
+							</rule>
+							<rule e="way" k="highway" v="byway" zoom-min="12">
+								<line stroke="#000000" stroke-width="2.5" stroke-dasharray="10.5,3" stroke-linecap="butt" />
+							</rule>
+							<rule e="way" k="highway" v="unclassified|residential|living_street" zoom-min="12">
+								<line stroke="#000000" stroke-width="2.5" />
+							</rule>
 						</rule>
 						<rule e="way" k="highway" v="tertiary|tertiary_link" zoom-min="12">
 							<line stroke="#000000" stroke-width="2.4" stroke-linecap="butt" />
@@ -1232,108 +1248,129 @@
 						</rule>
 					</rule>
 					<rule e="way" k="highway" v="service" zoom-min="12">
-						<line stroke="#ffffff" stroke-width="1.3" />
-						<rule e="way" k="*" v="*" zoom-min="15">
-							<pathText k="name" font-style="bold" font-size="18" stroke="#ffffff" stroke-width="2.0" />
+						<rule e="way" k="*" v="*" zoom-max="15">
+							<line stroke="#ffffff" stroke-width="0.9" />
+						</rule>
+						<rule e="way" k="*" v="*" zoom-min="16">
+							<line stroke="#ffffff" stroke-width="1.3" />
+							<pathText k="name" font-style="bold" font-size="17" stroke="#ffffff" fill="#303030" stroke-width="2.0" />
 						</rule>
 					</rule>
 					<rule e="way" k="highway" v="construction">
-						<line stroke="#d0d0d0" stroke-width="1.5" />
-						<rule e="way" k="*" v="*" zoom-min="15">
-							<pathText k="name" font-style="bold" font-size="18" stroke="#d0d0d0" stroke-width="2.0" />
+						<rule e="way" k="*" v="*" zoom-max="15">
+							<line stroke="#d0d0d0" stroke-width="1.0" />
+						</rule>
+						<rule e="way" k="*" v="*" zoom-min="16">
+							<line stroke="#d0d0d0" stroke-width="1.5" />
+							<pathText k="name" font-style="bold" font-size="17" stroke="#d0d0d0" fill="#afafaf" stroke-width="2.0" />
 						</rule>
 					</rule>
 					<rule e="way" k="highway" v="road" zoom-min="12">
-						<line stroke="#d0d0d0" stroke-width="1.9" />
-						<rule e="way" k="*" v="*" zoom-min="15">
-							<pathText k="name" font-style="bold" font-size="18" stroke="#d0d0d0" stroke-width="2.0" />
+						<rule e="way" k="*" v="*" zoom-max="15">
+							<line stroke="#d0d0d0" stroke-width="1.3" />
+						</rule>
+						<rule e="way" k="*" v="*" zoom-min="16">
+							<line stroke="#d0d0d0" stroke-width="1.9" />
+							<pathText k="name" font-style="bold" font-size="17" stroke="#d0d0d0" fill="#303030" stroke-width="2.0" />
 						</rule>
 					</rule>
 					<rule e="way" k="highway" v="pedestrian" zoom-min="12">
-						<line stroke="#b5bbb2" stroke-width="1.5" />
-						<rule e="way" k="*" v="*" zoom-min="15">
-							<pathText k="name" font-style="bold" font-size="18" stroke="#e5e0c2" stroke-width="2.0" />
+						<rule e="way" k="*" v="*" zoom-max="15">
+							<line stroke="#b5bbb2" stroke-width="1.0" />
+						</rule>
+						<rule e="way" k="*" v="*" zoom-min="16">
+							<line stroke="#b5bbb2" stroke-width="1.5" />
+							<pathText k="name" font-style="bold" font-size="17" stroke="#e5e0c2" fill="#303030" stroke-width="2.0" />
 						</rule>
 					</rule>
 					<rule e="way" k="highway" v="living_street" zoom-min="12">
-						<line stroke="#e9e4ef" stroke-width="2" />
-						<rule e="way" k="*" v="*" zoom-min="15">
-							<pathText k="name" font-style="bold" font-size="20" stroke="#ffffff" stroke-width="3.0" />
+						<rule e="way" k="*" v="*" zoom-max="15">
+							<line stroke="#e9e4ef" stroke-width="1.3" />
+						</rule>
+						<rule e="way" k="*" v="*" zoom-min="16">
+							<line stroke="#e9e4ef" stroke-width="2" />
+							<pathText k="name" font-style="bold" font-size="17" stroke="#ffffff" fill="#303030" stroke-width="3.0" />
 						</rule>
 					</rule>
 					<rule e="way" k="highway" v="unclassified|residential" zoom-min="12">
-						<line stroke="#ffffff" stroke-width="2" />
-						<rule e="way" k="*" v="*" zoom-min="15">
-							<pathText k="name" font-style="bold" font-size="20" stroke="#ffffff" stroke-width="3.0" />
+						<rule e="way" k="*" v="*" zoom-max="15">
+							<line stroke="#ffffff" stroke-width="1.4" />
+						</rule>
+						<rule e="way" k="*" v="*" zoom-min="16">
+							<line stroke="#ffffff" stroke-width="1.8" />
+							<pathText k="name" font-style="bold" font-size="17" stroke="#ffffff" fill="#303030" stroke-width="3.0" />
 						</rule>
 					</rule>
 					<rule e="way" k="highway" v="byway" zoom-min="12">
-						<line stroke="#efadaa" stroke-width="2" />
-						<rule e="way" k="*" v="*" zoom-min="15">
-							<pathText k="name" font-style="bold" font-size="18" stroke="#efadaa" stroke-width="2.0" />
+						<rule e="way" k="*" v="*" zoom-max="15">
+							<line stroke="#efadaa" stroke-width="1.5" />
+						</rule>
+						<rule e="way" k="*" v="*" zoom-min="16">
+							<line stroke="#efadaa" stroke-width="2" />
+							<pathText k="name" font-style="bold" font-size="17" stroke="#efadaa" fill="#303030" stroke-width="2.0" />
 						</rule>
 					</rule>
 					<rule e="way" k="highway" v="tertiary|tertiary_link" zoom-min="12">
 						<line stroke="#ffffc7" stroke-width="1.8" />
 						<rule e="way" k="*" v="*" zoom-min="14">
-							<pathText k="name" font-style="bold" font-size="18" stroke="#ffffc7" stroke-width="2.0" />
+							<pathText k="name" font-style="bold" font-size="17" stroke="#ffffc7" fill="#303030" stroke-width="2.0" />
 						</rule>
 					</rule>
 					<rule e="way" k="highway" v="secondary_link">
 						<line stroke="#fedfB7" stroke-width="1.8" />
 						<rule e="way" k="*" v="*" zoom-min="14">
-							<pathText k="name" font-style="bold" font-size="18" stroke="#fedfB7" stroke-width="2.0" />
+							<pathText k="name" font-style="bold" font-size="17" stroke="#fedfB7" fill="#303030" stroke-width="2.0" />
 						</rule>
 					</rule>
 					<rule e="way" k="highway" v="primary_link">
 						<line stroke="#efbda5" stroke-width="1.8" />
 						<rule e="way" k="*" v="*" zoom-min="14">
-							<pathText k="name" font-style="bold" font-size="18" stroke="#efbda5" stroke-width="2.0" />
+							<pathText k="name" font-style="bold" font-size="17" stroke="#efbda5" fill="#303030" stroke-width="2.0" />
 						</rule>
 					</rule>
 					<rule e="way" k="highway" v="trunk_link">
 						<line stroke="#FFE599" stroke-width="1.8" /> <!--smooth_line-->
 						<rule e="way" k="*" v="*" zoom-min="14">
-							<pathText k="name" font-style="bold" font-size="18" stroke="#7fc97f" stroke-width="2.0" />
+							<pathText k="name" font-style="bold" font-size="17" stroke="#7fc97f" fill="#303030" stroke-width="2.0" />
 						</rule>
 					</rule>
 					<rule e="way" k="highway" v="motorway_link">
 						<line stroke="#FFE599" stroke-width="2" /> <!--smooth_line-->
 						<rule e="way" k="*" v="*" zoom-min="14">
-							<pathText k="name" font-style="bold" font-size="18" stroke="#809bc0" stroke-width="2.0" />
+							<pathText k="name" font-style="bold" font-size="17" stroke="#809bc0" fill="#303030" stroke-width="2.0" />
 						</rule>
 					</rule>
 					<rule e="way" k="highway" v="secondary" zoom-min="11">
 						<line stroke="#fedfB7" stroke-width="1.8" />
 						<rule e="way" k="*" v="*" zoom-min="14">
-							<pathText k="name" font-style="bold" font-size="18" stroke="#fedfB7" stroke-width="2.0" />
+							<pathText k="name" font-style="bold" font-size="17" stroke="#fedfB7" fill="#303030" stroke-width="2.0" />
 						</rule>
 					</rule>
 					<rule e="way" k="highway" v="primary">
 						<line stroke="#efbda5" stroke-width="1.8" />
 						<rule e="way" k="*" v="*" zoom-min="14">
-							<pathText k="name" font-style="bold" font-size="17" stroke="#efbda5" stroke-width="2.0" />
-							<pathText k="ref" font-style="bold" font-size="18" stroke="#000000" fill="#e07b4b" stroke-width="2.5" />
+							<pathText k="name" font-style="bold" font-size="17" stroke="#efbda5" fill="#303030" stroke-width="2.0" />
+							<pathText k="ref" font-style="bold" font-size="16" stroke="#000000" fill="#e07b4b" stroke-width="2.5" />
 						</rule>
 					</rule>
 					<rule e="way" k="highway" v="trunk">
 						<line stroke="#FFE599" stroke-width="1.8" /> <!--smooth_line-->
 						<rule e="way" k="*" v="*" zoom-min="14">
-							<pathText k="name" font-style="bold" font-size="17" stroke="#FFE599" stroke-width="2.0" />
-							<pathText k="ref" font-style="bold" font-size="18" stroke="#000000" fill="#FFE599" stroke-width="2.5" />
+							<pathText k="name" font-style="bold" font-size="17" stroke="#FFE599" fill="#303030" stroke-width="2.0" />
+							<pathText k="ref" font-style="bold" font-size="17" stroke="#000000" fill="#FFE599" stroke-width="2.5" />
 						</rule>
 					</rule>
 					<rule e="way" k="highway" v="motorway">
 						<line stroke="#FFE599" stroke-width="2.5" /> <!--smooth_line-->
 						<rule e="way" k="*" v="*" zoom-min="14">
-							<pathText k="name" font-style="bold" font-size="17" stroke="#FFE599" stroke-width="2.0" />
+							<pathText k="name" font-style="bold" font-size="17" stroke="#FFE599" fill="#303030" stroke-width="2.0" />
 							<pathText k="ref" font-style="bold" font-size="18" stroke="#000000" fill="#FFE599" stroke-width="2.5" />
 						</rule>
 					</rule>
 					<rule e="way" k="highway" v="cycleway">
 						<line stroke="#ff55ff" stroke-width="1.3" stroke-linecap="square" />
 						<rule e="way" k="*" v="*" zoom-min="15">
-							<pathText k="name" font-style="bold" font-size="18" stroke="#d1fad1" stroke-width="2.0" />
+							<pathText k="name" font-style="bold" font-size="18" stroke="#d1fad1" fill="#303030" stroke-width="2.0" />
 						</rule>
 					</rule>
 					<!--#trail#visibility-->
@@ -2458,6 +2495,9 @@
 		<rule e="way" k="osmc_foreground" v="red_dot">
 			<lineSymbol src="file:/osmc-symbols/purple_red_dot.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="blue_dot">
+			<lineSymbol src="file:/osmc-symbols/purple_blue_dot.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="white_dot">
 			<lineSymbol src="file:/osmc-symbols/purple_white_dot.png" align-center="false" repeat="true" />
 		</rule>
@@ -2896,6 +2936,9 @@
 		<rule e="way" k="osmc_foreground" v="white_right">
 			<lineSymbol src="file:/osmc-symbols/yellow_white_right.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="blue_shell_modern">
+			<lineSymbol src="file:/osmc-symbols/yellow_blue_shell_modern.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="shell">
 			<lineSymbol src="file:/osmc-symbols/yellow_shell.png" align-center="false" repeat="true" />
 		</rule>
@@ -2940,6 +2983,9 @@
 		</rule>
 		<rule e="way" k="osmc_foreground" v="orange_triangle">
 			<lineSymbol src="file:/osmc-symbols/yellow_orange_triangle.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="red_x">
+			<lineSymbol src="file:/osmc-symbols/yellow_red_x.png" align-center="false" repeat="true" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="white_x">
 			<lineSymbol src="file:/osmc-symbols/yellow_white_x.png" align-center="false" repeat="true" />
@@ -3061,8 +3107,14 @@
 		<rule e="way" k="osmc_foreground" v="blue_bar">
 			<lineSymbol src="file:/osmc-symbols/none_blue_bar.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="white_bar">
+			<lineSymbol src="file:/osmc-symbols/none_white_bar.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="orange_bar">
 			<lineSymbol src="file:/osmc-symbols/none_orange_bar.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="yellow_circle">
+			<lineSymbol src="file:/osmc-symbols/none_yellow_circle.png" align-center="false" repeat="true" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="yellow_diamond">
 			<lineSymbol src="file:/osmc-symbols/none_yellow_diamond.png" align-center="false" repeat="true" />
@@ -4156,6 +4208,9 @@
 		<rule e="way" k="osmc_foreground" v="green_wheel">
 			<lineSymbol src="file:/osmc-symbols/white_green_wheel.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="brown_wheel">
+			<lineSymbol src="file:/osmc-symbols/white_brown_wheel.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="orange_wheel">
 			<lineSymbol src="file:/osmc-symbols/white_orange_wheel.png" align-center="false" repeat="true" />
 		</rule>
@@ -4368,6 +4423,9 @@
 		</rule>
 		<rule e="way" k="osmc_foreground" v="black_rectangle">
 			<lineSymbol src="file:/osmc-symbols/green_black_rectangle.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="red_right">
+			<lineSymbol src="file:/osmc-symbols/green_red_right.png" align-center="false" repeat="true" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="blue_right">
 			<lineSymbol src="file:/osmc-symbols/green_blue_right.png" align-center="false" repeat="true" />

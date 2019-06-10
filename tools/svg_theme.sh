@@ -127,7 +127,8 @@ echo ""
 echo '/<\s*symbol / s/rotate="[^"]*" //g
 /<\s*symbol / s/repeat-start="[^"]*" //g
 /<\s*symbol / s/repeat-gap="[^"]*" //g
-/<\s*symbol / {/priotity="[0-9]+"/ s/\s*\/>/ priority="2" \/>/g}' >> $sedscript
+/<\s*symbol .*osmc-symbols\// s/\s*\/>/ priority="2" \/>/g
+/<\s*symbol / {/priority="/! s/\s*\/>/ priority="3" \/>/g }' >> $sedscript
 sed -i -f $sedscript $targetdir/$themename/$newthemename.xml
 
 if ! xmllint --noout "$targetdir/$themename/$newthemename.xml" ; then

@@ -141,6 +141,9 @@
 		<rule e="way" k="osmc_foreground" v="black_rectangle">
 			<lineSymbol src="file:/osmc-symbols/green_black_rectangle.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="red_right">
+			<lineSymbol src="file:/osmc-symbols/green_red_right.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="blue_right">
 			<lineSymbol src="file:/osmc-symbols/green_blue_right.png" align-center="false" repeat="true" />
 		</rule>

@@ -256,7 +256,9 @@ blue:4
 blue:★4
 blue:80
 blue:9
+blu:red_bar
 blu:white_bar
+blu:yellow_bar
 braun:none
 bridleway
 brown
@@ -310,6 +312,7 @@ E6
 :F.
 fish
 fixme
+g
 Gelb
 GH
 Giswil
@@ -459,6 +462,7 @@ green:white_frame
 green:white_rider
 green:white_sheep
 green:white_strip
+green:whitgreen
 green:WK
 green:WLM
 green:WLP
@@ -763,6 +767,7 @@ Schwarzer
 Schwarz7_auf_gelbem_rechteck
 Schwarz8_auf_gelbem_rechteck
 silver_web
+symbol
 Symbol_E10.png
 symbol=green:white
 symbol=red:red
@@ -880,6 +885,7 @@ white:cyan_pointer
 white:cycle_green
 white:D
 :white_diamond
+white_diamond_line
 white_dot:
 :white_dot
 white_dot:green_triangle
