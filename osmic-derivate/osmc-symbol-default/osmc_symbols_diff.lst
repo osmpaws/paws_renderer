@@ -37,6 +37,7 @@ black_bar
 :black_bar
 black:black
 black:black_Rectangle
+black:Black-rectangle
 black:black_retangle
 blackblue_bar
 black:BR
@@ -198,6 +199,7 @@ blue:PO
 blue_pointer
 :blue_pointer
 blue:PW
+blue:R
 blue_rectangle
 blue_rectangle:
 :blue_rectangle
@@ -266,6 +268,7 @@ brown:
 brown_bar
 :brown_bar
 brown:black
+brown:Blender-Tour
 brown:brown
 brown:brownR
 brown:castle
@@ -313,6 +316,7 @@ E6
 fish
 fixme
 g
+:G
 Gelb
 GH
 Giswil
@@ -357,6 +361,7 @@ green:EWkE
 green:fork_blue
 green_frame
 green_frame:
+green_frame:green_bike
 green_frame:IBP
 green_frame:MST
 green_frame:MWW
@@ -371,8 +376,11 @@ green_frame:white
 green_frame:1
 green:F5
 green:green
+green:green_bachslash
 green:green_frame
+green;green_frame;green_dot;black
 green:green-rectangle
+green:green_rectnagle
 green:green_round
 green_hexagon:green
 green_horse
@@ -487,6 +495,7 @@ green:39
 green:4
 green:7
 green:8
+green:897
 grey
 grey:
 grey:black_triangle
@@ -517,6 +526,7 @@ lightbrown:red_dot
 line
 losange
 lwl
+L01
 magenta:4.5
 Männl.
 maroon:
@@ -562,6 +572,7 @@ orange:N
 orange:none
 orange:orange
 orange:orange_rectangel
+orange_pointer:
 orange_round
 orange_round:
 orange_round:black
@@ -579,6 +590,7 @@ orange_triangle
 :orange_triangle_turned
 orange:white
 orange_white_orange_arch
+orange:white_upper
 orange:1
 orange:15
 orange:6
@@ -588,6 +600,7 @@ pink
 pink:black_dot
 pink_diamond
 pink:red_dot
+PR"
 Punkt_Gelb.png
 purple
 purple:
@@ -673,6 +686,7 @@ red:F2
 red:GBD
 red:gold
 red:Gouw
+red;green_frame;red_dot;black
 red:GWP
 red_hiker
 red:HKR
@@ -710,6 +724,7 @@ red_round:white_arrow
 red_round:1
 red_round:13
 red_round:6
+red:rred
 red:RWR
 red:RWW6
 red:S
@@ -737,6 +752,7 @@ red_white_stripe:VL4
 red:white_stripe_VU2a
 red:white_stripe_Z8
 red_white_stripe:737
+red:white_strype20
 red/whitw
 red:wite_stripe
 red:withe_bar
@@ -768,9 +784,13 @@ Schwarz7_auf_gelbem_rechteck
 Schwarz8_auf_gelbem_rechteck
 silver_web
 symbol
+symbol=blue:blue_round
+symbol=blue:white
 Symbol_E10.png
 symbol=green:white
+Symbol_Jakobsweg.svg
 symbol=red:red
+symbol=red:red_round
 symbol=yellow:white
 Tauplitz
 teal:
@@ -791,6 +811,7 @@ weiße
 Weisse
 wheite:green_dot
 whiite:blue_diamond
+whiite:grey_pointer
 whit
 whit:black_cross
 white
@@ -811,6 +832,7 @@ white_bar:blue_circle
 white_bar:GAB
 white_bar:GAB.
 white:barva_backslash
+white:barva_turned_T
 white_bar:21
 white:BgD
 white:black
@@ -884,6 +906,7 @@ white:cyan_lower
 white:cyan_pointer
 white:cycle_green
 white:D
+white:darkblue_stripe
 :white_diamond
 white_diamond_line
 white_dot:
@@ -897,6 +920,7 @@ white:E4
 white:F
 white:Fe1
 white:GDR
+white:geen_bar
 white:Glw
 white:gold_pointer
 white:GR
@@ -926,6 +950,7 @@ white:green_stripe_double
 white:green_T
 white:green_tree
 white:green_triangel
+white:green_Z
 white:grey
 white:grey_backslash
 white:GRR
@@ -977,9 +1002,11 @@ white:radweg
 white:re_bar
 white_rectangle:
 white:red
+white:red_arrow
 white:red-bar
 white:red_bar;green
 white:red_bicycle
+white:red_bike
 white:red_crown
 white:red_drop
 white:red_drop_line
@@ -1068,6 +1095,7 @@ white:X
 white:yello_bar
 white:yellow
 white:yellow_backlash
+white:yellow_bar_Nefl
 white:yellow_baryellow
 white:yellow_bicycle
 white:yellow_cicle
@@ -1088,6 +1116,7 @@ white:yellow_runner
 white:yellow_star
 white:yellow_triangel
 white_yellow_triangle
+white:yellow_X
 white:yelow_bar
 white:ygreen_bar
 white:1
@@ -1141,8 +1170,10 @@ yellow:black
 yellow:black_bike
 yellow:black_horse
 yellow:BLP
+yellow:blue
 yellow:blue_grape
 yellow:blue_red_diamond
+yellow_circle
 yellow_circle:
 :yellow_circle
 yellow_circle:P10
@@ -1217,6 +1248,7 @@ yellow:MWB
 yellow:NEK
 yellow:NGK
 yellow:none
+yellow:none_bar
 yellow:OS
 yellow_pointer
 yellow_pointer:
@@ -1236,8 +1268,10 @@ yellow_round:black
 yellow_round:yellow
 yellow_round:yellow_round
 yellow_round:10C
+yellow_round:12
 yellow_round:2D
 yellow_round:2E
+yellow_round:35
 yellow_round:5
 yellow:RWA
 yellow:R2
@@ -1271,6 +1305,7 @@ yellow_x
 yellow:yellow
 yellow:yellow_rectangle1
 yellow:yellow.51
+yellow:1
 yellow:10
 yellow:13
 yellow:14
@@ -1284,6 +1319,11 @@ yellow:21
 yellow:24
 yellow:3
 yellow:4SWK
+yellow:441
+yellow:442
+yellow:443
+yellow:444
+yellow:447
 yellow:77
 yellow:78
 yellow:80
@@ -1295,6 +1335,7 @@ Z00:black
 #00ffff:purple_dot
 #008bcc
 #008080:
+011:black
 11:black
 136
 2

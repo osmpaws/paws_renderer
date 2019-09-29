@@ -15,4 +15,7 @@
 		<rule e="way" k="osmc_foreground" v="green_triangle_turned">
 			<lineSymbol src="file:/osmc-symbols/green_circle_green_triangle_turned.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="green_triangle">
+			<lineSymbol src="file:/osmc-symbols/green_circle_green_triangle.png" align-center="false" repeat="true" />
+		</rule>
 	</rule>

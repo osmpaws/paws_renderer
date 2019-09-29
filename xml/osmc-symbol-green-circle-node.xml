@@ -15,4 +15,7 @@
 		<rule e="node" k="osmc_foreground" v="green_triangle_turned">
 			<symbol src="file:/osmc-symbols/green_circle_green_triangle_turned.png" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="green_triangle">
+			<symbol src="file:/osmc-symbols/green_circle_green_triangle.png" />
+		</rule>
 	</rule>

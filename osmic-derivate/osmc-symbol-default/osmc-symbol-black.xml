@@ -168,6 +168,9 @@
 		<rule e="way" k="osmc_foreground" v="white_triangle_line">
 			<lineSymbol src="file:/osmc-symbols/black_white_triangle_line.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="white_triangle_turned">
+			<lineSymbol src="file:/osmc-symbols/black_white_triangle_turned.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="red_triangle">
 			<lineSymbol src="file:/osmc-symbols/black_red_triangle.png" align-center="false" repeat="true" />
 		</rule>

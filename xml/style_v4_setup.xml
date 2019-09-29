@@ -59,6 +59,11 @@
 		<name lang="en" value="Inappropriate surfaces" />
 		<cat id="surface" />
 	</layer>
+	<layer id="l_bike_no" enabled="true">
+		<name lang="cs" value="Zákaz vjezdu bicyklů" />
+		<name lang="en" value="Bicycles restriction" />
+		<cat id="bike_no" />
+	</layer>
 	<layer id="l_trail_visibility" enabled="false">
 		<name lang="cs" value="Viditelnost stezky" />
 		<name lang="en" value="Trail visibility" />
@@ -92,6 +97,7 @@
 		<overlay id="l_guidepost" />
 		<overlay id="l_bike_beads" />
 		<overlay id="l_bike_lines" />
+		<overlay id="l_bike_no" />
 		<overlay id="l_mtb_scale" />
 		<!--overlay id="l_trail_visibility" /-->
 		<overlay id="l_horse_lines" />
