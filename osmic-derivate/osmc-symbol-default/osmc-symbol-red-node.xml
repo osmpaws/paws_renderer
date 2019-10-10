@@ -99,6 +99,9 @@
 		<rule e="node" k="osmc_foreground" v="white_rectangle">
 			<symbol src="file:/osmc-symbols/red_white_rectangle.png" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="blue_right">
+			<symbol src="file:/osmc-symbols/red_blue_right.png" />
+		</rule>
 		<rule e="node" k="osmc_foreground" v="green_right">
 			<symbol src="file:/osmc-symbols/red_green_right.png" />
 		</rule>
@@ -113,6 +116,9 @@
 		</rule>
 		<rule e="node" k="osmc_foreground" v="yellow_stripe">
 			<symbol src="file:/osmc-symbols/red_yellow_stripe.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="blue_stripe">
+			<symbol src="file:/osmc-symbols/red_blue_stripe.png" />
 		</rule>
 		<rule e="node" k="osmc_foreground" v="white_stripe">
 			<symbol src="file:/osmc-symbols/red_white_stripe.png" />

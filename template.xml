@@ -2,7 +2,7 @@
 <rendertheme xmlns="http://mapsforge.org/renderTheme" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://mapsforge.org/renderTheme ../renderTheme.xsd" version="1" map-background="#f8f8f8">
 	
-	<!--#r00048b00395#-->
+	<!--#r00049b00409#-->
 
 	<!--style#v4#setup-->
 	
@@ -1127,7 +1127,7 @@
 								<line stroke="#404040" stroke-width="1.30" />
 							</rule>
 							<rule e="way" k="tracktype" v="grade2">
-								<line stroke="#404040" stroke-width="1.30" stroke-linecap="square" stroke-dasharray="45.00,22.5" />
+								<line stroke="#404040" stroke-width="1.30" stroke-linecap="square" stroke-dasharray="45.00,22.0" />
 							</rule>
 							<rule e="way" k="tracktype" v="grade3">
 								<line stroke="#505050" stroke-width="1.20" stroke-linecap="square" stroke-dasharray="30.00,18.00,1.50,18.0" />
@@ -1139,27 +1139,47 @@
 								<line stroke="#505050" stroke-width="1.10" stroke-linecap="square" stroke-dasharray="22.50,18.00,1.50,18.00,1.50,18.00,1.50,18.0" />
 							</rule>
 							<rule e="way" k="tracktype" v="~|false">
-								<line stroke="#505050" stroke-width="1.00" stroke-linecap="square" stroke-dasharray="22.50,18.00,1.50,18.00,0.10,25.00,0.10,18.00,1.50,18.0" />
+								<line stroke="#505050" stroke-width="1.00" stroke-linecap="square" stroke-dasharray="22.50,18.00,1.50,18.00,0.10,22.00,0.10,18.00,1.50,18.0" />
 							</rule>
 						</rule>
-						<rule e="way" k="*" v="*" zoom-min="19">
+						<rule e="way" k="*" v="*" zoom-min="19" zoom-max="20">
 							<rule e="way" k="tracktype" v="grade1">
-								<line stroke="#404040" stroke-width="1.30" />
+								<line stroke="#404040" stroke-width="1.10" />
 							</rule>
 							<rule e="way" k="tracktype" v="grade2">
-								<line stroke="#404040" stroke-width="1.30" stroke-linecap="square" stroke-dasharray="52.50,22.5" />
+								<line stroke="#404040" stroke-width="1.10" stroke-linecap="square" stroke-dasharray="52.50,32.0" />
 							</rule>
 							<rule e="way" k="tracktype" v="grade3">
-								<line stroke="#505050" stroke-width="1.20" stroke-linecap="square" stroke-dasharray="37.50,45.00,1.50,45.0" />
+								<line stroke="#505050" stroke-width="1.00" stroke-linecap="square" stroke-dasharray="37.50,28.00,1.50,28.0" />
 							</rule>
 							<rule e="way" k="tracktype" v="grade4">
-								<line stroke="#505050" stroke-width="1.20" stroke-linecap="square" stroke-dasharray="30.00,45.00,1.50,45.00,1.50,45.0" />
+								<line stroke="#505050" stroke-width="1.00" stroke-linecap="square" stroke-dasharray="30.00,28.00,1.50,28.00,1.50,28.0" />
 							</rule>
 							<rule e="way" k="tracktype" v="grade5">
-								<line stroke="#505050" stroke-width="1.10" stroke-linecap="square" stroke-dasharray="30.00,45.00,1.50,45.00,1.50,45.00,1.50,45.0" />
+								<line stroke="#505050" stroke-width="0.90" stroke-linecap="square" stroke-dasharray="30.00,28.00,1.50,28.00,1.50,28.00,1.50,28.0" />
 							</rule>
 							<rule e="way" k="tracktype" v="~|false">
-								<line stroke="#505050" stroke-width="1.00" stroke-linecap="square" stroke-dasharray="30.00,45.00,1.50,45.00,0.10,55.00,0.10,45.00,1.50,45.0" />
+								<line stroke="#505050" stroke-width="0.80" stroke-linecap="square" stroke-dasharray="30.00,28.00,1.50,28.00,0.10,32.00,0.10,28.00,1.50,28.0" />
+							</rule>
+						</rule>
+						<rule e="way" k="*" v="*" zoom-min="21">
+							<rule e="way" k="tracktype" v="grade1">
+								<line stroke="#404040" stroke-width="1.00" />
+							</rule>
+							<rule e="way" k="tracktype" v="grade2">
+								<line stroke="#404040" stroke-width="1.00" stroke-linecap="butt" stroke-dasharray="70.00,20.0" />
+							</rule>
+							<rule e="way" k="tracktype" v="grade3">
+								<line stroke="#505050" stroke-width="0.90" stroke-linecap="butt" stroke-dasharray="50.00,10.00,20.00,10.0" />
+							</rule>
+							<rule e="way" k="tracktype" v="grade4">
+								<line stroke="#505050" stroke-width="0.90" stroke-linecap="butt" stroke-dasharray="50.00,10.00,20.00,10.00,20.00,10.0" />
+							</rule>
+							<rule e="way" k="tracktype" v="grade5">
+								<line stroke="#505050" stroke-width="0.80" stroke-linecap="butt" stroke-dasharray="50.00,10.00,20.00,10.00,20.00,10.00,20.00,10.0" />
+							</rule>
+							<rule e="way" k="tracktype" v="~|false">
+								<line stroke="#505050" stroke-width="0.70" stroke-linecap="butt" stroke-dasharray="50.00,10.00,20.00,10.00,20.00,20.00,20.00,10.00,20.00,10.0" />
 							</rule>
 						</rule>
 						<rule e="way" k="*" v="*" zoom-min="15">
@@ -3539,6 +3559,9 @@
 		<rule e="way" k="osmc_foreground" v="white_rectangle">
 			<lineSymbol src="file:/osmc-symbols/red_white_rectangle.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="blue_right">
+			<lineSymbol src="file:/osmc-symbols/red_blue_right.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="green_right">
 			<lineSymbol src="file:/osmc-symbols/red_green_right.png" align-center="false" repeat="true" />
 		</rule>
@@ -3553,6 +3576,9 @@
 		</rule>
 		<rule e="way" k="osmc_foreground" v="yellow_stripe">
 			<lineSymbol src="file:/osmc-symbols/red_yellow_stripe.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="blue_stripe">
+			<lineSymbol src="file:/osmc-symbols/red_blue_stripe.png" align-center="false" repeat="true" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="white_stripe">
 			<lineSymbol src="file:/osmc-symbols/red_white_stripe.png" align-center="false" repeat="true" />
@@ -4709,6 +4735,9 @@
 		<rule e="way" k="osmc_foreground" v="yellow_pointer">
 			<lineSymbol src="file:/osmc-symbols/brown_yellow_pointer.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="blue_pointer">
+			<lineSymbol src="file:/osmc-symbols/brown_blue_pointer.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="green_pointer">
 			<lineSymbol src="file:/osmc-symbols/brown_green_pointer.png" align-center="false" repeat="true" />
 		</rule>
@@ -4717,6 +4746,12 @@
 		</rule>
 		<rule e="way" k="osmc_foreground" v="black_pointer">
 			<lineSymbol src="file:/osmc-symbols/brown_black_pointer.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="purple_pointer">
+			<lineSymbol src="file:/osmc-symbols/brown_purple_pointer.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="orange_pointer">
+			<lineSymbol src="file:/osmc-symbols/brown_orange_pointer.png" align-center="false" repeat="true" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="yellow_rectangle_line">
 			<lineSymbol src="file:/osmc-symbols/brown_yellow_rectangle_line.png" align-center="false" repeat="true" />

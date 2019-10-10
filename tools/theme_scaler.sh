@@ -69,7 +69,7 @@ while read line; do
 		
 		if echo $line | grep -q " stroke-dasharray=" ; then
 			old=`echo $line | sed 's/.* stroke-dasharray=\"\([0-9,. ]*\).*/\1/'`
-			new=`echo "$old" | tr ',' ' ' |  awk -v "scale=$scale" '{for(i=1;i<NF;i++)printf"%s",$i*scale OFS;if(NF)printf"%s",$NF*scale;printf ORS}' | tr ' ' ','`
+			new=`echo "$old" | tr ',' ' ' |  awk -v "scale=$scale" '{for(i=1;i<NF;i++)printf"%s",(($i%2 == 0)?$i*(scale/2):$i*scale) OFS;if(NF)printf"%s",$NF*scale;printf ORS}' | tr ' ' ','`
 			newline=`echo $newline | sed "s/ stroke-dasharray=\"$old\"/ stroke-dasharray=\"$new\"/"`
 		fi
 		

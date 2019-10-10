@@ -917,7 +917,7 @@
 								<line stroke="#404040" stroke-width="1.3" />
 							</rule>
 							<rule e="way" k="tracktype" v="grade2">
-								<line stroke="#404040" stroke-width="1.3" stroke-linecap="square" stroke-dasharray="45,22.5" />
+								<line stroke="#404040" stroke-width="1.3" stroke-linecap="square" stroke-dasharray="45,22" />
 							</rule>
 							<rule e="way" k="tracktype" v="grade3">
 								<line stroke="#505050" stroke-width="1.2" stroke-linecap="square" stroke-dasharray="30,18,1.5,18" />
@@ -929,27 +929,47 @@
 								<line stroke="#505050" stroke-width="1.1" stroke-linecap="square" stroke-dasharray="22.5,18,1.5,18,1.5,18,1.5,18" />
 							</rule>
 							<rule e="way" k="tracktype" v="~|false">
-								<line stroke="#505050" stroke-width="1.0" stroke-linecap="square" stroke-dasharray="22.5,18,1.5,18,0.1,25,0.1,18,1.5,18" />
+								<line stroke="#505050" stroke-width="1.0" stroke-linecap="square" stroke-dasharray="22.5,18,1.5,18,0.1,22,0.1,18,1.5,18" />
 							</rule>
 						</rule>
-						<rule e="way" k="*" v="*" zoom-min="19">
+						<rule e="way" k="*" v="*" zoom-min="19" zoom-max="20">
 							<rule e="way" k="tracktype" v="grade1">
-								<line stroke="#404040" stroke-width="1.3" />
+								<line stroke="#404040" stroke-width="1.1" />
 							</rule>
 							<rule e="way" k="tracktype" v="grade2">
-								<line stroke="#404040" stroke-width="1.3" stroke-linecap="square" stroke-dasharray="52.5,22.5" />
+								<line stroke="#404040" stroke-width="1.1" stroke-linecap="square" stroke-dasharray="52.5,32" />
 							</rule>
 							<rule e="way" k="tracktype" v="grade3">
-								<line stroke="#505050" stroke-width="1.2" stroke-linecap="square" stroke-dasharray="37.5,45,1.5,45" />
+								<line stroke="#505050" stroke-width="1.0" stroke-linecap="square" stroke-dasharray="37.5,28,1.5,28" />
 							</rule>
 							<rule e="way" k="tracktype" v="grade4">
-								<line stroke="#505050" stroke-width="1.2" stroke-linecap="square" stroke-dasharray="30,45,1.5,45,1.5,45" />
+								<line stroke="#505050" stroke-width="1.0" stroke-linecap="square" stroke-dasharray="30,28,1.5,28,1.5,28" />
 							</rule>
 							<rule e="way" k="tracktype" v="grade5">
-								<line stroke="#505050" stroke-width="1.1" stroke-linecap="square" stroke-dasharray="30,45,1.5,45,1.5,45,1.5,45" />
+								<line stroke="#505050" stroke-width="0.9" stroke-linecap="square" stroke-dasharray="30,28,1.5,28,1.5,28,1.5,28" />
 							</rule>
 							<rule e="way" k="tracktype" v="~|false">
-								<line stroke="#505050" stroke-width="1.0" stroke-linecap="square" stroke-dasharray="30,45,1.5,45,0.1,55,0.1,45,1.5,45" />
+								<line stroke="#505050" stroke-width="0.8" stroke-linecap="square" stroke-dasharray="30,28,1.5,28,0.1,32,0.1,28,1.5,28" />
+							</rule>
+						</rule>
+						<rule e="way" k="*" v="*" zoom-min="21">
+							<rule e="way" k="tracktype" v="grade1">
+								<line stroke="#404040" stroke-width="1.0" />
+							</rule>
+							<rule e="way" k="tracktype" v="grade2">
+								<line stroke="#404040" stroke-width="1.0" stroke-linecap="butt" stroke-dasharray="70,20" />
+							</rule>
+							<rule e="way" k="tracktype" v="grade3">
+								<line stroke="#505050" stroke-width="0.9" stroke-linecap="butt" stroke-dasharray="50,10,20,10" />
+							</rule>
+							<rule e="way" k="tracktype" v="grade4">
+								<line stroke="#505050" stroke-width="0.9" stroke-linecap="butt" stroke-dasharray="50,10,20,10,20,10" />
+							</rule>
+							<rule e="way" k="tracktype" v="grade5">
+								<line stroke="#505050" stroke-width="0.8" stroke-linecap="butt" stroke-dasharray="50,10,20,10,20,10,20,10" />
+							</rule>
+							<rule e="way" k="tracktype" v="~|false">
+								<line stroke="#505050" stroke-width="0.7" stroke-linecap="butt" stroke-dasharray="50,10,20,10,20,20,20,10,20,10" />
 							</rule>
 						</rule>
 						<rule e="way" k="*" v="*" zoom-min="15">

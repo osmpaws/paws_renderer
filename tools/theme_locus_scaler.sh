@@ -22,7 +22,7 @@ if [ "$useawk" -eq "1" ] ; then
 			printf"%s\"",workfields[1];
 			nsd = split(workfields[2],dasharray,",");
 			for(j=1;j<nsd;j++) {
-				printf"%-0.2f,",dasharray[j]*scale;
+				printf"%-0.2f,",(j%2==0?dasharray[j]*scale*2/3:dasharray[j]*scale);
 			}
 			printf"%-0.1f%s\"",dasharray[nsd]*scale,workfields[3];
 		} else {
@@ -69,7 +69,7 @@ while read line; do
 		
 		if echo $line | grep -q " stroke-dasharray=" ; then
 			old=`echo $line | sed 's/.* stroke-dasharray=\"\([0-9,. ]*\).*/\1/'`
-			new=`echo "$old" | tr ',' ' ' |  awk -v "scale=$scale" '{for(i=1;i<NF;i++)printf"%s",$i*scale OFS;if(NF)printf"%s",$NF*scale;printf ORS}' | tr ' ' ','`
+			new=`echo "$old" | tr ',' ' ' |  awk -v "scale=$scale" '{for(i=1;i<NF;i++)printf"%s",(($i%2 == 0)?$i*scale/2:$i*scale) OFS;if(NF)printf"%s",$NF*scale;printf ORS}' | tr ' ' ','`
 			newline=`echo $newline | sed "s/ stroke-dasharray=\"$old\"/ stroke-dasharray=\"$new\"/"`
 		fi
 		

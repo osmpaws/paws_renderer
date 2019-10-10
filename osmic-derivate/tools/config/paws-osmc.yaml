@@ -4669,6 +4669,13 @@ brown-yellow-pointer:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+brown-blue-pointer:
+  fill: "#1579e0"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 brown-green-pointer:
   fill: "#00cd27"
   shield:
@@ -4685,6 +4692,20 @@ brown-white-pointer:
     padding: 1
 brown-black-pointer:
   fill: "#000000"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+brown-purple-pointer:
+  fill: "#b878dd"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+brown-orange-pointer:
+  fill: "#f96f00"
   shield:
     fill: "#8b4513"
     stroke_fill: "#000000"
@@ -5398,6 +5419,13 @@ green-white-right:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+red-blue-right:
+  fill: "#1579e0"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 red-green-right:
   fill: "#00cd27"
   shield:
@@ -5775,6 +5803,13 @@ purple-white-stripe:
     padding: 1
 red-yellow-stripe:
   fill: "#ffdd00"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+red-blue-stripe:
+  fill: "#1579e0"
   shield:
     fill: "#ff0000"
     stroke_fill: "#000000"

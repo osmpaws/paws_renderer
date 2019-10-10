@@ -236,6 +236,7 @@ blue_stripe
 :blue_stripe
 blue_triangle:
 :blue_triangle
+blue_triangle_turned
 blue_triangle_turned:
 blue:TWR
 blue:WA
@@ -248,6 +249,7 @@ blue:white_star
 blue:WWW
 blue_x
 :blue_x
+blue:ZU
 blue:10
 blue:1.4
 blue:2
@@ -425,6 +427,7 @@ green_pointer
 :green_pointer
 green_pointer:white_fork
 green:purble
+green:purple
 green:R
 green_rectangle
 green_rectangle:A1
@@ -546,6 +549,7 @@ none;none
 none:none
 none:white_horse
 Nur
+oramge:AP
 orange
 orange:
 :orange
@@ -606,6 +610,7 @@ purple
 purple:
 purple:-
 :purple
+purple:Archeo
 purple:A10
 purple:A11
 purple_circle
@@ -648,6 +653,7 @@ red_bar
 red_bar:white_lower
 red:BE1
 red:black_horse
+red:Boschi
 red:BT
 red:BTT
 red:B1
@@ -988,10 +994,12 @@ white:orange_flower
 white:orange_round
 white:pink_bar
 white:pink_dot
+white_pointer
 :white_pointer
 white_pointer:BW
 white:PS
 white:puple_backslash
+white:purle_pointer
 white:purple
 white_purple:
 white:purple_boat
@@ -1291,6 +1299,7 @@ yellow_track
 yellow_triangle
 :yellow_triangle
 :yellow_triangle_line
+yellow_triangle_turned
 yellow_triangle_turned:
 yellow:WA
 yellow:white
