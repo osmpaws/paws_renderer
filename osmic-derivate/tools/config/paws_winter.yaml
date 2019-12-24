@@ -193,6 +193,12 @@ spring:
     fill: "#ffffff"
     width: 1
     opacity: 1.0
+waterfall:
+  fill: "#2d2dec"
+  halo:
+    fill: "#ffffff"
+    width: 1
+    opacity: 1.0
 christian:
   fill: "#000000"
 christian-orthodox:
@@ -308,6 +314,12 @@ guidepost:
   halo:
     fill: "#ffffff"
     width: 1
+    opacity: 1.0
+guidepost-bad:
+  fill: "#000000"
+  halo:
+    fill: "#ff0000"
+    width: 0.75
     opacity: 1.0
 bench:
   halo:
