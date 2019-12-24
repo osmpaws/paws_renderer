@@ -104,6 +104,7 @@ osmc-symbols/blue-circle-white-dot-14.svg
 osmc-symbols/blue-circle-yellow-dot-14.svg
 osmc-symbols/blue-frame-blue-bar-14.svg
 osmc-symbols/blue-frame-blue-bowl-14.svg
+osmc-symbols/blue-frame-blue-diamond-14.svg
 osmc-symbols/blue-frame-blue-pointer-14.svg
 osmc-symbols/blue-frame-blue-slash-14.svg
 osmc-symbols/blue-frame-green-lower-14.svg
@@ -118,6 +119,7 @@ osmc-symbols/blue-green-dot-14.svg
 osmc-symbols/blue-green-fork-14.svg
 osmc-symbols/blue-green-lower-14.svg
 osmc-symbols/blue-green-pointer-14.svg
+osmc-symbols/blue-green-rectangle-14.svg
 osmc-symbols/blue-green-right-14.svg
 osmc-symbols/blue-green-slash-14.svg
 osmc-symbols/blue-hiker-14.svg
@@ -137,6 +139,7 @@ osmc-symbols/blue-red-stripe-14.svg
 osmc-symbols/blue-round-blue-circle-14.svg
 osmc-symbols/blue-round-blue-dot-14.svg
 osmc-symbols/blue-round-red-dot-14.svg
+osmc-symbols/blue-round-white-diamond-14.svg
 osmc-symbols/blue-round-white-dot-14.svg
 osmc-symbols/blue-round-white-hiker-14.svg
 osmc-symbols/blue-round-white-pointer-14.svg
@@ -184,6 +187,7 @@ osmc-symbols/brown-black-pointer-14.svg
 osmc-symbols/brown-blue-bar-14.svg
 osmc-symbols/brown-blue-dot-14.svg
 osmc-symbols/brown-blue-pointer-14.svg
+osmc-symbols/brown-blue-triangle-turned-14.svg
 osmc-symbols/brown-blue-triangle-14.svg
 osmc-symbols/brown-frame-blue-triangle-14.svg
 osmc-symbols/brown-frame-brown-circle-14.svg
@@ -242,6 +246,7 @@ osmc-symbols/brown-yellow-stripe-14.svg
 osmc-symbols/brown-yellow-triangle-turned-14.svg
 osmc-symbols/gray-black-bar-14.svg
 osmc-symbols/gray-blue-bar-14.svg
+osmc-symbols/gray-orange-lower-14.svg
 osmc-symbols/gray-purple-bar-14.svg
 osmc-symbols/gray-white-bar-14.svg
 osmc-symbols/gray-white-stripe-14.svg
@@ -296,6 +301,7 @@ osmc-symbols/green-red-pointer-14.svg
 osmc-symbols/green-red-right-14.svg
 osmc-symbols/green-red-stripe-14.svg
 osmc-symbols/green-red-triangle-14.svg
+osmc-symbols/green-round-blue-dot-14.svg
 osmc-symbols/green-round-green-circle-14.svg
 osmc-symbols/green-round-green-diamond-14.svg
 osmc-symbols/green-round-green-dot-14.svg
@@ -370,10 +376,12 @@ osmc-symbols/orange-green-lower-14.svg
 osmc-symbols/orange-green-slash-14.svg
 osmc-symbols/orange-heart-14.svg
 osmc-symbols/orange-hiker-14.svg
+osmc-symbols/orange-mine-14.svg
 osmc-symbols/orange-red-bar-14.svg
 osmc-symbols/orange-red-dot-14.svg
 osmc-symbols/orange-red-lower-14.svg
 osmc-symbols/orange-red-stripe-14.svg
+osmc-symbols/orange-round-white-dot-14.svg
 osmc-symbols/orange-white-bar-14.svg
 osmc-symbols/orange-white-circle-14.svg
 osmc-symbols/orange-white-cross-14.svg
@@ -471,7 +479,9 @@ osmc-symbols/red-blue-stripe-14.svg
 osmc-symbols/red-brown-right-14.svg
 osmc-symbols/red-circle-hiker-14.svg
 osmc-symbols/red-circle-red-bar-14.svg
+osmc-symbols/red-circle-red-cross-14.svg
 osmc-symbols/red-circle-red-dot-14.svg
+osmc-symbols/red-circle-red-fork-14.svg
 osmc-symbols/red-circle-red-triangle-turned-14.svg
 osmc-symbols/red-circle-red-triangle-14.svg
 osmc-symbols/red-circle-white-circle-14.svg
@@ -482,6 +492,7 @@ osmc-symbols/red-frame-hiker-14.svg
 osmc-symbols/red-frame-red-arch-14.svg
 osmc-symbols/red-frame-red-bar-14.svg
 osmc-symbols/red-frame-red-cross-14.svg
+osmc-symbols/red-frame-red-diamond-14.svg
 osmc-symbols/red-frame-red-dot-14.svg
 osmc-symbols/red-frame-red-hiker-14.svg
 osmc-symbols/red-frame-red-pointer-14.svg
@@ -493,6 +504,7 @@ osmc-symbols/red-green-bar-14.svg
 osmc-symbols/red-green-dot-14.svg
 osmc-symbols/red-green-lower-14.svg
 osmc-symbols/red-green-right-14.svg
+osmc-symbols/red-green-slash-14.svg
 osmc-symbols/red-hiker-14.svg
 osmc-symbols/red-mine-14.svg
 osmc-symbols/red-orange-pointer-14.svg
@@ -548,6 +560,7 @@ osmc-symbols/white-black-diamond-line-14.svg
 osmc-symbols/white-black-diamond-14.svg
 osmc-symbols/white-black-dot-14.svg
 osmc-symbols/white-black-fork-14.svg
+osmc-symbols/white-black-hiker-14.svg
 osmc-symbols/white-black-lower-14.svg
 osmc-symbols/white-black-pointer-14.svg
 osmc-symbols/white-black-rectangle-line-14.svg
@@ -627,6 +640,7 @@ osmc-symbols/white-green-fork-14.svg
 osmc-symbols/white-green-hiker-14.svg
 osmc-symbols/white-green-lower-14.svg
 osmc-symbols/white-green-l-14.svg
+osmc-symbols/white-green-mine-14.svg
 osmc-symbols/white-green-pointer-14.svg
 osmc-symbols/white-green-rectangle-line-14.svg
 osmc-symbols/white-green-rectangle-14.svg
@@ -784,10 +798,12 @@ osmc-symbols/yellow-blue-rectangle-14.svg
 osmc-symbols/yellow-blue-shell-modern-14.svg
 osmc-symbols/yellow-blue-slash-14.svg
 osmc-symbols/yellow-blue-triangle-14.svg
+osmc-symbols/yellow-blue-turned-t-14.svg
 osmc-symbols/yellow-brown-bar-14.svg
 osmc-symbols/yellow-circle-black-pointer-14.svg
 osmc-symbols/yellow-circle-green-dot-14.svg
 osmc-symbols/yellow-circle-red-circle-14.svg
+osmc-symbols/yellow-circle-white-dot-14.svg
 osmc-symbols/yellow-circle-yellow-bar-14.svg
 osmc-symbols/yellow-circle-yellow-dot-14.svg
 osmc-symbols/yellow-frame-black-triangle-line-14.svg
@@ -796,6 +812,7 @@ osmc-symbols/yellow-frame-red-rectangle-14.svg
 osmc-symbols/yellow-frame-tower-14.svg
 osmc-symbols/yellow-frame-white-bar-14.svg
 osmc-symbols/yellow-frame-yellow-circle-14.svg
+osmc-symbols/yellow-frame-yellow-diamond-14.svg
 osmc-symbols/yellow-frame-yellow-pointer-14.svg
 osmc-symbols/yellow-frame-yellow-stripe-14.svg
 osmc-symbols/yellow-green-backslash-14.svg

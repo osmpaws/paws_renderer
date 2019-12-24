@@ -267,6 +267,9 @@
 		<rule e="way" k="osmc_foreground" v="green_hiker">
 			<lineSymbol src="file:/osmc-symbols/white_green_hiker.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="black_hiker">
+			<lineSymbol src="file:/osmc-symbols/white_black_hiker.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="hiker">
 			<lineSymbol src="file:/osmc-symbols/white_hiker.png" align-center="false" repeat="true" />
 		</rule>
@@ -311,6 +314,9 @@
 		</rule>
 		<rule e="way" k="osmc_foreground" v="L">
 			<lineSymbol src="file:/osmc-symbols/white_l.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="green_mine">
+			<lineSymbol src="file:/osmc-symbols/white_green_mine.png" align-center="false" repeat="true" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="mine">
 			<lineSymbol src="file:/osmc-symbols/white_mine.png" align-center="false" repeat="true" />

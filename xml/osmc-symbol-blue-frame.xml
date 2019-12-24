@@ -12,6 +12,9 @@
 		<rule e="way" k="osmc_foreground" v="blue_bowl">
 			<lineSymbol src="file:/osmc-symbols/blue_frame_blue_bowl.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="blue_diamond">
+			<lineSymbol src="file:/osmc-symbols/blue_frame_blue_diamond.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="hiker">
 			<lineSymbol src="file:/osmc-symbols/blue_frame_hiker.png" align-center="false" repeat="true" />
 		</rule>

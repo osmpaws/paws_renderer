@@ -15,6 +15,9 @@
 		<rule e="node" k="osmc_foreground" v="red_cross">
 			<symbol src="file:/osmc-symbols/red_frame_red_cross.png" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="red_diamond">
+			<symbol src="file:/osmc-symbols/red_frame_red_diamond.png" />
+		</rule>
 		<rule e="node" k="osmc_foreground" v="red_dot">
 			<symbol src="file:/osmc-symbols/red_frame_red_dot.png" />
 		</rule>

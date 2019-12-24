@@ -3,6 +3,7 @@
 :
 :^
 [...]
+="
 *
 ⌘
 :ammonit
@@ -170,6 +171,7 @@ blue:GF
 blue:gree_lower
 blue:green_frog
 blue:HBW
+blue:HF8
 blue:H-G
 blue_hiker
 blue:HW
@@ -292,6 +294,7 @@ brown:W
 brown:WBT
 brown;white;black_ammonit
 brown;white;brown;L
+brown_white:pointer
 brown:white_round
 brown:WLP
 brown:1
@@ -317,6 +320,7 @@ E6
 :F.
 fish
 fixme
+fuchsia:3
 g
 :G
 Gelb
@@ -385,6 +389,7 @@ green:green-rectangle
 green:green_rectnagle
 green:green_round
 green_hexagon:green
+green:HF7
 green_horse
 green:HW
 green:H1
@@ -464,12 +469,14 @@ green_triangle:
 :green_triangle
 green:TW
 green:U2
+green:W
 green:WdS
 green_web
 green:WFG
 green:white
 green:white_foot
 green:white_frame
+green:white_leaf
 green:white_rider
 green:white_sheep
 green:white_strip
@@ -570,6 +577,7 @@ orange:E1
 orange_frame:
 orange:F3
 orange:gray_bar
+orange:green
 orange:KS
 orange:Main
 orange:N
@@ -604,6 +612,7 @@ pink
 pink:black_dot
 pink_diamond
 pink:red_dot
+pink:white_stripe
 PR"
 Punkt_Gelb.png
 purple
@@ -651,6 +660,7 @@ red_arrow:
 red_bar
 :red_bar
 red_bar:white_lower
+red_bar][[:yellow_lower]
 red:BE1
 red:black_horse
 red:Boschi
@@ -692,6 +702,7 @@ red:F2
 red:GBD
 red:gold
 red:Gouw
+red:gray_stripe
 red;green_frame;red_dot;black
 red:GWP
 red_hiker
@@ -798,6 +809,7 @@ Symbol_Jakobsweg.svg
 symbol=red:red
 symbol=red:red_round
 symbol=yellow:white
+symbol=yellow:yellow
 Tauplitz
 teal:
 text:black
@@ -824,6 +836,7 @@ white
 white:
 white:\
 white:=
+white:+
 white:𐂂
 :white
 white:A
@@ -924,6 +937,7 @@ white:EBM
 white:EW
 white:E4
 white:F
+white:face
 white:Fe1
 white:GDR
 white:geen_bar
@@ -1064,6 +1078,7 @@ white:squirrel
 white_stripe
 white_stripe:D0
 white_stripe:G0
+white_stripe:H03
 white_stripe:red_right
 white_stripe:302
 white:T
@@ -1152,6 +1167,7 @@ wihte:yellow_point
 wite:red_stripe
 withe:blue_bar
 withe:orange_diamond
+withe:red_diamond
 withe:yellow_bar
 withe:yellow_lower
 with:yellow_bar
@@ -1173,6 +1189,8 @@ yellow_bar:yellow_bar
 yellow_bar:yellow_circle
 yellow_bar:yellow_dot
 yellow_bar:10
+yellow_bar:104
+yellow_bar:58
 yellow:BB
 yellow:black
 yellow:black_bike
@@ -1205,6 +1223,7 @@ yellow_circle:6
 yellow_cross
 :yellow_cross
 yellow:cyan_lower
+:yellow_diamon
 yellow_diamond
 :yellow_diamond
 yellow_diamond:blue_dot
@@ -1232,6 +1251,7 @@ yellow_framewhite:red_rectangle_line
 yellow_frame:WSW
 yellow_frame:Yellow_triangle
 yellow:F4
+yellow:gray_diamond
 yellow:green
 yellow:green_up_triangle
 yellow_ground:green_bowl
@@ -1241,6 +1261,7 @@ yellow:G2
 yellow:G5
 yellow:G7
 yellow:HBB
+yellow:HF6
 :yellow_hiker
 yellow:H2
 yellow:H8
@@ -1257,12 +1278,14 @@ yellow:NEK
 yellow:NGK
 yellow:none
 yellow:none_bar
+yellow:(o)
 yellow:OS
 yellow_pointer
 yellow_pointer:
 :yellow_pointer
 yellow:PR
 yellow:PT
+yellow_rectangle
 :yellow_rectangle
 :yellow_rectangle_line
 yellow:red
@@ -1305,6 +1328,7 @@ yellow:WA
 yellow:white
 yellow:white_bicycle
 yellow:white_black_diamond
+yellow:white_blue_diamond
 yellow:white_red_diamond
 yellow:white_upper
 yellow:Wildkräuterweg
@@ -1351,6 +1375,7 @@ Z00:black
 2:black
 2010-01-01
 273C
+3:black
 3:yellow
 :4
 #40E0D0

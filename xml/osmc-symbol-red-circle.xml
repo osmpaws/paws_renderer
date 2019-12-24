@@ -9,6 +9,9 @@
 		<rule e="way" k="osmc_foreground" v="white_circle">
 			<lineSymbol src="file:/osmc-symbols/red_circle_white_circle.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="red_cross">
+			<lineSymbol src="file:/osmc-symbols/red_circle_red_cross.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="red_dot">
 			<lineSymbol src="file:/osmc-symbols/red_circle_red_dot.png" align-center="false" repeat="true" />
 		</rule>
@@ -17,6 +20,9 @@
 		</rule>
 		<rule e="way" k="osmc_foreground" v="white_dot">
 			<lineSymbol src="file:/osmc-symbols/red_circle_white_dot.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="red_fork">
+			<lineSymbol src="file:/osmc-symbols/red_circle_red_fork.png" align-center="false" repeat="true" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="hiker">
 			<lineSymbol src="file:/osmc-symbols/red_circle_hiker.png" align-center="false" repeat="true" />
