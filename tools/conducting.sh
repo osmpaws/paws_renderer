@@ -252,8 +252,8 @@ if [ 1 -gt 0 ] ; then
 		echo "s" > $root/tools/$lmod
 	fi
 	
-	#rm -r ../svg_patterns/*
-	#python tools/export.py tools/config/$pawspatternsyaml
+	rm -r ../svg_patterns/*
+	python tools/export.py tools/config/$pawspatternsyaml
 	cd ..
 	
 fi
