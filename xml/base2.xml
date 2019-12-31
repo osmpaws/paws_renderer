@@ -1663,8 +1663,29 @@
 			</rule>
 		</rule>
 		
+		<!-- traffic calming -->
+		<rule e="node" k="traffic_calming" v="*">
+			<rule e="node" k="traffic_calming" v="dip" zoom-max="16">
+				<circle r="3.0" fill="#ffab10" stroke="#606060" stroke-width="1.1" />
+				<circle r="1.0" fill="#606060" />
+			</rule>
+			<rule e="node" k="traffic_calming" v="dip" zoom-min="17">
+				<circle r="6.0" fill="#ffab10" stroke="#606060" stroke-width="2.2" />
+				<circle r="2.0" fill="#606060" />
+			</rule>
+			<rule e="node" k="traffic_calming" v="bump" zoom-max="16">
+				<circle r="3.0" fill="#ffab10" stroke="#606060" stroke-width="1.1" />
+			</rule>
+			<rule e="node" k="traffic_calming" v="bump" zoom-min="17">
+				<circle r="6.0" fill="#ffab10" stroke="#606060" stroke-width="2.2" />
+			</rule>
+		</rule>
+		
 		<!-- highway -->
 		<rule e="node" k="highway" v="*">
+			<rule e="node" k="highway" v="bus_stop" zoom-min="17">
+				<caption k="name" dy="25.5" font-style="bold" font-size="17.0" fill="#2dec2d" stroke="#606060" stroke-width="3.0" />
+			</rule>
 			<rule e="node" k="highway" v="bus_stop" zoom-min="15">
 				<!--<symbol src="file:/symbols/bus.png" />-->
 				<circle r="6.0" fill="#2dec2d" stroke="#606060" stroke-width="2.2" />

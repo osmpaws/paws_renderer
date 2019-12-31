@@ -57,6 +57,9 @@
 		<rule e="node" k="osmc_foreground" v="mine">
 			<symbol src="file:/osmc-symbols/white_round_mine.png" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="red_right">
+			<symbol src="file:/osmc-symbols/white_round_red_right.png" />
+		</rule>
 		<rule e="node" k="osmc_foreground" v="red_triangle">
 			<symbol src="file:/osmc-symbols/white_round_red_triangle.png" />
 		</rule>

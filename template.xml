@@ -2,7 +2,7 @@
 <rendertheme xmlns="http://mapsforge.org/renderTheme" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://mapsforge.org/renderTheme ../renderTheme.xsd" version="1" map-background="#f8f8f8">
 	
-	<!--#r00050b00411#-->
+	<!--#r00053b00424#-->
 
 	<!--style#v4#setup-->
 	
@@ -1991,8 +1991,29 @@
 			</rule>
 		</rule>
 		
+		<!-- traffic calming -->
+		<rule e="node" k="traffic_calming" v="*">
+			<rule e="node" k="traffic_calming" v="dip" zoom-max="16">
+				<circle r="3.00" fill="#ffab10" stroke="#606060" stroke-width="1.10" />
+				<circle r="1.00" fill="#606060" />
+			</rule>
+			<rule e="node" k="traffic_calming" v="dip" zoom-min="17">
+				<circle r="6.00" fill="#ffab10" stroke="#606060" stroke-width="2.20" />
+				<circle r="2.00" fill="#606060" />
+			</rule>
+			<rule e="node" k="traffic_calming" v="bump" zoom-max="16">
+				<circle r="3.00" fill="#ffab10" stroke="#606060" stroke-width="1.10" />
+			</rule>
+			<rule e="node" k="traffic_calming" v="bump" zoom-min="17">
+				<circle r="6.00" fill="#ffab10" stroke="#606060" stroke-width="2.20" />
+			</rule>
+		</rule>
+		
 		<!-- highway -->
 		<rule e="node" k="highway" v="*">
+			<rule e="node" k="highway" v="bus_stop" zoom-min="17">
+				<caption k="name" dy="25.50" font-style="bold" font-size="17.00" fill="#2dec2d" stroke="#606060" stroke-width="3.00" />
+			</rule>
 			<rule e="node" k="highway" v="bus_stop" zoom-min="15">
 				<!--<symbol src="file:/symbols/bus.png" />-->
 				<circle r="6.00" fill="#2dec2d" stroke="#606060" stroke-width="2.20" />
@@ -2476,6 +2497,9 @@
 		</rule>
 		<rule e="way" k="osmc_foreground" v="mine">
 			<lineSymbol src="file:/osmc-symbols/white_round_mine.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="red_right">
+			<lineSymbol src="file:/osmc-symbols/white_round_red_right.png" align-center="false" repeat="true" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="red_triangle">
 			<lineSymbol src="file:/osmc-symbols/white_round_red_triangle.png" align-center="false" repeat="true" />
@@ -3740,6 +3764,9 @@
 		<rule e="way" k="osmc_foreground" v="blue_diamond">
 			<lineSymbol src="file:/osmc-symbols/blue_frame_blue_diamond.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="blue_hiker">
+			<lineSymbol src="file:/osmc-symbols/blue_frame_blue_hiker.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="hiker">
 			<lineSymbol src="file:/osmc-symbols/blue_frame_hiker.png" align-center="false" repeat="true" />
 		</rule>
@@ -4657,6 +4684,9 @@
 		</rule>
 		<rule e="way" k="osmc_foreground" v="white_dot">
 			<lineSymbol src="file:/osmc-symbols/green_round_white_dot.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="orange_dot">
+			<lineSymbol src="file:/osmc-symbols/green_round_orange_dot.png" align-center="false" repeat="true" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="white_pointer">
 			<lineSymbol src="file:/osmc-symbols/green_round_white_pointer.png" align-center="false" repeat="true" />

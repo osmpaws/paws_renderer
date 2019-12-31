@@ -67,6 +67,7 @@ black_dot
 :black_dot
 black:E8
 black_frame:
+black_frame:none
 black:GEO
 black:GLH
 black:green
@@ -399,6 +400,7 @@ green:IRA
 green:jellow_dot
 green:KBP
 green:KVO
+green_lower
 :green_lower
 green:MIL
 green:MR
@@ -662,6 +664,7 @@ red_bar
 red_bar:white_lower
 red_bar][[:yellow_lower]
 red:BE1
+red:black
 red:black_horse
 red:Boschi
 red:BT
