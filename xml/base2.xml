@@ -228,8 +228,11 @@
 			<rule e="way" k="leisure" v="park|garden|golf_course|common" zoom-min="13">
 				<area fill="#c7f1a3" stroke="#6fe18e" stroke-width="0.3" />
 			</rule>
-			<rule e="way" k="leisure" v="playground|pitch|dog_park|recreation_ground">
+			<rule e="way" k="leisure" v="playground|pitch|recreation_ground">
 				<area fill="#c7f1a3" stroke="#6fc18e" stroke-width="0.3" />
+			</rule>
+			<rule e="way" k="leisure" v="dog_park">
+				<area src="file:/patterns/dog_park.png" />
 			</rule>
 			<rule e="way" k="leisure" v="stadium|sports_centre|water_park">
 				<area fill="#bde3cb" stroke="#6fc18e" stroke-width="0.3" />
@@ -245,6 +248,9 @@
 			</rule>
 			<rule e="way" k="leisure" v="swimming_pool" zoom-min="13">
 				<area fill="#b5d6f1" stroke="#6060ff" stroke-width="0.3" />
+			</rule>
+			<rule e="way" k="leisure" v="firepit" zoom-min="15">
+				<area fill="#ac6d39" stroke="#404040" stroke-width="0.3" />
 			</rule>
 			<rule e="way" k="*" v="*" zoom-min="17">
 				<caption k="name" dy="-25.5" font-style="bold" font-size="17.0" fill="#407740" stroke="#ffffff" stroke-width="3.0" />
@@ -293,6 +299,9 @@
 		<rule e="way" k="man_made" v="*">
 			<rule e="way" k="man_made" v="water_works" zoom-min="15">
 				<area fill="#518dab" stroke="#b5b5b5" stroke-width="1" />
+			</rule>
+			<rule e="way" k="man_made" v="water_tower" zoom-min="15">
+				<area fill="#518dab" stroke="#d5b5b5" stroke-width="1" />
 			</rule>
 		</rule>
 		
@@ -1726,6 +1735,12 @@
 		<rule e="node" k="man_made" v="water_works" zoom-min="16">
 			<circle r="15.0" fill="#518dab" stroke="#b5b5b5" stroke-width="3" />
 		</rule>
+		<rule e="node" k="man_made" v="water_tower" zoom-min="17">
+			<symbol src="file:/symbols/water_tower.png" />
+		</rule>
+		<rule e="node" k="man_made" v="beehive" zoom-min="17">
+			<symbol src="file:/symbols/bee.png" />
+		</rule>
 		<rule e="node" k="man_made" v="cross" zoom-min="16">
 			<symbol src="file:/symbols/wayside_cross.png" />
 		</rule>
@@ -2047,6 +2062,12 @@
 		
 		<!-- leisure -->
 		<rule e="any" k="leisure" v="*">
+			<rule e="any" k="leisure" v="dog_park" zoom-min="17">
+				<symbol src="file:/symbols/paw.png" />
+			</rule>
+			<rule e="any" k="leisure" v="firepit" zoom-min="17">
+				<symbol src="file:/symbols/fire.png" />
+			</rule>
 			<rule e="any" k="leisure" v="playground" zoom-min="17">
 				<symbol src="file:/symbols/playground.png" />
 			</rule>

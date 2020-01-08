@@ -2,7 +2,7 @@
 <rendertheme xmlns="http://mapsforge.org/renderTheme" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://mapsforge.org/renderTheme ../renderTheme.xsd" version="1" map-background="#f8f8f8">
 	
-	<!--#r00053b00424#-->
+	<!--#r00055b00439#-->
 
 	<!--style#v4#setup-->
 	
@@ -228,8 +228,11 @@
 			<rule e="way" k="leisure" v="park|garden|golf_course|common" zoom-min="13">
 				<area fill="#c7f1a3" stroke="#6fe18e" stroke-width="0.30" />
 			</rule>
-			<rule e="way" k="leisure" v="playground|pitch|dog_park|recreation_ground">
+			<rule e="way" k="leisure" v="playground|pitch|recreation_ground">
 				<area fill="#c7f1a3" stroke="#6fc18e" stroke-width="0.30" />
+			</rule>
+			<rule e="way" k="leisure" v="dog_park">
+				<area src="file:/patterns/dog_park.png" />
 			</rule>
 			<rule e="way" k="leisure" v="stadium|sports_centre|water_park">
 				<area fill="#bde3cb" stroke="#6fc18e" stroke-width="0.30" />
@@ -245,6 +248,9 @@
 			</rule>
 			<rule e="way" k="leisure" v="swimming_pool" zoom-min="13">
 				<area fill="#b5d6f1" stroke="#6060ff" stroke-width="0.30" />
+			</rule>
+			<rule e="way" k="leisure" v="firepit" zoom-min="15">
+				<area fill="#ac6d39" stroke="#404040" stroke-width="0.30" />
 			</rule>
 			<rule e="way" k="*" v="*" zoom-min="17">
 				<caption k="name" dy="-25.50" font-style="bold" font-size="17.00" fill="#407740" stroke="#ffffff" stroke-width="3.00" />
@@ -293,6 +299,9 @@
 		<rule e="way" k="man_made" v="*">
 			<rule e="way" k="man_made" v="water_works" zoom-min="15">
 				<area fill="#518dab" stroke="#b5b5b5" stroke-width="1.00" />
+			</rule>
+			<rule e="way" k="man_made" v="water_tower" zoom-min="15">
+				<area fill="#518dab" stroke="#d5b5b5" stroke-width="1.00" />
 			</rule>
 		</rule>
 		
@@ -2053,6 +2062,12 @@
 		<!-- man_made -->
 		<rule e="node" k="man_made" v="water_works" zoom-min="16">
 			<circle r="15.00" fill="#518dab" stroke="#b5b5b5" stroke-width="3.00" />
+		</rule>
+		<rule e="node" k="man_made" v="water_tower" zoom-min="17">
+			<symbol src="file:/symbols/water_tower.png" />
+		</rule>
+		<rule e="node" k="man_made" v="beehive" zoom-min="17">
+			<symbol src="file:/symbols/bee.png" />
 		</rule>
 		<rule e="node" k="man_made" v="cross" zoom-min="16">
 			<symbol src="file:/symbols/wayside_cross.png" />
@@ -4655,6 +4670,9 @@
 		<rule e="way" k="osmc_foreground" v="yellow_x">
 			<lineSymbol src="file:/osmc-symbols/green_yellow_x.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="white_x">
+			<lineSymbol src="file:/osmc-symbols/green_white_x.png" align-center="false" repeat="true" />
+		</rule>
 	</rule>
 <!--OSMC symbols green_round background-->
 	<rule e="way" k="osmc_background" v="green_round" zoom-min="15">
@@ -5111,6 +5129,12 @@
 		
 		<!-- leisure -->
 		<rule e="any" k="leisure" v="*">
+			<rule e="any" k="leisure" v="dog_park" zoom-min="17">
+				<symbol src="file:/symbols/paw.png" />
+			</rule>
+			<rule e="any" k="leisure" v="firepit" zoom-min="17">
+				<symbol src="file:/symbols/fire.png" />
+			</rule>
 			<rule e="any" k="leisure" v="playground" zoom-min="17">
 				<symbol src="file:/symbols/playground.png" />
 			</rule>

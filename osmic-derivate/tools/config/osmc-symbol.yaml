@@ -6217,6 +6217,13 @@ green-yellow-x:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+green-white-x:
+  fill: "#ffffff"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 red-white-x:
   fill: "#ffffff"
   shield:

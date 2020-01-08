@@ -332,6 +332,7 @@ osmc-symbols/green-white-stripe-14.svg
 osmc-symbols/green-white-triangle-line-14.svg
 osmc-symbols/green-white-triangle-14.svg
 osmc-symbols/green-white-wheelchair-14.svg
+osmc-symbols/green-white-x-14.svg
 osmc-symbols/green-yellow-bar-14.svg
 osmc-symbols/green-yellow-circle-14.svg
 osmc-symbols/green-yellow-cross-14.svg
@@ -873,23 +874,24 @@ patterns/access-destination-14.svg 1477506859.0233184980
 patterns/access-no-bike-14.svg 1477506894.1433846000
 patterns/access-no-foot-14.svg 1477506920.5834342220
 patterns/access-private-14.svg 1477506936.2394635500
-patterns/bare-rock-32.svg 1577811963.0068324010
-patterns/cemetery-christian-32.svg 1577811963.0148324270
-patterns/cemetery-jewish-32.svg 1577811963.0188324400
-patterns/cemetery-32.svg 1577811963.0108324140
+patterns/bare-rock-32.svg 1578479240.5200146960
+patterns/cemetery-christian-32.svg 1578479240.5320147400
+patterns/cemetery-jewish-32.svg 1578479240.5360147550
+patterns/cemetery-32.svg 1578479240.5280147250
+patterns/dog-park-14.svg 1578482565.6717038130
 patterns/marsh-32.svg 1547369247.5884419340
-patterns/military-14.svg 1577811963.0268324660
+patterns/military-14.svg 1578479240.5480147980
 patterns/national-park-14.svg 1523032857.8471863180
 patterns/nature-reserve-14.svg 1549660700.5219758940
-patterns/orchard-32.svg 1577811963.0308324780
-patterns/photovoltaic-32.svg 1577811963.0388325050
-patterns/plant-nursery-32.svg 1577811963.0428325180
-patterns/scree-32.svg 1577811963.0468325310
-patterns/scrub-32.svg 1577811963.0508325440
-patterns/vineyard-32.svg 1577811963.0588325700
-patterns/wood-coniferous-32.svg 1577811963.0628325830
-patterns/wood-deciduous-32.svg 1577811963.0668325960
-patterns/wood-mixed-32.svg 1577811963.0748326220
+patterns/orchard-32.svg 1578479240.5520148120
+patterns/photovoltaic-32.svg 1578479240.5600148410
+patterns/plant-nursery-32.svg 1578479240.5640148560
+patterns/scree-32.svg 1578479240.5680148710
+patterns/scrub-32.svg 1578479240.5760149000
+patterns/vineyard-32.svg 1578479240.5840149290
+patterns/wood-coniferous-32.svg 1578479240.5880149440
+patterns/wood-deciduous-32.svg 1578479240.5960149720
+patterns/wood-mixed-32.svg 1578479240.6000149870
 symbols/access-destination-14.svg 1537685023.1772427360
 symbols/access-no-bike-14.svg 1537697731.6136963050
 symbols/access-no-foot-14.svg 1537700748.2133918680
@@ -905,9 +907,10 @@ symbols/bad-surface-14.svg 1537707243.5739652980
 symbols/bakery-14.svg 1476378830.7458430000
 symbols/bank-14.svg 1476378830.7458430000
 symbols/bar-14.svg 1476378830.7378420000
+symbols/bee-14.svg 1578509694.7840053680
 symbols/bench-14.svg 1476378830.7458430000
 symbols/bicycle-14.svg 1477072718.3872190000
-symbols/board-14.svg 1559495322.3154562480
+symbols/board-14.svg 1578506284.6864396140
 symbols/bus-station-14.svg 1549660737.2860827310
 symbols/bus-14.svg 1477594924.8516655020
 symbols/butcher-14.svg 1476378830.7498430000
@@ -931,7 +934,8 @@ symbols/emergency-phone-14.svg 1541923375.1518185860
 symbols/entrance-main-14.svg 1541930329.1619692280
 symbols/entrance-10.svg 1476378830.7378420000
 symbols/fast-food-14.svg 1476378830.7378420000
-symbols/fire-station-14.svg 1476378830.7418420000
+symbols/fire-station-14.svg 1578514869.1341446440
+symbols/fire-14.svg 1578514869.1341446440
 symbols/florist-14.svg 1476378830.7498430000
 symbols/fountain-14.svg 1476378830.7458430000
 symbols/fuel-14.svg 1476378830.7538430000
@@ -979,6 +983,7 @@ symbols/opposite-lane-14.svg 1516207063.6968416520
 symbols/parking-bicycle-14.svg 1541930468.3983974880
 symbols/parking-car-14.svg 1476378830.7538430000
 symbols/parking-garage-car-14.svg 1476378830.7538430000
+symbols/paw-14.svg 1578514869.1661447400
 symbols/peak-10.svg 1476378830.7458430000
 symbols/pharmacy-14.svg 1541932115.0917821180
 symbols/picnic-site-14.svg 1476466330.3479100000
@@ -1028,6 +1033,7 @@ symbols/viewpoint-14.svg 1476378830.7498430000
 symbols/vulcan-10.svg 1477335840.2201525530
 symbols/warning-14.svg 1547891195.1144232390
 symbols/waterfall-14.svg 1555223092.1042741650
+symbols/water-tower-14.svg 1476378830.7458430000
 symbols/wayside-cross-14.svg 1479554569.0000000000
 symbols/wayside-shrine-14.svg 1479567130.0000000000
 symbols/windmill-14.svg 1476378830.7498430000

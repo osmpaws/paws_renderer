@@ -7740,6 +7740,12 @@
 		<rule e="node" k="osmc_foreground" v="yellow_x">
 			<symbol src="file:/osmc-symbols/green_yellow_x.png" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="white_x">
+			<lineSymbol src="file:/osmc-symbols/green_white_x.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="white_x">
+			<symbol src="file:/osmc-symbols/green_white_x.png" />
+		</rule>
 	</rule>
 	<rule e="way" k="osmc_background" v="green_circle" zoom-min="15">
 	</rule>

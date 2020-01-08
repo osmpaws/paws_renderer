@@ -195,4 +195,7 @@
 		<rule e="way" k="osmc_foreground" v="yellow_x">
 			<lineSymbol src="file:/osmc-symbols/green_yellow_x.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="white_x">
+			<lineSymbol src="file:/osmc-symbols/green_white_x.png" align-center="false" repeat="true" />
+		</rule>
 	</rule>

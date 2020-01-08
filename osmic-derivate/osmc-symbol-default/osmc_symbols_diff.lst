@@ -624,6 +624,7 @@ purple:-
 purple:Archeo
 purple:A10
 purple:A11
+:purple_bar
 purple_circle
 purple_circle:
 purple:DGG
@@ -772,6 +773,7 @@ red_white_stripe:VL4
 red:white_stripe_VU2a
 red:white_stripe_Z8
 red_white_stripe:737
+red:white_stripr
 red:white_strype20
 red/whitw
 red:wite_stripe
@@ -827,6 +829,7 @@ Valllorbe
 violet
 way
 wegfarbe
+Wegsymbol-E3.jpg
 Weiß
 weiße
 Weisse
@@ -950,6 +953,7 @@ white:GR
 white:gray_pointer
 white:green
 white:green_arrow
+white:green_bacjslash
 white:green_backshlash
 white:green_bacslash
 White:Green_bar
@@ -962,6 +966,7 @@ white:green_drop
 white:green_drop_line
 white:green_foot
 white:green_frame
+white:green_green_backslash
 white:green_chapel
 white:green_oak_leaf
 white:green_oval

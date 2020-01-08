@@ -108,6 +108,12 @@ bus-station:
     stroke_width: 2
     rounded: 10
     padding: 4
+bee:
+  fill: "#000000"
+  halo:
+    fill: "#ffff00"
+    width: 1
+    opacity: 0.7
 lighthouse:
   fill: "#0092da"
 camping:
@@ -326,6 +332,11 @@ bench:
     fill: "#ffffff"
     width: 1
     opacity: 1.0
+fire:
+  halo:
+    fill: "#ffffff"
+    width: 1
+    opacity: 1.0
 memorial:
   halo:
     fill: "#ffffff"
@@ -371,6 +382,8 @@ railway-crossing-small:
     fill: "#ff0000"
     width: 1
     opacity: 1.0
+paw:
+  fill: "#000000"
 pillbox:
   fill: "#000000"
   halo:
@@ -584,6 +597,13 @@ cemetery-jewish:
   fill: "#999999"
   shield:
     fill: "#bde3cb"
+dog-park:
+  fill: "#b7e8bc"
+  opacity: 0.75
+  shield:
+    fill: "#c7f1a3"
+    opacity: 0.3
+    padding: 2
 marsh:
   fill: "#0092da"
 military:

@@ -371,6 +371,8 @@ railway-crossing-small:
     fill: "#ff0000"
     width: 1
     opacity: 1.0
+paw:
+  fill: "#b7e8bc"
 pillbox:
   fill: "#000000"
   halo:
@@ -584,6 +586,13 @@ cemetery-jewish:
   fill: "#999999"
   shield:
     fill: "#9acee1"
+dog-park:
+  fill: "#b7e8bc"
+  opacity: 0.25
+  shield:
+    fill: "#96c9cd"
+    opacity: 0.25
+    padding: 2
 marsh:
   fill: "#0092da"
 military:

@@ -195,4 +195,7 @@
 		<rule e="node" k="osmc_foreground" v="yellow_x">
 			<symbol src="file:/osmc-symbols/green_yellow_x.png" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="white_x">
+			<symbol src="file:/osmc-symbols/green_white_x.png" />
+		</rule>
 	</rule>
