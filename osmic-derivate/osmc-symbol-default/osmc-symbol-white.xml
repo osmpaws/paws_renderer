@@ -129,6 +129,9 @@
 		<rule e="way" k="osmc_foreground" v="corner">
 			<lineSymbol src="file:/osmc-symbols/white_corner.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="yellow_crest">
+			<lineSymbol src="file:/osmc-symbols/white_yellow_crest.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="black_crest">
 			<lineSymbol src="file:/osmc-symbols/white_black_crest.png" align-center="false" repeat="true" />
 		</rule>

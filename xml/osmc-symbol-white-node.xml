@@ -129,6 +129,9 @@
 		<rule e="node" k="osmc_foreground" v="corner">
 			<symbol src="file:/osmc-symbols/white_corner.png" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="yellow_crest">
+			<symbol src="file:/osmc-symbols/white_yellow_crest.png" />
+		</rule>
 		<rule e="node" k="osmc_foreground" v="black_crest">
 			<symbol src="file:/osmc-symbols/white_black_crest.png" />
 		</rule>

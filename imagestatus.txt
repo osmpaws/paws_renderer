@@ -754,6 +754,7 @@ osmc-symbols/white-yellow-bar-14.svg
 osmc-symbols/white-yellow-bowl-14.svg
 osmc-symbols/white-yellow-circle-14.svg
 osmc-symbols/white-yellow-corner-14.svg
+osmc-symbols/white-yellow-crest-14.svg
 osmc-symbols/white-yellow-cross-14.svg
 osmc-symbols/white-yellow-diamond-line-14.svg
 osmc-symbols/white-yellow-diamond-14.svg
@@ -836,6 +837,7 @@ osmc-symbols/yellow-mine-14.svg
 osmc-symbols/yellow-orange-dot-14.svg
 osmc-symbols/yellow-orange-lower-14.svg
 osmc-symbols/yellow-orange-triangle-14.svg
+osmc-symbols/yellow-purple-circle-14.svg
 osmc-symbols/yellow-purple-dot-14.svg
 osmc-symbols/yellow-purple-lower-14.svg
 osmc-symbols/yellow-purple-pointer-14.svg
@@ -874,24 +876,24 @@ patterns/access-destination-14.svg 1477506859.0233184980
 patterns/access-no-bike-14.svg 1477506894.1433846000
 patterns/access-no-foot-14.svg 1477506920.5834342220
 patterns/access-private-14.svg 1477506936.2394635500
-patterns/bare-rock-32.svg 1578515817.2169872910
-patterns/cemetery-christian-32.svg 1578515817.2249873160
-patterns/cemetery-jewish-32.svg 1578515817.2289873280
-patterns/cemetery-32.svg 1578515817.2209873030
-patterns/dog-park-14.svg 1578515817.2369873530
+patterns/bare-rock-32.svg 1579978634.6223623510
+patterns/cemetery-christian-32.svg 1579978634.6503624440
+patterns/cemetery-jewish-32.svg 1579978634.6543624570
+patterns/cemetery-32.svg 1579978634.6463624310
+patterns/dog-park-14.svg 1579978634.6823625510
 patterns/marsh-32.svg 1547369247.5884419340
-patterns/military-14.svg 1578515817.2409873640
+patterns/military-14.svg 1579978634.6943625910
 patterns/national-park-14.svg 1523032857.8471863180
 patterns/nature-reserve-14.svg 1549660700.5219758940
-patterns/orchard-32.svg 1578515817.2449873760
-patterns/photovoltaic-32.svg 1578515817.2489873890
-patterns/plant-nursery-32.svg 1578515817.2529874010
-patterns/scree-32.svg 1578515817.2569874130
-patterns/scrub-32.svg 1578515817.2609874260
-patterns/vineyard-32.svg 1578515817.2689874500
-patterns/wood-coniferous-32.svg 1578515817.2729874630
-patterns/wood-deciduous-32.svg 1578515817.2769874740
-patterns/wood-mixed-32.svg 1578515817.2849874990
+patterns/orchard-32.svg 1579978634.7143626590
+patterns/photovoltaic-32.svg 1579978634.7343627250
+patterns/plant-nursery-32.svg 1579978634.7863628990
+patterns/scree-32.svg 1579978634.8263630340
+patterns/scrub-32.svg 1579978634.8543631270
+patterns/vineyard-32.svg 1579978634.8623631540
+patterns/wood-coniferous-32.svg 1579978634.8703631810
+patterns/wood-deciduous-32.svg 1579978634.8783632080
+patterns/wood-mixed-32.svg 1579978634.8943632610
 symbols/access-destination-14.svg 1537685023.1772427360
 symbols/access-no-bike-14.svg 1537697731.6136963050
 symbols/access-no-foot-14.svg 1537700748.2133918680
@@ -899,7 +901,7 @@ symbols/access-private-14.svg 1537643530.1119110720
 symbols/adefaultsign-hiker-14.svg 1537705201.5146864000
 symbols/adit-14.svg 1546447023.0706070790
 symbols/airport-14.svg 1476378830.7498430000
-symbols/alpine-hut-14.svg 1546447093.5347332160
+symbols/alpine-hut-14.svg 1482960057.3101430000
 symbols/archaeological-site-14.svg 1476378830.7498430000
 symbols/artwork-14.svg 1527510130.2984621570
 symbols/atm-14.svg 1541921431.2129123740
@@ -917,6 +919,7 @@ symbols/butcher-14.svg 1476378830.7498430000
 symbols/cable-car-14.svg 1549797394.1336824520
 symbols/cafe-14.svg 1541932785.1820252410
 symbols/camping-14.svg 1541930401.5661951290
+symbols/caravan-14.svg 1476378830.7458430000
 symbols/castle-fortress-14.svg 1476378830.7498430000
 symbols/castle-ruin-14.svg 1479568521.0000000000
 symbols/castle-stately-14.svg 1476378830.7498430000
@@ -945,6 +948,7 @@ symbols/gate-14.svg 1541930513.5825347520
 symbols/gift-14.svg 1476378830.7498430000
 symbols/gondola-14.svg 1549797394.1976827980
 symbols/greengrocer-14.svg 1476378830.7498430000
+symbols/guest-house-14.svg 1580069330.5485130880
 symbols/guidepost-bad-14.svg 1558727875.7142721400
 symbols/guidepost-14.svg 1541921502.3411599980
 symbols/heliport-14.svg 1476378830.7538430000
@@ -952,6 +956,7 @@ symbols/hospital-14.svg 1476378830.7418420000
 symbols/hostel-14.svg 1541921527.9692493290
 symbols/hotel-14.svg 1476378830.7378420000
 symbols/hunting-stand-14.svg 1476378830.7458430000
+symbols/hut-14.svg 1579978077.6324861530
 symbols/chair-lift-14.svg 1549796996.7635977590
 symbols/chemist-14.svg 1476378830.7498430000
 symbols/christian-14.svg 1476378830.7458430000
@@ -970,6 +975,7 @@ symbols/map-14.svg 1559495322.3234562720
 symbols/mast-communications-14.svg 1476378830.7458430000
 symbols/memorial-14.svg 1541932029.4314860090
 symbols/monument-14.svg 1476378830.7498430000
+symbols/motel-14.svg 1579983537.0863416290
 symbols/mountain-rescue-14.svg 1541931878.1989645730
 symbols/museum-14.svg 1541922950.6182885450
 symbols/muslim-14.svg 1476378830.7458430000
@@ -1036,4 +1042,6 @@ symbols/waterfall-14.svg 1555223092.1042741650
 symbols/water-tower-14.svg 1476378830.7458430000
 symbols/wayside-cross-14.svg 1479554569.0000000000
 symbols/wayside-shrine-14.svg 1479567130.0000000000
+symbols/wilderness-hut-14.svg 1482960057.3101430000
 symbols/windmill-14.svg 1476378830.7498430000
+symbols/zoo-14.svg 1579978451.2457469970

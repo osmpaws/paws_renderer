@@ -2089,14 +2089,26 @@
 			<rule e="any" k="tourism" v="camp_site" zoom-min="15">
 				<symbol src="file:/symbols/camping.png" />
 			</rule>
+			<rule e="any" k="tourism" v="caravan_site" zoom-min="15">
+				<symbol src="file:/symbols/caravan.png" />
+			</rule>
+			<rule e="any" k="tourism" v="guest_house" zoom-min="17">
+				<symbol src="file:/symbols/guest_house.png" />
+			</rule>
 			<rule e="any" k="tourism" v="hostel" zoom-min="17">
 				<symbol src="file:/symbols/hostel.png" />
 			</rule>
 			<rule e="any" k="tourism" v="hotel" zoom-min="17">
 				<symbol src="file:/symbols/hotel.png" />
 			</rule>
+			<rule e="any" k="tourism" v="chalet" zoom-min="15">
+				<symbol src="file:/symbols/hut.png" />
+			</rule>
 			<rule e="any" k="tourism" v="informations" zoom-min="17">
 				<symbol src="file:/symbols/information.png" />
+			</rule>
+			<rule e="any" k="tourism" v="motel" zoom-min="17">
+				<symbol src="file:/symbols/motel.png" />
 			</rule>
 			<rule e="any" k="tourism" v="museum" zoom-min="17" zoom-max="18">
 				<symbol src="file:/symbols/museum.png" />
@@ -2106,6 +2118,12 @@
 			</rule>
 			<rule e="any" k="tourism" v="viewpoint" zoom-min="15">
 				<symbol src="file:/symbols/viewpoint.png" />
+			</rule>
+			<rule e="any" k="tourism" v="wilderness_hut" zoom-min="15">
+				<symbol src="file:/symbols/wilderness_hut.png" />
+			</rule>
+			<rule e="any" k="tourism" v="zoo" zoom-min="15">
+				<symbol src="file:/symbols/zoo.png" />
 			</rule>
 			<!--#guidepost#-->
 			<rule e="any" k="information" v="map" zoom-min="16">

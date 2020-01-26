@@ -171,6 +171,7 @@ blue:F3
 blue:GF
 blue:gree_lower
 blue:green_frog
+bluegreen:white
 blue:HBW
 blue:HF8
 blue:H-G
@@ -677,6 +678,7 @@ red_circle
 red_circle:
 :red_circle
 red_circle:L8
+red_circle:R
 red_circle:red_triangle_turned_S_purple
 red_circle:S1
 red_circle:S3
@@ -933,6 +935,8 @@ white:cycle_green
 white:D
 white:darkblue_stripe
 :white_diamond
+white_diamond:HI
+white_diamond:HII
 white_diamond_line
 white_dot:
 :white_dot
@@ -997,6 +1001,7 @@ white:K2
 white:Lb
 white:LDB
 white:LES
+white_lower
 :white_lower
 white_lower:12
 white:L17
@@ -1019,6 +1024,7 @@ white:pink_dot
 white_pointer
 :white_pointer
 white_pointer:BW
+white:prurple_diamond
 white:PS
 white:puple_backslash
 white:purle_pointer
@@ -1026,6 +1032,7 @@ white:purple
 white_purple:
 white:purple_boat
 white:purple_chapel
+white;purple_pointer
 white:purple_trapezium
 white:R
 white:radweg
@@ -1055,6 +1062,7 @@ white:red_runner
 white:red_T
 white:red_white
 white:red_X
+white:red_3
 white:Reh
 white:rgreen_bar
 white_round
@@ -1293,6 +1301,7 @@ yellow_pointer:
 :yellow_pointer
 yellow:PR
 yellow:PT
+yellow:R
 yellow_rectangle
 :yellow_rectangle
 :yellow_rectangle_line

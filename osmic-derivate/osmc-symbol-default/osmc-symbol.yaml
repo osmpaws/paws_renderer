@@ -1558,6 +1558,13 @@ yellow-black-circle:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+yellow-purple-circle:
+  fill: "#b878dd"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 yellow-circle-red-circle:
   fill: "#ff0000"
   shield:
@@ -1768,6 +1775,13 @@ black-white-crest:
   fill: "#ffffff"
   shield:
     fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+white-yellow-crest:
+  fill: "#ffdd00"
+  shield:
+    fill: "#ffffff"
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
