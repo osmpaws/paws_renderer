@@ -165,6 +165,7 @@ blue_frame
 blue_frame:
 blue_frame:Bijl
 blue_frame:Gag
+blue_frame:white
 blue_frame:2T
 blue_frame:5WT
 blue:F3
@@ -234,6 +235,7 @@ blue:RWW1
 blue:R13
 blue:S
 blue:SHK
+blue:SKT
 blue:SlR
 blue:STK
 blue_stripe
@@ -340,6 +342,7 @@ green
 green:
 :green
 :green_arrow
+green:A5
 green:B
 green_backslash
 green_bar
@@ -390,14 +393,17 @@ green;green_frame;green_dot;black
 green:green-rectangle
 green:green_rectnagle
 green:green_round
+green:Guyer-Zeller-Weg
 green_hexagon:green
 green:HF7
+green_hiker
 green_horse
 green:HW
 green:H1
 green:H3
 green:h4
 green:IRA
+green:Jakob-Stutz-Weg
 green:jellow_dot
 green:KBP
 green:KVO
@@ -465,6 +471,7 @@ green:S1
 green:S2
 green:S3
 green:S4
+green:Thurgauer
 green:TJS
 green:TL
 green_triangle
@@ -606,6 +613,7 @@ orange_triangle
 orange:white
 orange_white_orange_arch
 orange:white_upper
+orange:WWW
 orange:1
 orange:15
 orange:6
@@ -642,6 +650,7 @@ purple_round
 purple_round:
 :purple_round
 purple:RTw
+purple:RWR
 purple:RWS
 purple:SH
 purple:SCHM
@@ -849,6 +858,7 @@ white:𐂂
 :white
 white:A
 white:AC
+:white_arrow
 white:AW
 white:A2
 white:B
@@ -985,6 +995,7 @@ white:green_triangel
 white:green_Z
 white:grey
 white:grey_backslash
+white:grey_pointer
 white:GRR
 white:grren_bar
 white:GRS
@@ -1148,6 +1159,7 @@ white:yellow_goblet
 white:yellow_house
 white:yellow_chapel
 white:yellow_point
+whiteyellow_pointer
 white:yellow_rectrangle
 white:yellow_rhombus
 white:yellow_round
@@ -1304,6 +1316,7 @@ yellow:PT
 yellow:R
 yellow_rectangle
 :yellow_rectangle
+yellow_rectangle_line
 :yellow_rectangle_line
 yellow:red
 yellow:red_

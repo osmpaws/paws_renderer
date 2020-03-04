@@ -18,6 +18,9 @@
 		<rule e="way" k="osmc_foreground" v="white_dot">
 			<lineSymbol src="file:/osmc-symbols/yellow_circle_white_dot.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="orange_dot">
+			<lineSymbol src="file:/osmc-symbols/yellow_circle_orange_dot.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="black_pointer">
 			<lineSymbol src="file:/osmc-symbols/yellow_circle_black_pointer.png" align-center="false" repeat="true" />
 		</rule>

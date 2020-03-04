@@ -42,6 +42,9 @@
 		<rule e="node" k="osmc_foreground" v="green_stripe">
 			<symbol src="file:/osmc-symbols/black_circle_green_stripe.png" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="green_triangle">
+			<symbol src="file:/osmc-symbols/black_circle_green_triangle.png" />
+		</rule>
 		<rule e="node" k="osmc_foreground" v="black_triangle">
 			<symbol src="file:/osmc-symbols/black_circle_black_triangle.png" />
 		</rule>
