@@ -22,6 +22,8 @@ azure:orange_dot
 azure:purple_dot
 azure:violet_dot
 A2:white
+background:red_x
+Bea
 bee
 bigtree
 black
@@ -34,6 +36,7 @@ black:A2
 black:A3
 black:A4
 black:A5
+black:A6
 black_bar
 :black_bar
 black:black
@@ -65,6 +68,7 @@ black_diamond
 black_diamond:white_diamond
 black_dot
 :black_dot
+black:E
 black:E8
 black_frame:
 black_frame:none
@@ -99,6 +103,7 @@ black_pointer
 black_pointer_line:K
 black:PW
 black_round:
+black_round:white
 black:R3
 black:S
 black:SKH
@@ -106,6 +111,7 @@ black:Sli_square
 :black_stripe
 black_triangle_turned:
 black:white
+black:white_arrow
 black:white_square
 black:white_wolfshook
 black:wolfshook
@@ -131,8 +137,10 @@ blue:AW65
 blue_bar
 :blue_bar
 blue_bar:blue_bar
+blue_bar:green_lower
 blue_bar:RBW
 blue:blue
+blueblue:GRW
 blue:blue_recangle
 blue:bluerectangle
 blue:Buit
@@ -245,11 +253,13 @@ blue_triangle:
 blue_triangle_turned
 blue_triangle_turned:
 blue:TWR
+blue:W
 blue:WA
 blue:WBw
 blue:Wew
 blue:WG
 :blue_wheelchair
+blue:white
 blue_white_bar
 blue:white_star
 blue:WWW
@@ -301,6 +311,7 @@ brown;white;brown;L
 brown_white:pointer
 brown:white_round
 brown:WLP
+brown:yellow_frame
 brown:1
 brown:15
 brown:3
@@ -448,6 +459,7 @@ green_rectangle:A1
 green_rectangle:BR
 :green_rectangle_line
 green:red
+green:Rigi
 green_round
 green_round:
 :green_round
@@ -504,6 +516,7 @@ green:W8
 green:W9
 :green_x
 green:yellow
+green:yellow_frame
 Green:yellow_triangle
 green:1
 green:10
@@ -576,6 +589,7 @@ orange_bar
 :orange_bar
 orange:black
 orange:BUN
+orange_circle
 orange_circle:
 :orange_diamond
 orange_diamond:black_bar
@@ -598,6 +612,7 @@ orange_pointer:
 orange_round
 orange_round:
 orange_round:black
+orange_round:pink_pointer
 orange_round:2
 orange_round:3
 orange_round:5
@@ -623,6 +638,7 @@ pink
 pink:black_dot
 pink_diamond
 pink:red_dot
+pink:red_lower
 pink:white_stripe
 PR"
 Punkt_Gelb.png
@@ -646,6 +662,7 @@ purple_frame:
 purple:none
 purple:P
 purple:purple
+:purple_rectangle
 purple_round
 purple_round:
 :purple_round
@@ -691,6 +708,9 @@ red_circle:R
 red_circle:red_triangle_turned_S_purple
 red_circle:S1
 red_circle:S3
+red_circle:TrC
+red_circle:TrG
+red_circle:TrP
 red_circle:12
 red_circle:15
 red_circle:2
@@ -733,6 +753,7 @@ red:L11
 red:M1
 red:M2
 red:none
+red:P
 red_pointer
 :red_pointer
 red_pointer:white_stripe
@@ -774,6 +795,7 @@ red:whitebar
 red_white_bar:VL7A
 red:white_bicycle
 red:white_man
+red:white_pinter
 red:white_sripe
 red:white_stipe
 red:white_strep
@@ -817,9 +839,11 @@ Schwarz7_auf_gelbem_rechteck
 Schwarz8_auf_gelbem_rechteck
 silver_web
 symbol
+symbol=black:black
 symbol=blue:blue_round
 symbol=blue:white
 Symbol_E10.png
+symbol=green:green_corner
 symbol=green:white
 Symbol_Jakobsweg.svg
 symbol=red:red
@@ -834,6 +858,7 @@ TK7
 tower
 :tower
 tower:black
+triangle
 Tschierweg-Alexanderhütte-Millstätter
 unknown
 Valllorbe
@@ -841,10 +866,12 @@ violet
 way
 wegfarbe
 Wegsymbol-E3.jpg
+wehite:blue_bar
 Weiß
 weiße
 Weisse
 wheite:green_dot
+whihe:blue_cross
 whiite:blue_diamond
 whiite:grey_pointer
 whit
@@ -864,6 +891,7 @@ white:A2
 white:B
 white_bar
 :white_bar
+white_bar:Bi
 white_bar:blue
 white_bar:blue_circle
 white_bar:GAB
@@ -898,6 +926,7 @@ white:blue_blue_diamond
 white:blue_C
 white:blue_diamont
 white:blue_drop
+white:blue_drop_line
 white:blue_fish
 white:blue_frame
 white:blue_gull
@@ -948,6 +977,7 @@ white:darkblue_stripe
 white_diamond:HI
 white_diamond:HII
 white_diamond_line
+white:Dol
 white_dot:
 :white_dot
 white_dot:green_triangle
@@ -982,6 +1012,7 @@ white:green_foot
 white:green_frame
 white:green_green_backslash
 white:green_chapel
+white:green_leaf
 white:green_oak_leaf
 white:green_oval
 white:green_round
@@ -992,7 +1023,9 @@ white:green_stripe_double
 white:green_T
 white:green_tree
 white:green_triangel
+white:green_X
 white:green_Z
+white:gren_dot
 white:grey
 white:grey_backslash
 white:grey_pointer
@@ -1014,6 +1047,7 @@ white:LDB
 white:LES
 white_lower
 :white_lower
+white:lower_green
 white_lower:12
 white:L17
 white:L18
@@ -1030,6 +1064,7 @@ white:NW
 white:O
 white:orange_flower
 white:orange_round
+white:papillon
 white:pink_bar
 white:pink_dot
 white_pointer
@@ -1055,6 +1090,7 @@ white:red-bar
 white:red_bar;green
 white:red_bicycle
 white:red_bike
+white:red_castle
 white:red_crown
 white:red_drop
 white:red_drop_line
@@ -1112,6 +1148,7 @@ white:T
 white:_T
 white:Tk12
 white:TN
+white:TNII
 white_triangle
 white_triangle:
 :white_triangle
@@ -1150,6 +1187,7 @@ white:yellow_baryellow
 white:yellow_bicycle
 white:yellow_cicle
 white:yellow_cros
+white;yellow_diamond
 white_yellow_diamond
 white:yellow_diamond;blue
 white:yellow_dimond
@@ -1193,6 +1231,8 @@ white:π
 whtie:blue_rectangle
 wihte:yellow_point
 wite:red_stripe
+withe:
+withe:black_bar
 withe:blue_bar
 withe:orange_diamond
 withe:red_diamond
@@ -1272,6 +1312,7 @@ yellow_dot:1
 :yellow_dyamond
 yellow_frame:
 yellow_frame:F
+yellow_frame:GZ
 yellow_frame:H
 yellow_frame:HGT
 yellow_frame:Themenwanderweg
@@ -1312,6 +1353,7 @@ yellow_pointer
 yellow_pointer:
 :yellow_pointer
 yellow:PR
+yellow:PR-A
 yellow:PT
 yellow:R
 yellow_rectangle
@@ -1359,6 +1401,7 @@ yellow:white
 yellow:white_bicycle
 yellow:white_black_diamond
 yellow:white_blue_diamond
+yellow:white_pinter
 yellow:white_red_diamond
 yellow:white_upper
 yellow:Wildkräuterweg
@@ -1380,6 +1423,7 @@ yellow:2KM
 yellow:20
 yellow:21
 yellow:24
+yellow:278
 yellow:3
 yellow:4SWK
 yellow:441
@@ -1391,6 +1435,7 @@ yellow:77
 yellow:78
 yellow:80
 yellw_round:
+yeloow:yeloow_bar
 Z0:black
 Z00:black
 #00ffff:
@@ -1411,6 +1456,7 @@ Z00:black
 #40E0D0
 #4169e1:
 7BT
+719A
 #8EBE5F:#8EBE5F
 #800000:
 #800000_circle:

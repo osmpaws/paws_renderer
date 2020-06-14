@@ -45,4 +45,7 @@
 		<rule e="way" k="osmc_foreground" v="green_triangle">
 			<lineSymbol src="file:/osmc-symbols/green_frame_green_triangle.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="orange_triangle">
+			<lineSymbol src="file:/osmc-symbols/green_frame_orange_triangle.png" align-center="false" repeat="true" />
+		</rule>
 	</rule>

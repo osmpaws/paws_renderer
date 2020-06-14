@@ -24,6 +24,9 @@
 		<rule e="node" k="osmc_foreground" v="white_cross">
 			<symbol src="file:/osmc-symbols/purple_white_cross.png" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="black_cross">
+			<symbol src="file:/osmc-symbols/purple_black_cross.png" />
+		</rule>
 		<rule e="node" k="osmc_foreground" v="white_diamond">
 			<symbol src="file:/osmc-symbols/purple_white_diamond.png" />
 		</rule>
@@ -72,13 +75,22 @@
 		<rule e="node" k="osmc_foreground" v="white_stripe">
 			<symbol src="file:/osmc-symbols/purple_white_stripe.png" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="tower">
+			<symbol src="file:/osmc-symbols/purple_tower.png" />
+		</rule>
 		<rule e="node" k="osmc_foreground" v="white_triangle_line">
 			<symbol src="file:/osmc-symbols/purple_white_triangle_line.png" />
 		</rule>
 		<rule e="node" k="osmc_foreground" v="white_triangle_turned">
 			<symbol src="file:/osmc-symbols/purple_white_triangle_turned.png" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="blue_triangle">
+			<symbol src="file:/osmc-symbols/purple_blue_triangle.png" />
+		</rule>
 		<rule e="node" k="osmc_foreground" v="white_triangle">
 			<symbol src="file:/osmc-symbols/purple_white_triangle.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="white_turned_T">
+			<symbol src="file:/osmc-symbols/purple_white_turned_t.png" />
 		</rule>
 	</rule>
