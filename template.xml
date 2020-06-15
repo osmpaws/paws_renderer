@@ -2,7 +2,7 @@
 <rendertheme xmlns="http://mapsforge.org/renderTheme" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://mapsforge.org/renderTheme ../renderTheme.xsd" version="1" map-background="#f8f8f8">
 	
-	<!--#r00061b00451#-->
+	<!--#r00062b00453#-->
 
 	<!--style#v4#setup-->
 	
@@ -1585,6 +1585,8 @@
 
 		<!-- pistes -->
 		<rule e="way" k="piste:type" v="*">
+			<!--piste#downhill-->
+			<!--piste#downhill-->
 			<!-- piste areas -->
 			<rule e="way" k="piste:type" v="downhill" closed="yes" zoom-max="14">
 				<rule e="way" k="piste:difficulty" v="novice">

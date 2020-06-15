@@ -71,13 +71,18 @@
 	</layer>
 	<layer id="l_national_park_pattern" enabled="false">
 		<name lang="cs" value="Plocha národních parků" />
-		<name lang="en" value="National park area" />
+		<name lang="en" value="National parks area" />
 		<cat id="national_park_pattern" />
 	</layer>
 	<layer id="l_piste_nordic" enabled="false">
 		<name lang="cs" value="Běžeceké stopy" />
-		<name lang="en" value="Cross-country skiing trail" />
+		<name lang="en" value="Cross-country skiing trails" />
 		<cat id="piste_nordic" />
+	</layer>
+	<layer id="l_piste_downhill" enabled="true">
+		<name lang="cs" value="Sjezdovky" />
+		<name lang="en" value="Pistes" />
+		<cat id="piste_downhill" />
 	</layer>
 	<layer id="l_mapper" enabled="false">
 		<name lang="cs" value="Pro přispěvatele OSM" />
@@ -102,6 +107,7 @@
 		<!--overlay id="l_trail_visibility" /-->
 		<overlay id="l_horse_lines" />
 		<overlay id="l_piste_nordic" />
+		<overlay id="l_piste_downhill" />
 		<overlay id="l_national_park_pattern" />
 	</layer>
 	<layer id="bicycle" visible="true">

@@ -317,6 +317,7 @@ do
 		sed -i -e "/<!--style#v4#setup-->/r $root/xml/$stylev4setup" \
 		       -e "/<!--national#park#pattern-->/r $root/xml/national-park-4.xml" \
 		       -e "/<!--piste#nordic-->/r $root/xml/piste-nordic-4.xml" \
+		       -e "/<!--piste#downhill-->/r $root/xml/piste-downhill-4.xml" \
 		       -e "/<!--mapper#pois-->/r $root/xml/mapper-4.xml" \
 		       -e "/<!--#guidepost#-->/r $root/xml/guidepost-4.xml" \
 		       -e "/<!--#restriction#-->/r $root/xml/restrictions-4.xml" \
@@ -334,6 +335,7 @@ do
 ###		echo "/<!--piste#nordic-->/r $root/xml/piste-nordic.xml
 ###		      /<!--#guidepost#-->/r $root/xml/$gp" >> $themename_$sedfile
 		sed -i -e "/<!--piste#nordic-->/r $root/xml/$pistenordic" \
+		       -e "/<!--piste#downhill-->/r $root/xml/piste-downhill.xml" \
 		       -e "/<!--#guidepost#-->/r $root/xml/guidepost.xml" \
 		       -e "/<!--#restriction#-->/r $root/xml/restrictions.xml" \
 		       -e "/<!--natural#cliff-->/r $root/xml/cliff.xml" \
