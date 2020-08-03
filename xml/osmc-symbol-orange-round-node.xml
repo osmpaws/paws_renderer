@@ -6,6 +6,9 @@
 		<rule e="node" k="osmc_foreground" v="white_dot">
 			<symbol src="file:/osmc-symbols/orange_round_white_dot.png" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="orange_dot">
+			<symbol src="file:/osmc-symbols/orange_round_orange_dot.png" />
+		</rule>
 		<rule e="node" k="osmc_foreground" v="red_pointer">
 			<symbol src="file:/osmc-symbols/orange_round_red_pointer.png" />
 		</rule>

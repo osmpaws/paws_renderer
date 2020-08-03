@@ -84,7 +84,7 @@ pawswinteryaml="paws_winter.yaml"
 buildctrl="build.txt"
 releasectrl="release.txt"
 sedfile="sed_script.sed"
-jarfile=~/.openstreetmap/osmosis/plugins/mapsforge-map-writer-0.8.0-jar-with-dependencies.jar
+jarfile=~/.openstreetmap/osmosis/plugins/mapsforge-map-writer-0.13.0-jar-with-dependencies.jar
 # mini update
 sttscalecfg="$root/tools/image_scale.stt"
 osmcscalecfg="tools/osmc-symbol-scale.cfg"

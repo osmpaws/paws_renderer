@@ -45,6 +45,9 @@
 		<rule e="way" k="osmc_foreground" v="white_diamond_line">
 			<lineSymbol src="file:/osmc-symbols/red_white_diamond_line.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="yellow_diamond">
+			<lineSymbol src="file:/osmc-symbols/red_yellow_diamond.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="white_diamond">
 			<lineSymbol src="file:/osmc-symbols/red_white_diamond.png" align-center="false" repeat="true" />
 		</rule>

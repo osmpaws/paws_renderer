@@ -21,4 +21,7 @@
 		<rule e="way" k="osmc_foreground" v="green_triangle">
 			<lineSymbol src="file:/osmc-symbols/brown_frame_green_triangle.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="brown_wheel">
+			<lineSymbol src="file:/osmc-symbols/brown_frame_brown_wheel.png" align-center="false" repeat="true" />
+		</rule>
 	</rule>

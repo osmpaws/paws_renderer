@@ -249,11 +249,23 @@
 		<rule e="node" k="osmc_foreground" v="heart">
 			<symbol src="file:/osmc-symbols/white_heart.png" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="red_hexagon">
+			<symbol src="file:/osmc-symbols/white_red_hexagon.png" />
+		</rule>
 		<rule e="node" k="osmc_foreground" v="yellow_hexagon">
 			<symbol src="file:/osmc-symbols/white_yellow_hexagon.png" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="blue_hexagon">
+			<symbol src="file:/osmc-symbols/white_blue_hexagon.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="green_hexagon">
+			<symbol src="file:/osmc-symbols/white_green_hexagon.png" />
+		</rule>
 		<rule e="node" k="osmc_foreground" v="brown_hexagon">
 			<symbol src="file:/osmc-symbols/white_brown_hexagon.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="purple_hexagon">
+			<symbol src="file:/osmc-symbols/white_purple_hexagon.png" />
 		</rule>
 		<rule e="node" k="osmc_foreground" v="orange_hexagon">
 			<symbol src="file:/osmc-symbols/white_orange_hexagon.png" />
