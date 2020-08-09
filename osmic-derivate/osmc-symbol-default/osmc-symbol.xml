@@ -5018,6 +5018,12 @@
 		</rule>
 	</rule>
 	<rule e="way" k="osmc_background" v="green_circle" zoom-min="15">
+		<rule e="way" k="osmc_foreground" v="yellow_pointer">
+			<lineSymbol src="file:/osmc-symbols/green_circle_yellow_pointer.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="yellow_pointer">
+			<symbol src="file:/osmc-symbols/green_circle_yellow_pointer.png" />
+		</rule>
 	</rule>
 	<rule e="way" k="osmc_background" v="green_frame" zoom-min="15">
 	</rule>
@@ -5279,6 +5285,12 @@
 		</rule>
 		<rule e="node" k="osmc_foreground" v="red_pointer">
 			<symbol src="file:/osmc-symbols/none_red_pointer.png" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="yellow_pointer">
+			<lineSymbol src="file:/osmc-symbols/none_yellow_pointer.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="yellow_pointer">
+			<symbol src="file:/osmc-symbols/none_yellow_pointer.png" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="blue_pointer">
 			<lineSymbol src="file:/osmc-symbols/none_blue_pointer.png" align-center="false" repeat="true" />

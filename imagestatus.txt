@@ -290,6 +290,7 @@ osmc-symbols/green-circle-green-triangle-turned-14.svg
 osmc-symbols/green-circle-green-triangle-14.svg
 osmc-symbols/green-circle-red-lower-14.svg
 osmc-symbols/green-circle-white-dot-14.svg
+osmc-symbols/green-circle-yellow-pointer-14.svg
 osmc-symbols/green-frame-black-cross-14.svg
 osmc-symbols/green-frame-black-dot-14.svg
 osmc-symbols/green-frame-black-rectangle-14.svg
@@ -380,6 +381,7 @@ osmc-symbols/none-yellow-bar-14.svg
 osmc-symbols/none-yellow-circle-14.svg
 osmc-symbols/none-yellow-diamond-14.svg
 osmc-symbols/none-yellow-dot-14.svg
+osmc-symbols/none-yellow-pointer-14.svg
 osmc-symbols/orange-black-bar-14.svg
 osmc-symbols/orange-black-diamond-14.svg
 osmc-symbols/orange-black-dot-14.svg

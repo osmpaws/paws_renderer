@@ -370,6 +370,7 @@ green_circle:green_horse
 green_circle:M1
 green_circle:M3
 green_circle:M4
+green:CN
 green_corner
 :green_cross
 :green_diamond
@@ -1249,6 +1250,7 @@ wite:red_stripe
 withe:
 withe:black_bar
 withe:blue_bar
+withe:M
 withe:orange_diamond
 withe:red_diamond
 withe:yellow_bar
