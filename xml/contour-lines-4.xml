@@ -1,0 +1,57 @@
+	<!-- contour lines level 13 -->
+	<rule cat="contour_lines" e="way" k="contour_ext" v="*" zoom-min="13" zoom-max="13">
+		<rule e="way" k="contour_ext" v="elevation_minor">
+			<line stroke="#60800000" stroke-width="0.3" /> <!--smooth_line-->
+		</rule>
+		<rule e="way" k="contour_ext" v="elevation_medium|elevation_major">
+			<line stroke="#60800000" stroke-width="0.7" /> <!--smooth_line-->
+		</rule>
+	</rule>
+	<!-- contour lines level 14-->
+	<rule cat="contour_lines" e="way" k="contour_ext" v="*" zoom-min="14" zoom-max="14">
+		<rule e="way" k="contour_ext" v="elevation_minor">
+			<line stroke="#60800000" stroke-width="0.22" /> <!--smooth_line-->
+		</rule>
+		<rule e="way" k="contour_ext" v="elevation_medium|elevation_major">
+			<line stroke="#60800000" stroke-width="0.6" /> <!--smooth_line-->
+			<rule e="way" k="*" v="*">
+		 <pathText k="ele" font-style="bold" font-size="14" fill="#bb7755" stroke="#ffffff" stroke-width="2.0" />
+			</rule>
+		</rule>
+	</rule>
+	<!-- contour lines level 15-->
+	<rule cat="contour_lines" e="way" k="contour_ext" v="*" zoom-min="15" zoom-max="15">
+		<rule e="way" k="contour_ext" v="elevation_minor" zoom-max="15">
+			<line stroke="#60800000" stroke-width="0.18" /> <!--smooth_line-->
+		</rule>
+		<rule e="way" k="contour_ext" v="elevation_medium|elevation_major">
+			<line stroke="#60800000" stroke-width="0.4" /> <!--smooth_line-->
+			<rule e="way" k="*" v="*">
+		 <pathText k="ele" font-style="bold" font-size="14" fill="#bb7755" stroke="#ffffff" stroke-width="2.0" />
+			</rule>
+		</rule>
+	</rule>
+	<!-- contour lines level 16 -->
+	<rule cat="contour_lines" e="way" k="contour_ext" v="*" zoom-min="16" zoom-max="16">
+		<rule e="way" k="contour_ext" v="elevation_minor">
+			<line stroke="#60800000" stroke-width="0.12" /> <!--smooth_line-->
+		</rule>
+		<rule e="way" k="contour_ext" v="elevation_medium|elevation_major">
+			<line stroke="#60800000" stroke-width="0.3" /> <!--smooth_line-->
+			<rule e="way" k="*" v="*">
+		 <pathText k="ele" font-style="bold" font-size="14" fill="#bb7755" stroke="#ffffff" stroke-width="2.0" />
+			</rule>
+		</rule>
+	</rule>	
+	<!-- contour lines level 17 and above -->
+	<rule cat="contour_lines" e="way" k="contour_ext" v="*" zoom-min="17">
+		<rule e="way" k="contour_ext" v="elevation_minor">
+			<line stroke="#60800000" stroke-width="0.09" /> <!--smooth_line-->
+		</rule>
+		<rule e="way" k="contour_ext" v="elevation_medium|elevation_major">
+			<line stroke="#60800000" stroke-width="0.22" /> <!--smooth_line-->
+			<rule e="way" k="*" v="*">
+		 <pathText k="ele" font-style="bold" font-size="14" fill="#bb7755" stroke="#ffffff" stroke-width="2.0" />
+			</rule>
+		</rule>
+	</rule>

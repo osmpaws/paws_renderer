@@ -1,0 +1,28 @@
+			<rule cat="not_car_mode" e="way" k="natural" v="*">
+				<rule e="way" k="natural" v="glacier">
+					 <area fill="#dafaff" stroke="#add8e6" stroke-width="1.2" />
+				</rule>
+				<rule e="way" k="natural" v="land">
+					 <area fill="#f8f8f8" stroke="#e0e0e0" stroke-width="0.1" />
+				</rule>
+				<rule e="way" k="natural" v="grassland">
+					 <area fill="#eeffbb" stroke="#77dd66" stroke-width="0.1" />
+				</rule>
+				<rule e="way" k="natural" v="scrub">
+					<area src="file:/patterns/scrub.png" stroke="#569953" stroke-width="0.1" />
+				</rule>
+			</rule>
+			<rule cat="car_mode" e="way" k="natural" v="*" zoom-min="16">
+				<rule e="way" k="natural" v="glacier">
+					 <area fill="#dafaff" stroke="#add8e6" stroke-width="1.2" />
+				</rule>
+				<rule e="way" k="natural" v="land">
+					 <area fill="#f8f8f8" stroke="#e0e0e0" stroke-width="0.1" />
+				</rule>
+				<rule e="way" k="natural" v="grassland">
+					 <area fill="#eeffbb" stroke="#77dd66" stroke-width="0.1" />
+				</rule>
+				<rule e="way" k="natural" v="scrub">
+					<area src="file:/patterns/scrub.png" stroke="#569953" stroke-width="0.1" />
+				</rule>
+			</rule>

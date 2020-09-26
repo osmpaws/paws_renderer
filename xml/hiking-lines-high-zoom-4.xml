@@ -1,6 +1,20 @@
 		<!--KCT#hiking#lines#high#zoom-->
 		<!--rule cat="hike_lines" e="way" k="highway" v="track|path|footway|steps|~" zoom-min="14"-->
 		<rule cat="osmc_lines" e="way" k="*" v="*" zoom-min="14">
+			<rule e="way" k="osmc_color" v="~">
+				<rule e="way" k="network" v="lwn">
+					<line stroke="#8B4513" stroke-width="1" stroke-linecap="butt" dy="3.5" />
+				</rule>
+				<rule e="way" k="network" v="rwn">
+					<line stroke="#800000" stroke-width="1" stroke-linecap="butt" dy="-3.5" />
+				</rule>
+				<rule e="way" k="network" v="nwn">
+					<line stroke="#BC8F8F" stroke-width="1" stroke-linecap="butt" dy="-3.5" />
+				</rule>
+				<rule e="way" k="network" v="iwn">
+					<line stroke="#D2691E" stroke-width="1" stroke-linecap="butt" dy="4.5" />
+				</rule>
+			</rule>
 			<rule e="way" k="osmc_color" v="white">
 				<line stroke="#FFFFFF" stroke-width="1" stroke-linecap="butt" dy="3.5" />
 			</rule>
@@ -49,5 +63,22 @@
 			</rule>
 			<rule e="way" k="osmc_color" v="red">
 				<line stroke="#FF0000" stroke-width="1" stroke-linecap="butt" dy="-1.5" stroke-dasharray="5,10,5,0" />
+			</rule>
+			<rule e="way" k="osmc_color" v="white">
+				<line stroke="#FFFFFF" stroke-width="1" stroke-linecap="butt" dy="3.5" stroke-dasharray="10,10" />
+			</rule>
+			<rule e="way" k="osmc_color" v="~">
+				<rule e="way" k="network" v="lwn">
+					<line stroke="#8B4513" stroke-width="1" stroke-linecap="butt" dy="3.5" stroke-dasharray="5,10,5,0" />
+				</rule>
+				<rule e="way" k="network" v="rwn">
+					<line stroke="#800000" stroke-width="1" stroke-linecap="butt" dy="-3.5" stroke-dasharray="10,10" />
+				</rule>
+				<rule e="way" k="network" v="nwn">
+					<line stroke="#BC8F8F" stroke-width="1" stroke-linecap="butt" dy="-3.5" stroke-dasharray="5,10,5,0" />
+				</rule>
+				<rule e="way" k="network" v="iwn">
+					<line stroke="#D2691E" stroke-width="1" stroke-linecap="butt" dy="4.5" stroke-dasharray="10,10" />
+				</rule>
 			</rule>
 		</rule>

@@ -324,6 +324,15 @@ do
 		       -e "/<!--trail#visibility-->/r $root/xml/trail-visibility-4.xml" \
 		       -e "/<!--natural#cliff-->/r $root/xml/cliff-4.xml" \
 		       -e "/<!--horsing#lines#low#zoom-->/r $root/xml/horsing-lines-low-zoom-4.xml" \
+		       -e "/<!--contour#lines-->/r $root/xml/contour-lines-4.xml" \
+		       -e "/<!--highway#cores-->/r $root/xml/highway-cores-4.xml" \
+		       -e "/<!--highway#casings-->/r $root/xml/highway-casing-4.xml" \
+		       -e "/<!--#forest#-->/r $root/xml/forest-4.xml" \
+		       -e "/<!--#landuse#-->/r $root/xml/landuse-4.xml" \
+		       -e "/<!--#natural#-->/r $root/xml/natural-4.xml" \
+		       -e "/<!--#railway#no#tunnel#-->/r $root/xml/railway-4.xml" \
+		       -e "/<!--nature#reserve-->/r $root/xml/nature-reserve-4.xml" \
+		       -e "/<!--protected#area-->/r $root/xml/protected-area-4.xml" \
 		       -e "s/<!--#version#-->/<!--#r${releasestr}b${buildstr}#-->/" $root/xml/$tempxml
 	else
 		if [ $month -ge 12 ] || [ $month -le 3 ]; then
@@ -339,6 +348,15 @@ do
 		       -e "/<!--#guidepost#-->/r $root/xml/guidepost.xml" \
 		       -e "/<!--#restriction#-->/r $root/xml/restrictions.xml" \
 		       -e "/<!--natural#cliff-->/r $root/xml/cliff.xml" \
+		       -e "/<!--contour#lines-->/r $root/xml/contour-lines.xml" \
+		       -e "/<!--highway#cores-->/r $root/xml/highway-cores.xml" \
+		       -e "/<!--highway#casings-->/r $root/xml/highway-casing.xml" \
+		       -e "/<!--#forest#-->/r $root/xml/forest.xml" \
+		       -e "/<!--#landuse#-->/r $root/xml/landuse.xml" \
+		       -e "/<!--#natural#-->/r $root/xml/natural.xml" \
+		       -e "/<!--#railway#no#tunnel#-->/r $root/xml/railway.xml" \
+		       -e "/<!--nature#reserve-->/r $root/xml/nature-reserve.xml" \
+		       -e "/<!--protected#area-->/r $root/xml/protected-area.xml" \
 		       -e "s/<!--#version#-->/<!--#r${releasestr}b${buildstr}#-->/" $root/xml/$tempxml
 	fi
 	

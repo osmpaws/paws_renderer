@@ -1,0 +1,5 @@
+			<rule e="way" k="boundary" v="protected_area" zoom-min="12" >
+				<line stroke="#4ef94b" stroke-width="0.37" stroke-dasharray="22.5,7.5,7.5,7.5" />
+				<caption k="name" font-family="serif" font-style="bold_italic" font-size="17.0" fill="#40aa40" stroke="#ffffff" stroke-width="3.0" />
+				<pathText k="name" font-family="serif" font-style="bold_italic" font-size="17.0" fill="#40aa40" stroke="#ffffff" stroke-width="3.0" />
+			</rule>

@@ -54,6 +54,9 @@
 		<rule e="way" k="osmc_foreground" v="orange_circle">
 			<lineSymbol src="file:/osmc-symbols/black_orange_circle.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="yellow_corner">
+			<lineSymbol src="file:/osmc-symbols/black_yellow_corner.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="white_corner">
 			<lineSymbol src="file:/osmc-symbols/black_white_corner.png" align-center="false" repeat="true" />
 		</rule>

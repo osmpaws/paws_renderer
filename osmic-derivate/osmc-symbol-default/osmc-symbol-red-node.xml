@@ -150,8 +150,17 @@
 		<rule e="node" k="osmc_foreground" v="yellow_triangle_line">
 			<symbol src="file:/osmc-symbols/red_yellow_triangle_line.png" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="white_triangle_turned">
+			<symbol src="file:/osmc-symbols/red_white_triangle_turned.png" />
+		</rule>
 		<rule e="node" k="osmc_foreground" v="yellow_triangle">
 			<symbol src="file:/osmc-symbols/red_yellow_triangle.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="blue_triangle">
+			<symbol src="file:/osmc-symbols/red_blue_triangle.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="green_triangle">
+			<symbol src="file:/osmc-symbols/red_green_triangle.png" />
 		</rule>
 		<rule e="node" k="osmc_foreground" v="white_triangle">
 			<symbol src="file:/osmc-symbols/red_white_triangle.png" />

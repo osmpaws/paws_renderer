@@ -2,7 +2,7 @@
 <rendertheme xmlns="http://mapsforge.org/renderTheme" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://mapsforge.org/renderTheme ../renderTheme.xsd" version="1" map-background="#f8f8f8">
 	
-	<!--#r00064b00466#-->
+	<!--#r00065b00490#-->
 
 	<!--style#v4#setup-->
 	
@@ -68,6 +68,7 @@
 				<area fill="#f9f9f9" stroke="#f9f9f9" stroke-width="0.60" />
 				 </rule>
 			</rule>
+			<!--#natural#-->
 			<rule e="way" k="natural" v="glacier">
 				 <area fill="#dafaff" stroke="#add8e6" stroke-width="1.20" />
 			</rule>
@@ -82,6 +83,7 @@
 			</rule>
 		</rule>
 		
+		<!--#forest#-->
 		<!--forest-->
 		<rule e="way" k="natural|landuse" v="forest|wood">
 			<rule e="way" k="wood" v="*" zoom-min="11">
@@ -108,7 +110,7 @@
 			</rule>
 		</rule>
 		
-		
+		<!--#landuse#-->
 		<!-- landuse -->
 		<rule e="way" k="landuse" v="*">
 			<rule e="way" k="landuse" v="residential">
@@ -190,13 +192,13 @@
 			<rule e="way" k="natural" v="heath">
 				<area fill="#ffffc0" stroke="#ffff90" stroke-width="0.30" />
 			</rule>
-			<rule e="way" k="natural" v="marsh|wetland">
+			<rule e="way" k="natural" v="marsh|wetland" zoom-min="14">
 				<area src="file:/patterns/marsh.png" />
 			</rule>
 		</rule>
 		
 		<!-- amenity -->
-		<rule e="way" k="amenity" v="*">
+		<rule e="way" k="amenity" v="*"> <!--not_car_mode-->
 			<rule e="way" k="amenity" v="recycling">
 				<area fill="#adabab" stroke="#7d7d7d" stroke-width="0.30" />
 			</rule>
@@ -221,7 +223,7 @@
 		</rule>
 
 		<!-- leisure -->
-		<rule e="way" k="leisure" v="*">
+		<rule e="way" k="leisure" v="*"> <!--not_car_mode-->
 			<rule e="way" k="leisure" v="marina" zoom-min="13">
 				<area fill="#3978ac" stroke="#d6d6d6" stroke-width="0.30" />
 			</rule>
@@ -341,7 +343,7 @@
 		</rule>
 		
 		<!-- natural -->
-		<rule e="way" k="natural" v="*">
+		<rule e="way" k="natural" v="*"> <!--not_car_mode-->
 			<!--natural#cliff-->
 			<rule e="way" k="natural" v="cliff" zoom-min="14">
 				<!--<area fill="#666666" stroke="#444444" stroke-width="0.10" />-->
@@ -444,6 +446,7 @@
 				<rule e="way" k="highway" v="*">
 					<!-- no bridge -->
 					<rule e="way" k="bridge" v="~|no|false">
+						<!--highway#casings-->
 						<!-- highway casings -->
 						<rule e="way" k="*" v="*" zoom-max="15">
 							<rule e="way" k="highway" v="steps" zoom-min="12">
@@ -571,7 +574,7 @@
 
 
 		<!-- runways casings and areas -->
-		<rule e="way" k="aeroway" v="*">
+		<rule e="way" k="aeroway" v="*"> <!--not_car_mode-->
 			<rule e="way" k="aeroway" v="aerodrome" closed="yes">
 				<area fill="#d8dcce" stroke="#000000" stroke-width="0.70" />
 				<rule e="way" k="landuse" v="military">
@@ -596,16 +599,7 @@
 			</rule>
 		</rule>
 	</rule>
-
-	<!-- contour lines level 12 -->
-	<rule e="way" k="contour_ext" v="*" zoom-min="12" zoom-max="12">
-		<rule e="way" k="contour_ext" v="elevation_minor">
-			<line stroke="#60800010" stroke-width="0.30" /> <!--smooth_line-->
-		</rule>
-		<rule e="way" k="contour_ext" v="elevation_medium|elevation_major">
-			<line stroke="#60800000" stroke-width="0.90" /> <!--smooth_line-->
-		</rule>
-	</rule>
+	<!--contour#lines-->
 	<!-- contour lines level 13 -->
 	<rule e="way" k="contour_ext" v="*" zoom-min="13" zoom-max="13">
 		<rule e="way" k="contour_ext" v="elevation_minor">
@@ -972,7 +966,7 @@
 	</rule>
 	<rule e="way" k="*" v="*">
 		<rule e="way" k="building" v="*">
-			<area fill="#f3e6c6" stroke="#6a5a8e" stroke-width="0.15" />
+			<area fill="#f3e6c6" stroke="#6a5a8e" stroke-width="0.10" />
 			<rule e="way" k="*" v="*" zoom-min="17">
 				<caption k="name" dy="-30.00" font-style="bold" font-size="17.00" fill="#4040ff" stroke="#ffffff" stroke-width="2.00" />
 				<caption k="addr:housenumber" font-style="bold" font-size="14.00" fill="#606060" stroke="#ffffff" stroke-width="2.00" />
@@ -982,7 +976,7 @@
 		<!-- places of worship -->
 		<rule e="way" k="amenity" v="place_of_worship">
 			<rule e="way" k="building" v="*">
-				<area fill="#c3b696" stroke="#4A4A4A" stroke-width="0.30" />
+				<area fill="#c3b696" stroke="#4A4A4A" stroke-width="0.15" />
 				<rule e="way" k="*" v="*" zoom-min="17">
 					<caption k="name" dy="-30.00" font-style="bold_italic" font-size="17.00" fill="#404040" stroke="#ffffff" stroke-width="3.00" />
 					<caption k="addr:housenumber" font-style="bold" font-size="17.00" fill="#606060" stroke="#ffffff" stroke-width="3.00" />
@@ -1001,6 +995,7 @@
 			<rule e="way" k="tunnel" v="~|no|false">
 				<!-- no area -->
 				<rule e="way" k="area" v="~|no|false">
+					<!--highway#cores-->
 					<!-- highway cores -->
 					<rule e="way" k="highway" v="steps" zoom-min="13">
 						<line stroke="#e5e0c2" stroke-width="0.67" stroke-dasharray="4.50,1.5" stroke-linecap="butt" />
@@ -1677,19 +1672,19 @@
 		</rule>
 		
 		<!-- power -->
-		<rule e="way" k="power" v="minor_line" zoom-min="14">
+		<rule e="way" k="power" v="minor_line" zoom-min="15"> <!--not_car_mode-->
 			<line stroke="#000000" stroke-width="0.10" />
 		</rule>
-		<rule e="way" k="power" v="line" zoom-min="12">
+		<rule e="way" k="power" v="line" zoom-min="14"> <!--not_car_mode-->
 			<line stroke="#000000" stroke-width="0.30" />
 		</rule>
-		<rule e="way" k="generator:source" v="solar" zoom-min="12">
+		<rule e="way" k="generator:source" v="solar" zoom-min="12"> <!--not_car_mode-->
 			<area src="file:/patterns/photovoltaic.png" stroke="#eeeeee" stroke-width="0.60" />
 		</rule>
 
 
 		<!-- aerial ways -->
-		<rule e="way" k="aerialway" v="*">
+		<rule e="way" k="aerialway" v="*"> <!--not_car_mode-->
 			<line stroke="#202020" stroke-width="0.60" stroke-linecap="butt" />
 			<line stroke="#202020" stroke-width="6.00" stroke-dasharray="3.00,300.0" stroke-linecap="butt" />
 			<rule e="way" k="aerialway" v="cable_car">
@@ -1706,7 +1701,7 @@
 			</rule>
 		</rule>
 
-
+		<!--#railway#no#tunnel#-->
 		<!-- railway (no tunnel) -->
 		<rule e="way" k="railway" v="*">
 			<rule e="way" k="tunnel" v="~|false|no">
@@ -1790,10 +1785,10 @@
 				</rule>
 			</rule>
 		</rule>
-
-
+		
 		<!-- non-physical boundaries -->
-		<rule e="way" k="boundary" v="*">
+		<rule e="way" k="boundary" v="*"> <!--not_car_mode-->
+			<!--protected#area-->
 			<rule e="way" k="boundary" v="protected_area" zoom-min="12" >
 				<line stroke="#4ef94b" stroke-width="0.37" stroke-dasharray="22.50,7.50,7.50,7.5" />
 				<caption k="name" font-family="serif" font-style="bold_italic" font-size="17.00" fill="#40aa40" stroke="#ffffff" stroke-width="3.00" />
@@ -1919,10 +1914,10 @@
 		</rule>
 	</rule>
 	
+	<!--nature#reserve-->
 	<rule e="way" k="leisure" v="nature_reserve" zoom-min="13">
 		<area src="file:/patterns/nature_reserve.png" stroke="#6fc18e" stroke-width="0.30" />
 	</rule>
-
 
 	<!-- nodes -->
 	<rule e="node" k="*" v="*">
@@ -2055,13 +2050,15 @@
 		</rule>
 
 		<!-- natural -->
-		<rule e="node" k="natural" v="*">
+		<rule e="node" k="natural" v="*"> <!--not_car_mode-->
 			<rule e="node" k="natural" v="cave_entrance" zoom-min="15">
 				<symbol src="file:/symbols/cave_entrance.png" />
 			</rule>
 			<rule e="node" k="natural" v="peak" zoom-min="12">
 				<symbol src="file:/symbols/peak.png" />
-				<caption k="ele" dy="30.00" font-family="serif" font-style="bold_italic" font-size="17.00" fill="#502000" stroke="#ffffff" stroke-width="3.00" />
+				<rule e="node" k="*" v="*" zoom-min="17">
+					<caption k="ele" dy="30.00" font-family="serif" font-style="bold_italic" font-size="17.00" fill="#502000" stroke="#ffffff" stroke-width="3.00" />
+				</rule>
 			</rule>
 			<rule e="node" k="natural" v="tree" zoom-min="17">
 				<symbol src="file:/symbols/tree_deciduous.png" />
@@ -2076,7 +2073,7 @@
 				<symbol src="file:/symbols/stone.png" />
 			</rule>
 
-			<rule e="node" k="*" v="*" zoom-min="14">
+			<rule e="node" k="*" v="*" zoom-min="16">
 				<caption k="name" dy="-25.50" font-family="serif" font-style="bold_italic" font-size="17.00" fill="#502000" stroke="#ffffff" stroke-width="3.00" />
 			</rule>
 		</rule>
@@ -2085,7 +2082,9 @@
 		<rule e="node" k="waterway" v="*">
 			<rule e="node" k="waterway" v="weir" zoom-min="15">
 				<circle r="6.00" fill="#b5d6f1" stroke="#000044" stroke-width="2.20" />
-				<caption k="name" font-family="serif" font-style="bold_italic" font-size="18.00" fill="#707080" stroke="#5576d1" stroke-width="2.70" />
+				<rule e="node" k="*" v="*" zoom-min="17">
+					<caption k="name" font-family="serif" font-style="bold_italic" font-size="18.00" fill="#707080" stroke="#5576d1" stroke-width="2.70" />
+				</rule>
 			</rule>
 			<rule e="node" k="waterway" v="waterfall" zoom-min="15">
 				<symbol src="file:/symbols/waterfall.png" />
@@ -2097,10 +2096,10 @@
 		<rule e="node" k="generator:source" v="wind">
 			<symbol src="file:/symbols/power_wind.png" />
 		</rule>
-		<rule e="node" k="power" v="pole">
+		<rule e="node" k="power" v="pole"> <!--not_car_mode-->
 			<circle r="2.00" fill="#ffffff" stroke="#606060" stroke-width="0.50" />
 		</rule>
-		<rule e="node" k="power" v="tower">
+		<rule e="node" k="power" v="tower"> <!--not_car_mode-->
 			<circle r="4.00" fill="#ffffff" stroke="#606060" stroke-width="2.00" />
 		</rule>
 
@@ -2132,7 +2131,7 @@
 		</rule>
 
 		<!-- tourism -->
-		<rule e="node" k="tourism" v="*">
+		<rule e="node" k="tourism" v="*"> <!--not_car_mode-->
 			<rule e="node" k="*" v="*" zoom-min="15">
 				<caption k="name" font-family="sans_serif" font-style="italic" dy="-28.50" font-size="21.00" fill="#000000" stroke="#FFFFFF" stroke-width="5.70" />
 			</rule>
@@ -2142,10 +2141,13 @@
 			<rule e="node" k="place" v="locality" zoom-min="15">
 				<caption k="name" font-family="serif" font-style="italic" font-size="13.00" fill="#555555" stroke="#ffffff" stroke-width="2.00" />
 			</rule>
-			<rule e="node" k="place" v="hamlet" zoom-min="13">
+			<rule e="node" k="place" v="hamlet" zoom-min="14">
 				<caption k="name" font-style="bold" font-size="16.00" fill="#000000" stroke="#a0ffffff" stroke-width="6.00" />
 			</rule>
-			<rule e="node" k="place" v="suburb|village" zoom-min="10">
+			<rule e="node" k="place" v="village" zoom-min="13">
+				<caption k="name" font-style="bold" font-size="19.00" fill="#000000" stroke="#a0ffffff" stroke-width="6.00" />
+			</rule>
+			<rule e="node" k="place" v="suburb" zoom-min="13">
 				<caption k="name" font-style="bold" font-size="19.00" fill="#000000" stroke="#a0ffffff" stroke-width="6.00" />
 			</rule>
 			<rule e="node" k="place" v="town" zoom-min="9">
@@ -2209,6 +2211,9 @@
 		</rule>
 		<rule e="way" k="osmc_foreground" v="black_arch">
 			<lineSymbol src="file:/osmc-symbols/blue_black_arch.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="white_backslash">
+			<lineSymbol src="file:/osmc-symbols/blue_white_backslash.png" align-center="false" repeat="true" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="red_bar">
 			<lineSymbol src="file:/osmc-symbols/blue_red_bar.png" align-center="false" repeat="true" />
@@ -2606,6 +2611,9 @@
 		<rule e="way" k="osmc_foreground" v="white_dot">
 			<lineSymbol src="file:/osmc-symbols/purple_white_dot.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="black_dot">
+			<lineSymbol src="file:/osmc-symbols/purple_black_dot.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="heart">
 			<lineSymbol src="file:/osmc-symbols/purple_heart.png" align-center="false" repeat="true" />
 		</rule>
@@ -2710,6 +2718,9 @@
 		</rule>
 		<rule e="way" k="osmc_foreground" v="red_dot">
 			<lineSymbol src="file:/osmc-symbols/red_frame_red_dot.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="blue_dot">
+			<lineSymbol src="file:/osmc-symbols/red_frame_blue_dot.png" align-center="false" repeat="true" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="red_hiker">
 			<lineSymbol src="file:/osmc-symbols/red_frame_red_hiker.png" align-center="false" repeat="true" />
@@ -2870,6 +2881,9 @@
 		<rule e="way" k="osmc_foreground" v="red_dot">
 			<lineSymbol src="file:/osmc-symbols/blue_round_red_dot.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="yellow_dot">
+			<lineSymbol src="file:/osmc-symbols/blue_round_yellow_dot.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="blue_dot">
 			<lineSymbol src="file:/osmc-symbols/blue_round_blue_dot.png" align-center="false" repeat="true" />
 		</rule>
@@ -2882,8 +2896,14 @@
 		<rule e="way" k="osmc_foreground" v="yellow_pointer">
 			<lineSymbol src="file:/osmc-symbols/blue_round_yellow_pointer.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="green_pointer">
+			<lineSymbol src="file:/osmc-symbols/blue_round_green_pointer.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="white_pointer">
 			<lineSymbol src="file:/osmc-symbols/blue_round_white_pointer.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="yellow_shell_modern">
+			<lineSymbol src="file:/osmc-symbols/blue_round_yellow_shell_modern.png" align-center="false" repeat="true" />
 		</rule>
 	</rule>
 <!--OSMC symbols brown_circle background-->
@@ -3431,6 +3451,9 @@
 		<rule e="way" k="osmc_foreground" v="orange_circle">
 			<lineSymbol src="file:/osmc-symbols/black_orange_circle.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="yellow_corner">
+			<lineSymbol src="file:/osmc-symbols/black_yellow_corner.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="white_corner">
 			<lineSymbol src="file:/osmc-symbols/black_white_corner.png" align-center="false" repeat="true" />
 		</rule>
@@ -3593,6 +3616,9 @@
 		<rule e="way" k="osmc_foreground" v="~">
 			<lineSymbol src="file:/osmc-symbols/osmcbg_red_round.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="white_bar">
+			<lineSymbol src="file:/osmc-symbols/red_round_white_bar.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="yellow_bowl">
 			<lineSymbol src="file:/osmc-symbols/red_round_yellow_bowl.png" align-center="false" repeat="true" />
 		</rule>
@@ -3601,6 +3627,9 @@
 		</rule>
 		<rule e="way" k="osmc_foreground" v="red_dot">
 			<lineSymbol src="file:/osmc-symbols/red_round_red_dot.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="yellow_dot">
+			<lineSymbol src="file:/osmc-symbols/red_round_yellow_dot.png" align-center="false" repeat="true" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="white_dot">
 			<lineSymbol src="file:/osmc-symbols/red_round_white_dot.png" align-center="false" repeat="true" />
@@ -3785,8 +3814,17 @@
 		<rule e="way" k="osmc_foreground" v="yellow_triangle_line">
 			<lineSymbol src="file:/osmc-symbols/red_yellow_triangle_line.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="white_triangle_turned">
+			<lineSymbol src="file:/osmc-symbols/red_white_triangle_turned.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="yellow_triangle">
 			<lineSymbol src="file:/osmc-symbols/red_yellow_triangle.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="blue_triangle">
+			<lineSymbol src="file:/osmc-symbols/red_blue_triangle.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="green_triangle">
+			<lineSymbol src="file:/osmc-symbols/red_green_triangle.png" align-center="false" repeat="true" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="white_triangle">
 			<lineSymbol src="file:/osmc-symbols/red_white_triangle.png" align-center="false" repeat="true" />
@@ -4724,6 +4762,9 @@
 		<rule e="way" k="osmc_foreground" v="yellow_rectangle_line">
 			<lineSymbol src="file:/osmc-symbols/green_yellow_rectangle_line.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="white_rectangle_line">
+			<lineSymbol src="file:/osmc-symbols/green_white_rectangle_line.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="black_rectangle_line">
 			<lineSymbol src="file:/osmc-symbols/green_black_rectangle_line.png" align-center="false" repeat="true" />
 		</rule>
@@ -4825,6 +4866,9 @@
 		</rule>
 		<rule e="way" k="osmc_foreground" v="orange_dot">
 			<lineSymbol src="file:/osmc-symbols/green_round_orange_dot.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="yellow_pointer">
+			<lineSymbol src="file:/osmc-symbols/green_round_yellow_pointer.png" align-center="false" repeat="true" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="white_pointer">
 			<lineSymbol src="file:/osmc-symbols/green_round_white_pointer.png" align-center="false" repeat="true" />
@@ -5078,10 +5122,10 @@
 		
 		<!-- aeroway -->
 		<rule e="any" k="aeroway" v="*">
-			<rule e="any" k="aeroway" v="helipad" zoom-min="17">
+			<rule e="any" k="aeroway" v="helipad" zoom-min="17"> <!--not_car_mode-->
 				<symbol src="file:/symbols/heliport.png" />
 			</rule>
-			<rule e="any" k="aeroway" v="aerodrome" zoom-max="13">
+			<rule e="any" k="aeroway" v="aerodrome" zoom-max="13"> <!--not_car_mode-->
 				<symbol src="file:/symbols/airport.png" />
 			</rule>
 		</rule>
@@ -5102,10 +5146,10 @@
 			<rule e="any" k="amenity" v="bank" zoom-min="17">
 				<symbol src="file:/symbols/bank.png" />
 			</rule>
-			<rule e="any" k="amenity" v="bench" zoom-min="17">
+			<rule e="any" k="amenity" v="bench" zoom-min="17"> <!--not_car_mode-->
 				<symbol src="file:/symbols/bench.png" />
 			</rule>
-			<rule e="any" k="amenity" v="bicycle_rental" zoom-min="17">
+			<rule e="any" k="amenity" v="bicycle_rental" zoom-min="17"> <!--not_car_mode-->
 				<symbol src="file:/symbols/rental_bicycle.png" />
 			</rule>
 			<rule e="any" k="amenity" v="bus_station" zoom-min="17">
@@ -5123,7 +5167,7 @@
 			<rule e="any" k="amenity" v="fast_food" zoom-min="17">
 				<symbol src="file:/symbols/fast_food.png" />
 			</rule>
-			<rule e="any" k="amenity" v="feeding_place" zoom-min="17">
+			<rule e="any" k="amenity" v="feeding_place" zoom-min="17"> <!--not_car_mode-->
 				<symbol src="file:/symbols/game_feeding.png" />
 			</rule>
 			<rule e="any" k="amenity" v="fire_station" zoom-min="17">
@@ -5138,16 +5182,16 @@
 			<rule e="any" k="amenity" v="hospital" zoom-min="15">
 				<symbol src="file:/symbols/hospital.png" />
 			</rule>
-			<rule e="any" k="amenity" v="kindergarten" zoom-min="17">
+			<rule e="any" k="amenity" v="kindergarten" zoom-min="17"> <!--not_car_mode-->
 				<symbol src="file:/symbols/kindergarten.png" />
 			</rule>
-			<rule e="any" k="amenity" v="library" zoom-min="17">
+			<rule e="any" k="amenity" v="library" zoom-min="17"> <!--not_car_mode-->
 				<symbol src="file:/symbols/library.png" />
 			</rule>
 			<rule e="any" k="amenity" v="parking" zoom-min="16">
 				<symbol src="file:/symbols/parking_car.png" />
 			</rule>
-			<rule e="any" k="amenity" v="bicycle_parking" zoom-min="16">
+			<rule e="any" k="amenity" v="bicycle_parking" zoom-min="16"> <!--not_car_mode-->
 				<symbol src="file:/symbols/parking_bicycle.png" />
 			</rule>
 			<rule e="any" k="amenity" v="pharmacy" zoom-min="17">
@@ -5179,13 +5223,13 @@
 			<rule e="any" k="amenity" v="restaurant" zoom-min="17">
 				<symbol src="file:/symbols/restaurant.png" />
 			</rule>
-			<rule e="any" k="amenity" v="school" zoom-min="17">
+			<rule e="any" k="amenity" v="school" zoom-min="17"> <!--not_car_mode-->
 				<symbol src="file:/symbols/school.png" />
 			</rule>
 			<rule e="any" k="amenity" v="shelter" zoom-min="15">
 				<symbol src="file:/symbols/shelter.png" />
 			</rule>
-			<rule e="any" k="amenity" v="hunting_stand" zoom-min="16">
+			<rule e="any" k="amenity" v="hunting_stand" zoom-min="16"> <!--not_car_mode-->
 				<symbol src="file:/symbols/hunting_stand.png" />
 			</rule>
 			<rule e="any" k="amenity" v="telephone" zoom-min="17">
@@ -5197,7 +5241,7 @@
 			<rule e="any" k="amenity" v="toilets" zoom-min="16">
 				<symbol src="file:/symbols/toilets.png" />
 			</rule>
-			<rule e="any" k="amenity" v="university|college" zoom-min="17">
+			<rule e="any" k="amenity" v="university|college" zoom-min="17"> <!--not_car_mode-->
 				<symbol src="file:/symbols/university.png" />
 			</rule>
 			<rule e="any" k="amenity" v="mountain_rescue" zoom-min="17">
@@ -5251,7 +5295,7 @@
 		</rule>
 		
 		<!-- leisure -->
-		<rule e="any" k="leisure" v="*">
+		<rule e="any" k="leisure" v="*"> <!--not_car_mode-->
 			<rule e="any" k="leisure" v="dog_park" zoom-min="17">
 				<symbol src="file:/symbols/paw.png" />
 			</rule>
@@ -5325,7 +5369,9 @@
 					<rule e="node" k="fody" v="bad">
 						<symbol src="file:/symbols/guidepost_bad.png" />
 					</rule>
-					<caption k="ele" dy="33.00" font-family="sans_serif" font-style="italic" font-size="17.00" fill="#000000" stroke="#FFFFFF" stroke-width="3.70" />
+					<rule e="node" k="*" v="*" zoom-min="17">
+						<caption k="ele" dy="33.00" font-family="sans_serif" font-style="italic" font-size="17.00" fill="#000000" stroke="#FFFFFF" stroke-width="3.70" />
+					</rule>
 				</rule>
 			</rule>
 			<rule e="any" k="information" v="map" zoom-min="16">

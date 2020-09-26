@@ -56,7 +56,7 @@
 	</layer>
 	<layer id="l_surface" enabled="false">
 		<name lang="cs" value="Nevhodné povrchy" />
-		<name lang="en" value="Inappropriate surfaces" />
+		<name lang="en" value="Rough surfaces" />
 		<cat id="surface" />
 	</layer>
 	<layer id="l_bike_no" enabled="true">
@@ -84,6 +84,22 @@
 		<name lang="en" value="Pistes" />
 		<cat id="piste_downhill" />
 	</layer>
+	<layer id="l_car" enabled="true">
+		<name lang="cs" value="Silnice" />
+		<name lang="en" value="Highways" />
+		<cat id="car_mode" />
+	</layer>
+	<layer id="l_not_car" enabled="true" visible="false">
+		<name lang="cs" value="Pěšiny a cesty" />
+		<name lang="en" value="Paths and tracks" />
+		<cat id="not_car_mode" />
+	</layer>
+	<layer id="l_contour_lines" enabled="true">
+		<name lang="cs" value="Vrstevnice" />
+		<name lang="en" value="Contour lines" />
+		<cat id="contour_lines" />
+	</layer>
+	
 	<layer id="l_mapper" enabled="false">
 		<name lang="cs" value="Pro přispěvatele OSM" />
 		<name lang="en" value="For OSM contributors" />
@@ -109,20 +125,31 @@
 		<overlay id="l_piste_nordic" />
 		<overlay id="l_piste_downhill" />
 		<overlay id="l_national_park_pattern" />
+		<overlay id="l_contour_lines" />
+		<overlay id="l_not_car" />
 	</layer>
 	<layer id="bicycle" visible="true">
 		<name lang="cs" value="Cyklo vrstvy" />
 		<name lang="en" value="Bicycle layers" />
 		<overlay id="l_bike_beads" />
 		<overlay id="l_bike_lines" />
+		<overlay id="l_bike_no" />
 		<overlay id="l_mtb_scale" />
 		<overlay id="l_surface" />
 		<!--overlay id="l_trail_visibility" /-->
 		<overlay id="l_national_park_pattern" />
+		<overlay id="l_contour_lines" />
+		<overlay id="l_not_car" />
+	</layer>
+	<layer id="car" visible="true">
+		<name lang="cs" value="Auto" />
+		<name lang="en" value="Car" />
+		<overlay id="l_car" />
 	</layer>
 	<layer id="osm" visible="true">
 		<name lang="cs" value="OSM vrstvy" />
 		<name lang="en" value="OSM layers" />
 		<overlay id="l_mapper" />
+		<overlay id="l_not_car" />
 	</layer>
 </stylemenu>

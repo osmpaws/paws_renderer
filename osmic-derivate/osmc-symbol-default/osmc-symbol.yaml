@@ -442,6 +442,13 @@ yellow-black-arch:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+blue-white-backslash:
+  fill: "#ffffff"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 green-white-backslash:
   fill: "#ffffff"
   shield:
@@ -881,6 +888,14 @@ red-frame-white-bar:
     opacity: 0.0
     rounded: 2
     padding: 2
+red-round-white-bar:
+  fill: "#ffffff"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
 white-red-bar:
   fill: "#ff0000"
   shield:
@@ -1623,6 +1638,13 @@ none-yellow-circle:
   shield:
     fill: "#ffffff"
     opacity: 0.0
+    padding: 1
+black-yellow-corner:
+  fill: "#ffdd00"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1
     padding: 1
 black-white-corner:
   fill: "#ffffff"
@@ -2647,6 +2669,14 @@ blue-round-red-dot:
     stroke_width: 1
     padding: 2
     rounded: 10
+blue-round-yellow-dot:
+  fill: "#ffdd00"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
 blue-round-blue-dot:
   fill: "#1579e0"
   shield:
@@ -2878,6 +2908,13 @@ purple-white-dot:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+purple-black-dot:
+  fill: "#000000"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 purple-round-yellow-dot:
   fill: "#ffdd00"
   shield:
@@ -2953,8 +2990,24 @@ red-frame-red-dot:
     opacity: 0.0
     rounded: 2
     padding: 2
+red-frame-blue-dot:
+  fill: "#1579e0"
+  shield:
+    stroke_fill: "#ff0000"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 2
+    padding: 2
 red-round-red-dot:
   fill: "#ff0000"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
+red-round-yellow-dot:
+  fill: "#ffdd00"
   shield:
     fill: "#ff0000"
     stroke_fill: "#000000"
@@ -4324,6 +4377,14 @@ blue-round-yellow-pointer:
     stroke_width: 1
     padding: 2
     rounded: 10
+blue-round-green-pointer:
+  fill: "#00cd27"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
 blue-round-white-pointer:
   fill: "#ffffff"
   shield:
@@ -4445,6 +4506,14 @@ green-circle-yellow-pointer:
     opacity: 0.0
     rounded: 10
     padding: 2
+green-round-yellow-pointer:
+  fill: "#ffdd00"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
 green-round-white-pointer:
   fill: "#ffffff"
   shield:
@@ -4743,6 +4812,13 @@ brown-yellow-rectangle-line:
     padding: 1
 green-yellow-rectangle-line:
   fill: "#ffdd00"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+green-white-rectangle-line:
+  fill: "#ffffff"
   shield:
     fill: "#00cd27"
     stroke_fill: "#000000"
@@ -5308,6 +5384,14 @@ blue-shell-modern:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+blue-round-yellow-shell-modern:
+  fill: "#ffdd00"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
 green-shell-modern:
   fill: "#ffdd00"
   shield:
@@ -5919,6 +6003,13 @@ purple-white-triangle-turned:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+red-white-triangle-turned:
+  fill: "#ffffff"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 red-circle-red-triangle-turned:
   fill: "#ff0000"
   shield:
@@ -6207,6 +6298,20 @@ purple-white-triangle:
     padding: 1
 red-yellow-triangle:
   fill: "#ffdd00"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+red-blue-triangle:
+  fill: "#1579e0"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+red-green-triangle:
+  fill: "#00cd27"
   shield:
     fill: "#ff0000"
     stroke_fill: "#000000"
