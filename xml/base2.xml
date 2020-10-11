@@ -36,14 +36,14 @@
 	<!-- captions -->
 	<!-- ways -->
 	<rule e="any" k="*" v="*">
-		<rule e="any" k="leisure" v="nature_reserve" zoom-min="16">
+		<rule e="any" k="leisure" v="nature_reserve" zoom-min="16"> <!--not_car_mode-->
 			<caption k="name" font-family="serif" font-style="bold_italic" font-size="17.0" fill="#40aa40" stroke="#ffffff" stroke-width="3.0" />
 			<pathText k="name" font-family="serif" font-style="bold_italic" font-size="17.0" fill="#40aa40" stroke="#ffffff" stroke-width="3.0" />
 		</rule>		
-		<rule e="any" k="landuse" v="reservoir|basin" zoom-min="14">
+		<rule e="any" k="landuse" v="reservoir|basin" zoom-min="14"> <!--not_car_mode-->
 			<caption k="name" font-family="serif" font-style="italic" font-size="17.0" fill="#5576d1" stroke="#e0e0f0" stroke-width="3.0" />
 		</rule>		
-		<rule e="any" k="natural" v="water" zoom-min="14">
+		<rule e="any" k="natural" v="water" zoom-min="14"> <!--not_car_mode-->
 			<caption k="name" font-family="serif" font-style="italic" font-size="17.0" fill="#5576d1" stroke="#e0e0f0" stroke-width="3.0" />
 		</rule>
 		<rule e="any" k="amenity" v="restaurant|pub|bar|cafe" zoom-min="18">
@@ -89,10 +89,10 @@
 			<rule e="way" k="natural" v="scree">
 				<area src="file:/patterns/scree.png" stroke="#c2a47c" stroke-width="0.1" />
 			</rule>
-			<rule e="way" k="natural" v="heath">
+			<rule e="way" k="natural" v="heath">  <!--not_car_mode-->
 				<area fill="#ffffc0" stroke="#ffff90" stroke-width="0.3" />
 			</rule>
-			<rule e="way" k="natural" v="marsh|wetland" zoom-min="14">
+			<rule e="way" k="natural" v="marsh|wetland" zoom-min="14">  <!--not_car_mode-->
 				<area src="file:/patterns/marsh.png" />
 			</rule>
 		</rule>
@@ -199,7 +199,7 @@
 		
 		<!-- man_made -->
 		<rule e="way" k="man_made" v="*">
-			<rule e="way" k="man_made" v="water_works" zoom-min="15">
+			<rule e="way" k="man_made" v="water_works" zoom-min="15">  <!--not_car_mode-->
 				<area fill="#518dab" stroke="#b5b5b5" stroke-width="1" />
 			</rule>
 			<rule e="way" k="man_made" v="water_tower" zoom-min="15">
@@ -462,7 +462,7 @@
 			<rule e="way" k="waterway" v="dam" closed="yes">
 				<area fill="#777777" stroke="#000000" stroke-width="0.7" />
 			</rule>
-			<rule e="way" k="waterway" v="weir">
+			<rule e="way" k="waterway" v="weir"> <!--not_car_mode-->
 				<line stroke="#000044" stroke-width="0.6" />
 				<caption k="name" font-family="serif" font-style="bold_italic" font-size="18.0" fill="#a0a090" stroke="#5576d1" stroke-width="1" />
 			</rule>
@@ -788,7 +788,7 @@
 
 		<!-- barriers -->
 		<rule e="way" k="barrier" v="*">
-			<rule e="way" k="barrier" v="hedge" zoom-min="12">
+			<rule e="way" k="barrier" v="hedge" zoom-min="12"> <!--not_car_mode-->
 				<line stroke="#9cec8a" stroke-width="0.4" />
 			</rule>
 			<rule e="way" k="barrier" v="fence|wall|city_wall" zoom-min="12">
@@ -803,7 +803,7 @@
 
 	<!-- historic -->
 	<!--historic castle-->
-	<rule e="any" k="historic" v="castle" zoom-min="13">
+	<rule e="any" k="historic" v="castle" zoom-min="13">  <!--not_car_mode-->
 		<rule e="any" k="ruins" v="~|no">
 			<symbol src="file:/symbols/castle_fortress.png" />
 		</rule>
@@ -811,19 +811,19 @@
 			<symbol src="file:/symbols/castle_ruin.png" />
 		</rule>
 	</rule>
-	<rule e="any" k="historic" v="ruins" zoom-min="13">
+	<rule e="any" k="historic" v="ruins" zoom-min="13"> <!--not_car_mode-->
 		<rule e="any" k="ruins" v="castle">
 			<symbol src="file:/symbols/castle_ruin.png" />
 		</rule>	
 		<symbol src="file:/symbols/ruin.png" />
 	</rule>
-	<rule e="any" k="ruins" v="yes" zoom-min="13">
+	<rule e="any" k="ruins" v="yes" zoom-min="13"> <!--not_car_mode-->
 		<rule e="any" k="historic|bunker_type" v="~">
 			<symbol src="file:/symbols/ruin.png" />
 		</rule>
 	</rule>
 	
-	<rule e="any" k="historic" v="archaeological_site" zoom-min="15">
+	<rule e="any" k="historic" v="archaeological_site" zoom-min="15"> <!--not_car_mode-->
 		<symbol src="file:/symbols/archaeological_site.png" />
 	</rule>
 	<rule e="any" k="historic" v="*" zoom-min="13">
@@ -839,10 +839,10 @@
 		<rule e="any" k="historic" v="monument" zoom-min="16">
 			<symbol src="file:/symbols/monument.png" />
 		</rule>
-		<rule e="any" k="historic" v="wayside_cross" zoom-min="16">
+		<rule e="any" k="historic" v="wayside_cross" zoom-min="16"> <!--not_car_mode-->
 			<symbol src="file:/symbols/wayside_cross.png" />
 		</rule>
-		<rule e="any" k="historic" v="wayside_shrine" zoom-min="16">
+		<rule e="any" k="historic" v="wayside_shrine" zoom-min="16"> <!--not_car_mode-->
 			<symbol src="file:/symbols/wayside_shrine.png" />
 		</rule>
 	</rule>
@@ -906,10 +906,10 @@
 		
 		<!-- highway -->
 		<rule e="node" k="highway" v="*">
-			<rule e="node" k="highway" v="bus_stop" zoom-min="17">
+			<rule e="node" k="highway" v="bus_stop" zoom-min="17"> <!--not_car_mode-->
 				<caption k="name" dy="25.5" font-style="bold" font-size="17.0" fill="#2dec2d" stroke="#606060" stroke-width="3.0" />
 			</rule>
-			<rule e="node" k="highway" v="bus_stop" zoom-min="15">
+			<rule e="node" k="highway" v="bus_stop" zoom-min="15"> <!--not_car_mode-->
 				<!--<symbol src="file:/symbols/bus.png" />-->
 				<circle r="6.0" fill="#2dec2d" stroke="#606060" stroke-width="2.2" />
 			</rule>
@@ -952,7 +952,7 @@
 		<rule e="node" k="man_made" v="water_tower" zoom-min="17">
 			<symbol src="file:/symbols/water_tower.png" />
 		</rule>
-		<rule e="node" k="man_made" v="beehive" zoom-min="17">
+		<rule e="node" k="man_made" v="beehive" zoom-min="17"> <!--not_car_mode-->
 			<symbol src="file:/symbols/bee.png" />
 		</rule>
 		<rule e="node" k="man_made" v="cross" zoom-min="16">
@@ -1010,7 +1010,7 @@
 		
 		<!-- waterways -->
 		<rule e="node" k="waterway" v="*">
-			<rule e="node" k="waterway" v="weir" zoom-min="15">
+			<rule e="node" k="waterway" v="weir" zoom-min="15"> <!--not_car_mode-->
 				<circle r="6.0" fill="#b5d6f1" stroke="#000044" stroke-width="2.2" />
 				<rule e="node" k="*" v="*" zoom-min="17">
 					<caption k="name" font-family="serif" font-style="bold_italic" font-size="18.0" fill="#707080" stroke="#5576d1" stroke-width="2.7" />
@@ -1042,11 +1042,11 @@
 			<rule e="node" k="railway" v="level_crossing" zoom-min="16">
 				<symbol src="file:/symbols/railway_crossing.png" />
 			</rule>
-			<rule e="node" k="railway" v="station" zoom-min="14">
+			<rule e="node" k="railway" v="station" zoom-min="14"> <!--not_car_mode-->
 				<circle r="9.0" fill="#ec2d2d" stroke="#606060" stroke-width="2.2" />
 				<caption k="name" dy="-15.0" font-style="bold" font-size="21.0" fill="#ec2d2d" stroke="#ffffff" stroke-width="3.0" />
 			</rule>
-			<rule e="node" k="railway" v="halt|tram_stop" zoom-min="17">
+			<rule e="node" k="railway" v="halt|tram_stop" zoom-min="17"> <!--not_car_mode-->
 				<circle r="6.0" fill="#ec2d2d" stroke="#606060" stroke-width="2.2" />
 				<caption k="name" dy="-22.5" font-style="bold" font-size="18" fill="#ec2d2d" stroke="#ffffff" stroke-width="3.0" />
 			</rule>
@@ -1068,7 +1068,7 @@
 		</rule>
 		<!-- place -->
 		<rule e="node" k="place" v="*">
-			<rule e="node" k="place" v="locality" zoom-min="15">
+			<rule e="node" k="place" v="locality" zoom-min="15"> <!--not_car_mode-->
 				<caption k="name" font-family="serif" font-style="italic" font-size="13.0" fill="#555555" stroke="#ffffff" stroke-width="2.0" />
 			</rule>
 			<rule e="node" k="place" v="hamlet" zoom-min="14">
@@ -1117,7 +1117,7 @@
 			</rule>
 		</rule>
 		<!-- entrance -->
-		<rule e="any" k="entrance" v="*">
+		<rule e="any" k="entrance" v="*"> <!--not_car_mode-->
 			<rule e="any" k="entrance" v="yes" zoom-min="19">
 				<symbol src="file:/symbols/entrance.png" />
 			</rule>
@@ -1157,10 +1157,10 @@
 			<rule e="any" k="amenity" v="feeding_place" zoom-min="17"> <!--not_car_mode-->
 				<symbol src="file:/symbols/game_feeding.png" />
 			</rule>
-			<rule e="any" k="amenity" v="fire_station" zoom-min="17">
+			<rule e="any" k="amenity" v="fire_station" zoom-min="17"> <!--not_car_mode-->
 				<symbol src="file:/symbols/fire_station.png" />
 			</rule>
-			<rule e="any" k="amenity" v="fountain" zoom-min="17">
+			<rule e="any" k="amenity" v="fountain" zoom-min="17"> <!--not_car_mode-->
 				<symbol src="file:/symbols/fountain.png" />
 			</rule>
 			<rule e="any" k="amenity" v="fuel" zoom-min="16">
@@ -1181,10 +1181,10 @@
 			<rule e="any" k="amenity" v="bicycle_parking" zoom-min="16"> <!--not_car_mode-->
 				<symbol src="file:/symbols/parking_bicycle.png" />
 			</rule>
-			<rule e="any" k="amenity" v="pharmacy" zoom-min="17">
+			<rule e="any" k="amenity" v="pharmacy" zoom-min="17"> <!--not_car_mode-->
 				<symbol src="file:/symbols/pharmacy.png" />
 			</rule>
-			<rule e="any" k="amenity" v="place_of_worship" zoom-min="17">
+			<rule e="any" k="amenity" v="place_of_worship" zoom-min="17"> <!--not_car_mode-->
 				<rule e="any" k="denomination|religion" v="jewish">
 					<symbol src="file:/symbols/jewish.png" />
 				</rule>
@@ -1195,7 +1195,7 @@
 					<symbol src="file:/symbols/christian.png" />
 				</rule>
 			</rule>
-			<rule e="any" k="amenity" v="post_box" zoom-min="17">
+			<rule e="any" k="amenity" v="post_box" zoom-min="17"> <!--not_car_mode-->
 				<symbol src="file:/symbols/post_box.png" />
 			</rule>
 			<rule e="any" k="amenity" v="post_office" zoom-min="17">
@@ -1204,7 +1204,7 @@
 			<rule e="any" k="amenity" v="pub|bar" zoom-min="17">
 				<symbol src="file:/symbols/pub.png" />
 			</rule>
-			<rule e="any" k="amenity" v="recycling" zoom-min="17">
+			<rule e="any" k="amenity" v="recycling" zoom-min="17"> <!--not_car_mode-->
 				<symbol src="file:/symbols/recycling.png" />
 			</rule>
 			<rule e="any" k="amenity" v="restaurant" zoom-min="17">
@@ -1213,7 +1213,7 @@
 			<rule e="any" k="amenity" v="school" zoom-min="17"> <!--not_car_mode-->
 				<symbol src="file:/symbols/school.png" />
 			</rule>
-			<rule e="any" k="amenity" v="shelter" zoom-min="15">
+			<rule e="any" k="amenity" v="shelter" zoom-min="15">  <!--not_car_mode-->
 				<symbol src="file:/symbols/shelter.png" />
 			</rule>
 			<rule e="any" k="amenity" v="hunting_stand" zoom-min="16"> <!--not_car_mode-->
@@ -1222,7 +1222,7 @@
 			<rule e="any" k="amenity" v="telephone" zoom-min="17">
 				<symbol src="file:/symbols/telephone.png" />
 			</rule>
-			<rule e="any" k="amenity" v="theatre" zoom-min="17">
+			<rule e="any" k="amenity" v="theatre" zoom-min="17"> <!--not_car_mode-->
 				<symbol src="file:/symbols/theatre.png" />
 			</rule>
 			<rule e="any" k="amenity" v="toilets" zoom-min="16">
@@ -1241,7 +1241,7 @@
 			<rule e="any" k="shop" v="butcher" zoom-min="17">
 				<symbol src="file:/symbols/butcher.png" />
 			</rule>
-			<rule e="any" k="shop" v="bicycle" zoom-min="17">
+			<rule e="any" k="shop" v="bicycle" zoom-min="17"> <!--not_car_mode-->
 				<symbol src="file:/symbols/bicycle.png" />
 				<caption k="name" dy="-30" font-style="bold" font-size="17" fill="#aa3399" stroke="#ffffff" stroke-width="3.0" />
 			</rule>
@@ -1325,7 +1325,7 @@
 			<rule e="any" k="tourism" v="chalet" zoom-min="15">
 				<symbol src="file:/symbols/hut.png" />
 			</rule>
-			<rule e="any" k="tourism" v="informations" zoom-min="17">
+			<rule e="any" k="information" v="terminal|audioguide|tactile_map|tactile_model|trail_blaze|route_marker" zoom-min="17">
 				<symbol src="file:/symbols/information.png" />
 			</rule>
 			<rule e="any" k="tourism" v="motel" zoom-min="17">
@@ -1350,7 +1350,7 @@
 			<rule e="any" k="information" v="map" zoom-min="16">
 				<symbol src="file:/symbols/map.png" />
 			</rule>
-			<rule e="any" k="information" v="board" zoom-min="15">
+			<rule e="any" k="information" v="board" zoom-min="15"> <!--not_car_mode-->
 				<symbol src="file:/symbols/board.png" />
 			</rule>
 			<rule e="any" k="information" v="office" zoom-min="16">

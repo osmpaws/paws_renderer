@@ -29,6 +29,11 @@
 		<name lang="en" value="Guideposts" />
 		<cat id="guidepost" />
 	</layer>
+	<layer id="l_guidepost_bike_mode" enabled="false">
+		<name lang="cs" value="Rozcestníky" />
+		<name lang="en" value="Guideposts" />
+		<cat id="guidepost" />
+	</layer>
 	<layer id="l_bike_ref_captions" enabled="true">
 		<name lang="cs" value="TZT - linie" />
 		<name lang="en" value="Waymarked Trails" />
@@ -139,6 +144,7 @@
 		<!--overlay id="l_trail_visibility" /-->
 		<overlay id="l_national_park_pattern" />
 		<overlay id="l_contour_lines" />
+		<overlay id="l_guidepost_bike_mode" />
 		<overlay id="l_not_car" />
 	</layer>
 	<layer id="car" visible="true">

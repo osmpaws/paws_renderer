@@ -1,25 +1,25 @@
 		<!--$KCT#biking#lines#low#zoom$-->
 		<rule cat="bike_lines" e="way" k="route" v="bicycle">
 			<rule e="way" k="network" v="ncn" zoom-min="15" zoom-max="16">
-				<line stroke="#9000FF" stroke-width="2.1" dy="-3" stroke-linecap="butt" />
+				<line stroke="#9000FF" stroke-width="1.4" dy="-3" stroke-linecap="butt" />
 			</rule>
 			<rule e="way" k="network" v="ncn" zoom-min="13" zoom-max="14">
-				<line stroke="#9000FF" stroke-width="3.0" dy="-3" stroke-linecap="butt" />
+				<line stroke="#9000FF" stroke-width="1.5" dy="-3" stroke-linecap="butt" />
 			</rule>
 			<rule e="way" k="network" v="ncn" zoom-min="12" zoom-max="12">
-				<line stroke="#9000FF" stroke-width="4.2" dy="-3" stroke-linecap="butt" />
+				<line stroke="#9000FF" stroke-width="2.0" dy="-3" stroke-linecap="butt" />
 			</rule>
 			<rule e="way" k="network" v="ncn" zoom-min="9" zoom-max="11">
 				<line stroke="#9000FF" stroke-width="3.5" dy="-3" stroke-linecap="butt" />
 			</rule>
 			<rule e="way" k="network" v="rcn|lcn|~" zoom-min="15" zoom-max="16">
-				<line stroke="#FF00FF" stroke-width="2.8" dy="-3" stroke-linecap="butt" />
+				<line stroke="#FF00FF" stroke-width="1.5" dy="-3" stroke-linecap="butt" />
 			</rule>
 			<rule e="way" k="network" v="rcn|lcn|~" zoom-min="13" zoom-max="14">
-				<line stroke="#FF00FF" stroke-width="3.0" dy="-3" stroke-linecap="butt" />
+				<line stroke="#FF00FF" stroke-width="1.5" dy="-3" stroke-linecap="butt" />
 			</rule>
 			<rule e="way" k="network" v="rcn|lcn|~" zoom-min="12" zoom-max="12">
-				<line stroke="#FF00FF" stroke-width="4.2" dy="-3" stroke-linecap="butt" />
+				<line stroke="#FF00FF" stroke-width="2.1" dy="-3" stroke-linecap="butt" />
 			</rule>
 			<!--rule e="way" k="network" v="rcn|lcn|~" zoom-min="11" zoom-max="11">
 				<line stroke="#FF00FF" stroke-width="4.5" dy="-3" stroke-linecap="butt" />

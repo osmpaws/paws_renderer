@@ -1,9 +1,21 @@
 			<!--mtb#scale-->
-			<rule cat="surface" e="way" k="surface" v="gravel">
+			<rule cat="surface" e="way" k="surface" v="gravel" zoom-max="15">
 				<line stroke="#60eeeeee" stroke-width="8.00" stroke-dasharray="10,15" stroke-linecap="butt" />
 			</rule>
-			<rule cat="surface" e="way" k="surface" v="mud">
+			<rule cat="surface" e="way" k="surface" v="mud" zoom-max="15">
 				<line stroke="#60777777" stroke-width="8.00" stroke-dasharray="0,10,10,5" stroke-linecap="butt" />
+			</rule>
+			<rule cat="surface" e="way" k="surface" v="gravel" zoom-min="16" zoom-max="17">
+				<line stroke="#60eeeeee" stroke-width="5.00" stroke-dasharray="10,15" stroke-linecap="butt" />
+			</rule>
+			<rule cat="surface" e="way" k="surface" v="mud" zoom-min="16"  zoom-max="17">
+				<line stroke="#60777777" stroke-width="5.00" stroke-dasharray="0,10,10,5" stroke-linecap="butt" />
+			</rule>
+			<rule cat="surface" e="way" k="surface" v="gravel" zoom-min="18">
+				<line stroke="#60eeeeee" stroke-width="3.00" stroke-dasharray="10,15" stroke-linecap="butt" />
+			</rule>
+			<rule cat="surface" e="way" k="surface" v="mud" zoom-min="18">
+				<line stroke="#60777777" stroke-width="3.00" stroke-dasharray="0,10,10,5" stroke-linecap="butt" />
 			</rule>
 			<rule cat="mtb_scale" e="way" k="mtb:scale" v="0|0-|0+">
 				<line stroke="#3040ff40" stroke-width="4.0" stroke-linecap="butt" />

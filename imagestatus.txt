@@ -384,6 +384,7 @@ osmc-symbols/none-red-dot-14.svg
 osmc-symbols/none-red-pointer-14.svg
 osmc-symbols/none-red-triangle-14.svg
 osmc-symbols/none-white-bar-14.svg
+osmc-symbols/none-white-pointer-14.svg
 osmc-symbols/none-yellow-bar-14.svg
 osmc-symbols/none-yellow-circle-14.svg
 osmc-symbols/none-yellow-diamond-14.svg

@@ -129,7 +129,8 @@ echo '/<\s*symbol / s/rotate="[^"]*" //g
 /<\s*symbol / s/repeat-gap="[^"]*" //g
 /<\s*symbol .*osmc-symbols\// s/\s*\/>/ priority="2" \/>/g
 /<\s*symbol / {/priority="/! s/\s*\/>/ priority="3" \/>/g }
-/<!--not_car_mode-->/ s/<rule /<rule cat="not_car_mode" /' >> $sedscript
+/<!--not_car_mode-->/ s/<rule /<rule cat="not_car_mode" /
+/<!--car_mode-->/ s/<rule /<rule cat="car_mode" /' >> $sedscript
 sed -i -f $sedscript $targetdir/$themename/$newthemename.xml
 
 if ! xmllint --noout "$targetdir/$themename/$newthemename.xml" ; then

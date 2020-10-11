@@ -5458,6 +5458,12 @@ none-green-pointer:
     fill: "#ffffff"
     opacity: 0.0
     padding: 1
+none-white-pointer:
+  fill: "#ffffff"
+  shield:
+    fill: "#ffffff"
+    opacity: 0.0
+    padding: 1
 black-white-rectangle-line:
   fill: "#ffffff"
   shield:
