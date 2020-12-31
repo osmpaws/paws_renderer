@@ -649,14 +649,14 @@ vineyard:
   shield:
     fill: "#8ab8cd"
 wood-coniferous:
-  fill: "#96b983"
+  fill: "#a0c28d"
   shield:
     fill: "#80abc5"
 wood-deciduous:
-  fill: "#96b983"
+  fill: "#a0c28d"
   shield:
     fill: "#80abc5"
 wood-mixed:
-  fill: "#96b983"
+  fill: "#a0c28d"
   shield:
     fill: "#80abc5"
