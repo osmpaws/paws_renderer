@@ -1,4 +1,9 @@
 			<rule e="way" k="natural" v="cliff" zoom-min="14">
 				<line stroke="#444444" stroke-width="0.1" />
-				<lineSymbol src="file:/symbols/cliff_line.png" display="always" align-center="true" repeat="true" repeat-start="0" repeat-gap="8" />
+				<rule e="way" k="*" v="*" closed="no">
+					<lineSymbol src="file:/symbols/cliff_line.png" display="always" align-center="true" repeat="true" repeat-start="0" repeat-gap="8" />
+				</rule>
+				<rule e="way" k="*" v="*" closed="yes">
+					<lineSymbol src="file:/symbols/cliff_line_closedway.png" display="always" align-center="true" repeat="true" repeat-start="0" repeat-gap="8" />
+				</rule>
 			</rule>

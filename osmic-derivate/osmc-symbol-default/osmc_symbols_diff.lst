@@ -80,6 +80,7 @@ black:GLH
 black:green
 black:green_low
 black:grey_bar
+black:GRG
 black:G1
 black_hiker
 black:HT
@@ -99,7 +100,9 @@ black:H9
 black:J
 black:KKS
 black:KwR
+black:M
 black:N
+black:NaEr
 black:none
 black:pink_bar
 black:pink_hiker
@@ -117,6 +120,8 @@ black:Sli_square
 black:ST
 :black_stripe
 black_triangle_turned:
+black:U
+black:WFP
 black:white
 black:white_arrow
 black;white;red_rectangle
@@ -136,6 +141,7 @@ black:X8
 black:yellow
 black:16
 black:19
+black:2
 black:22
 black:3
 black:&#34;~&#34;
@@ -145,17 +151,20 @@ blau-gelb-blau
 blau:schwarz
 Blau-weis
 :blue
+bl;ue:
 blue
 blue:
 :blue_arrow
 blue:AW65
 blue:A1
+blue:A4
 blue:B
 :blue_bar
 blue_bar
 blue_bar:blue_bar
 blue_bar:green_lower
 blue_bar:RBW
+blue:Ba1
 blue:blue
 blueblue:GRW
 blue:blue_recangle
@@ -179,6 +188,7 @@ blue:DHB
 blue_diamond
 blue_diamond:blue_dot
 blue_diamond_line:grey_diamond
+blue_diamond_line:white_diamond
 :blue_dot
 blue_dot
 blue_dot:
@@ -228,6 +238,7 @@ blue:none
 blue:NSS
 blue:NTW
 blue:OZW
+blue:planet
 blue:PO
 :blue_pointer
 blue_pointer
@@ -239,6 +250,7 @@ blue_rectangle
 blue_rectangle:
 blue_rectangle:GT
 blue_rectangle:HB
+blue_rectangle:planet
 blue_rectangle:SPxx
 blue_rectangle:SP110
 blue_rectangle:SP159
@@ -271,6 +283,9 @@ blue:STK
 blue_stripe
 :blue_triangle
 blue_triangle:
+:blue_triangle_line
+blue_triangle_line:2
+blue_triangle_line:9
 blue_triangle_turned
 blue_triangle_turned:
 blue:TWR
@@ -321,6 +336,7 @@ brown_circle:
 brown_dot:
 brown:EA
 brown:F1
+brown:G
 :brown_hiker
 brown:H1
 brown:none
@@ -333,11 +349,13 @@ brown:SNP
 brown:V1
 brown:W
 brown:WBT
+brown:white
 brown;white;black_ammonit
 brown;white;brown;L
 brown_white:pointer
 brown:white_round
 brown:WLP
+brown;yellow;brown_pointer
 brown:yellow_frame
 brown:1
 brown:15
@@ -345,6 +363,7 @@ brown:3
 brown:6
 C:blue
 cc:black
+ciolet:O
 cyan:
 cyan:AA
 cyan_dot
@@ -352,6 +371,7 @@ cyan:green_dot
 cyan_stripe
 darkblue
 #ddb287:
+deepskyblue:white_circle
 default
 Distinctive_emblem_for_cultural_property.svg|16px]]
 due
@@ -375,8 +395,10 @@ gray:
 gray:gray_bar
 gray:NaEr
 gray:none
+:gray_triangle
 gray_triangle
 gree
+gree:green_rectangle
 :green
 green
 green:
@@ -386,6 +408,7 @@ green:Appenzeller
 green:A1
 green:A2
 green:A5
+green:A6
 green:B
 green_backslash
 :green_bar
@@ -404,6 +427,7 @@ green_circle:M1
 green_circle:M3
 green_circle:M4
 green:CN
+:green_corner
 green_corner
 :green_cross
 :green_diamond
@@ -432,6 +456,7 @@ green_frame:white
 green_frame:1
 green:F5
 green:G
+green:Glarus
 green:green
 green:green_bachslash
 green:green_frame
@@ -455,6 +480,7 @@ green:KBP
 green:KVO
 :green_lower
 green_lower
+green:M
 green:MIL
 green:MR
 green:MU
@@ -464,6 +490,7 @@ green:M3
 green:NAM
 green:NAW
 green:Neckertaler
+green:NEP
 green:NEt
 green:NHB
 green:NKD
@@ -619,7 +646,9 @@ none:green_triange
 none:none
 none;none
 none:white_horse
+Nr.
 Nur
+O:black
 oramge:AP
 :orange
 orange
@@ -628,6 +657,7 @@ orange:AHW
 orange_arrow
 orange:A1
 orange:A2
+orange:A3
 :orange_bar
 orange_bar
 orange:black
@@ -636,6 +666,7 @@ orange_circle
 orange_circle:
 orange:CL
 :orange_diamond
+orange_diamond
 orange_diamond:black_bar
 :orange_dot
 orange_dot
@@ -654,6 +685,7 @@ orange:O
 orange:orange
 orange:orange_rectangel
 :orange_pointer
+orange_pointer
 orange_pointer:
 orange_round
 orange_round:
@@ -697,6 +729,8 @@ purple:Archeo
 purple:A1
 purple:A10
 purple:A11
+purple:A3
+purple:A4
 :purple_bar
 purple_circle
 purple_circle:
@@ -709,6 +743,7 @@ purple_diamond:csc
 purple:DP
 purple:flower
 purple_frame:
+purple:GPS
 purple:HMS
 purple:none
 purple:P
@@ -726,6 +761,7 @@ purple:SCHM
 purple:SKL
 purple:TKW
 purple_web
+purple:white
 purple:W1
 purple:08
 purple:15
@@ -773,6 +809,7 @@ red_circle:15
 red_circle:2
 red_circle:3
 red_corner:
+red_crest:SSS
 red:DBT
 :red_diamond
 red_diamond
@@ -846,6 +883,7 @@ red_round:white
 red_round:white_arrow
 red_round:1
 red_round:13
+red_round:2
 red_round:6
 red:rred
 red:RWR
@@ -864,6 +902,7 @@ red:T
 red_triangle:
 red:up
 red:V4
+red:W
 red:WE
 red/white
 red:white
@@ -926,6 +965,7 @@ Schwarz8_auf_gelbem_rechteck
 silver_web
 symbol
 symbol=black:black
+symbol=blue:blue
 symbol=blue:blue_round
 symbol=blue:white
 Symbol_E10.png
@@ -933,8 +973,11 @@ symbol=green:green_corner
 symbol=green:white
 Symbol_Jakobsweg.svg
 symbol=orange:white
+symbol=red
+symbol=red:black
 symbol=red:red
 symbol=red:red_round
+symbol=red:white
 symbol=yellow:white
 symbol=yellow:yellow
 Tauplitz
@@ -976,6 +1019,8 @@ white:AC
 white:AW
 white:A2
 white:B
+white:_backslash
+white:_backslasch
 :white_bar
 white_bar
 white_bar:Bi
@@ -1082,8 +1127,10 @@ white:F
 white:face
 white:FBS
 white:Fe1
+white:G
 white:GDR
 white:geen_bar
+white:GE05
 white:Glw
 white:gold_pointer
 white:GR
@@ -1134,6 +1181,7 @@ white:HR
 white:JA6
 white:K
 white:Kl
+white:KW
 white:KWF
 white:K1
 white:K2
@@ -1144,6 +1192,7 @@ white:LES
 white_lower
 white:lower_green
 white_lower:12
+white:LS
 white:L17
 white:L18
 white:L19
@@ -1154,6 +1203,7 @@ white:mtb
 white:N
 white:NGt
 white:NLP
+white:nlue_hiker
 white:none
 white:nordic_walking
 white:NW
@@ -1162,6 +1212,7 @@ white:Oh!7
 white:Oh!8
 white:orange_flower
 white:orange_round
+white:P
 white:papillon
 white:pink_bar
 white:pink_dot
@@ -1212,6 +1263,8 @@ white:red_3
 white:Reh
 white:rgreen_bar
 white:rgreen_pointer
+white:rood_triangle
+white:root_cross
 :white_round
 white_round
 white_round:
@@ -1237,6 +1290,7 @@ white:R7a
 white:R8
 white:R9
 white:S
+white:SKGLB
 white_square:
 white:squirrel
 white_stripe
@@ -1252,6 +1306,7 @@ white:Tk12
 white:TN
 white:TNII
 :white_triangle
+white:_triangle
 white_triangle
 white_triangle:
 white_triangle:blue_dot
@@ -1263,9 +1318,11 @@ white:TT
 :white_turned_V
 white:two
 white:ubh
+white:Ü3
 white:V//
 white:violet_bar
 white:vlue_pointer
+white:VW
 white:W
 white:Waldachtaler
 white:WdSt
@@ -1310,6 +1367,7 @@ white:yellow_runner
 white:yellow_star
 white:yellow_triangel
 white_yellow_triangle
+white[:yellow_x]
 white:yellow_X
 white:yelow_bar
 white:ygreen_bar
@@ -1353,6 +1411,7 @@ withe:yellow_bar
 withe:yellow_lower
 with:yellow_bar
 :WON1
+w:white
 x
 yellos:
 :yellow
@@ -1365,7 +1424,9 @@ yellow_backslash
 :yellow_bar
 yellow-bar
 yellow_bar
+yellow_bar:
 yellow_bar:black
+yellow_bar:green
 yellow_bar:white
 yellow_bar:yellow_bar
 yellow_bar:yellow_circle
@@ -1442,6 +1503,7 @@ yellow_frame:Yellow_triangle
 yellow:F4
 yellow:geel
 yellow:Gelb
+yellow:gray_bar
 yellow:gray_diamond
 yellow:green
 yellow:green_up_triangle
@@ -1452,12 +1514,17 @@ yellow:G2
 yellow:G5
 yellow:G7
 yellow:HBB
+yellow:HF1
 yellow:HF6
 :yellow_hiker
 yellow:H2
 yellow:H8
 yellow:I
 yellow:KKW
+yellow:KL1
+yellow:KL2
+yellow:KL3
+yellow:KL4
 yellow:KVB
 yellow:KwR
 yellow:LfK

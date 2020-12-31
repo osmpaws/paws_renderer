@@ -60,6 +60,12 @@
 		<rule e="node" k="osmc_foreground" v="mine">
 			<symbol src="file:/osmc-symbols/white_round_mine.png" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="red_pointer">
+			<symbol src="file:/osmc-symbols/white_round_red_pointer.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="blue_pointer">
+			<symbol src="file:/osmc-symbols/white_round_blue_pointer.png" />
+		</rule>
 		<rule e="node" k="osmc_foreground" v="green_pointer">
 			<symbol src="file:/osmc-symbols/white_round_green_pointer.png" />
 		</rule>
