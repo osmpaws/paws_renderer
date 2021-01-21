@@ -71,7 +71,7 @@ uploadpath="upload.txt"
 lmod="lmod.txt"
 logfile="$root/logfile.txt"
 errfile="$root/errfile.txt"
-osmcsymlst=~hts/osm/nbh/osmc_symbols.lst
+osmcsymlst=~/osm/generator/nbh/osmc_symbols.lst
 if [ ! -f "$osmcsymlst" ] ; then
 	osmcsymlst=osmc_symbols.lst
 fi
@@ -84,7 +84,7 @@ pawswinteryaml="paws_winter.yaml"
 buildctrl="build.txt"
 releasectrl="release.txt"
 sedfile="sed_script.sed"
-jarfile=~/.openstreetmap/osmosis/plugins/mapsforge-map-writer-0.13.0-jar-with-dependencies.jar
+jarfile=~/.openstreetmap/osmosis/plugins/mapsforge-map-writer-0.15.0-jar-with-dependencies.jar
 # mini update
 sttscalecfg="$root/tools/image_scale.stt"
 osmcscalecfg="tools/osmc-symbol-scale.cfg"
