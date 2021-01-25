@@ -27,11 +27,11 @@ do
 	#mkdir -p $root/$1/`echo $filepath | rev | cut -d/ -f2- | rev`
 	mkdir -p $root/$1/`dirname "$filepath"`
 	suffix=`echo $filepath | rev | cut -d. -f1 | rev`
-	cp "$root/$suffix/$filepath" "$root/$1/$filepath" || echo "$? file not found: $filepath ($root/$suffix/$filepath) ($root/$1/$filepath) ($pattern)" >> "$errfile"
+	cp "$root/$suffix/$filepath" "$root/$1/$filepath" || ( echo "$? file not found: $filepath ($root/$suffix/$filepath) ($root/$1/$filepath) ($pattern)" >> "$errfile" ; exit 1 )
 done
 
 dirfiles=`find "$root/$1" -name '*.png' | grep '\(.\+/\)\{3,\}.*' | rev | cut -d'/' -f1-2 | rev | sort | sed 's/^/\//'`
-if diff <( echo "$imgfiles" ) <( echo "$dirfiles" ) ; then
-	diff <( echo "$imgfiles" ) <( echo "$dirfiles" ) >> "$errfile"
+if diff <( echo "$imgfiles" | sed 's/^\([^/]\)/\/\1/' ) <( echo "$dirfiles" ) ; then
+	diff <( echo "$imgfiles" | sed 's/^\([^/]\)/\/\1/' ) <( echo "$dirfiles" ) >> "$errfile"
 fi
 #cp -r "$root/xml/$basexml"  $root/$1/$1.xml

@@ -16,7 +16,7 @@ padding=1
 cd $root
 
 rm -r "$root/$targetdir/"
-mkdir -p "$root/$targetdir/$themename"
+mkdir -p "$root/$targetdir/$themename" || exit 1
 #mv "$root/$svgdir/patterns" "$root/$svgdir/patterns_orig" && mv "$root/$svgpatternsdir/patterns" "$root/$svgdir/patterns"
 #if [ "$winter" -eq "1" ]; then
 #	cp images/winter_paw.png $targetdir/$themename/$themename.png
@@ -36,7 +36,7 @@ do
 	sh tools/theme_scaler.sh $xmlscalefactor $txtscalefactor $xmlsourcedir/$themename/$themename.xml | sed 's/\.\.\/renderTheme.xsd" version="[0-9]\+"/https:\/\/raw.githubusercontent.com\/mapsforge\/mapsforge\/dev\/resources\/renderTheme-v4.xsd" version="4" map-background-outside="#EEEEEE"/g
 	s/src="file:\//src="file:/g
 	s/<circle r="/<circle radius="/g
-	s/\.png"/.svg"/g'  > $targetdir/$themename/$newthemename.xml
+	s/\.png"/.svg"/g'  > $targetdir/$themename/$newthemename.xml || exit 1
 	echo -n "" > $sedscript
 	
 	
@@ -92,7 +92,7 @@ do
 		transparency="1"
 	fi
 	
-	mkdir -p "$targetdir/$themename/$filepath"
+	mkdir -p "$targetdir/$themename/$filepath" || exit 1
 
 	#cp $line $targetdir/$themename/$filepath/$iconname.svg
 	if [ ! -f $targetdir/$themename/$filepath/$iconname.svg ]; then
@@ -135,6 +135,7 @@ sed -i -f $sedscript $targetdir/$themename/$newthemename.xml
 
 if ! xmllint --noout "$targetdir/$themename/$newthemename.xml" ; then
 	echo "Theme XML is invalid."
+	exit 1
 fi
 
 done
@@ -146,6 +147,6 @@ cd $targetdir
 if [ ! -f $themename/.nomedia ]; then
 	touch $themename/.nomedia
 fi
-zip -qr $themename.zip $themename && cd ..
+zip -qr $themename.zip $themename && cd .. || exit 1
 
 

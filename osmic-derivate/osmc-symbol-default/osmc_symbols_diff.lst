@@ -166,6 +166,7 @@ blue_bar:green_lower
 blue_bar:RBW
 blue:Ba1
 blue:blue
+blue:blue_frame
 blueblue:GRW
 blue:blue_recangle
 blue:bluerectangle
@@ -403,6 +404,7 @@ gree:green_rectangle
 green
 green:
 green:Ammler
+green:AP
 green:Appenzeller
 :green_arrow
 green:A1
@@ -517,6 +519,7 @@ green_pointer:white_fork
 green:purble
 green:purple
 green:R
+:green_rectangle
 green_rectangle
 green_rectangle:A1
 green_rectangle:BR
@@ -724,6 +727,7 @@ Punkt_Gelb.png
 :purple
 purple
 purple:
+purple:*
 purple:-
 purple:Archeo
 purple:A1
@@ -899,6 +903,7 @@ red_stripe
 red:T
 :red_tiangle
 :red_triangle
+red_triangle
 red_triangle:
 red:up
 red:V4
@@ -923,6 +928,7 @@ red:white_striper
 red_white_stripe:VL4
 red:white_stripe_VU2a
 red:white_stripe_Z8
+red.white_stripe:132
 red_white_stripe:176A
 red_white_stripe:737
 red:white_stripr
@@ -955,6 +961,7 @@ Rot/Weiß
 rted:white_stripe
 Rundwanderweg
 RWW
+R3
 shell
 :shell_modern
 shell_modern
@@ -980,6 +987,7 @@ symbol=red:red_round
 symbol=red:white
 symbol=yellow:white
 symbol=yellow:yellow
+TA
 Tauplitz
 teal:
 Text
@@ -1051,6 +1059,7 @@ white:blau_bar
 white:blue
 white:blue_backlash
 white:blue_bar_
+white;blue_bar
 white:blue_bar;green
 white:blue_bars
 white:blue_bicycle
@@ -1074,6 +1083,7 @@ white:blueyellow
 white:blu_lower
 white:bred_turned_T
 white:bridleway
+white:brown
 white:brown_arrow
 white:brown_oak_leaf
 white:brown_X
@@ -1155,6 +1165,7 @@ white:green_chapel
 white:green_leaf
 white:green_oak_leaf
 white:green_oval
+white:green_rectangle_w_stripe
 white:green_round
 white:green_slah
 white:green_snake
@@ -1177,6 +1188,7 @@ white:GWW
 white:H
 white:Hex
 white:HLP
+:white_horseshoe
 white:HR
 white:JA6
 white:K
@@ -1339,9 +1351,11 @@ white:W2
 white:W5
 white:W7
 white:X
+white:yblue_rectangle
 white:yello_bar
 white:yellow
 white:yellow_backlash
+white_yellow_bar
 white:yellow_bar_Nefl
 white:yellow_baryellow
 white:yellow_bicycle
@@ -1399,6 +1413,7 @@ white:π
 white:𐂂
 whit:yellow_cross
 whtie:blue_rectangle
+whtie:yellow_lower
 wihte:yellow_point
 wite:red_stripe
 withe:
@@ -1448,6 +1463,7 @@ yellow:C
 :yellow_circle
 yellow_circle
 yellow_circle:
+yellow_circle:black_arrow
 yellow_circle:P10
 yellow_circle:P16
 yellow_circle:P18
@@ -1641,6 +1657,7 @@ yellw_round:
 yeloow:yeloow_bar
 Z0:black
 Z00:black
+#0c7570:white_arrow
 #00ffff:
 #00ffff:green_dot
 #00ffff:purple_dot
@@ -1648,6 +1665,7 @@ Z00:black
 #008080:
 011:black
 11:black
+#122164:white_arrow
 136
 2
 2:black
@@ -1659,6 +1677,7 @@ Z00:black
 #40E0D0
 #4169e1:
 7BT
+#7c136f:white_arrow
 719A
 #8EBE5F:#8EBE5F
 #800000:

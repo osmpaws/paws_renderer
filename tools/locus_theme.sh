@@ -24,7 +24,7 @@ fi
 cd $root
 
 rm -r "$root/$targetdir/$themename"
-mkdir -pv "$root/$targetdir/$themename"
+mkdir -pv "$root/$targetdir/$themename" | exit 1
 
 if [ "$winter" -eq "1" ]; then
 	cp images/winter_paw.png $targetdir/$themename/$themename.png
@@ -33,7 +33,7 @@ else
 fi
 
 
-sed -e 's/renderTheme-v4.xsd" version="4" map-background-outside="#EEEEEE"/renderTheme.xsd" version="1" locus-extended="1" fill-sea-areas="0"/' -e 's/src="file:/src="file:\//g' -e 's/<circle radius="/<circle r="/g' -e 's/symbol-width="\([0-9.]*\)"/symbol-width="\1dp"/' -e 's/ dy="\(-*[0-9.]*\)"/ dy="\1dp"/' -e 's/symbol-scaling="size"//g' -e 's/symbol-scaling="percent"//g' -e '/<area /! s/symbol-height="[0-9.]*"//g' -e 's/symbol-height="\([0-9.]*\)"/symbol-height="\1dp"/' -e 's/stroke-width="\([0-9.]*\)"/stroke-width="\1dp"/' -e 's/font-size="\([0-9.]*\)"/font-size="\1dp"/' $targetdir/$srcthemename/paws_4_S.xml > $targetdir/$themename/$themename.xml
+sed -e 's/renderTheme-v4.xsd" version="4" map-background-outside="#EEEEEE"/renderTheme.xsd" version="1" locus-extended="1" fill-sea-areas="0"/' -e 's/src="file:/src="file:\//g' -e 's/<circle radius="/<circle r="/g' -e 's/symbol-width="\([0-9.]*\)"/symbol-width="\1dp"/' -e 's/ dy="\(-*[0-9.]*\)"/ dy="\1dp"/' -e 's/symbol-scaling="size"//g' -e 's/symbol-scaling="percent"//g' -e '/<area /! s/symbol-height="[0-9.]*"//g' -e 's/symbol-height="\([0-9.]*\)"/symbol-height="\1dp"/' -e 's/stroke-width="\([0-9.]*\)"/stroke-width="\1dp"/' -e 's/font-size="\([0-9.]*\)"/font-size="\1dp"/' $targetdir/$srcthemename/paws_4_S.xml > $targetdir/$themename/$themename.xml || exit 1
 #-e 's/symbol-percent="[0-9.]*"/symbol-width="20dp"/'
 
 ### replication start ###
@@ -46,7 +46,7 @@ echo "" >> $sedscript
 sed -i "$((startline+1)),${endline}d" $targetdir/$themename/$themename.xml
 
 echo -n "" > $tempfile
-bash $scaler 1 2.5 $sedscript | sed -e 's/zoom-\(m[ia][nx]\)="[0-9]\+"/zoom-\1="14"/g' -e 's/ dy="\(-*[0-9.]*\)"/ dy="\1dp"/' -e 's/stroke-width="\([0-9.]*\)"/stroke-width="\1dp"/' >> $tempfile
+( bash $scaler 1 2.5 $sedscript | sed -e 's/zoom-\(m[ia][nx]\)="[0-9]\+"/zoom-\1="14"/g' -e 's/ dy="\(-*[0-9.]*\)"/ dy="\1dp"/' -e 's/stroke-width="\([0-9.]*\)"/stroke-width="\1dp"/' >> $tempfile ) || exit 1
 bash $scaler 1 3.5 $sedscript | sed -e 's/zoom-\(m[ia][nx]\)="[0-9]\+"/zoom-\1="15"/g' -e 's/ dy="\(-*[0-9.]*\)"/ dy="\1dp"/' -e 's/stroke-width="\([0-9.]*\)"/stroke-width="\1dp"/' >> $tempfile
 bash $scaler 1 4.5 $sedscript | sed -e 's/zoom-\(m[ia][nx]\)="[0-9]\+"/zoom-\1="16"/g' -e 's/ dy="\(-*[0-9.]*\)"/ dy="\1dp"/' -e 's/stroke-width="\([0-9.]*\)"/stroke-width="\1dp"/' >> $tempfile
 bash $scaler 1 5.5 $sedscript | sed -e 's/zoom-\(m[ia][nx]\)="[0-9]\+"/zoom-\1="17"/g' -e 's/ dy="\(-*[0-9.]*\)"/ dy="\1dp"/' -e 's/stroke-width="\([0-9.]*\)"/stroke-width="\1dp"/' >> $tempfile
@@ -80,16 +80,17 @@ sed -i -f $sedscript $targetdir/$themename/$themename.xml
 
 if ! xmllint --noout "$targetdir/$themename/$themename.xml" ; then
 	echo "Theme XML is invalid."
+	exit 1
 fi
 
-cp -r `find $root/$targetdir/$srcthemename/* -type d` $targetdir/$themename
+cp -r `find $root/$targetdir/$srcthemename/* -type d` $targetdir/$themename || exit 1
 
-sed -i -e 's/width="100%"\s*height="100%"\s*viewBox="0 0 \([0-9.]*\) \([0-9.]*\)"/width="\1" height="\2" viewBox="0 0 \1 \2"/' -e 's/viewBox="0 0 \([0-9.]*\) \([0-9.]*\)"\s*width="100%"\s*height="100%"/width="\1" height="\2" viewBox="0 0 \1 \2"/' -e 's/height="100%"\s*width="100%"\s*viewBox="0 0 \([0-9.]*\) \([0-9.]*\)"/width="\1" height="\2" viewBox="0 0 \1 \2"/' -e 's/viewBox="0 0 \([0-9.]*\) \([0-9.]*\)"\s*height="100%"\s*width="100%"/width="\1" height="\2" viewBox="0 0 \1 \2"/' $targetdir/$themename/*/*.svg
+sed -i -e 's/width="100%"\s*height="100%"\s*viewBox="0 0 \([0-9.]*\) \([0-9.]*\)"/width="\1" height="\2" viewBox="0 0 \1 \2"/' -e 's/viewBox="0 0 \([0-9.]*\) \([0-9.]*\)"\s*width="100%"\s*height="100%"/width="\1" height="\2" viewBox="0 0 \1 \2"/' -e 's/height="100%"\s*width="100%"\s*viewBox="0 0 \([0-9.]*\) \([0-9.]*\)"/width="\1" height="\2" viewBox="0 0 \1 \2"/' -e 's/viewBox="0 0 \([0-9.]*\) \([0-9.]*\)"\s*height="100%"\s*width="100%"/width="\1" height="\2" viewBox="0 0 \1 \2"/' $targetdir/$themename/*/*.svg || exit 1
 
 cd $targetdir
 if [ ! -f $themename/.nomedia ]; then
 	touch $themename/.nomedia
 fi
-zip -qr $themename.zip $themename && cd ..
+zip -qr $themename.zip $themename && cd .. || exit 1
 
 

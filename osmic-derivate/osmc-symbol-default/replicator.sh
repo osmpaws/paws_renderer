@@ -11,7 +11,7 @@ osmcwhitebg="osmc-symbol-white.xml"
 osmcorangebg="osmc-symbol-orange.xml"
 osmcyellowbg="osmc-symbol-yellow.xml"
 scalingfactor="osmc-symbol-scale.cfg"
-actualsymbols="/home/hts/osm/nbh/osmc_symbols.lst"
+actualsymbols="$PAWS_RENDERER_ROOT/osmc_symbols.lst"
 possiblesymbols="osmc_symbols_possible.lst"
 diffsymbols="osmc_symbols_diff.lst"
 
@@ -31,7 +31,7 @@ colors["none"]="ffffff"
 
 rm -r $target $possiblesymbols
 echo -n "" > $tagrules
-mkdir -p $target
+mkdir -p $target || diefunc !!
 echo "#osmc-symbol" > $svgrules
 echo -n "" > $scalingfactor
 echo "<!--OSMC symbols-->" > $renderrules

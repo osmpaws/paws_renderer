@@ -10,7 +10,7 @@ transparencycfg="tools/image_transparency.cfg"
 statusfile="imagestatus.txt"
 refreshlist="imagerefresh.lst"
 workstatusfile="imagestatus.wrk"
-osmcsymlst=~hts/osm/nbh/osmc_symbols.lst
+osmcsymlst=~/osm/generator/nbh/osmc_symbols.lst
 osmcsymlstold="osmc_symbol.lst"
 
 cd $root

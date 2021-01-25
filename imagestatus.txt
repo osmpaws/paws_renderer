@@ -109,6 +109,7 @@ osmc-symbols/blue-black-rectangle-14.svg
 osmc-symbols/blue-circle-blue-diamond-14.svg
 osmc-symbols/blue-circle-blue-dot-14.svg
 osmc-symbols/blue-circle-blue-triangle-14.svg
+osmc-symbols/blue-circle-green-circle-14.svg
 osmc-symbols/blue-circle-hiker-14.svg
 osmc-symbols/blue-circle-red-dot-14.svg
 osmc-symbols/blue-circle-white-dot-14.svg
@@ -237,6 +238,7 @@ osmc-symbols/brown-red-bowl-14.svg
 osmc-symbols/brown-red-dot-14.svg
 osmc-symbols/brown-red-pointer-14.svg
 osmc-symbols/brown-red-rectangle-14.svg
+osmc-symbols/brown-red-wheel-14.svg
 osmc-symbols/brown-round-white-fork-14.svg
 osmc-symbols/brown-round-yellow-dot-14.svg
 osmc-symbols/brown-tower-14.svg
@@ -443,6 +445,7 @@ osmc-symbols/orange-white-lower-14.svg
 osmc-symbols/orange-white-pointer-14.svg
 osmc-symbols/orange-white-rectangle-14.svg
 osmc-symbols/orange-white-slash-14.svg
+osmc-symbols/orange-white-stripe-14.svg
 osmc-symbols/orange-white-triangle-14.svg
 osmc-symbols/orange-yellow-bar-14.svg
 osmc-symbols/orange-yellow-rectangle-line-14.svg
@@ -886,6 +889,7 @@ osmc-symbols/yellow-blue-triangle-14.svg
 osmc-symbols/yellow-blue-turned-t-14.svg
 osmc-symbols/yellow-blue-wheel-14.svg
 osmc-symbols/yellow-brown-bar-14.svg
+osmc-symbols/yellow-brown-hiker-14.svg
 osmc-symbols/yellow-circle-black-pointer-14.svg
 osmc-symbols/yellow-circle-green-dot-14.svg
 osmc-symbols/yellow-circle-orange-dot-14.svg
@@ -938,6 +942,7 @@ osmc-symbols/yellow-red-lower-14.svg
 osmc-symbols/yellow-red-pointer-14.svg
 osmc-symbols/yellow-red-rectangle-14.svg
 osmc-symbols/yellow-red-right-14.svg
+osmc-symbols/yellow-red-shell-14.svg
 osmc-symbols/yellow-red-stripe-14.svg
 osmc-symbols/yellow-red-triangle-14.svg
 osmc-symbols/yellow-red-x-14.svg
@@ -958,176 +963,176 @@ osmc-symbols/yellow-white-slash-14.svg
 osmc-symbols/yellow-white-stripe-14.svg
 osmc-symbols/yellow-white-triangle-14.svg
 osmc-symbols/yellow-white-x-14.svg
-patterns/access-destination-14.svg 1477506859.0233184980
-patterns/access-no-bike-14.svg 1477506894.1433846000
-patterns/access-no-foot-14.svg 1477506920.5834342220
-patterns/access-private-14.svg 1477506936.2394635500
-patterns/bare-rock-32.svg 1609429881.9118724140
-patterns/cemetery-christian-32.svg 1609429881.9198724400
-patterns/cemetery-jewish-32.svg 1609429881.9318724800
-patterns/cemetery-32.svg 1609429881.9198724400
-patterns/dog-park-14.svg 1609429881.9358724930
-patterns/marsh-32.svg 1547369247.5884419340
-patterns/military-14.svg 1609429881.9478725330
-patterns/national-park-14.svg 1523032857.8471863180
-patterns/nature-reserve-14.svg 1549660700.5219758940
-patterns/orchard-32.svg 1592157195.7525082710
-patterns/photovoltaic-32.svg 1609429881.9558725600
-patterns/plant-nursery-32.svg 1609429881.9638725860
-patterns/scree-32.svg 1609429881.9718726120
-patterns/scrub-32.svg 1609429881.9798726390
-patterns/vineyard-32.svg 1609429881.9878726650
-patterns/wood-coniferous-32.svg 1609429882.0078727310
-patterns/wood-deciduous-32.svg 1609429882.0198727710
-patterns/wood-mixed-32.svg 1609429882.0318728110
-symbols/access-destination-14.svg 1537685023.1772427360
-symbols/access-no-bike-14.svg 1537697731.6136963050
-symbols/access-no-foot-14.svg 1537700748.2133918680
-symbols/access-private-14.svg 1537643530.1119110720
-symbols/adefaultsign-hiker-14.svg 1537705201.5146864000
-symbols/adit-14.svg 1597937363.2554479690
-symbols/airport-14.svg 1476378830.7498430000
-symbols/alpine-hut-14.svg 1482960057.3101430000
-symbols/archaeological-site-14.svg 1476378830.7498430000
-symbols/artwork-14.svg 1527510130.2984621570
-symbols/atm-14.svg 1541921431.2129123740
-symbols/bad-surface-14.svg 1537707243.5739652980
-symbols/bakery-14.svg 1476378830.7458430000
-symbols/bank-14.svg 1476378830.7458430000
-symbols/bar-14.svg 1476378830.7378420000
-symbols/bee-14.svg 1578509694.7840053680
-symbols/bench-14.svg 1476378830.7458430000
-symbols/bicycle-14.svg 1477072718.3872190000
-symbols/board-14.svg 1578506284.6864396140
-symbols/bus-station-14.svg 1549660737.2860827310
-symbols/bus-14.svg 1477594924.8516655020
-symbols/butcher-14.svg 1476378830.7498430000
-symbols/cable-car-14.svg 1549797394.1336824520
-symbols/cafe-14.svg 1541932785.1820252410
-symbols/camping-14.svg 1541930401.5661951290
-symbols/caravan-14.svg 1476378830.7458430000
-symbols/castle-fortress-14.svg 1476378830.7498430000
-symbols/castle-ruin-14.svg 1479568521.0000000000
-symbols/castle-stately-14.svg 1476378830.7498430000
-symbols/cave-entrance-14.svg 1597937442.4498846340
-symbols/cinema-14.svg 1476378830.7378420000
-symbols/cliff-line-closedway-14.svg 1539976116.1507432290
-symbols/cliff-line-14.svg 1539976066.3386073610
-symbols/cliff-14.svg 1541100330.5410787770
-symbols/confectionery-14.svg 1476378830.7498430000
-symbols/continue-14.svg 1519842245.8011205560
-symbols/convenience-14.svg 1476378830.7498430000
-symbols/danger-14.svg 1547891252.4945651220
-symbols/drinking-water-14.svg 1476378830.7458430000
-symbols/emergency-phone-14.svg 1541923375.1518185860
-symbols/entrance-main-14.svg 1541930329.1619692280
-symbols/entrance-10.svg 1476378830.7378420000
-symbols/fast-food-14.svg 1476378830.7378420000
-symbols/fire-station-14.svg 1578514869.1341446440
-symbols/fire-14.svg 1578514869.1341446440
-symbols/florist-14.svg 1476378830.7498430000
-symbols/fountain-14.svg 1476378830.7458430000
-symbols/fuel-14.svg 1476378830.7538430000
-symbols/game-feeding-14.svg 1528021090.3015648480
-symbols/garden-centre-14.svg 1476378830.7498430000
-symbols/gate-14.svg 1541930513.5825347520
-symbols/gift-14.svg 1476378830.7498430000
-symbols/gondola-14.svg 1549797394.1976827980
-symbols/greengrocer-14.svg 1476378830.7498430000
-symbols/guest-house-14.svg 1580069330.5485130880
-symbols/guidepost-bad-14.svg 1558727875.7142721400
-symbols/guidepost-14.svg 1541921502.3411599980
-symbols/heliport-14.svg 1476378830.7538430000
-symbols/hospital-14.svg 1476378830.7418420000
-symbols/hostel-14.svg 1541921527.9692493290
-symbols/hotel-14.svg 1476378830.7378420000
-symbols/hunting-stand-14.svg 1476378830.7458430000
-symbols/hut-14.svg 1579978077.6324861530
-symbols/chair-lift-14.svg 1549796996.7635977590
-symbols/chemist-14.svg 1476378830.7498430000
-symbols/christian-14.svg 1476378830.7458430000
-symbols/church-14.svg 1479568591.0000000000
-symbols/incline-down-14.svg 1535957181.0651473050
-symbols/incline-up-14.svg 1535957181.0651473050
-symbols/information-office-14.svg 1477677328.9139249460
-symbols/information-14.svg 1476378830.7498430000
-symbols/jewish-14.svg 1541921585.5134501160
-symbols/kindergarten-14.svg 1541964349.2987962390
-symbols/kiosk-14.svg 1476378830.7498430000
-symbols/library-14.svg 1476378830.7378420000
-symbols/lift-gate-14.svg 1477735636.0000000000
-symbols/lighthouse-14.svg 1476378830.7458430000
-symbols/map-14.svg 1559495322.3234562720
-symbols/mast-communications-14.svg 1476378830.7458430000
-symbols/memorial-14.svg 1541932029.4314860090
-symbols/monument-14.svg 1476378830.7498430000
-symbols/motel-14.svg 1579983537.0863416290
-symbols/mountain-rescue-14.svg 1541931878.1989645730
-symbols/museum-14.svg 1541922950.6182885450
-symbols/muslim-14.svg 1476378830.7458430000
-symbols/no-bicycle-14.svg 1477072736.5912550000
-symbols/noexit-14.svg 1519919665.5831695650
-symbols/observation-tower-14.svg 1541923292.9475215040
-symbols/oneway-closedway-14.svg 1477768459.5338172520
-symbols/oneway-14.svg 1477768359.7136418930
-symbols/opposite-lane-reversed-14.svg 1516207141.7858284950
-symbols/opposite-lane-14.svg 1516207063.6968416520
-symbols/parking-bicycle-14.svg 1541930468.3983974880
-symbols/parking-car-14.svg 1476378830.7538430000
-symbols/parking-garage-car-14.svg 1476378830.7538430000
-symbols/paw-14.svg 1578514869.1661447400
-symbols/peak-10.svg 1476378830.7458430000
-symbols/pharmacy-14.svg 1541932115.0917821180
-symbols/picnic-site-14.svg 1476466330.3479100000
-symbols/pillbox-14.svg 1479552818.0000000000
-symbols/playground-14.svg 1476378830.7378420000
-symbols/police-14.svg 1476378830.7418420000
-symbols/post-box-14.svg 1477767557.1644215940
-symbols/post-office-14.svg 1541930595.1827835510
-symbols/power-wind-14.svg 1476378830.7418420000
-symbols/pub-14.svg 1541924793.4141218430
-symbols/railway-crossing-small-14.svg 1478280629.9804600620
-symbols/railway-crossing-14.svg 1477941670.4754027340
-symbols/recycling-14.svg 1476378830.7378420000
-symbols/rental-bicycle-14.svg 1476378830.0000000000
-symbols/repair-bicycle-14.svg 1476378830.7498430000
-symbols/restaurant-14.svg 1476378830.7418420000
-symbols/rock-14.svg 1540299487.9043942740
-symbols/ruin-14.svg 1479571236.0000000000
-symbols/sac-tiii-14.svg 1541923157.2830320600
-symbols/sac-tii-14.svg 1541923121.0749016100
-symbols/sac-tiv-14.svg 1541929487.6948544390
-symbols/sac-ti-14.svg 1541923096.6508136590
-symbols/sac-tvi-14.svg 1541923239.6753291840
-symbols/sac-tv-14.svg 1541929946.0245493870
-symbols/shelter-14.svg 1477809907.0000000000
-symbols/school-14.svg 1485372806.8101910730
-symbols/soccer-14.svg 1485506210.0000000000
-symbols/spring-14.svg 1498144872.8396274710
-symbols/stone-14.svg 1541165229.1213673720
-symbols/supermarket-14.svg 1476378830.7498430000
-symbols/swimming-14.svg 1476378830.7498430000
-symbols/table-14.svg 1476378830.7458430000
-symbols/telephone-14.svg 1541923320.3116203540
-symbols/tennis-14.svg 1486297359.3693661680
-symbols/theatre-14.svg 1476378830.7498430000
-symbols/toilets-14.svg 1476378830.7378420000
-symbols/town-hall-14.svg 1476378830.7378420000
-symbols/traffic-signal-14.svg 1508316968.9356992520
-symbols/trail-visibility-bad-14.svg 1549484777.6925010120
-symbols/trail-visibility-good-14.svg 1549484777.6925010120
-symbols/trail-visibility-no-14.svg 1549484777.6925010120
-symbols/tree-deciduous-14.svg 1476378830.7458430000
-symbols/tree-point-10.svg 1479568541.0000000000
-symbols/tree-unspecified-14.svg 1476378830.7458430000
-symbols/university-14.svg 1508317374.4533083730
-symbols/viewpoint-14.svg 1476378830.7498430000
-symbols/vulcan-10.svg 1477335840.2201525530
-symbols/warning-14.svg 1547891195.1144232390
-symbols/waterfall-14.svg 1555223092.1042741650
-symbols/water-tower-14.svg 1476378830.7458430000
-symbols/wayside-cross-14.svg 1479554569.0000000000
-symbols/wayside-shrine-14.svg 1479567130.0000000000
-symbols/wilderness-hut-14.svg 1482960057.3101430000
-symbols/windmill-14.svg 1476378830.7498430000
-symbols/zoo-14.svg 1579978451.2457469970
+patterns/access-destination-14.svg 1611254735.8918390510
+patterns/access-no-bike-14.svg 1611254735.8918390510
+patterns/access-no-foot-14.svg 1611254735.8918390510
+patterns/access-private-14.svg 1611254735.8918390510
+patterns/bare-rock-32.svg 1611571256.9660255950
+patterns/cemetery-christian-32.svg 1611571256.9700255290
+patterns/cemetery-jewish-32.svg 1611571256.9780253960
+patterns/cemetery-32.svg 1611571256.9700255290
+patterns/dog-park-14.svg 1611571256.9820253300
+patterns/marsh-32.svg 1611254735.8918390510
+patterns/military-14.svg 1611571256.9900251960
+patterns/national-park-14.svg 1611254735.8918390510
+patterns/nature-reserve-14.svg 1611254735.8918390510
+patterns/orchard-32.svg 1611254735.8918390510
+patterns/photovoltaic-32.svg 1611571256.9980250640
+patterns/plant-nursery-32.svg 1611571257.0020249960
+patterns/scree-32.svg 1611571257.0060249300
+patterns/scrub-32.svg 1611571257.0140247970
+patterns/vineyard-32.svg 1611571257.0180247320
+patterns/wood-coniferous-32.svg 1611571257.0220246640
+patterns/wood-deciduous-32.svg 1611571257.0300245310
+patterns/wood-mixed-32.svg 1611571257.0340244650
+symbols/access-destination-14.svg 1611254735.8918390510
+symbols/access-no-bike-14.svg 1611254735.8918390510
+symbols/access-no-foot-14.svg 1611254735.8918390510
+symbols/access-private-14.svg 1611254735.8918390510
+symbols/adefaultsign-hiker-14.svg 1611254735.8918390510
+symbols/adit-14.svg 1611254735.8918390510
+symbols/airport-14.svg 1611254735.8918390510
+symbols/alpine-hut-14.svg 1611254735.8918390510
+symbols/archaeological-site-14.svg 1611254735.8918390510
+symbols/artwork-14.svg 1611254735.8918390510
+symbols/atm-14.svg 1611254735.8918390510
+symbols/bad-surface-14.svg 1611254735.8918390510
+symbols/bakery-14.svg 1611254735.8918390510
+symbols/bank-14.svg 1611254735.8918390510
+symbols/bar-14.svg 1611254735.8918390510
+symbols/bee-14.svg 1611254735.8918390510
+symbols/bench-14.svg 1611254735.8918390510
+symbols/bicycle-14.svg 1611254735.8918390510
+symbols/board-14.svg 1611254735.8918390510
+symbols/bus-station-14.svg 1611254735.8918390510
+symbols/bus-14.svg 1611254735.8918390510
+symbols/butcher-14.svg 1611254735.8918390510
+symbols/cable-car-14.svg 1611254735.8918390510
+symbols/cafe-14.svg 1611254735.8918390510
+symbols/camping-14.svg 1611254735.8918390510
+symbols/caravan-14.svg 1611254735.8918390510
+symbols/castle-fortress-14.svg 1611254735.8918390510
+symbols/castle-ruin-14.svg 1611254735.8918390510
+symbols/castle-stately-14.svg 1611254735.8918390510
+symbols/cave-entrance-14.svg 1611254735.8918390510
+symbols/cinema-14.svg 1611254735.8918390510
+symbols/cliff-line-closedway-14.svg 1611254735.8918390510
+symbols/cliff-line-14.svg 1611254735.8918390510
+symbols/cliff-14.svg 1611254735.8918390510
+symbols/confectionery-14.svg 1611254735.8918390510
+symbols/continue-14.svg 1611254735.8918390510
+symbols/convenience-14.svg 1611254735.8918390510
+symbols/danger-14.svg 1611254735.8918390510
+symbols/drinking-water-14.svg 1611254735.8918390510
+symbols/emergency-phone-14.svg 1611254735.8918390510
+symbols/entrance-main-14.svg 1611254735.8918390510
+symbols/entrance-10.svg 1611254735.8918390510
+symbols/fast-food-14.svg 1611254735.8918390510
+symbols/fire-station-14.svg 1611254735.8918390510
+symbols/fire-14.svg 1611254735.8918390510
+symbols/florist-14.svg 1611254735.8918390510
+symbols/fountain-14.svg 1611254735.8918390510
+symbols/fuel-14.svg 1611254735.8918390510
+symbols/game-feeding-14.svg 1611254735.8918390510
+symbols/garden-centre-14.svg 1611254735.8918390510
+symbols/gate-14.svg 1611254735.8918390510
+symbols/gift-14.svg 1611254735.8918390510
+symbols/gondola-14.svg 1611254735.8918390510
+symbols/greengrocer-14.svg 1611254735.8918390510
+symbols/guest-house-14.svg 1611254735.8918390510
+symbols/guidepost-bad-14.svg 1611254735.8918390510
+symbols/guidepost-14.svg 1611254735.8918390510
+symbols/heliport-14.svg 1611254735.8918390510
+symbols/hospital-14.svg 1611254735.8918390510
+symbols/hostel-14.svg 1611254735.8918390510
+symbols/hotel-14.svg 1611254735.8918390510
+symbols/hunting-stand-14.svg 1611254735.8918390510
+symbols/hut-14.svg 1611254735.8918390510
+symbols/chair-lift-14.svg 1611254735.8918390510
+symbols/chemist-14.svg 1611254735.8918390510
+symbols/christian-14.svg 1611254735.8918390510
+symbols/church-14.svg 1611254735.8918390510
+symbols/incline-down-14.svg 1611254735.8918390510
+symbols/incline-up-14.svg 1611254735.8918390510
+symbols/information-office-14.svg 1611254735.8918390510
+symbols/information-14.svg 1611254735.8918390510
+symbols/jewish-14.svg 1611254735.8918390510
+symbols/kindergarten-14.svg 1611254735.8918390510
+symbols/kiosk-14.svg 1611254735.8918390510
+symbols/library-14.svg 1611254735.8918390510
+symbols/lift-gate-14.svg 1611254735.8918390510
+symbols/lighthouse-14.svg 1611254735.8918390510
+symbols/map-14.svg 1611254735.8918390510
+symbols/mast-communications-14.svg 1611254735.8918390510
+symbols/memorial-14.svg 1611254735.8918390510
+symbols/monument-14.svg 1611254735.8918390510
+symbols/motel-14.svg 1611254735.8918390510
+symbols/mountain-rescue-14.svg 1611254735.8918390510
+symbols/museum-14.svg 1611254735.8918390510
+symbols/muslim-14.svg 1611254735.8918390510
+symbols/no-bicycle-14.svg 1611254735.8918390510
+symbols/noexit-14.svg 1611254735.8918390510
+symbols/observation-tower-14.svg 1611254735.8918390510
+symbols/oneway-closedway-14.svg 1611254735.8918390510
+symbols/oneway-14.svg 1611254735.8918390510
+symbols/opposite-lane-reversed-14.svg 1611254735.8918390510
+symbols/opposite-lane-14.svg 1611254735.8918390510
+symbols/parking-bicycle-14.svg 1611254735.8918390510
+symbols/parking-car-14.svg 1611254735.8918390510
+symbols/parking-garage-car-14.svg 1611254735.8918390510
+symbols/paw-14.svg 1611254735.8918390510
+symbols/peak-10.svg 1611254735.8918390510
+symbols/pharmacy-14.svg 1611254735.8918390510
+symbols/picnic-site-14.svg 1611254735.8918390510
+symbols/pillbox-14.svg 1611254735.8918390510
+symbols/playground-14.svg 1611254735.8918390510
+symbols/police-14.svg 1611254735.8918390510
+symbols/post-box-14.svg 1611254735.8918390510
+symbols/post-office-14.svg 1611254735.8918390510
+symbols/power-wind-14.svg 1611254735.8918390510
+symbols/pub-14.svg 1611254735.8918390510
+symbols/railway-crossing-small-14.svg 1611254735.8918390510
+symbols/railway-crossing-14.svg 1611254735.8918390510
+symbols/recycling-14.svg 1611254735.8918390510
+symbols/rental-bicycle-14.svg 1611254735.8958390000
+symbols/repair-bicycle-14.svg 1611254735.8958390000
+symbols/restaurant-14.svg 1611254735.8958390000
+symbols/rock-14.svg 1611254735.8958390000
+symbols/ruin-14.svg 1611254735.8958390000
+symbols/sac-tiii-14.svg 1611254735.8958390000
+symbols/sac-tii-14.svg 1611254735.8958390000
+symbols/sac-tiv-14.svg 1611254735.8958390000
+symbols/sac-ti-14.svg 1611254735.8958390000
+symbols/sac-tvi-14.svg 1611254735.8958390000
+symbols/sac-tv-14.svg 1611254735.8958390000
+symbols/shelter-14.svg 1611254735.8958390000
+symbols/school-14.svg 1611254735.8958390000
+symbols/soccer-14.svg 1611254735.8958390000
+symbols/spring-14.svg 1611254735.8958390000
+symbols/stone-14.svg 1611254735.8958390000
+symbols/supermarket-14.svg 1611254735.8958390000
+symbols/swimming-14.svg 1611254735.8958390000
+symbols/table-14.svg 1611254735.8958390000
+symbols/telephone-14.svg 1611254735.8958390000
+symbols/tennis-14.svg 1611254735.8958390000
+symbols/theatre-14.svg 1611254735.8958390000
+symbols/toilets-14.svg 1611254735.8958390000
+symbols/town-hall-14.svg 1611254735.8958390000
+symbols/traffic-signal-14.svg 1611254735.8958390000
+symbols/trail-visibility-bad-14.svg 1611254735.8958390000
+symbols/trail-visibility-good-14.svg 1611254735.8958390000
+symbols/trail-visibility-no-14.svg 1611254735.8958390000
+symbols/tree-deciduous-14.svg 1611254735.8958390000
+symbols/tree-point-10.svg 1611254735.8958390000
+symbols/tree-unspecified-14.svg 1611254735.8958390000
+symbols/university-14.svg 1611254735.8958390000
+symbols/viewpoint-14.svg 1611254735.8958390000
+symbols/vulcan-10.svg 1611254735.8958390000
+symbols/warning-14.svg 1611254735.8958390000
+symbols/waterfall-14.svg 1611254735.8958390000
+symbols/water-tower-14.svg 1611254735.8958390000
+symbols/wayside-cross-14.svg 1611254735.8958390000
+symbols/wayside-shrine-14.svg 1611254735.8958390000
+symbols/wilderness-hut-14.svg 1611254735.8958390000
+symbols/windmill-14.svg 1611254735.8958390000
+symbols/zoo-14.svg 1611254735.8958390000

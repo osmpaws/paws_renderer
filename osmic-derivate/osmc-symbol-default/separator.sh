@@ -7,7 +7,7 @@ target="../osmc-symbols"
 svgrules="osmc-symbols-separated.yaml"
 tagrules="tag-mapping.tpl"
 osmcxml="osmc-symbol-separated.xml"
-actualsymbols="/home/hts/osm/nbh/osmc_symbols_grid.lst"
+actualsymbols="$PAWS_RENDERER_ROOT/osmc_symbols.lst"
 
 declare -A colors
 colors["black"]="000000"

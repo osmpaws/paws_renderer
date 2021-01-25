@@ -7,7 +7,7 @@ mappingfile="commontags.tma"
 rm $tempfile
 touch $tempfile
 
-unzip /home/hts/.openstreetmap/osmosis/plugins/mapsforge-map-writer-0.8.0-jar-with-dependencies.jar tag-mapping.xml
+unzip ~/.openstreetmap/osmosis/plugins/mapsforge-map-writer-0.15.0-jar-with-dependencies.jar tag-mapping.xml
 sed '/<*!--.\+--/d' tag-mapping.xml | grep '<osm-tag' | sed '/!--/,/--/d' | grep -v 'enabled="false"' | sed 's/.* key=\(".*"\) .*value="\(.*\)" .*/\1 "\2"/' | awk '{print $1,$2}' | sort -u > $mappingfile
 
 cp $mappingfile $tempfile

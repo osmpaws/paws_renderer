@@ -4,7 +4,7 @@
 
 atlasprefdir=~"/.java/.userPrefs/Talent Atlas"
 atlaspref="$atlasprefdir/prefs.xml"
-atlasexec=~"/Dokumenty/osm/atlas/atlas.sh"
+atlasexec=~osm/atlas/atlas.sh
 
 cp "$atlaspref" "${atlaspref}.bak"
 target=`readlink -m result/way.map`

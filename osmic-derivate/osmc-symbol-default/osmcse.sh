@@ -1,4 +1,4 @@
-cd /home/hts/osm/nbh
+cd ~/osm/generator/nbh
 files=`ls */*-latest.osm.pbf`
 
 tempfile="osmc_symbols.lst"

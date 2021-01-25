@@ -63,8 +63,8 @@ do
 	fi
 	
 	mkdir -p "$targetdir/$filepath/"
-	inkscape -z -e "$targetdir/$filepath/tmp_$iconname.png" -w $newsize "$sourcedir/$line" > /dev/null || echo "$targetdir/$filepath/tmp_$iconname.png , $newsize , $sourcedir/$line"
-	convert "$targetdir/$filepath/tmp_$iconname.png" -trim -alpha set -channel A -evaluate Divide $transparency "$targetdir/$filepath/$iconname.png" > /dev/null  || echo "$targetdir/$filepath/tmp_$iconname.png $newsize , $transparency , $sourcedir/$line"
+	inkscape -z -e "$targetdir/$filepath/tmp_$iconname.png" -w $newsize "$sourcedir/$line" > /dev/null || ( echo "$targetdir/$filepath/tmp_$iconname.png , $newsize , $sourcedir/$line" ; exit 1)
+	convert "$targetdir/$filepath/tmp_$iconname.png" -trim -alpha set -channel A -evaluate Divide $transparency "$targetdir/$filepath/$iconname.png" > /dev/null  || ( echo "$targetdir/$filepath/tmp_$iconname.png $newsize , $transparency , $sourcedir/$line" ; exit 1)
 	rm "$targetdir/$filepath/tmp_$iconname.png" 
 	echo $((`cat $commfile`-1)) > $commfile )&
 		

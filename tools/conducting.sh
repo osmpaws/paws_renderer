@@ -1,5 +1,10 @@
 #!/bin/bash
 
+diefunc() { 
+	echo "Error occured in: $@"
+	exit 1
+}
+
 debug=3
 release=0
 
@@ -75,7 +80,7 @@ osmcsymlst=~/osm/generator/nbh/osmc_symbols.lst
 if [ ! -f "$osmcsymlst" ] ; then
 	osmcsymlst=osmc_symbols.lst
 fi
-osmcsymlstold="osmc_symbol.lst"
+osmcsymlstold="osmc_symbols.lst"
 winter=0
 wintercol="winter.sh"
 winterprefix="winter_"
@@ -182,7 +187,7 @@ fi
 if [ "$lmodo" = "w" ] ; then
 #	rebuildimg=0
 #	if [ $winter -eq 1 ]; then
-		bash tools/winter_rename.sh $uploadpath -r
+		bash tools/winter_rename.sh $uploadpath -r || diefunc !!
 #	fi
 fi
 #else
@@ -193,7 +198,7 @@ if [ 1 -gt 0 ] ; then
 		cp $osmcsymlst $osmcsymlstold
 		cd $root/osmic-derivate/$osmcdflt
 		startsec=`date +%s`
-		bash replicator.sh
+		bash replicator.sh || diefunc !!
 		echo "replication done in: $((`date +%s`-startsec)) sec" >> $logfile
 		cp $osmcyaml ../tools/config/
 		cp $scalecfg ../../tools/
@@ -206,7 +211,7 @@ if [ 1 -gt 0 ] ; then
 	
 	if [ $winter -eq 1 ]; then
 		startsec=`date +%s`
-		bash $root/tools/$wintercol $pawsyaml > $pawswinteryaml
+		bash $root/tools/$wintercol $pawsyaml > $pawswinteryaml || diefunc !!
 		echo "winter modification done in: $((`date +%s`-startsec)) sec" >> $logfile
 		pawsyaml="$pawswinteryaml"
 	fi
@@ -239,7 +244,7 @@ if [ 1 -gt 0 ] ; then
 	fi
 	mv "$workstatusfile" "$statusfile"
 	
-	python tools/export.py tools/config/$pawsosmcyaml
+	python2 tools/export.py tools/config/$pawsosmcyaml || diefunc !!
 	rm -r ../svg/
 	rm -r ../png/
 	mkdir -p ../png
@@ -253,7 +258,7 @@ if [ 1 -gt 0 ] ; then
 	fi
 	
 	rm -r ../svg_patterns/*
-	python tools/export.py tools/config/$pawspatternsyaml
+	python2 tools/export.py tools/config/$pawspatternsyaml || diefunc !!
 	cd ..
 	
 fi
@@ -268,7 +273,7 @@ if [ $rebuildimg -eq 1 ]; then
 	rm -r themes
 fi
 
-mkdir -p themes
+mkdir -p themes  || diefunc !!
 
 uploadstr=""
 buildstr=`awk '{printf("%05d",$0+1)}' tools/$buildctrl`
@@ -370,7 +375,7 @@ do
 			       -e "/<!--hiking#lines#low#zoom-->/r $root/xml/$hllzx4" \
 			       -e "/<!--hiking#restrictions-->/r $root/xml/hiking-restrictions-4.xml" \
 			       -e "/<!--sac#scale-->/r $root/xml/sac-scale-4.xml" \
-			       -e '/<!--OSMC#symbols-->/r '<(sed 's/k="osmc_background"/cat="hike_symbol_lines" k="osmc_background"/g' `find $root/xml -name 'osmc-symbol-*.xml' -not -name '*-node.xml'`) $root/xml/$tempxml
+			       -e '/<!--OSMC#symbols-->/r '<(sed 's/k="osmc_background"/cat="hike_symbol_lines" k="osmc_background"/g' `find $root/xml -name 'osmc-symbol-*.xml' -not -name '*-node.xml' | sort`) $root/xml/$tempxml
 			# nodes
 			if [ 1 -eq 1 ]; then
 				sed -i -e '/<!--OSMC#symbols-->/r '<(sed 's/k="osmc_background"/cat="hike_symbol_nodes" k="osmc_background"/g' $root/xml/osmc-symbol-*-node.xml) \
@@ -381,7 +386,7 @@ do
 			sed -i -e "/<!--hiking#lines#high#zoom-->/r $root/xml/$hlhzx" \
 			       -e "/<!--hiking#lines#low#zoom-->/r $root/xml/$hllzx" \
 			       -e "/<!--hiking#restrictions-->/r $root/xml/hiking-restrictions.xml" \
-			       -e "/<!--OSMC#symbols-->/r "<(cat `find $root/xml -name 'osmc-symbol-*.xml' -not -name '*-node.xml'`) $root/xml/$tempxml
+			       -e "/<!--OSMC#symbols-->/r "<(cat `find $root/xml -name 'osmc-symbol-*.xml' -not -name '*-node.xml' | sort`) $root/xml/$tempxml
 ###			echo "/<!--hiking#lines#high#zoom-->/r $root/xml/$hlhzx
 ###			      /<!--hiking#lines#low#zoom-->/r $root/xml/$hllzx" >> $themename_$sedfile
 		fi
@@ -422,17 +427,17 @@ do
 		echo " regenerating images"
 		echo " regenerating images" >> $logfile
 		startsec=`date +%s`
-		sh tools/pnger.sh $imgscalefactor
+		sh tools/pnger.sh $imgscalefactor || diefunc !!
 		echo ""
 		echo "PNGs created in: $((`date +%s`-startsec)) sec" >> $logfile
 	fi
-	mv themes/$themename .
+	mv themes/$themename . || diefunc !!
 	echo " updating XML"
 	echo " updating XML" >> $logfile
 		
 	
 	startsec=`date +%s`
-	bash tools/theme_scaler.sh $xmlscalefactor $txtscalefactor $root/xml/$tempxml > $themename/$themename.xml
+	bash tools/theme_scaler.sh $xmlscalefactor $txtscalefactor $root/xml/$tempxml > $themename/$themename.xml || diefunc !!
 	echo "theme scaled in: $((`date +%s`-startsec)) sec" >> $logfile
 	
 	if [ "$winter" -eq "1" ]; then
@@ -443,6 +448,7 @@ do
 	
 	if ! xmllint --noout "$themename/$themename.xml" ; then
 		echo "Theme XML is invalid."
+		diefunc !!
 	fi
 	
 	mkdir -p $themename/v2
@@ -454,7 +460,7 @@ do
 		echo " attaching required images to theme"
 		echo " attaching required images to theme" >> $logfile
 		startsec=`date +%s`
-		bash tools/completer.sh $themename
+		bash tools/completer.sh $themename || diefunc !!
 		echo ""
 		echo "PNGs copied in: $((`date +%s`-startsec)) sec" >> $logfile
 	fi
@@ -469,31 +475,31 @@ do
 	fi
 	
 	echo "zipping"
-	zip -qr $themename.zip $themename
+	zip -qr $themename.zip $themename || diefunc !!
 	mv $themename $themename.zip themes/
 	uploadstr=$uploadstr"themes/$themename.zip,"
 	echo -n "themes/$themename.zip," >> $uploadpath
 	lastimgscale=$imgscalefactor
 done
 
-bash $root/tools/svg_theme.sh
+bash $root/tools/svg_theme.sh || diefunc !!
 uploadstr=$uploadstr"themes_svg/paws_4.zip,"
 echo -n "themes_svg/paws_4.zip," >> $uploadpath
 
-bash $root/tools/locus_theme.sh "$winterarg"
+bash $root/tools/locus_theme.sh "$winterarg" || diefunc !!
 uploadstr=$uploadstr"themes_svg/paws_4_LE.zip,"
 echo -n "themes_svg/paws_4_LE.zip," >> $uploadpath
 
 if [ "$winter" -eq "1" ]; then
-	bash tools/winter_rename.sh $uploadpath
+	bash tools/winter_rename.sh $uploadpath || diefunc !!
 fi
 
 localuploadtool="$root/tools/local_upload.sh"
 if [ -f "$localuploadtool" ] ; then
 	if [ "$winter" -eq "1" ]; then
-		bash "$localuploadtool" `sed -e 's/themes\/winter_paws_4.zip//' -e 's/,/ /g' $uploadpath`
+		bash "$localuploadtool" `sed -e 's/themes\/winter_paws_4.zip//' -e 's/,/ /g' $uploadpath` || diefunc !!
 	else
-		bash "$localuploadtool" `sed -e 's/themes\/paws_4.zip//' -e 's/,/ /g' $uploadpath`
+		bash "$localuploadtool" `sed -e 's/themes\/paws_4.zip//' -e 's/,/ /g' $uploadpath` || diefunc !!
 	fi
 fi
 
@@ -512,7 +518,7 @@ fi
 if [ "$release" -ne "1" ]; then
 	if [ -f "$jarfile" ] ; then
 		rm tag-mapping.xml
-		unzip "$jarfile" tag-mapping.xml
+		unzip "$jarfile" tag-mapping.xml  || diefunc !!
 		if [ -f tag-mapping.xml ] ; then
 			if [ `diff tag-mapping.xml "$root/osmic-derivate/osmc-symbol-default/tag-mapping.xml" | grep '^>' | wc -l` -gt "0" ] ; then
 				echo "There is some new symbol not included to map file.";
@@ -532,8 +538,8 @@ cp themes/$templatesrc/${templatesrc}.xml $template
 cp themes_svg/paws_4/paws_4.xml $template4
 
 git status
-git commit -a -m "This is automatic commit of release r$releasestr ( build b$buildstr )"
+git commit -a -m "This is automatic commit of release r$releasestr ( build b$buildstr `cat $root/tools/$lmod | awk '{print $1}'`)"
 git push
 
-sh tools/$uploadscript "$root/$uploadpath" "$winterarg"
-sh tools/notify.sh
+sh tools/$uploadscript "$root/$uploadpath" "$winterarg" || diefunc !!
+sh tools/notify.sh || diefunc !!

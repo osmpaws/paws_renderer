@@ -105,6 +105,9 @@
 		<rule e="node" k="osmc_foreground" v="blue_stripe">
 			<symbol src="file:/osmc-symbols/orange_blue_stripe.png" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="white_stripe">
+			<symbol src="file:/osmc-symbols/orange_white_stripe.png" />
+		</rule>
 		<rule e="node" k="osmc_foreground" v="tower">
 			<symbol src="file:/osmc-symbols/orange_tower.png" />
 		</rule>
