@@ -464,6 +464,13 @@ yellow-black-arch:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+black-white-backslash:
+  fill: "#ffffff"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 blue-white-backslash:
   fill: "#ffffff"
   shield:
@@ -2504,6 +2511,12 @@ yellow-frame-yellow-diamond:
     padding: 2
 none-yellow-diamond:
   fill: "#ffdd00"
+  shield:
+    fill: "#ffffff"
+    opacity: 0.0
+    padding: 1
+none-orange-diamond:
+  fill: "#f96f00"
   shield:
     fill: "#ffffff"
     opacity: 0.0

@@ -27,6 +27,9 @@
 		<rule e="node" k="osmc_foreground" v="yellow_diamond">
 			<symbol src="file:/osmc-symbols/none_yellow_diamond.png" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="orange_diamond">
+			<symbol src="file:/osmc-symbols/none_orange_diamond.png" />
+		</rule>
 		<rule e="node" k="osmc_foreground" v="red_dot">
 			<symbol src="file:/osmc-symbols/none_red_dot.png" />
 		</rule>

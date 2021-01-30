@@ -33,7 +33,7 @@ else
 fi
 
 
-sed -e 's/renderTheme-v4.xsd" version="4" map-background-outside="#EEEEEE"/renderTheme.xsd" version="1" locus-extended="1" fill-sea-areas="0"/' -e 's/src="file:/src="file:\//g' -e 's/<circle radius="/<circle r="/g' -e 's/symbol-width="\([0-9.]*\)"/symbol-width="\1dp"/' -e 's/ dy="\(-*[0-9.]*\)"/ dy="\1dp"/' -e 's/symbol-scaling="size"//g' -e 's/symbol-scaling="percent"//g' -e '/<area /! s/symbol-height="[0-9.]*"//g' -e 's/symbol-height="\([0-9.]*\)"/symbol-height="\1dp"/' -e 's/stroke-width="\([0-9.]*\)"/stroke-width="\1dp"/' -e 's/font-size="\([0-9.]*\)"/font-size="\1dp"/' $targetdir/$srcthemename/paws_4_S.xml > $targetdir/$themename/$themename.xml || exit 1
+sed -e 's/renderTheme-v4.xsd" version="4" map-background-outside="#EEEEEE"/renderTheme.xsd" version="1" locus-extended="1" fill-sea-areas="0"/' -e 's/src="file:/src="file:\//g' -e 's/<circle radius="\([0-9.]*\)/<circle r="\1dp/g' -e 's/symbol-width="\([0-9.]*\)"/symbol-width="\1dp"/' -e 's/ dy="\(-*[0-9.]*\)"/ dy="\1dp"/' -e 's/symbol-scaling="size"//g' -e 's/symbol-scaling="percent"//g' -e '/<area /! s/symbol-height="[0-9.]*"//g' -e 's/symbol-height="\([0-9.]*\)"/symbol-height="\1dp"/' -e 's/stroke-width="\([0-9.]*\)"/stroke-width="\1dp"/' -e 's/font-size="\([0-9.]*\)"/font-size="\1dp"/' $targetdir/$srcthemename/paws_4_S.xml > $targetdir/$themename/$themename.xml || exit 1
 #-e 's/symbol-percent="[0-9.]*"/symbol-width="20dp"/'
 
 ### replication start ###
@@ -73,6 +73,16 @@ do
 	newline=`echo "$line" | sed "s/ dy=\"-*[0-9.]*/ dy=\"$newshift/"`
 	echo "s;$line;$newline;" >> $sedscript
 done
+
+grep 'circle.*r="[0-9.]*dp"' $targetdir/$themename/$themename.xml | 
+while read line
+do
+	origradius=`echo $line | sed 's/.*r="\([0-9.]*\)dp".*/\1/'`
+	newradius=`echo "$origradius" | awk '{print $1/2}' | sed 's/^\./0./' | sed 's/^0$/0.1/'`
+	newline=`echo "$line" | sed "s/ r=\"[0-9.]*/ r=\"$newradius/"`
+	echo "s;$line;$newline;" >> $sedscript
+done
+
 
 echo "/<!--smooth_line-->/ s/\/>.*/curve=\"cubic\" \/>/" >> $sedscript
 

@@ -15,6 +15,9 @@
 		<rule e="node" k="osmc_foreground" v="white_arch">
 			<symbol src="file:/osmc-symbols/black_white_arch.png" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="white_backslash">
+			<symbol src="file:/osmc-symbols/black_white_backslash.png" />
+		</rule>
 		<rule e="node" k="osmc_foreground" v="red_bar">
 			<symbol src="file:/osmc-symbols/black_red_bar.png" />
 		</rule>

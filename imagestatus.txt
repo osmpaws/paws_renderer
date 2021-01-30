@@ -64,6 +64,7 @@ osmc-symbols/black-red-triangle-14.svg
 osmc-symbols/black-round-red-dot-14.svg
 osmc-symbols/black-round-white-dot-14.svg
 osmc-symbols/black-white-arch-14.svg
+osmc-symbols/black-white-backslash-14.svg
 osmc-symbols/black-white-bar-14.svg
 osmc-symbols/black-white-circle-14.svg
 osmc-symbols/black-white-corner-14.svg
@@ -390,6 +391,7 @@ osmc-symbols/none-green-bar-14.svg
 osmc-symbols/none-green-pointer-14.svg
 osmc-symbols/none-green-triangle-14.svg
 osmc-symbols/none-orange-bar-14.svg
+osmc-symbols/none-orange-diamond-14.svg
 osmc-symbols/none-red-bar-14.svg
 osmc-symbols/none-red-dot-14.svg
 osmc-symbols/none-red-pointer-14.svg
