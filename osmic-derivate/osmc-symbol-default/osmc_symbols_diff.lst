@@ -7,6 +7,7 @@
 [...]
 ⌘
 :ammonit
+aqua
 aqua:
 aqua:blue_dot
 aqua:orange_dot
@@ -122,6 +123,7 @@ black:ST
 black_triangle_turned:
 black:U
 black:WFP
+black:whie_diamond_line
 black:white
 black:white_arrow
 black;white;red_rectangle
@@ -238,6 +240,7 @@ blue:NNk
 blue:none
 blue:NSS
 blue:NTW
+blue:orange
 blue:OZW
 blue:planet
 blue:PO
@@ -304,6 +307,7 @@ blue:white_star
 blue:WWW
 :blue_x
 blue_x
+blue:yellow
 blue:ZU
 blue:10
 blue:1.4
@@ -603,10 +607,12 @@ grey
 grey:
 grey:black_triangle
 grey:blue_dot
+:grey_diamond
 grey_frame:white_bar
 grey:grey_bar
 grey:none
 grey:red_dot
+grey:white_bar
 grreen
 heart
 :HF7
@@ -680,6 +686,7 @@ orange_frame:
 orange:F3
 orange:gray_bar
 orange:green
+orange:HF5
 orange:KS
 orange:Main
 orange:N
@@ -842,6 +849,7 @@ red:gray_stripe
 red;green_frame;red_dot;black
 red:GT
 red:GWP
+red:HF3
 red_hiker
 red:HKR
 red;;Hk1;red;white
@@ -874,6 +882,7 @@ red_rectangle:3B
 red:red
 red:red_redtangle
 red:Red_under
+red:RnZ
 red:Rot
 :red_round
 red_round
@@ -1021,6 +1030,7 @@ white:
 white:+
 white:=
 white:\
+white:♥
 white:A
 white:AC
 :white_arrow
@@ -1213,6 +1223,9 @@ white:MB
 white:MDR
 white:mtb
 white:N
+white:NEW1
+white:NEW14
+white:NEW2
 white:NGt
 white:NLP
 white:nlue_hiker
@@ -1228,6 +1241,7 @@ white:P
 white:papillon
 white:pink_bar
 white:pink_dot
+white:pink_stripe
 :white_pointer
 white_pointer
 white_pointer:BW
@@ -1427,6 +1441,7 @@ withe:yellow_lower
 with:yellow_bar
 :WON1
 w:white
+W5:white
 x
 yellos:
 :yellow

@@ -57,6 +57,7 @@
 	
 	<!-- ways -->
 	<rule e="way" k="*" v="*">
+		<!--#landuse#-->
 		<!-- natural -->
 		<rule e="way" k="natural" v="*">
 			<rule e="way" k="natural" v="coastline">
@@ -71,9 +72,8 @@
 			<!--#natural#-->
 		</rule>
 		
+		<!--#forest#bg#-->
 		<!--#forest#-->
-		
-		<!--#landuse#-->
 		
 		<!-- natural -->
 		<rule e="way" k="natural" v="*">

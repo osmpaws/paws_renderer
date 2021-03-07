@@ -162,6 +162,9 @@
 		<rule e="way" k="osmc_foreground" v="white_triangle_turned">
 			<lineSymbol src="file:/osmc-symbols/brown_white_triangle_turned.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="triangle_turned">
+			<lineSymbol src="file:/osmc-symbols/brown_triangle_turned.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="blue_triangle">
 			<lineSymbol src="file:/osmc-symbols/brown_blue_triangle.png" align-center="false" repeat="true" />
 		</rule>

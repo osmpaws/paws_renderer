@@ -9,6 +9,9 @@
 		<rule e="node" k="osmc_foreground" v="blue_backslash">
 			<symbol src="file:/osmc-symbols/red_blue_backslash.png" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="white_backslash">
+			<symbol src="file:/osmc-symbols/red_white_backslash.png" />
+		</rule>
 		<rule e="node" k="osmc_foreground" v="yellow_bar">
 			<symbol src="file:/osmc-symbols/red_yellow_bar.png" />
 		</rule>
@@ -89,6 +92,9 @@
 		</rule>
 		<rule e="node" k="osmc_foreground" v="white_lower">
 			<symbol src="file:/osmc-symbols/red_white_lower.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="black_lower">
+			<symbol src="file:/osmc-symbols/red_black_lower.png" />
 		</rule>
 		<rule e="node" k="osmc_foreground" v="mine">
 			<symbol src="file:/osmc-symbols/red_mine.png" />
