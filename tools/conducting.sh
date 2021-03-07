@@ -131,6 +131,7 @@ if ! xmllint --noout "$root/xml/$basexml" ; then
 fi
 
 rebuildimg=0
+onlyupdate=0
 
 while [ $# -gt 0 ] ; do
 	case $1 in
@@ -144,6 +145,9 @@ while [ $# -gt 0 ] ; do
 		-c)
 			rebuildimg=1
 		;;
+		-u)
+			onlyupdate=1
+		;;
 		*)
 			echo "neznámý argument $1"
 		;;
@@ -151,6 +155,14 @@ while [ $# -gt 0 ] ; do
 	shift
 done
 echo "Release mode: $release" >> $logfile
+
+if [ $onlyupdate = 1 ]; then
+	if diff -q $osmcsymlst $osmcsymlstold &> /dev/null; then
+		echo "Only update mode: no changes - exit" >> $logfile
+		echo "Only update mode: no changes - exit"
+		exit 0
+	fi
+fi
 
 #if ! diff -q $osmcsymlst $osmcsymlstold &> /dev/null; then
 #	cp $osmcsymlst $osmcsymlstold
@@ -542,4 +554,6 @@ git commit -a -m "This is automatic commit of release r$releasestr ( build b$bui
 git push
 
 sh tools/$uploadscript "$root/$uploadpath" "$winterarg" || diefunc !!
-sh tools/notify.sh || diefunc !!
+if [ "$onlyupdate" -ne "1" ]; then
+    sh tools/notify.sh || diefunc !!
+fi
