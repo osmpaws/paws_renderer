@@ -3408,6 +3408,13 @@ none-blue-dot:
     fill: "#ffffff"
     opacity: 0.0
     padding: 1
+black-white-fork:
+  fill: "#ffffff"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 blue-red-fork:
   fill: "#ff0000"
   shield:

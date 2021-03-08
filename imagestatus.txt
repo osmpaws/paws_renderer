@@ -74,6 +74,7 @@ osmc-symbols/black-white-cross-14.svg
 osmc-symbols/black-white-diamond-line-14.svg
 osmc-symbols/black-white-diamond-14.svg
 osmc-symbols/black-white-dot-14.svg
+osmc-symbols/black-white-fork-14.svg
 osmc-symbols/black-white-hexagon-14.svg
 osmc-symbols/black-white-hiker-14.svg
 osmc-symbols/black-white-lower-14.svg
