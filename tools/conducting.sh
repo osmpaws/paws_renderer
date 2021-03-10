@@ -550,6 +550,9 @@ cp themes/$templatesrc/${templatesrc}.xml $template
 cp themes_svg/paws_4/paws_4.xml $template4
 
 git status
+if [ "$onlyupdate" -eq "1" ]; then
+	git add osmic-derivate/export_paws/osmc-symbols
+fi
 git commit -a -m "This is automatic commit of release r$releasestr ( build b$buildstr `cat $root/tools/$lmod | awk '{print $1}'`)"
 git push
 
