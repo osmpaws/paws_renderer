@@ -988,6 +988,7 @@ patterns/access-no-bike-14.svg 1611254735.8918390510
 patterns/access-no-foot-14.svg 1611254735.8918390510
 patterns/access-private-14.svg 1611254735.8918390510
 patterns/bare-rock-32.svg 1615097006.6883976060
+patterns/basin-14.svg 1615646906.8144830380
 patterns/cemetery-christian-32.svg 1615097006.6923976610
 patterns/cemetery-jewish-32.svg 1615097006.7003977680
 patterns/cemetery-32.svg 1615097006.6923976610

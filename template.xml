@@ -2,7 +2,7 @@
 <rendertheme xmlns="http://mapsforge.org/renderTheme" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://mapsforge.org/renderTheme ../renderTheme.xsd" version="1" map-background="#f8f8f8">
 	
-	<!--#r00075b00567#-->
+	<!--#r00076b00572#-->
 
 	<!--style#v4#setup-->
 	
@@ -665,7 +665,10 @@
 		<area fill="#b5d6f1" />
 	</rule>
 	
-	<rule e="way" k="landuse" v="reservoir|basin">
+	<rule e="way" k="landuse" v="basin">
+		<area src="file:/patterns/basin.png" />
+	</rule>
+	<rule e="way" k="landuse" v="reservoir">
 		<area fill="#b5d6f1" />
 	</rule>
 

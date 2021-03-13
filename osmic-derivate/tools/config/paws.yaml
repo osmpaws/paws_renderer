@@ -587,6 +587,9 @@ bare-rock:
   shield:
     fill: "#c2b48c"
     opacity: 0.5
+basin:
+  fill: "#b5d6f1"
+  opacity: 0.5
 cemetery:
   fill: "#999999"
   shield:

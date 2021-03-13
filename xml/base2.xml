@@ -447,7 +447,10 @@
 		<area fill="#b5d6f1" />
 	</rule>
 	
-	<rule e="way" k="landuse" v="reservoir|basin">
+	<rule e="way" k="landuse" v="basin">
+		<area src="file:/patterns/basin.png" />
+	</rule>
+	<rule e="way" k="landuse" v="reservoir">
 		<area fill="#b5d6f1" />
 	</rule>
 
