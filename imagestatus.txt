@@ -993,6 +993,7 @@ patterns/cemetery-christian-32.svg 1615097006.6923976610
 patterns/cemetery-jewish-32.svg 1615097006.7003977680
 patterns/cemetery-32.svg 1615097006.6923976610
 patterns/dog-park-14.svg 1615097006.7083978760
+patterns/hops-14.svg 1615737998.0739031990
 patterns/marsh-32.svg 1611254735.8918390510
 patterns/military-14.svg 1615097006.7123979300
 patterns/national-park-14.svg 1611254735.8918390510

@@ -607,6 +607,12 @@ dog-park:
     fill: "#c7f1a3"
     opacity: 0.3
     padding: 2
+hops:
+  fill: "#000000"
+  shield:
+    fill: "#FFF5ED"
+    opacity: 0.3
+    padding: 2
 marsh:
   fill: "#0092da"
 military:
