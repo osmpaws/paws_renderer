@@ -611,8 +611,7 @@ hops:
   fill: "#000000"
   shield:
     fill: "#FFF5ED"
-    opacity: 0.3
-    padding: 2
+    padding: 3
 marsh:
   fill: "#0092da"
 military:
