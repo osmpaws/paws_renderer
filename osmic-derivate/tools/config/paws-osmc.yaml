@@ -612,7 +612,7 @@ dog-park:
 hops:
   fill: "#000000"
   shield:
-    fill: "#FFF5ED"
+    fill: "#fff5ed"
     padding: 3
 marsh:
   fill: "#0092da"
