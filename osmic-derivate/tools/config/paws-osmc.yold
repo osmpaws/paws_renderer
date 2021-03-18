@@ -610,7 +610,7 @@ dog-park:
     opacity: 0.3
     padding: 2
 hops:
-  fill: "#000000"
+  fill: "#00bb54"
   shield:
     fill: "#fff5ed"
     padding: 3
