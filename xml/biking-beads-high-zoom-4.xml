@@ -1,21 +1,30 @@
 		<!--$KCT#biking#lines#high#zoom$-->
 		<rule cat="bike_beads" e="way" k="route" v="bicycle">
-			<rule e="way" k="network" v="ncn" zoom-min="19">
-				<line stroke="#9000FF" stroke-width="0.5" stroke-linecap="round" stroke-dasharray="0.15,120" />
-			</rule>
-			<rule e="way" k="network" v="ncn" zoom-min="18" zoom-max="18">
-				<line stroke="#9000FF" stroke-width="0.8" stroke-linecap="round" stroke-dasharray="0.15,80" />
-			</rule>
-			<rule e="way" k="network" v="ncn" zoom-min="17" zoom-max="17">
-				<line stroke="#9000FF" stroke-width="1.0" stroke-linecap="round" stroke-dasharray="0.15,80" />
-			</rule>
 			<rule e="way" k="network" v="rcn|lcn|~" zoom-min="19">
-				<line stroke="#FF00FF" stroke-width="0.5" stroke-linecap="round" stroke-dasharray="0.15,110" />
+				<line stroke="#FF00FF" stroke-width="1.0" stroke-linecap="round" stroke-dasharray="0.15,30" />
 			</rule>
 			<rule e="way" k="network" v="rcn|lcn|~" zoom-min="18" zoom-max="18">
-				<line stroke="#FF00FF" stroke-width="0.8" stroke-linecap="round" stroke-dasharray="0.15,70" />
+				<line stroke="#FF00FF" stroke-width="1.0" stroke-linecap="round" stroke-dasharray="0.15,20" />
 			</rule>
 			<rule e="way" k="network" v="rcn|lcn|~" zoom-min="17" zoom-max="17">
-				<line stroke="#FF00FF" stroke-width="1.0" stroke-linecap="round" stroke-dasharray="0.15,70" />
+				<line stroke="#FF00FF" stroke-width="1.0" stroke-linecap="round" stroke-dasharray="0.15,25" />
+			</rule>
+			<rule e="way" k="network" v="ncn" zoom-min="19">
+				<line stroke="#9000FF" stroke-width="1.0" stroke-linecap="round" stroke-dasharray="0.15,30" />
+			</rule>
+			<rule e="way" k="network" v="ncn" zoom-min="18" zoom-max="18">
+				<line stroke="#9000FF" stroke-width="1.0" stroke-linecap="round" stroke-dasharray="0.15,20" />
+			</rule>
+			<rule e="way" k="network" v="ncn" zoom-min="17" zoom-max="17">
+				<line stroke="#9000FF" stroke-width="1.0" stroke-linecap="round" stroke-dasharray="0.15,25" />
+			</rule>
+			<rule e="way" k="network" v="rcn|lcn|~" zoom-min="19">
+				<line stroke="#FF00FF" stroke-width="1.0" stroke-linecap="round" stroke-dasharray="0.15,60" />
+			</rule>
+			<rule e="way" k="network" v="rcn|lcn|~" zoom-min="18" zoom-max="18">
+				<line stroke="#FF00FF" stroke-width="1.0" stroke-linecap="round" stroke-dasharray="0.15,40" />
+			</rule>
+			<rule e="way" k="network" v="rcn|lcn|~" zoom-min="17" zoom-max="17">
+				<line stroke="#FF00FF" stroke-width="1.0" stroke-linecap="round" stroke-dasharray="0.15,50" />
 			</rule>
 		</rule>

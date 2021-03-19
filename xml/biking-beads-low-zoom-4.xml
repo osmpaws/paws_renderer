@@ -1,31 +1,47 @@
 		<!--$KCT#biking#lines#low#zoom$-->
 		<rule cat="bike_beads" e="way" k="route" v="bicycle">
-			<rule e="way" k="network" v="ncn" zoom-min="16" zoom-max="16">
-				<line stroke="#9000FF" stroke-width="3.0" stroke-linecap="round" stroke-dasharray="0.15,75" />
-			</rule>
-			<rule e="way" k="network" v="ncn" zoom-min="15" zoom-max="15">
-				<line stroke="#9000FF" stroke-width="5.0" stroke-linecap="round" stroke-dasharray="0.15,75" />
-			</rule>
-			<rule e="way" k="network" v="ncn" zoom-min="13" zoom-max="14">
-				<line stroke="#9000FF" stroke-width="6.0" stroke-linecap="round" stroke-dasharray="0.15,37.5" />
-			</rule>
-			<rule e="way" k="network" v="ncn" zoom-min="12" zoom-max="12">
-				<line stroke="#9000FF" stroke-width="7.2" stroke-linecap="round" stroke-dasharray="0.15,15" />
-			</rule>
-			<rule e="way" k="network" v="ncn" zoom-min="10" zoom-max="11">
-				<line stroke="#9000FF" stroke-width="4.5" stroke-linecap="round" stroke-dasharray="0.15,9" />
-			</rule>
+		
+			
 			<rule e="way" k="network" v="rcn|lcn|~" zoom-min="16" zoom-max="16">
-				<line stroke="#FF00FF" stroke-width="3.0" stroke-linecap="round" stroke-dasharray="0.15,75" />
+				<line stroke="#FF00FF" stroke-width="3.5" stroke-linecap="round" stroke-dasharray="0.15,35" />
 			</rule>
 			<rule e="way" k="network" v="rcn|lcn|~" zoom-min="15" zoom-max="15">
-				<line stroke="#FF00FF" stroke-width="5.0" stroke-linecap="round" stroke-dasharray="0.15,75" />
+				<line stroke="#FF00FF" stroke-width="4.0" stroke-linecap="round" stroke-dasharray="0.15,40" />
 			</rule>
 			<rule e="way" k="network" v="rcn|lcn|~" zoom-min="13" zoom-max="14">
-				<line stroke="#FF00FF" stroke-width="6.0" stroke-linecap="round" stroke-dasharray="0.15,37.5" />
+				<line stroke="#FF00FF" stroke-width="5.0" stroke-linecap="round" stroke-dasharray="0.15,37" />
 			</rule>
 			<rule e="way" k="network" v="rcn|lcn|~" zoom-min="12" zoom-max="12">
-				<line stroke="#FF00FF" stroke-width="7.2" stroke-linecap="round" stroke-dasharray="0.15,15" />
+				<line stroke="#FF00FF" stroke-width="5.5" stroke-linecap="round" stroke-dasharray="0.15,29" />
+			</rule>
+			
+			<rule e="way" k="network" v="ncn" zoom-min="16" zoom-max="16">
+				<line stroke="#9000FF" stroke-width="3.5" stroke-linecap="round" stroke-dasharray="0.15,35" />
+			</rule>
+			<rule e="way" k="network" v="ncn" zoom-min="15" zoom-max="15">
+				<line stroke="#9000FF" stroke-width="4.0" stroke-linecap="round" stroke-dasharray="0.15,40" />
+			</rule>
+			<rule e="way" k="network" v="ncn" zoom-min="13" zoom-max="14">
+				<line stroke="#9000FF" stroke-width="5.0" stroke-linecap="round" stroke-dasharray="0.15,37" />
+			</rule>
+			<rule e="way" k="network" v="ncn" zoom-min="12" zoom-max="12">
+				<line stroke="#9000FF" stroke-width="5.5" stroke-linecap="round" stroke-dasharray="0.15,29" />
+			</rule>
+			<rule e="way" k="network" v="ncn" zoom-min="10" zoom-max="11">
+				<line stroke="#9000FF" stroke-width="4.5" stroke-linecap="round" stroke-dasharray="0.15,13" />
+			</rule>
+			
+			<rule e="way" k="network" v="rcn|lcn|~" zoom-min="16" zoom-max="16">
+				<line stroke="#FF00FF" stroke-width="3.5" stroke-linecap="round" stroke-dasharray="0.15,70" />
+			</rule>
+			<rule e="way" k="network" v="rcn|lcn|~" zoom-min="15" zoom-max="15">
+				<line stroke="#FF00FF" stroke-width="4.0" stroke-linecap="round" stroke-dasharray="0.15,80" />
+			</rule>
+			<rule e="way" k="network" v="rcn|lcn|~" zoom-min="13" zoom-max="14">
+				<line stroke="#FF00FF" stroke-width="5.0" stroke-linecap="round" stroke-dasharray="0.15,74" />
+			</rule>
+			<rule e="way" k="network" v="rcn|lcn|~" zoom-min="12" zoom-max="12">
+				<line stroke="#FF00FF" stroke-width="5.5" stroke-linecap="round" stroke-dasharray="0.15,58" />
 			</rule>
 			<!--rule e="way" k="network" v="rcn|lcn|~" zoom-min="11" zoom-max="11">
 				<line stroke="#FF00FF" stroke-width="4.5" stroke-linecap="round" stroke-dasharray="0,7.5,0.15,9" />

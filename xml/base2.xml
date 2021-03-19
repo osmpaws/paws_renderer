@@ -476,8 +476,7 @@
 		</rule>
 		
 		<!--hiking#lines#high#zoom-->
-				
-		<!--biking#lines#low#zoom-->
+
 				
 		<!-- no tunnel -->
 		<rule e="way" k="tunnel" v="~|no|false">
@@ -569,6 +568,8 @@
 				</rule>
 			</rule>
 		</rule>
+		
+		<!--biking#lines#low#zoom-->
 		
 		<!--mtb#scale-->
 		

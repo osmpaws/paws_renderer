@@ -2,7 +2,7 @@
 <rendertheme xmlns="http://mapsforge.org/renderTheme" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://mapsforge.org/renderTheme ../renderTheme.xsd" version="1" map-background="#f8f8f8">
 	
-	<!--#r00080b00583#-->
+	<!--#r00081b00591#-->
 
 	<!--style#v4#setup-->
 	
@@ -67,7 +67,7 @@
 				<area fill="#ffebeb" stroke="#e4e4e4" stroke-width="0.30" />
 			</rule>
 			<rule e="way" k="landuse" v="industrial|brownfield|railway" zoom-min="13">
-				<area fill="#ecd8ff" stroke="#e4e4e4" stroke-width="0.30" />
+				<area fill="#c7c1ca" stroke="#e4e4e4" stroke-width="0.30" />
 			</rule>
 			<rule e="way" k="landuse" v="commercial">
 				<area fill="#ffffc0" stroke="#e4e4e4" stroke-width="0.30" />
@@ -860,35 +860,7 @@
 				<line stroke="#FF0000" stroke-width="4.90" stroke-linecap="butt" stroke-dasharray="0.00,52.50,15.00,0.0" />
 			</rule>
 		</rule>	
-				
-		<!--biking#lines#low#zoom-->
-<!--KCT#biking#lines#low#zoom-->
-		<rule e="way" k="route" v="bicycle">
-			<rule e="way" k="network" v="ncn" zoom-min="15" zoom-max="16">
-				<line stroke="#9000FF" stroke-width="5.10" stroke-linecap="round" stroke-dasharray="0.15,75.0" />
-			</rule>
-			<rule e="way" k="network" v="ncn" zoom-min="13" zoom-max="14">
-				<line stroke="#9000FF" stroke-width="6.00" stroke-linecap="round" stroke-dasharray="0.15,37.5" />
-			</rule>
-			<rule e="way" k="network" v="ncn" zoom-min="12" zoom-max="12">
-				<line stroke="#9000FF" stroke-width="7.20" stroke-linecap="round" stroke-dasharray="0.15,15.0" />
-			</rule>
-			<!--rule e="way" k="network" v="ncn" zoom-min="11" zoom-max="11">
-				<line stroke="#9000FF" stroke-width="4.50" stroke-linecap="round" stroke-dasharray="0.15,9.0" />
-			</rule-->
-			<rule e="way" k="network" v="rcn|lcn|~" zoom-min="15" zoom-max="16">
-				<line stroke="#FF00FF" stroke-width="4.80" stroke-linecap="round" stroke-dasharray="0.00,7.50,0.15,75.0" />
-			</rule>
-			<rule e="way" k="network" v="rcn|lcn|~" zoom-min="13" zoom-max="14">
-				<line stroke="#FF00FF" stroke-width="6.00" stroke-linecap="round" stroke-dasharray="0.00,7.50,0.15,37.5" />
-			</rule>
-			<rule e="way" k="network" v="rcn|lcn|~" zoom-min="12" zoom-max="12">
-				<line stroke="#FF00FF" stroke-width="7.20" stroke-linecap="round" stroke-dasharray="0.00,7.50,0.15,15.0" />
-			</rule>
-			<!--rule e="way" k="network" v="rcn|lcn|~" zoom-min="11" zoom-max="11">
-				<line stroke="#FF00FF" stroke-width="4.50" stroke-linecap="round" stroke-dasharray="0.00,7.50,0.15,9.0" />
-			</rule-->
-		</rule>
+
 				
 		<!-- no tunnel -->
 		<rule e="way" k="tunnel" v="~|no|false">
@@ -991,6 +963,35 @@
 					<caption k="addr:housenumber" font-style="bold" font-size="17.00" fill="#606060" stroke="#ffffff" stroke-width="3.00" />
 				</rule>
 			</rule>
+		</rule>
+		
+		<!--biking#lines#low#zoom-->
+<!--KCT#biking#lines#low#zoom-->
+		<rule e="way" k="route" v="bicycle">
+			<rule e="way" k="network" v="ncn" zoom-min="15" zoom-max="16">
+				<line stroke="#9000FF" stroke-width="5.10" stroke-linecap="round" stroke-dasharray="0.15,75.0" />
+			</rule>
+			<rule e="way" k="network" v="ncn" zoom-min="13" zoom-max="14">
+				<line stroke="#9000FF" stroke-width="6.00" stroke-linecap="round" stroke-dasharray="0.15,37.5" />
+			</rule>
+			<rule e="way" k="network" v="ncn" zoom-min="12" zoom-max="12">
+				<line stroke="#9000FF" stroke-width="7.20" stroke-linecap="round" stroke-dasharray="0.15,15.0" />
+			</rule>
+			<!--rule e="way" k="network" v="ncn" zoom-min="11" zoom-max="11">
+				<line stroke="#9000FF" stroke-width="4.50" stroke-linecap="round" stroke-dasharray="0.15,9.0" />
+			</rule-->
+			<rule e="way" k="network" v="rcn|lcn|~" zoom-min="15" zoom-max="16">
+				<line stroke="#FF00FF" stroke-width="4.80" stroke-linecap="round" stroke-dasharray="0.00,7.50,0.15,75.0" />
+			</rule>
+			<rule e="way" k="network" v="rcn|lcn|~" zoom-min="13" zoom-max="14">
+				<line stroke="#FF00FF" stroke-width="6.00" stroke-linecap="round" stroke-dasharray="0.00,7.50,0.15,37.5" />
+			</rule>
+			<rule e="way" k="network" v="rcn|lcn|~" zoom-min="12" zoom-max="12">
+				<line stroke="#FF00FF" stroke-width="7.20" stroke-linecap="round" stroke-dasharray="0.00,7.50,0.15,15.0" />
+			</rule>
+			<!--rule e="way" k="network" v="rcn|lcn|~" zoom-min="11" zoom-max="11">
+				<line stroke="#FF00FF" stroke-width="4.50" stroke-linecap="round" stroke-dasharray="0.00,7.50,0.15,9.0" />
+			</rule-->
 		</rule>
 		
 		<!--mtb#scale-->

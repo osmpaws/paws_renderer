@@ -7,7 +7,7 @@
 				<area fill="#ffebeb" stroke="#e4e4e4" stroke-width="0.3" />
 			</rule>
 			<rule e="way" k="landuse" v="industrial|brownfield|railway" zoom-min="13">
-				<area fill="#ecd8ff" stroke="#e4e4e4" stroke-width="0.3" />
+				<area fill="#c7c1ca" stroke="#e4e4e4" stroke-width="0.3" />
 			</rule>
 			<rule e="way" k="landuse" v="commercial">
 				<area fill="#ffffc0" stroke="#e4e4e4" stroke-width="0.3" />
