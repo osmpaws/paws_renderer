@@ -104,6 +104,9 @@
 						</rule>
 					</rule>
 					<rule e="way" k="highway" v="track">
+						<rule cat="not_car_mode" e="way" k="*" v="*" zoom-min="12">
+							<line stroke="#56dfdfdf" stroke-width="0.7" />
+						</rule>
 						<rule cat="not_car_mode" e="way" k="*" v="*" zoom-min="12" zoom-max="16">
 							<rule e="way" k="tracktype" v="grade1">
 								<line stroke="#404040" stroke-width="1.3" />
