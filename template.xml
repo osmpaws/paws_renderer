@@ -2,7 +2,7 @@
 <rendertheme xmlns="http://mapsforge.org/renderTheme" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://mapsforge.org/renderTheme ../renderTheme.xsd" version="1" map-background="#f8f8f8">
 	
-	<!--#r00081b00591#-->
+	<!--#r00082b00593#-->
 
 	<!--style#v4#setup-->
 	
@@ -1112,6 +1112,7 @@
 						</rule>
 					</rule>
 					<rule e="way" k="highway" v="track">
+						<line stroke="#56dfdfdf" stroke-width="0.70" />
 						<rule e="way" k="*" v="*" zoom-min="12" zoom-max="16">
 							<rule e="way" k="tracktype" v="grade1">
 								<line stroke="#404040" stroke-width="1.30" />
