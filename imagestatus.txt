@@ -579,6 +579,7 @@ osmc-symbols/red-frame-tower-14.svg
 osmc-symbols/red-frame-white-bar-14.svg
 osmc-symbols/red-frame-white-rectangle-14.svg
 osmc-symbols/red-green-bar-14.svg
+osmc-symbols/red-green-diamond-14.svg
 osmc-symbols/red-green-dot-14.svg
 osmc-symbols/red-green-lower-14.svg
 osmc-symbols/red-green-right-14.svg

@@ -51,6 +51,9 @@
 		<rule e="node" k="osmc_foreground" v="yellow_diamond">
 			<symbol src="file:/osmc-symbols/red_yellow_diamond.png" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="green_diamond">
+			<symbol src="file:/osmc-symbols/red_green_diamond.png" />
+		</rule>
 		<rule e="node" k="osmc_foreground" v="white_diamond">
 			<symbol src="file:/osmc-symbols/red_white_diamond.png" />
 		</rule>
