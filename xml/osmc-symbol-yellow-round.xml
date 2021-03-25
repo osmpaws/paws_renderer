@@ -12,4 +12,7 @@
 		<rule e="way" k="osmc_foreground" v="yellow_dot">
 			<lineSymbol src="file:/osmc-symbols/yellow_round_yellow_dot.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="green_dot">
+			<lineSymbol src="file:/osmc-symbols/yellow_round_green_dot.png" align-center="false" repeat="true" />
+		</rule>
 	</rule>
