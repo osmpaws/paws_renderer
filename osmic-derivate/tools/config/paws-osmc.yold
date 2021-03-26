@@ -4067,6 +4067,14 @@ yellow-round-yellow-dot:
     stroke_width: 1
     padding: 2
     rounded: 10
+yellow-round-green-dot:
+  fill: "#00cd27"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
 none-red-dot:
   fill: "#ff0000"
   shield:
