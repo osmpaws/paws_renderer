@@ -198,6 +198,7 @@ blue_dot:
 blue_dot:blue_dot
 blue_dot:3
 blue_drop
+blue:EPW
 blue:E-R6
 blue_fork
 blue_frame
@@ -1259,6 +1260,7 @@ white:purple
 white_purple:
 white:purple_boat
 white:purple_chapel
+white:purple_line
 white;purple_pointer
 white:purple_trapezium
 white:R
