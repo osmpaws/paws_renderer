@@ -79,7 +79,7 @@
 		<name lang="en" value="National parks area" />
 		<cat id="national_park_pattern" />
 	</layer>
-	<layer id="l_piste_nordic" enabled="true">
+	<layer id="l_piste_nordic" enabled="false">
 		<name lang="cs" value="Běžecké stopy" />
 		<name lang="en" value="Cross-country skiing trails" />
 		<cat id="piste_nordic" />
