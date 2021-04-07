@@ -464,6 +464,7 @@ green_frame:1
 green:F5
 green:G
 green:Glarus
+green:gray_arch
 green:green
 green:green_bachslash
 green:green_frame
@@ -986,6 +987,7 @@ symbol
 symbol=black:black
 symbol=blue:blue
 symbol=blue:blue_round
+symbol=[blue:white
 symbol=blue:white
 Symbol_E10.png
 symbol=green:green_corner
