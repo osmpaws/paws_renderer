@@ -370,6 +370,7 @@ brown:6
 C:blue
 cc:black
 ciolet:O
+circle
 cyan:
 cyan:AA
 cyan_dot
@@ -987,6 +988,7 @@ symbol
 symbol=black:black
 symbol=blue:blue
 symbol=blue:blue_round
+symbol=blue_circle:
 symbol=[blue:white
 symbol=blue:white
 Symbol_E10.png
