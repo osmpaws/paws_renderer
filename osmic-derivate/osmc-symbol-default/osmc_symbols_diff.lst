@@ -1001,6 +1001,7 @@ symbol=red:black
 symbol=red:red
 symbol=red:red_round
 symbol=red:white
+symbol=white:blue_dot
 symbol=yellow:white
 symbol=yellow:yellow
 TA
