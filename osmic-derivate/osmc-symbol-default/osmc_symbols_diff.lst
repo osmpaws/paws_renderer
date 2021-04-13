@@ -1598,6 +1598,7 @@ yellow:PT
 yellow:R
 :yellow_rectangle
 yellow_rectangle
+yellow_rectangle:
 :yellow_rectangle_line
 yellow_rectangle_line
 yellow:red

@@ -5015,6 +5015,12 @@ yellow-frame-white-lower:
     opacity: 0.0
     rounded: 2
     padding: 2
+none-blue-lower:
+  fill: "#1579e0"
+  shield:
+    fill: "#ffffff"
+    opacity: 0.0
+    padding: 1
 black-l:
   fill: "#ffffff"
   shield:
@@ -6753,8 +6759,22 @@ yellow-red-stripe:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+yellow-blue-stripe:
+  fill: "#1579e0"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 yellow-white-stripe:
   fill: "#ffffff"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+yellow-black-stripe:
+  fill: "#000000"
   shield:
     fill: "#ffdd00"
     stroke_fill: "#000000"

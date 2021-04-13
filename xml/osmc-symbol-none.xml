@@ -39,6 +39,9 @@
 		<rule e="way" k="osmc_foreground" v="blue_dot">
 			<lineSymbol src="file:/osmc-symbols/none_blue_dot.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="blue_lower">
+			<lineSymbol src="file:/osmc-symbols/none_blue_lower.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="red_pointer">
 			<lineSymbol src="file:/osmc-symbols/none_red_pointer.png" align-center="false" repeat="true" />
 		</rule>

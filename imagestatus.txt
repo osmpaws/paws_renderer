@@ -395,6 +395,7 @@ osmc-symbols/green-yellow-triangle-14.svg
 osmc-symbols/green-yellow-x-14.svg
 osmc-symbols/none-blue-bar-14.svg
 osmc-symbols/none-blue-dot-14.svg
+osmc-symbols/none-blue-lower-14.svg
 osmc-symbols/none-blue-pointer-14.svg
 osmc-symbols/none-green-bar-14.svg
 osmc-symbols/none-green-pointer-14.svg
@@ -888,6 +889,7 @@ osmc-symbols/yellow-black-lower-14.svg
 osmc-symbols/yellow-black-pointer-14.svg
 osmc-symbols/yellow-black-rectangle-line-14.svg
 osmc-symbols/yellow-black-rectangle-14.svg
+osmc-symbols/yellow-black-stripe-14.svg
 osmc-symbols/yellow-black-tower-14.svg
 osmc-symbols/yellow-black-triangle-line-14.svg
 osmc-symbols/yellow-black-triangle-14.svg
@@ -903,6 +905,7 @@ osmc-symbols/yellow-blue-pointer-14.svg
 osmc-symbols/yellow-blue-rectangle-14.svg
 osmc-symbols/yellow-blue-shell-modern-14.svg
 osmc-symbols/yellow-blue-slash-14.svg
+osmc-symbols/yellow-blue-stripe-14.svg
 osmc-symbols/yellow-blue-triangle-14.svg
 osmc-symbols/yellow-blue-turned-t-14.svg
 osmc-symbols/yellow-blue-wheel-14.svg
