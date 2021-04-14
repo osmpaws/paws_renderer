@@ -205,6 +205,7 @@ blue_frame
 blue_frame:
 blue_frame:Bijl
 blue_frame:Gag
+blue_frame:S
 blue_frame:white
 blue_frame:2T
 blue_frame:5WT
@@ -345,6 +346,7 @@ brown:F1
 brown:G
 :brown_hiker
 brown:H1
+brown:NaEr
 brown:none
 brown:PL
 :brown_pointer
@@ -425,6 +427,7 @@ green:BH
 green:black
 green:black_bike
 green:blue
+green:BuWi
 :green_circle
 green_circle
 green_circle:
@@ -901,9 +904,20 @@ red_round:red_round
 red_round:white
 red_round:white_arrow
 red_round:1
+red_round:1a
+red_round:10
+red_round:11
+red_round:12
 red_round:13
+red_round:15
 red_round:2
+red_round:3
+red_round:3a
+red_round:3b
+red_round:4
+red_round:5
 red_round:6
+red_round:7
 red:rred
 red:RWR
 red:RWW6
