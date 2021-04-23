@@ -497,6 +497,13 @@ done
 bash $root/tools/svg_theme.sh || diefunc !!
 uploadstr=$uploadstr"themes_svg/paws_4.zip,"
 echo -n "themes_svg/paws_4.zip," >> $uploadpath
+if [ `grep '^\s*$' "$root/xml/$hlhzx4" | wc -l` -ne 1 ] ; then
+	echo "$root/xml/$hlhzx4 has more than one empty lines. This is problem."
+	diefunc "$root/xml/$hlhzx4"
+elif ! tail -n1 "$root/xml/$hlhzx4" | grep '^\s*$' ; then
+	echo "$root/xml/$hlhzx4 has not empty line at the end. This is problem."
+	diefunc "$root/xml/$hlhzx4"
+fi
 
 bash $root/tools/locus_theme.sh "$winterarg" || diefunc !!
 uploadstr=$uploadstr"themes_svg/paws_4_LE.zip,"
@@ -547,11 +554,17 @@ if [ "$release" -ne "1" ]; then
 fi
 
 cp themes/$templatesrc/${templatesrc}.xml $template
-cp themes_svg/paws_4/paws_4.xml $template4
+sed -e 's/repeat-start="[0-9]*"/repeat-start="#"/g' -e 's/repeat-gap="[0-9]*"/repeat-gap="#"/g' themes_svg/paws_4/paws_4.xml > $template4
 
 git status
 if [ "$onlyupdate" -eq "1" ]; then
-	git add osmic-derivate/export_paws/osmc-symbols
+	if git status | grep -qF 'osmic-derivate/export_paws/osmc-symbols' ; then
+		git add osmic-derivate/export_paws/osmc-symbols
+	else
+		echo "Only update mode: no acctual changes - exit" >> $logfile
+		echo "Only update mode: no acctual changes - exit"
+		exit 0
+	fi
 fi
 git commit -a -m "This is automatic commit of release r$releasestr ( build b$buildstr `cat $root/tools/$lmod | awk '{print $1}'`)"
 git push
