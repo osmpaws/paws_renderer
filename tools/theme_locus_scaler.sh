@@ -9,6 +9,7 @@ useawk=1
 if [ "$useawk" -eq "1" ] ; then
 	awk -v "scale=$scale" -v "txtscale=$txtscale" '/<area|<caption|<circle|<line|<pathText/ {
 	fnw = match($0,"<")
+	dagr = match($0,"<!--keep-gaps-->")
 	printf "%s",substr($0,0,fnw-1)
 	for(i=1;i<=NF;i++) {
 		if ( $i ~ /^r=|^stroke-width=/ ) { 
@@ -22,7 +23,11 @@ if [ "$useawk" -eq "1" ] ; then
 			printf"%s\"",workfields[1];
 			nsd = split(workfields[2],dasharray,",");
 			for(j=1;j<nsd;j++) {
-				printf"%-0.2f,",(j%2==0?dasharray[j]*scale*2/3:dasharray[j]*scale);
+				if ( $dagr == 0 ) {
+					printf"%-0.2f,",(j%2==0?dasharray[j]*scale*2/3:dasharray[j]*scale);
+				} else {
+					printf"%-0.2f,",(j%2==0?dasharray[j]*scale:dasharray[j]*scale);
+				}
 			}
 			printf"%-0.1f%s\"",dasharray[nsd]*scale,workfields[3];
 		} else {

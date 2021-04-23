@@ -12,4 +12,10 @@
 			<rule e="way" k="network" v="rcn|lcn|~" zoom-min="17" zoom-max="18">
 				<line stroke="#FF00FF" stroke-width="1.2" dy="-3" stroke-linecap="butt" />
 			</rule>
+			<rule e="way" k="network" v="ncn" zoom-min="19">
+				<line stroke="#9000FF" stroke-width="1.0" dy="-3" stroke-linecap="butt" stroke-dasharray="15,15" />
+			</rule>
+			<rule e="way" k="network" v="ncn" zoom-min="17" zoom-max="18">
+				<line stroke="#9000FF" stroke-width="1.2" dy="-3" stroke-linecap="butt" stroke-dasharray="15,15" />
+			</rule>
 		</rule>
