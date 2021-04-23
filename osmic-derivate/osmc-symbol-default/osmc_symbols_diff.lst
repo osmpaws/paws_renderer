@@ -232,6 +232,7 @@ blue:K1
 blue:LA
 blue:LDt
 :blue_lower
+blue:lower_blue
 blue:LP
 blue:L8
 blue:MPf
@@ -866,6 +867,7 @@ red;;Hk1;red;white
 red:H2
 red:H6
 red:H9
+:red_lower
 red_lower:yellow_bowl
 red_lower:68
 red_lower:72
@@ -973,6 +975,7 @@ red_x
 red:1
 red:11
 red:12
+red:13
 red:2
 red:2M
 red:3
@@ -1358,6 +1361,7 @@ white_stripe:red_right
 white_stripe:302
 white:_T
 white:T
+white:teal_bar
 white:Tk12
 white:TN
 white:TNII
