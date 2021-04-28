@@ -435,6 +435,9 @@
 		<rule e="node" k="osmc_foreground" v="yellow_shell_modern">
 			<symbol src="file:/osmc-symbols/white_yellow_shell_modern.png" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="shell">
+			<symbol src="file:/osmc-symbols/white_shell.png" />
+		</rule>
 		<rule e="node" k="osmc_foreground" v="red_slash">
 			<symbol src="file:/osmc-symbols/white_red_slash.png" />
 		</rule>

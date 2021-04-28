@@ -6538,6 +6538,12 @@
 	<rule e="way" k="osmc_background" v="red_round" zoom-min="15">
 	</rule>
 	<rule e="way" k="osmc_background" v="white" zoom-min="15">
+		<rule e="way" k="osmc_foreground" v="shell">
+			<lineSymbol src="file:/osmc-symbols/white_shell.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="shell">
+			<symbol src="file:/osmc-symbols/white_shell.png" />
+		</rule>
 	</rule>
 	<rule e="way" k="osmc_background" v="white_circle" zoom-min="15">
 	</rule>
