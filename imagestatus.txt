@@ -436,6 +436,7 @@ osmc-symbols/orange-green-slash-14.svg
 osmc-symbols/orange-heart-14.svg
 osmc-symbols/orange-hiker-14.svg
 osmc-symbols/orange-mine-14.svg
+osmc-symbols/orange-purple-pointer-14.svg
 osmc-symbols/orange-red-bar-14.svg
 osmc-symbols/orange-red-dot-14.svg
 osmc-symbols/orange-red-lower-14.svg

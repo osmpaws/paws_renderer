@@ -4774,6 +4774,13 @@ orange-brown-pointer:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+orange-purple-pointer:
+  fill: "#b878dd"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 orange-round-red-pointer:
   fill: "#ff0000"
   shield:

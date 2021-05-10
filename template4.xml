@@ -2,7 +2,7 @@
 <rendertheme xmlns="http://mapsforge.org/renderTheme" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://mapsforge.org/renderTheme https://raw.githubusercontent.com/mapsforge/mapsforge/dev/resources/renderTheme-v4.xsd" version="4" map-background-outside="#EEEEEE" map-background="#f8f8f8">
 	
-	<!--#r00103b00621#-->
+	<!--#r00104b00623#-->
 
 	<!--style#v4#setup-->
 <stylemenu id="r4menu" defaultvalue="default" defaultlang="en">
@@ -1255,12 +1255,12 @@
 			</rule>
 			<rule e="way" k="osmc_color" v="~">
 				<rule e="way" k="network" v="lwn">
-					<line stroke="#e0d041" stroke-width="1.00" stroke-linecap="butt" dy="-1.50" stroke-dasharray="5.00,15.00,10.00,5.0" /> <!--keep-gaps--> <!--color#7-->
+					<line stroke="#bba71c" stroke-width="1.00" stroke-linecap="butt" dy="-1.50" stroke-dasharray="5.00,15.00,10.00,5.0" /> <!--keep-gaps--> <!--color#7-->
 				</rule>
 			</rule>
 			<rule e="way" k="osmc_color" v="~">
 				<rule e="way" k="network" v="rwn">
-					<line stroke="#ebe083" stroke-width="1.00" stroke-linecap="butt" dy="-1.50" stroke-dasharray="0.00,15.00,15.00,5.00,5.00,0.0" /> <!--keep-gaps--> <!--color#6-->
+					<line stroke="#dfc82b" stroke-width="1.00" stroke-linecap="butt" dy="-1.50" stroke-dasharray="0.00,15.00,10.00,5.00,5.00,0.0" /> <!--keep-gaps--> <!--color#6-->
 				</rule>
 			</rule>
 			<rule e="way" k="osmc_color" v="blue"> <line stroke="#1579e0" stroke-width="1.00" stroke-linecap="butt" dy="-1.50" stroke-dasharray="5.00,5.00,5.00,20.0" /> <!--keep-gaps--> <!--color#2-->
@@ -1273,7 +1273,7 @@
 			</rule>
 			<rule e="way" k="osmc_color" v="~">
 				<rule e="way" k="network" v="rwn">
-					<line stroke="#ebe083" stroke-width="1.00" stroke-linecap="butt" dy="-1.50" stroke-dasharray="5.00,30.0" /> <!--keep-gaps--> <!--color#6-->
+					<line stroke="#dfc82b" stroke-width="1.00" stroke-linecap="butt" dy="-1.50" stroke-dasharray="5.00,30.0" /> <!--keep-gaps--> <!--color#6-->
 				</rule>
 			</rule>
 			<rule e="way" k="osmc_color" v="brown"> <line stroke="#D2691E" stroke-width="1.00" stroke-linecap="butt" dy="-1.50" stroke-dasharray="0.00,5.00,15.00,5.00,5.00,5.0" /> <!--keep-gaps--> <!--color#5-->
@@ -1284,7 +1284,7 @@
 			</rule>
 			<rule e="way" k="osmc_color" v="~">
 				<rule e="way" k="network" v="lwn">
-					<line stroke="#e0d041" stroke-width="1.00" stroke-linecap="butt" dy="-1.50" stroke-dasharray="0.00,5.00,5.00,25.0" /> <!--keep-gaps--> <!--color#7-->
+					<line stroke="#bba71c" stroke-width="1.00" stroke-linecap="butt" dy="-1.50" stroke-dasharray="0.00,5.00,5.00,25.0" /> <!--keep-gaps--> <!--color#7-->
 				</rule>
 			</rule>
 			<rule e="way" k="osmc_color" v="purple"> <line stroke="#B878DD" stroke-width="1.00" stroke-linecap="butt" dy="-1.50" stroke-dasharray="5.00,30.0" /> <!--keep-gaps--> <!--color#4-->
@@ -1293,12 +1293,12 @@
 			</rule>
 			<rule e="way" k="osmc_color" v="~">
 				<rule e="way" k="network" v="rwn">
-					<line stroke="#ebe083" stroke-width="1.00" stroke-linecap="butt" dy="-1.50" stroke-dasharray="0.00,5.00,10.00,20.0" /> <!--keep-gaps--> <!--color#6-->
+					<line stroke="#dfc82b" stroke-width="1.00" stroke-linecap="butt" dy="-1.50" stroke-dasharray="0.00,5.00,10.00,20.0" /> <!--keep-gaps--> <!--color#6-->
 				</rule>
 			</rule>
 			<rule e="way" k="osmc_color" v="~">
 				<rule e="way" k="network" v="lwn">
-					<line stroke="#e0d041" stroke-width="1.00" stroke-linecap="butt" dy="-1.50" stroke-dasharray="0.00,10.00,10.00,15.0" /> <!--keep-gaps--> <!--color#7-->
+					<line stroke="#bba71c" stroke-width="1.00" stroke-linecap="butt" dy="-1.50" stroke-dasharray="0.00,10.00,10.00,15.0" /> <!--keep-gaps--> <!--color#7-->
 				</rule>
 			</rule>
 			<rule e="way" k="osmc_color" v="red"> <line stroke="#FF0000" stroke-width="1.00" stroke-linecap="butt" dy="-1.50" stroke-dasharray="0.00,15.00,10.00,5.00,5.00,0.0" /> <!--keep-gaps--> <!--color#1-->
@@ -1311,12 +1311,12 @@
 			</rule>
 			<rule e="way" k="osmc_color" v="~">
 				<rule e="way" k="network" v="lwn">
-					<line stroke="#e0d041" stroke-width="1.00" stroke-linecap="butt" dy="-1.50" stroke-dasharray="0.00,30.00,5.00,0.0" /> <!--keep-gaps--> <!--color#7-->
+					<line stroke="#bba71c" stroke-width="1.00" stroke-linecap="butt" dy="-1.50" stroke-dasharray="0.00,30.00,5.00,0.0" /> <!--keep-gaps--> <!--color#7-->
 				</rule>
 			</rule>
 			<rule e="way" k="osmc_color" v="~">
 				<rule e="way" k="network" v="rwn">
-					<line stroke="#ebe083" stroke-width="1.00" stroke-linecap="butt" dy="-1.50" stroke-dasharray="0.00,25.00,5.00,5.0" /> <!--keep-gaps--> <!--color#6-->
+					<line stroke="#dfc82b" stroke-width="1.00" stroke-linecap="butt" dy="-1.50" stroke-dasharray="0.00,25.00,5.00,5.0" /> <!--keep-gaps--> <!--color#6-->
 				</rule>
 			</rule>
 			<rule e="way" k="osmc_color" v="brown"> <line stroke="#D2691E" stroke-width="1.00" stroke-linecap="butt" dy="-1.50" stroke-dasharray="0.00,20.00,5.00,10.0" /> <!--keep-gaps--> <!--color#5-->
@@ -1335,7 +1335,7 @@
 			</rule>
 			<rule e="way" k="osmc_color" v="~">
 				<rule e="way" k="network" v="iwn">
-					<line stroke="#83ebe0" stroke-width="1.00" stroke-linecap="butt" dy="1.50" stroke-dasharray="0.00,30.00,5.00,0.0" /> <!--keep-gaps--> <!--color#5-->
+					<line stroke="#6de8da" stroke-width="1.00" stroke-linecap="butt" dy="1.50" stroke-dasharray="0.00,30.00,5.00,0.0" /> <!--keep-gaps--> <!--color#5-->
 				</rule>
 			</rule>
 			<rule e="way" k="osmc_color" v="yellow"> <line stroke="#FFDD00" stroke-width="1.00" stroke-linecap="butt" dy="1.50" stroke-dasharray="0.00,5.00,10.00,20.0" /> <!--keep-gaps--> <!--color#1-->
@@ -1346,7 +1346,7 @@
 			</rule>
 			<rule e="way" k="osmc_color" v="~">
 				<rule e="way" k="network" v="nwn">
-					<line stroke="#41e0d0" stroke-width="1.00" stroke-linecap="butt" dy="1.50" stroke-dasharray="0.00,15.00,10.00,5.00,5.00,0.0" /> <!--keep-gaps--> <!--color#6-->
+					<line stroke="#2bdccb" stroke-width="1.00" stroke-linecap="butt" dy="1.50" stroke-dasharray="0.00,15.00,10.00,5.00,5.00,0.0" /> <!--keep-gaps--> <!--color#6-->
 				</rule>
 			</rule>
 			<rule e="way" k="osmc_color" v="green"> <line stroke="#00cd27" stroke-width="1.00" stroke-linecap="butt" dy="1.50" stroke-dasharray="5.00,5.00,5.00,20.0" /> <!--keep-gaps--> <!--color#2-->
@@ -1359,12 +1359,12 @@
 			</rule>
 			<rule e="way" k="osmc_color" v="~">
 				<rule e="way" k="network" v="nwn">
-					<line stroke="#41e0d0" stroke-width="1.00" stroke-linecap="butt" dy="1.50" stroke-dasharray="5.00,30.0" /> <!--keep-gaps--> <!--color#6-->
+					<line stroke="#2bdccb" stroke-width="1.00" stroke-linecap="butt" dy="1.50" stroke-dasharray="5.00,30.0" /> <!--keep-gaps--> <!--color#6-->
 				</rule>
 			</rule>
 			<rule e="way" k="osmc_color" v="~">
 				<rule e="way" k="network" v="iwn">
-					<line stroke="#83ebe0" stroke-width="1.00" stroke-linecap="butt" dy="1.50" stroke-dasharray="0.00,5.00,15.00,5.00,5.00,5.0" /> <!--keep-gaps--> <!--color#5-->
+					<line stroke="#6de8da" stroke-width="1.00" stroke-linecap="butt" dy="1.50" stroke-dasharray="0.00,5.00,15.00,5.00,5.00,5.0" /> <!--keep-gaps--> <!--color#5-->
 				</rule>
 			</rule>
 			<rule e="way" k="osmc_color" v="green"> <line stroke="#00cd27" stroke-width="1.00" stroke-linecap="butt" dy="1.50" stroke-dasharray="0.00,15.00,5.00,10.00,5.00,0.0" /> <!--keep-gaps--> <!--color#2-->
@@ -1377,12 +1377,12 @@
 			</rule>
 			<rule e="way" k="osmc_color" v="~">
 				<rule e="way" k="network" v="iwn">
-					<line stroke="#83ebe0" stroke-width="1.00" stroke-linecap="butt" dy="1.50" stroke-dasharray="5.00,30.0" /> <!--keep-gaps--> <!--color#5-->
+					<line stroke="#6de8da" stroke-width="1.00" stroke-linecap="butt" dy="1.50" stroke-dasharray="5.00,30.0" /> <!--keep-gaps--> <!--color#5-->
 				</rule>
 			</rule>
 			<rule e="way" k="osmc_color" v="~">
 				<rule e="way" k="network" v="nwn">
-					<line stroke="#41e0d0" stroke-width="1.00" stroke-linecap="butt" dy="1.50" stroke-dasharray="0.00,5.00,10.00,20.0" /> <!--keep-gaps--> <!--color#6-->
+					<line stroke="#2bdccb" stroke-width="1.00" stroke-linecap="butt" dy="1.50" stroke-dasharray="0.00,5.00,10.00,20.0" /> <!--keep-gaps--> <!--color#6-->
 				</rule>
 			</rule>
 			<rule e="way" k="osmc_color" v="none"> <line stroke="#AAAAAA" stroke-width="1.00" stroke-linecap="butt" dy="1.50" stroke-dasharray="0.00,10.00,10.00,15.0" /> <!--keep-gaps--> <!--color#7-->
@@ -1399,12 +1399,12 @@
 			</rule>
 			<rule e="way" k="osmc_color" v="~">
 				<rule e="way" k="network" v="nwn">
-					<line stroke="#41e0d0" stroke-width="1.00" stroke-linecap="butt" dy="1.50" stroke-dasharray="0.00,25.00,5.00,5.0" /> <!--keep-gaps--> <!--color#6-->
+					<line stroke="#2bdccb" stroke-width="1.00" stroke-linecap="butt" dy="1.50" stroke-dasharray="0.00,25.00,5.00,5.0" /> <!--keep-gaps--> <!--color#6-->
 				</rule>
 			</rule>
 			<rule e="way" k="osmc_color" v="~">
 				<rule e="way" k="network" v="iwn">
-					<line stroke="#83ebe0" stroke-width="1.00" stroke-linecap="butt" dy="1.50" stroke-dasharray="0.00,20.00,5.00,10.0" /> <!--keep-gaps--> <!--color#5-->
+					<line stroke="#6de8da" stroke-width="1.00" stroke-linecap="butt" dy="1.50" stroke-dasharray="0.00,20.00,5.00,10.0" /> <!--keep-gaps--> <!--color#5-->
 				</rule>
 			</rule>
 			<rule e="way" k="osmc_color" v="orange"> <line stroke="#F96F00" stroke-width="1.00" stroke-linecap="butt" dy="1.50" stroke-dasharray="0.00,15.00,5.00,15.0" /> <!--keep-gaps--> <!--color#4-->
@@ -4429,6 +4429,9 @@
 		</rule>
 		<rule e="node" k="osmc_foreground" v="brown_pointer">
 			<symbol src="file:osmc-symbols/orange_brown_pointer.svg" symbol-scaling="size" symbol-width="25" symbol-height="25" priority="2" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="purple_pointer">
+			<symbol src="file:osmc-symbols/orange_purple_pointer.svg" symbol-scaling="size" symbol-width="25" symbol-height="25" priority="2" />
 		</rule>
 		<rule e="node" k="osmc_foreground" v="yellow_rectangle_line">
 			<symbol src="file:osmc-symbols/orange_yellow_rectangle_line.svg" symbol-scaling="size" symbol-width="25" symbol-height="25" priority="2" />
@@ -7558,6 +7561,9 @@
 		</rule>
 		<rule e="way" k="osmc_foreground" v="brown_pointer">
 			<lineSymbol src="file:osmc-symbols/orange_brown_pointer.svg" symbol-scaling="size" symbol-width="25" symbol-height="25" rotate="false" repeat-start="#" repeat-gap="#"  align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="purple_pointer">
+			<lineSymbol src="file:osmc-symbols/orange_purple_pointer.svg" symbol-scaling="size" symbol-width="25" symbol-height="25" rotate="false" repeat-start="#" repeat-gap="#"  align-center="false" repeat="true" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="yellow_rectangle_line">
 			<lineSymbol src="file:osmc-symbols/orange_yellow_rectangle_line.svg" symbol-scaling="size" symbol-width="25" symbol-height="25" rotate="false" repeat-start="#" repeat-gap="#"  align-center="false" repeat="true" />
