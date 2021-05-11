@@ -4843,6 +4843,13 @@ red-yellow-pointer:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+red-blue-pointer:
+  fill: "#1579e0"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 red-white-pointer:
   fill: "#ffffff"
   shield:

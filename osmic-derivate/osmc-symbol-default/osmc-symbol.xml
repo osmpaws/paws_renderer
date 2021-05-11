@@ -5370,6 +5370,12 @@
 		<rule e="node" k="osmc_foreground" v="yellow_pointer">
 			<symbol src="file:/osmc-symbols/red_yellow_pointer.png" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="blue_pointer">
+			<lineSymbol src="file:/osmc-symbols/red_blue_pointer.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="blue_pointer">
+			<symbol src="file:/osmc-symbols/red_blue_pointer.png" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="white_pointer">
 			<lineSymbol src="file:/osmc-symbols/red_white_pointer.png" align-center="false" repeat="true" />
 		</rule>

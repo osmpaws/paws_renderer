@@ -478,6 +478,7 @@ green:green-rectangle
 green:green_rectnagle
 green:green_round
 green:Guyer-Zeller-Weg
+green:GZW
 green_hexagon:green
 green:HF7
 green_hiker
@@ -1003,6 +1004,7 @@ Schwarzer
 Schwarz7_auf_gelbem_rechteck
 Schwarz8_auf_gelbem_rechteck
 silver_web
+SVT:black
 symbol
 symbol=black:black
 symbol=blue:blue
@@ -1661,6 +1663,7 @@ yellow_triangle
 :yellow_triangle_line
 yellow_triangle_turned
 yellow_triangle_turned:
+:yellow_turned_T
 yellow:V3
 yellow:WA
 yellow:white

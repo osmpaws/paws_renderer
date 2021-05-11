@@ -552,6 +552,7 @@ osmc-symbols/red-blue-backslash-14.svg
 osmc-symbols/red-blue-bar-14.svg
 osmc-symbols/red-blue-dot-14.svg
 osmc-symbols/red-blue-lower-14.svg
+osmc-symbols/red-blue-pointer-14.svg
 osmc-symbols/red-blue-right-14.svg
 osmc-symbols/red-blue-stripe-14.svg
 osmc-symbols/red-blue-triangle-14.svg
