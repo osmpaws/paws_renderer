@@ -3578,6 +3578,12 @@
 		<rule e="node" k="osmc_foreground" v="green_fork">
 			<symbol src="file:/osmc-symbols/blue_green_fork.png" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="white_fork">
+			<lineSymbol src="file:/osmc-symbols/blue_white_fork.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="white_fork">
+			<symbol src="file:/osmc-symbols/blue_white_fork.png" />
+		</rule>
 	</rule>
 	<rule e="way" k="osmc_background" v="blue_circle" zoom-min="15">
 	</rule>

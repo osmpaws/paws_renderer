@@ -4114,6 +4114,13 @@ blue-green-fork:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+blue-white-fork:
+  fill: "#ffffff"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 brown-round-white-fork:
   fill: "#ffffff"
   shield:

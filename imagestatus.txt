@@ -185,6 +185,7 @@ osmc-symbols/blue-white-cross-14.svg
 osmc-symbols/blue-white-diamond-line-14.svg
 osmc-symbols/blue-white-diamond-14.svg
 osmc-symbols/blue-white-dot-14.svg
+osmc-symbols/blue-white-fork-14.svg
 osmc-symbols/blue-white-hiker-14.svg
 osmc-symbols/blue-white-lower-14.svg
 osmc-symbols/blue-white-pointer-14.svg
