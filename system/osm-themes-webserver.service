@@ -1,0 +1,14 @@
+[Unit]
+Description=OSM@paws Local Themes server
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 webserver.py
+WorkingDirectory=/home/jans/osm/paws_renderer/themes_webserver
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+User=jans
+
+[Install]
+WantedBy=multi-user.target
