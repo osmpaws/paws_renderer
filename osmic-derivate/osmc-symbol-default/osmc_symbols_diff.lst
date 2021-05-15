@@ -76,6 +76,7 @@ black:E
 black:E8
 black_frame:
 black_frame:none
+black_frame:22
 black:GEO
 black:GLH
 black:green
@@ -712,6 +713,7 @@ orange_round
 orange_round:
 orange_round:black
 orange_round:pink_pointer
+orange_round:SVT
 orange_round:2
 orange_round:3
 orange_round:5
@@ -1197,6 +1199,7 @@ White:Green_bar
 white:green_bat
 white:green_bicycle
 white:green_blackslash
+white:green_C
 White:green_cross
 white:green_diamont
 white:green_drop
@@ -1409,6 +1412,7 @@ white_yellow_bar
 white:yellow_bar_Nefl
 white:yellow_baryellow
 white:yellow_bicycle
+white:yellow_C
 white:yellow_cicle
 white:yellow_cros
 white:yellow_diamand

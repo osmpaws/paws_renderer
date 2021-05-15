@@ -8106,6 +8106,12 @@
 		</rule>
 	</rule>
 	<rule e="way" k="osmc_background" v="red_round" zoom-min="15">
+		<rule e="way" k="osmc_foreground" v="black_turned_T">
+			<lineSymbol src="file:/osmc-symbols/red_round_black_turned_t.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="black_turned_T">
+			<symbol src="file:/osmc-symbols/red_round_black_turned_t.png" />
+		</rule>
 	</rule>
 	<rule e="way" k="osmc_background" v="white" zoom-min="15">
 		<rule e="way" k="osmc_foreground" v="red_turned_T">

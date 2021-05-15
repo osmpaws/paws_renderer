@@ -2,7 +2,7 @@
 <rendertheme xmlns="http://mapsforge.org/renderTheme" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://mapsforge.org/renderTheme https://raw.githubusercontent.com/mapsforge/mapsforge/dev/resources/renderTheme-v4.xsd" version="4" map-background-outside="#EEEEEE" map-background="#f8f8f8">
 	
-	<!--#r00106b00625#-->
+	<!--#r00109b00628#-->
 
 	<!--style#v4#setup-->
 <stylemenu id="r4menu" defaultvalue="default" defaultlang="en">
@@ -4949,6 +4949,9 @@
 		<rule e="node" k="osmc_foreground" v="red_triangle_line">
 			<symbol src="file:osmc-symbols/red_round_red_triangle_line.svg" symbol-scaling="size" symbol-width="28" symbol-height="28" priority="2" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="black_turned_T">
+			<symbol src="file:osmc-symbols/red_round_black_turned_t.svg" symbol-scaling="size" symbol-width="28" symbol-height="28" priority="2" />
+		</rule>
 	</rule>
 <!--OSMC symbols white_circle node background-->
 	<rule e="node" cat="hike_symbol_nodes" k="osmc_background" v="white_circle" zoom-min="15">
@@ -7861,6 +7864,9 @@
 		</rule>
 		<rule e="way" k="osmc_foreground" v="red_triangle_line">
 			<lineSymbol src="file:osmc-symbols/red_round_red_triangle_line.svg" symbol-scaling="size" symbol-width="28" symbol-height="28" rotate="false" repeat-start="#" repeat-gap="#"  align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="black_turned_T">
+			<lineSymbol src="file:osmc-symbols/red_round_black_turned_t.svg" symbol-scaling="size" symbol-width="28" symbol-height="28" rotate="false" repeat-start="#" repeat-gap="#"  align-center="false" repeat="true" />
 		</rule>
 	</rule>
 <!--OSMC symbols red background-->

@@ -7597,6 +7597,14 @@ red-frame-blue-turned-t:
     opacity: 0.0
     rounded: 2
     padding: 2
+red-round-black-turned-t:
+  fill: "#000000"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
 white-red-turned-t:
   fill: "#ff0000"
   shield:

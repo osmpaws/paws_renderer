@@ -36,4 +36,7 @@
 		<rule e="way" k="osmc_foreground" v="red_triangle_line">
 			<lineSymbol src="file:/osmc-symbols/red_round_red_triangle_line.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="black_turned_T">
+			<lineSymbol src="file:/osmc-symbols/red_round_black_turned_t.png" align-center="false" repeat="true" />
+		</rule>
 	</rule>
