@@ -75,6 +75,9 @@
 		<rule e="way" k="osmc_foreground" v="heart">
 			<lineSymbol src="file:/osmc-symbols/red_heart.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="yellow_hiker">
+			<lineSymbol src="file:/osmc-symbols/red_yellow_hiker.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="white_hiker">
 			<lineSymbol src="file:/osmc-symbols/red_white_hiker.png" align-center="false" repeat="true" />
 		</rule>

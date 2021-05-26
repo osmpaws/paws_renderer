@@ -288,6 +288,9 @@
 		<rule e="way" k="osmc_foreground" v="brown_hiker">
 			<lineSymbol src="file:/osmc-symbols/white_brown_hiker.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="purple_hiker">
+			<lineSymbol src="file:/osmc-symbols/white_purple_hiker.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="orange_hiker">
 			<lineSymbol src="file:/osmc-symbols/white_orange_hiker.png" align-center="false" repeat="true" />
 		</rule>

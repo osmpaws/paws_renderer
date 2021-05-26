@@ -2,7 +2,7 @@
 <rendertheme xmlns="http://mapsforge.org/renderTheme" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://mapsforge.org/renderTheme ../renderTheme.xsd" version="1" map-background="#f8f8f8">
 	
-	<!--#r00109b00628#-->
+	<!--#r00114b00634#-->
 
 	<!--style#v4#setup-->
 	
@@ -3368,6 +3368,9 @@
 		<rule e="way" k="osmc_foreground" v="black_hexagon">
 			<lineSymbol src="file:/osmc-symbols/green_black_hexagon.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="yellow_hiker">
+			<lineSymbol src="file:/osmc-symbols/green_yellow_hiker.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="white_hiker">
 			<lineSymbol src="file:/osmc-symbols/green_white_hiker.png" align-center="false" repeat="true" />
 		</rule>
@@ -3668,6 +3671,9 @@
 		<rule e="way" k="osmc_foreground" v="heart">
 			<lineSymbol src="file:/osmc-symbols/orange_heart.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="red_hiker">
+			<lineSymbol src="file:/osmc-symbols/orange_red_hiker.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="white_hiker">
 			<lineSymbol src="file:/osmc-symbols/orange_white_hiker.png" align-center="false" repeat="true" />
 		</rule>
@@ -3766,6 +3772,9 @@
 		</rule>
 		<rule e="way" k="osmc_foreground" v="yellow_dot">
 			<lineSymbol src="file:/osmc-symbols/purple_round_yellow_dot.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="white_pointer">
+			<lineSymbol src="file:/osmc-symbols/purple_round_white_pointer.png" align-center="false" repeat="true" />
 		</rule>
 	</rule>
 <!--OSMC symbols purple background-->
@@ -4075,6 +4084,9 @@
 		</rule>
 		<rule e="way" k="osmc_foreground" v="heart">
 			<lineSymbol src="file:/osmc-symbols/red_heart.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="yellow_hiker">
+			<lineSymbol src="file:/osmc-symbols/red_yellow_hiker.png" align-center="false" repeat="true" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="white_hiker">
 			<lineSymbol src="file:/osmc-symbols/red_white_hiker.png" align-center="false" repeat="true" />
@@ -4618,6 +4630,9 @@
 		</rule>
 		<rule e="way" k="osmc_foreground" v="brown_hiker">
 			<lineSymbol src="file:/osmc-symbols/white_brown_hiker.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="purple_hiker">
+			<lineSymbol src="file:/osmc-symbols/white_purple_hiker.png" align-center="false" repeat="true" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="orange_hiker">
 			<lineSymbol src="file:/osmc-symbols/white_orange_hiker.png" align-center="false" repeat="true" />

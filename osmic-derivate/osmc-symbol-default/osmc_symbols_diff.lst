@@ -471,9 +471,11 @@ green:F5
 green:G
 green:Glarus
 green:gray_arch
+green:gray_hiker
 green:green
 green:green_bachslash
 green:green_frame
+green;green_frame;;black
 green;green_frame;green_dot;black
 green:green-rectangle
 green:green_rectnagle
@@ -590,6 +592,9 @@ green:WLM
 green:WLP
 green:write_bar
 green:WWW
+green:W1
+green:W2
+green:W3
 green:W4
 green:w5
 green:W6
@@ -714,6 +719,7 @@ orange_round:
 orange_round:black
 orange_round:pink_pointer
 orange_round:SVT
+orange_round:text
 orange_round:2
 orange_round:3
 orange_round:5
@@ -1009,6 +1015,7 @@ silver_web
 SVT:black
 symbol
 symbol=black:black
+symbol=black:yellow_round
 symbol=blue:blue
 symbol=blue:blue_round
 symbol=blue_circle:

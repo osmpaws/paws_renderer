@@ -4430,6 +4430,13 @@ brown-hiker:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+green-yellow-hiker:
+  fill: "#ffdd00"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 green-white-hiker:
   fill: "#ffffff"
   shield:
@@ -4467,6 +4474,13 @@ green-frame-hiker:
     opacity: 0.0
     rounded: 2
     padding: 2
+orange-red-hiker:
+  fill: "#ff0000"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 orange-white-hiker:
   fill: "#ffffff"
   shield:
@@ -4507,6 +4521,13 @@ purple-hiker:
   fill: "#ffffff"
   shield:
     fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+red-yellow-hiker:
+  fill: "#ffdd00"
+  shield:
+    fill: "#ff0000"
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
@@ -4608,6 +4629,13 @@ white-black-hiker:
     padding: 1
 white-brown-hiker:
   fill: "#8b4513"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+white-purple-hiker:
+  fill: "#b878dd"
   shield:
     fill: "#ffffff"
     stroke_fill: "#000000"
@@ -5513,6 +5541,14 @@ purple-white-pointer:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+purple-round-white-pointer:
+  fill: "#ffffff"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
 red-yellow-pointer:
   fill: "#ffdd00"
   shield:
@@ -7597,6 +7633,14 @@ red-frame-blue-turned-t:
     opacity: 0.0
     rounded: 2
     padding: 2
+red-round-black-turned-t:
+  fill: "#000000"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
 white-red-turned-t:
   fill: "#ff0000"
   shield:
