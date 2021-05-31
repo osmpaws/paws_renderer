@@ -370,6 +370,7 @@ osmc-symbols/green-white-corner-14.svg
 osmc-symbols/green-white-diamond-line-14.svg
 osmc-symbols/green-white-diamond-14.svg
 osmc-symbols/green-white-dot-14.svg
+osmc-symbols/green-white-fork-14.svg
 osmc-symbols/green-white-hiker-14.svg
 osmc-symbols/green-white-lower-14.svg
 osmc-symbols/green-white-pointer-14.svg
