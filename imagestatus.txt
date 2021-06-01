@@ -147,6 +147,7 @@ osmc-symbols/blue-l-14.svg
 osmc-symbols/blue-mine-14.svg
 osmc-symbols/blue-orange-bar-14.svg
 osmc-symbols/blue-orange-bowl-14.svg
+osmc-symbols/blue-orange-hiker-14.svg
 osmc-symbols/blue-orange-lower-14.svg
 osmc-symbols/blue-orange-shell-modern-14.svg
 osmc-symbols/blue-rectangle-14.svg
@@ -301,6 +302,7 @@ osmc-symbols/green-blue-bar-14.svg
 osmc-symbols/green-blue-circle-14.svg
 osmc-symbols/green-blue-corner-14.svg
 osmc-symbols/green-blue-dot-14.svg
+osmc-symbols/green-blue-fork-14.svg
 osmc-symbols/green-blue-lower-14.svg
 osmc-symbols/green-blue-pointer-14.svg
 osmc-symbols/green-blue-rectangle-14.svg
