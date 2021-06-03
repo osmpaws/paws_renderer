@@ -4129,6 +4129,13 @@ brown-round-white-fork:
     stroke_width: 1
     padding: 2
     rounded: 10
+green-blue-fork:
+  fill: "#1579e0"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 green-white-fork:
   fill: "#ffffff"
   shield:
@@ -4365,6 +4372,13 @@ blue-white-hiker:
     padding: 1
 blue-black-hiker:
   fill: "#000000"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+blue-orange-hiker:
+  fill: "#f96f00"
   shield:
     fill: "#1579e0"
     stroke_fill: "#000000"

@@ -1204,6 +1204,7 @@ white:green_bacjslash
 white:green_backshlash
 white:green_bacslash
 White:Green_bar
+white:green_bar;green
 white:green_bat
 white:green_bicycle
 white:green_blackslash
@@ -1323,6 +1324,8 @@ white:red_green_bar
 white:red_house
 white:red_chapel
 white:red_peak
+white:red_pointer;green
+white:red_pointer;red
 white:red_polish_underground
 white:red_rectangle;
 white:red_round
