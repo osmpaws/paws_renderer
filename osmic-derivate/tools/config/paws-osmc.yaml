@@ -3687,6 +3687,14 @@ purple-black-dot:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+purple-circle-green-dot:
+  fill: "#00cd27"
+  shield:
+    stroke_fill: "#b878dd"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 10
+    padding: 2
 purple-round-yellow-dot:
   fill: "#ffdd00"
   shield:

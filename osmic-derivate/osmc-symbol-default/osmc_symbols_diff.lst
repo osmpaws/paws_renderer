@@ -74,9 +74,11 @@ black_diamond:white_diamond
 black_dot
 black:E
 black:E8
+black:FBW
 black_frame:
 black_frame:none
 black_frame:22
+black:G
 black:GEO
 black:GLH
 black:green
@@ -85,6 +87,7 @@ black:grey_bar
 black:GRG
 black:G1
 black_hiker
+black:HP
 black:HT
 black:HW
 black:H0
@@ -101,8 +104,10 @@ black:H8
 black:H9
 black:J
 black:KKS
+black:Kv
 black:KwR
 black:M
+black:MBS
 black:N
 black:NaEr
 black:none
@@ -111,6 +116,7 @@ black:pink_hiker
 :black_pointer
 black_pointer
 black_pointer_line:K
+black:PVL
 black:PW
 black_round:
 black_round:white
@@ -119,6 +125,8 @@ black:S
 black:SH
 black:SKH
 black:Sli_square
+black:SP
+black:SSW
 black:ST
 :black_stripe
 black_triangle_turned:
@@ -289,6 +297,7 @@ blue:SlR
 blue:STK
 :blue_stripe
 blue_stripe
+blue:T
 :blue_triangle
 blue_triangle:
 :blue_triangle_line
@@ -297,6 +306,7 @@ blue_triangle_line:9
 blue_triangle_turned
 blue_triangle_turned:
 blue:TWR
+blue:V
 blue:V5
 blue:W
 blue:WA
@@ -354,6 +364,7 @@ brown:PL
 :brown_pointer
 brown:RKr
 brown_round
+brown:RR03
 :brown_signpost
 brown:SNP
 brown:V1
@@ -380,6 +391,7 @@ cyan:AA
 cyan_dot
 cyan:green_dot
 cyan_stripe
+cyan:white_hexagon
 darkblue
 #ddb287:
 deepskyblue:white_circle
@@ -493,6 +505,7 @@ green:h4
 green:IRA
 green:Jakob-Stutz-Weg
 green:jellow_dot
+green:JVH
 green:Karstspur
 green:KBP
 green:KVO
@@ -646,6 +659,7 @@ lightblue:black_dot
 lightblue_diamond:blue_dot
 lightblue:red_dot
 lightblue_stripe
+light_blue:white_stripe
 lightbrown:blue_dot
 lightbrown:red_dot
 lightgreen
@@ -688,6 +702,7 @@ orange:A3
 orange_bar
 orange:black
 orange:BUN
+orange:BV
 orange_circle
 orange_circle:
 orange:CL
@@ -733,6 +748,7 @@ orange:SL5
 :orange_triangle
 orange_triangle
 :orange_triangle_turned
+orange:V
 orange:white
 orange_white_orange_arch
 orange:white_upper
@@ -948,6 +964,7 @@ red:T
 red_triangle
 red_triangle:
 red:up
+red:V
 red:V4
 red:W
 red:WE
@@ -1346,6 +1363,7 @@ white_round:
 white_round:bird
 white_round:black
 white_round:blu_dot
+white_round:none
 white_round:wp
 white_round:1
 white_round:3
@@ -1726,6 +1744,7 @@ yellow:8
 yellow:80
 yellw_round:
 yeloow:yeloow_bar
+Z:black
 Z0:black
 Z00:black
 #0c7570:white_arrow
