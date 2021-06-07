@@ -100,6 +100,7 @@ osmc-symbols/black-yellow-dot-14.svg
 osmc-symbols/black-yellow-hiker-14.svg
 osmc-symbols/black-yellow-lower-14.svg
 osmc-symbols/black-yellow-pointer-14.svg
+osmc-symbols/black-yellow-rectangle-line-14.svg
 osmc-symbols/black-yellow-triangle-14.svg
 osmc-symbols/blue-black-arch-14.svg
 osmc-symbols/blue-black-bar-14.svg

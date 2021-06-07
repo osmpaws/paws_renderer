@@ -73,10 +73,12 @@ black_diamond:white_diamond
 :black_dot
 black_dot
 black:E
+black:ET
 black:E8
 black:FBW
 black_frame:
 black_frame:none
+black_frame:SC03
 black_frame:22
 black:G
 black:GEO
@@ -86,6 +88,7 @@ black:green_low
 black:grey_bar
 black:GRG
 black:G1
+black:H
 black_hiker
 black:HP
 black:HT
@@ -131,6 +134,7 @@ black:ST
 :black_stripe
 black_triangle_turned:
 black:U
+black:W
 black:WFP
 black:whie_diamond_line
 black:white
@@ -177,6 +181,7 @@ blue_bar:green_lower
 blue_bar:RBW
 blue:Ba1
 blue:blue
+blue:blue_arrow
 blue:blue_frame
 blueblue:GRW
 blue:blue_recangle
@@ -643,6 +648,7 @@ grey:none
 grey:red_dot
 grey:white_bar
 grreen
+GT:white
 heart
 :HF7
 :hiker
@@ -1505,6 +1511,7 @@ withe:blue_bar
 withe:M
 withe:orange_diamond
 withe:red_diamond
+withe:yellow_backslash
 withe:yellow_bar
 withe:yellow_lower
 with:yellow_bar

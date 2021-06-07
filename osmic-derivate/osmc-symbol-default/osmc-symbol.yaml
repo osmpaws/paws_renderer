@@ -5135,6 +5135,13 @@ none-white-pointer:
     fill: "#ffffff"
     opacity: 0.0
     padding: 1
+black-yellow-rectangle-line:
+  fill: "#ffdd00"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 black-white-rectangle-line:
   fill: "#ffffff"
   shield:
