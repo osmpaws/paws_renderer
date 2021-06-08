@@ -295,6 +295,11 @@ done
 
 sort -t'"' -k2,4 -u -o $tagrules $tagrules
 
+cat $tagrules > tm_temp.xml
+echo "" >> tm_temp.xml
+cat $tagrules >> tm_temp.xml
+mv tm_temp.xml $tagrules
+
 sort $possiblesymbols -o $possiblesymbols
 comm -23 $actualsymbols $possiblesymbols > $diffsymbols
 

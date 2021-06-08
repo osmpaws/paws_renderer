@@ -1,23 +1,32 @@
 <stylemenu id="r4menu" defaultvalue="default" defaultlang="en">
 
 	<layer id="l_osmc_lines" enabled="true">
-		<name lang="cs" value="TZT - linie" />
-		<name lang="en" value="Waymarked Trails" />
+		<name lang="cs" value="TZT - jedna linie" />
+		<name lang="en" value="Waymarked Trails - one line" />
 		<cat id="osmc_lines" />
 	</layer>
+	<layer id="l_osmc_lines_stacked" enabled="false">
+		<name lang="cs" value="TZT - násobná linie" />
+		<name lang="en" value="Waymarked Trails - multi-line" />
+		<cat id="osmc_lines_stacked" />
+	</layer>
 	<layer id="l_hike_symbol_lines" parent="l_osmc_lines" enabled="false">
-		<name lang="cs" value="TZT - značky (podél linie)" />
+		<name lang="cs" value="TZT - značky na cestě" />
 		<name lang="en" value="Waymarked Trails (line symbols)" />
 		<cat id="hike_lines" />
 		<cat id="hike_symbol_lines" />
-		<cat id="hike_lines" />
 	</layer>
 	<layer id="l_hike_symbol_nodes" parent="l_osmc_lines" enabled="true">
-		<name lang="cs" value="TZT - značky (vedle linie)" />
+		<name lang="cs" value="TZT - značky vedle cesty" />
 		<name lang="en" value="Waymarked Trails (node symbols)" />
 		<cat id="hike_lines" />
 		<cat id="hike_symbol_nodes" />
+	</layer>
+	<layer id="l_hike_symbol_nodes" parent="l_osmc_lines_stacked" enabled="false">
+		<name lang="cs" value="TZT - multilinie" />
+		<name lang="en" value="Waymarked Trails (node symbols, multiline)" />
 		<cat id="hike_lines" />
+		<cat id="hike_symbol_nodes" />
 	</layer>
 	<layer id="l_horse_lines" parent="l_osmc_lines" enabled="false">
 		<name lang="cs" value="Koňské trasy" />
