@@ -22,7 +22,7 @@
 		<cat id="hike_lines" />
 		<cat id="hike_symbol_nodes" />
 	</layer>
-	<layer id="l_hike_symbol_nodes" parent="l_osmc_lines_stacked" enabled="false">
+	<layer id="l_hike_symbol_nodes_stacked" parent="l_osmc_lines_stacked" enabled="false">
 		<name lang="cs" value="TZT - multilinie" />
 		<name lang="en" value="Waymarked Trails (node symbols, multiline)" />
 		<cat id="hike_lines" />
@@ -128,6 +128,7 @@
 		<!--overlay id="l_hike_lines" /-->
 		<overlay id="l_hike_symbol_lines" />
 		<overlay id="l_hike_symbol_nodes" />
+		<overlay id="l_hike_symbol_nodes_stacked" />
 		<overlay id="l_sac_scale" />
 		<overlay id="l_guidepost" />
 		<overlay id="l_bike_beads" />
