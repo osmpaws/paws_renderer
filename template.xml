@@ -2,7 +2,7 @@
 <rendertheme xmlns="http://mapsforge.org/renderTheme" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://mapsforge.org/renderTheme ../renderTheme.xsd" version="1" map-background="#f8f8f8">
 	
-	<!--#r00125b00649#-->
+	<!--#r00126b00653#-->
 
 	<!--style#v4#setup-->
 	
@@ -950,6 +950,8 @@
 			<area fill="#f3e6c6" stroke="#6a5a8e" stroke-width="0.10" />
 			<rule e="way" k="*" v="*" zoom-min="17">
 				<caption k="name" dy="-30.00" font-style="bold" font-size="17.00" fill="#4040ff" stroke="#ffffff" stroke-width="2.00" />
+				<!--house#numbers-->
+
 				<caption k="addr:housenumber" font-style="bold" font-size="14.00" fill="#606060" stroke="#ffffff" stroke-width="2.00" />
 			</rule>
 		</rule>
@@ -2009,6 +2011,7 @@
 		
 		<!-- house numbers -->
 		<rule e="node" k="addr:housenumber" v="*" zoom-min="18">
+			<!--house#numbers#nodes-->
 			<rule e="node" k="shop|tourism|amenity" v="~" zoom-min="17">
 				<caption k="addr:housenumber" font-style="bold" font-size="17.00" fill="#606060" stroke="#ffffff" stroke-width="2.00" />
 			</rule>
