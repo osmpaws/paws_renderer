@@ -113,6 +113,11 @@
 		<name lang="en" value="Contour lines" />
 		<cat id="contour_lines" />
 	</layer>
+	<layer id="l_house_numbers" enabled="false">
+		<name lang="cs" value="Domovní čísla" />
+		<name lang="en" value="House numbers" />
+		<cat id="house_numbers" />
+	</layer>
 	
 	<layer id="l_mapper" enabled="false">
 		<name lang="cs" value="Pro přispěvatele OSM" />
@@ -141,6 +146,7 @@
 		<overlay id="l_piste_downhill" />
 		<overlay id="l_national_park_pattern" />
 		<overlay id="l_contour_lines" />
+		<overlay id="l_house_numbers" />
 		<overlay id="l_not_car" />
 	</layer>
 	<layer id="bicycle" visible="true">
@@ -155,17 +161,20 @@
 		<overlay id="l_national_park_pattern" />
 		<overlay id="l_contour_lines" />
 		<overlay id="l_guidepost_bike_mode" />
+		<overlay id="l_house_numbers" />
 		<overlay id="l_not_car" />
 	</layer>
 	<layer id="car" visible="true">
 		<name lang="cs" value="Auto" />
 		<name lang="en" value="Car" />
 		<overlay id="l_car" />
+		<overlay id="l_house_numbers" />
 	</layer>
 	<layer id="osm" visible="true">
 		<name lang="cs" value="OSM vrstvy" />
 		<name lang="en" value="OSM layers" />
 		<overlay id="l_mapper" />
+		<overlay id="l_house_numbers" />
 		<overlay id="l_not_car" />
 	</layer>
 </stylemenu>

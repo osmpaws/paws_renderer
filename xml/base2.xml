@@ -554,7 +554,7 @@
 			<area fill="#f3e6c6" stroke="#6a5a8e" stroke-width="0.07" />
 			<rule e="way" k="*" v="*" zoom-min="17">
 				<caption k="name" dy="-30.0" font-style="bold" font-size="17" fill="#4040ff" stroke="#ffffff" stroke-width="2.0" />
-				<caption k="addr:housenumber" font-style="bold" font-size="14" fill="#606060" stroke="#ffffff" stroke-width="2.0" />
+				<!--house#numbers-->
 			</rule>
 		</rule>
 		
@@ -930,12 +930,7 @@
 		
 		<!-- house numbers -->
 		<rule e="node" k="addr:housenumber" v="*" zoom-min="18">
-			<rule e="node" k="shop|tourism|amenity" v="~" zoom-min="17">
-				<caption k="addr:housenumber" font-style="bold" font-size="17" fill="#606060" stroke="#ffffff" stroke-width="2.0" />
-			</rule>
-			<rule e="node" k="shop|tourism|amenity" v="*" zoom-min="17">
-				<caption k="addr:housenumber" dy="35" font-style="bold" font-size="17" fill="#606060" stroke="#ffffff" stroke-width="2.0" />
-			</rule>
+			<!--house#numbers#nodes-->
 		</rule>
 
 		<!-- leisure -->

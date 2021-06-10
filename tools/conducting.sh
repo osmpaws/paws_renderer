@@ -350,6 +350,8 @@ do
 		       -e "/<!--#railway#no#tunnel#-->/r $root/xml/railway-4.xml" \
 		       -e "/<!--nature#reserve-->/r $root/xml/nature-reserve-4.xml" \
 		       -e "/<!--protected#area-->/r $root/xml/protected-area-4.xml" \
+		       -e "/<!--house#numbers-->/r $root/xml/house-numbers-4.xml" \
+		       -e "/<!--house#numbers#nodes-->/r $root/xml/house-numbers-nodes-4.xml" \
 		       -e "s/<!--#version#-->/<!--#r${releasestr}b${buildstr}#-->/" $root/xml/$tempxml
 	else
 		if [ $month -ge 12 ] || [ $month -le 3 ]; then
@@ -374,6 +376,8 @@ do
 		       -e "/<!--#railway#no#tunnel#-->/r $root/xml/railway.xml" \
 		       -e "/<!--nature#reserve-->/r $root/xml/nature-reserve.xml" \
 		       -e "/<!--protected#area-->/r $root/xml/protected-area.xml" \
+		       -e "/<!--house#numbers-->/r $root/xml/house-numbers.xml" \
+		       -e "/<!--house#numbers#nodes-->/r $root/xml/house-numbers-nodes.xml" \
 		       -e "s/<!--#version#-->/<!--#r${releasestr}b${buildstr}#-->/" $root/xml/$tempxml
 	fi
 	

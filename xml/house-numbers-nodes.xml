@@ -1,0 +1,6 @@
+			<rule e="node" k="shop|tourism|amenity" v="~" zoom-min="17">
+				<caption k="addr:housenumber" font-style="bold" font-size="17.00" fill="#606060" stroke="#ffffff" stroke-width="2.00" />
+			</rule>
+			<rule e="node" k="shop|tourism|amenity" v="*" zoom-min="17">
+				<caption k="addr:housenumber" dy="35.00" font-style="bold" font-size="17.00" fill="#606060" stroke="#ffffff" stroke-width="2.00" />
+			</rule>
