@@ -3,6 +3,9 @@
 			<rule e="way" k="landuse" v="residential">
 				<area fill="#e4e4e4" />
 			</rule>
+			<rule e="way" k="landuse" v="education">
+				<area fill="#cdabde" stroke="#e9dd72" stroke-width="0.3" />
+			</rule>
 			<rule e="way" k="landuse" v="retail">
 				<area fill="#ffebeb" stroke="#e4e4e4" stroke-width="0.3" />
 			</rule>
@@ -67,6 +70,9 @@
 		<rule cat="car_mode" e="way" k="landuse" v="*" zoom-min="16">
 			<rule e="way" k="landuse" v="residential">
 				<area fill="#e4e4e4" />
+			</rule>
+			<rule e="way" k="landuse" v="education">
+				<area fill="#cdabde" stroke="#e9dd72" stroke-width="0.3" />
 			</rule>
 			<rule e="way" k="landuse" v="retail">
 				<area fill="#ffebeb" stroke="#e4e4e4" stroke-width="0.3" />

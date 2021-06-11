@@ -7,9 +7,6 @@
 					</rule>
 					<rule cat="not_car_mode" e="way" k="highway" v="footway" zoom-min="13">
 						<line stroke="#dddddd" stroke-width="0.9" />
-						<rule e="way" k="bicycle" v="designated|yes|permissive|official">
-							<line stroke="#FFAAFF" stroke-width="0.5" />
-						</rule>
 						<rule e="way" k="highway" v="footway" zoom-min="13" zoom-max="17">
 							<rule e="way" k="trail_visibility" v="excellent|~">
 								<line stroke="#959072" stroke-width="0.6" stroke-linecap="butt" />
@@ -50,15 +47,15 @@
 								<line stroke="#2d959072" stroke-width="0.6" stroke-linecap="butt" />
 							</rule>
 						</rule>
+						<rule e="way" k="bicycle" v="designated|yes|permissive|official">
+							<line stroke="#FFAAFF" stroke-width="0.15" />
+						</rule>
 						<rule e="way" k="*" v="*" zoom-min="15">
 							<pathText k="name" font-style="bold" font-size="17" stroke="#e5e0c2" stroke-width="2.0" />
 						</rule>
 					</rule>
 					<rule cat="not_car_mode" e="way" k="highway" v="path" zoom-min="13">
 						<line stroke="#ffffff" stroke-width="0.9" />
-						<rule e="way" k="bicycle" v="designated|yes|permissive|official">
-							<line stroke="#FFAAFF" stroke-width="0.5" />
-						</rule>
 						<rule e="way" k="highway" v="path" zoom-min="13" zoom-max="17">
 							<rule e="way" k="trail_visibility" v="excellent|~">
 								<line stroke="#909090" stroke-width="0.6" stroke-linecap="butt" />
@@ -98,6 +95,9 @@
 							<rule e="way" k="trail_visibility" v="no">
 								<line stroke="#2d909090" stroke-width="0.6" stroke-linecap="butt" />
 							</rule>
+						</rule>
+						<rule e="way" k="bicycle" v="designated|yes|permissive|official">
+							<line stroke="#FFAAFF" stroke-width="0.15" />
 						</rule>
 						<rule e="way" k="*" v="*" zoom-min="15">
 							<pathText k="name" font-style="bold" font-size="17" stroke="#d0d0d0" stroke-width="2.0" />
