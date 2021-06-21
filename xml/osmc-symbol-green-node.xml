@@ -201,6 +201,9 @@
 		<rule e="node" k="osmc_foreground" v="red_stripe">
 			<symbol src="file:/osmc-symbols/green_red_stripe.png" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="yellow_stripe">
+			<symbol src="file:/osmc-symbols/green_yellow_stripe.png" />
+		</rule>
 		<rule e="node" k="osmc_foreground" v="blue_stripe">
 			<symbol src="file:/osmc-symbols/green_blue_stripe.png" />
 		</rule>

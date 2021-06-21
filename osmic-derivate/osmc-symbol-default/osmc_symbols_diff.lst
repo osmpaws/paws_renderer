@@ -447,6 +447,8 @@ green:black
 green:black_bike
 green:blue
 green:BuWi
+green:BX
+green:BX02
 :green_circle
 green_circle
 green_circle:
@@ -456,6 +458,9 @@ green_circle:green_horse
 green_circle:M1
 green_circle:M3
 green_circle:M4
+green_circle:1
+green_circle:2
+green_circle:3
 green:CN
 :green_corner
 green_corner
@@ -1056,6 +1061,7 @@ symbol=red
 symbol=red:black
 symbol=red:red
 symbol=red:red_round
+symbol=[red:white
 symbol=red:white
 symbol=white:blue_dot
 symbol=yellow:white
@@ -1175,6 +1181,7 @@ white:B6
 white_circle
 white_circle:
 white_circle:A4
+white_circle:black
 white_circle:Ha3
 white_circle:N
 white_circle:none
@@ -1290,6 +1297,7 @@ white:L17
 white:L18
 white:L19
 white:M
+white:mauve_cross
 white:MB
 white:MDR
 white:mtb
