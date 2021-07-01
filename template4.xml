@@ -2,7 +2,7 @@
 <rendertheme xmlns="http://mapsforge.org/renderTheme" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://mapsforge.org/renderTheme https://raw.githubusercontent.com/mapsforge/mapsforge/dev/resources/renderTheme-v4.xsd" version="4" map-background-outside="#EEEEEE" map-background="#f8f8f8">
 	
-	<!--#r00133b00662#-->
+	<!--#r00137b00666#-->
 
 	<!--style#v4#setup-->
 <stylemenu id="r4menu" defaultvalue="default" defaultlang="en">
@@ -5844,6 +5844,9 @@
 		<rule e="node" k="osmc_foreground" v="yellow_shell_modern">
 			<symbol src="file:osmc-symbols/white_yellow_shell_modern.svg" symbol-scaling="size" symbol-width="25" symbol-height="25" priority="2" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="red_shell">
+			<symbol src="file:osmc-symbols/white_red_shell.svg" symbol-scaling="size" symbol-width="25" symbol-height="25" priority="2" />
+		</rule>
 		<rule e="node" k="osmc_foreground" v="shell">
 			<symbol src="file:osmc-symbols/white_shell.svg" symbol-scaling="size" symbol-width="25" symbol-height="25" priority="2" />
 		</rule>
@@ -9083,6 +9086,9 @@
 		</rule>
 		<rule e="way" k="osmc_foreground" v="yellow_shell_modern">
 			<lineSymbol src="file:osmc-symbols/white_yellow_shell_modern.svg" symbol-scaling="size" symbol-width="25" symbol-height="25" rotate="false" repeat-start="#" repeat-gap="#"  align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="red_shell">
+			<lineSymbol src="file:osmc-symbols/white_red_shell.svg" symbol-scaling="size" symbol-width="25" symbol-height="25" rotate="false" repeat-start="#" repeat-gap="#"  align-center="false" repeat="true" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="shell">
 			<lineSymbol src="file:osmc-symbols/white_shell.svg" symbol-scaling="size" symbol-width="25" symbol-height="25" rotate="false" repeat-start="#" repeat-gap="#"  align-center="false" repeat="true" />

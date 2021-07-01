@@ -75,6 +75,7 @@ black_dot
 black:E
 black:ET
 black:E8
+black:F
 black:FBW
 black_frame:
 black_frame:none
@@ -161,6 +162,7 @@ black:22
 black:3
 black:&#34;~&#34;
 black:5
+black:5A
 black:&#60;6&#62;
 blau-gelb-blau
 blau:schwarz
@@ -200,6 +202,7 @@ blue_circle:L9
 bluecircle:Nellele-Rundweg
 blue_circle:17
 blue_cross
+blue:D
 blue:DHB
 :blue_diamond
 blue_diamond
@@ -237,6 +240,7 @@ blue_hiker
 blue:HW
 blue:H10
 blue:H5
+blue:I
 blue:ICT
 blue:KARA
 blue:KLW
@@ -255,6 +259,7 @@ blue:NHS
 blue:NLS
 blue:NNk
 blue:none
+blue:none_bar
 blue:NSS
 blue:NTW
 blue:orange
@@ -336,6 +341,7 @@ blue:3KM
 blue:3.9
 blue:★4
 blue:4
+blue:6
 blue:80
 blue:9
 blu:red_bar
@@ -359,6 +365,7 @@ brown_circle:
 :brown_diamond
 brown_dot:
 brown:EA
+brown_frame:
 brown:F1
 brown:G
 :brown_hiker
@@ -504,6 +511,7 @@ green:green_rectnagle
 green:green_round
 green:Guyer-Zeller-Weg
 green:GZW
+green:H
 green_hexagon:green
 green:HF7
 green_hiker
@@ -709,6 +717,7 @@ orange_arrow
 orange:A1
 orange:A2
 orange:A3
+orange:B
 :orange_bar
 orange_bar
 orange:black
@@ -769,12 +778,14 @@ orange:WWW
 orange:1
 orange:&#127;&#127;A2
 orange:15
+orange:3
 orange:6
 orang:none
 pink
 :pink_bar
 pink:black_dot
 pink_diamond
+pink:G
 pink:red_dot
 pink:red_lower
 pink:white_stripe
@@ -785,6 +796,7 @@ purple
 purple:
 purple:*
 purple:-
+purple:A
 purple:Archeo
 purple:A1
 purple:A10
@@ -852,6 +864,7 @@ red:BTT
 red:B1
 red:B2
 red:B3
+red:C
 red:CFL
 :red_circle
 red_circle
@@ -1092,6 +1105,7 @@ wheite:green_dot
 whihe:blue_cross
 whiite:blue_diamond
 whiite:grey_pointer
+whiite:red_pointer
 whit
 whit:black_cross
 :white
@@ -1357,6 +1371,7 @@ white:red_green_bar
 white:red_house
 white:red_chapel
 white:red_peak
+white;red_pointer
 white:red_pointer;green
 white:red_pointer;red
 white:red_polish_underground
@@ -1607,6 +1622,7 @@ yellow_dot:yellow_bar_pointer
 yellow_dot:yellow_dot
 yellow_dot:1
 :yellow_dyamond
+yellow:E
 yellow:END
 yellow:FR
 yellow_frame:

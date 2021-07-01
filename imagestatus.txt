@@ -823,6 +823,7 @@ osmc-symbols/white-red-pointer-14.svg
 osmc-symbols/white-red-rectangle-line-14.svg
 osmc-symbols/white-red-rectangle-14.svg
 osmc-symbols/white-red-right-14.svg
+osmc-symbols/white-red-shell-14.svg
 osmc-symbols/white-red-slash-14.svg
 osmc-symbols/white-red-stripe-14.svg
 osmc-symbols/white-red-tower-14.svg
