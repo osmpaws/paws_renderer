@@ -449,6 +449,7 @@ osmc-symbols/orange-red-bar-14.svg
 osmc-symbols/orange-red-dot-14.svg
 osmc-symbols/orange-red-hiker-14.svg
 osmc-symbols/orange-red-lower-14.svg
+osmc-symbols/orange-red-right-14.svg
 osmc-symbols/orange-red-stripe-14.svg
 osmc-symbols/orange-round-blue-pointer-14.svg
 osmc-symbols/orange-round-brown-pointer-14.svg
