@@ -6917,6 +6917,13 @@ yellow-frame-yellow-stripe:
     opacity: 0.0
     rounded: 2
     padding: 2
+black-tower:
+  fill: "#ffffff"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 blue-tower:
   fill: "#ffffff"
   shield:

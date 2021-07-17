@@ -201,6 +201,9 @@
 		<rule e="node" k="osmc_foreground" v="white_stripe">
 			<symbol src="file:/osmc-symbols/black_white_stripe.png" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="tower">
+			<symbol src="file:/osmc-symbols/black_tower.png" />
+		</rule>
 		<rule e="node" k="osmc_foreground" v="white_triangle_line">
 			<symbol src="file:/osmc-symbols/black_white_triangle_line.png" />
 		</rule>

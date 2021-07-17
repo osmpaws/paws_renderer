@@ -786,6 +786,7 @@ pink
 pink:black_dot
 pink_diamond
 pink:G
+pink_hiker
 pink:red_dot
 pink:red_lower
 pink:white_stripe
@@ -1150,6 +1151,7 @@ white:black_rider
 white:black_T
 white:black_&#62;
 white:blau_bar
+white:blck_pointer
 white:bliue_hiker
 white:blue
 white:blue_backlash
@@ -1334,6 +1336,7 @@ white:P
 white:papillon
 white:pink_bar
 white:pink_dot
+white:pink_pointer
 white:pink_stripe
 :white_pointer
 white_pointer
