@@ -958,6 +958,7 @@ osmc-symbols/yellow-green-corner-14.svg
 osmc-symbols/yellow-green-diamond-line-14.svg
 osmc-symbols/yellow-green-diamond-14.svg
 osmc-symbols/yellow-green-dot-14.svg
+osmc-symbols/yellow-green-hiker-14.svg
 osmc-symbols/yellow-green-lower-14.svg
 osmc-symbols/yellow-green-pointer-14.svg
 osmc-symbols/yellow-green-rectangle-14.svg

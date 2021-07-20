@@ -1,5 +1,6 @@
 
 *
+."
 :
 :^
 ="
@@ -1142,6 +1143,7 @@ white:black_bicycle
 white:black_bike
 white:black_circle_large
 white_black_diamond
+white:black_dot_yellow_circle
 white:black_drop_line
 white:black_frame
 white:black_horse
