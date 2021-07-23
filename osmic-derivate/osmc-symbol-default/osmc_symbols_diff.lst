@@ -766,6 +766,7 @@ orange:SL2
 orange:SL3
 orange:SL4
 orange:SL5
+orange_square
 :orange_stripe
 :orange_triangle
 orange_triangle
@@ -1266,6 +1267,7 @@ white:green_drop_line
 white:green_foot
 white:green_frame
 white:green_green_backslash
+white:green_house
 white:green_chapel
 white:green_leaf
 white:green_oak_leaf
