@@ -305,6 +305,7 @@ blue:S
 blue:SHK
 blue:SKT
 blue:SlR
+blue:SLR
 blue:STK
 :blue_stripe
 blue_stripe
@@ -460,6 +461,7 @@ green:BX02
 :green_circle
 green_circle
 green_circle:
+green_circle;
 green_circle:A1
 green_circle:black
 green_circle:green_horse
@@ -912,6 +914,7 @@ red:GBD
 red:gold
 red:Gouw
 red:gray_stripe
+red:green
 red;green_frame;red_dot;black
 red:GT
 red:GWP
@@ -930,6 +933,7 @@ red:Lus
 red:Lus2
 red:Lus4
 red:L11
+red:MAR
 red:MMR
 red:mtb
 red:M1
@@ -1236,6 +1240,7 @@ white:EBM
 whitee:green_backslash
 white:EW
 white:E4
+white:E8
 white:F
 white:face
 white:FBS
@@ -1287,6 +1292,7 @@ white:gren_dot
 white:grey
 white:grey_backslash
 white:grey_circle
+white:grey_lower
 white:grey_pointer
 white:GRR
 white:grren_bar
@@ -1597,6 +1603,7 @@ yellow_circle:P20
 yellow_circle:P4
 yellow_circle:P6
 yellow_circle:P9
+yellow_circle:Z
 yellow_circle:1
 yellow_circle:2
 yellow_circle:3

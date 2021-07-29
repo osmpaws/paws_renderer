@@ -996,6 +996,7 @@ osmc-symbols/yellow-round-black-circle-14.svg
 osmc-symbols/yellow-round-green-bowl-14.svg
 osmc-symbols/yellow-round-green-circle-14.svg
 osmc-symbols/yellow-round-green-dot-14.svg
+osmc-symbols/yellow-round-white-stripe-14.svg
 osmc-symbols/yellow-round-yellow-dot-14.svg
 osmc-symbols/yellow-shell-14.svg
 osmc-symbols/yellow-tower-14.svg

@@ -7166,6 +7166,12 @@
 		</rule>
 	</rule>
 	<rule e="way" k="osmc_background" v="yellow_round" zoom-min="15">
+		<rule e="way" k="osmc_foreground" v="white_stripe">
+			<lineSymbol src="file:/osmc-symbols/yellow_round_white_stripe.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="white_stripe">
+			<symbol src="file:/osmc-symbols/yellow_round_white_stripe.png" />
+		</rule>
 	</rule>
 	<rule e="way" k="osmc_background" v="none" zoom-min="15">
 	</rule>
