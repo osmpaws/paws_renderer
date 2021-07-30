@@ -343,6 +343,7 @@ osmc-symbols/green-orange-arch-14.svg
 osmc-symbols/green-orange-pointer-14.svg
 osmc-symbols/green-purple-circle-14.svg
 osmc-symbols/green-purple-pointer-14.svg
+osmc-symbols/green-rectangle-14.svg
 osmc-symbols/green-red-bar-14.svg
 osmc-symbols/green-red-corner-14.svg
 osmc-symbols/green-red-cross-14.svg

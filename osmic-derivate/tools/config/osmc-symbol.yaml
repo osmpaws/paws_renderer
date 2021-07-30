@@ -5436,6 +5436,13 @@ green-black-rectangle:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+green-rectangle:
+  fill: "#ffffff"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 green-frame-yellow-rectangle:
   fill: "#ffdd00"
   shield:
