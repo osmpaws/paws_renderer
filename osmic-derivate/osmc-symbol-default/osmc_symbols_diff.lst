@@ -455,6 +455,7 @@ green:BH
 green:black
 green:black_bike
 green:blue
+green:bridleway
 green:BuWi
 green:BX
 green:BX02
@@ -1810,6 +1811,8 @@ Z00:black
 2010-01-01
 273C
 3:black
+3pon
+3pts
 3:yellow
 :4
 #40E0D0

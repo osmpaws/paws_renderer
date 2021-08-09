@@ -7424,6 +7424,12 @@
 		</rule>
 	</rule>
 	<rule e="way" k="osmc_background" v="red_circle" zoom-min="15">
+		<rule e="way" k="osmc_foreground" v="black_triangle_line">
+			<lineSymbol src="file:/osmc-symbols/red_circle_black_triangle_line.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="black_triangle_line">
+			<symbol src="file:/osmc-symbols/red_circle_black_triangle_line.png" />
+		</rule>
 	</rule>
 	<rule e="way" k="osmc_background" v="red_frame" zoom-min="15">
 	</rule>
