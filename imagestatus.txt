@@ -409,6 +409,7 @@ osmc-symbols/none-blue-bar-14.svg
 osmc-symbols/none-blue-dot-14.svg
 osmc-symbols/none-blue-lower-14.svg
 osmc-symbols/none-blue-pointer-14.svg
+osmc-symbols/none-blue-triangle-turned-14.svg
 osmc-symbols/none-green-bar-14.svg
 osmc-symbols/none-green-pointer-14.svg
 osmc-symbols/none-green-triangle-14.svg

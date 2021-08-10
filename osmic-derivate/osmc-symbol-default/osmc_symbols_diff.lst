@@ -109,10 +109,13 @@ black:H8
 black:H9
 black:J
 black:KKS
+black:KT
 black:Kv
 black:KwR
 black:M
 black:MBS
+black:MT
+black:mtb
 black:N
 black:NaEr
 black:none
@@ -121,10 +124,12 @@ black:pink_hiker
 :black_pointer
 black_pointer
 black_pointer_line:K
+black:PT
 black:PVL
 black:PW
 black_round:
 black_round:white
+black:RT
 black:R3
 black:S
 black:SH
@@ -349,6 +354,7 @@ blue:9
 blu:red_bar
 blu:white_bar
 blu:yellow_bar
+böack:HT
 braun:none
 bridleway
 brown
