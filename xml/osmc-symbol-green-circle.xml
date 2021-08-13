@@ -9,6 +9,9 @@
 		<rule e="way" k="osmc_foreground" v="blue_dot">
 			<lineSymbol src="file:/osmc-symbols/green_circle_blue_dot.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="green_dot">
+			<lineSymbol src="file:/osmc-symbols/green_circle_green_dot.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="white_dot">
 			<lineSymbol src="file:/osmc-symbols/green_circle_white_dot.png" align-center="false" repeat="true" />
 		</rule>

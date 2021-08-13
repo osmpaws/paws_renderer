@@ -3,6 +3,9 @@
 		<rule e="node" k="osmc_foreground" v="~">
 			<symbol src="file:/osmc-symbols/osmcbg_purple.png" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="red_bar">
+			<symbol src="file:/osmc-symbols/purple_red_bar.png" />
+		</rule>
 		<rule e="node" k="osmc_foreground" v="green_bar">
 			<symbol src="file:/osmc-symbols/purple_green_bar.png" />
 		</rule>

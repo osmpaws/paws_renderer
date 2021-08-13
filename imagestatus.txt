@@ -62,6 +62,7 @@ osmc-symbols/black-red-hiker-14.svg
 osmc-symbols/black-red-lower-14.svg
 osmc-symbols/black-red-pointer-14.svg
 osmc-symbols/black-red-triangle-14.svg
+osmc-symbols/black-round-green-circle-14.svg
 osmc-symbols/black-round-red-dot-14.svg
 osmc-symbols/black-round-white-dot-14.svg
 osmc-symbols/black-tower-14.svg
@@ -315,6 +316,7 @@ osmc-symbols/green-blue-stripe-14.svg
 osmc-symbols/green-blue-triangle-14.svg
 osmc-symbols/green-brown-rectangle-line-14.svg
 osmc-symbols/green-circle-blue-dot-14.svg
+osmc-symbols/green-circle-green-dot-14.svg
 osmc-symbols/green-circle-green-triangle-turned-14.svg
 osmc-symbols/green-circle-green-triangle-14.svg
 osmc-symbols/green-circle-red-lower-14.svg
@@ -536,6 +538,7 @@ osmc-symbols/purple-heart-14.svg
 osmc-symbols/purple-hiker-14.svg
 osmc-symbols/purple-mine-14.svg
 osmc-symbols/purple-orange-lower-14.svg
+osmc-symbols/purple-red-bar-14.svg
 osmc-symbols/purple-red-corner-14.svg
 osmc-symbols/purple-red-dot-14.svg
 osmc-symbols/purple-red-lower-14.svg

@@ -142,6 +142,7 @@ black:ST
 black_triangle_turned:
 black:U
 black:W
+black:WDDE
 black:WFP
 black:whie_diamond_line
 black:white
@@ -227,6 +228,8 @@ blue_fork
 blue_frame
 blue_frame:
 blue_frame:Bijl
+blue_frame:CFT
+blue_frame:FT
 blue_frame:Gag
 blue_frame:S
 blue_frame:white
@@ -1293,6 +1296,7 @@ white:green_stripe_double
 white:green_T
 white:green_tree
 white:green_triangel
+white:green__turned_T
 white:green_X
 white:green_Z
 white:gren_dot
@@ -1737,6 +1741,7 @@ yellow:S
 yellow:SEI
 yellow_shell
 yellow_slash
+yellow:SMQ
 yellow:SMR
 yellow:ST
 :yellow_stripe
@@ -1768,6 +1773,7 @@ yellow_x
 yellow:yellow
 yellow:yellow_rectangle1
 yellow:yellow.51
+yellow:YT
 yellow:1
 yellow:10
 yellow:11

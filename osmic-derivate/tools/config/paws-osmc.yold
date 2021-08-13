@@ -7270,6 +7270,12 @@ white-orange-triangle-turned:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+none-blue-triangle-turned:
+  fill: "#1579e0"
+  shield:
+    fill: "#ffffff"
+    opacity: 0.0
+    padding: 1
 black-red-triangle:
   fill: "#ff0000"
   shield:
