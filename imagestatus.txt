@@ -443,6 +443,7 @@ osmc-symbols/orange-blue-stripe-14.svg
 osmc-symbols/orange-brown-pointer-14.svg
 osmc-symbols/orange-circle-orange-hiker-14.svg
 osmc-symbols/orange-circle-orange-triangle-14.svg
+osmc-symbols/orange-frame-tower-14.svg
 osmc-symbols/orange-frame-white-bar-14.svg
 osmc-symbols/orange-green-bar-14.svg
 osmc-symbols/orange-green-lower-14.svg
