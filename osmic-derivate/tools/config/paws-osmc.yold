@@ -7006,6 +7006,14 @@ orange-tower:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+orange-frame-tower:
+  fill: "#ffffff"
+  shield:
+    stroke_fill: "#f96f00"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 2
+    padding: 2
 purple-tower:
   fill: "#ffffff"
   shield:

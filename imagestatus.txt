@@ -129,6 +129,7 @@ osmc-symbols/blue-frame-blue-hiker-14.svg
 osmc-symbols/blue-frame-blue-pointer-14.svg
 osmc-symbols/blue-frame-blue-slash-14.svg
 osmc-symbols/blue-frame-green-lower-14.svg
+osmc-symbols/blue-frame-green-pointer-14.svg
 osmc-symbols/blue-frame-green-slash-14.svg
 osmc-symbols/blue-frame-hiker-14.svg
 osmc-symbols/blue-frame-mine-14.svg

@@ -5365,6 +5365,14 @@ blue-frame-blue-pointer:
     opacity: 0.0
     rounded: 2
     padding: 2
+blue-frame-green-pointer:
+  fill: "#00cd27"
+  shield:
+    stroke_fill: "#1579e0"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 2
+    padding: 2
 blue-round-yellow-pointer:
   fill: "#ffdd00"
   shield:
