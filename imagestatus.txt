@@ -614,6 +614,7 @@ osmc-symbols/red-green-triangle-14.svg
 osmc-symbols/red-heart-14.svg
 osmc-symbols/red-hiker-14.svg
 osmc-symbols/red-mine-14.svg
+osmc-symbols/red-orange-lower-14.svg
 osmc-symbols/red-orange-pointer-14.svg
 osmc-symbols/red-orange-triangle-14.svg
 osmc-symbols/red-round-black-circle-14.svg

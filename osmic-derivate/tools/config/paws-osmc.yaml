@@ -5012,6 +5012,13 @@ red-black-lower:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+red-orange-lower:
+  fill: "#f96f00"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 white-red-lower:
   fill: "#ff0000"
   shield:
