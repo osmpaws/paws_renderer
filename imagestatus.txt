@@ -122,6 +122,7 @@ osmc-symbols/blue-circle-hiker-14.svg
 osmc-symbols/blue-circle-red-dot-14.svg
 osmc-symbols/blue-circle-white-dot-14.svg
 osmc-symbols/blue-circle-yellow-dot-14.svg
+osmc-symbols/blue-frame-blue-backslash-14.svg
 osmc-symbols/blue-frame-blue-bar-14.svg
 osmc-symbols/blue-frame-blue-bowl-14.svg
 osmc-symbols/blue-frame-blue-diamond-14.svg
