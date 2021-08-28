@@ -5468,6 +5468,14 @@ brown-orange-pointer:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+brown-round-white-pointer:
+  fill: "#ffffff"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
 green-red-pointer:
   fill: "#ff0000"
   shield:
@@ -5844,6 +5852,14 @@ yellow-frame-yellow-pointer:
     opacity: 0.0
     rounded: 2
     padding: 2
+yellow-round-white-pointer:
+  fill: "#ffffff"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
 none-red-pointer:
   fill: "#ff0000"
   shield:

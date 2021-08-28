@@ -254,6 +254,7 @@ osmc-symbols/brown-red-pointer-14.svg
 osmc-symbols/brown-red-rectangle-14.svg
 osmc-symbols/brown-red-wheel-14.svg
 osmc-symbols/brown-round-white-fork-14.svg
+osmc-symbols/brown-round-white-pointer-14.svg
 osmc-symbols/brown-round-yellow-dot-14.svg
 osmc-symbols/brown-tower-14.svg
 osmc-symbols/brown-triangle-turned-14.svg
@@ -1006,6 +1007,7 @@ osmc-symbols/yellow-round-black-circle-14.svg
 osmc-symbols/yellow-round-green-bowl-14.svg
 osmc-symbols/yellow-round-green-circle-14.svg
 osmc-symbols/yellow-round-green-dot-14.svg
+osmc-symbols/yellow-round-white-pointer-14.svg
 osmc-symbols/yellow-round-white-stripe-14.svg
 osmc-symbols/yellow-round-yellow-dot-14.svg
 osmc-symbols/yellow-shell-14.svg
