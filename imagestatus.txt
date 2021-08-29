@@ -233,6 +233,7 @@ osmc-symbols/brown-frame-brown-wheel-14.svg
 osmc-symbols/brown-frame-green-circle-14.svg
 osmc-symbols/brown-frame-green-triangle-14.svg
 osmc-symbols/brown-frame-red-triangle-14.svg
+osmc-symbols/brown-frame-yellow-rectangle-14.svg
 osmc-symbols/brown-frame-yellow-triangle-14.svg
 osmc-symbols/brown-green-bar-14.svg
 osmc-symbols/brown-green-bowl-14.svg

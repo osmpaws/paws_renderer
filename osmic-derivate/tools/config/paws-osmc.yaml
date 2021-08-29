@@ -6133,6 +6133,14 @@ brown-white-rectangle:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+brown-frame-yellow-rectangle:
+  fill: "#ffdd00"
+  shield:
+    stroke_fill: "#8b4513"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 2
+    padding: 2
 gray-red-rectangle:
   fill: "#ff0000"
   shield:
