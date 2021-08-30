@@ -772,6 +772,7 @@ orange_round:black
 orange_round:pink_pointer
 orange_round:SVT
 orange_round:text
+orange_round:white
 orange_round:2
 orange_round:3
 orange_round:5
@@ -1726,6 +1727,7 @@ yellow:re_lower
 yellow_round
 yellow_round:
 yellow_round:black
+yellow_round:white
 yellow_round:yellow
 yellow_round:yellow_round
 yellow_round:10C

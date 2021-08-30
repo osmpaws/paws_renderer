@@ -1134,6 +1134,14 @@ yellow-black-arch:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+yellow-round-black-arch:
+  fill: "#000000"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
 black-white-backslash:
   fill: "#ffffff"
   shield:
@@ -1248,6 +1256,14 @@ yellow-white-backslash:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+yellow-round-black-backslash:
+  fill: "#000000"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
 black-red-bar:
   fill: "#ff0000"
   shield:

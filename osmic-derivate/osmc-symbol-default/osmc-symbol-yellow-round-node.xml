@@ -3,6 +3,12 @@
 		<rule e="node" k="osmc_foreground" v="~">
 			<symbol src="file:/osmc-symbols/osmcbg_yellow_round.png" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="black_arch">
+			<symbol src="file:/osmc-symbols/yellow_round_black_arch.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="black_backslash">
+			<symbol src="file:/osmc-symbols/yellow_round_black_backslash.png" />
+		</rule>
 		<rule e="node" k="osmc_foreground" v="green_bowl">
 			<symbol src="file:/osmc-symbols/yellow_round_green_bowl.png" />
 		</rule>
