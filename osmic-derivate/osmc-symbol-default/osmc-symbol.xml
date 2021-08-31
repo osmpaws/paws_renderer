@@ -4210,6 +4210,12 @@
 		</rule>
 	</rule>
 	<rule e="way" k="osmc_background" v="green_circle" zoom-min="15">
+		<rule e="way" k="osmc_foreground" v="green_hiker">
+			<lineSymbol src="file:/osmc-symbols/green_circle_green_hiker.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="green_hiker">
+			<symbol src="file:/osmc-symbols/green_circle_green_hiker.png" />
+		</rule>
 	</rule>
 	<rule e="way" k="osmc_background" v="green_frame" zoom-min="15">
 		<rule e="way" k="osmc_foreground" v="green_hiker">
@@ -5686,6 +5692,12 @@
 		<rule e="node" k="osmc_foreground" v="white_pointer">
 			<symbol src="file:/osmc-symbols/yellow_round_white_pointer.png" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="black_pointer">
+			<lineSymbol src="file:/osmc-symbols/yellow_round_black_pointer.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="black_pointer">
+			<symbol src="file:/osmc-symbols/yellow_round_black_pointer.png" />
+		</rule>
 	</rule>
 	<rule e="way" k="osmc_background" v="none" zoom-min="15">
 		<rule e="way" k="osmc_foreground" v="red_pointer">
@@ -6282,6 +6294,12 @@
 		</rule>
 	</rule>
 	<rule e="way" k="osmc_background" v="yellow_round" zoom-min="15">
+		<rule e="way" k="osmc_foreground" v="black_rectangle">
+			<lineSymbol src="file:/osmc-symbols/yellow_round_black_rectangle.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="black_rectangle">
+			<symbol src="file:/osmc-symbols/yellow_round_black_rectangle.png" />
+		</rule>
 	</rule>
 	<rule e="way" k="osmc_background" v="none" zoom-min="15">
 	</rule>
@@ -8601,6 +8619,12 @@
 		</rule>
 		<rule e="node" k="osmc_foreground" v="green_wheel">
 			<symbol src="file:/osmc-symbols/white_green_wheel.png" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="black_wheel">
+			<lineSymbol src="file:/osmc-symbols/white_black_wheel.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="black_wheel">
+			<symbol src="file:/osmc-symbols/white_black_wheel.png" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="brown_wheel">
 			<lineSymbol src="file:/osmc-symbols/white_brown_wheel.png" align-center="false" repeat="true" />

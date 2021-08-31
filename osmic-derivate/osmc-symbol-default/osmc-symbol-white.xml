@@ -591,6 +591,9 @@
 		<rule e="way" k="osmc_foreground" v="green_wheel">
 			<lineSymbol src="file:/osmc-symbols/white_green_wheel.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="black_wheel">
+			<lineSymbol src="file:/osmc-symbols/white_black_wheel.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="brown_wheel">
 			<lineSymbol src="file:/osmc-symbols/white_brown_wheel.png" align-center="false" repeat="true" />
 		</rule>
