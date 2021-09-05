@@ -2,7 +2,7 @@
 <rendertheme xmlns="http://mapsforge.org/renderTheme" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://mapsforge.org/renderTheme https://raw.githubusercontent.com/mapsforge/mapsforge/dev/resources/renderTheme-v4.xsd" version="4" map-background-outside="#EEEEEE" map-background="#f8f8f8">
 	
-	<!--#r00168b00697#-->
+	<!--#r00169b00700#-->
 
 	<!--style#v4#setup-->
 <stylemenu id="r4menu" defaultvalue="default" defaultlang="en">
@@ -3178,7 +3178,10 @@
 		<rule e="node" k="man_made" v="lighthouse" zoom-min="17">
 			<symbol src="file:symbols/lighthouse.svg" symbol-scaling="size" symbol-width="32" symbol-height="32" priority="3" />
 		</rule>
-		<rule e="any" k="man_made" v="tower" zoom-min="17">
+		<rule e="any" k="man_made" v="tower|mast" zoom-min="17">
+			<rule e="any" k="tower:type" v="~" zoom-min="17">
+				<symbol src="file:symbols/mast.svg" symbol-scaling="size" symbol-width="32" symbol-height="32" priority="3" />
+			</rule>
 			<rule e="any" k="tower:type" v="communication" zoom-min="17">
 				<symbol src="file:symbols/mast_communications.svg" symbol-scaling="size" symbol-width="54" symbol-height="54" priority="3" />
 			</rule>

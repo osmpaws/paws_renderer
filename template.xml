@@ -2,7 +2,7 @@
 <rendertheme xmlns="http://mapsforge.org/renderTheme" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://mapsforge.org/renderTheme ../renderTheme.xsd" version="1" map-background="#f8f8f8">
 	
-	<!--#r00168b00697#-->
+	<!--#r00169b00700#-->
 
 	<!--style#v4#setup-->
 	
@@ -2059,7 +2059,10 @@
 		<rule e="node" k="man_made" v="lighthouse" zoom-min="17">
 			<symbol src="file:/symbols/lighthouse.png" />
 		</rule>
-		<rule e="any" k="man_made" v="tower" zoom-min="17">
+		<rule e="any" k="man_made" v="tower|mast" zoom-min="17">
+			<rule e="any" k="tower:type" v="~" zoom-min="17">
+				<symbol src="file:/symbols/mast.png" />
+			</rule>
 			<rule e="any" k="tower:type" v="communication" zoom-min="17">
 				<symbol src="file:/symbols/mast_communications.png" />
 			</rule>
