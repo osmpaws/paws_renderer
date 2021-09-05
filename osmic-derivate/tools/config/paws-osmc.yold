@@ -5581,6 +5581,13 @@ green-round-white-pointer:
     stroke_width: 1
     padding: 2
     rounded: 10
+orange-yellow-pointer:
+  fill: "#ffdd00"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 orange-blue-pointer:
   fill: "#1579e0"
   shield:

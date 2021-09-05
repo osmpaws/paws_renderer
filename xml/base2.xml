@@ -969,7 +969,10 @@
 		<rule e="node" k="man_made" v="lighthouse" zoom-min="17">
 			<symbol src="file:/symbols/lighthouse.png" />
 		</rule>
-		<rule e="any" k="man_made" v="tower" zoom-min="17">
+		<rule e="any" k="man_made" v="tower|mast" zoom-min="17">
+			<rule e="any" k="tower:type" v="~" zoom-min="17">
+				<symbol src="file:/symbols/mast.png" />
+			</rule>
 			<rule e="any" k="tower:type" v="communication" zoom-min="17">
 				<symbol src="file:/symbols/mast_communications.png" />
 			</rule>
