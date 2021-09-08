@@ -6,4 +6,7 @@
 						<rule e="way" k="access" v="private" >
 							<lineSymbol src="file:/symbols/access_private.png" repeat-start="2" repeat-gap="10" align-center="true" repeat="true"/>
 						</rule>
+						<rule e="way" k="vehicle" v="no" > <!--car_mode-->
+							<lineSymbol src="file:/symbols/access_private.png" repeat-start="2" repeat-gap="10" align-center="true" repeat="true"/>
+						</rule>
 					</rule>
