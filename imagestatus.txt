@@ -202,6 +202,7 @@ osmc-symbols/blue-white-stripe-14.svg
 osmc-symbols/blue-white-triangle-14.svg
 osmc-symbols/blue-white-turned-t-14.svg
 osmc-symbols/blue-white-wheelchair-14.svg
+osmc-symbols/blue-white-wheel-14.svg
 osmc-symbols/blue-yellow-bar-14.svg
 osmc-symbols/blue-yellow-circle-14.svg
 osmc-symbols/blue-yellow-corner-14.svg

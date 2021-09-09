@@ -7318,6 +7318,13 @@ white-wheelchair:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+blue-white-wheel:
+  fill: "#ffffff"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 brown-red-wheel:
   fill: "#ff0000"
   shield:

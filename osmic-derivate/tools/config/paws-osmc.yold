@@ -4478,6 +4478,14 @@ blue-frame-blue-hiker:
     opacity: 0.0
     rounded: 2
     padding: 2
+blue-frame-black-hiker:
+  fill: "#000000"
+  shield:
+    stroke_fill: "#1579e0"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 2
+    padding: 2
 blue-frame-hiker:
   fill: "#ffffff"
   shield:
