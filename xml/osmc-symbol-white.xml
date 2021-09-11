@@ -504,6 +504,9 @@
 		<rule e="way" k="osmc_foreground" v="black_triangle_line">
 			<lineSymbol src="file:/osmc-symbols/white_black_triangle_line.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="brown_triangle_line">
+			<lineSymbol src="file:/osmc-symbols/white_brown_triangle_line.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="red_triangle_turned">
 			<lineSymbol src="file:/osmc-symbols/white_red_triangle_turned.png" align-center="false" repeat="true" />
 		</rule>

@@ -741,6 +741,7 @@ osmc-symbols/white-brown-rectangle-line-14.svg
 osmc-symbols/white-brown-rectangle-14.svg
 osmc-symbols/white-brown-right-14.svg
 osmc-symbols/white-brown-stripe-14.svg
+osmc-symbols/white-brown-triangle-line-14.svg
 osmc-symbols/white-brown-triangle-turned-14.svg
 osmc-symbols/white-brown-triangle-14.svg
 osmc-symbols/white-brown-wheel-14.svg

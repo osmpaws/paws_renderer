@@ -7574,6 +7574,12 @@
 		<rule e="node" k="osmc_foreground" v="black_triangle_line">
 			<symbol src="file:/osmc-symbols/white_black_triangle_line.png" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="brown_triangle_line">
+			<lineSymbol src="file:/osmc-symbols/white_brown_triangle_line.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="brown_triangle_line">
+			<symbol src="file:/osmc-symbols/white_brown_triangle_line.png" />
+		</rule>
 	</rule>
 	<rule e="way" k="osmc_background" v="white_circle" zoom-min="15">
 	</rule>
