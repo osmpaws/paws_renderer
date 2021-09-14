@@ -291,6 +291,7 @@ osmc-symbols/brown-yellow-stripe-14.svg
 osmc-symbols/brown-yellow-triangle-turned-14.svg
 osmc-symbols/gray-black-bar-14.svg
 osmc-symbols/gray-blue-bar-14.svg
+osmc-symbols/gray-mine-14.svg
 osmc-symbols/gray-orange-lower-14.svg
 osmc-symbols/gray-purple-bar-14.svg
 osmc-symbols/gray-red-rectangle-14.svg

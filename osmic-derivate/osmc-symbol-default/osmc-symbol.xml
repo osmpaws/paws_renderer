@@ -5046,6 +5046,12 @@
 	<rule e="way" k="osmc_background" v="brown_round" zoom-min="15">
 	</rule>
 	<rule e="way" k="osmc_background" v="gray" zoom-min="15">
+		<rule e="way" k="osmc_foreground" v="mine">
+			<lineSymbol src="file:/osmc-symbols/gray_mine.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="mine">
+			<symbol src="file:/osmc-symbols/gray_mine.png" />
+		</rule>
 	</rule>
 	<rule e="way" k="osmc_background" v="gray_circle" zoom-min="15">
 	</rule>
