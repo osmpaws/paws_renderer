@@ -744,6 +744,7 @@ orange:BV
 orange_circle
 orange_circle:
 orange:CL
+orange_corner
 :orange_diamond
 orange_diamond
 orange_diamond:black_bar
@@ -1039,6 +1040,7 @@ red:white_stripe_VU2a
 red:white_stripe_Z8
 red.white_stripe:132
 red_white_stripe:176A
+red:white_stripe_432
 red_white_stripe:737
 red:white_stripr
 red:white_strype20
@@ -1404,6 +1406,7 @@ white:red_green_bar
 white:red_house
 white:red_chapel
 white:red_peak
+white:red_point
 white;red_pointer
 white:red_pointer;green
 white:red_pointer;red

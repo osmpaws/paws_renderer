@@ -5263,6 +5263,13 @@ brown-mine:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+gray-mine:
+  fill: "#ffffff"
+  shield:
+    fill: "#aaaaaa"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 green-mine:
   fill: "#ffffff"
   shield:

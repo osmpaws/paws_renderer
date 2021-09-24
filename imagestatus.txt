@@ -65,6 +65,7 @@ osmc-symbols/black-red-triangle-14.svg
 osmc-symbols/black-round-green-circle-14.svg
 osmc-symbols/black-round-red-dot-14.svg
 osmc-symbols/black-round-white-dot-14.svg
+osmc-symbols/black-round-yellow-dot-14.svg
 osmc-symbols/black-tower-14.svg
 osmc-symbols/black-white-arch-14.svg
 osmc-symbols/black-white-backslash-14.svg

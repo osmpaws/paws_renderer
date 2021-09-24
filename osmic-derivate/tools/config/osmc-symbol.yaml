@@ -2743,6 +2743,14 @@ black-round-red-dot:
     stroke_width: 1
     padding: 2
     rounded: 10
+black-round-yellow-dot:
+  fill: "#ffdd00"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
 black-round-white-dot:
   fill: "#ffffff"
   shield:
