@@ -327,6 +327,7 @@ blue_triangle_line:2
 blue_triangle_line:9
 blue_triangle_turned
 blue_triangle_turned:
+blue_turned_T
 blue:TWR
 blue:V
 blue:V5
@@ -1431,6 +1432,7 @@ white_round:bird
 white_round:black
 white_round:blu_dot
 white_round:none
+white_round:red_point
 white_round:wp
 white_round:1
 white_round:3
@@ -1734,6 +1736,7 @@ yellow:re_lower
 yellow_round
 yellow_round:
 yellow_round:black
+yellow_round:G
 yellow_round:white
 yellow_round:yellow
 yellow_round:yellow_round

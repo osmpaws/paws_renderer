@@ -1017,9 +1017,11 @@ osmc-symbols/yellow-round-black-backslash-14.svg
 osmc-symbols/yellow-round-black-circle-14.svg
 osmc-symbols/yellow-round-black-pointer-14.svg
 osmc-symbols/yellow-round-black-rectangle-14.svg
+osmc-symbols/yellow-round-blue-dot-14.svg
 osmc-symbols/yellow-round-green-bowl-14.svg
 osmc-symbols/yellow-round-green-circle-14.svg
 osmc-symbols/yellow-round-green-dot-14.svg
+osmc-symbols/yellow-round-red-dot-14.svg
 osmc-symbols/yellow-round-white-pointer-14.svg
 osmc-symbols/yellow-round-white-stripe-14.svg
 osmc-symbols/yellow-round-yellow-dot-14.svg
