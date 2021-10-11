@@ -2941,6 +2941,13 @@ red-white-diamond-line:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+red-black-diamond-line:
+  fill: "#000000"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 white-red-diamond-line:
   fill: "#ff0000"
   shield:

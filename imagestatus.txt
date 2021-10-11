@@ -572,6 +572,7 @@ osmc-symbols/purple-white-triangle-turned-14.svg
 osmc-symbols/purple-white-triangle-14.svg
 osmc-symbols/purple-white-turned-t-14.svg
 osmc-symbols/red-black-circle-14.svg
+osmc-symbols/red-black-diamond-line-14.svg
 osmc-symbols/red-black-dot-14.svg
 osmc-symbols/red-black-hiker-14.svg
 osmc-symbols/red-black-lower-14.svg
