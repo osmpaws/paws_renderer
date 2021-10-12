@@ -84,6 +84,9 @@
 		<rule e="way" k="osmc_foreground" v="black_dot">
 			<lineSymbol src="file:/osmc-symbols/brown_black_dot.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="white_hexagon">
+			<lineSymbol src="file:/osmc-symbols/brown_white_hexagon.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="yellow_hiker">
 			<lineSymbol src="file:/osmc-symbols/brown_yellow_hiker.png" align-center="false" repeat="true" />
 		</rule>

@@ -270,6 +270,7 @@ osmc-symbols/brown-white-corner-14.svg
 osmc-symbols/brown-white-cross-14.svg
 osmc-symbols/brown-white-diamond-line-14.svg
 osmc-symbols/brown-white-dot-14.svg
+osmc-symbols/brown-white-hexagon-14.svg
 osmc-symbols/brown-white-hiker-14.svg
 osmc-symbols/brown-white-lower-14.svg
 osmc-symbols/brown-white-pointer-14.svg
