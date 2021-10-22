@@ -4330,6 +4330,13 @@ black-white-hexagon:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+brown-white-hexagon:
+  fill: "#ffffff"
+  shield:
+    fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 green-black-hexagon:
   fill: "#000000"
   shield:

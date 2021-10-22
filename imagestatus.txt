@@ -949,6 +949,7 @@ osmc-symbols/yellow-blue-lower-14.svg
 osmc-symbols/yellow-blue-pointer-14.svg
 osmc-symbols/yellow-blue-rectangle-14.svg
 osmc-symbols/yellow-blue-shell-modern-14.svg
+osmc-symbols/yellow-blue-shell-14.svg
 osmc-symbols/yellow-blue-slash-14.svg
 osmc-symbols/yellow-blue-stripe-14.svg
 osmc-symbols/yellow-blue-triangle-14.svg

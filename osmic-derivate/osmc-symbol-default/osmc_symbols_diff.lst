@@ -1046,6 +1046,8 @@ red_white_stripe:737
 red:white_stripr
 red:white_strype20
 red/whitw
+red:whitw_stripe
+red:whitw_stripe919
 red:wite_stripe
 red:withe_bar
 red:WR
@@ -1628,6 +1630,7 @@ yellow_circle:P20
 yellow_circle:P4
 yellow_circle:P6
 yellow_circle:P9
+:yellow_circleyellow
 yellow_circle:Z
 yellow_circle:1
 yellow_circle:2
