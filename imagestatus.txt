@@ -329,6 +329,7 @@ osmc-symbols/green-circle-green-dot-14.svg
 osmc-symbols/green-circle-green-hiker-14.svg
 osmc-symbols/green-circle-green-triangle-turned-14.svg
 osmc-symbols/green-circle-green-triangle-14.svg
+osmc-symbols/green-circle-red-circle-14.svg
 osmc-symbols/green-circle-red-lower-14.svg
 osmc-symbols/green-circle-white-circle-14.svg
 osmc-symbols/green-circle-white-dot-14.svg
