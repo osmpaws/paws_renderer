@@ -24,6 +24,9 @@
 		<rule e="node" k="osmc_foreground" v="mine">
 			<symbol src="file:/osmc-symbols/gray_mine.png" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="white_pointer">
+			<symbol src="file:/osmc-symbols/gray_white_pointer.png" />
+		</rule>
 		<rule e="node" k="osmc_foreground" v="red_rectangle">
 			<symbol src="file:/osmc-symbols/gray_red_rectangle.png" />
 		</rule>

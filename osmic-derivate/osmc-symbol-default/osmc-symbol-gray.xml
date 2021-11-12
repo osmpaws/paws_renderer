@@ -24,6 +24,9 @@
 		<rule e="way" k="osmc_foreground" v="mine">
 			<lineSymbol src="file:/osmc-symbols/gray_mine.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="white_pointer">
+			<lineSymbol src="file:/osmc-symbols/gray_white_pointer.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="red_rectangle">
 			<lineSymbol src="file:/osmc-symbols/gray_red_rectangle.png" align-center="false" repeat="true" />
 		</rule>

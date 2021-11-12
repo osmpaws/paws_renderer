@@ -2,7 +2,7 @@
 <rendertheme xmlns="http://mapsforge.org/renderTheme" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://mapsforge.org/renderTheme ../renderTheme.xsd" version="1" map-background="#f8f8f8">
 	
-	<!--#r00189b00720#-->
+	<!--#r00190b00721#-->
 
 	<!--style#v4#setup-->
 	
@@ -3190,6 +3190,9 @@
 		</rule>
 		<rule e="way" k="osmc_foreground" v="mine">
 			<lineSymbol src="file:/osmc-symbols/gray_mine.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="white_pointer">
+			<lineSymbol src="file:/osmc-symbols/gray_white_pointer.png" align-center="false" repeat="true" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="red_rectangle">
 			<lineSymbol src="file:/osmc-symbols/gray_red_rectangle.png" align-center="false" repeat="true" />
