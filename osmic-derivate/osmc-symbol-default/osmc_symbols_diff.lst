@@ -793,6 +793,7 @@ orange_square
 orange_triangle
 :orange_triangle_turned
 orange:V
+orange_web
 orange:white
 orange_white_orange_arch
 orange:white_upper
@@ -1778,6 +1779,7 @@ yellow_triangle_turned:
 :yellow_turned_T
 yellow:V3
 yellow:WA
+yellow_web
 yellow:white
 yellow:white_bicycle
 yellow:white_black_diamond
