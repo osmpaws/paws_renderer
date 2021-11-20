@@ -727,6 +727,7 @@ osmc-symbols/white-blue-pointer-14.svg
 osmc-symbols/white-blue-rectangle-line-14.svg
 osmc-symbols/white-blue-rectangle-14.svg
 osmc-symbols/white-blue-right-14.svg
+osmc-symbols/white-blue-shell-modern-14.svg
 osmc-symbols/white-blue-slash-14.svg
 osmc-symbols/white-blue-stripe-14.svg
 osmc-symbols/white-blue-triangle-line-14.svg

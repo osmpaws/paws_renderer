@@ -6693,6 +6693,13 @@ white-yellow-shell-modern:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+white-blue-shell-modern:
+  fill: "#1579e0"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 yellow-blue-shell-modern:
   fill: "#1579e0"
   shield:
