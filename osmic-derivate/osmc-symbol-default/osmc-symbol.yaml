@@ -7251,6 +7251,14 @@ yellow-orange-triangle:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+yellow-round-black-triangle:
+  fill: "#000000"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
 none-red-triangle:
   fill: "#ff0000"
   shield:

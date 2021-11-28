@@ -42,4 +42,7 @@
 		<rule e="way" k="osmc_foreground" v="white_stripe">
 			<lineSymbol src="file:/osmc-symbols/yellow_round_white_stripe.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="black_triangle">
+			<lineSymbol src="file:/osmc-symbols/yellow_round_black_triangle.png" align-center="false" repeat="true" />
+		</rule>
 	</rule>

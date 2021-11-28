@@ -142,6 +142,8 @@ black:ST
 :black_stripe
 black_triangle_turned:
 black:U
+black:V3
+black:V4
 black:W
 black:WDDE
 black:WFP
@@ -330,6 +332,7 @@ blue_triangle_turned:
 blue_turned_T
 blue:TWR
 blue:V
+blue:Via
 blue:V5
 blue:W
 blue:WA
@@ -859,6 +862,7 @@ purple:SH
 purple:SCHM
 purple:SKL
 purple:TKW
+purple:Via
 purple_web
 purple:white
 purple:W1
@@ -946,6 +950,7 @@ red;;Hk1;red;white
 red:H2
 red:H6
 red:H9
+red:leaf
 :red_lower
 red_lower:yellow_bowl
 red_lower:68
@@ -1308,6 +1313,7 @@ white:green_snake
 white:green_square
 white:green_stripe_double
 white:green_T
+white:green_trangle
 white:green_tree
 white:green_triangel
 white:green__turned_T
