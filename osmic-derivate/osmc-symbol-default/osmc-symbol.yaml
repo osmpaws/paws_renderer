@@ -6983,6 +6983,13 @@ gray-blue-triangle:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+gray-white-triangle:
+  fill: "#ffffff"
+  shield:
+    fill: "#aaaaaa"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 green-red-triangle:
   fill: "#ff0000"
   shield:

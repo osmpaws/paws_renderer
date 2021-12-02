@@ -2,7 +2,7 @@
 <rendertheme xmlns="http://mapsforge.org/renderTheme" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://mapsforge.org/renderTheme ../renderTheme.xsd" version="1" map-background="#f8f8f8">
 	
-	<!--#r00196b00727#-->
+	<!--#r00197b00728#-->
 
 	<!--style#v4#setup-->
 	
@@ -1687,6 +1687,43 @@
 				<line stroke="#cdabde" stroke-width="3.70" />
 			</rule>
 			<!--piste#nordic-->
+			<!--piste#nordic-->
+			<rule e="way" k="piste:type" v="skitour">
+				<line stroke="#Acffffff" stroke-width="2.00" stroke-dasharray="0.00,14.00,47.00,13.0" stroke-linecap="butt" />
+				<line stroke="#AA9c58cf" stroke-width="1.50" stroke-dasharray="0.00,15.00,45.00,15.0" stroke-linecap="butt" />
+				<rule e="way" k="piste:difficulty" v="intermediate">
+					<lineSymbol src="file:/symbols/warning.png" align-center="false" repeat="true" />
+				</rule>
+				<rule e="way" k="piste:difficulty" v="advanced|expert|freeride|extreme">
+					<lineSymbol src="file:/symbols/danger.png" align-center="false" repeat="true" />
+				</rule>
+			</rule>
+			<rule e="way" k="piste:type" v="nordic">
+				<line stroke="#Acffffff" stroke-width="2.00" stroke-dasharray="46.00,13.00,1.00,0.0" stroke-linecap="butt" />
+				<rule e="way" k="piste:grooming" v="~">
+					<line stroke="#AAc00000" stroke-width="1.50" stroke-dasharray="21.00,3.00,21.00,15.0" stroke-linecap="butt" />
+				</rule>
+				<rule e="way" k="piste:grooming" v="backcountry">
+					<line stroke="#AA3cb0c1" stroke-width="1.50" stroke-dasharray="45.00,15.0" stroke-linecap="butt" />
+				</rule>
+				<rule e="way" k="piste:grooming" v="classic">
+					<line stroke="#AAc00000" stroke-width="1.50" stroke-dasharray="45.00,15.0" stroke-linecap="butt" />
+				</rule>
+				<rule e="way" k="piste:grooming" v="skating">
+					<line stroke="#AAe06000" stroke-width="1.50" stroke-dasharray="45.00,15.0" stroke-linecap="butt" />
+				</rule>
+				<rule e="way" k="piste:grooming" v="classic+skating|classic;skating">
+					<line stroke="#AAc00000" stroke-width="1.50" stroke-dasharray="22.00,38.0" stroke-linecap="butt" />
+					<line stroke="#AAe06000" stroke-width="1.50" stroke-dasharray="0.00,22.00,23.00,15.0" stroke-linecap="butt" />
+				</rule>
+				<rule e="way" k="piste:difficulty" v="intermediate">
+					<lineSymbol src="file:/symbols/warning.png" align-center="false" repeat="true" />
+				</rule>
+				<rule e="way" k="piste:difficulty" v="advanced|expert|freeride|extreme">
+					<lineSymbol src="file:/symbols/danger.png" align-center="false" repeat="true" />
+				</rule>
+			</rule>
+			<!--AA3cb0c1 AA9c58cf-->
 		</rule>
 		
 		<!-- power -->
@@ -3205,6 +3242,9 @@
 		</rule>
 		<rule e="way" k="osmc_foreground" v="blue_triangle">
 			<lineSymbol src="file:/osmc-symbols/gray_blue_triangle.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="white_triangle">
+			<lineSymbol src="file:/osmc-symbols/gray_white_triangle.png" align-center="false" repeat="true" />
 		</rule>
 	</rule>
 <!--OSMC symbols green_circle background-->
