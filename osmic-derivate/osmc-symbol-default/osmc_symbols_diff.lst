@@ -224,6 +224,7 @@ blue_dot
 blue_dot:
 blue_dot:blue_dot
 blue_dot:3
+:blue_drop
 blue_drop
 blue:EPW
 blue:E-R6
@@ -1071,6 +1072,7 @@ red:3
 red:3BW
 red:3S
 red:4
+red:420
 red:5
 red:5KM
 red:7
@@ -1306,6 +1308,7 @@ white:green_chapel
 white:green_leaf
 white:green_oak_leaf
 white:green_oval
+white:green__pointer
 white:green_rectangle_w_stripe
 white:green_round
 white:green_slah

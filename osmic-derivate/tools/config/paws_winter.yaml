@@ -587,6 +587,9 @@ bare-rock:
   shield:
     fill: "#80abc2"
     opacity: 0.5
+basin:
+  fill: "#b5d6f1"
+  opacity: 0.5
 cemetery:
   fill: "#999999"
   shield:
@@ -606,6 +609,11 @@ dog-park:
     fill: "#96c9cd"
     opacity: 0.3
     padding: 2
+hops:
+  fill: "#00bb54"
+  shield:
+    fill: "#b8f5f2"
+    padding: 3
 marsh:
   fill: "#0092da"
 military:
