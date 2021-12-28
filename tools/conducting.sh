@@ -1,6 +1,6 @@
 #!/bin/bash
 
-diefunc() { 
+diefunc() {
 	echo "Error occured in: $@"
 	exit 1
 }
@@ -138,9 +138,10 @@ while [ $# -gt 0 ] ; do
 		-r)
 			release=1
 		;;
-		-w) 
+		-w)
 			winter=1
-			winterarg="-w" 
+			winterarg="-w"
+			osmcsymlstold="osmc_symbols_winter.lst"
 		;;
 		-c)
 			rebuildimg=1
@@ -561,12 +562,22 @@ cp themes/$templatesrc/${templatesrc}.xml $template
 sed -e 's/repeat-start="[0-9]*"/repeat-start="#"/g' -e 's/repeat-gap="[0-9]*"/repeat-gap="#"/g' themes_svg/paws_4/paws_4.xml > $template4
 
 git status
+winter_dummy_file="osmic-derivate/export_paws/osmc-symbols/winter.dum"
 if [ "$onlyupdate" -eq "1" ]; then
+	if [ "$winter" -eq "0" ] ; then
+		rm $winter_dummy_file
+	fi
 	if git status | grep -qF 'osmic-derivate/export_paws/osmc-symbols' ; then
+		if [ "$winter" -eq "1" ] ; then
+                	rm $winter_dummy_file
+        	fi
 		git add osmic-derivate/export_paws/osmc-symbols
+		if [ "$winter" -eq "0" ] ; then
+			touch $winter_dummy_file
+		fi
 	else
-		echo "Only update mode: no acctual changes - exit" >> $logfile
-		echo "Only update mode: no acctual changes - exit"
+		echo "Only update mode: no actual changes - exit" >> $logfile
+		echo "Only update mode: no actual changes - exit"
 		exit 0
 	fi
 fi
