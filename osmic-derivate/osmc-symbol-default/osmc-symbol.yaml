@@ -7307,6 +7307,13 @@ blue-white-turned-t:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+green-yellow-turned-t:
+  fill: "#ffdd00"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 purple-white-turned-t:
   fill: "#ffffff"
   shield:

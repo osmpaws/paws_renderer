@@ -355,6 +355,7 @@ blue:1.4
 blue:2
 blue:3
 blue:3KM
+blue:3.0
 blue:3.9
 blue:★4
 blue:4
@@ -1561,6 +1562,7 @@ white:13
 white:14
 white:2
 white:2_yellow_bar
+white:22
 white:3
 white:3a
 white:3b
@@ -1694,6 +1696,7 @@ yellow:Gelb
 yellow:gray_bar
 yellow:gray_diamond
 yellow:green
+:yellow-green_F
 yellow:green_up_triangle
 yellow_ground:green_bowl
 yellow:GtB
