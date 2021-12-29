@@ -558,27 +558,43 @@ if [ "$release" -ne "1" ]; then
 	exit 0
 fi
 
-cp themes/$templatesrc/${templatesrc}.xml $template
-sed -e 's/repeat-start="[0-9]*"/repeat-start="#"/g' -e 's/repeat-gap="[0-9]*"/repeat-gap="#"/g' themes_svg/paws_4/paws_4.xml > $template4
+if [ "$winter" -eq "0" ] ; then
+	cp themes/$templatesrc/${templatesrc}.xml $template
+	sed -e 's/repeat-start="[0-9]*"/repeat-start="#"/g' -e 's/repeat-gap="[0-9]*"/repeat-gap="#"/g' themes_svg/paws_4/paws_4.xml > $template4
+else
+	cp themes/${winterprefix}${templatesrc}/${winterprefix}${templatesrc}.xml $template
+	sed -e 's/repeat-start="[0-9]*"/repeat-start="#"/g' -e 's/repeat-gap="[0-9]*"/repeat-gap="#"/g' themes_svg/winter_paws_4/winter_paws_4.xml > $template4
+fi
 
 git status
-winter_dummy_file="osmic-derivate/export_paws/osmc-symbols/winter.dum"
+winter_dummy_file="winter.dum"
+summer_dummy_file="summer.dum"
 if [ "$onlyupdate" -eq "1" ]; then
-	if [ "$winter" -eq "0" ] ; then
-		rm $winter_dummy_file
-	fi
 	if git status | grep -qF 'osmic-derivate/export_paws/osmc-symbols' ; then
-		if [ "$winter" -eq "1" ] ; then
-                	rm $winter_dummy_file
-        	fi
 		git add osmic-derivate/export_paws/osmc-symbols
 		if [ "$winter" -eq "0" ] ; then
 			touch $winter_dummy_file
+		else
+			touch $summer_dummy_file
 		fi
 	else
-		echo "Only update mode: no actual changes - exit" >> $logfile
-		echo "Only update mode: no actual changes - exit"
-		exit 0
+		if [ "$winter" -eq "1" ] ; then
+			if [ -f $winter_dummy_file ] ; then
+	                        rm $winter_dummy_file
+			else
+				echo "Only update mode: no actual changes - exit" >> $logfile
+                		echo "Only update mode: no actual changes - exit"
+		                exit 0
+			fi
+		else
+			if [ -f $summer_dummy_file ] ; then
+                                rm $summer_dummy_file
+                        else
+				echo "Only update mode: no actual changes - exit" >> $logfile
+        		        echo "Only update mode: no actual changes - exit"
+	        	        exit 0
+			fi
+                fi
 	fi
 fi
 git commit -a -m "This is automatic commit of release r$releasestr ( build b$buildstr `cat $root/tools/$lmod | awk '{print $1}'`)"
