@@ -24,7 +24,7 @@ fi
 cd $root
 
 rm -r "$root/$targetdir/$themename"
-mkdir -pv "$root/$targetdir/$themename" | exit 1
+mkdir -pv "$root/$targetdir/$themename" || exit 1
 
 if [ "$winter" -eq "1" ]; then
 	cp images/winter_paw.png $targetdir/$themename/$themename.png

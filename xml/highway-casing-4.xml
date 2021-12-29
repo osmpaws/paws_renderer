@@ -14,16 +14,28 @@
 							</rule>
 						</rule>
 						<rule e="way" k="*" v="*" zoom-min="16">
-							<rule e="way" k="highway" v="steps" zoom-min="12">
+							<rule e="way" k="highway" v="steps">
 								<line stroke="#707070" stroke-width="0.9" />
 							</rule>
-							<rule e="way" k="highway" v="cycleway|service" zoom-min="12">
+							<rule e="way" k="highway" v="service">
 								<line stroke="#000000" stroke-width="1.8" />
 							</rule>
-							<rule e="way" k="highway" v="byway" zoom-min="12">
+						</rule>
+						<rule cat="not_car_mode" e="way" k="*" v="*" zoom-min="16">
+							<rule e="way" k="highway" v="cycleway">
+								<line stroke="#000000" stroke-width="1.8" />
+							</rule>
+						</rule>
+						<rule cat="car_mode" e="way" k="*" v="*" zoom-min="19">
+							<rule e="way" k="highway" v="cycleway">
+								<line stroke="#000000" stroke-width="1.8" />
+							</rule>
+						</rule>
+						<rule e="way" k="*" v="*" zoom-min="16">
+							<rule e="way" k="highway" v="byway">
 								<line stroke="#000000" stroke-width="2.5" stroke-dasharray="10.5,3" stroke-linecap="butt" />
 							</rule>
-							<rule e="way" k="highway" v="unclassified|residential|living_street" zoom-min="12">
+							<rule e="way" k="highway" v="unclassified|residential|living_street">
 								<line stroke="#000000" stroke-width="2.5" />
 							</rule>
 						</rule>
@@ -47,4 +59,24 @@
 						</rule>
 						<rule e="way" k="highway" v="motorway">
 							<line stroke="#FF8080" stroke-width="3.9" stroke-linecap="butt" /> <!--smooth_line-->
+						</rule>
+						<rule cat="car_mode" e="way" k="*" v="*" >
+							<rule e="way" k="highway" v="tertiary|tertiary_link" zoom-min="12">
+								<line stroke="#000000" stroke-width="2.5" stroke-linecap="butt" />
+							</rule>
+							<rule e="way" k="highway" v="secondary_link|secondary" zoom-min="11">
+								<line stroke="#000000" stroke-width="2.5" stroke-linecap="butt" />
+							</rule>
+							<rule e="way" k="highway" v="primary_link|primary">
+								<line stroke="#000000" stroke-width="2.5" stroke-linecap="butt" />
+							</rule>
+							<rule e="way" k="highway" v="trunk|trunk_link">
+								<line stroke="#AA0000" stroke-width="2.9" stroke-linecap="butt" /> <!--smooth_line-->
+							</rule>
+							<rule e="way" k="highway" v="motorway_link">
+								<line stroke="#FF8080" stroke-width="3.1" stroke-linecap="butt" /> <!--smooth_line-->
+							</rule>
+							<rule e="way" k="highway" v="motorway">
+								<line stroke="#FF8080" stroke-width="4.0" stroke-linecap="butt" /> <!--smooth_line-->
+							</rule>
 						</rule>
