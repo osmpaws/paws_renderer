@@ -7936,6 +7936,14 @@ yellow-orange-triangle:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+yellow-frame-yellow-triangle:
+  fill: "#ffdd00"
+  shield:
+    stroke_fill: "#ffdd00"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 2
+    padding: 2
 yellow-round-black-triangle:
   fill: "#000000"
   shield:

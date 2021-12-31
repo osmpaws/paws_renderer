@@ -50,6 +50,7 @@ blackblue_bar
 black:BR
 black:BUS
 black:BzB
+black:B1
 black:B4
 black:B5
 black:B6
@@ -117,6 +118,7 @@ black:M
 black:MBS
 black:MT
 black:mtb
+black:n
 black:N
 black:NaEr
 black:none
@@ -129,6 +131,7 @@ black:PT
 black:PVL
 black:PW
 black_round:
+black_round:NK2
 black_round:white
 black:RT
 black:R3
@@ -902,6 +905,7 @@ red:CFL
 red_circle
 red_circle:
 red_circle:black
+red_circle:KS
 red_circle:L8
 red_circle:R
 red_circle:red_triangle_turned_S_purple
@@ -1354,6 +1358,7 @@ white_lower
 white:lower_green
 white_lower:12
 white:LS
+white:L10
 white:L17
 white:L18
 white:L19
@@ -1410,6 +1415,7 @@ white:red_bicycle
 white:red_bike
 white:red_castle
 white:red_cornered
+white:red_cros
 white:red_crown
 white:red_drop
 white:red_drop_line

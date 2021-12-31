@@ -983,6 +983,7 @@ osmc-symbols/yellow-frame-yellow-circle-14.svg
 osmc-symbols/yellow-frame-yellow-diamond-14.svg
 osmc-symbols/yellow-frame-yellow-pointer-14.svg
 osmc-symbols/yellow-frame-yellow-stripe-14.svg
+osmc-symbols/yellow-frame-yellow-triangle-14.svg
 osmc-symbols/yellow-green-backslash-14.svg
 osmc-symbols/yellow-green-bar-14.svg
 osmc-symbols/yellow-green-circle-14.svg
