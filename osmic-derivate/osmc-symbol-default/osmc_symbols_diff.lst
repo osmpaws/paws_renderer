@@ -83,6 +83,7 @@ black_frame:
 black_frame:none
 black_frame:SC03
 black_frame:22
+black:F1
 black:G
 black:GEO
 black:GLH
@@ -362,6 +363,7 @@ blue:3.0
 blue:3.9
 blue:★4
 blue:4
+blue:5
 blue:6
 blue:80
 blue:9
@@ -506,6 +508,7 @@ green_dot:4
 Green_drop_filled.png
 green:DRW
 green:EWkE
+green:FFLP
 green:fork_blue
 green_frame
 green_frame:
@@ -694,6 +697,10 @@ heart
 :HF7
 :hiker
 hiker
+H1:white
+H2:white
+H3:white
+H4:white
 indigo_stripe
 :JWH
 Kein

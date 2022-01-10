@@ -4954,6 +4954,12 @@
 	<rule e="way" k="osmc_background" v="gray_round" zoom-min="15">
 	</rule>
 	<rule e="way" k="osmc_background" v="green" zoom-min="15">
+		<rule e="way" k="osmc_foreground" v="yellow_L">
+			<lineSymbol src="file:/osmc-symbols/green_yellow_l.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="yellow_L">
+			<symbol src="file:/osmc-symbols/green_yellow_l.png" />
+		</rule>
 	</rule>
 	<rule e="way" k="osmc_background" v="green_circle" zoom-min="15">
 	</rule>

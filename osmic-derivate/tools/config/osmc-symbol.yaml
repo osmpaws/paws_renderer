@@ -4576,6 +4576,13 @@ blue-l:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+green-yellow-l:
+  fill: "#ffdd00"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 white-red-l:
   fill: "#ff0000"
   shield:
