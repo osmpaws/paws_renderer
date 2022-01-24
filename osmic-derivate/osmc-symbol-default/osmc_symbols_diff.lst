@@ -337,6 +337,7 @@ blue_triangle_turned
 blue_triangle_turned:
 blue_turned_T
 blue:TWR
+blue:T5
 blue:V
 blue:Via
 blue:V5
@@ -596,6 +597,7 @@ green:O9
 :green_pointer
 green_pointer
 green_pointer:white_fork
+green:PR
 green:purble
 green:purple
 green:R
@@ -624,6 +626,7 @@ green:R3
 green_slash
 green:Sol
 green_square
+green_square:white_hiker
 :green_stripe
 green:STW
 green:S1
@@ -809,6 +812,8 @@ orange_square
 :orange_triangle
 orange_triangle
 :orange_triangle_turned
+orange:T2
+orange:T2a
 orange:V
 orange_web
 orange:white
@@ -964,6 +969,7 @@ red;;Hk1;red;white
 red:H2
 red:H6
 red:H9
+red:KPH
 red:leaf
 :red_lower
 red_lower:yellow_bowl
@@ -1036,6 +1042,7 @@ red:T
 :red_triangle
 red_triangle
 red_triangle:
+red:T10
 red:up
 red:V
 red:V4
