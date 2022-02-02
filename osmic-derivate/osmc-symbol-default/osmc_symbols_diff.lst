@@ -649,7 +649,9 @@ green:white
 green:white_foot
 green:white_frame
 green:white_leaf
+green:white_left_pointer
 green:white_rider
+green:white_right_pointer
 green:white_sheep
 green:white_strip
 green:whitgreen
@@ -1203,9 +1205,11 @@ white:black_dot_yellow_circle
 white:black_drop_line
 white:black_frame
 white:black_horse
+white:black_left_arrow
 white:black_pointer_line
 white:black_red_diamond
 white:black_rider
+white:black_right_arrow
 white:black_T
 white:black_&#62;
 white:blau_bar
@@ -1326,10 +1330,12 @@ white:green_green_backslash
 white:green_house
 white:green_chapel
 white:green_leaf
+white:green_left_pointer
 white:green_oak_leaf
 white:green_oval
 white:green__pointer
 white:green_rectangle_w_stripe
+white:green_right_pointer
 white:green_round
 white:green_slah
 white:green_snake
@@ -1396,8 +1402,13 @@ white:NW
 white:O
 white:Oh!7
 white:Oh!8
+white:orange_!
 white:orange_flower
+white:orange_left_L
+white:orange_left_turned_L
 white:orange_round
+white:orange_T
+white:orange_turned_L
 white:orange_X
 white:P
 white:papillon
@@ -1449,6 +1460,7 @@ white:red_pointer;green
 white:red_pointer;red
 white:red_polish_underground
 white:red_rectangle;
+white:red_right_arrow
 white:red_round
 white:red_RT
 white:red_runner

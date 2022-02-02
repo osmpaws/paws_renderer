@@ -816,6 +816,7 @@ osmc-symbols/white-orange-dot-14.svg
 osmc-symbols/white-orange-hexagon-14.svg
 osmc-symbols/white-orange-hiker-14.svg
 osmc-symbols/white-orange-lower-14.svg
+osmc-symbols/white-orange-l-14.svg
 osmc-symbols/white-orange-pointer-14.svg
 osmc-symbols/white-orange-rectangle-14.svg
 osmc-symbols/white-orange-right-14.svg

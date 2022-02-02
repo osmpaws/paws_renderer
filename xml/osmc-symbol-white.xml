@@ -336,6 +336,9 @@
 		<rule e="way" k="osmc_foreground" v="purple_L">
 			<lineSymbol src="file:/osmc-symbols/white_purple_l.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="orange_L">
+			<lineSymbol src="file:/osmc-symbols/white_orange_l.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="L">
 			<lineSymbol src="file:/osmc-symbols/white_l.png" align-center="false" repeat="true" />
 		</rule>
