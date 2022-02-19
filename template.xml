@@ -2,7 +2,7 @@
 <rendertheme xmlns="http://mapsforge.org/renderTheme" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://mapsforge.org/renderTheme ../renderTheme.xsd" version="1" map-background="#f8f8f8">
 	
-	<!--#r00240b00774#-->
+	<!--#r00253b00795#-->
 
 	<!--style#v4#setup-->
 	
@@ -38,7 +38,9 @@
 	<rule e="any" k="*" v="*">
 		<rule e="any" k="leisure" v="nature_reserve" zoom-min="16"> <!--not_car_mode-->
 			<caption k="name" font-family="serif" font-style="bold_italic" font-size="17.00" fill="#40aa40" stroke="#ffffff" stroke-width="3.00" />
-			<pathText k="name" font-family="serif" font-style="bold_italic" font-size="17.00" fill="#40aa40" stroke="#ffffff" stroke-width="3.00" />
+			<rule e="any" k="*" v="*" zoom-min="16">
+				<pathText k="name" font-family="serif" font-style="bold_italic" font-size="17.00" fill="#40aa40" stroke="#ffffff" stroke-width="3.00" />
+			</rule>
 		</rule>		
 		<rule e="any" k="landuse" v="reservoir|basin" zoom-min="14"> <!--not_car_mode-->
 			<caption k="name" font-family="serif" font-style="italic" font-size="17.00" fill="#5576d1" stroke="#e0e0f0" stroke-width="3.00" />
@@ -1851,6 +1853,8 @@
 			</rule>
 			<rule e="way" k="boundary" v="national_park" zoom-min="12" >
 				<line stroke="#4ef94b" stroke-width="0.37" stroke-dasharray="22.50,7.50,7.50,7.5" />
+			</rule>
+			<rule e="way" k="boundary" v="national_park" zoom-min="14" >
 				<caption k="name" font-family="serif" font-style="bold_italic" font-size="17.00" fill="#40aa40" stroke="#ffffff" stroke-width="3.00" />
 				<pathText k="name" font-family="serif" font-style="bold_italic" font-size="17.00" fill="#40aa40" stroke="#ffffff" stroke-width="3.00" />
 				<!--national#park#pattern-->

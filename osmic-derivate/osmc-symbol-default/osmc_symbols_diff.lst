@@ -203,6 +203,7 @@ blue:blue_frame
 blueblue:GRW
 blue:blue_recangle
 blue:bluerectangle
+blue:blue-redtangle
 blue;blue/white;white;W;gray
 blue:Buit
 :blue_circle
@@ -389,6 +390,7 @@ brown:brownR
 brown:castle
 brown_circle:
 :brown_diamond
+:brown_dot
 brown_dot:
 brown:EA
 brown_frame:
@@ -673,6 +675,7 @@ green:W9
 green:yellow
 green:yellow_frame
 Green:yellow_triangle
+green:yellow_triple_dot
 green:1
 green:10
 green:&#127;
@@ -996,6 +999,7 @@ red:PT
 red:R
 red_rectangel:
 :red_rectangle
+red_rectangle
 red_rectangle:
 red_rectangle:3B
 red:red
@@ -1072,6 +1076,7 @@ red:white_stripe_Z8
 red.white_stripe:132
 red_white_stripe:176A
 red:white_stripe_432
+red;white_stripe:717
 red_white_stripe:737
 red:white_stripr
 red:white_strype20
@@ -1196,6 +1201,7 @@ white_bar:21
 white:BgD
 white:black
 white:black_anchor
+white:black_arrow
 whiteblack_bar
 white:black_bicycle
 white:black_bike
@@ -1402,6 +1408,7 @@ white:NW
 white:O
 white:Oh!7
 white:Oh!8
+white:orange
 white:orange_!
 white:orange_flower
 white:orange_left_L
@@ -1553,6 +1560,7 @@ white:X
 white:yblue_rectangle
 white:yello_bar
 white:yellow
+white:yellow_arrow
 white:yellow_backlash
 white_yellow_bar
 white:yellow_bar_Nefl

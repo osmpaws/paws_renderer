@@ -2,7 +2,7 @@
 <rendertheme xmlns="http://mapsforge.org/renderTheme" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://mapsforge.org/renderTheme https://raw.githubusercontent.com/mapsforge/mapsforge/dev/resources/renderTheme-v4.xsd" version="4" map-background-outside="#EEEEEE" map-background="#f8f8f8">
 	
-	<!--#r00240b00774#-->
+	<!--#r00253b00795#-->
 
 	<!--style#v4#setup-->
 <stylemenu id="r4menu" defaultvalue="default" defaultlang="en">
@@ -218,7 +218,9 @@
 	<rule e="any" k="*" v="*">
 		<rule cat="not_car_mode" e="any" k="leisure" v="nature_reserve" zoom-min="16"> <!--not_car_mode-->
 			<caption k="name" font-family="serif" font-style="bold_italic" font-size="17.00" fill="#40aa40" stroke="#ffffff" stroke-width="3.00" />
-			<pathText k="name" font-family="serif" font-style="bold_italic" font-size="17.00" fill="#40aa40" stroke="#ffffff" stroke-width="3.00" />
+			<rule e="any" k="*" v="*" zoom-min="16">
+				<pathText k="name" font-family="serif" font-style="bold_italic" font-size="17.00" fill="#40aa40" stroke="#ffffff" stroke-width="3.00" />
+			</rule>
 		</rule>		
 		<rule cat="not_car_mode" e="any" k="landuse" v="reservoir|basin" zoom-min="14"> <!--not_car_mode-->
 			<caption k="name" font-family="serif" font-style="italic" font-size="17.00" fill="#5576d1" stroke="#e0e0f0" stroke-width="3.00" />
@@ -2963,11 +2965,17 @@
 			<!--protected#area-->
 			<rule cat="not_car_mode" e="way" k="boundary" v="protected_area" zoom-min="12" >
 				<line stroke="#4ef94b" stroke-width="0.37" stroke-dasharray="22.50,7.50,7.50,7.5" />
+			</rule>
+			<rule cat="not_car_mode" e="way" k="boundary" v="protected_area" zoom-min="14" >
 				<caption k="name" font-family="serif" font-style="bold_italic" font-size="17.00" fill="#40aa40" stroke="#ffffff" stroke-width="3.00" />
-				<pathText k="name" font-family="serif" font-style="bold_italic" font-size="17.00" fill="#40aa40" stroke="#ffffff" stroke-width="3.00" />
+				<rule e="any" k="*" v="*" zoom-min="16">
+					<pathText k="name" font-family="serif" font-style="bold_italic" font-size="17.00" fill="#40aa40" stroke="#ffffff" stroke-width="3.00" />
+				</rule>
 			</rule>
 			<rule e="way" k="boundary" v="national_park" zoom-min="12" >
 				<line stroke="#4ef94b" stroke-width="0.37" stroke-dasharray="22.50,7.50,7.50,7.5" />
+			</rule>
+			<rule e="way" k="boundary" v="national_park" zoom-min="14" >
 				<caption k="name" font-family="serif" font-style="bold_italic" font-size="17.00" fill="#40aa40" stroke="#ffffff" stroke-width="3.00" />
 				<pathText k="name" font-family="serif" font-style="bold_italic" font-size="17.00" fill="#40aa40" stroke="#ffffff" stroke-width="3.00" />
 				<!--national#park#pattern-->
@@ -3091,7 +3099,7 @@
 	</rule>
 	
 	<!--nature#reserve-->
-	<rule cat="not_car_mode" e="way" k="leisure" v="nature_reserve" zoom-min="13">
+	<rule cat="national_park_pattern" e="way" k="leisure" v="nature_reserve" zoom-min="14">
 		<area src="file:patterns/nature_reserve.svg" symbol-scaling="size" symbol-width="8" symbol-height="8" stroke="#6fc18e" stroke-width="0.30" />
 	</rule>
 
