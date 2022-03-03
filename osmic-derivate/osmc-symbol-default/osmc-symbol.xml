@@ -6238,6 +6238,12 @@
 	<rule e="way" k="osmc_background" v="purple_circle" zoom-min="15">
 	</rule>
 	<rule e="way" k="osmc_background" v="purple_frame" zoom-min="15">
+		<rule e="way" k="osmc_foreground" v="yellow_rectangle">
+			<lineSymbol src="file:/osmc-symbols/purple_frame_yellow_rectangle.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="yellow_rectangle">
+			<symbol src="file:/osmc-symbols/purple_frame_yellow_rectangle.png" />
+		</rule>
 	</rule>
 	<rule e="way" k="osmc_background" v="purple_round" zoom-min="15">
 	</rule>

@@ -402,6 +402,7 @@ brown:NaEr
 brown:none
 brown:PL
 :brown_pointer
+brown_rectangle:AT
 brown:RKr
 brown_round
 brown:RR03
@@ -581,6 +582,7 @@ green:NHB
 green:NKD
 green:NNg
 green:none
+green_none:
 green:NRU
 green:NUR
 green:N1
@@ -956,6 +958,7 @@ red_frame:KrM
 red_frame:K1
 red_frame:none
 red_frame:red_red_lower
+red_frame:white
 red:FT
 red:FW
 red:F2

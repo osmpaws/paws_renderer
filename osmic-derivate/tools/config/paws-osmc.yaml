@@ -6372,6 +6372,14 @@ purple-white-rectangle:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+purple-frame-yellow-rectangle:
+  fill: "#ffdd00"
+  shield:
+    stroke_fill: "#b878dd"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 2
+    padding: 2
 red-white-rectangle:
   fill: "#ffffff"
   shield:
