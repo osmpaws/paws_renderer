@@ -969,6 +969,7 @@ osmc-symbols/yellow-blue-turned-t-14.svg
 osmc-symbols/yellow-blue-wheel-14.svg
 osmc-symbols/yellow-brown-bar-14.svg
 osmc-symbols/yellow-brown-hiker-14.svg
+osmc-symbols/yellow-brown-slash-14.svg
 osmc-symbols/yellow-circle-black-pointer-14.svg
 osmc-symbols/yellow-circle-green-dot-14.svg
 osmc-symbols/yellow-circle-orange-dot-14.svg
@@ -1013,6 +1014,7 @@ osmc-symbols/yellow-purple-circle-14.svg
 osmc-symbols/yellow-purple-dot-14.svg
 osmc-symbols/yellow-purple-lower-14.svg
 osmc-symbols/yellow-purple-pointer-14.svg
+osmc-symbols/yellow-purple-slash-14.svg
 osmc-symbols/yellow-red-bar-14.svg
 osmc-symbols/yellow-red-circle-14.svg
 osmc-symbols/yellow-red-corner-14.svg

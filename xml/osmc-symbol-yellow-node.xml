@@ -216,6 +216,12 @@
 		<rule e="node" k="osmc_foreground" v="white_slash">
 			<symbol src="file:/osmc-symbols/yellow_white_slash.png" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="brown_slash">
+			<symbol src="file:/osmc-symbols/yellow_brown_slash.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="purple_slash">
+			<symbol src="file:/osmc-symbols/yellow_purple_slash.png" />
+		</rule>
 		<rule e="node" k="osmc_foreground" v="red_stripe">
 			<symbol src="file:/osmc-symbols/yellow_red_stripe.png" />
 		</rule>

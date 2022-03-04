@@ -6295,6 +6295,20 @@ yellow-white-slash:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+yellow-brown-slash:
+  fill: "#8b4513"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+yellow-purple-slash:
+  fill: "#b878dd"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 black-white-stripe:
   fill: "#ffffff"
   shield:
