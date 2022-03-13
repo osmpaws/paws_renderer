@@ -1596,6 +1596,12 @@
 		<rule e="node" k="osmc_foreground" v="orange_circle">
 			<symbol src="file:/osmc-symbols/white_orange_circle.png" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="circle">
+			<lineSymbol src="file:/osmc-symbols/white_circle.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="circle">
+			<symbol src="file:/osmc-symbols/white_circle.png" />
+		</rule>
 	</rule>
 	<rule e="way" k="osmc_background" v="white_circle" zoom-min="15">
 		<rule e="way" k="osmc_foreground" v="red_circle">

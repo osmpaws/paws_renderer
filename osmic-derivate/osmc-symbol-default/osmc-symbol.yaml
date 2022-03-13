@@ -1663,6 +1663,13 @@ white-orange-circle:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+white-circle:
+  fill: "#000000"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 white-circle-red-circle:
   fill: "#ff0000"
   shield:
