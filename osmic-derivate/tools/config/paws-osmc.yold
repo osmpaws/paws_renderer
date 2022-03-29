@@ -2809,6 +2809,13 @@ orange-white-cross:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+purple-yellow-cross:
+  fill: "#ffdd00"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 purple-white-cross:
   fill: "#ffffff"
   shield:
