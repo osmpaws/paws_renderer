@@ -170,6 +170,7 @@ black:X28
 black:X7
 black:X8
 black:yellow
+black:1
 black:16
 black:19
 black:2
@@ -219,6 +220,7 @@ blue_circle:L9
 bluecircle:Nellele-Rundweg
 blue_circle:17
 blue_cross
+blue:C1
 blue:D
 blue:DHB
 :blue_diamond
@@ -233,6 +235,7 @@ blue_dot:blue_dot
 blue_dot:3
 :blue_drop
 blue_drop
+blue:D1
 blue:EPW
 blue:E-R6
 blue_fork
@@ -515,6 +518,7 @@ green_dot:4
 Green_drop_filled.png
 green:DRW
 green:EWkE
+green:FEE
 green:FFLP
 green:fork_blue
 green_frame
@@ -561,6 +565,7 @@ green:IRA
 green:Jakob-Stutz-Weg
 green:jellow_dot
 green:JVH
+green:K
 green:Karstspur
 green:KBP
 green:KVO
@@ -639,6 +644,7 @@ green:S1
 green:S2
 green:S3
 green:S4
+green:T
 green:Thurgauer
 green:TJS
 green:TL
@@ -676,6 +682,7 @@ green:W7
 green:W8
 green:W9
 :green_x
+green:y
 green:yellow
 green:yellow_frame
 Green:yellow_triangle
@@ -871,6 +878,7 @@ purple_diamond:blue_dot
 purple_diamond:csc
 :purple_dot
 purple:DP
+purple:FEE
 purple:flower
 purple_frame:
 purple:GPS
@@ -960,6 +968,7 @@ red_frame:Bijl
 red_frame:KrM
 red_frame:K1
 red_frame:none
+red_frame:red-hiker
 red_frame:red_red_lower
 red_frame:white
 red:FT
@@ -1342,6 +1351,7 @@ white:green_frame
 white:green_green_backslash
 white:green_house
 white:green_chapel
+white:green_l
 white:green_leaf
 white:green_left_pointer
 white:green_oak_leaf

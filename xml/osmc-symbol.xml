@@ -2222,6 +2222,12 @@
 	<rule e="way" k="osmc_background" v="orange_round" zoom-min="15">
 	</rule>
 	<rule e="way" k="osmc_background" v="purple" zoom-min="15">
+		<rule e="way" k="osmc_foreground" v="yellow_cross">
+			<lineSymbol src="file:/osmc-symbols/purple_yellow_cross.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="yellow_cross">
+			<symbol src="file:/osmc-symbols/purple_yellow_cross.png" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="white_cross">
 			<lineSymbol src="file:/osmc-symbols/purple_white_cross.png" align-center="false" repeat="true" />
 		</rule>
