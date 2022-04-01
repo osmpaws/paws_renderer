@@ -6296,6 +6296,13 @@ white-black-slash:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+white-orange-slash:
+  fill: "#f96f00"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 yellow-blue-slash:
   fill: "#1579e0"
   shield:

@@ -7076,6 +7076,12 @@
 		<rule e="node" k="osmc_foreground" v="black_slash">
 			<symbol src="file:/osmc-symbols/white_black_slash.png" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="orange_slash">
+			<lineSymbol src="file:/osmc-symbols/white_orange_slash.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="orange_slash">
+			<symbol src="file:/osmc-symbols/white_orange_slash.png" />
+		</rule>
 	</rule>
 	<rule e="way" k="osmc_background" v="white_circle" zoom-min="15">
 	</rule>

@@ -795,6 +795,7 @@ orange_frame:
 orange:F3
 orange:gray_bar
 orange:green
+orange:green_C
 orange:HF5
 :orange_hiker
 orange:KS
@@ -1354,6 +1355,7 @@ white:green_chapel
 white:green_l
 white:green_leaf
 white:green_left_pointer
+white:Green_lower
 white:green_oak_leaf
 white:green_oval
 white:green__pointer
@@ -1546,6 +1548,7 @@ white_triangle
 white_triangle:
 white_triangle:blue_dot
 white_triangle:green_dot
+white_triangle:red_dot
 white_triangle:red_triangle
 white:Tt
 white:TT
