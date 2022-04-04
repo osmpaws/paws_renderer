@@ -585,7 +585,7 @@ bare-rock:
   fill: "#25281e"
   opacity: 0.5
   shield:
-    fill: "#80abc2"
+    fill: "#c2b48c"
     opacity: 0.5
 basin:
   fill: "#b5d6f1"
@@ -593,26 +593,26 @@ basin:
 cemetery:
   fill: "#999999"
   shield:
-    fill: "#9acee1"
+    fill: "#bde3cb"
 cemetery-christian:
   fill: "#999999"
   shield:
-    fill: "#9acee1"
+    fill: "#bde3cb"
 cemetery-jewish:
   fill: "#999999"
   shield:
-    fill: "#9acee1"
+    fill: "#bde3cb"
 dog-park:
   fill: "#b7e8bc"
   opacity: 0.75
   shield:
-    fill: "#96c9cd"
+    fill: "#c7f1a3"
     opacity: 0.3
     padding: 2
 hops:
   fill: "#00bb54"
   shield:
-    fill: "#b8f5f2"
+    fill: "#fff5ed"
     padding: 3
 marsh:
   fill: "#0092da"
@@ -620,7 +620,7 @@ military:
   fill: "#555555"
   opacity: 0.25
   shield:
-    fill: "#8bbaa0"
+    fill: "#ffe649"
     opacity: 0.25
     padding: 2
 nature-reserve:
@@ -632,42 +632,42 @@ national-park:
 orchard:
   fill: "#000000"
   shield:
-    fill: "#8ab8cd"
+    fill: "#aadca2"
 photovoltaic:
   fill: "#ffffff"
   shield:
-    fill: "#394ccd"
+    fill: "#2222a2"
     opacity: 0.25
 plant-nursery:
   fill: "#000000"
   shield:
-    fill: "#8ab8cd"
+    fill: "#aadca2"
 scree:
   fill: "#35281e"
   opacity: 0.5
   shield:
-    fill: "#84b0c2"
+    fill: "#d2b48c"
     opacity: 0.5
 scrub:
   fill: "#569953"
   shield:
-    fill: "#7ca6c5"
+    fill: "#96c993"
 vineyard:
   fill: "#000000"
   shield:
-    fill: "#8ab8cd"
+    fill: "#aadca2"
 wood-coniferous:
   fill: "#a0c28d"
   shield:
-    fill: "#80abc5"
+    fill: "#a6c993"
 wood-deciduous:
   fill: "#a0c28d"
   shield:
-    fill: "#80abc5"
+    fill: "#a6c993"
 wood-mixed:
   fill: "#a0c28d"
   shield:
-    fill: "#80abc5"
+    fill: "#a6c993"
 #osmc-symbol
 osmcbg-black:
   fill: "#000000"
@@ -6961,6 +6961,13 @@ white-green-slash:
     padding: 1
 white-black-slash:
   fill: "#000000"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+white-orange-slash:
+  fill: "#f96f00"
   shield:
     fill: "#ffffff"
     stroke_fill: "#000000"

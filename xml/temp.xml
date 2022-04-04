@@ -2,7 +2,7 @@
 <rendertheme xmlns="http://mapsforge.org/renderTheme" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://mapsforge.org/renderTheme ../renderTheme.xsd" version="1" map-background="#f8f8f8">
 	
-	<!--#r00286b00828#-->
+	<!--#r00287b00829#-->
 
 	<!--style#v4#setup-->
 	
@@ -2595,6 +2595,9 @@
 		<rule e="way" k="osmc_foreground" v="blue_bowl">
 			<lineSymbol src="file:/osmc-symbols/blue_frame_blue_bowl.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="blue_circle">
+			<lineSymbol src="file:/osmc-symbols/blue_frame_blue_circle.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="blue_diamond">
 			<lineSymbol src="file:/osmc-symbols/blue_frame_blue_diamond.png" align-center="false" repeat="true" />
 		</rule>
@@ -3861,6 +3864,9 @@
 		<rule e="way" k="osmc_foreground" v="yellow_triangle">
 			<lineSymbol src="file:/osmc-symbols/orange_yellow_triangle.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="green_triangle">
+			<lineSymbol src="file:/osmc-symbols/orange_green_triangle.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="white_triangle">
 			<lineSymbol src="file:/osmc-symbols/orange_white_triangle.png" align-center="false" repeat="true" />
 		</rule>
@@ -4061,6 +4067,9 @@
 		</rule>
 		<rule e="way" k="osmc_foreground" v="white_bar">
 			<lineSymbol src="file:/osmc-symbols/red_frame_white_bar.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="blue_circle">
+			<lineSymbol src="file:/osmc-symbols/red_frame_blue_circle.png" align-center="false" repeat="true" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="red_cross">
 			<lineSymbol src="file:/osmc-symbols/red_frame_red_cross.png" align-center="false" repeat="true" />
