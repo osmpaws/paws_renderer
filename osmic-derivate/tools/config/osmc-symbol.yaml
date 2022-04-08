@@ -509,6 +509,13 @@ green-frame-green-backslash:
     opacity: 0.0
     rounded: 2
     padding: 2
+orange-yellow-backslash:
+  fill: "#ffdd00"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 orange-green-backslash:
   fill: "#00cd27"
   shield:
