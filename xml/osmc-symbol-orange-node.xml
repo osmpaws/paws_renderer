@@ -27,6 +27,9 @@
 		<rule e="node" k="osmc_foreground" v="black_bar">
 			<symbol src="file:/osmc-symbols/orange_black_bar.png" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="purple_bar">
+			<symbol src="file:/osmc-symbols/orange_purple_bar.png" />
+		</rule>
 		<rule e="node" k="osmc_foreground" v="blue_circle">
 			<symbol src="file:/osmc-symbols/orange_blue_circle.png" />
 		</rule>
