@@ -44,6 +44,7 @@ black:A6
 black_bar
 black:black
 black:black_rectagle
+black:black_rectangele
 black:black_Rectangle
 black:Black-rectangle
 black:black_retangle
@@ -807,6 +808,7 @@ orange:N
 orange:none
 orange:O
 orange:orange
+orange_orange_frame:purple_bar
 orange:orange_rectangel
 :orange_pointer
 orange_pointer
@@ -1870,6 +1872,7 @@ yellow:WW
 :yellow_x
 yellow_x
 yellow:yellow
+yellow_yellow_frame:purple_bar
 yellow:yellow_rectangle1
 yellow:yellow.51
 yellow:YT
