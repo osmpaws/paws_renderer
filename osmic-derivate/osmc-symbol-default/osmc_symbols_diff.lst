@@ -896,6 +896,7 @@ purple:purple
 :purple_round
 purple_round
 purple_round:
+purple_round:none
 purple:RTw
 purple:RWR
 purple:RWS
@@ -1597,6 +1598,7 @@ white:yellow_diamand
 white;yellow_diamond
 white_yellow_diamond
 white:yellow_diamond;blue
+white:yellow_diamond_right
 white:yellow_dimond
 white:yellow_dot,
 white:yellow_FIXME_alternative
