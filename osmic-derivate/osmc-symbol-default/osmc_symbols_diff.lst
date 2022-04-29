@@ -401,6 +401,7 @@ brown_circle:
 :brown_dot
 brown_dot:
 brown:EA
+brown_frame
 brown_frame:
 brown:F1
 brown:G
@@ -428,6 +429,7 @@ brown:WLP
 brown;yellow;brown_pointer
 brown:yellow_frame
 brown:1
+brown&#127;&#127;&#127;&#127;:NaEr
 brown:15
 brown:3
 brown:6
@@ -909,6 +911,7 @@ purple_web
 purple:white
 purple:W1
 purple:08
+purple:&#127;&#127;&#127;&#127;&#127;A4
 purple:15
 purple:3
 purple:34
@@ -1113,6 +1116,7 @@ red_x
 red:1
 red:11
 red:12
+red:&#127;&#127;WR
 red:13
 red:2
 red:2M
@@ -1691,6 +1695,7 @@ yellow:BB
 yellow:black
 yellow:black_bike
 yellow:black_horse
+yellow:black_pointer_line
 yellow:blau_triangle
 yellow:BLP
 yellow:blue
@@ -1921,6 +1926,7 @@ Z00:black
 011:black
 11:black
 #122164:white_arrow
+&#127;&#127;&#127;black:5
 136
 2
 2:black

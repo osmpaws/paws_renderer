@@ -18,6 +18,9 @@
 		<rule e="node" k="osmc_foreground" v="black_cross">
 			<symbol src="file:/osmc-symbols/green_frame_black_cross.png" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="blue_diamond_line">
+			<symbol src="file:/osmc-symbols/green_frame_blue_diamond_line.png" />
+		</rule>
 		<rule e="node" k="osmc_foreground" v="white_dot">
 			<symbol src="file:/osmc-symbols/green_frame_white_dot.png" />
 		</rule>
