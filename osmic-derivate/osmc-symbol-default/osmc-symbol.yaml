@@ -3760,6 +3760,13 @@ red-heart:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+white-red-heart:
+  fill: "#ff0000"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 white-heart:
   fill: "#000000"
   shield:

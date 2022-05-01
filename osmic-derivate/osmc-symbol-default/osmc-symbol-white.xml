@@ -249,6 +249,9 @@
 		<rule e="way" k="osmc_foreground" v="black_fork">
 			<lineSymbol src="file:/osmc-symbols/white_black_fork.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="red_heart">
+			<lineSymbol src="file:/osmc-symbols/white_red_heart.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="heart">
 			<lineSymbol src="file:/osmc-symbols/white_heart.png" align-center="false" repeat="true" />
 		</rule>

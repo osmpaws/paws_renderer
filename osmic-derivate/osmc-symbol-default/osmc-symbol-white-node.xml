@@ -249,6 +249,9 @@
 		<rule e="node" k="osmc_foreground" v="black_fork">
 			<symbol src="file:/osmc-symbols/white_black_fork.png" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="red_heart">
+			<symbol src="file:/osmc-symbols/white_red_heart.png" />
+		</rule>
 		<rule e="node" k="osmc_foreground" v="heart">
 			<symbol src="file:/osmc-symbols/white_heart.png" />
 		</rule>
