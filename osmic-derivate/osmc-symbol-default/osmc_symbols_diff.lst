@@ -287,6 +287,7 @@ blue:NLS
 blue:NNk
 blue:none
 blue:none_bar
+blue:NP
 blue:NSS
 blue:NTW
 blue:orange
@@ -659,6 +660,7 @@ green_triangle
 green_triangle:
 green:TW
 green:U2
+green:VR1
 green:W
 green:WdS
 green_web
@@ -754,6 +756,7 @@ maroon:
 maroon:lime_bar
 maroon_round:CSC
 maroon_web
+maroon:yellow
 :mine
 mine
 Muntii
@@ -852,6 +855,7 @@ orange:15
 orange:3
 orange:6
 orang:none
+:P
 pink
 :pink_bar
 pink:black_dot

@@ -8375,6 +8375,13 @@ yellow-blue-wheel:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+yellow-black-wheel:
+  fill: "#000000"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 black-white-x:
   fill: "#ffffff"
   shield:
