@@ -7381,6 +7381,13 @@ purple-tower:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+red-white-tower:
+  fill: "#ffffff"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 red-tower:
   fill: "#ffffff"
   shield:

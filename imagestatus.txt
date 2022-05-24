@@ -682,6 +682,7 @@ osmc-symbols/red-white-right-14.svg
 osmc-symbols/red-white-shell-modern-14.svg
 osmc-symbols/red-white-slash-14.svg
 osmc-symbols/red-white-stripe-14.svg
+osmc-symbols/red-white-tower-14.svg
 osmc-symbols/red-white-triangle-turned-14.svg
 osmc-symbols/red-white-triangle-14.svg
 osmc-symbols/red-white-turned-t-14.svg
