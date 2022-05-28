@@ -180,6 +180,9 @@
 		<rule e="node" k="osmc_foreground" v="yellow_triangle_line">
 			<symbol src="file:/osmc-symbols/red_yellow_triangle_line.png" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="white_triangle_line">
+			<symbol src="file:/osmc-symbols/red_white_triangle_line.png" />
+		</rule>
 		<rule e="node" k="osmc_foreground" v="white_triangle_turned">
 			<symbol src="file:/osmc-symbols/red_white_triangle_turned.png" />
 		</rule>

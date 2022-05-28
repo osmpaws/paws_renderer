@@ -203,6 +203,7 @@ osmc-symbols/blue-white-pointer-14.svg
 osmc-symbols/blue-white-rectangle-14.svg
 osmc-symbols/blue-white-shell-14.svg
 osmc-symbols/blue-white-stripe-14.svg
+osmc-symbols/blue-white-triangle-line-14.svg
 osmc-symbols/blue-white-triangle-14.svg
 osmc-symbols/blue-white-turned-t-14.svg
 osmc-symbols/blue-white-wheelchair-14.svg
@@ -683,6 +684,7 @@ osmc-symbols/red-white-shell-modern-14.svg
 osmc-symbols/red-white-slash-14.svg
 osmc-symbols/red-white-stripe-14.svg
 osmc-symbols/red-white-tower-14.svg
+osmc-symbols/red-white-triangle-line-14.svg
 osmc-symbols/red-white-triangle-turned-14.svg
 osmc-symbols/red-white-triangle-14.svg
 osmc-symbols/red-white-turned-t-14.svg

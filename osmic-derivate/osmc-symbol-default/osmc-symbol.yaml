@@ -6776,6 +6776,13 @@ black-white-triangle-line:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+blue-white-triangle-line:
+  fill: "#ffffff"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 green-yellow-triangle-line:
   fill: "#ffdd00"
   shield:
@@ -6799,6 +6806,13 @@ purple-white-triangle-line:
     padding: 1
 red-yellow-triangle-line:
   fill: "#ffdd00"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+red-white-triangle-line:
+  fill: "#ffffff"
   shield:
     fill: "#ff0000"
     stroke_fill: "#000000"
