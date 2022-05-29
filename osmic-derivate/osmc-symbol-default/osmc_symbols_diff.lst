@@ -29,6 +29,7 @@ background:red_x
 Bea
 bee
 bigtree
+blac:black
 black
 black:
 black:-
@@ -44,6 +45,7 @@ black:A6
 :black_bar
 black_bar
 black:black
+Black:black
 black:black_rectagle
 black:black_rectangele
 black:black_Rectangle
@@ -1628,6 +1630,7 @@ white:yellow_ring
 white:yellow_round
 white:yellow_runner
 white:yellow_star
+white:yellow_T
 white:yellow_triangel
 white_yellow_triangle
 white[:yellow_x]

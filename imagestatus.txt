@@ -892,6 +892,7 @@ osmc-symbols/white-red-wheelchair-14.svg
 osmc-symbols/white-red-wheel-14.svg
 osmc-symbols/white-red-x-14.svg
 osmc-symbols/white-round-black-circle-14.svg
+osmc-symbols/white-round-black-cross-14.svg
 osmc-symbols/white-round-black-diamond-14.svg
 osmc-symbols/white-round-blue-bar-14.svg
 osmc-symbols/white-round-blue-circle-14.svg
