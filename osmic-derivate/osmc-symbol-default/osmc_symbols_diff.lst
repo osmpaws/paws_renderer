@@ -361,6 +361,7 @@ blue:Wew
 blue:WG
 :blue_wheelchair
 blue:white
+blue:white_arrow
 blue_white_bar
 blue:white_star
 blue:WWW
@@ -1279,6 +1280,7 @@ white:blue_house
 white:blue_chapel
 white:blue_memorial
 white:blue_miner
+white:blue_pin
 white:blue_square
 white:blue_stamp
 white:blue_T
@@ -1622,6 +1624,7 @@ white:yellow_FIXME_alternative
 white:yellow_goblet
 white:yellow_house
 white:yellow_chapel
+white:yellow_pin
 white:yellow_point
 whiteyellow_pointer
 white:yellow_rectrangle
@@ -1797,6 +1800,7 @@ yellow:HBB
 yellow:HF1
 yellow:HF6
 :yellow_hiker
+yellow_hiker
 yellow:H2
 yellow:H8
 yellow:I

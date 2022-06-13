@@ -2,7 +2,7 @@
 <rendertheme xmlns="http://mapsforge.org/renderTheme" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://mapsforge.org/renderTheme ../renderTheme.xsd" version="1" map-background="#f8f8f8">
 	
-	<!--#r00324b00866#-->
+	<!--#r00328b00870#-->
 
 	<!--style#v4#setup-->
 	
@@ -3207,6 +3207,9 @@
 		<rule e="way" k="osmc_foreground" v="purple_bar">
 			<lineSymbol src="file:/osmc-symbols/gray_purple_bar.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="red_dot">
+			<lineSymbol src="file:/osmc-symbols/gray_red_dot.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="white_hiker">
 			<lineSymbol src="file:/osmc-symbols/gray_white_hiker.png" align-center="false" repeat="true" />
 		</rule>
@@ -3569,6 +3572,9 @@
 		</rule>
 		<rule e="way" k="osmc_foreground" v="shell_modern">
 			<lineSymbol src="file:/osmc-symbols/green_shell_modern.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="white_shell">
+			<lineSymbol src="file:/osmc-symbols/green_white_shell.png" align-center="false" repeat="true" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="shell">
 			<lineSymbol src="file:/osmc-symbols/green_shell.png" align-center="false" repeat="true" />

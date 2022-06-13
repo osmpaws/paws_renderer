@@ -2974,6 +2974,14 @@ white-cross:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+white-round-black-cross:
+  fill: "#000000"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
 yellow-red-cross:
   fill: "#ff0000"
   shield:
