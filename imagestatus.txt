@@ -624,6 +624,7 @@ osmc-symbols/red-circle-red-triangle-turned-14.svg
 osmc-symbols/red-circle-red-triangle-14.svg
 osmc-symbols/red-circle-white-circle-14.svg
 osmc-symbols/red-circle-white-dot-14.svg
+osmc-symbols/red-circle-yellow-bowl-14.svg
 osmc-symbols/red-circle-yellow-dot-14.svg
 osmc-symbols/red-frame-blue-circle-14.svg
 osmc-symbols/red-frame-blue-dot-14.svg

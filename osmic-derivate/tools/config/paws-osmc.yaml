@@ -1974,6 +1974,14 @@ green-frame-green-bowl:
     opacity: 0.0
     rounded: 2
     padding: 2
+red-circle-yellow-bowl:
+  fill: "#ffdd00"
+  shield:
+    stroke_fill: "#ff0000"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 10
+    padding: 2
 red-round-yellow-bowl:
   fill: "#ffdd00"
   shield:

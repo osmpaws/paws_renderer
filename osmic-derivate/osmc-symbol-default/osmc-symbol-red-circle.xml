@@ -6,6 +6,9 @@
 		<rule e="way" k="osmc_foreground" v="red_bar">
 			<lineSymbol src="file:/osmc-symbols/red_circle_red_bar.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="yellow_bowl">
+			<lineSymbol src="file:/osmc-symbols/red_circle_yellow_bowl.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="green_circle">
 			<lineSymbol src="file:/osmc-symbols/red_circle_green_circle.png" align-center="false" repeat="true" />
 		</rule>

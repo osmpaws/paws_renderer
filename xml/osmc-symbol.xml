@@ -1214,6 +1214,12 @@
 	<rule e="way" k="osmc_background" v="red" zoom-min="15">
 	</rule>
 	<rule e="way" k="osmc_background" v="red_circle" zoom-min="15">
+		<rule e="way" k="osmc_foreground" v="yellow_bowl">
+			<lineSymbol src="file:/osmc-symbols/red_circle_yellow_bowl.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="yellow_bowl">
+			<symbol src="file:/osmc-symbols/red_circle_yellow_bowl.png" />
+		</rule>
 	</rule>
 	<rule e="way" k="osmc_background" v="red_frame" zoom-min="15">
 	</rule>
