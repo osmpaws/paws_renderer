@@ -776,6 +776,10 @@ none;none
 none:white_horse
 Nr.
 Nur
+N10
+N11
+N12
+N13
 O:black
 ol
 oramge:AP
@@ -1355,6 +1359,7 @@ white:gold_pointer
 white:GR
 white:gray_bar
 white:gray_pointer
+white:greeen_backslash
 white:green
 white:green_arrow
 white:green_bacjslash
