@@ -7245,6 +7245,13 @@ green-white-triangle:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+green-black-triangle:
+  fill: "#000000"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 green-circle-green-triangle:
   fill: "#00cd27"
   shield:

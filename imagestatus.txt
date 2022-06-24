@@ -322,6 +322,7 @@ osmc-symbols/green-black-pointer-14.svg
 osmc-symbols/green-black-rectangle-line-14.svg
 osmc-symbols/green-black-rectangle-14.svg
 osmc-symbols/green-black-stripe-14.svg
+osmc-symbols/green-black-triangle-14.svg
 osmc-symbols/green-blue-arch-14.svg
 osmc-symbols/green-blue-bar-14.svg
 osmc-symbols/green-blue-circle-14.svg
