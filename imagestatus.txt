@@ -630,6 +630,7 @@ osmc-symbols/red-circle-yellow-bowl-14.svg
 osmc-symbols/red-circle-yellow-dot-14.svg
 osmc-symbols/red-frame-blue-circle-14.svg
 osmc-symbols/red-frame-blue-dot-14.svg
+osmc-symbols/red-frame-blue-lower-14.svg
 osmc-symbols/red-frame-blue-turned-t-14.svg
 osmc-symbols/red-frame-hiker-14.svg
 osmc-symbols/red-frame-red-arch-14.svg
