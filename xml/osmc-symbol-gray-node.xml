@@ -36,6 +36,9 @@
 		<rule e="node" k="osmc_foreground" v="red_rectangle">
 			<symbol src="file:/osmc-symbols/gray_red_rectangle.png" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="yellow_shell">
+			<symbol src="file:/osmc-symbols/gray_yellow_shell.png" />
+		</rule>
 		<rule e="node" k="osmc_foreground" v="white_stripe">
 			<symbol src="file:/osmc-symbols/gray_white_stripe.png" />
 		</rule>

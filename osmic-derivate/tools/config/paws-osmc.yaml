@@ -6915,6 +6915,13 @@ blue-shell:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+gray-yellow-shell:
+  fill: "#ffdd00"
+  shield:
+    fill: "#aaaaaa"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 green-white-shell:
   fill: "#ffffff"
   shield:

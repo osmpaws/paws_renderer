@@ -312,6 +312,7 @@ osmc-symbols/gray-white-pointer-14.svg
 osmc-symbols/gray-white-stripe-14.svg
 osmc-symbols/gray-white-triangle-14.svg
 osmc-symbols/gray-yellow-bar-14.svg
+osmc-symbols/gray-yellow-shell-14.svg
 osmc-symbols/green-black-circle-14.svg
 osmc-symbols/green-black-cross-14.svg
 osmc-symbols/green-black-dot-14.svg
