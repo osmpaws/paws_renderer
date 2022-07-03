@@ -522,6 +522,9 @@
 		<rule e="node" k="osmc_foreground" v="brown_triangle_line">
 			<symbol src="file:/osmc-symbols/white_brown_triangle_line.png" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="purple_triangle_line">
+			<symbol src="file:/osmc-symbols/white_purple_triangle_line.png" />
+		</rule>
 		<rule e="node" k="osmc_foreground" v="red_triangle_turned">
 			<symbol src="file:/osmc-symbols/white_red_triangle_turned.png" />
 		</rule>
