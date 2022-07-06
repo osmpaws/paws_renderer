@@ -463,6 +463,7 @@ osmc-symbols/orange-black-diamond-14.svg
 osmc-symbols/orange-black-dot-14.svg
 osmc-symbols/orange-black-hiker-14.svg
 osmc-symbols/orange-black-pointer-14.svg
+osmc-symbols/orange-black-triangle-14.svg
 osmc-symbols/orange-blue-bar-14.svg
 osmc-symbols/orange-blue-circle-14.svg
 osmc-symbols/orange-blue-corner-14.svg
@@ -470,6 +471,7 @@ osmc-symbols/orange-blue-lower-14.svg
 osmc-symbols/orange-blue-pointer-14.svg
 osmc-symbols/orange-blue-right-14.svg
 osmc-symbols/orange-blue-stripe-14.svg
+osmc-symbols/orange-blue-triangle-14.svg
 osmc-symbols/orange-brown-pointer-14.svg
 osmc-symbols/orange-circle-orange-hiker-14.svg
 osmc-symbols/orange-circle-orange-triangle-14.svg
@@ -491,6 +493,7 @@ osmc-symbols/orange-red-hiker-14.svg
 osmc-symbols/orange-red-lower-14.svg
 osmc-symbols/orange-red-right-14.svg
 osmc-symbols/orange-red-stripe-14.svg
+osmc-symbols/orange-red-triangle-14.svg
 osmc-symbols/orange-round-blue-pointer-14.svg
 osmc-symbols/orange-round-brown-pointer-14.svg
 osmc-symbols/orange-round-green-pointer-14.svg

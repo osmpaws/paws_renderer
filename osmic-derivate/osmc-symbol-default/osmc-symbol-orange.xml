@@ -138,14 +138,23 @@
 		<rule e="way" k="osmc_foreground" v="tower">
 			<lineSymbol src="file:/osmc-symbols/orange_tower.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="red_triangle">
+			<lineSymbol src="file:/osmc-symbols/orange_red_triangle.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="yellow_triangle">
 			<lineSymbol src="file:/osmc-symbols/orange_yellow_triangle.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="blue_triangle">
+			<lineSymbol src="file:/osmc-symbols/orange_blue_triangle.png" align-center="false" repeat="true" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="green_triangle">
 			<lineSymbol src="file:/osmc-symbols/orange_green_triangle.png" align-center="false" repeat="true" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="white_triangle">
 			<lineSymbol src="file:/osmc-symbols/orange_white_triangle.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="black_triangle">
+			<lineSymbol src="file:/osmc-symbols/orange_black_triangle.png" align-center="false" repeat="true" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="wheel">
 			<lineSymbol src="file:/osmc-symbols/orange_wheel.png" align-center="false" repeat="true" />
