@@ -2,7 +2,7 @@
 <rendertheme xmlns="http://mapsforge.org/renderTheme" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://mapsforge.org/renderTheme https://raw.githubusercontent.com/mapsforge/mapsforge/dev/resources/renderTheme-v4.xsd" version="4" map-background-outside="#EEEEEE" map-background="#f8f8f8">
 	
-	<!--#r00338b00880#-->
+	<!--#r00340b00882#-->
 
 	<!--style#v4#setup-->
 <stylemenu id="r4menu" defaultvalue="default" defaultlang="en">
@@ -4426,6 +4426,9 @@
 		<rule e="node" k="osmc_foreground" v="white_circle">
 			<symbol src="file:osmc-symbols/green_circle_white_circle.svg" symbol-scaling="size" symbol-width="28" symbol-height="28" priority="2" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="green_cross">
+			<symbol src="file:osmc-symbols/green_circle_green_cross.svg" symbol-scaling="size" symbol-width="28" symbol-height="28" priority="2" />
+		</rule>
 		<rule e="node" k="osmc_foreground" v="blue_dot">
 			<symbol src="file:osmc-symbols/green_circle_blue_dot.svg" symbol-scaling="size" symbol-width="28" symbol-height="28" priority="2" />
 		</rule>
@@ -4539,6 +4542,9 @@
 		</rule>
 		<rule e="node" k="osmc_foreground" v="white_bowl">
 			<symbol src="file:osmc-symbols/green_white_bowl.svg" symbol-scaling="size" symbol-width="25" symbol-height="25" priority="2" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="red_circle">
+			<symbol src="file:osmc-symbols/green_red_circle.svg" symbol-scaling="size" symbol-width="25" symbol-height="25" priority="2" />
 		</rule>
 		<rule e="node" k="osmc_foreground" v="yellow_circle">
 			<symbol src="file:osmc-symbols/green_yellow_circle.svg" symbol-scaling="size" symbol-width="25" symbol-height="25" priority="2" />
@@ -5769,6 +5775,9 @@
 		</rule>
 		<rule e="node" k="osmc_foreground" v="corner">
 			<symbol src="file:osmc-symbols/white_corner.svg" symbol-scaling="size" symbol-width="25" symbol-height="25" priority="2" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="red_crest">
+			<symbol src="file:osmc-symbols/white_red_crest.svg" symbol-scaling="size" symbol-width="25" symbol-height="25" priority="2" />
 		</rule>
 		<rule e="node" k="osmc_foreground" v="yellow_crest">
 			<symbol src="file:osmc-symbols/white_yellow_crest.svg" symbol-scaling="size" symbol-width="25" symbol-height="25" priority="2" />
@@ -7834,6 +7843,9 @@
 		<rule e="way" k="osmc_foreground" v="white_circle">
 			<lineSymbol src="file:osmc-symbols/green_circle_white_circle.svg" symbol-scaling="size" symbol-width="28" symbol-height="28" rotate="false" repeat-start="#" repeat-gap="#"  align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="green_cross">
+			<lineSymbol src="file:osmc-symbols/green_circle_green_cross.svg" symbol-scaling="size" symbol-width="28" symbol-height="28" rotate="false" repeat-start="#" repeat-gap="#"  align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="blue_dot">
 			<lineSymbol src="file:osmc-symbols/green_circle_blue_dot.svg" symbol-scaling="size" symbol-width="28" symbol-height="28" rotate="false" repeat-start="#" repeat-gap="#"  align-center="false" repeat="true" />
 		</rule>
@@ -7992,6 +8004,9 @@
 		</rule>
 		<rule e="way" k="osmc_foreground" v="white_bowl">
 			<lineSymbol src="file:osmc-symbols/green_white_bowl.svg" symbol-scaling="size" symbol-width="25" symbol-height="25" rotate="false" repeat-start="#" repeat-gap="#"  align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="red_circle">
+			<lineSymbol src="file:osmc-symbols/green_red_circle.svg" symbol-scaling="size" symbol-width="25" symbol-height="25" rotate="false" repeat-start="#" repeat-gap="#"  align-center="false" repeat="true" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="yellow_circle">
 			<lineSymbol src="file:osmc-symbols/green_yellow_circle.svg" symbol-scaling="size" symbol-width="25" symbol-height="25" rotate="false" repeat-start="#" repeat-gap="#"  align-center="false" repeat="true" />
@@ -9273,6 +9288,9 @@
 		</rule>
 		<rule e="way" k="osmc_foreground" v="corner">
 			<lineSymbol src="file:osmc-symbols/white_corner.svg" symbol-scaling="size" symbol-width="25" symbol-height="25" rotate="false" repeat-start="#" repeat-gap="#"  align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="red_crest">
+			<lineSymbol src="file:osmc-symbols/white_red_crest.svg" symbol-scaling="size" symbol-width="25" symbol-height="25" rotate="false" repeat-start="#" repeat-gap="#"  align-center="false" repeat="true" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="yellow_crest">
 			<lineSymbol src="file:osmc-symbols/white_yellow_crest.svg" symbol-scaling="size" symbol-width="25" symbol-height="25" rotate="false" repeat-start="#" repeat-gap="#"  align-center="false" repeat="true" />

@@ -1503,6 +1503,13 @@ brown-frame-brown-circle:
     opacity: 0.0
     rounded: 2
     padding: 2
+green-red-circle:
+  fill: "#ff0000"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 green-yellow-circle:
   fill: "#ffdd00"
   shield:
@@ -2070,6 +2077,13 @@ black-frame-black-crest:
     opacity: 0.0
     rounded: 2
     padding: 2
+white-red-crest:
+  fill: "#ff0000"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 white-yellow-crest:
   fill: "#ffdd00"
   shield:
@@ -2183,6 +2197,14 @@ green-black-cross:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+green-circle-green-cross:
+  fill: "#00cd27"
+  shield:
+    stroke_fill: "#00cd27"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 10
+    padding: 2
 green-frame-black-cross:
   fill: "#000000"
   shield:

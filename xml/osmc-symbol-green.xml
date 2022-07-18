@@ -30,6 +30,9 @@
 		<rule e="way" k="osmc_foreground" v="white_bowl">
 			<lineSymbol src="file:/osmc-symbols/green_white_bowl.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="red_circle">
+			<lineSymbol src="file:/osmc-symbols/green_red_circle.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="yellow_circle">
 			<lineSymbol src="file:/osmc-symbols/green_yellow_circle.png" align-center="false" repeat="true" />
 		</rule>

@@ -46,6 +46,7 @@ black:A6
 black_bar
 black:black
 Black:black
+black:black_frame
 black:black_rectagle
 black:black_rectangele
 black:black_Rectangle
@@ -713,6 +714,7 @@ green:3
 green:39
 green:4
 green:5
+green:6
 green:7
 green:8
 green:897
@@ -1044,6 +1046,7 @@ red_rectangle
 red_rectangle:
 red_rectangle:3B
 red:red
+red:red_frame
 red:red_redtangle
 red:Red_under
 red:RnZ
@@ -1268,9 +1271,11 @@ white:blau_bar
 white:blck_pointer
 white:bliue_hiker
 white:blue
+white:blue_arrow
 white:blue_backlash
 white:blue_bar_
 white;blue_bar
+white:blue_bar;blue
 white:blue_bar;green
 white:blue_bars
 white:blue_bicycle
@@ -1375,6 +1380,7 @@ white:green_bicycle
 white:green_blackslash
 white:green_C
 White:green_cross
+white:green_crown
 white:green_diamont
 white:green_drop
 white:green_drop_line
@@ -1461,6 +1467,7 @@ white:Oh!7
 white:Oh!8
 white:orange
 white:orange_!
+white:orange_arrow
 white:orange_flower
 white:orange_left_L
 white:orange_left_turned_L
@@ -1496,6 +1503,7 @@ white:red
 white:red_arrow
 white:red-bar
 white:red_bar;green
+white:red_bar;red
 white:red_bicycle
 white:red_bike
 white:red_castle
@@ -1625,7 +1633,9 @@ white:yellow_diamand
 white;yellow_diamond
 white_yellow_diamond
 white:yellow_diamond;blue
+white:yellow_diamond;red
 white:yellow_diamond_right
+white:yellow_diamond;yellow
 white:yellow_dimond
 white:yellow_dot,
 white:yellow_FIXME_alternative
@@ -1725,6 +1735,7 @@ yellow:blau_triangle
 yellow:BLP
 yellow:blue
 yellow:blue_grape
+yellow:blue_left_arrow
 yellow:blue_red_diamond
 yellow:brown_hiking
 yellow:BuWi
