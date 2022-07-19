@@ -396,6 +396,7 @@ osmc-symbols/green-round-white-circle-14.svg
 osmc-symbols/green-round-white-dot-14.svg
 osmc-symbols/green-round-white-pointer-14.svg
 osmc-symbols/green-round-yellow-circle-14.svg
+osmc-symbols/green-round-yellow-dot-14.svg
 osmc-symbols/green-round-yellow-pointer-14.svg
 osmc-symbols/green-shell-modern-14.svg
 osmc-symbols/green-shell-14.svg
