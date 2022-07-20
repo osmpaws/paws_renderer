@@ -102,6 +102,9 @@
 		<rule e="way" k="osmc_foreground" v="white_fork">
 			<lineSymbol src="file:/osmc-symbols/green_white_fork.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="white_hexagon">
+			<lineSymbol src="file:/osmc-symbols/green_white_hexagon.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="black_hexagon">
 			<lineSymbol src="file:/osmc-symbols/green_black_hexagon.png" align-center="false" repeat="true" />
 		</rule>

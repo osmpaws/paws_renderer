@@ -4096,6 +4096,12 @@
 	<rule e="way" k="osmc_background" v="gray_round" zoom-min="15">
 	</rule>
 	<rule e="way" k="osmc_background" v="green" zoom-min="15">
+		<rule e="way" k="osmc_foreground" v="white_hexagon">
+			<lineSymbol src="file:/osmc-symbols/green_white_hexagon.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="white_hexagon">
+			<symbol src="file:/osmc-symbols/green_white_hexagon.png" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="black_hexagon">
 			<lineSymbol src="file:/osmc-symbols/green_black_hexagon.png" align-center="false" repeat="true" />
 		</rule>
