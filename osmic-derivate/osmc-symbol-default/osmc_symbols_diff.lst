@@ -163,6 +163,7 @@ black:whie_diamond_line
 black:white
 black:white_arrow
 black;white;red_rectangle
+black:white_right_pointer
 black:white_square
 black:white_wolfshook
 black:wolfshook
@@ -465,6 +466,7 @@ E6
 fish
 fixme
 fuchsia:3
+#f5b342:
 g
 :G
 Gelb
@@ -638,7 +640,9 @@ green_round:
 green_round:black
 green_round:green
 green_round:M
+green_round:none
 green_round:S
+green_round:T
 green_round:15
 green_round:16
 green:RR
@@ -802,6 +806,7 @@ orange_bar
 orange:black
 orange:BUN
 orange:BV
+orange:castle
 orange_circle
 orange_circle:
 orange:CL
@@ -828,6 +833,7 @@ orange:N
 orange:none
 orange:O
 orange:orange
+orange:orange_frame
 orange_orange_frame:purple_bar
 orange:orange_rectangel
 :orange_pointer
@@ -1297,6 +1303,7 @@ white:blue_pin
 white:blue_square
 white:blue_stamp
 white:blue_T
+white:blue_upper
 white:blue_white
 white:blueyellow
 white:blue_+3
@@ -1373,9 +1380,11 @@ white:green
 white:green_arrow
 white:green_bacjslash
 white:green_backshlash
+white:green_backslash;yellow
 white:green_bacslash
 White:Green_bar
 white:green_bar;green
+white:green_bar;red
 white:green_bat
 white:green_bicycle
 white:green_blackslash
@@ -1520,6 +1529,7 @@ white:red_grape
 white:red_green_bar
 white:red_house
 white:red_chapel
+white:red_left_pointer
 white:red_peak
 white:red_point
 white;red_pointer
@@ -1624,8 +1634,11 @@ white:yellow
 white:yellow_arrow
 white:yellow_backlash
 white_yellow_bar
+white:yellow_bar;blue
 white:yellow_bar;green
 white:yellow_bar_Nefl
+white:yellow_bar;red
+white:yellow_bar;yellow
 white:yellow_baryellow
 white:yellow_bicycle
 white:yellow_C
@@ -1640,6 +1653,8 @@ white:yellow_diamond_right
 white:yellow_diamond;yellow
 white:yellow_dimond
 white:yellow_dot,
+white:yellow_dot;green
+white:yellow_dot;yellow
 white:yellow_FIXME_alternative
 white:yellow_goblet
 white:yellow_house
@@ -1868,6 +1883,7 @@ yellow_round
 yellow_round:
 yellow_round:black
 yellow_round:G
+yellow_round:none
 yellow_round:white
 yellow_round:yellow
 yellow_round:yellow_round

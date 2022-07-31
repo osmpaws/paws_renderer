@@ -421,6 +421,7 @@ osmc-symbols/green-white-shell-14.svg
 osmc-symbols/green-white-slash-14.svg
 osmc-symbols/green-white-stripe-14.svg
 osmc-symbols/green-white-triangle-line-14.svg
+osmc-symbols/green-white-triangle-turned-14.svg
 osmc-symbols/green-white-triangle-14.svg
 osmc-symbols/green-white-wheelchair-14.svg
 osmc-symbols/green-white-x-14.svg
