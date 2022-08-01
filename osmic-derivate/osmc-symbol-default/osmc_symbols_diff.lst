@@ -986,6 +986,7 @@ red_circle:2
 red_circle:3
 red_corner:
 red_crest:SSS
+:red_cross
 red:DBT
 :red_diamond
 red_diamond
@@ -1542,6 +1543,7 @@ white:red_round
 white:red_RT
 white:red_runner
 white:red_T
+white:red_upper
 white:red_white
 white:red_X
 white:red_3
@@ -1746,6 +1748,7 @@ yellow_bar:58
 yellow:BB
 yellow:black
 yellow:black_bike
+yellow:black_circle_line
 yellow:black_horse
 yellow:black_pointer_line
 yellow:blau_triangle

@@ -4195,6 +4195,13 @@ purple-white-hiker:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+purple-black-hiker:
+  fill: "#000000"
+  shield:
+    fill: "#b878dd"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 purple-hiker:
   fill: "#ffffff"
   shield:
@@ -7026,6 +7033,13 @@ brown-triangle-turned:
   fill: "#ffffff"
   shield:
     fill: "#8b4513"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+green-red-triangle-turned:
+  fill: "#ff0000"
+  shield:
+    fill: "#00cd27"
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
