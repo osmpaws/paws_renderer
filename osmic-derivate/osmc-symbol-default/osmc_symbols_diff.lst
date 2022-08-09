@@ -1016,6 +1016,7 @@ red:gold
 red:Gouw
 red:gray_stripe
 red:green
+red:green_corner_left
 red;green_frame;red_dot;black
 red:GT
 red:GWP
@@ -1385,8 +1386,10 @@ white:green_backshlash
 white:green_backslash;yellow
 white:green_bacslash
 White:Green_bar
+white:green_bar;blue
 white:green_bar;green
 white:green_bar;red
+white:green_bar;yellow
 white:green_bat
 white:green_bicycle
 white:green_blackslash
@@ -1394,6 +1397,7 @@ white:green_C
 White:green_cross
 white:green_crown
 white:green_diamont
+white:green_dot;yellow
 white:green_drop
 white:green_drop_line
 white:green_foot
@@ -1516,6 +1520,7 @@ white:red_arrow
 white:red-bar
 white:red_bar;green
 white:red_bar;red
+white:red_bar;yellow
 white:red_bicycle
 white:red_bike
 white:red_castle

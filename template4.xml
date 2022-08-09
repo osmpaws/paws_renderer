@@ -2,7 +2,7 @@
 <rendertheme xmlns="http://mapsforge.org/renderTheme" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://mapsforge.org/renderTheme https://raw.githubusercontent.com/mapsforge/mapsforge/dev/resources/renderTheme-v4.xsd" version="4" map-background-outside="#EEEEEE" map-background="#f8f8f8">
 	
-	<!--#r00351b00893#-->
+	<!--#r00355b00900#-->
 
 	<!--style#v4#setup-->
 <stylemenu id="r4menu" defaultvalue="default" defaultlang="en">
@@ -228,7 +228,7 @@
 		<rule cat="not_car_mode" e="any" k="natural" v="water" zoom-min="14"> <!--not_car_mode-->
 			<caption k="name" font-family="serif" font-style="italic" font-size="17.00" fill="#5576d1" stroke="#e0e0f0" stroke-width="3.00" />
 		</rule>
-		<rule e="any" k="amenity" v="restaurant|pub|bar|cafe" zoom-min="18">
+		<rule e="any" k="amenity" v="restaurant|pub|bar|cafe" zoom-min="19">
 			<caption k="name" dy="-23.00" font-style="bold_italic" font-size="17.00" fill="#a06020" stroke="#ffffff" stroke-width="3.00" />
 		</rule>
 		<rule e="any" k="tourism" v="hotel" zoom-min="17">
@@ -1094,8 +1094,10 @@
 	<rule e="way" k="*" v="*">
 		<rule e="way" k="building" v="*">
 			<area fill="#f3e6c6" stroke="#6a5a8e" stroke-width="0.10" />
-			<rule e="way" k="*" v="*" zoom-min="17">
+			<rule e="way" k="*" v="*" zoom-min="19">
 				<caption k="name" dy="-30.00" font-style="bold" font-size="17.00" fill="#4040ff" stroke="#ffffff" stroke-width="2.00" />
+			</rule>
+			<rule e="way" k="*" v="*" zoom-min="17">
 				<!--house#numbers-->
 				<rule cat="house_numbers" e="any" k="*" v="*">
 					<caption k="addr:housenumber" font-style="bold" font-size="14.00" fill="#606060" stroke="#ffffff" stroke-width="2.00" />
@@ -1107,8 +1109,10 @@
 		<rule e="way" k="amenity" v="place_of_worship">
 			<rule e="way" k="building" v="*">
 				<area fill="#c3b696" stroke="#4A4A4A" stroke-width="0.15" />
-				<rule e="way" k="*" v="*" zoom-min="17">
+				<rule e="way" k="*" v="*" zoom-min="19">
 					<caption k="name" dy="-30.00" font-style="bold_italic" font-size="17.00" fill="#404040" stroke="#ffffff" stroke-width="3.00" />
+				</rule>
+				<rule e="way" k="*" v="*" zoom-min="17">
 					<caption k="addr:housenumber" font-style="bold" font-size="17.00" fill="#606060" stroke="#ffffff" stroke-width="3.00" />
 				</rule>
 			</rule>
@@ -3081,7 +3085,7 @@
 		<rule e="node" k="historic" v="*" zoom-max="16">
 			<circle radius="6.0" fill="#a0a0ff" stroke="#006060" stroke-width="2.20" />
 		</rule>
-		<rule e="any" k="*" v="*" zoom-min="17">
+		<rule e="any" k="*" v="*" zoom-min="19">
 			<caption k="name" dy="-25.50" font-style="bold" font-size="17.00" fill="#805030" stroke="#ffffff" stroke-width="3.00" />
 		</rule>
 		<rule e="any" k="historic" v="memorial" zoom-min="16">
@@ -3315,14 +3319,17 @@
 
 		<!-- shop -->
 		<rule e="any" k="shop" v="*">
-			<rule e="any" k="*" v="*" zoom-min="18">
+			<rule e="any" k="*" v="*" zoom-min="19">
 				<caption k="name" dy="-35.00" font-style="bold" font-size="17.00" fill="#aa3399" stroke="#ffffff" stroke-width="3.00" />
 			</rule>
 		</rule>
 
 		<!-- tourism -->
 		<rule cat="not_car_mode" e="node" k="tourism" v="*"> <!--not_car_mode-->
-			<rule e="node" k="*" v="*" zoom-min="15">
+			<rule e="node" k="information" v="*" zoom-min="15">
+				<caption k="name" font-family="sans_serif" font-style="italic" dy="-28.50" font-size="21.00" fill="#000000" stroke="#FFFFFF" stroke-width="5.70" />
+			</rule>
+			<rule e="node" k="*" v="*" zoom-min="18">
 				<caption k="name" font-family="sans_serif" font-style="italic" dy="-28.50" font-size="21.00" fill="#000000" stroke="#FFFFFF" stroke-width="5.70" />
 			</rule>
 		</rule>

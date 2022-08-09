@@ -3026,6 +3026,14 @@ yellow-black-cross:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+yellow-round-green-cross:
+  fill: "#00cd27"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
 black-white-diamond-line:
   fill: "#ffffff"
   shield:
