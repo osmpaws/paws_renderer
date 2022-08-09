@@ -356,6 +356,7 @@ osmc-symbols/green-frame-blue-diamond-line-14.svg
 osmc-symbols/green-frame-green-backslash-14.svg
 osmc-symbols/green-frame-green-bar-14.svg
 osmc-symbols/green-frame-green-bowl-14.svg
+osmc-symbols/green-frame-green-cross-14.svg
 osmc-symbols/green-frame-green-hiker-14.svg
 osmc-symbols/green-frame-green-pointer-14.svg
 osmc-symbols/green-frame-green-slash-14.svg

@@ -2264,6 +2264,12 @@
 		</rule>
 	</rule>
 	<rule e="way" k="osmc_background" v="green_frame" zoom-min="15">
+		<rule e="way" k="osmc_foreground" v="green_cross">
+			<lineSymbol src="file:/osmc-symbols/green_frame_green_cross.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="green_cross">
+			<symbol src="file:/osmc-symbols/green_frame_green_cross.png" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="black_cross">
 			<lineSymbol src="file:/osmc-symbols/green_frame_black_cross.png" align-center="false" repeat="true" />
 		</rule>
