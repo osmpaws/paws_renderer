@@ -15,11 +15,17 @@
 		<rule e="node" k="osmc_foreground" v="blue_circle">
 			<symbol src="file:/osmc-symbols/purple_blue_circle.png" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="green_circle">
+			<symbol src="file:/osmc-symbols/purple_green_circle.png" />
+		</rule>
 		<rule e="node" k="osmc_foreground" v="white_circle">
 			<symbol src="file:/osmc-symbols/purple_white_circle.png" />
 		</rule>
 		<rule e="node" k="osmc_foreground" v="black_circle">
 			<symbol src="file:/osmc-symbols/purple_black_circle.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="brown_circle">
+			<symbol src="file:/osmc-symbols/purple_brown_circle.png" />
 		</rule>
 		<rule e="node" k="osmc_foreground" v="red_corner">
 			<symbol src="file:/osmc-symbols/purple_red_corner.png" />

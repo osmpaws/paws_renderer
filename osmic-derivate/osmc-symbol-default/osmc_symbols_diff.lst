@@ -1276,6 +1276,7 @@ white:black_red_diamond
 white:black_rider
 white:black_right_arrow
 white:black_T
+white:black_upper
 white:black_&#62;
 white:blau_bar
 white:blck_pointer
@@ -1287,6 +1288,7 @@ white:blue_bar_
 white;blue_bar
 white:blue_bar;blue
 white:blue_bar;green
+white:blue_bar;red
 white:blue_bars
 white:blue_bicycle
 white:blue_blackslash
@@ -1490,6 +1492,7 @@ white:orange_left_turned_L
 white:orange_round
 white:orange_T
 white:orange_turned_L
+white:orange_upper
 white:orange_X
 white:P
 white:papillon
@@ -1523,6 +1526,7 @@ white:red_bar;red
 white:red_bar;yellow
 white:red_bicycle
 white:red_bike
+white:red_blue
 white:red_castle
 white:red_cornered
 white:red_cros
@@ -1992,6 +1996,7 @@ Z00:black
 #122164:white_arrow
 &#127;&#127;&#127;black:5
 136
+19:black
 2
 2:black
 2010-01-01

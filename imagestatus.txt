@@ -578,9 +578,11 @@ osmc-symbols/purple-black-rectangle-line-14.svg
 osmc-symbols/purple-blue-circle-14.svg
 osmc-symbols/purple-blue-dot-14.svg
 osmc-symbols/purple-blue-triangle-14.svg
+osmc-symbols/purple-brown-circle-14.svg
 osmc-symbols/purple-circle-green-dot-14.svg
 osmc-symbols/purple-frame-yellow-rectangle-14.svg
 osmc-symbols/purple-green-bar-14.svg
+osmc-symbols/purple-green-circle-14.svg
 osmc-symbols/purple-green-lower-14.svg
 osmc-symbols/purple-heart-14.svg
 osmc-symbols/purple-hiker-14.svg
