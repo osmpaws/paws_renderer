@@ -678,6 +678,7 @@ green:WdS
 green_web
 green:WFG
 green:white
+green:white_corner_left
 green:white_foot
 green:white_frame
 green:white_leaf
@@ -743,6 +744,7 @@ H1:white
 H2:white
 H3:white
 H4:white
+H6:white
 indigo_stripe
 :JWH
 Kein
@@ -1266,6 +1268,7 @@ white:black_bicycle
 white:black_bike
 white:black_circle_large
 white_black_diamond
+white:black_diamont
 white:black_dot_yellow_circle
 white:black_drop_line
 white:black_frame
@@ -1521,6 +1524,7 @@ white_rectangle:
 white:red
 white:red_arrow
 white:red-bar
+white:red_bar;blue
 white:red_bar;green
 white:red_bar;red
 white:red_bar;yellow
@@ -1531,6 +1535,8 @@ white:red_castle
 white:red_cornered
 white:red_cros
 white:red_crown
+white:red_dot;blue
+white:red_dot;red
 white:red_drop
 white:red_drop_line
 white:red_flower
@@ -1541,6 +1547,7 @@ white:red_green_bar
 white:red_house
 white:red_chapel
 white:red_left_pointer
+white:red_lowe
 white:red_peak
 white:red_point
 white;red_pointer
@@ -1982,6 +1989,7 @@ yellow:8
 yellow:80
 yellw_round:
 yeloow:yeloow_bar
+yllow:red_lower
 Z:black
 Z0:black
 Z00:black

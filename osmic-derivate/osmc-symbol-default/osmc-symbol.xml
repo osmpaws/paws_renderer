@@ -2996,6 +2996,18 @@
 		<rule e="node" k="osmc_foreground" v="white_dot">
 			<symbol src="file:/osmc-symbols/black_white_dot.png" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="brown_dot">
+			<lineSymbol src="file:/osmc-symbols/black_brown_dot.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="brown_dot">
+			<symbol src="file:/osmc-symbols/black_brown_dot.png" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="purple_dot">
+			<lineSymbol src="file:/osmc-symbols/black_purple_dot.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="purple_dot">
+			<symbol src="file:/osmc-symbols/black_purple_dot.png" />
+		</rule>
 	</rule>
 	<rule e="way" k="osmc_background" v="black_circle" zoom-min="15">
 		<rule e="way" k="osmc_foreground" v="red_dot">

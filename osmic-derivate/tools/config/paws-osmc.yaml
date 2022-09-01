@@ -3496,6 +3496,20 @@ black-white-dot:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+black-brown-dot:
+  fill: "#8b4513"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+black-purple-dot:
+  fill: "#b878dd"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 black-circle-red-dot:
   fill: "#ff0000"
   shield:
