@@ -696,6 +696,7 @@ osmc-symbols/red-white-cross-14.svg
 osmc-symbols/red-white-diamond-line-14.svg
 osmc-symbols/red-white-diamond-14.svg
 osmc-symbols/red-white-dot-14.svg
+osmc-symbols/red-white-fork-14.svg
 osmc-symbols/red-white-hiker-14.svg
 osmc-symbols/red-white-lower-14.svg
 osmc-symbols/red-white-pointer-14.svg

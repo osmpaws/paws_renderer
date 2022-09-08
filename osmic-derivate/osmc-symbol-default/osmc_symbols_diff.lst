@@ -93,6 +93,7 @@ black:F1
 black:G
 black:GEO
 black:GLH
+black:gold_dot
 black:gray_pointer
 black:green
 black:green_low
@@ -100,6 +101,7 @@ black:grey_bar
 black:GRG
 black:G1
 black:H
+black:HANS
 black_hiker
 black:HP
 black:HT
@@ -445,6 +447,7 @@ brown:6
 C:blue
 cc:black
 ciolet:O
+:circle
 circle
 cyan:
 cyan:AA
@@ -1214,6 +1217,7 @@ TK7
 :tower
 tower
 tower:black
+:triangle
 triangle
 Tschierweg-Alexanderhütte-Millstätter
 unknown
@@ -1259,6 +1263,7 @@ white_bar:GAB.
 white:barva_backslash
 white:barva_turned_T
 white_bar:21
+white_bar:6A
 white:BgD
 white:black
 white:black_anchor
@@ -1473,6 +1478,7 @@ white:mauve_cross
 white:MB
 white:MDR
 white:mtb
+white:MTB
 white:N
 white:NEW1
 white:NEW14
@@ -1506,12 +1512,14 @@ white:pink_stripe
 :white_pointer
 white_pointer
 white_pointer:BW
+white:prple_pointer
 white:prurple_diamond
 white:PS
 white:puple_backslash
 white:purle_pointer
 white:purple
 white_purple:
+white:purple_arrow
 white:purple_boat
 white:purple_chapel
 white:purple_line
@@ -1559,6 +1567,7 @@ white:red_right_arrow
 white:red_round
 white:red_RT
 white:red_runner
+white:red_square
 white:red_T
 white:red_upper
 white:red_white

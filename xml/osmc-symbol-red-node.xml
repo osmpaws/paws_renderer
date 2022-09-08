@@ -78,6 +78,9 @@
 		<rule e="node" k="osmc_foreground" v="black_dot">
 			<symbol src="file:/osmc-symbols/red_black_dot.png" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="white_fork">
+			<symbol src="file:/osmc-symbols/red_white_fork.png" />
+		</rule>
 		<rule e="node" k="osmc_foreground" v="heart">
 			<symbol src="file:/osmc-symbols/red_heart.png" />
 		</rule>

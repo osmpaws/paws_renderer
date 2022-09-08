@@ -4470,6 +4470,13 @@ green-white-fork:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+red-white-fork:
+  fill: "#ffffff"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 red-circle-red-fork:
   fill: "#ff0000"
   shield:
