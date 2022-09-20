@@ -476,6 +476,7 @@ osmc-symbols/orange-black-triangle-14.svg
 osmc-symbols/orange-blue-bar-14.svg
 osmc-symbols/orange-blue-circle-14.svg
 osmc-symbols/orange-blue-corner-14.svg
+osmc-symbols/orange-blue-dot-14.svg
 osmc-symbols/orange-blue-lower-14.svg
 osmc-symbols/orange-blue-pointer-14.svg
 osmc-symbols/orange-blue-right-14.svg

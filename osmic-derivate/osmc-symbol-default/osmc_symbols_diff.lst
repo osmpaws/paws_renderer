@@ -65,6 +65,7 @@ black_circle
 black_circle:
 black_circle:A
 black_circle:B
+black_circle:black
 black_circle:black_horse
 black_circle:celtic_head
 black_circle:L8
@@ -199,6 +200,7 @@ bl;ue:
 blue
 blue:
 :blue_arrow
+blue_arrow
 blue:AW65
 blue:A1
 blue:A4
@@ -398,6 +400,7 @@ bridleway
 brown
 brown:
 brown:AL
+brown_arrow
 brown:A2
 brown:A5
 :brown_bar
@@ -411,6 +414,7 @@ brown_circle:
 :brown_diamond
 :brown_dot
 brown_dot:
+:brown_dots
 brown:EA
 brown_frame
 brown_frame:
@@ -466,6 +470,7 @@ ewd:white_stripe
 E6
 #E8ADAA
 :F.
+F
 fish
 fixme
 fuchsia:3
@@ -494,6 +499,7 @@ green:Ammler
 green:AP
 green:Appenzeller
 :green_arrow
+green_arrow
 green:A1
 green:A2
 green:A5
@@ -1107,6 +1113,7 @@ red:T
 :red_triangle
 red_triangle
 red_triangle:
+:red_triangle_line
 red:T10
 red:up
 red:V
@@ -1248,6 +1255,7 @@ white:♥
 white:A
 white:AC
 :white_arrow
+white:arrow
 white:AW
 white:A2
 white:B
@@ -1386,6 +1394,7 @@ white:GE05
 white:Glw
 white:gold_pointer
 white:GR
+white:gray_arrow
 white:gray_bar
 white:gray_pointer
 white:greeen_backslash
@@ -1692,6 +1701,7 @@ white:yellow_point
 whiteyellow_pointer
 white:yellow_rectrangle
 white:yellow_rhombus
+white:yellow_right_arrow
 white:yellow_ring
 white:yellow_round
 white:yellow_runner
@@ -1789,6 +1799,7 @@ yellow:C
 :yellow_circle
 yellow_circle
 yellow_circle:
+yellow_circle:black
 yellow_circle:black_arrow
 yellow_circle:P10
 yellow_circle:P16
