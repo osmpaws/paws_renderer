@@ -155,6 +155,7 @@ black:SP
 black:SSW
 black:ST
 :black_stripe
+:black_triangle
 black_triangle_turned:
 black:U
 black:V3
@@ -164,6 +165,7 @@ black:WDDE
 black:WFP
 black:whie_diamond_line
 black:white
+black:white_⚒
 black:white_arrow
 black;white;red_rectangle
 black:white_right_pointer
@@ -1005,6 +1007,7 @@ red_diamond
 red_diamond:blue_dot
 :red_dot
 red_dot
+:red_dots
 red_dot:tower
 red_dot:2
 :red_drop
@@ -1150,6 +1153,7 @@ red:white_strype20
 red/whitw
 red:whitw_stripe
 red:whitw_stripe919
+red:whte
 red:wite_stripe
 red:withe_bar
 red:WR
@@ -1342,6 +1346,7 @@ white:B3
 white:B4
 white:B5
 white:B6
+white:C
 :white_circle
 white_circle
 white_circle:
@@ -1504,6 +1509,7 @@ white:Oh!8
 white:orange
 white:orange_!
 white:orange_arrow
+white:orange_drop_line
 white:orange_flower
 white:orange_left_L
 white:orange_left_turned_L
@@ -1709,6 +1715,7 @@ white:yellow_star
 white:yellow_T
 white:yellow_triangel
 white_yellow_triangle
+white:yellow_upper
 white[:yellow_x]
 white:yellow_X
 white:yelow_bar

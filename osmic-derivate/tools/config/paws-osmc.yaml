@@ -5258,6 +5258,13 @@ green-black-lower:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+green-orange-lower:
+  fill: "#f96f00"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 green-circle-red-lower:
   fill: "#ff0000"
   shield:

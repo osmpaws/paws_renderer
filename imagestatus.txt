@@ -372,6 +372,7 @@ osmc-symbols/green-frame-yellow-rectangle-14.svg
 osmc-symbols/green-hiker-14.svg
 osmc-symbols/green-mine-14.svg
 osmc-symbols/green-orange-arch-14.svg
+osmc-symbols/green-orange-lower-14.svg
 osmc-symbols/green-orange-pointer-14.svg
 osmc-symbols/green-purple-circle-14.svg
 osmc-symbols/green-purple-pointer-14.svg
