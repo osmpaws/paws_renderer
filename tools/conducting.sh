@@ -448,10 +448,11 @@ do
 		echo ""
 		echo "PNGs created in: $((`date +%s`-startsec)) sec" >> $logfile
 	fi
-	mv themes/$themename . || diefunc !!
-	echo " updating XML"
-	echo " updating XML" >> $logfile
-		
+	if [ $rebuildimg -eq 0 ]; then
+		mv themes/$themename . || diefunc "Source missing: themes/$themename"
+		echo " updating XML"
+		echo " updating XML" >> $logfile
+	fi
 	
 	startsec=`date +%s`
 	bash tools/theme_scaler.sh $xmlscalefactor $txtscalefactor $root/xml/$tempxml > $themename/$themename.xml || diefunc !!
