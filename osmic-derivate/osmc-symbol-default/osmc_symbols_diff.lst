@@ -690,6 +690,7 @@ green:WdS
 green_web
 green:WFG
 green:white
+green:white_arrow
 green:white_corner_left
 green:white_foot
 green:white_frame
@@ -1181,6 +1182,7 @@ red:6
 red:7
 red:8
 red:9
+resurvey:CAI;Comunità
 ROM
 Roter
 Rot-Weiß
@@ -1236,6 +1238,7 @@ Tschierweg-Alexanderhütte-Millstätter
 unknown
 Valllorbe
 violet
+Vogtland-Ferienland-Route
 way
 wegfarbe
 Wegsymbol-E3.jpg
@@ -1293,6 +1296,7 @@ white:black_drop_line
 white:black_frame
 white:black_horse
 white:black_left_arrow
+white:black_left_pointer
 white:black_pointer_line
 white:black_red_diamond
 white:black_rider
@@ -1327,6 +1331,7 @@ white:blue_chapel
 white:blue_memorial
 white:blue_miner
 white:blue_pin
+white:blue_right_pointer
 white:blue_square
 white:blue_stamp
 white:blue_T

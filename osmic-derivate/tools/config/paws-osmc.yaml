@@ -5568,6 +5568,13 @@ white-l:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+black-white-mine:
+  fill: "#ffffff"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 black-mine:
   fill: "#ffffff"
   shield:

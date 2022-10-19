@@ -159,6 +159,9 @@
 		<rule e="way" k="osmc_foreground" v="L">
 			<lineSymbol src="file:/osmc-symbols/black_l.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="white_mine">
+			<lineSymbol src="file:/osmc-symbols/black_white_mine.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="mine">
 			<lineSymbol src="file:/osmc-symbols/black_mine.png" align-center="false" repeat="true" />
 		</rule>

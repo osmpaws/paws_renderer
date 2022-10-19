@@ -159,6 +159,9 @@
 		<rule e="node" k="osmc_foreground" v="L">
 			<symbol src="file:/osmc-symbols/black_l.png" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="white_mine">
+			<symbol src="file:/osmc-symbols/black_white_mine.png" />
+		</rule>
 		<rule e="node" k="osmc_foreground" v="mine">
 			<symbol src="file:/osmc-symbols/black_mine.png" />
 		</rule>

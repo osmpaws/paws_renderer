@@ -84,6 +84,7 @@ osmc-symbols/black-white-fork-14.svg
 osmc-symbols/black-white-hexagon-14.svg
 osmc-symbols/black-white-hiker-14.svg
 osmc-symbols/black-white-lower-14.svg
+osmc-symbols/black-white-mine-14.svg
 osmc-symbols/black-white-pointer-14.svg
 osmc-symbols/black-white-rectangle-line-14.svg
 osmc-symbols/black-white-rectangle-14.svg
