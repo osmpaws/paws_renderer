@@ -35,6 +35,7 @@ black:
 black:-
 black:^
 black:~
+black:△
 black:A1
 black:A10
 black:A2
