@@ -18,6 +18,9 @@
 		while this theme was designed only for continental states.
 		Please visit http://www.openandromaps.org for more info.
 	-->
+	<!--cgeo hillhading support-->
+	<hillshading zoom-min="9" zoom-max="20" />
+	
 	<!-- render land above water -->
 	<rule e="way" k="natural" v="*">
 		<rule e="way" k="natural" v="sea">
