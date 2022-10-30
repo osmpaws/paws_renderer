@@ -1396,6 +1396,4 @@
 			</rule>
 		</rule>
 	</rule>
-	<!--cgeo hillhading support>
-	<hillshading zoom-min="9" zoom-max="20" /-->
 </rendertheme>
