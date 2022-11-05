@@ -6247,6 +6247,13 @@ white-brown-right:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+white-purple-right:
+  fill: "#b878dd"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 white-orange-right:
   fill: "#f96f00"
   shield:

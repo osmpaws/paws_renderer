@@ -269,6 +269,7 @@ blue:FT
 blue:F3
 blue:GF
 blue:gray_bar
+blue:gray_wheel
 blue:gree_lower
 blue:green_frog
 bluegreen:white
@@ -339,7 +340,9 @@ blue_round:2
 blue_round:7
 blue_round:8
 blue:RWW1
+blue:R1
 blue:R13
+blue:R2
 blue:S
 blue:SHK
 blue:SKT
@@ -814,6 +817,7 @@ oramge:AP
 orange
 orange:
 orange:AHW
+orange_ammonit
 orange_arrow
 orange:A1
 orange:A2
@@ -912,6 +916,7 @@ purple:*
 purple:-
 purple:A
 purple:Archeo
+:purple_arrow
 purple:A1
 purple:A10
 purple:A11
@@ -1116,6 +1121,7 @@ red:SLW
 :red_stripe
 red_stripe
 red:T
+red:text
 :red_tiangle
 :red_triangle
 red_triangle
@@ -1160,6 +1166,7 @@ red:whitw_stripe919
 red:whte
 red:wite_stripe
 red:withe_bar
+red:withe_right
 red:WR
 red:WT
 red:W2

@@ -882,6 +882,7 @@ osmc-symbols/white-purple-lower-14.svg
 osmc-symbols/white-purple-l-14.svg
 osmc-symbols/white-purple-pointer-14.svg
 osmc-symbols/white-purple-rectangle-14.svg
+osmc-symbols/white-purple-right-14.svg
 osmc-symbols/white-purple-stripe-14.svg
 osmc-symbols/white-purple-triangle-line-14.svg
 osmc-symbols/white-purple-triangle-turned-14.svg
