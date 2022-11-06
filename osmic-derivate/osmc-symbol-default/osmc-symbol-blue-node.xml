@@ -192,6 +192,9 @@
 		<rule e="node" k="osmc_foreground" v="green_right">
 			<symbol src="file:/osmc-symbols/blue_green_right.png" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="white_right">
+			<symbol src="file:/osmc-symbols/blue_white_right.png" />
+		</rule>
 		<rule e="node" k="osmc_foreground" v="yellow_shell_modern">
 			<symbol src="file:/osmc-symbols/blue_yellow_shell_modern.png" />
 		</rule>

@@ -204,6 +204,7 @@ osmc-symbols/blue-white-hiker-14.svg
 osmc-symbols/blue-white-lower-14.svg
 osmc-symbols/blue-white-pointer-14.svg
 osmc-symbols/blue-white-rectangle-14.svg
+osmc-symbols/blue-white-right-14.svg
 osmc-symbols/blue-white-shell-14.svg
 osmc-symbols/blue-white-stripe-14.svg
 osmc-symbols/blue-white-triangle-line-14.svg

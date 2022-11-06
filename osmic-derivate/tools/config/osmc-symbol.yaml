@@ -6142,6 +6142,13 @@ blue-green-right:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+blue-white-right:
+  fill: "#ffffff"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 green-red-right:
   fill: "#ff0000"
   shield:
