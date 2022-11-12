@@ -33,6 +33,15 @@
 		<rule e="way" k="osmc_foreground" v="hiker">
 			<lineSymbol src="file:/osmc-symbols/red_circle_hiker.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="red_pointer">
+			<lineSymbol src="file:/osmc-symbols/red_circle_red_pointer.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="blue_pointer">
+			<lineSymbol src="file:/osmc-symbols/red_circle_blue_pointer.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="green_pointer">
+			<lineSymbol src="file:/osmc-symbols/red_circle_green_pointer.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="black_triangle_line">
 			<lineSymbol src="file:/osmc-symbols/red_circle_black_triangle_line.png" align-center="false" repeat="true" />
 		</rule>

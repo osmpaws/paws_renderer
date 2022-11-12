@@ -943,6 +943,7 @@ purple:P
 :purple_pointer
 purple:purple
 :purple_rectangle
+purple:red_corner_left
 :purple_round
 purple_round
 purple_round:
@@ -1053,6 +1054,7 @@ red:H9
 red:KPH
 red:leaf
 :red_lower
+red_lower:CV
 red_lower:yellow_bowl
 red_lower:68
 red_lower:72
@@ -1616,6 +1618,7 @@ white_round:black
 white_round:blu_dot
 white_round:none
 white_round:red_point
+white_round:red_round
 white_round:wp
 white_round:1
 white_round:3

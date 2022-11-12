@@ -33,6 +33,15 @@
 		<rule e="node" k="osmc_foreground" v="hiker">
 			<symbol src="file:/osmc-symbols/red_circle_hiker.png" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="red_pointer">
+			<symbol src="file:/osmc-symbols/red_circle_red_pointer.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="blue_pointer">
+			<symbol src="file:/osmc-symbols/red_circle_blue_pointer.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="green_pointer">
+			<symbol src="file:/osmc-symbols/red_circle_green_pointer.png" />
+		</rule>
 		<rule e="node" k="osmc_foreground" v="black_triangle_line">
 			<symbol src="file:/osmc-symbols/red_circle_black_triangle_line.png" />
 		</rule>

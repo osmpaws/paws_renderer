@@ -636,12 +636,15 @@ osmc-symbols/red-blue-stripe-14.svg
 osmc-symbols/red-blue-triangle-14.svg
 osmc-symbols/red-brown-right-14.svg
 osmc-symbols/red-circle-black-triangle-line-14.svg
+osmc-symbols/red-circle-blue-pointer-14.svg
 osmc-symbols/red-circle-green-circle-14.svg
+osmc-symbols/red-circle-green-pointer-14.svg
 osmc-symbols/red-circle-hiker-14.svg
 osmc-symbols/red-circle-red-bar-14.svg
 osmc-symbols/red-circle-red-cross-14.svg
 osmc-symbols/red-circle-red-dot-14.svg
 osmc-symbols/red-circle-red-fork-14.svg
+osmc-symbols/red-circle-red-pointer-14.svg
 osmc-symbols/red-circle-red-triangle-turned-14.svg
 osmc-symbols/red-circle-red-triangle-14.svg
 osmc-symbols/red-circle-white-circle-14.svg

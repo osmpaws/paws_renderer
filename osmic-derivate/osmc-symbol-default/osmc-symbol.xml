@@ -5834,6 +5834,24 @@
 		</rule>
 	</rule>
 	<rule e="way" k="osmc_background" v="red_circle" zoom-min="15">
+		<rule e="way" k="osmc_foreground" v="red_pointer">
+			<lineSymbol src="file:/osmc-symbols/red_circle_red_pointer.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="red_pointer">
+			<symbol src="file:/osmc-symbols/red_circle_red_pointer.png" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="blue_pointer">
+			<lineSymbol src="file:/osmc-symbols/red_circle_blue_pointer.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="blue_pointer">
+			<symbol src="file:/osmc-symbols/red_circle_blue_pointer.png" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="green_pointer">
+			<lineSymbol src="file:/osmc-symbols/red_circle_green_pointer.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="green_pointer">
+			<symbol src="file:/osmc-symbols/red_circle_green_pointer.png" />
+		</rule>
 	</rule>
 	<rule e="way" k="osmc_background" v="red_frame" zoom-min="15">
 		<rule e="way" k="osmc_foreground" v="red_pointer">
