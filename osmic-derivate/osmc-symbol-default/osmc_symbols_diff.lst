@@ -542,6 +542,7 @@ green:CN
 green_corner
 :green_crest
 :green_cross
+green:DBG
 :green_diamond
 green_diamond
 :green_dot
@@ -1067,6 +1068,7 @@ red:MMR
 red:mtb
 red:M1
 red:M2
+redn:
 red:N
 red:none
 red:P

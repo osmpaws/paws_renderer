@@ -24,4 +24,7 @@
 		<rule e="node" k="osmc_foreground" v="black_pointer">
 			<symbol src="file:/osmc-symbols/yellow_circle_black_pointer.png" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="yellow_triangle">
+			<symbol src="file:/osmc-symbols/yellow_circle_yellow_triangle.png" />
+		</rule>
 	</rule>

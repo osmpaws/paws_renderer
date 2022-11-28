@@ -363,6 +363,7 @@ osmc-symbols/green-frame-green-bowl-14.svg
 osmc-symbols/green-frame-green-cross-14.svg
 osmc-symbols/green-frame-green-hiker-14.svg
 osmc-symbols/green-frame-green-pointer-14.svg
+osmc-symbols/green-frame-green-rectangle-14.svg
 osmc-symbols/green-frame-green-slash-14.svg
 osmc-symbols/green-frame-green-triangle-14.svg
 osmc-symbols/green-frame-hiker-14.svg
@@ -1031,6 +1032,7 @@ osmc-symbols/yellow-circle-red-circle-14.svg
 osmc-symbols/yellow-circle-white-dot-14.svg
 osmc-symbols/yellow-circle-yellow-bar-14.svg
 osmc-symbols/yellow-circle-yellow-dot-14.svg
+osmc-symbols/yellow-circle-yellow-triangle-14.svg
 osmc-symbols/yellow-frame-black-triangle-line-14.svg
 osmc-symbols/yellow-frame-blue-dot-14.svg
 osmc-symbols/yellow-frame-green-dot-14.svg

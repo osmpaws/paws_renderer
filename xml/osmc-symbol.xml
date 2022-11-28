@@ -6420,6 +6420,12 @@
 		<rule e="node" k="osmc_foreground" v="yellow_rectangle">
 			<symbol src="file:/osmc-symbols/green_frame_yellow_rectangle.png" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="green_rectangle">
+			<lineSymbol src="file:/osmc-symbols/green_frame_green_rectangle.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="green_rectangle">
+			<symbol src="file:/osmc-symbols/green_frame_green_rectangle.png" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="white_rectangle">
 			<lineSymbol src="file:/osmc-symbols/green_frame_white_rectangle.png" align-center="false" repeat="true" />
 		</rule>
@@ -8678,6 +8684,12 @@
 		</rule>
 	</rule>
 	<rule e="way" k="osmc_background" v="yellow_circle" zoom-min="15">
+		<rule e="way" k="osmc_foreground" v="yellow_triangle">
+			<lineSymbol src="file:/osmc-symbols/yellow_circle_yellow_triangle.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="yellow_triangle">
+			<symbol src="file:/osmc-symbols/yellow_circle_yellow_triangle.png" />
+		</rule>
 	</rule>
 	<rule e="way" k="osmc_background" v="yellow_frame" zoom-min="15">
 		<rule e="way" k="osmc_foreground" v="yellow_triangle">
