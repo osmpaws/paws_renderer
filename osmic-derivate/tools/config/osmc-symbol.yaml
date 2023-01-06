@@ -1296,6 +1296,14 @@ green-white-bowl:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+green-circle-green-bowl:
+  fill: "#00cd27"
+  shield:
+    stroke_fill: "#00cd27"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 10
+    padding: 2
 green-frame-green-bowl:
   fill: "#00cd27"
   shield:

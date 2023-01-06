@@ -168,6 +168,7 @@ black:whie_diamond_line
 black:white
 black:white_⚒
 black:white_arrow
+black:white_drop
 black;white;red_rectangle
 black:white_right_pointer
 black:white_square
@@ -797,6 +798,7 @@ mine
 Muntii
 :NHM
 no
+NO
 no_marker
 none
 none:gray_triangle
@@ -1163,6 +1165,8 @@ red:white_stripe_432
 red;white_stripe:717
 red_white_stripe:737
 red:white_stripr
+red:white_strips
+red:white_strip_101
 red:white_strype20
 red/whitw
 red:whitw_stripe
@@ -1176,6 +1180,7 @@ red:WT
 red:W2
 :red_x
 red_x
+red:yellow_upper
 red:1
 red:11
 red:12
@@ -1213,6 +1218,7 @@ Schwarz8_auf_gelbem_rechteck
 silver_web
 SVT:black
 symbol
+symbol=backgroundblue:foreground
 symbol=black:black
 symbol=black:yellow_round
 symbol=blue:blue
@@ -1248,6 +1254,7 @@ tower:black
 triangle
 Tschierweg-Alexanderhütte-Millstätter
 unknown
+V
 Valllorbe
 violet
 Vogtland-Ferienland-Route
@@ -1333,6 +1340,7 @@ white:blue_blackslash
 white:blue_blue_diamond
 white:blue_C
 white:blue_diamont
+white:blue_dot;blue
 white:blue_drop
 white:blue_drop_line
 white:blue_fish
@@ -1420,6 +1428,7 @@ white:gold_pointer
 white:GR
 white:gray_arrow
 white:gray_bar
+white:gray_circle
 white:gray_pointer
 white:greeen_backslash
 white:green
@@ -1467,6 +1476,7 @@ white:green_trangle
 white:green_tree
 white:green_triangel
 white:green__turned_T
+white:green_upper_bowl
 white:green_X
 white:green_x,red
 white:green_Z
@@ -2064,6 +2074,7 @@ Z00:black
 :4
 #40E0D0
 #4169e1:
+5RV
 7BT
 #7c136f:white_arrow
 719A
