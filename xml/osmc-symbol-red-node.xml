@@ -84,6 +84,9 @@
 		<rule e="node" k="osmc_foreground" v="heart">
 			<symbol src="file:/osmc-symbols/red_heart.png" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="white_hexagon">
+			<symbol src="file:/osmc-symbols/red_white_hexagon.png" />
+		</rule>
 		<rule e="node" k="osmc_foreground" v="yellow_hiker">
 			<symbol src="file:/osmc-symbols/red_yellow_hiker.png" />
 		</rule>

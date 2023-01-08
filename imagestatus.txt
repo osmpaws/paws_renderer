@@ -462,6 +462,7 @@ osmc-symbols/none-green-triangle-14.svg
 osmc-symbols/none-orange-bar-14.svg
 osmc-symbols/none-orange-diamond-14.svg
 osmc-symbols/none-red-bar-14.svg
+osmc-symbols/none-red-circle-14.svg
 osmc-symbols/none-red-dot-14.svg
 osmc-symbols/none-red-pointer-14.svg
 osmc-symbols/none-red-triangle-14.svg
@@ -669,6 +670,7 @@ osmc-symbols/red-frame-red-rectangle-14.svg
 osmc-symbols/red-frame-red-turned-t-14.svg
 osmc-symbols/red-frame-tower-14.svg
 osmc-symbols/red-frame-white-bar-14.svg
+osmc-symbols/red-frame-white-hexagon-14.svg
 osmc-symbols/red-frame-white-rectangle-14.svg
 osmc-symbols/red-green-bar-14.svg
 osmc-symbols/red-green-diamond-14.svg
@@ -706,6 +708,7 @@ osmc-symbols/red-white-diamond-line-14.svg
 osmc-symbols/red-white-diamond-14.svg
 osmc-symbols/red-white-dot-14.svg
 osmc-symbols/red-white-fork-14.svg
+osmc-symbols/red-white-hexagon-14.svg
 osmc-symbols/red-white-hiker-14.svg
 osmc-symbols/red-white-lower-14.svg
 osmc-symbols/red-white-pointer-14.svg
@@ -1123,26 +1126,26 @@ patterns/access-destination-14.svg 1611254735.8918390510
 patterns/access-no-bike-14.svg 1611254735.8918390510
 patterns/access-no-foot-14.svg 1611254735.8918390510
 patterns/access-private-14.svg 1611254735.8918390510
-patterns/bare-rock-32.svg 1673009358.4732813790
+patterns/bare-rock-32.svg 1673066579.8935292740
 patterns/basin-14.svg 1615646906.8144830380
-patterns/cemetery-christian-32.svg 1673009358.4812808980
-patterns/cemetery-jewish-32.svg 1673009358.4932801770
-patterns/cemetery-32.svg 1673009358.4812808980
-patterns/dog-park-14.svg 1673009358.5012796960
-patterns/hops-14.svg 1673009358.5092792160
+patterns/cemetery-christian-32.svg 1673066579.9015291590
+patterns/cemetery-jewish-32.svg 1673066579.9135289850
+patterns/cemetery-32.svg 1673066579.9015291590
+patterns/dog-park-14.svg 1673066579.9215288700
+patterns/hops-14.svg 1673066579.9255288110
 patterns/marsh-32.svg 1611254735.8918390510
-patterns/military-14.svg 1673009358.5132789750
+patterns/military-14.svg 1673066579.9335286970
 patterns/national-park-14.svg 1611254735.8918390510
 patterns/nature-reserve-14.svg 1611254735.8918390510
 patterns/orchard-32.svg 1611254735.8918390510
-patterns/photovoltaic-32.svg 1673009358.5252782540
-patterns/plant-nursery-32.svg 1673009358.5332777730
-patterns/scree-32.svg 1673009358.5372775330
-patterns/scrub-32.svg 1673009358.5452770520
-patterns/vineyard-32.svg 1673009358.5532765720
-patterns/wood-coniferous-32.svg 1673009358.5612760910
-patterns/wood-deciduous-32.svg 1673009358.5812748880
-patterns/wood-mixed-32.svg 1673009358.5932741670
+patterns/photovoltaic-32.svg 1673066579.9455285230
+patterns/plant-nursery-32.svg 1673066579.9535284080
+patterns/scree-32.svg 1673066579.9615282930
+patterns/scrub-32.svg 1673066579.9695281770
+patterns/vineyard-32.svg 1673066579.9775280620
+patterns/wood-coniferous-32.svg 1673066579.9855279450
+patterns/wood-deciduous-32.svg 1673066579.9935278310
+patterns/wood-mixed-32.svg 1673066579.9975277730
 symbols/access-destination-14.svg 1611254735.8918390510
 symbols/access-no-bike-14.svg 1611254735.8918390510
 symbols/access-no-foot-14.svg 1611254735.8918390510

@@ -1881,6 +1881,12 @@ yellow-round-black-circle:
     stroke_width: 1
     padding: 2
     rounded: 10
+none-red-circle:
+  fill: "#ff0000"
+  shield:
+    fill: "#ffffff"
+    opacity: 0.0
+    padding: 1
 none-yellow-circle:
   fill: "#ffdd00"
   shield:
@@ -3935,6 +3941,21 @@ green-black-hexagon:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+red-white-hexagon:
+  fill: "#ffffff"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+red-frame-white-hexagon:
+  fill: "#ffffff"
+  shield:
+    stroke_fill: "#ff0000"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 2
+    padding: 2
 white-red-hexagon:
   fill: "#ff0000"
   shield:
