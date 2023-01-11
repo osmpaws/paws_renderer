@@ -4476,6 +4476,14 @@ yellow-hiker:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+yellow-frame-blue-hiker:
+  fill: "#1579e0"
+  shield:
+    stroke_fill: "#ffdd00"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 2
+    padding: 2
 black-red-lower:
   fill: "#ff0000"
   shield:
