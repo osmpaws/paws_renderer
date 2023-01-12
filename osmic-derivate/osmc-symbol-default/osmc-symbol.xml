@@ -3110,6 +3110,12 @@
 		<rule e="node" k="osmc_foreground" v="white_dot">
 			<symbol src="file:/osmc-symbols/black_round_white_dot.png" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="black_dot">
+			<lineSymbol src="file:/osmc-symbols/black_round_black_dot.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="black_dot">
+			<symbol src="file:/osmc-symbols/black_round_black_dot.png" />
+		</rule>
 	</rule>
 	<rule e="way" k="osmc_background" v="blue" zoom-min="15">
 		<rule e="way" k="osmc_foreground" v="red_dot">

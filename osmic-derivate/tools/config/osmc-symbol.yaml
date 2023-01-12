@@ -2966,6 +2966,14 @@ black-round-white-dot:
     stroke_width: 1
     padding: 2
     rounded: 10
+black-round-black-dot:
+  fill: "#000000"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
 blue-red-dot:
   fill: "#ff0000"
   shield:
