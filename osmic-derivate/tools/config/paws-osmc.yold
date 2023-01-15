@@ -3843,6 +3843,13 @@ green-black-dot:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+green-orange-dot:
+  fill: "#f96f00"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 green-circle-blue-dot:
   fill: "#1579e0"
   shield:
