@@ -96,6 +96,9 @@
 		<rule e="node" k="osmc_foreground" v="black_dot">
 			<symbol src="file:/osmc-symbols/green_black_dot.png" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="orange_dot">
+			<symbol src="file:/osmc-symbols/green_orange_dot.png" />
+		</rule>
 		<rule e="node" k="osmc_foreground" v="blue_fork">
 			<symbol src="file:/osmc-symbols/green_blue_fork.png" />
 		</rule>
