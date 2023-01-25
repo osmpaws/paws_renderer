@@ -7114,6 +7114,12 @@
 	<rule e="way" k="osmc_background" v="green_round" zoom-min="15">
 	</rule>
 	<rule e="way" k="osmc_background" v="orange" zoom-min="15">
+		<rule e="way" k="osmc_foreground" v="black_shell">
+			<lineSymbol src="file:/osmc-symbols/orange_black_shell.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="black_shell">
+			<symbol src="file:/osmc-symbols/orange_black_shell.png" />
+		</rule>
 	</rule>
 	<rule e="way" k="osmc_background" v="orange_circle" zoom-min="15">
 	</rule>

@@ -177,8 +177,13 @@ black:wolfshook
 black:WT
 black:WWJ
 black:W1
+black:W18
 black:W2
+black:W20
 black:W3
+black:W7
+black:W8
+black:W9
 :black_x
 black:X
 black:X28
@@ -711,6 +716,7 @@ green:WK
 green:WLM
 green:WLP
 green:write_bar
+green:WS
 green:WWW
 green:W1
 green:W2
@@ -1145,6 +1151,7 @@ red:white_
 red:white_and_black_castle
 red:whitebar
 red_white_bar:VL7A
+red:white_bar458V
 red:white_bicycle
 red:white_man
 red:white_pinter
