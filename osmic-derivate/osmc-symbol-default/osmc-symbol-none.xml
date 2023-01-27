@@ -42,6 +42,12 @@
 		<rule e="way" k="osmc_foreground" v="blue_dot">
 			<lineSymbol src="file:/osmc-symbols/none_blue_dot.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="red_hiker">
+			<lineSymbol src="file:/osmc-symbols/none_red_hiker.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="blue_hiker">
+			<lineSymbol src="file:/osmc-symbols/none_blue_hiker.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="blue_lower">
 			<lineSymbol src="file:/osmc-symbols/none_blue_lower.png" align-center="false" repeat="true" />
 		</rule>

@@ -4760,6 +4760,18 @@
 	<rule e="way" k="osmc_background" v="yellow_round" zoom-min="15">
 	</rule>
 	<rule e="way" k="osmc_background" v="none" zoom-min="15">
+		<rule e="way" k="osmc_foreground" v="red_hiker">
+			<lineSymbol src="file:/osmc-symbols/none_red_hiker.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="red_hiker">
+			<symbol src="file:/osmc-symbols/none_red_hiker.png" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="blue_hiker">
+			<lineSymbol src="file:/osmc-symbols/none_blue_hiker.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="blue_hiker">
+			<symbol src="file:/osmc-symbols/none_blue_hiker.png" />
+		</rule>
 	</rule>
 	<rule e="way" k="osmc_background" v="black" zoom-min="15">
 		<rule e="way" k="osmc_foreground" v="red_lower">

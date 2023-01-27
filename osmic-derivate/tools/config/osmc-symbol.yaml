@@ -4499,6 +4499,18 @@ yellow-frame-blue-hiker:
     opacity: 0.0
     rounded: 2
     padding: 2
+none-red-hiker:
+  fill: "#ff0000"
+  shield:
+    fill: "#ffffff"
+    opacity: 0.0
+    padding: 1
+none-blue-hiker:
+  fill: "#1579e0"
+  shield:
+    fill: "#ffffff"
+    opacity: 0.0
+    padding: 1
 black-red-lower:
   fill: "#ff0000"
   shield:
