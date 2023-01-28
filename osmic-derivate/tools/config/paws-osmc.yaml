@@ -8082,6 +8082,14 @@ blue-circle-blue-triangle:
     opacity: 0.0
     rounded: 10
     padding: 2
+blue-round-white-triangle:
+  fill: "#ffffff"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
 brown-blue-triangle:
   fill: "#1579e0"
   shield:
@@ -8686,6 +8694,13 @@ orange-wheel:
   fill: "#ffffff"
   shield:
     fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+purple-white-wheel:
+  fill: "#ffffff"
+  shield:
+    fill: "#b878dd"
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1

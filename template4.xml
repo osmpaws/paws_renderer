@@ -2,7 +2,7 @@
 <rendertheme xmlns="http://mapsforge.org/renderTheme" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://mapsforge.org/renderTheme https://raw.githubusercontent.com/mapsforge/mapsforge/dev/resources/renderTheme-v4.xsd" version="4" map-background-outside="#EEEEEE" map-background="#f8f8f8">
 	
-	<!--#r00447b01005#-->
+	<!--#r00448b01006#-->
 
 	<!--style#v4#setup-->
 <stylemenu id="r4menu" defaultvalue="default" defaultlang="en">
@@ -4125,6 +4125,9 @@
 		<rule e="node" k="osmc_foreground" v="yellow_shell_modern">
 			<symbol src="file:osmc-symbols/blue_round_yellow_shell_modern.svg" symbol-scaling="size" symbol-width="28" symbol-height="28" priority="2" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="white_triangle">
+			<symbol src="file:osmc-symbols/blue_round_white_triangle.svg" symbol-scaling="size" symbol-width="28" symbol-height="28" priority="2" />
+		</rule>
 	</rule>
 <!--OSMC symbols brown_circle node background-->
 	<rule e="node" cat="hike_symbol_nodes" k="osmc_background" v="brown_circle" zoom-min="15">
@@ -5300,6 +5303,9 @@
 		</rule>
 		<rule e="node" k="osmc_foreground" v="white_turned_T">
 			<symbol src="file:osmc-symbols/purple_white_turned_t.svg" symbol-scaling="size" symbol-width="25" symbol-height="25" priority="2" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="white_wheel">
+			<symbol src="file:osmc-symbols/purple_white_wheel.svg" symbol-scaling="size" symbol-width="25" symbol-height="25" priority="2" />
 		</rule>
 	</rule>
 <!--OSMC symbols purple_round node background-->
@@ -7377,6 +7383,9 @@
 		<rule e="way" k="osmc_foreground" v="yellow_shell_modern">
 			<lineSymbol src="file:osmc-symbols/blue_round_yellow_shell_modern.svg" symbol-scaling="size" symbol-width="28" symbol-height="28" rotate="false" repeat-start="#" repeat-gap="#"  align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="white_triangle">
+			<lineSymbol src="file:osmc-symbols/blue_round_white_triangle.svg" symbol-scaling="size" symbol-width="28" symbol-height="28" rotate="false" repeat-start="#" repeat-gap="#"  align-center="false" repeat="true" />
+		</rule>
 	</rule>
 <!--OSMC symbols blue background-->
 	<rule e="way" cat="hike_symbol_lines" k="osmc_background" v="blue" zoom-min="15">
@@ -8825,6 +8834,9 @@
 		</rule>
 		<rule e="way" k="osmc_foreground" v="white_turned_T">
 			<lineSymbol src="file:osmc-symbols/purple_white_turned_t.svg" symbol-scaling="size" symbol-width="25" symbol-height="25" rotate="false" repeat-start="#" repeat-gap="#"  align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="white_wheel">
+			<lineSymbol src="file:osmc-symbols/purple_white_wheel.svg" symbol-scaling="size" symbol-width="25" symbol-height="25" rotate="false" repeat-start="#" repeat-gap="#"  align-center="false" repeat="true" />
 		</rule>
 	</rule>
 <!--OSMC symbols red_circle background-->

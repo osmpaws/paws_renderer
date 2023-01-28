@@ -183,6 +183,7 @@ osmc-symbols/blue-round-white-diamond-14.svg
 osmc-symbols/blue-round-white-dot-14.svg
 osmc-symbols/blue-round-white-hiker-14.svg
 osmc-symbols/blue-round-white-pointer-14.svg
+osmc-symbols/blue-round-white-triangle-14.svg
 osmc-symbols/blue-round-yellow-circle-14.svg
 osmc-symbols/blue-round-yellow-dot-14.svg
 osmc-symbols/blue-round-yellow-pointer-14.svg
@@ -624,6 +625,7 @@ osmc-symbols/purple-white-triangle-line-14.svg
 osmc-symbols/purple-white-triangle-turned-14.svg
 osmc-symbols/purple-white-triangle-14.svg
 osmc-symbols/purple-white-turned-t-14.svg
+osmc-symbols/purple-white-wheel-14.svg
 osmc-symbols/purple-yellow-cross-14.svg
 osmc-symbols/red-black-circle-14.svg
 osmc-symbols/red-black-diamond-line-14.svg

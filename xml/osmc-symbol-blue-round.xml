@@ -39,4 +39,7 @@
 		<rule e="way" k="osmc_foreground" v="yellow_shell_modern">
 			<lineSymbol src="file:/osmc-symbols/blue_round_yellow_shell_modern.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="white_triangle">
+			<lineSymbol src="file:/osmc-symbols/blue_round_white_triangle.png" align-center="false" repeat="true" />
+		</rule>
 	</rule>
