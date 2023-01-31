@@ -6953,6 +6953,18 @@ yellow-round-white-stripe:
     stroke_width: 1
     padding: 2
     rounded: 10
+none-red-stripe:
+  fill: "#ff0000"
+  shield:
+    fill: "#ffffff"
+    opacity: 0.0
+    padding: 1
+none-blue-stripe:
+  fill: "#1579e0"
+  shield:
+    fill: "#ffffff"
+    opacity: 0.0
+    padding: 1
 black-tower:
   fill: "#ffffff"
   shield:
