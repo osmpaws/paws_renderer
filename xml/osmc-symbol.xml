@@ -8110,6 +8110,12 @@
 	<rule e="way" k="osmc_background" v="black_round" zoom-min="15">
 	</rule>
 	<rule e="way" k="osmc_background" v="blue" zoom-min="15">
+		<rule e="way" k="osmc_foreground" v="white_triangle_turned">
+			<lineSymbol src="file:/osmc-symbols/blue_white_triangle_turned.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="white_triangle_turned">
+			<symbol src="file:/osmc-symbols/blue_white_triangle_turned.png" />
+		</rule>
 	</rule>
 	<rule e="way" k="osmc_background" v="blue_circle" zoom-min="15">
 	</rule>

@@ -7209,6 +7209,13 @@ black-white-triangle-turned:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+blue-white-triangle-turned:
+  fill: "#ffffff"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 brown-yellow-triangle-turned:
   fill: "#ffdd00"
   shield:

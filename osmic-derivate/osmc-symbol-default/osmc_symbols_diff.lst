@@ -354,6 +354,7 @@ blue:SHK
 blue:SKT
 blue:SlR
 blue:SLR
+blue_square:white_arch
 blue:STK
 :blue_stripe
 blue_stripe
@@ -897,6 +898,7 @@ orange:T2a
 orange:V
 orange_web
 orange:white
+orange:white_house
 orange_white_orange_arch
 orange:white_upper
 orange:WW
