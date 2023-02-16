@@ -639,6 +639,7 @@ osmc-symbols/red-black-lower-14.svg
 osmc-symbols/red-black-pointer-14.svg
 osmc-symbols/red-black-rectangle-14.svg
 osmc-symbols/red-black-slash-14.svg
+osmc-symbols/red-black-stripe-14.svg
 osmc-symbols/red-blue-backslash-14.svg
 osmc-symbols/red-blue-bar-14.svg
 osmc-symbols/red-blue-diamond-14.svg

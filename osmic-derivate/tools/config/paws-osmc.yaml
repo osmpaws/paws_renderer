@@ -7530,6 +7530,13 @@ red-white-stripe:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+red-black-stripe:
+  fill: "#000000"
+  shield:
+    fill: "#ff0000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 white-red-stripe:
   fill: "#ff0000"
   shield:
