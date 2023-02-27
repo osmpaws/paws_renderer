@@ -48,6 +48,7 @@ black_bar
 black:black
 Black:black
 black:black_frame
+black:black_recangle
 black:black_rectagle
 black:black_rectangele
 black:black_Rectangle
@@ -1409,6 +1410,7 @@ white:color_backslash
 white:color_bar
 white:color_corner
 white_corner
+white_cross
 white:cyan_lower
 white:cyan_pointer
 white:cycle_green
