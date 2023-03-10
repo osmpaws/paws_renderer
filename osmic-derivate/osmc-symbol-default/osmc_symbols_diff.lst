@@ -129,6 +129,7 @@ black:Kv
 black:KwR
 black:M
 black:MBS
+black_mill
 black:MT
 black:mtb
 black:n
@@ -209,6 +210,7 @@ Blau-weis
 bl;ue:
 blue
 blue:
+blue_:
 :blue_arrow
 blue_arrow
 blue:AW65
@@ -513,6 +515,7 @@ gree:green_rectangle
 :green
 green
 green:
+green_
 green:Ammler
 green:AP
 green:Appenzeller
@@ -1821,6 +1824,7 @@ yellos:
 :yellow
 yellow
 yellow:
+yellow_
 yellow:Aand
 yellow:AV
 yellow:A5

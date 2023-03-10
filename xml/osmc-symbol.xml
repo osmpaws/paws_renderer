@@ -6690,6 +6690,12 @@
 		</rule>
 	</rule>
 	<rule e="way" k="osmc_background" v="yellow_round" zoom-min="15">
+		<rule e="way" k="osmc_foreground" v="red_rectangle">
+			<lineSymbol src="file:/osmc-symbols/yellow_round_red_rectangle.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="red_rectangle">
+			<symbol src="file:/osmc-symbols/yellow_round_red_rectangle.png" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="black_rectangle">
 			<lineSymbol src="file:/osmc-symbols/yellow_round_black_rectangle.png" align-center="false" repeat="true" />
 		</rule>
