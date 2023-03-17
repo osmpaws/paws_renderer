@@ -449,6 +449,7 @@ brown:PL
 brown_rectangle:AT
 brown:RKr
 brown_round
+brown_round:white_arrow
 brown:RR03
 :brown_signpost
 brown:SNP
@@ -505,6 +506,7 @@ golden:
 golden_web
 gray
 gray:
+gray:A
 gray:gray_bar
 gray:NaEr
 gray:none
