@@ -4955,6 +4955,13 @@ white-green-l:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+white-black-l:
+  fill: "#000000"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 white-purple-l:
   fill: "#b878dd"
   shield:
