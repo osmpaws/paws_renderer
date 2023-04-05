@@ -1133,6 +1133,7 @@ osmc-symbols/yellow-white-dot-14.svg
 osmc-symbols/yellow-white-hiker-14.svg
 osmc-symbols/yellow-white-lower-14.svg
 osmc-symbols/yellow-white-pointer-14.svg
+osmc-symbols/yellow-white-rectangle-line-14.svg
 osmc-symbols/yellow-white-right-14.svg
 osmc-symbols/yellow-white-slash-14.svg
 osmc-symbols/yellow-white-stripe-14.svg
