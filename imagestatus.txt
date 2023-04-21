@@ -4,6 +4,7 @@ osmc-symbols/black-blue-cross-14.svg
 osmc-symbols/black-blue-dot-14.svg
 osmc-symbols/black-blue-hiker-14.svg
 osmc-symbols/black-blue-pointer-14.svg
+osmc-symbols/black-blue-rectangle-14.svg
 osmc-symbols/black-brown-bar-14.svg
 osmc-symbols/black-brown-dot-14.svg
 osmc-symbols/black-circle-black-bar-14.svg
