@@ -446,6 +446,7 @@ brown:H1
 brown:NaEr
 brown:none
 brown:PL
+brown:planet
 :brown_pointer
 brown_rectangle:AT
 brown:RKr
@@ -460,6 +461,7 @@ brown:WBT
 brown:white
 brown;white;black_ammonit
 brown;white;brown;L
+brown:white_planet
 brown_white:pointer
 brown:white_round
 brown:WLP
@@ -1186,7 +1188,10 @@ red:white_stripe_Z8
 red.white_stripe:132
 red_white_stripe:176A
 red:white_stripe.208
+red:white_stripe.208A
 red:white_stripe.209
+red:white_stripe.210
+red:white_stripe.211
 red:white_stripe_432
 red;white_stripe:717
 red_white_stripe:737
@@ -1383,6 +1388,7 @@ white:blue_miner
 white:blue_pin
 white:blue_right_pointer
 white:blue_square
+whiteblue_square
 white:blue_stamp
 white:blue_T
 white:blue_upper
@@ -1612,11 +1618,13 @@ white:red_bar;blue
 white:red_bar;green
 white:red_bar;red
 white:red_bar;yellow
+white:red_bar415
 white:red_bicycle
 white:red_bike
 white:red_blue
 white:red_castle
 white:red_cornered
+white:red_corner_left
 white:red_cros
 white:red_crown
 white:red_dot;blue
@@ -1992,6 +2000,7 @@ yellow:red
 yellow:red_
 yellow:red_arrow
 yellow:red_blue_diamond
+yellow:red_corner_left
 yellow:red_under
 yellow:re_lower
 :yellow_round

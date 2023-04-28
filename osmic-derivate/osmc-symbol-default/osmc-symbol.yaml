@@ -5167,6 +5167,13 @@ blue-black-pointer:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+blue-orange-pointer:
+  fill: "#f96f00"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 blue-frame-blue-pointer:
   fill: "#1579e0"
   shield:

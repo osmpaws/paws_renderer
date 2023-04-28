@@ -6534,6 +6534,13 @@ yellow-black-rectangle-line:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+black-blue-rectangle:
+  fill: "#1579e0"
+  shield:
+    fill: "#000000"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 black-green-rectangle:
   fill: "#00cd27"
   shield:

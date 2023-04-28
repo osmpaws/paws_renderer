@@ -164,6 +164,7 @@ osmc-symbols/blue-orange-bar-14.svg
 osmc-symbols/blue-orange-bowl-14.svg
 osmc-symbols/blue-orange-hiker-14.svg
 osmc-symbols/blue-orange-lower-14.svg
+osmc-symbols/blue-orange-pointer-14.svg
 osmc-symbols/blue-orange-shell-modern-14.svg
 osmc-symbols/blue-rectangle-14.svg
 osmc-symbols/blue-red-bar-14.svg
