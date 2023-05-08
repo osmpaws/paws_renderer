@@ -457,6 +457,13 @@ white-black-arch:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+white-orange-arch:
+  fill: "#f96f00"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 yellow-black-arch:
   fill: "#000000"
   shield:
@@ -574,6 +581,13 @@ white-green-backslash:
     padding: 1
 white-black-backslash:
   fill: "#000000"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+white-purple-backslash:
+  fill: "#b878dd"
   shield:
     fill: "#ffffff"
     stroke_fill: "#000000"

@@ -374,6 +374,8 @@ blue_triangle_turned:
 blue_turned_T
 blue:TWR
 blue:T5
+blue_upper:green_lower
+blue_upper:yellow_lower
 blue:V
 blue:Via
 blue:V5
@@ -708,6 +710,7 @@ green:TL
 green_triangle
 green_triangle:
 green:TW
+green_upper:yellow_lower
 green:U2
 green:VR1
 green:W
@@ -1103,6 +1106,7 @@ red_pointer
 red_pointer:white_stripe
 red:PT
 red:R
+red:rabbit
 red_rectangel:
 :red_rectangle
 red_rectangle
@@ -1427,10 +1431,12 @@ white_circle:S2
 white_circle:S3
 white_circle:V
 white_cirkle:1
+white:Col
 white:color_backslash
 white:color_bar
 white:color_corner
 white_corner
+white:Crepes
 white_cross
 white:cyan_lower
 white:cyan_pointer
@@ -1442,6 +1448,7 @@ white_diamond:HI
 white_diamond:HII
 white_diamond_line
 white:Dol
+white:Dolomieu
 :white_dot
 white_dot
 white_dot:
@@ -1594,6 +1601,7 @@ white:pink_stripe
 :white_pointer
 white_pointer
 white_pointer:BW
+white:Prà
 white:prple_pointer
 white:prurple_diamond
 white:PS
@@ -1661,6 +1669,7 @@ white:red_3
 white:Reh
 white:rgreen_bar
 white:rgreen_pointer
+white:Rifugio
 white:rood_triangle
 white:root_cross
 :white_round
@@ -1691,9 +1700,11 @@ white:R7a
 white:R8
 white:R9
 white:S
+white:Sentiero
 white:SKGLB
 white_square:
 white:squirrel
+white:Strada
 white_stripe
 white_stripe:D0
 white_stripe:G0
@@ -1939,6 +1950,7 @@ yellow_frame:Themenwanderweg
 yellow_framewhite:red_rectangle_line
 yellow_frame:WSW
 yellow_frame:Yellow_triangle
+yellow:frog
 yellow:F4
 yellow:geel
 yellow:Gelb
@@ -1984,6 +1996,7 @@ yellow:none_bar
 yellow:NSV9
 yellow:(o)
 yellow:OS
+yellow:Panoramaweg
 :yellow_pointer
 yellow_pointer
 yellow_pointer:
@@ -2041,6 +2054,7 @@ yellow_track
 :yellow_triangle
 yellow_triangle
 :yellow_triangle_line
+:yellow_triangle_turned
 yellow_triangle_turned
 yellow_triangle_turned:
 :yellow_turned_T

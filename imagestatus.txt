@@ -874,6 +874,7 @@ osmc-symbols/white-heart-14.svg
 osmc-symbols/white-hiker-14.svg
 osmc-symbols/white-l-14.svg
 osmc-symbols/white-mine-14.svg
+osmc-symbols/white-orange-arch-14.svg
 osmc-symbols/white-orange-backslash-14.svg
 osmc-symbols/white-orange-bar-14.svg
 osmc-symbols/white-orange-circle-14.svg
@@ -894,6 +895,7 @@ osmc-symbols/white-orange-stripe-14.svg
 osmc-symbols/white-orange-triangle-turned-14.svg
 osmc-symbols/white-orange-triangle-14.svg
 osmc-symbols/white-orange-wheel-14.svg
+osmc-symbols/white-purple-backslash-14.svg
 osmc-symbols/white-purple-bar-14.svg
 osmc-symbols/white-purple-circle-14.svg
 osmc-symbols/white-purple-corner-14.svg

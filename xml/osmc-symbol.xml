@@ -266,6 +266,12 @@
 		<rule e="node" k="osmc_foreground" v="black_arch">
 			<symbol src="file:/osmc-symbols/white_black_arch.png" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="orange_arch">
+			<lineSymbol src="file:/osmc-symbols/white_orange_arch.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="orange_arch">
+			<symbol src="file:/osmc-symbols/white_orange_arch.png" />
+		</rule>
 	</rule>
 	<rule e="way" k="osmc_background" v="white_circle" zoom-min="15">
 	</rule>
@@ -449,6 +455,12 @@
 		</rule>
 		<rule e="node" k="osmc_foreground" v="black_backslash">
 			<symbol src="file:/osmc-symbols/white_black_backslash.png" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="purple_backslash">
+			<lineSymbol src="file:/osmc-symbols/white_purple_backslash.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="purple_backslash">
+			<symbol src="file:/osmc-symbols/white_purple_backslash.png" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="orange_backslash">
 			<lineSymbol src="file:/osmc-symbols/white_orange_backslash.png" align-center="false" repeat="true" />
