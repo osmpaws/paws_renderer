@@ -1027,6 +1027,14 @@ black-white-arch:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+black-circle-blue-arch:
+  fill: "#1579e0"
+  shield:
+    stroke_fill: "#000000"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 10
+    padding: 2
 blue-white-arch:
   fill: "#ffffff"
   shield:

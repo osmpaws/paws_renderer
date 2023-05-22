@@ -120,6 +120,12 @@
 		</rule>
 	</rule>
 	<rule e="way" k="osmc_background" v="black_circle" zoom-min="15">
+		<rule e="way" k="osmc_foreground" v="blue_arch">
+			<lineSymbol src="file:/osmc-symbols/black_circle_blue_arch.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="blue_arch">
+			<symbol src="file:/osmc-symbols/black_circle_blue_arch.png" />
+		</rule>
 	</rule>
 	<rule e="way" k="osmc_background" v="black_frame" zoom-min="15">
 	</rule>

@@ -69,6 +69,7 @@ black_circle:A
 black_circle:B
 black_circle:black
 black_circle:black_horse
+black_circle:blue_tilde
 black_circle:celtic_head
 black_circle:L8
 black_circle:red_rat
@@ -83,8 +84,11 @@ black_diamond
 black_diamond:white_diamond
 :black_dot
 black_dot
+black:D3
+black:D4
 black:E
 black:ET
+black:E1
 black:E8
 black:F
 black:FBW
@@ -127,6 +131,7 @@ black:KKS
 black:KT
 black:Kv
 black:KwR
+black:K4
 black:M
 black:MBS
 black_mill
@@ -161,6 +166,8 @@ black:ST
 :black_triangle
 black_triangle_turned:
 black:U
+black:U1
+black:U2
 black:V3
 black:V4
 black:W
@@ -474,6 +481,7 @@ brown&#127;&#127;&#127;&#127;:NaEr
 brown:15
 brown:3
 brown:6
+CAI;Comunità
 C:blue
 cc:black
 ciolet:O
@@ -776,6 +784,7 @@ grey_frame:white_bar
 grey:grey_bar
 grey:none
 grey:red_dot
+:grey_triangle
 grey:white_bar
 grreen
 GT:white
@@ -1430,6 +1439,7 @@ white_circle:R2
 white_circle:S2
 white_circle:S3
 white_circle:V
+white_circle:yellow_up_arrow
 white_cirkle:1
 white:Col
 white:color_backslash
@@ -1474,6 +1484,7 @@ white:GR
 white:gray_arrow
 white:gray_bar
 white:gray_circle
+white:gray_dot
 white:gray_pointer
 white:greeen_backslash
 white:green
@@ -1758,6 +1769,7 @@ white:yblue_rectangle
 white:yello_bar
 white:yellow
 white:yellow_arrow
+white:yellow_ba
 white:yellow_backlash
 white_yellow_bar
 white:yellow_bar;blue
@@ -1831,6 +1843,7 @@ white:8
 white:9
 white:π
 white:𐂂
+whitw:green_L
 whit:yellow_cross
 whtie:blue_rectangle
 whtie:yellow_lower
@@ -2129,6 +2142,7 @@ Z0:black
 Z00:black
 #0c7570:white_arrow
 #00ffff:
+#00FFFF
 #00ffff:green_dot
 #00ffff:purple_dot
 #008bcc

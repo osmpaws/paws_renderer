@@ -10,6 +10,7 @@ osmc-symbols/black-brown-dot-14.svg
 osmc-symbols/black-circle-black-bar-14.svg
 osmc-symbols/black-circle-black-dot-14.svg
 osmc-symbols/black-circle-black-triangle-14.svg
+osmc-symbols/black-circle-blue-arch-14.svg
 osmc-symbols/black-circle-blue-dot-14.svg
 osmc-symbols/black-circle-brown-dot-14.svg
 osmc-symbols/black-circle-green-bar-14.svg
