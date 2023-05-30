@@ -68,6 +68,7 @@ black_circle:
 black_circle:A
 black_circle:B
 black_circle:black
+black_circle:black_arrow
 black_circle:black_horse
 black_circle:blue_tilde
 black_circle:celtic_head
@@ -264,6 +265,7 @@ blue_diamond_line:white_diamond
 blue_dot
 blue_dot:
 blue_dot:blue_dot
+blue_dot:white_circle
 blue_dot:3
 :blue_drop
 blue_drop
@@ -891,6 +893,7 @@ orange:Main
 orange:MV
 orange:N
 orange:none
+orange_none:
 orange:O
 orange:orange
 orange:orange_frame
@@ -1205,6 +1208,8 @@ red:white_stripe.208A
 red:white_stripe.209
 red:white_stripe.210
 red:white_stripe.211
+red:white_stripe224
+red:white_stripe224B
 red:white_stripe_432
 red;white_stripe:717
 red_white_stripe:737
@@ -1302,6 +1307,7 @@ Tschierweg-Alexanderhütte-Millstätter
 unknown
 V
 Valllorbe
+vert:yellow_lower
 violet
 Vogtland-Ferienland-Route
 way
@@ -2005,6 +2011,7 @@ yellow:MWB
 yellow:NEK
 yellow:NGK
 yellow:none
+yellow_none:
 yellow:none_bar
 yellow:NSV9
 yellow:(o)

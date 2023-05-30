@@ -1035,6 +1035,13 @@ black-circle-blue-arch:
     opacity: 0.0
     rounded: 10
     padding: 2
+blue-red-arch:
+  fill: "#ff0000"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 blue-white-arch:
   fill: "#ffffff"
   shield:
