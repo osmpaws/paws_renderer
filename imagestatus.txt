@@ -537,6 +537,7 @@ osmc-symbols/orange-tower-14.svg
 osmc-symbols/orange-wheel-14.svg
 osmc-symbols/orange-white-bar-14.svg
 osmc-symbols/orange-white-circle-14.svg
+osmc-symbols/orange-white-corner-14.svg
 osmc-symbols/orange-white-cross-14.svg
 osmc-symbols/orange-white-diamond-14.svg
 osmc-symbols/orange-white-dot-14.svg

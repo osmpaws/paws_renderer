@@ -2007,6 +2007,13 @@ orange-blue-corner:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+orange-white-corner:
+  fill: "#ffffff"
+  shield:
+    fill: "#f96f00"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 purple-red-corner:
   fill: "#ff0000"
   shield:

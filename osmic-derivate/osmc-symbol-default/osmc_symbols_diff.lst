@@ -150,10 +150,12 @@ black_pointer_line:K
 black:PT
 black:PVL
 black:PW
+black_rectangle:=
 black_round
 black_round:
 black_round:NK2
 black_round:white
+black_round:yellow_up_arrow
 black:RT
 black:R3
 black:S
@@ -1694,6 +1696,7 @@ white_round
 white_round:
 white_round:bird
 white_round:black
+white_round:black_arrow
 white_round:blu_dot
 white_round:none
 white_round:red_point
