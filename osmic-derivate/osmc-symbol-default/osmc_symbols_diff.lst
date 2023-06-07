@@ -15,6 +15,7 @@ aqua:blue_dot
 aqua:orange_dot
 aqua:purple_dot
 aqua:white_bar
+Auberge
 azul:CLD2
 azul:CLD3
 azul:CLD4
@@ -217,6 +218,7 @@ black:7
 blau-gelb-blau
 blau:schwarz
 Blau-weis
+bleu:yellow_lower
 :blue
 bl;ue:
 blue
@@ -491,6 +493,7 @@ cc:black
 ciolet:O
 :circle
 circle
+Contrada
 cyan:
 cyan:AA
 cyan_dot
@@ -922,6 +925,7 @@ orange:SL4
 orange:SL5
 orange_square
 :orange_stripe
+orange:T
 :orange_triangle
 orange_triangle
 :orange_triangle_turned

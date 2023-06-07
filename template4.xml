@@ -2,7 +2,7 @@
 <rendertheme xmlns="http://mapsforge.org/renderTheme" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://mapsforge.org/renderTheme https://raw.githubusercontent.com/mapsforge/mapsforge/dev/resources/renderTheme-v4.xsd" version="4" map-background-outside="#EEEEEE" map-background="#f8f8f8">
 	
-	<!--#r00521b01079#-->
+	<!--#r00523b01081#-->
 
 	<!--style#v4#setup-->
 <stylemenu id="r4menu" defaultvalue="default" defaultlang="en">
@@ -4425,6 +4425,9 @@
 		<rule e="node" k="osmc_foreground" v="white_hiker">
 			<symbol src="file:osmc-symbols/gray_white_hiker.svg" symbol-scaling="size" symbol-width="25" symbol-height="25" priority="2" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="white_lower">
+			<symbol src="file:osmc-symbols/gray_white_lower.svg" symbol-scaling="size" symbol-width="25" symbol-height="25" priority="2" />
+		</rule>
 		<rule e="node" k="osmc_foreground" v="orange_lower">
 			<symbol src="file:osmc-symbols/gray_orange_lower.svg" symbol-scaling="size" symbol-width="25" symbol-height="25" priority="2" />
 		</rule>
@@ -7997,6 +8000,9 @@
 		</rule>
 		<rule e="way" k="osmc_foreground" v="white_hiker">
 			<lineSymbol src="file:osmc-symbols/gray_white_hiker.svg" symbol-scaling="size" symbol-width="25" symbol-height="25" rotate="false" repeat-start="#" repeat-gap="#"  align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="white_lower">
+			<lineSymbol src="file:osmc-symbols/gray_white_lower.svg" symbol-scaling="size" symbol-width="25" symbol-height="25" rotate="false" repeat-start="#" repeat-gap="#"  align-center="false" repeat="true" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="orange_lower">
 			<lineSymbol src="file:osmc-symbols/gray_orange_lower.svg" symbol-scaling="size" symbol-width="25" symbol-height="25" rotate="false" repeat-start="#" repeat-gap="#"  align-center="false" repeat="true" />
