@@ -447,6 +447,7 @@ osmc-symbols/green-white-wheelchair-14.svg
 osmc-symbols/green-white-x-14.svg
 osmc-symbols/green-yellow-bar-14.svg
 osmc-symbols/green-yellow-circle-14.svg
+osmc-symbols/green-yellow-corner-14.svg
 osmc-symbols/green-yellow-cross-14.svg
 osmc-symbols/green-yellow-diamond-line-14.svg
 osmc-symbols/green-yellow-diamond-14.svg

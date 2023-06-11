@@ -5330,6 +5330,13 @@ brown-white-lower:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+gray-white-lower:
+  fill: "#ffffff"
+  shield:
+    fill: "#aaaaaa"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 gray-orange-lower:
   fill: "#f96f00"
   shield:

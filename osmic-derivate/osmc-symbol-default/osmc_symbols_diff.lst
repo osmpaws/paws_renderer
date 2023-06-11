@@ -80,6 +80,7 @@ black_circle:25
 :black_corcle
 :black_cross
 black:D
+black:DB
 black:Delta
 black:DH
 black_diamond
@@ -235,6 +236,7 @@ blue_bar
 blue_bar:blue_bar
 blue_bar:green_lower
 blue_bar:RBW
+blue_bar:3red_dot
 blue:Ba1
 blue:blue
 blue:blue_arrow
@@ -1090,6 +1092,7 @@ red:gray_stripe
 red:green
 red:green_corner_left
 red;green_frame;red_dot;black
+red:green_left
 red:GT
 red:GWP
 red:HF3
@@ -1265,6 +1268,7 @@ rted:white_stripe
 Rundwanderweg
 RWW
 R3
+Segnavia
 shell
 :shell_modern
 shell_modern
@@ -1408,6 +1412,7 @@ white:blue_frame
 white:blue_gull
 white:blue_house
 white:blue_chapel
+white:blue_left
 white:blue_memorial
 white:blue_miner
 white:blue_pin
@@ -1498,6 +1503,7 @@ white:gray_bar
 white:gray_circle
 white:gray_dot
 white:gray_pointer
+white:gree_dot
 white:greeen_backslash
 white:green
 white:green_arrow
@@ -1579,6 +1585,7 @@ white:LES
 white_lower
 white:lower_green
 white_lower:12
+white:LR
 white:LS
 white:L10
 white:L17
