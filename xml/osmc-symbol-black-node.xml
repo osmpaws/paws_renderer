@@ -237,6 +237,9 @@
 		<rule e="node" k="osmc_foreground" v="white_turned_T">
 			<symbol src="file:/osmc-symbols/black_white_turned_t.png" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="white_wheel">
+			<symbol src="file:/osmc-symbols/black_white_wheel.png" />
+		</rule>
 		<rule e="node" k="osmc_foreground" v="white_x">
 			<symbol src="file:/osmc-symbols/black_white_x.png" />
 		</rule>

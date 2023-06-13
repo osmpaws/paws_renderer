@@ -237,6 +237,9 @@
 		<rule e="way" k="osmc_foreground" v="white_turned_T">
 			<lineSymbol src="file:/osmc-symbols/black_white_turned_t.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="white_wheel">
+			<lineSymbol src="file:/osmc-symbols/black_white_wheel.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="white_x">
 			<lineSymbol src="file:/osmc-symbols/black_white_x.png" align-center="false" repeat="true" />
 		</rule>

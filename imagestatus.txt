@@ -98,6 +98,7 @@ osmc-symbols/black-white-triangle-line-14.svg
 osmc-symbols/black-white-triangle-turned-14.svg
 osmc-symbols/black-white-triangle-14.svg
 osmc-symbols/black-white-turned-t-14.svg
+osmc-symbols/black-white-wheel-14.svg
 osmc-symbols/black-white-x-14.svg
 osmc-symbols/black-yellow-arch-14.svg
 osmc-symbols/black-yellow-bar-14.svg
