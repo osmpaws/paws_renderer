@@ -55,6 +55,7 @@ black:black_rectangele
 black:black_Rectangle
 black:Black-rectangle
 black:black_retangle
+black:black_square
 blackblue_bar
 black:BR
 black:BUS
@@ -310,6 +311,7 @@ blue:ICT
 blue:KARA
 blue:KLW
 blue:KR
+blue:Kra
 blue:KWO
 blue:K1
 blue:LA
@@ -330,6 +332,7 @@ blue:NSS
 blue:NTW
 blue:orange
 blue:OZW
+blue:Paznauner
 blue:planet
 blue:PO
 :blue_pointer
@@ -745,6 +748,7 @@ green:white_rider
 green:white_right_pointer
 green:white_sheep
 green:white_strip
+green:white_water_lily
 green:whitgreen
 green:WK
 green:WLM
@@ -1103,6 +1107,7 @@ red:H2
 red:H6
 red:H9
 red:KPH
+red:Kra
 red:leaf
 :red_lower
 red_lower:CV
@@ -1504,6 +1509,7 @@ white:gray_bar
 white:gray_circle
 white:gray_dot
 white:gray_pointer
+white:gray_upper_bowl
 white:gree_dot
 white:greeen_backslash
 white:green
@@ -1856,6 +1862,7 @@ white:3_yellow_dot
 white:37
 white:4
 white:5
+white:5*
 white:6
 white:&#60;
 white:&#60;5
@@ -1864,6 +1871,7 @@ white:8
 white:9
 white:π
 white:𐂂
+whitr:red
 whitw:green_L
 whit:yellow_cross
 whtie:blue_rectangle
@@ -2015,6 +2023,7 @@ yellow:KL1
 yellow:KL2
 yellow:KL3
 yellow:KL4
+yellow:Kra
 yellow:KVB
 yellow:KwR
 yellow:LfK

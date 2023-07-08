@@ -1087,6 +1087,7 @@ osmc-symbols/yellow-green-lower-14.svg
 osmc-symbols/yellow-green-pointer-14.svg
 osmc-symbols/yellow-green-rectangle-14.svg
 osmc-symbols/yellow-green-slash-14.svg
+osmc-symbols/yellow-green-stripe-14.svg
 osmc-symbols/yellow-green-triangle-14.svg
 osmc-symbols/yellow-heart-14.svg
 osmc-symbols/yellow-hiker-14.svg
