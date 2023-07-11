@@ -1522,6 +1522,13 @@ gray-purple-bar:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+gray-orange-bar:
+  fill: "#f96f00"
+  shield:
+    fill: "#aaaaaa"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 gray-circle-green-bar:
   fill: "#00cd27"
   shield:

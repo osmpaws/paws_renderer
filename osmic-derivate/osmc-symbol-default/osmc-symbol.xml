@@ -720,6 +720,12 @@
 		<rule e="node" k="osmc_foreground" v="purple_bar">
 			<symbol src="file:/osmc-symbols/gray_purple_bar.png" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="orange_bar">
+			<lineSymbol src="file:/osmc-symbols/gray_orange_bar.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="orange_bar">
+			<symbol src="file:/osmc-symbols/gray_orange_bar.png" />
+		</rule>
 	</rule>
 	<rule e="way" k="osmc_background" v="gray_circle" zoom-min="15">
 		<rule e="way" k="osmc_foreground" v="green_bar">

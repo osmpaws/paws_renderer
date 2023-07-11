@@ -532,6 +532,7 @@ golden_web
 gray
 gray:
 gray:A
+gray:gray
 gray:gray_bar
 gray:J
 gray:NaEr
@@ -889,6 +890,7 @@ orange_diamond
 orange_diamond:black_bar
 :orange_dot
 orange_dot
+orange_dot:white_circle
 orange_dot:5
 orange:E1
 :orange_fork
@@ -1396,6 +1398,7 @@ white:blau_bar
 white:blck_pointer
 white:bliue_hiker
 white:blue
+white:blue_aqrrow
 white:blue_arrow
 white:blue_backlash
 white:blue_bar_
@@ -2107,6 +2110,7 @@ yellow:V3
 yellow:WA
 yellow_web
 yellow:white
+yellow:white_arrow
 yellow:white_bicycle
 yellow:white_black_diamond
 yellow:white_blue_diamond
