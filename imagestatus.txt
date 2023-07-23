@@ -121,6 +121,7 @@ osmc-symbols/blue-black-hiker-14.svg
 osmc-symbols/blue-black-lower-14.svg
 osmc-symbols/blue-black-pointer-14.svg
 osmc-symbols/blue-black-rectangle-14.svg
+osmc-symbols/blue-black-stripe-14.svg
 osmc-symbols/blue-brown-lower-14.svg
 osmc-symbols/blue-brown-rectangle-line-14.svg
 osmc-symbols/blue-circle-blue-diamond-14.svg

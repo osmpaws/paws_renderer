@@ -247,6 +247,7 @@ blue:blue_recangle
 blue:bluerectangle
 blue:blue-redtangle
 blue;blue/white;white;W;gray
+blue_bowl
 blue:Buit
 :blue_circle
 blue_circle
@@ -540,6 +541,7 @@ gray:none
 :gray_triangle
 gray_triangle
 gree
+greeen:white_wheel
 gree:green_rectangle
 :green
 green
@@ -662,6 +664,7 @@ green:Neckertaler
 green:NEP
 green:NEt
 green:NHB
+green:NIP
 green:NKD
 green:NNg
 green:none
@@ -1351,6 +1354,7 @@ white:+
 white:=
 white:\
 white:♥
+white:🌳
 white:A
 white:AC
 :white_arrow
@@ -1696,6 +1700,7 @@ white:red_pointer;red
 white:red_polish_underground
 white:red_rectangle;
 white:red_right_arrow
+white:red_right_pointer
 white:red_round
 white:red_RT
 white:red_runner
@@ -1840,6 +1845,7 @@ white:yellow_star
 white:yellow_T
 white:yellow_triangel
 white_yellow_triangle
+white:yellow_trianglediamond
 white:yellow_upper
 white[:yellow_x]
 white:yellow_X

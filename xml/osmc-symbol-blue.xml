@@ -234,6 +234,9 @@
 		<rule e="way" k="osmc_foreground" v="white_stripe">
 			<lineSymbol src="file:/osmc-symbols/blue_white_stripe.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="black_stripe">
+			<lineSymbol src="file:/osmc-symbols/blue_black_stripe.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="tower">
 			<lineSymbol src="file:/osmc-symbols/blue_tower.png" align-center="false" repeat="true" />
 		</rule>
