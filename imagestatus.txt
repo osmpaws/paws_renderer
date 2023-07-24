@@ -1,6 +1,7 @@
 osmc-symbols/black-blue-arch-14.svg
 osmc-symbols/black-blue-bar-14.svg
 osmc-symbols/black-blue-cross-14.svg
+osmc-symbols/black-blue-diamond-14.svg
 osmc-symbols/black-blue-dot-14.svg
 osmc-symbols/black-blue-hiker-14.svg
 osmc-symbols/black-blue-pointer-14.svg
@@ -447,6 +448,7 @@ osmc-symbols/green-white-triangle-line-14.svg
 osmc-symbols/green-white-triangle-turned-14.svg
 osmc-symbols/green-white-triangle-14.svg
 osmc-symbols/green-white-wheelchair-14.svg
+osmc-symbols/green-white-wheel-14.svg
 osmc-symbols/green-white-x-14.svg
 osmc-symbols/green-yellow-bar-14.svg
 osmc-symbols/green-yellow-circle-14.svg

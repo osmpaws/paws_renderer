@@ -1404,6 +1404,7 @@ white:bliue_hiker
 white:blue
 white:blue_aqrrow
 white:blue_arrow
+white:blue_arrrow
 white:blue_backlash
 white:blue_bar_
 white;blue_bar
@@ -1631,6 +1632,7 @@ white:orange_drop_line
 white:orange_flower
 white:orange_left_L
 white:orange_left_turned_L
+white:orange_right_pointer
 white:orange_round
 white:orange_T
 white:orange_turned_L

@@ -2,7 +2,7 @@
 <rendertheme xmlns="http://mapsforge.org/renderTheme" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://mapsforge.org/renderTheme https://raw.githubusercontent.com/mapsforge/mapsforge/dev/resources/renderTheme-v4.xsd" version="4" map-background-outside="#EEEEEE" map-background="#f8f8f8">
 	
-	<!--#r00537b01095#-->
+	<!--#r00538b01096#-->
 
 	<!--style#v4#setup-->
 <stylemenu id="r4menu" defaultvalue="default" defaultlang="en">
@@ -3573,6 +3573,9 @@
 		<rule e="node" k="osmc_foreground" v="yellow_diamond">
 			<symbol src="file:osmc-symbols/black_yellow_diamond.svg" symbol-scaling="size" symbol-width="25" symbol-height="25" priority="2" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="blue_diamond">
+			<symbol src="file:osmc-symbols/black_blue_diamond.svg" symbol-scaling="size" symbol-width="25" symbol-height="25" priority="2" />
+		</rule>
 		<rule e="node" k="osmc_foreground" v="white_diamond">
 			<symbol src="file:osmc-symbols/black_white_diamond.svg" symbol-scaling="size" symbol-width="25" symbol-height="25" priority="2" />
 		</rule>
@@ -4850,6 +4853,9 @@
 		</rule>
 		<rule e="node" k="osmc_foreground" v="white_wheelchair">
 			<symbol src="file:osmc-symbols/green_white_wheelchair.svg" symbol-scaling="size" symbol-width="25" symbol-height="25" priority="2" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="white_wheel">
+			<symbol src="file:osmc-symbols/green_white_wheel.svg" symbol-scaling="size" symbol-width="25" symbol-height="25" priority="2" />
 		</rule>
 		<rule e="node" k="osmc_foreground" v="yellow_x">
 			<symbol src="file:osmc-symbols/green_yellow_x.svg" symbol-scaling="size" symbol-width="25" symbol-height="25" priority="2" />
@@ -7182,6 +7188,9 @@
 		<rule e="way" k="osmc_foreground" v="yellow_diamond">
 			<lineSymbol src="file:osmc-symbols/black_yellow_diamond.svg" symbol-scaling="size" symbol-width="25" symbol-height="25" rotate="false" repeat-start="#" repeat-gap="#"  align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="blue_diamond">
+			<lineSymbol src="file:osmc-symbols/black_blue_diamond.svg" symbol-scaling="size" symbol-width="25" symbol-height="25" rotate="false" repeat-start="#" repeat-gap="#"  align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="white_diamond">
 			<lineSymbol src="file:osmc-symbols/black_white_diamond.svg" symbol-scaling="size" symbol-width="25" symbol-height="25" rotate="false" repeat-start="#" repeat-gap="#"  align-center="false" repeat="true" />
 		</rule>
@@ -8483,6 +8492,9 @@
 		</rule>
 		<rule e="way" k="osmc_foreground" v="white_wheelchair">
 			<lineSymbol src="file:osmc-symbols/green_white_wheelchair.svg" symbol-scaling="size" symbol-width="25" symbol-height="25" rotate="false" repeat-start="#" repeat-gap="#"  align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="white_wheel">
+			<lineSymbol src="file:osmc-symbols/green_white_wheel.svg" symbol-scaling="size" symbol-width="25" symbol-height="25" rotate="false" repeat-start="#" repeat-gap="#"  align-center="false" repeat="true" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="yellow_x">
 			<lineSymbol src="file:osmc-symbols/green_yellow_x.svg" symbol-scaling="size" symbol-width="25" symbol-height="25" rotate="false" repeat-start="#" repeat-gap="#"  align-center="false" repeat="true" />
