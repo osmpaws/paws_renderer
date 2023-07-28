@@ -184,6 +184,7 @@ black:white
 black:white_⚒
 black:white_arrow
 black:white_drop
+black:white_house
 black;white;red_rectangle
 black:white_right_pointer
 black:white_square
@@ -1300,12 +1301,14 @@ symbol=[blue:white
 symbol=blue:white
 Symbol_E10.png
 symbol=green:green_corner
+symbol=green:green_pointer
 symbol=green:white
 Symbol_Jakobsweg.svg
 symbol=orange:white
 symbol=red
 symbol=red:black
 symbol=red:red
+symbol=red:red_pointer
 symbol=red:red_round
 symbol=[red:white
 symbol=red:white
