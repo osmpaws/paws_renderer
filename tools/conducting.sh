@@ -257,7 +257,7 @@ if [ 1 -gt 0 ] ; then
 	fi
 	mv "$workstatusfile" "$statusfile"
 	
-	python2 tools/export.py tools/config/$pawsosmcyaml || diefunc !!
+	python3 tools/export.py tools/config/$pawsosmcyaml || diefunc !!
 	rm -r ../svg/
 	rm -r ../png/
 	mkdir -p ../png
@@ -271,7 +271,7 @@ if [ 1 -gt 0 ] ; then
 	fi
 	
 	rm -r ../svg_patterns/*
-	python2 tools/export.py tools/config/$pawspatternsyaml || diefunc !!
+	python3 tools/export.py tools/config/$pawspatternsyaml || diefunc !!
 	cd ..
 	
 fi

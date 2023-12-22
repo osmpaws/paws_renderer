@@ -11,5 +11,5 @@
   </metadata>
   <defs id="defs6"/>
   <rect style="fill:none;stroke:none;visibility:hidden" id="canvas" y="0" x="0" height="16" width="16"/>
-  <path id="alpine-hut" d="M 7 1 L 0 5 L 0 7 L 1.5 6.3496094 L 1.5 14 L 3 14 L 3 5.6992188 L 7 4 L 11 5.6992188 L 11 14 L 12.5 14 L 12.5 6.3496094 L 14 7 L 14 5 L 7 1 z M 5.5 6 C 4.9285714 6 4 7.2857142 4 9 C 4 10.714286 5 11 5 11 L 5 14 L 6 14 L 6 11 C 6 11 7 10.714286 7 9 C 7 7.2857142 6.0714286 6 5.5 6 z M 8 6 L 8 14 L 9 14 L 9 11 L 10 11 L 10 10 C 10 8 9 6 8 6 z " style="fill:#734a08;fill-opacity:1" transform="translate(1,1)"/>
+  <path id="alpine-hut" d="M 7 1 L 0 5 L 0 7 L 1.5 6.3496094 L 1.5 14 L 3 14 L 3 5.6992188 L 7 4 L 11 5.6992188 L 11 14 L 12.5 14 L 12.5 6.3496094 L 14 7 L 14 5 L 7 1 z M 5.5 6 C 4.9285714 6 4 7.2857142 4 9 C 4 10.714286 5 11 5 11 L 5 14 L 6 14 L 6 11 C 6 11 7 10.714286 7 9 C 7 7.2857142 6.0714286 6 5.5 6 z M 8 6 L 8 14 L 9 14 L 9 11 L 10 11 L 10 10 C 10 8 9 6 8 6 z " style="fill:#734a08;fill-opacity:1" transform="translate(1.0,1.0)"/>
 </svg>

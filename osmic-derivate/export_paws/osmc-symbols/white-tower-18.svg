@@ -11,5 +11,5 @@
   </metadata>
   <defs id="defs6"/>
   <rect style="fill:none;stroke:none;visibility:hidden" id="canvas" y="0" x="0" height="18" width="18"/><rect x="1" y="1" width="16" height="16" id="shield" style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.0;stroke-opacity:1;"/>
-  <path style="fill:#000000;fill-opacity:1" id="white-tower" d="m 2,12 3,0 0,-4 4,0 0,4 3,0 L 11,7 11,4.5 12,2 10,2 9.25,4 8.5,4 7.75,2 7,2 6.25,2 5.5,4 4.75,4 4,2 2,2 3,4.5 3,7 Z" transform="translate(2,2)"/>
+  <path style="fill:#000000;fill-opacity:1" id="white-tower" d="m 2,12 3,0 0,-4 4,0 0,4 3,0 L 11,7 11,4.5 12,2 10,2 9.25,4 8.5,4 7.75,2 7,2 6.25,2 5.5,4 4.75,4 4,2 2,2 3,4.5 3,7 Z" transform="translate(2.0,2.0)"/>
 </svg>

@@ -24,6 +24,9 @@
 		<rule e="node" k="osmc_foreground" v="hiker">
 			<symbol src="file:/osmc-symbols/blue_circle_hiker.png" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="green_slash">
+			<symbol src="file:/osmc-symbols/blue_circle_green_slash.png" />
+		</rule>
 		<rule e="node" k="osmc_foreground" v="blue_triangle">
 			<symbol src="file:/osmc-symbols/blue_circle_blue_triangle.png" />
 		</rule>

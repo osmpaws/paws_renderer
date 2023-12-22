@@ -39,6 +39,9 @@
 		<rule e="node" k="osmc_foreground" v="white_corner">
 			<symbol src="file:/osmc-symbols/red_white_corner.png" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="white_crest">
+			<symbol src="file:/osmc-symbols/red_white_crest.png" />
+		</rule>
 		<rule e="node" k="osmc_foreground" v="yellow_cross">
 			<symbol src="file:/osmc-symbols/red_yellow_cross.png" />
 		</rule>
@@ -50,6 +53,9 @@
 		</rule>
 		<rule e="node" k="osmc_foreground" v="black_diamond_line">
 			<symbol src="file:/osmc-symbols/red_black_diamond_line.png" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="diamond_line">
+			<symbol src="file:/osmc-symbols/red_diamond_line.png" />
 		</rule>
 		<rule e="node" k="osmc_foreground" v="yellow_diamond">
 			<symbol src="file:/osmc-symbols/red_yellow_diamond.png" />

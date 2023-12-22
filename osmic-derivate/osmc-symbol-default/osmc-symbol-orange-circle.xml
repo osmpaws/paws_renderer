@@ -9,4 +9,7 @@
 		<rule e="way" k="osmc_foreground" v="orange_triangle">
 			<lineSymbol src="file:/osmc-symbols/orange_circle_orange_triangle.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="brown_wheel">
+			<lineSymbol src="file:/osmc-symbols/orange_circle_brown_wheel.png" align-center="false" repeat="true" />
+		</rule>
 	</rule>

@@ -20,7 +20,7 @@ files=`find . -type f -name "*.svg"`
 cd ..
 
 echo "0" > $commfile
-bgplimit=600
+bgplimit=100
 
 echo "$files" | while read line;
 do
@@ -31,6 +31,7 @@ do
 		echo -n "."
 	fi
 	while [ `cat $commfile` -ge $bgplimit ]; do
+	        echo $((`cat $commfile`-1)) > $commfile
 		sleep .1;
 	done
 	
@@ -56,6 +57,7 @@ do
 	elif [ "$extrascaletype" = "f" ]; then
 		newsize="$extrascale"
 	fi
+	newsize=`echo "$newsize" | awk '{printf "%.f\n", int($1+0.5)}'`
 	
 	transparency=`grep "$iconname " $root/$transparencycfg | awk '{print $2}'`
 	if [ "$transparency" = "" ]; then
@@ -63,9 +65,10 @@ do
 	fi
 	
 	mkdir -p "$targetdir/$filepath/"
-	inkscape -z -e "$targetdir/$filepath/tmp_$iconname.png" -w $newsize "$sourcedir/$line" > /dev/null || ( echo "$targetdir/$filepath/tmp_$iconname.png , $newsize , $sourcedir/$line" ; exit 1)
-	convert "$targetdir/$filepath/tmp_$iconname.png" -trim -alpha set -channel A -evaluate Divide $transparency "$targetdir/$filepath/$iconname.png" > /dev/null  || ( echo "$targetdir/$filepath/tmp_$iconname.png $newsize , $transparency , $sourcedir/$line" ; exit 1)
-	rm "$targetdir/$filepath/tmp_$iconname.png" 
+	#inkscape -z -e "$targetdir/$filepath/tmp_$iconname.png" -w $newsize "$sourcedir/$line" > /dev/null || ( echo "$targetdir/$filepath/tmp_$iconname.png , $newsize , $sourcedir/$line" ; exit 1)
+	inkscape --export-type=png --export-filename=- -w $newsize "$sourcedir/$line" | convert - -trim -alpha set -channel A -evaluate Divide $transparency "$targetdir/$filepath/$iconname.png" > /dev/null  || ( echo "$targetdir/$filepath/tmp_$iconname.png $newsize , $transparency , $sourcedir/$line" ; exit 1)
+	#convert "$targetdir/$filepath/tmp_$iconname.png" -trim -alpha set -channel A -evaluate Divide $transparency "$targetdir/$filepath/$iconname.png" > /dev/null  || ( echo "$targetdir/$filepath/tmp_$iconname.png $newsize , $transparency , $sourcedir/$line" ; exit 1)
+	#rm "$targetdir/$filepath/tmp_$iconname.png" 
 	echo $((`cat $commfile`-1)) > $commfile )&
 		
 done

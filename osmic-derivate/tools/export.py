@@ -3,7 +3,7 @@
 # export to SVG or PNG (incl. retina output), re-colour, add padding,
 # add halo, generate sprites
 
-from __future__ import print_function
+#from __future__ import print_function
 import argparse
 import colorsys
 import copy
@@ -182,6 +182,7 @@ def main():
                     if not config['format'] == 'sprite' or option == 'fill':
                         mod_config[option] = config[icon_id][option]
 
+            #(size, icon) = modifySVG(mod_config, icon_id, size, icon)
             try:
                 # do modifications
                 (size, icon) = modifySVG(mod_config, icon_id, size, icon)
@@ -202,7 +203,7 @@ def main():
                 # save modified file
                 try:
                     iconfile = open(icon_out_path, 'w')
-                    iconfile.write(icon)
+                    iconfile.write(str(icon))
                     iconfile.close()
                 except IOError:
                     print('Could not save the modified file ' + icon_out_path + '.')
@@ -222,7 +223,7 @@ def main():
 
                     exportPNG(icon_out_path, destination, config['dpi'], config['retina'])
                     os.remove(icon_out_path)
-            except Exception, e:
+            except Exception as e:
                 print('An error happend during saving modified icon: ',e)
                 continue
 
@@ -580,7 +581,8 @@ def parseColor(color):
 
 # modifications to the SVG
 def modifySVG(config, icon_id, size, icon):
-    xml = lxml.etree.fromstring(icon)
+    #xml = lxml.etree.fromstring(bytes(icon, encoding='utf8'))
+    xml = lxml.etree.fromstring(icon.replace('encoding="UTF-8"', ''))
     # cleanup namespaces as Inkscape adds a (unnecessary?) xmlns:svg namespace,
     # which leads to unwanted svg:path elements for halos
     lxml.objectify.deannotate(xml, cleanup_namespaces=True)
@@ -690,7 +692,7 @@ def modifySVG(config, icon_id, size, icon):
                 stroke = 'stroke:'+stroke_fill+';stroke-width:'+str(stroke_width)+';stroke-opacity:'+str(stroke_opacity)+';'
         else:
             # do not print warning if stroke width = 0 or none was specified
-            if stroke_width > 0:
+            if stroke_width == None or stroke_width > 0:
                 print('Shield: Defined either stroke_fill without stroke_width or vice versa. Both are required for strokes to appear.')
 
         shield = lxml.etree.Element('rect')
@@ -791,7 +793,7 @@ def modifySVG(config, icon_id, size, icon):
         canvas.getparent().remove(canvas)
 
     icon = lxml.etree.tostring(xml, encoding='utf-8', xml_declaration=True, pretty_print=True)
-    return (size, icon)
+    return (size, icon.decode('UTF-8'))
 
 if __name__ == "__main__":
     main()
