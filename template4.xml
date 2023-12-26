@@ -2,7 +2,7 @@
 <rendertheme xmlns="http://mapsforge.org/renderTheme" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://mapsforge.org/renderTheme https://raw.githubusercontent.com/mapsforge/mapsforge/dev/resources/renderTheme-v4.xsd" version="4" map-background-outside="#EEEEEE" map-background="#f8f8f8">
 	
-	<!--#r00551b01153#-->
+	<!--#r00552b01154#-->
 
 	<!--style#v4#setup-->
 <stylemenu id="r4menu" defaultvalue="default" defaultlang="en">
