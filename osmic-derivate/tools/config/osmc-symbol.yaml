@@ -5184,6 +5184,13 @@ red-mine:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+white-blue-mine:
+  fill: "#1579e0"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 white-green-mine:
   fill: "#00cd27"
   shield:

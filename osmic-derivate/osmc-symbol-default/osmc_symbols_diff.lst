@@ -8,6 +8,7 @@
 ??:
 [...]
 ⌘
+a
 :ammonit
 aqua
 aqua:
@@ -102,6 +103,7 @@ black:FBW
 black_frame:
 black_frame:none
 black_frame:SC03
+black_frame:yellow-bar
 black_frame:22
 black:F1
 black:G
@@ -584,6 +586,7 @@ brown:brown
 brown:brownR
 brown:castle
 brown_circle:
+brown_cobweb
 :brown_diamond
 :brown_dot
 brown_dot:
@@ -2056,6 +2059,7 @@ white:R9
 white:S
 white:Sentiero
 white:SKGLB
+white_square
 white_square:
 white:squirrel
 white:Strada
@@ -2214,11 +2218,13 @@ wite:red_stripe
 withe:
 withe:black_bar
 withe:blue_bar
+withe:green_corner_left
 withe:M
 withe:orange_diamond
 withe:red_diamond
 withe:yellow_backslash
 withe:yellow_bar
+withe:yellow_corner_left
 withe:yellow_lower
 with:yellow_bar
 :WON1
@@ -2264,6 +2270,7 @@ yellow:blue_grape
 yellow:blue_left
 yellow:blue_left_arrow
 yellow:blue_red_diamond
+yellow:blu_lower
 yellow:brown_hiking
 yellow:BuWi
 yellow:C
@@ -2281,6 +2288,7 @@ yellow_circle:P4
 yellow_circle:P6
 yellow_circle:P9
 :yellow_circleyellow
+yellow_circle:yellow
 yellow_circle:Z
 yellow_circle:1
 yellow_circle:2
