@@ -222,6 +222,9 @@
 		<rule e="way" k="osmc_foreground" v="orange_diamond">
 			<lineSymbol src="file:/osmc-symbols/white_orange_diamond.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="diamond">
+			<lineSymbol src="file:/osmc-symbols/white_diamond.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="red_dot">
 			<lineSymbol src="file:/osmc-symbols/white_red_dot.png" align-center="false" repeat="true" />
 		</rule>

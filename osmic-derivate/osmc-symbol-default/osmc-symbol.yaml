@@ -2820,6 +2820,13 @@ white-orange-diamond:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+white-diamond:
+  fill: "#000000"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 white-round-black-diamond:
   fill: "#000000"
   shield:

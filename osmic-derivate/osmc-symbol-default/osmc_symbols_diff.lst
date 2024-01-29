@@ -83,6 +83,7 @@ black_circle:white
 black_circle:25
 :black_corcle
 :black_cross
+black_cross
 black:D
 black:DB
 black:Delta
@@ -90,6 +91,7 @@ black:DH
 :black_diamond
 black_diamond
 black_diamond:white_diamond
+black_diamond:yellow_diamond_right
 :black_dot
 black_dot
 black:D3
@@ -312,6 +314,7 @@ blue_diamond
 blue_diamond:blue_dot
 blue_diamond_line:grey_diamond
 blue_diamond_line:white_diamond
+blue_diamond:yellow_diamond_right
 :blue_dot
 blue_dot
 blue_dot:
@@ -735,6 +738,7 @@ green_corner
 green:DBG
 :green_diamond
 green_diamond
+green_diamond:yellow_diamond_right
 :green_dot
 green_dot
 green_dot:4
@@ -900,6 +904,7 @@ green:white_foot
 green:white_frame
 green:white_frog
 green:white_leaf
+green:white_left
 green:white_left_pointer
 green:white_rider
 green:white_right_pointer
@@ -926,6 +931,7 @@ green:W9
 green:y
 green:yellow
 green:yellow_frame
+green:yellow_chamois
 Green:yellow_triangle
 green:yellow_triple_dot
 green:01
@@ -1096,6 +1102,7 @@ orange_corner
 :orange_diamond
 orange_diamond
 orange_diamond:black_bar
+orange_diamond:yellow_diamond_right
 :orange_dot
 orange_dot
 orange_dot:white_circle
@@ -1166,6 +1173,7 @@ orang:none
 :P
 pink
 :pink_bar
+pink_bar
 pink:black_dot
 pink_diamond
 pink:G
@@ -1200,6 +1208,7 @@ purple:DGG
 :purple_diamond
 purple_diamond:blue_dot
 purple_diamond:csc
+purple_diamond:yellow_diamond_right
 :purple_dot
 purple:DP
 purple:FEE
@@ -1291,6 +1300,7 @@ red:DBT
 :red_diamond
 red_diamond
 red_diamond:blue_dot
+red_diamond:yellow_diamond_right
 :red_dot
 red_dot
 :red_dots
@@ -1946,6 +1956,7 @@ white:orange_X
 white:P
 white:papillon
 white:pink_bar
+white:pink_circle
 white:pink_dot
 white:pink_pointer
 white:pink_stripe
