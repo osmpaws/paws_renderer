@@ -2,7 +2,7 @@
 <rendertheme xmlns="http://mapsforge.org/renderTheme" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://mapsforge.org/renderTheme https://raw.githubusercontent.com/mapsforge/mapsforge/dev/resources/renderTheme-v4.xsd" version="4" map-background-outside="#EEEEEE" map-background="#f8f8f8">
 	
-	<!--#r00573b01175#-->
+	<!--#r00574b01176#-->
 
 	<!--style#v4#setup-->
 <stylemenu id="r4menu" defaultvalue="default" defaultlang="en">
@@ -5757,6 +5757,9 @@
 		<rule e="node" k="osmc_foreground" v="yellow_dot">
 			<symbol src="file:osmc-symbols/red_round_yellow_dot.svg" symbol-scaling="size" symbol-width="28" symbol-height="28" priority="2" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="green_dot">
+			<symbol src="file:osmc-symbols/red_round_green_dot.svg" symbol-scaling="size" symbol-width="28" symbol-height="28" priority="2" />
+		</rule>
 		<rule e="node" k="osmc_foreground" v="white_dot">
 			<symbol src="file:osmc-symbols/red_round_white_dot.svg" symbol-scaling="size" symbol-width="28" symbol-height="28" priority="2" />
 		</rule>
@@ -9176,6 +9179,9 @@
 		</rule>
 		<rule e="way" k="osmc_foreground" v="yellow_dot">
 			<lineSymbol src="file:osmc-symbols/red_round_yellow_dot.svg" symbol-scaling="size" symbol-width="28" symbol-height="28" rotate="false" repeat-start="#" repeat-gap="#"  align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="green_dot">
+			<lineSymbol src="file:osmc-symbols/red_round_green_dot.svg" symbol-scaling="size" symbol-width="28" symbol-height="28" rotate="false" repeat-start="#" repeat-gap="#"  align-center="false" repeat="true" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="white_dot">
 			<lineSymbol src="file:osmc-symbols/red_round_white_dot.svg" symbol-scaling="size" symbol-width="28" symbol-height="28" rotate="false" repeat-start="#" repeat-gap="#"  align-center="false" repeat="true" />
