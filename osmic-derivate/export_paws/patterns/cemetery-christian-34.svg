@@ -10,6 +10,6 @@
     </rdf:RDF>
   </metadata>
   <defs id="defs6"/>
-  <rect width="34" height="34" x="0" y="0" id="canvas" style="fill:none;stroke:none;visibility:hidden"/><rect x="1" y="1" width="32" height="32" id="shield" style="fill:#bde3cb;fill-opacity:1;stroke:none;"/>
+  <rect width="34" height="34" x="0" y="0" id="canvas" style="fill:none;stroke:none;visibility:hidden"/><rect x="1" y="1" width="32" height="32" id="shield" style="fill:#9acee1;fill-opacity:1;stroke:none;"/>
   <path d="M 7,0 C 5.999999,0 6,1 6,1 L 6,4 2,4 2,6 6,6 6,14 8,14 8,6 12,6 12,4 8,4 8,1 c 0,0 10e-7,-1 -1,-1 z m 16.125,16.125 c -1.000001,0 -1,1 -1,1 l 0,3 -4,0 0,2 4,0 0,8 2,0 0,-8 4,0 0,-2 -4,0 0,-3 c 0,0 1e-6,-1 -1,-1 z" id="cemetery-christian" style="fill:#999999;fill-opacity:1" transform="translate(1.0,1.0)"/>
 </svg>
