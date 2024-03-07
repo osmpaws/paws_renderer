@@ -1117,6 +1117,7 @@ osmc-symbols/yellow-hiker-14.svg
 osmc-symbols/yellow-mine-14.svg
 osmc-symbols/yellow-orange-dot-14.svg
 osmc-symbols/yellow-orange-lower-14.svg
+osmc-symbols/yellow-orange-stripe-14.svg
 osmc-symbols/yellow-orange-triangle-line-14.svg
 osmc-symbols/yellow-orange-triangle-14.svg
 osmc-symbols/yellow-purple-bar-14.svg
@@ -1180,26 +1181,26 @@ patterns/access-destination-14.svg 1611254735.8918390510
 patterns/access-no-bike-14.svg 1611254735.8918390510
 patterns/access-no-foot-14.svg 1611254735.8918390510
 patterns/access-private-14.svg 1611254735.8918390510
-patterns/bare-rock-32.svg 1708146347.9887785170
+patterns/bare-rock-32.svg 1709353735.1931614150
 patterns/basin-14.svg 1615646906.8144830380
-patterns/cemetery-christian-32.svg 1708146347.9967784120
-patterns/cemetery-jewish-32.svg 1708146348.0087782530
-patterns/cemetery-32.svg 1708146347.9967784120
-patterns/dog-park-14.svg 1708146348.0167781480
-patterns/hops-14.svg 1708146348.0247780430
+patterns/cemetery-christian-32.svg 1709353735.2011613060
+patterns/cemetery-jewish-32.svg 1709353735.2091611960
+patterns/cemetery-32.svg 1709353735.2011613060
+patterns/dog-park-14.svg 1709353735.2171610870
+patterns/hops-14.svg 1709353735.2251609770
 patterns/marsh-32.svg 1611254735.8918390510
-patterns/military-14.svg 1708146348.0327779380
+patterns/military-14.svg 1709353735.2331608680
 patterns/national-park-14.svg 1611254735.8918390510
 patterns/nature-reserve-14.svg 1611254735.8918390510
 patterns/orchard-32.svg 1611254735.8918390510
-patterns/photovoltaic-32.svg 1708146348.0447777790
-patterns/plant-nursery-32.svg 1708146348.0527776740
-patterns/scree-32.svg 1708146348.0647775160
-patterns/scrub-32.svg 1708146348.0727774110
-patterns/vineyard-32.svg 1708146348.0807773040
-patterns/wood-coniferous-32.svg 1708146348.0887771990
-patterns/wood-deciduous-32.svg 1708146348.0927771470
-patterns/wood-mixed-32.svg 1708146348.1007770410
+patterns/photovoltaic-32.svg 1709353735.2451607030
+patterns/plant-nursery-32.svg 1709353735.2491606490
+patterns/scree-32.svg 1709353735.2571605390
+patterns/scrub-32.svg 1709353735.2651604300
+patterns/vineyard-32.svg 1709353735.2731603200
+patterns/wood-coniferous-32.svg 1709353735.2811602120
+patterns/wood-deciduous-32.svg 1709353735.2891601020
+patterns/wood-mixed-32.svg 1709353735.2971599930
 symbols/access-destination-14.svg 1611254735.8918390510
 symbols/access-no-bike-14.svg 1611254735.8918390510
 symbols/access-no-foot-14.svg 1611254735.8918390510

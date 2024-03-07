@@ -144,6 +144,7 @@ black:KT
 black:Kv
 black:KwR
 black:K4
+black_lower_triangle
 black:M
 black:MBS
 black_mill
@@ -432,6 +433,7 @@ blue:RWW1
 blue:R1
 blue:R13
 blue:R2
+blue:R4
 blue:S
 blue:SHK
 blue:SKT
@@ -714,6 +716,7 @@ green:BH
 green:black
 green:black_bike
 green:blue
+green:blue_corner_left
 green:bridleway
 green:BuWi
 green:BX
@@ -780,6 +783,7 @@ green;green_frame;;black
 green;green_frame;green_dot;black
 green;green_lower;yellow
 green:green-rectangle
+green_green_rectangle
 green:green_rectnagle
 green:green_round
 green:Guyer-Zeller-Weg
@@ -1144,6 +1148,7 @@ orange_round:white
 orange_round:2
 orange_round:3
 orange_round:5
+orange:R1
 orange:SL
 orange:SL1
 orange:SL2
@@ -1419,6 +1424,7 @@ red_round:7
 red:rred
 red:RWR
 red:RWW6
+red:R3
 red:R4
 red:S
 red:SB
@@ -1805,6 +1811,7 @@ white:Dolomieu
 white_dot
 white_dot:
 white_dot:green_triangle
+white_dot:red_circle
 white_dot:1
 white:D2
 white:EBM
@@ -1884,6 +1891,7 @@ white:green_tree
 white:green_triangel
 white:green__turned_T
 white:green_underscore
+white:green_upper
 white:green_upper_bowl
 white:green_X
 white:green_x,red
@@ -2141,6 +2149,7 @@ white:yellow_ba
 white:yellow_backlash
 white_yellow_bar
 white:yellow_bar;blue
+white:yellow_bare
 white:yellow_bar;green
 white:yellow_bar_Nefl
 white:yellow_bar;red
@@ -2265,6 +2274,7 @@ yellow-bar
 yellow_bar
 yellow_bar:
 yellow_bar:black
+:yellow_bar;green
 yellow_bar:green
 :yellow_barroundtrip=yes
 yellow_bar:white
