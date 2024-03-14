@@ -4009,6 +4009,13 @@ white-black-fork:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+yellow-brown-fork:
+  fill: "#8b4513"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 brown-heart:
   fill: "#ffffff"
   shield:

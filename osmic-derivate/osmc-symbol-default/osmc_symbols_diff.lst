@@ -1125,6 +1125,7 @@ orange:green_C
 orange:HF5
 :orange_hiker
 orange:KS
+:orange_lower
 orange:Main
 orange:MV
 orange:N
@@ -1461,6 +1462,7 @@ red:white_corner_left
 red:white_left
 red:white_man
 red:white_pinter
+red:white_satripe
 red:white_sripe
 red:white_stipe
 red:white_strep
@@ -1751,6 +1753,7 @@ white:blue_stamp
 white:blue_T
 white:blue_upper
 white:blue_white
+white_:blue_x
 white_blue_x
 white:blueyellow
 white:blue_+3
@@ -1893,6 +1896,7 @@ white:green__turned_T
 white:green_underscore
 white:green_upper
 white:green_upper_bowl
+white_:green_x
 white:green_X
 white:green_x,red
 white:green_Z
