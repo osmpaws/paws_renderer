@@ -111,6 +111,9 @@
 		<rule e="node" k="osmc_foreground" v="orange_dot">
 			<symbol src="file:/osmc-symbols/yellow_orange_dot.png" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="white_fork">
+			<symbol src="file:/osmc-symbols/yellow_white_fork.png" />
+		</rule>
 		<rule e="node" k="osmc_foreground" v="brown_fork">
 			<symbol src="file:/osmc-symbols/yellow_brown_fork.png" />
 		</rule>

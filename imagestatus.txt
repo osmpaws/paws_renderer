@@ -1168,6 +1168,7 @@ osmc-symbols/yellow-white-bar-14.svg
 osmc-symbols/yellow-white-corner-14.svg
 osmc-symbols/yellow-white-diamond-14.svg
 osmc-symbols/yellow-white-dot-14.svg
+osmc-symbols/yellow-white-fork-14.svg
 osmc-symbols/yellow-white-hiker-14.svg
 osmc-symbols/yellow-white-lower-14.svg
 osmc-symbols/yellow-white-pointer-14.svg
