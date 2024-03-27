@@ -8512,6 +8512,13 @@ green-black-triangle:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+green-purple-triangle:
+  fill: "#b878dd"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 green-circle-green-triangle:
   fill: "#00cd27"
   shield:
