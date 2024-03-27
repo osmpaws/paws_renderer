@@ -8744,6 +8744,12 @@
 		<rule e="node" k="osmc_foreground" v="black_triangle">
 			<symbol src="file:/osmc-symbols/green_black_triangle.png" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="purple_triangle">
+			<lineSymbol src="file:/osmc-symbols/green_purple_triangle.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="purple_triangle">
+			<symbol src="file:/osmc-symbols/green_purple_triangle.png" />
+		</rule>
 	</rule>
 	<rule e="way" k="osmc_background" v="green_circle" zoom-min="15">
 		<rule e="way" k="osmc_foreground" v="green_triangle">

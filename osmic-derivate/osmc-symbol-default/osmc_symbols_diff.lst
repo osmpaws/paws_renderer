@@ -352,7 +352,9 @@ blue:GF
 blue:gray_bar
 blue:gray_wheel
 blue:gree_lower
+blue:green_arrow
 blue:green_frog
+blue:green_left
 bluegreen:white
 blue:HBW
 blue:HF8
@@ -480,6 +482,7 @@ blue:W1
 :blue_x
 blue_x
 blue:yellow
+blue:yellow_arrow
 blue:ZU
 blue:0
 blue:01
@@ -685,6 +688,7 @@ gray:gray_bar
 gray:J
 gray:NaEr
 gray:none
+gray_round:yellow_arrow
 :gray_triangle
 gray_triangle
 gray:yellow_arrow
@@ -716,6 +720,7 @@ green:BH
 green:black
 green:black_bike
 green:blue
+green:blue_arrow
 green:blue_corner_left
 green:bridleway
 green:BuWi
@@ -867,6 +872,7 @@ green_round:M
 green_round:none
 green_round:S
 green_round:T
+green_round:white_arrow
 green_round:15
 green_round:16
 green:RR
@@ -1491,6 +1497,7 @@ red:white_stripr
 red:white_strips
 red:white_strip_101
 red:white_strype20
+red:white_tripe
 red:white_upper
 red/whitw
 red:whitw_stripe
@@ -1700,9 +1707,11 @@ white:black_circle_large
 white_black_diamond
 white:black_diamont
 white:black_dot_yellow_circle
+white:black_drop
 white:black_drop_line
 white:black_frame
 white:black_horse
+white:black_left
 white:black_left_arrow
 white:black_left_pointer
 white:black_pointer_line
@@ -1804,6 +1813,7 @@ white:cycle_green
 white:D
 white:darkblue_stripe
 :white_diamond
+white_diamond:brown_pointer
 white_diamond:HI
 white_diamond:HII
 white_diamond_line
@@ -2066,7 +2076,11 @@ white_round:bird
 white_round:black
 white_round:black_arrow
 white_round:blu_dot
+white_round:gray_arrow
+white_round:green_arrow
 white_round:none
+white_round:purple_arrow
+white_round:red_arrow
 white_round:red_point
 white_round:red_round
 white_round:wp
@@ -2594,4 +2608,5 @@ Z00:black
 #8EBE5F:#8EBE5F
 #800000:
 #800000_circle:
+804.black
 #888888
