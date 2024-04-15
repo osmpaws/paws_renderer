@@ -357,6 +357,7 @@ blue:green_frog
 blue:green_left
 bluegreen:white
 blue:HBW
+:blue_hexagon
 blue:HF8
 blue:H-G
 blue_hiker
@@ -426,6 +427,7 @@ blue_round:white
 blue_round:white_arrow
 blue_round:white_drop
 blue_round:yellow_house
+blue_round:yellow_left_arrow
 blue_round:ZHL
 blue_round:12
 blue_round:2
@@ -483,6 +485,8 @@ blue:W1
 blue_x
 blue:yellow
 blue:yellow_arrow
+blue:yellow_left_arrow
+blue:yellow_right_arrow
 blue:ZU
 blue:0
 blue:01
@@ -855,6 +859,7 @@ green_pointer:white_fork
 green:PR
 green:purble
 green:purple
+green:purple_arrow
 green:R
 :green_rectangle
 green_rectangle
@@ -1077,6 +1082,7 @@ NO
 no_marker
 none
 none:gray_triangle
+none:green_soldier
 none:green_triange
 none:none
 none;none
@@ -1175,6 +1181,7 @@ orange:T2a
 orange:V
 orange_web
 orange:white
+orange:white_arrow
 orange:white_house
 orange_white_orange_arch
 orange:white_upper
@@ -1233,6 +1240,7 @@ purple:FEE
 purple:flower
 purple_frame:
 purple:GPS
+:purple_hexagon
 purple:HMS
 purple:none
 purple:P
@@ -1255,6 +1263,7 @@ purple:TKW
 purple:Via
 purple_web
 purple:white
+purple:white_arrow
 purple:W1
 purple:08
 purple:&#127;&#127;&#127;&#127;&#127;A4
@@ -1318,6 +1327,7 @@ red:DBT
 :red_diamond
 red_diamond
 red_diamond:blue_dot
+red_diamond:via_czechia
 red_diamond:yellow_diamond_right
 :red_dot
 red_dot
@@ -1680,6 +1690,8 @@ white:A
 white:AC
 :white_arrow
 white:arrow
+white_arrow:blue_arrow
+white_arrow:red_arrow
 white:AW
 white:A2
 white:B
@@ -1749,6 +1761,7 @@ white:blue_drop_line
 white:blue_fish
 white:blue_frame
 white:blue_gull
+white_:blue_hiker
 white:blue_house
 white:blue_chapel
 white:blue_left
@@ -2076,9 +2089,11 @@ white_round:bird
 white_round:black
 white_round:black_arrow
 white_round:blu_dot
+white_round:blue_arrow
 white_round:gray_arrow
 white_round:green_arrow
 white_round:none
+white_round:orange_arrow
 white_round:purple_arrow
 white_round:red_arrow
 white_round:red_point
@@ -2197,6 +2212,7 @@ white:yellow_frame
 white:yellow_goblet
 white:yellow_house
 white:yellow_chapel
+white:yellow_left
 white:yellow_left_pointer
 white:yellow_pin
 white:yellow_point
@@ -2304,6 +2320,7 @@ yellow_bar:104
 yellow_bar:58
 yellow:BB
 yellow:black
+yellow:black_arrow
 yellow:black_bike
 yellow:black_circle_line
 yellow:black_horse
@@ -2318,6 +2335,7 @@ yellow:blue_left
 yellow:blue_left_arrow
 yellow:blue_red_diamond
 yellow:blu_lower
+yellow:brown_arrow
 yellow:brown_hiking
 yellow:BuWi
 yellow:C
@@ -2389,6 +2407,7 @@ yellow:frog
 yellow:F4
 yellow:geel
 yellow:Gelb
+yellow:gray_arrow
 yellow:gray_bar
 yellow:gray_diamond
 yellow:gray_slash
