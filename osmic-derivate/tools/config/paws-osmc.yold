@@ -3820,6 +3820,14 @@ blue-round-blue-dot:
     stroke_width: 1
     padding: 2
     rounded: 10
+blue-round-green-dot:
+  fill: "#00cd27"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
 blue-round-white-dot:
   fill: "#ffffff"
   shield:

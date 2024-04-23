@@ -474,6 +474,7 @@ blue:WG
 blue:white
 blue:white_arrow
 blue_white_bar
+blue;white;blue_bar
 blue:white_cyclist
 blue:white_drop
 blue:white_star
@@ -1723,6 +1724,7 @@ white:black_drop
 white:black_drop_line
 white:black_frame
 white:black_horse
+white:black_house
 white:black_left
 white:black_left_arrow
 white:black_left_pointer

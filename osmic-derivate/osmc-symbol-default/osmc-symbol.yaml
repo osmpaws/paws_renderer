@@ -3246,6 +3246,13 @@ gray-white-dot:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+gray-brown-dot:
+  fill: "#8b4513"
+  shield:
+    fill: "#aaaaaa"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 green-red-dot:
   fill: "#ff0000"
   shield:

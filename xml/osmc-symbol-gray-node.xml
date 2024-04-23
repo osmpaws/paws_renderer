@@ -27,6 +27,9 @@
 		<rule e="node" k="osmc_foreground" v="white_dot">
 			<symbol src="file:/osmc-symbols/gray_white_dot.png" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="brown_dot">
+			<symbol src="file:/osmc-symbols/gray_brown_dot.png" />
+		</rule>
 		<rule e="node" k="osmc_foreground" v="white_hiker">
 			<symbol src="file:/osmc-symbols/gray_white_hiker.png" />
 		</rule>
