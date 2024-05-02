@@ -33,6 +33,7 @@ Bea
 bee
 bigtree
 blac:black
+:black
 black
 black:
 black:-
@@ -387,6 +388,7 @@ blue:NHS
 blue:NLS
 blue:NNk
 blue:none
+blue_none:
 blue:none_bar
 blue:NP
 blue:NSS
@@ -1133,6 +1135,7 @@ orange:E1
 orange_frame:
 orange:F3
 orange:gray_bar
+orange:gray_lower
 orange:green
 orange:green_C
 orange:HF5
@@ -1851,6 +1854,7 @@ white:F
 white:face
 white:FBS
 white:Fe1
+white:FR
 white:G
 white:GDR
 white:geen_bar

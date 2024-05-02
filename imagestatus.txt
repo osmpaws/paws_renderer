@@ -35,6 +35,7 @@ osmc-symbols/black-frame-hiker-14.svg
 osmc-symbols/black-frame-orange-rectangle-14.svg
 osmc-symbols/black-frame-red-dot-14.svg
 osmc-symbols/black-frame-red-rectangle-14.svg
+osmc-symbols/black-frame-white-rectangle-14.svg
 osmc-symbols/black-frame-white-triangle-14.svg
 osmc-symbols/black-frame-yellow-rectangle-14.svg
 osmc-symbols/black-green-bar-14.svg
