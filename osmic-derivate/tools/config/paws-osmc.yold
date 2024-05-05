@@ -6789,6 +6789,14 @@ black-frame-green-rectangle:
     opacity: 0.0
     rounded: 2
     padding: 2
+black-frame-white-rectangle:
+  fill: "#ffffff"
+  shield:
+    stroke_fill: "#000000"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 2
+    padding: 2
 black-frame-orange-rectangle:
   fill: "#f96f00"
   shield:

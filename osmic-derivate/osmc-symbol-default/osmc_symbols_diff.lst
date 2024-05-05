@@ -340,6 +340,7 @@ blue_frame:
 blue_frame:Bijl
 blue_frame:black_horse
 blue_frame:blue
+blue_frame:blue_underscore
 blue_frame:CFT
 blue_frame:FT
 blue_frame:Gag
@@ -1312,6 +1313,7 @@ red_circle:L8
 red_circle:none
 red_circle:R
 red_circle:red_triangle_turned_S_purple
+red_circle:red_underscore
 red_circle:S1
 red_circle:S3
 red_circle:TrC

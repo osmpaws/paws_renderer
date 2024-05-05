@@ -2,7 +2,7 @@
 <rendertheme xmlns="http://mapsforge.org/renderTheme" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://mapsforge.org/renderTheme ../renderTheme.xsd" version="1" map-background="#f8f8f8">
 	
-	<!--#r00642b01244#-->
+	<!--#r00643b01245#-->
 
 	<!--style#v4#setup-->
 	
@@ -3860,6 +3860,9 @@
 		<rule e="way" k="osmc_foreground" v="orange_hiker">
 			<lineSymbol src="file:/osmc-symbols/orange_circle_orange_hiker.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="orange_stripe">
+			<lineSymbol src="file:/osmc-symbols/orange_circle_orange_stripe.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="orange_triangle">
 			<lineSymbol src="file:/osmc-symbols/orange_circle_orange_triangle.png" align-center="false" repeat="true" />
 		</rule>
@@ -4087,6 +4090,9 @@
 		</rule>
 		<rule e="way" k="osmc_foreground" v="green_dot">
 			<lineSymbol src="file:/osmc-symbols/purple_circle_green_dot.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="purple_triangle">
+			<lineSymbol src="file:/osmc-symbols/purple_circle_purple_triangle.png" align-center="false" repeat="true" />
 		</rule>
 	</rule>
 <!--OSMC symbols purple_frame background-->

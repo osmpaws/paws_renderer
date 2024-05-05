@@ -6,6 +6,9 @@
 		<rule e="node" k="osmc_foreground" v="orange_hiker">
 			<symbol src="file:/osmc-symbols/orange_circle_orange_hiker.png" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="orange_stripe">
+			<symbol src="file:/osmc-symbols/orange_circle_orange_stripe.png" />
+		</rule>
 		<rule e="node" k="osmc_foreground" v="orange_triangle">
 			<symbol src="file:/osmc-symbols/orange_circle_orange_triangle.png" />
 		</rule>

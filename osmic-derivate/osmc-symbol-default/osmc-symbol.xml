@@ -7808,6 +7808,12 @@
 		</rule>
 	</rule>
 	<rule e="way" k="osmc_background" v="orange_circle" zoom-min="15">
+		<rule e="way" k="osmc_foreground" v="orange_stripe">
+			<lineSymbol src="file:/osmc-symbols/orange_circle_orange_stripe.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="orange_stripe">
+			<symbol src="file:/osmc-symbols/orange_circle_orange_stripe.png" />
+		</rule>
 	</rule>
 	<rule e="way" k="osmc_background" v="orange_frame" zoom-min="15">
 	</rule>
@@ -8858,6 +8864,12 @@
 		</rule>
 	</rule>
 	<rule e="way" k="osmc_background" v="purple_circle" zoom-min="15">
+		<rule e="way" k="osmc_foreground" v="purple_triangle">
+			<lineSymbol src="file:/osmc-symbols/purple_circle_purple_triangle.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="purple_triangle">
+			<symbol src="file:/osmc-symbols/purple_circle_purple_triangle.png" />
+		</rule>
 	</rule>
 	<rule e="way" k="osmc_background" v="purple_frame" zoom-min="15">
 	</rule>

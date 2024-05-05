@@ -523,6 +523,7 @@ osmc-symbols/orange-blue-triangle-14.svg
 osmc-symbols/orange-brown-pointer-14.svg
 osmc-symbols/orange-circle-brown-wheel-14.svg
 osmc-symbols/orange-circle-orange-hiker-14.svg
+osmc-symbols/orange-circle-orange-stripe-14.svg
 osmc-symbols/orange-circle-orange-triangle-14.svg
 osmc-symbols/orange-frame-tower-14.svg
 osmc-symbols/orange-frame-white-bar-14.svg
@@ -623,6 +624,7 @@ osmc-symbols/purple-blue-dot-14.svg
 osmc-symbols/purple-blue-triangle-14.svg
 osmc-symbols/purple-brown-circle-14.svg
 osmc-symbols/purple-circle-green-dot-14.svg
+osmc-symbols/purple-circle-purple-triangle-14.svg
 osmc-symbols/purple-frame-yellow-rectangle-14.svg
 osmc-symbols/purple-green-bar-14.svg
 osmc-symbols/purple-green-circle-14.svg
