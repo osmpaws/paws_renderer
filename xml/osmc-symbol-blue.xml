@@ -147,6 +147,9 @@
 		<rule e="way" k="osmc_foreground" v="brown_lower">
 			<lineSymbol src="file:/osmc-symbols/blue_brown_lower.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="purple_lower">
+			<lineSymbol src="file:/osmc-symbols/blue_purple_lower.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="orange_lower">
 			<lineSymbol src="file:/osmc-symbols/blue_orange_lower.png" align-center="false" repeat="true" />
 		</rule>

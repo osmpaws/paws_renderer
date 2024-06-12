@@ -7777,6 +7777,14 @@ orange-white-stripe:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+orange-circle-orange-stripe:
+  fill: "#f96f00"
+  shield:
+    stroke_fill: "#f96f00"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 10
+    padding: 2
 purple-white-stripe:
   fill: "#ffffff"
   shield:
@@ -8630,6 +8638,14 @@ purple-white-triangle:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+purple-circle-purple-triangle:
+  fill: "#b878dd"
+  shield:
+    stroke_fill: "#b878dd"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 10
+    padding: 2
 red-yellow-triangle:
   fill: "#ffdd00"
   shield:
