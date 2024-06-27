@@ -1208,6 +1208,7 @@ pink
 pink_bar
 pink:black_dot
 pink_diamond
+:pink_dot
 pink:G
 pink_hiker
 pink:red_dot
@@ -1654,6 +1655,7 @@ symbol=white:blue_dot
 symbol=yellow:white
 symbol=yellow:yellow
 symbol&#9;red:red
+symbol&#9;yellow:white
 TA
 Tauplitz
 teal:
@@ -1696,6 +1698,7 @@ white:
 white:+
 white:=
 white:\
+white:^^
 white:♥
 white:🌳
 white:A
@@ -2070,6 +2073,7 @@ white:red_fox
 white:red_frame
 white:red_grape
 white:red_green_bar
+white:red_horse
 white:red_house
 white:red_chapel
 white:red_left

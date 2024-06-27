@@ -421,6 +421,7 @@ osmc-symbols/green-red-triangle-14.svg
 osmc-symbols/green-round-black-dot-14.svg
 osmc-symbols/green-round-blue-arch-14.svg
 osmc-symbols/green-round-blue-dot-14.svg
+osmc-symbols/green-round-brown-dot-14.svg
 osmc-symbols/green-round-green-circle-14.svg
 osmc-symbols/green-round-green-diamond-14.svg
 osmc-symbols/green-round-green-dot-14.svg

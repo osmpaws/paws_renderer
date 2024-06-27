@@ -3540,6 +3540,13 @@ yellow-black-diamond:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+yellow-diamond:
+  fill: "#ffffff"
+  shield:
+    fill: "#ffdd00"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 yellow-frame-yellow-diamond:
   fill: "#ffdd00"
   shield:
@@ -5420,6 +5427,13 @@ blue-black-lower:
     padding: 1
 blue-brown-lower:
   fill: "#8b4513"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
+blue-purple-lower:
+  fill: "#b878dd"
   shield:
     fill: "#1579e0"
     stroke_fill: "#000000"
