@@ -4067,6 +4067,14 @@ green-round-black-dot:
     stroke_width: 1
     padding: 2
     rounded: 10
+green-round-brown-dot:
+  fill: "#8b4513"
+  shield:
+    fill: "#00cd27"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
 green-round-orange-dot:
   fill: "#f96f00"
   shield:

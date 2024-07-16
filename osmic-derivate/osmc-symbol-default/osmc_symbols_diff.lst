@@ -82,6 +82,7 @@ black_circle:L8
 black_circle:red_rat
 black_circle:white
 black_circle:25
+black_circle:6
 :black_corcle
 :black_cross
 black_cross
@@ -1238,6 +1239,8 @@ purple:black
 purple_circle
 purple_circle:
 purple_circle:black
+purple_circle:3
+purple_circle:7b
 purple_cobweb
 purple:DGG
 :purple_diamond
@@ -1856,6 +1859,7 @@ white:Dolomieu
 white_dot
 white_dot:
 white_dot:green_triangle
+white:dot_red
 white_dot:red_circle
 white_dot:1
 white:D2
@@ -2436,6 +2440,7 @@ yellow:gray_bar
 yellow:gray_diamond
 yellow:gray_slash
 yellow:green
+yellow:green_arrow
 :yellow-green_F
 yellow:green_up_triangle
 yellow_ground:green_bowl

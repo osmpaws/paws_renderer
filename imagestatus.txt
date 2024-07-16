@@ -717,6 +717,7 @@ osmc-symbols/red-green-bar-14.svg
 osmc-symbols/red-green-diamond-14.svg
 osmc-symbols/red-green-dot-14.svg
 osmc-symbols/red-green-lower-14.svg
+osmc-symbols/red-green-pointer-14.svg
 osmc-symbols/red-green-right-14.svg
 osmc-symbols/red-green-slash-14.svg
 osmc-symbols/red-green-triangle-14.svg
