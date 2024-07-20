@@ -1773,6 +1773,7 @@ white:blue_blue_diamond
 white:blue_C
 white:blue_corner_left
 white:blue_diamondcross
+white:blue_diamonder
 white:blue_diamont
 white:blue_dot;blue
 white:blue_drop
@@ -1910,6 +1911,7 @@ white:green_bear_paw
 white:green_bicycle
 white:green_blackslash
 white:green_C
+white:green_corner_left
 White:green_cross
 white:green_crown
 white:green_diamont
