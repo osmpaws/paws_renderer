@@ -197,6 +197,7 @@ black:WFP
 black:whie_diamond_line
 black:white
 black:white_⚒
+black:white_acorn
 black:white_arrow
 black:white_drop
 black:white_house
@@ -759,6 +760,7 @@ green_corner
 green:DBG
 :green_diamond
 green_diamond
+:green_diamond_left
 green_diamond:yellow_diamond_right
 :green_dot
 green_dot
@@ -954,6 +956,7 @@ green:W9
 :green_x
 green:y
 green:yellow
+green:yellow_arrow
 green:yellow_frame
 green:yellow_chamois
 Green:yellow_triangle
@@ -1096,6 +1099,7 @@ none:green_triange
 none:none
 none;none
 none:white_horse
+none:yellow_arrow
 Nr.
 NS
 Nur

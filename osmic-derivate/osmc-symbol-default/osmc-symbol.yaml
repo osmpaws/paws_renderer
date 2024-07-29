@@ -6513,6 +6513,13 @@ black-white-right:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+blue-red-right:
+  fill: "#ff0000"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 blue-yellow-right:
   fill: "#ffdd00"
   shield:

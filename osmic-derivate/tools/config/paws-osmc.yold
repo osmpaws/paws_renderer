@@ -7388,6 +7388,13 @@ red-white-shell-modern:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+white-red-shell-modern:
+  fill: "#ff0000"
+  shield:
+    fill: "#ffffff"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 white-yellow-shell-modern:
   fill: "#ffdd00"
   shield:

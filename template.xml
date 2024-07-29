@@ -2,7 +2,7 @@
 <rendertheme xmlns="http://mapsforge.org/renderTheme" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://mapsforge.org/renderTheme ../renderTheme.xsd" version="1" map-background="#f8f8f8">
 	
-	<!--#r00658b01260#-->
+	<!--#r00661b01263#-->
 
 	<!--style#v4#setup-->
 	
@@ -2911,6 +2911,9 @@
 		</rule>
 		<rule e="way" k="osmc_foreground" v="rectangle">
 			<lineSymbol src="file:/osmc-symbols/blue_rectangle.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="red_right">
+			<lineSymbol src="file:/osmc-symbols/blue_red_right.png" align-center="false" repeat="true" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="yellow_right">
 			<lineSymbol src="file:/osmc-symbols/blue_yellow_right.png" align-center="false" repeat="true" />

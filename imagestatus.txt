@@ -183,6 +183,7 @@ osmc-symbols/blue-red-dot-14.svg
 osmc-symbols/blue-red-fork-14.svg
 osmc-symbols/blue-red-lower-14.svg
 osmc-symbols/blue-red-pointer-14.svg
+osmc-symbols/blue-red-right-14.svg
 osmc-symbols/blue-red-stripe-14.svg
 osmc-symbols/blue-red-triangle-14.svg
 osmc-symbols/blue-round-blue-circle-14.svg
