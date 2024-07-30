@@ -15,6 +15,9 @@
 		<rule e="way" k="osmc_foreground" v="black_bar">
 			<lineSymbol src="file:/osmc-symbols/black_circle_black_bar.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="red_cross">
+			<lineSymbol src="file:/osmc-symbols/black_circle_red_cross.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="red_dot">
 			<lineSymbol src="file:/osmc-symbols/black_circle_red_dot.png" align-center="false" repeat="true" />
 		</rule>
