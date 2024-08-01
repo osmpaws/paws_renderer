@@ -2893,8 +2893,32 @@ yellow-frame-yellow-diamond:
     opacity: 0.0
     rounded: 2
     padding: 2
+none-red-diamond:
+  fill: "#ff0000"
+  shield:
+    fill: "#ffffff"
+    opacity: 0.0
+    padding: 1
 none-yellow-diamond:
   fill: "#ffdd00"
+  shield:
+    fill: "#ffffff"
+    opacity: 0.0
+    padding: 1
+none-blue-diamond:
+  fill: "#1579e0"
+  shield:
+    fill: "#ffffff"
+    opacity: 0.0
+    padding: 1
+none-green-diamond:
+  fill: "#00cd27"
+  shield:
+    fill: "#ffffff"
+    opacity: 0.0
+    padding: 1
+none-black-diamond:
+  fill: "#000000"
   shield:
     fill: "#ffffff"
     opacity: 0.0

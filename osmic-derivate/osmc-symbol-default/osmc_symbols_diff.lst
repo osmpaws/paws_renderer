@@ -886,6 +886,7 @@ green_round:none
 green_round:S
 green_round:T
 green_round:white_arrow
+green_round:yellow_arrow
 green_round:15
 green_round:16
 green:RR
@@ -2327,6 +2328,7 @@ with:yellow_bar
 w:white
 W5:white
 x
+yelllow
 yellos:
 :yellow
 yellow
