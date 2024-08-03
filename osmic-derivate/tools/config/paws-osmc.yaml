@@ -3948,6 +3948,13 @@ gray-red-dot:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+gray-yellow-dot:
+  fill: "#ffdd00"
+  shield:
+    fill: "#aaaaaa"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 gray-white-dot:
   fill: "#ffffff"
   shield:

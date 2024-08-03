@@ -1043,6 +1043,7 @@ grey_spider_web
 grey_web
 grey:white_bar
 grey:yellow_bar
+grey:yellow_dot
 grreen
 GT:white
 heart
@@ -1210,6 +1211,7 @@ orange:6
 orang:none
 :P
 pink
+pink:
 :pink_bar
 pink_bar
 pink:black_dot
@@ -2214,6 +2216,7 @@ white:yellow
 white:yellow_arrow
 white:yellow_ba
 white:yellow_backlash
+white:yellowbar
 white_yellow_bar
 white:yellow_bar;blue
 white:yellow_bare
