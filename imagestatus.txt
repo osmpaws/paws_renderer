@@ -712,6 +712,7 @@ osmc-symbols/red-frame-red-bar-14.svg
 osmc-symbols/red-frame-red-cross-14.svg
 osmc-symbols/red-frame-red-diamond-14.svg
 osmc-symbols/red-frame-red-dot-14.svg
+osmc-symbols/red-frame-red-fork-14.svg
 osmc-symbols/red-frame-red-hiker-14.svg
 osmc-symbols/red-frame-red-pointer-14.svg
 osmc-symbols/red-frame-red-rectangle-14.svg

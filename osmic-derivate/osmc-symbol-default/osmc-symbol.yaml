@@ -4043,6 +4043,14 @@ red-circle-red-fork:
     opacity: 0.0
     rounded: 10
     padding: 2
+red-frame-red-fork:
+  fill: "#ff0000"
+  shield:
+    stroke_fill: "#ff0000"
+    stroke_width: 2
+    opacity: 0.0
+    rounded: 2
+    padding: 2
 white-red-fork:
   fill: "#ff0000"
   shield:
