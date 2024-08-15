@@ -48,6 +48,9 @@
 		<rule e="node" k="osmc_foreground" v="purple_circle">
 			<symbol src="file:/osmc-symbols/green_purple_circle.png" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="orange_circle">
+			<symbol src="file:/osmc-symbols/green_orange_circle.png" />
+		</rule>
 		<rule e="node" k="osmc_foreground" v="red_corner">
 			<symbol src="file:/osmc-symbols/green_red_corner.png" />
 		</rule>

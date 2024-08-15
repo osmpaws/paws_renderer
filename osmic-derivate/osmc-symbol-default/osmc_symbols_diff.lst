@@ -481,6 +481,7 @@ blue:white
 blue:white_arrow
 blue_white_bar
 blue;white;blue_bar
+blue:white_boots
 blue:white_cyclist
 blue:white_drop
 blue:white_star
@@ -1754,6 +1755,7 @@ white:black_left_arrow
 white:black_left_pointer
 white:black_pointer_line
 white:black_red_diamond
+white:black_red_diamont
 white:black_rider
 white:black_right_arrow
 white:black_T
@@ -2021,6 +2023,7 @@ white:orange_!
 white:orange_arrow
 white:orange_drop_line
 white:orange_flower
+white:orange_house
 white:orange_left_L
 white:orange_left_turned_L
 white:orange_right_pointer
@@ -2127,6 +2130,7 @@ white_round:black_arrow
 white_round:blu_dot
 white_round:blue_arrow
 white_round:gray_arrow
+white_round:greeen_arrow
 white_round:green_arrow
 white_round:none
 white_round:orange_arrow
@@ -2254,6 +2258,7 @@ white:yellow_left_pointer
 white:yellow_pin
 white:yellow_point
 whiteyellow_pointer
+white:yellow_ponter
 white:yellow_r
 white:yellow_rectrangle
 white:yellow_rhombus
