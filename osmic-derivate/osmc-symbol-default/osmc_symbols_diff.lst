@@ -1091,6 +1091,7 @@ maroon:yellow
 :mine
 mine
 Muntii
+navy:white_hiker
 :NHM
 no
 NO
@@ -1222,6 +1223,7 @@ pink:G
 pink_hiker
 pink:red_dot
 pink:red_lower
+pink_round:white_arrow
 pink:white_lower
 pink:white_stripe
 pink:yellow_corner
@@ -1439,6 +1441,7 @@ red:round
 red_round
 red_round:
 red_round:black
+red_round:H
 red_round:M
 red_round:N1
 red_round:N3
@@ -1692,6 +1695,7 @@ Wegsymbol-E3.jpg
 wehite:blue_bar
 weiß,
 Weiß
+weiss-blau-weiss
 Weisse
 weiße
 weißer
@@ -1730,6 +1734,7 @@ white_bar:blue
 white_bar:blue_circle
 white_bar:GAB
 white_bar:GAB.
+white_bar:red
 white:barva_backslash
 white:barva_turned_T
 white_bar:21
@@ -2496,6 +2501,7 @@ yellow_none:
 yellow:none_bar
 yellow:NSV9
 yellow:(o)
+yellow:orang
 yellow:orange_upper
 yellow:OS
 yellow:Panoramaweg

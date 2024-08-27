@@ -7602,6 +7602,12 @@
 		</rule>
 	</rule>
 	<rule e="way" k="osmc_background" v="green_round" zoom-min="15">
+		<rule e="way" k="osmc_foreground" v="brown_slash">
+			<lineSymbol src="file:/osmc-symbols/green_round_brown_slash.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="brown_slash">
+			<symbol src="file:/osmc-symbols/green_round_brown_slash.png" />
+		</rule>
 	</rule>
 	<rule e="way" k="osmc_background" v="orange" zoom-min="15">
 		<rule e="way" k="osmc_foreground" v="green_slash">
