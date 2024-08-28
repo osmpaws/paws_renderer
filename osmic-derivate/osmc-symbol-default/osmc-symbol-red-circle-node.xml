@@ -30,6 +30,9 @@
 		<rule e="node" k="osmc_foreground" v="red_fork">
 			<symbol src="file:/osmc-symbols/red_circle_red_fork.png" />
 		</rule>
+		<rule e="node" k="osmc_foreground" v="red_hiker">
+			<symbol src="file:/osmc-symbols/red_circle_red_hiker.png" />
+		</rule>
 		<rule e="node" k="osmc_foreground" v="hiker">
 			<symbol src="file:/osmc-symbols/red_circle_hiker.png" />
 		</rule>
