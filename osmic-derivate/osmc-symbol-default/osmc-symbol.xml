@@ -4696,6 +4696,12 @@
 		<rule e="node" k="osmc_foreground" v="green_hiker">
 			<symbol src="file:/osmc-symbols/green_circle_green_hiker.png" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="black_hiker">
+			<lineSymbol src="file:/osmc-symbols/green_circle_black_hiker.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="black_hiker">
+			<symbol src="file:/osmc-symbols/green_circle_black_hiker.png" />
+		</rule>
 	</rule>
 	<rule e="way" k="osmc_background" v="green_frame" zoom-min="15">
 		<rule e="way" k="osmc_foreground" v="green_hiker">

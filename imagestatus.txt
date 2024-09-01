@@ -367,6 +367,7 @@ osmc-symbols/green-blue-slash-14.svg
 osmc-symbols/green-blue-stripe-14.svg
 osmc-symbols/green-blue-triangle-14.svg
 osmc-symbols/green-brown-rectangle-line-14.svg
+osmc-symbols/green-circle-black-hiker-14.svg
 osmc-symbols/green-circle-blue-dot-14.svg
 osmc-symbols/green-circle-green-bowl-14.svg
 osmc-symbols/green-circle-green-cross-14.svg

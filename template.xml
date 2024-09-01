@@ -2,7 +2,7 @@
 <rendertheme xmlns="http://mapsforge.org/renderTheme" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://mapsforge.org/renderTheme ../renderTheme.xsd" version="1" map-background="#f8f8f8">
 	
-	<!--#r00674b01276#-->
+	<!--#r00675b01277#-->
 
 	<!--style#v4#setup-->
 	
@@ -3364,6 +3364,9 @@
 		</rule>
 		<rule e="way" k="osmc_foreground" v="green_hiker">
 			<lineSymbol src="file:/osmc-symbols/green_circle_green_hiker.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="black_hiker">
+			<lineSymbol src="file:/osmc-symbols/green_circle_black_hiker.png" align-center="false" repeat="true" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="red_lower">
 			<lineSymbol src="file:/osmc-symbols/green_circle_red_lower.png" align-center="false" repeat="true" />
