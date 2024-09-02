@@ -6844,6 +6844,14 @@ blue-shell:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+blue-round-yellow-shell:
+  fill: "#ffdd00"
+  shield:
+    fill: "#1579e0"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 2
+    rounded: 10
 gray-yellow-shell:
   fill: "#ffdd00"
   shield:

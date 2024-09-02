@@ -201,6 +201,7 @@ osmc-symbols/blue-round-yellow-circle-14.svg
 osmc-symbols/blue-round-yellow-dot-14.svg
 osmc-symbols/blue-round-yellow-pointer-14.svg
 osmc-symbols/blue-round-yellow-shell-modern-14.svg
+osmc-symbols/blue-round-yellow-shell-14.svg
 osmc-symbols/blue-shell-modern-14.svg
 osmc-symbols/blue-shell-14.svg
 osmc-symbols/blue-tower-14.svg

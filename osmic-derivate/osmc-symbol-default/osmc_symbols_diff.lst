@@ -1242,6 +1242,7 @@ purple:A10
 purple:A11
 purple:A3
 purple:A4
+purple:A5
 :purple_bar
 purple_bar
 purple:black
@@ -2511,6 +2512,7 @@ yellow_pointer:
 yellow:PR
 yellow:PR-A
 yellow:PT
+yellow:purple_arrow
 yellow:R
 :yellow_rectangle
 yellow_rectangle
