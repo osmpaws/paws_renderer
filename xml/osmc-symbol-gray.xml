@@ -51,6 +51,9 @@
 		<rule e="way" k="osmc_foreground" v="red_rectangle">
 			<lineSymbol src="file:/osmc-symbols/gray_red_rectangle.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="black_rectangle">
+			<lineSymbol src="file:/osmc-symbols/gray_black_rectangle.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="yellow_shell">
 			<lineSymbol src="file:/osmc-symbols/gray_yellow_shell.png" align-center="false" repeat="true" />
 		</rule>
