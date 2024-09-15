@@ -432,6 +432,7 @@ blue_round:none
 blue_round:white
 blue_round:white_arrow
 blue_round:white_drop
+blue_round:white_trains
 blue_round:yellow_house
 blue_round:yellow_left_arrow
 blue_round:ZHL
@@ -1338,6 +1339,7 @@ red_circle:S3
 red_circle:TrC
 red_circle:TrG
 red_circle:TrP
+red_circle:white
 red_circle:12
 red_circle:15
 red_circle:2
@@ -1969,6 +1971,7 @@ white:gren_dot
 white:grey
 white:grey_backslash
 white:grey_circle
+white:grey_diamond
 white:grey_lower
 white:grey_pointer
 white:GRR
@@ -2375,6 +2378,7 @@ yellow:black_arrow
 yellow:black_bike
 yellow:black_circle_line
 yellow:black_horse
+yellow:black_left
 yellow:black_pointer_line
 yellow:black_rectangleline
 yellow:blau_triangle

@@ -232,6 +232,7 @@ osmc-symbols/blue-white-wheel-14.svg
 osmc-symbols/blue-yellow-bar-14.svg
 osmc-symbols/blue-yellow-circle-14.svg
 osmc-symbols/blue-yellow-corner-14.svg
+osmc-symbols/blue-yellow-crest-14.svg
 osmc-symbols/blue-yellow-cross-14.svg
 osmc-symbols/blue-yellow-diamond-14.svg
 osmc-symbols/blue-yellow-dot-14.svg

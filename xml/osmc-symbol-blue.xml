@@ -72,6 +72,9 @@
 		<rule e="way" k="osmc_foreground" v="white_corner">
 			<lineSymbol src="file:/osmc-symbols/blue_white_corner.png" align-center="false" repeat="true" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="yellow_crest">
+			<lineSymbol src="file:/osmc-symbols/blue_yellow_crest.png" align-center="false" repeat="true" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="yellow_cross">
 			<lineSymbol src="file:/osmc-symbols/blue_yellow_cross.png" align-center="false" repeat="true" />
 		</rule>

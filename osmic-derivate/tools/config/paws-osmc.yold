@@ -6982,6 +6982,13 @@ gray-red-rectangle:
     stroke_fill: "#000000"
     stroke_width: 1
     padding: 1
+gray-black-rectangle:
+  fill: "#000000"
+  shield:
+    fill: "#aaaaaa"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 green-yellow-rectangle:
   fill: "#ffdd00"
   shield:
