@@ -4676,6 +4676,12 @@
 		<rule e="node" k="osmc_foreground" v="yellow_hiker">
 			<symbol src="file:/osmc-symbols/green_yellow_hiker.png" />
 		</rule>
+		<rule e="way" k="osmc_foreground" v="blue_hiker">
+			<lineSymbol src="file:/osmc-symbols/green_blue_hiker.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="blue_hiker">
+			<symbol src="file:/osmc-symbols/green_blue_hiker.png" />
+		</rule>
 		<rule e="way" k="osmc_foreground" v="white_hiker">
 			<lineSymbol src="file:/osmc-symbols/green_white_hiker.png" align-center="false" repeat="true" />
 		</rule>
@@ -4687,6 +4693,12 @@
 		</rule>
 		<rule e="node" k="osmc_foreground" v="black_hiker">
 			<symbol src="file:/osmc-symbols/green_black_hiker.png" />
+		</rule>
+		<rule e="way" k="osmc_foreground" v="orange_hiker">
+			<lineSymbol src="file:/osmc-symbols/green_orange_hiker.png" align-center="false" repeat="true" />
+		</rule>
+		<rule e="node" k="osmc_foreground" v="orange_hiker">
+			<symbol src="file:/osmc-symbols/green_orange_hiker.png" />
 		</rule>
 		<rule e="way" k="osmc_foreground" v="hiker">
 			<lineSymbol src="file:/osmc-symbols/green_hiker.png" align-center="false" repeat="true" />

@@ -286,6 +286,7 @@ blue_bar:RBW
 blue_bar:3red_dot
 blue:Ba1
 blue:black
+blue:black_arrow
 blue:bleu
 blue:blue
 blue:blue_arrow
@@ -1928,6 +1929,7 @@ white:green_bear_paw
 white:green_bicycle
 white:green_blackslash
 white:green_C
+white:green_circle;blue
 white:green_corner_left
 White:green_cross
 white:green_crown
@@ -2084,6 +2086,7 @@ white:red_bicycle
 white:red_bike
 white:red_blue
 white:red_castle
+white:red_circle;green
 white:red_circle;red
 white:red_cornered
 white:red_corner_left
@@ -2120,6 +2123,7 @@ white:red_s
 white:red_square
 white:red_T
 white:red_upper
+white:red_upper_bowl
 white_:red_upper_bowl
 white:red_white
 white:red_X
@@ -2144,6 +2148,7 @@ white_round:green_arrow
 white_round:none
 white_round:orange_arrow
 white_round:purple_arrow
+white_round:pyrple_arrow
 white_round:red_arrow
 white_round:red_point
 white_round:red_round
