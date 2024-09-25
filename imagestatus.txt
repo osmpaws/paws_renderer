@@ -336,6 +336,7 @@ osmc-symbols/gray-red-dot-14.svg
 osmc-symbols/gray-red-rectangle-14.svg
 osmc-symbols/gray-red-triangle-14.svg
 osmc-symbols/gray-white-bar-14.svg
+osmc-symbols/gray-white-circle-14.svg
 osmc-symbols/gray-white-dot-14.svg
 osmc-symbols/gray-white-hiker-14.svg
 osmc-symbols/gray-white-lower-14.svg

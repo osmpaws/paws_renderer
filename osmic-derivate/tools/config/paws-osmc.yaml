@@ -2224,6 +2224,13 @@ brown-frame-brown-circle:
     opacity: 0.0
     rounded: 2
     padding: 2
+gray-white-circle:
+  fill: "#ffffff"
+  shield:
+    fill: "#aaaaaa"
+    stroke_fill: "#000000"
+    stroke_width: 1
+    padding: 1
 green-red-circle:
   fill: "#ff0000"
   shield:
